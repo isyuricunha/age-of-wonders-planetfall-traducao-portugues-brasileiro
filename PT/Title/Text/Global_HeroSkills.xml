@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2019-01-30T09:30:51Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12789</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="52" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.428571428571431" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="163.71428571428572"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Column ss:StyleID="s62" ss:Width="271.71428571428572"/>
+   <Column ss:StyleID="s62" ss:Width="147.85714285714283"/>
+   <Column ss:StyleID="s62" ss:Width="170.14285714285714"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">GLOBAL_HERO_SKILLS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell ss:Index="5"><Data ss:Type="String">Text between {} should NOT be localized as they are numerical values in-game. Text between [] should NOT be localized as they are either icons or text formatting
+
+EXAMPLE: "Hero gains {PersonaAccDmg} increased damage and accuracy " looks in-game like "Hero gains +5 increased damage and accuracy"</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GLOBAL_SKILL_GROUP</Data></Cell>
+    <Cell><Data ss:Type="String">SKILL_SUBTITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Habilidade Global de Herói</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill tree header.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VITALITY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Vitalidade 1</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name. The numbers indicate the strength of the skill and should be retained.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VITALITY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Vitalidade 2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name. The numbers indicate the strength of the skill and should be retained.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VITALITY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Vitalidade 3</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name. The numbers indicate the strength of the skill and should be retained.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VITALITY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O herói ganha {VitalityBonus}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CLOSE_QUARTERS_SPECIALIST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Especialista em Combate Corpo a Corpo 1</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name. The numbers indicate the strength of the skill and should be retained.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CLOSE_QUARTERS_SPECIALIST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Especialista em Combate Corpo a Corpo 2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name. The numbers indicate the strength of the skill and should be retained.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CLOSE_QUARTERS_SPECIALIST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Especialista em Combate Corpo a Corpo 3</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name. The numbers indicate the strength of the skill and should be retained.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CLOSE_QUARTERS_SPECIALIST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aumenta o dano causado com armas corpo a corpo em {CloseBonus}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STANDARD_MODIFIERS</Data></Cell>
+    <Cell><Data ss:Type="String">EXTRA_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">A liderança inspiradora do herói concede a esta unidade {DamageBonus} de dano extra.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit buff description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RANGED_SPECIALIST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Especialista em Combate à Distância 1</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name. The numbers indicate the strength of the skill and should be retained.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RANGED_SPECIALIST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Especialista em Combate à Distância 2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name. The numbers indicate the strength of the skill and should be retained.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RANGED_SPECIALIST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Especialista em Combate à Distância 3</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name. The numbers indicate the strength of the skill and should be retained.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RANGED_SPECIALIST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aumenta o dano causado com armas à distância em {RangedBonus}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DEAD_EYE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Olho de Águia 1</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name. The numbers indicate the strength of the skill and should be retained.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DEAD_EYE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Olho de Águia 2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name. The numbers indicate the strength of the skill and should be retained.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DEAD_EYE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Olho de Águia 3</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name. The numbers indicate the strength of the skill and should be retained.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEAD_EYE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todos os ataques ganham {DeadEyeBonus} a mais de precisão e chance de acerto crítico.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEAD_EYE</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{DeadEyeBonus} de precisão e chance de acerto crítico extra.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit buff description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PILOTING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pilotagem</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PILOTING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O herói agora pode equipar veículos de Nível I e II.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADVANCED_PILOTING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pilotagem (Avançada)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADVANCED_PILOTING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O herói agora pode equipar veículos de Nível III.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AIR_COMMANDER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Comandante Aéreo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AIR_COMMANDER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades Voadoras no exército do herói causam {commanderBonus} de dano adicional.[br/]Só funciona quando o herói é o comandante do exército.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.
+Commander in this case means the leader of an army, NOT the player character</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GROUND_COMMANDER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Comandante Terrestre</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GROUND_COMMANDER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades Terrestres Pesadas no exército do herói causam {commanderBonus} de dano adicional.[br/]Só funciona quando o herói é o comandante do exército.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.
+Commander in this case means the leader of an army, NOT the player character</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFANTRY_COMMANDER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Comandante de Infantaria</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">INFANTRY_COMMANDER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades Terrestres Leves no exército do herói causam {commanderBonus} de dano adicional.[br/]Só funciona quando o herói é o comandante do exército.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.
+Commander in this case means the leader of an army, NOT the player character</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRIMARY_MODULAR_EXPANSION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Extensão Modular</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PRIMARY_MODULAR_EXPANSION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Permite que o herói equipe um Mod extra.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.
+Mods are items that can be attached to units, normally up to 3. This skill allows 4 mods to be carried</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WATCHMAN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vigia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">WATCHMAN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O herói ganha Vigilância em todos os ataques à distância primários e tem {watchmanBonus} de precisão aumentada em ataques de Vigilância.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.
+Overwatch is an ability that modifies existing attacks.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STEADY_AIM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mira Firme</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STEADY_AIM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques com armas à distância são {steadyAimBonus} mais precisos quando disparados de cobertura.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STEADY_AIM</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{steadyAimBonus} de precisão extra ao disparar de cobertura.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit buff description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COUNTER_ATTACK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Contra-ataque</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COUNTER_ATTACK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Vigilância corpo a corpo não pode mais ser cancelada por Atordoamento e nunca erra.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALL_ROUND_AWARENESS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Consciência Total</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALL_ROUND_AWARENESS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O herói não pode mais ser flanqueado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TIRELESS_FIGHTER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mestre Marcial: Incansável</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell><Data ss:Type="String">TIRELESS_FIGHTER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O herói ganha Incansável, permitindo que ele acione a Vigilância Corpo a Corpo várias vezes em um turno (embora nunca duas vezes contra o mesmo alvo).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FIRST_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mestre Marcial: Ataque Preventivo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FIRST_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O herói ganha Ataque Preventivo, o que significa que sua Vigilância Corpo a Corpo é acionada antes que o alvo que a ativou aja, a menos que a unidade esteja Flanqueada.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PERSONAL_WEAPON_EXPERT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Especialista em Armas Pessoais</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="51.535714285714285">
+    <Cell><Data ss:Type="String">PERSONAL_WEAPON_EXPERT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quando não estiver em um veículo, os ataques do herói ganham {DamageBonus} de dano e {AccuracyBonus} de precisão.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PERSONAL_DEFENSE_EXPERT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Especialista em Defesa Pessoal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="56.25">
+    <Cell><Data ss:Type="String">PERSONAL_DEFENSE_EXPERT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quando não estiver em um veículo, o herói ganha {ShieldBonus} de escudos e {ArmorBonus} de armadura.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A type of hero skill used by Oathbound heroes to give bonuses to colonies</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATHBOUND_COLONY_SKILL</Data></Cell>
+    <Cell><Data ss:Type="String">SKILL_SUBTITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Habilidade de Colônia Juramentada</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Selected/>
+   <TopRowVisible>35</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>52</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

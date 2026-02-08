@@ -1,0 +1,1792 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Tom Bird</Author>
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <Created>2019-05-07T15:06:48Z</Created>
+  <LastSaved>2019-11-19T12:45:20Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>13635</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="315" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="182.25"/>
+   <Column ss:StyleID="s62" ss:Width="201"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="398.25"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="262.5"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SURVEYING_COMMON</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMMON_SURVEY_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pequeno Sítio Anômalo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COMMON_SURVEY_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este sítio anômalo pode ser explorado por um herói, para recuperar dados de pesquisa e revelar os segredos da Star Union.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TERRA_DE_FORMING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Terraformação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TERRA_DE_FORMING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma antiga estação de terraformação que ainda parece estar energizada.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TERRA_DE_FORMING</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Localizamos uma estrutura nas profundezas da terra, conectada a um labirinto de poços verticais. Isso é estranho, pois o logotipo da Terratech na instalação indica que era uma estação de terraformação.[br/]Mais notável ainda, a instalação ainda está energizada. Devemos revisar os registros de avaliação ecológica deles para saber como proceder com segurança.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Terratech is a corporation within the Star Union specialized in bio manipulation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TERRA_DE_FORMING</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">No centro de controle da instalação, encontramos os restos mortais de cientistas humanos. Mais adentro no complexo, descobrimos Dvars mumificados dentro de seus trajes DV-R, ainda em posição vertical. Monitores de computador revelaram por que havia presença Dvar aqui. Eles modificaram os instrumentos de terraformação para forçar minerais valiosos à superfície para coleta fácil. Claramente, algo deu terrivelmente errado e custou suas vidas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dvar are a player race of squat humanoids miners organized in consortia.
+DV-R suits are the environmental suits worn by the Dvar from which they take their name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TERRA_DE_FORMING</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Investigar e Concluir o Programa de Agitação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TERRA_DE_FORMING</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Agitando atividade geotérmica no setor.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TERRA_DE_FORMING</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos especialistas identificaram o erro no programa de extração mineral e instalaram um patch. Os Dvar foram impacientes e não consideraram a capacidade máxima de energia da rede. Ativamos o dispositivo reparado. A terra tremeu, enchendo os instrumentos com energia geotérmica. O setor agora é uma paisagem vulcânica coberta de recursos valiosos, e uma rica veia de riqueza mineral está pronta para nossa equipe de coleta.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TERRA_DE_FORMING</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Achamos que havíamos corrigido o problema corretamente, então ativamos o instrumento. Então, todo o complexo começou a tremer violentamente. Fomos forçados a fugir enquanto a energia geotérmica consumia a instalação e devastava o setor. Mal escapamos de sermos cozidos vivos. Quando a fumaça se dissipou, avistamos uma nova paisagem vulcânica. Infelizmente, o processo ficou incompleto e apenas alguns minerais vieram à superfície.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TERRA_DE_FORMING</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Concluir o Programa de Agitação conforme o protocolo Dvariano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TERRA_DE_FORMING</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Agitando atividade geotérmica no setor…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TERRA_DE_FORMING</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">As múmias trouxeram vergonha ao seu Consórcio. O Protocolo de Agitação Dvariano não é uma tecnologia nova, mas requer aplicação paciente e habilidosa. Corrigimos os erros dos tolos e ativamos a operação. Jatos de energia geotérmica queimaram as impurezas no solo superaquecido. O setor agora é uma bela paisagem vulcânica, repleta da riqueza cintilante que antes estava enterrada além do nosso alcance. O Diretor ficará encantado com essa nova fortuna e por termos restaurado a honra dos Dvar.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Consortium is a Dvar faction, their 'clan' as it were.
+Dvar Agitation Protocol is a name for the in lore name for such an operation.
+
+Director - title of a Dvar leader, the player character if they are playing a Dvar is also a Director.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TERRA_DE_FORMING</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Reprogramar a instalação para fertilizar o setor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TERRA_DE_FORMING</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Reprogramando a instalação para fertilizar o setor…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TERRA_DE_FORMING</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Foi um processo lento, mas conseguimos restaurar as capacidades de terraformação desta instalação. Os mortos foram removidos do complexo e enterrados em um túmulo ao lado de sua ganância. O aroma de vegetação fértil preenche o ar. A vida floresce novamente nesta paisagem exuberante, capaz de sustentar a vida por séculos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TERRA_DE_FORMING</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Deixar os Biomantes consertarem a instalação para fertilizar o setor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TERRA_DE_FORMING</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Recuperando e fertilizando o setor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TERRA_DE_FORMING</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos Biomantes resolveram rapidamente a intrusão Dvar, removendo os corpos e plantando-os na terra para servirem como fertilizante junto ao aparelho de terraformação. Um paraíso verdejante brota das ruínas devastadas por sua ganância. Nossos espíritos se enchem de alegria ao som dos pássaros que se aninham no dossel verdejante de jovens árvores. A vida prosperará aqui por gerações.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Biomancers - Amazon bio manipulation experts, named after the tier 2 support unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TERRA_DE_FORMING</Data></Cell>
+    <Cell><Data ss:Type="String">TERRAFORM_TO_BADLANDS</Data></Cell>
+    <Cell><Data ss:Type="String">Setor terraformado para Terras Áridas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TERRA_DE_FORMING</Data></Cell>
+    <Cell><Data ss:Type="String">TERRAFORM_TO_FUNGAL</Data></Cell>
+    <Cell><Data ss:Type="String">Setor transformado em Fúngico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TERRA_DE_FORMING</Data></Cell>
+    <Cell><Data ss:Type="String">TERRAFORM_TO_FUNGAL_FOREST</Data></Cell>
+    <Cell><Data ss:Type="String">Setor transformado em Floresta Fúngica!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TERRA_DE_FORMING</Data></Cell>
+    <Cell><Data ss:Type="String">UNITS_DAMAGED</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades foram danificadas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TERRA_DE_FORMING</Data></Cell>
+    <Cell><Data ss:Type="String">QUARRY_HAS_SPAWNED</Data></Cell>
+    <Cell><Data ss:Type="String">Uma veia mineral exposta apareceu nas proximidades</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TERRA_DE_FORMING</Data></Cell>
+    <Cell><Data ss:Type="String">HAZARD_HAS_SPAWNED</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Instabilidade Geotérmica apareceu nas proximidades</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TERRA_DE_FORMING</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE_ADDED</Data></Cell>
+    <Cell><Data ss:Type="String">O setor ganhou uma nova característica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ALTAR_OF_THE_HERALD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Altar do Arauto</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Herald refers to Herald of Oblivion, the tier 4 Psynumbra unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ALTAR_OF_THE_HERALD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma câmara ritual Psynumbra descoberta.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Psynumbra is a secret technology that involves gaining Psionic power from intense emotion and sacrifice, mostly painful ones.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ALTAR_OF_THE_HERALD</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Localizamos uma câmara subterrânea. Regalias macabras enchem os aposentos. Além dos corpos, artefatos estranhos e sinais de luta na câmara central; uma vítima sacrificial está amarrada a um altar de pedra retangular. A vítima parece ter sido mutilada por uma força compressiva poderosa.[br/]Claramente, um ritual Psynumbra aconteceu aqui.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Psynumbra is a secret technology that involves gaining Psionic power from intense emotion and sacrifice, mostly painful ones.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">ALTAR_OF_THE_HERALD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">Nossa investigação forense preliminar indica que um artefato poderoso ativou este ritual. Uma faca de formato estranho encontrada no corpo está impregnada com tecnologia Psynumbra complexa, porém dormente. Acreditamos que podemos 'reativar' a faca e, possivelmente, reencenar o ritual. A julgar pelas fraturas de estresse no corpo sacrificial, alguma entidade de outro mundo irrompeu do altar, usando o corpo torturado como uma espécie de portal. A faca é a chave para abrir esse portal.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Psynumbra is a secret technology that involves gaining Psionic power from intense emotion and sacrifice, mostly painful ones.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALTAR_OF_THE_HERALD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Reativar a faca conduzindo o ritual </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ALTAR_OF_THE_HERALD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Realizando os ritos do Arauto conforme a tradição Psynumbra…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Psynumbra is a secret technology that involves gaining Psionic power from intense emotion and sacrifice, mostly painful ones.
+Herald refers to Herald of Oblivion, the tier 4 Psynumbra unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ALTAR_OF_THE_HERALD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Quando o cruel demônio caiu, o punhal ritual absorveu sua escuridão. Uma série de símbolos profanos alinha a lâmina alienígena, irradiando um poder sem precedentes.[br/]As runas traduzidas dizem: "Uma alma por uma alma."</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The quote is meant to allude to the dagger requiring a kill before it can summon a herald.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ALTAR_OF_THE_HERALD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_COMBAT_START</Data></Cell>
+    <Cell><Data ss:Type="String">Nós, Psynumbra, conhecemos sacrifícios adequados, perdidos e inocentes. Nós o amarramos ao altar e entoamos maldições gélidas. Seus gritos de terror nos deleitaram. Brandimos a faca sobre ele, seguindo a liturgia gravada na superfície do altar.[br/]Uma garra etérea arrebatou a lâmina, cravando-a no peito da vítima. Ficamos paralisados em um terror delicioso. Um rasgo abissal se formou a partir da ferida mortal do sacrifício. Surgindo de seu portal infernal, um Arauto do Oblívio agora nos observa com malícia cobiçosa.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Herald of Oblivion is a tier 4 Psynumbra unit.
+Psynumbra is a secret technology that involves gaining Psionic power from intense emotion and sacrifice, mostly painful ones.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ALTAR_OF_THE_HERALD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_COMBAT_CONTINUE</Data></Cell>
+    <Cell><Data ss:Type="String">Um Arauto do Oblívio empoleira-se sobre o monte de vísceras no altar, agarrando a faca avidamente em suas garras sombrias. Ele nos observa com fome. É uma pena que não vá nos servir, mas esse artefato agora é nosso. Seu guardião deve ser eliminado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Herald of Oblivion is a tier 4 Psynumbra unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALTAR_OF_THE_HERALD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String"> Tentar recriar o ritual com a faca </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">ALTAR_OF_THE_HERALD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_COMBAT_START</Data></Cell>
+    <Cell><Data ss:Type="String">Amaramos um homem ao altar. Era apenas um teste. Juntos, entoamos a linguagem profana gravada no altar. Luzes piscaram. Rindo nervosamente, brandimos a faca sobre ele, seguindo a liturgia do ritual.[br/]Uma garra etérea arrebatou a lâmina, cravando-a no peito do nosso homem. Um poço negro se formou nas profundezas de seu golpe mortal. Surgindo da carnificina sombria, um Arauto do Oblívio nos encara com malícia cruel por nossa zombaria casual.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ALTAR_OF_THE_HERALD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_COMBAT_CONTINUE</Data></Cell>
+    <Cell><Data ss:Type="String">Um Arauto do Oblívio empoleira-se sobre o monte de vísceras no altar, agarrando a faca avidamente em suas garras sombrias. Somente nós podemos ser confiados com um poder como esse. A criatura que o guarda deve ser destruída. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALTAR_OF_THE_HERALD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Realizando os ritos do Arauto…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ALTAR_OF_THE_HERALD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Quando o cruel demônio caiu, o punhal ritual absorveu sua escuridão. Uma série de símbolos profanos alinha a lâmina alienígena, irradiando um poder sem precedentes.[br/]As runas traduzidas dizem: "Uma alma por uma alma."[br/]Valeu mesmo a pena o custo?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">ALTAR_OF_THE_HERALD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Amarramos um homem ao altar, rindo. Não esperávamos que funcionasse. Recitamos palavras imundas e fizemos os sinais estranhos. As luzes piscaram. Rindo nervosamente, seguramos a faca sobre a vítima seguindo o ritual. Então, a faca ritual explodiu. Uma criatura sombria rasgou o corpo do pobre homem. O artefato está arruinado e algo horrível irrompeu do sangue, fugindo para o manto negro da noite. Ó deuses! O que nós libertamos?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALTAR_OF_THE_HERALD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Destrua este lugar perturbador imediatamente</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALTAR_OF_THE_HERALD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Purificando este lugar profano…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ALTAR_OF_THE_HERALD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">É melhor purgar o planeta deste local de horror do que entreter a escuridão Psynumbra. Os explosivos foram acionados; escombros caíram. Uma névoa roxa perturbadora ergueu-se da cratera.[br/]Prendemos a respiração na escuridão, até que um soldado menos disciplinado riu nervosamente. As tropas imediatamente relaxaram, aliviadas por enterrar esta missão.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DERELICT_PHOENIX_WALKER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Andarilho Fênix Abandonado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Phoenix Walker is a tier 3 Promethean Unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DERELICT_PHOENIX_WALKER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O chassi desenterrado de um Andarilho Fênix com os restos de dois amantes dentro.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Phoenix Walker is a tier 3 Promethean Unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">DERELICT_PHOENIX_WALKER</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Enterrado em um deslizamento de rochas, nossa equipe de pesquisa descobriu a ponta da bota de um mecha grande. Imagens subterrâneas revelam um andarilho militar completo. Especificamente oculto sob séculos de detritos naturais causados por anos de erosão e cascalho movediço está um modelo antigo de Andarilho Fênix Prometeano, como se tivesse sido deliberadamente escondido de olhares curiosos. Não há registros conhecidos de atividade Prometeana antiga neste planeta. A descoberta é um grande mistério para todos nós.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Phoenix Walker is a tier 3 Promethean Unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">DERELICT_PHOENIX_WALKER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">Encontramos dois corpos de Purificadores na cabine, trancados juntos como se em um abraço de morte. Inspecionando os registros do sistema, parece que eram amantes. Conseguimos escanear os registros do sistema. Há dezenas de cartas de afeto entre os dois. Todo o acampamento está lendo-as com grande diversão. O ritual de cortejo no passado mudou em relação à forma quase leviana como os amantes se unem hoje. Eles usaram o andarilho como meio de fuga da frente de batalha.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Purifier is the rank/name given to foot soldiers of the Promethean secret tech, armed with flamethrowers and tasked to cleanse worlds by fire.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DERELICT_PHOENIX_WALKER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Enterre novamente os amantes com seus pertences no Andarilho</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DERELICT_PHOENIX_WALKER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Enterrando novamente os amantes e o Andarilho…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DERELICT_PHOENIX_WALKER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Todo o acampamento concorda. Decidimos respeitar os mortos enterrando-os aqui como os encontramos. Eles até construíram um monumento com um chip de exibição digital contendo os registros das cartas de amor dos dois. Um dos pesquisadores construiu uma fonte de pedra e até colocaram alguns bancos de parque. Todo o acampamento está atipicamente animado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DERELICT_PHOENIX_WALKER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Livre-se dos restos e reforme o Andarilho</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DERELICT_PHOENIX_WALKER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Jogando fora os restos do casal e reformando o Andarilho…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DERELICT_PHOENIX_WALKER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Jogamos os corpos em uma pedreira e desenterramos o mecha antigo. A unidade está em ótimas condições de funcionamento e, com algumas modificações, está tão boa quanto uma versão moderna totalmente funcional do Andarilho Fênix. Que grande sorte! Conseguimos um novo brinquedo poderoso.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Phoenix Walker is a tier 3 Promethean Unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DERELICT_PHOENIX_WALKER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Dê aos ex-Purificadores uma cremação Prometeana adequada e reforme o Andarilho</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Promethean is a secret tech specializing in cleansing worlds by fire.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DERELICT_PHOENIX_WALKER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Cremando os amantes conforme os padrões Prometeanos e reformando o Andarilho…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Promethean is a secret tech specializing in cleansing worlds by fire.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DERELICT_PHOENIX_WALKER</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Com o máximo respeito aos mortos, removemos os corpos e os deitamos sobre a pira funerária, como é apropriado desde o advento do credo Prometeano. Um dos pesquisadores fez um discurso emocionante sobre como suas cinzas podem se espalhar juntas. Então, começamos a trabalhar na atualização do Andarilho. Nós, Prometeanos, fazemos um ótimo trabalho! Ele está totalmente funcional agora e pronto para nos servir com toda a capacidade.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Promethean is a secret tech specializing in cleansing worlds by fire.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PROTO_SPACER_ARENA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arena Proto-Espacial</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Spacers were once a subculture within the Star Union based around escapism that featured sub groups of hackers. The Spacers now known by the player are savage raiders who have lost their sanity.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PROTO_SPACER_ARENA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma arena de combate Espacial abandonada, abrigando veículos e outros equipamentos abandonados.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Spacers were once a subculture within the Star Union based around escapism that featured sub groups of hackers. The Spacers now known by the player are savage raiders who have lost their sanity.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PROTO_SPACER_ARENA</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Escavamos uma grande abertura cheia de escombros. Escondida entre os destroços de veículos Espaciais arruinados e explosivos não detonados, descobrimos uma arena. Enquanto navegávamos pela descoberta, acionamos um projetor holográfico. Uma figura imponente surgiu entre os destroços, piscando de forma assustadora.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Spacers were once a subculture within the Star Union based around escapism that featured sub groups of hackers. The Spacers now known by the player are savage raiders who have lost their sanity.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PROTO_SPACER_ARENA</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">Ao nos aproximarmos da figura, vários dos veículos arruinados ganharam vida, acelerando seus motores como se pretendessem atacar qualquer um que chegasse perto demais do núcleo holográfico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROTO_SPACER_ARENA</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Veículos insatisfeitos não nos deterão!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PROTO_SPACER_ARENA</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Ao destruirmos a última ameaça, o holograma do locutor piscou e se apagou, nos dando um último vislumbre da expressão decepcionada da figura enquanto se dissipava. A análise da arena revelou algumas descobertas surpreendentes sobre computação complexa. Nossa equipe também recuperou os destroços dos veículos anteriormente agressivos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PROTO_SPACER_ARENA</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_COMBAT_START</Data></Cell>
+    <Cell><Data ss:Type="String">Não cedemos a ameaças de qualquer tipo, independentemente de esses veículos serem tripulados ou não. Como esperávamos, assim que nos aproximamos demais do holograma principal, o hardware dos Spacers iniciou seu ataque.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Spacers were once a subculture within the Star Union based around escapism that featured sub groups of hackers. The Spacers now known by the player are savage raiders who have lost their sanity.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PROTO_SPACER_ARENA</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_COMBAT_CONTINUE</Data></Cell>
+    <Cell><Data ss:Type="String">Os veículos ameaçadores aceleraram seus motores e avançaram como se estivessem ansiosos para nos atropelar. Não temos escolha a não ser desmantelar todos eles.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PROTO_SPACER_ARENA</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Os Spacers estão claramente envolvidos... talvez possam nos ajudar?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Spacers were once a subculture within the Star Union based around escapism that featured sub groups of hackers. The Spacers now known by the player are savage raiders who have lost their sanity.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PROTO_SPACER_ARENA</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Entrando em contato com os Spacers…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Spacers were once a subculture within the Star Union based around escapism that featured sub groups of hackers. The Spacers now known by the player are savage raiders who have lost their sanity.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">PROTO_SPACER_ARENA</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Envolver os Spacers foi mais produtivo do que esperávamos. Eles deram uma longa olhada na imagem holográfica e, então, com a ferocidade típica de sua facção, seguiram o monitor holográfico do torneio da morte. Os Spacers, sempre jogadores implacáveis, perderam muitas vidas, mas venceram o jogo da morte geral, derrotando os veículos autônomos. Com sorrisos maliciosos, nos deixaram ficar com o saque que conquistaram, felizes apenas pela emoção de mais um jogo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Spacers were once a subculture within the Star Union based around escapism that featured sub groups of hackers. The Spacers now known by the player are savage raiders who have lost their sanity.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PROTO_SPACER_ARENA</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Esses veículos são controlados por Daemons de Síntese!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Synthesis is a secret technology related to uploading of conciousness and AI.
+Daemons are debatably sentient AI unique to Synthesis technology.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">PROTO_SPACER_ARENA</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Pelo comportamento desses veículos não tripulados, Daemons de Síntese estão em ação aqui. Após localizarmos uma porta de rede, conseguimos encontrar um único Daemon, único sobrevivente de um torneio mortal dos Spacers. Oferecemos a ele um novo veículo, e ele ofereceu seus serviços a nós.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Spacers were once a subculture within the Star Union based around escapism that featured sub groups of hackers. The Spacers now known by the player are savage raiders who have lost their sanity.
+Daemons are debatably sentient AI unique to Synthesis technology.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROTO_SPACER_ARENA</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Peça a nossos Diplomatas que tentem resolver a situação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROTO_SPACER_ARENA</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Diplomatas estão tentando falar com o holograma…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PROTO_SPACER_ARENA</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Após longas deliberações e com a ajuda de nossa equipe técnica, nossos diplomatas fizeram contato com um único Daemon de Síntese. Vítima de um jogo mortal de eliminação, no qual foi forçado a lutar contra outros daemons para o entretenimento dos Spacers. Foi abandonado assim que o jogo dos Spacers terminou. Oferecemos a ele um novo veículo hospedeiro, e ele jurou se juntar à nossa causa.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Synthesis is a secret technology related to uploading of conciousness and AI.
+Daemons are debatably sentient AI unique to Synthesis technology.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MORBID_CAVERN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Caverna Mórbida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MORBID_CAVERN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma caverna repleta de esculturas feitas de membros e peças mecânicas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MORBID_CAVERN</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Descobrimos uma série de cavernas ocultas perto de nossa busca por uma antiga instalação de testes militares. Uma caverna apresentava uma formação de várias partes de corpos em estados alterados de deterioração. Testes iniciais nos mortos mostram que a carne está notavelmente bem preservada. Embora mortos, algumas das biomecânicas entrelaçadas nessa estranha construção parecem manter as partes em uma espécie de estase macabra.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MORBID_CAVERN</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">A princípio, pensamos que a rede de partes de corpos fosse evidência de uma cultura primitiva, então fomos confrontados por uma habitante das cavernas da Assembly, do sexo feminino. Ela é uma antiguidade e atípica de sua espécie moderna, chamando a si mesma de Groxum. Ela parece perturbada com nossa intrusão. Groxum exige que restauremos sua "escultura". Ela parece desconhecer nossa era atual, remontando a um tempo em que a Star Union não tinha compreensão dos instintos mórbidos da Assembly.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Groxum is the name of this particular Reverse Engineer.
+Assembly are a player race of cyborgs that use biological and mechanical parts in equal measure without regard of traditional morals.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MORBID_CAVERN</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Ajudar a reconstruir a escultura com experiência da Assembly</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Assembly are a player race of cyborgs that use biological and mechanical parts in equal measure without regard of traditional morals.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MORBID_CAVERN</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Ajudando Groxum a reconstruir sua escultura…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Groxum is the name of this particular Reverse Engineer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">MORBID_CAVERN</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Com sua escultura reparada, nós a saudamos como Assembly. As rotinas de auto-vivificação de Groxum foram imediatamente atualizadas. Reconstruímos sua história sem desmontar seu núcleo de armazenamento. Ela fugiu da opressão dos dogmatistas da antiga Star Union. Eles não entendiam seu "amor" por materiais orgânicos sem vida. Isso não é mais um preconceito entre a maioria dos seres iluminados não hostis. Apesar de seu passatempo não convencional, Groxum conseguiu se esconder o tempo todo coletando matéria morta. Podemos aprender com suas notáveis sub-rotinas de autopreservação. Damos as boas-vindas à sua engenhosidade.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Groxum is the name of this particular Reverse Engineer.
+Assembly are a player race of cyborgs that use biological and mechanical parts in equal measure without regard of traditional morals.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MORBID_CAVERN</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Ajude a reconstruir a escultura mórbida da melhor forma que puder</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MORBID_CAVERN</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Seguimos suas instruções, montando cuidadosamente a estátua de Groxum enquanto ela chorava como uma criança. Ela não é hostil, embora sua afinidade por coisas mortas seja o que a forçou a se esconder. Hoje em dia, um Assembly obcecado com os mortos é normal, mas Groxum vem de uma época em que os Assembly eram tecnologia militar secreta. Ela lembrou como foi forçada a montar e desmontar seus amigos. Apesar de seu passado macabro, está ansiosa para se juntar a nós como "seus novos amigos".</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Assembly are a player race of cyborgs that use biological and mechanical parts in equal measure without regard of traditional morals.
+Groxum is the name of this particular Reverse Engineer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MORBID_CAVERN</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Os da sua laia não têm lugar neste planeta!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MORBID_CAVERN</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Após examinar os restos de Groxum e sua construção grotesca, ficamos com mais perguntas do que respostas. Sua tecnologia corporal é bastante antiga, remontando ao início da Star Union, quando os Assembly eram um segredo militar de alto nível. Há muito pouco que possa ser recuperado aqui, e talvez nunca entendamos seus motivos ou como Groxum escapou dos rígidos controles militares, ou como conseguiu se manter unida por séculos neste esconderijo desolado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Groxum is the name of this particular Reverse Engineer.
+Assembly are a player race of cyborgs that use biological and mechanical parts in equal measure without regard of traditional morals.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MORBID_CAVERN</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_COMBAT_START</Data></Cell>
+    <Cell><Data ss:Type="String">A escultura de Groxum parece ter mais propósito do que apenas entretenimento para essa eremita Assembly engenhosa. Em certo momento, ameaçamos Groxum, e ela ativou um interruptor oculto para chamar construtos biomecânicos em sua defesa. Claramente, ela é mais do que uma relíquia inocente do passado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Groxum is the name of this particular Reverse Engineer.
+Assembly are a player race of cyborgs that use biological and mechanical parts in equal measure without regard of traditional morals.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MORBID_CAVERN</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_COMBAT_CONTINUE</Data></Cell>
+    <Cell><Data ss:Type="String">Groxum e seus construtos se recusam a deixar este lugar, apesar de nossas investidas hostis. Seus construtos continuam a ajudá-la na criação de suas decorações macabras. Groxum ameaça qualquer um que se aproxime e acredita que somos pesquisadores militares da Star Union. Ela precisa ser eliminada para que possamos entender a verdade sobre sua estranha origem.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Groxum is the name of this particular Reverse Engineer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SYNDICATE_CARAVAN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Caravana da Syndicate</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Syndicate are a player race of noble slavers and organized criminals.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SYNDICATE_CARAVAN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma estação de recarga com uma Caravana da Syndicate abandonada contendo itens cobiçados é descoberta.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Syndicate are a player race of noble slavers and organized criminals.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SYNDICATE_CARAVAN</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Descobrimos um corredor oculto nesta ruína. As lendas locais estavam corretas. Este lugar já foi um ponto de contrabandistas. Há sigilos de muitas casas da Syndicate estampados em décadas de mercadorias roubadas. O item mais valioso parece ser um cofre contendo uma armadura fina da Syndicate. Precisamos de um pouco de tempo para examinar toda a mercadoria, mas, pelas leis de salvamento, ela deve ser nossa.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Syndicate are a player race of noble slavers and organized criminals.
+
+NOTE: Grammar error fixed, no need to relocalize</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SYNDICATE_CARAVAN</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">Ao terminarmos o inventário, uma voz interrompeu nossas comunicações. Assassinos da Guilda alegam que nos têm na mira. Eles afirmam que as mercadorias lhes pertencem e ameaçam "nos matar a todos" se não entregarmos a armadura.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Guild assassins are a Tier 2 sniper unit belonging to the Syndicate, they are hired by the houses in lore to deal with clandestine matters.
+
+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SYNDICATE_CARAVAN</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Blefar - fazer uma oferta melhor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SYNDICATE_CARAVAN</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_3_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Negociando com os Assassinos da Guilda…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Guild assassins are a Tier 2 sniper unit belonging to the Syndicate, they are hired by the houses in lore to deal with clandestine matters.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SYNDICATE_CARAVAN</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Nenhum Syndicate de respeito cede a qualquer exigência sem antes fazer uma contraproposta. Esses assassinos são treinados localmente e empobrecidos. Ao verem nossos recursos, alguns expressaram o desejo de se juntar a nós. Algumas células de energia convencem o grupo a se dispersar, e podemos adquirir esses bens que são legitimamente nossos sem um confronto desagradável.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Syndicate are a player race of noble slavers and organized criminals.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SYNDICATE_CARAVAN</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Abaixem-se! Vamos enfrentá-los de frente!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SYNDICATE_CARAVAN</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Os assassinos não existem mais. Claramente, esses impostores nunca treinaram sob as casas da Syndicate que alegavam representar. Eles são indisciplinados. A armadura que queriam do tesouro traz os emblemas de uma dúzia de casas da Syndicate. Recuperamos esses tesouros com diligência, reivindicando-os para um dono mais adequado: nós.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Syndicate are a player race of noble slavers and organized criminals.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SYNDICATE_CARAVAN</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_COMBAT_START</Data></Cell>
+    <Cell><Data ss:Type="String">As ameaças dos assassinos nos deram aviso suficiente para encontrar cobertura adequada. Infelizmente, se quisermos manter esse tesouro de contrabando, precisaremos lutar contra os saqueadores.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SYNDICATE_CARAVAN</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_COMBAT_CONTINUE</Data></Cell>
+    <Cell><Data ss:Type="String">Enquanto os assassinos estão ocupados saqueando nossa descoberta, podemos enfrentá-los em um bom combate à moda antiga.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SYNDICATE_CARAVAN</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Subornar os assassinos para que olhem para o outro lado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SYNDICATE_CARAVAN</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Esses assassinos pareciam mais interessados em nossas reservas de energia do que na própria armadura. Faz-nos pensar se eles não plantaram o item lá e armaram a armadilha como forma de obter o que não achavam que poderiam tomar de nós. A armadura já teve muitos donos e serviu a uma dúzia de casas da Syndicate. Agora, ela nos pertence.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Syndicate are a player race of noble slavers and organized criminals.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SYNDICATE_CARAVAN</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Trocar a Armadura para saquear o resto da caravana</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SYNDICATE_CARAVAN</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Saqueando a caravana…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SYNDICATE_CARAVAN</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Os capangas assassinos se foram. Render a Armadura nos permitiu obter o restante do tesouro do contrabandista. Há o suficiente para todos nós.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REMNANTS_OF_REDCORE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vestígios da Redcore</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">REMNANTS_OF_REDCORE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Vestígios de uma pedreira de mineração da Redcore e instalação de prototipagem para os primeiros Trajes DV-R.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">DV-R suits are the environmental suits worn by the Dvar from which they take their name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">REMNANTS_OF_REDCORE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Localizamos uma instalação de mineração muito antiga, de uma época em que a Star Union contratou o que se tornaria o povo Dvar. Embora o logotipo seja diferente, o nome Redcore é reverenciado entre os Dvar. Foi esse conglomerado que pioneiramente desenvolveu o uso de exoesqueletos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dvar are a player race of squat humanoids miners organized in consortia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">REMNANTS_OF_REDCORE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">Explorando mais a fundo as instalações esquecidas, descobrimos o que parecem ser tecnologias e ferramentas muito primitivas, usadas para resistir aos ambientes mais extremos. Surpreendentemente, há tecnologia aqui que requer o uso de Cosmita, embora esse elemento fosse um segredo para a população geral da Star Union. Com nosso entendimento maduro de Cosmita, acreditamos que podemos reconstruir alguns desses protótipos quebrados.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REMNANTS_OF_REDCORE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Usar Cosmita para tentar completar o protótipo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">REMNANTS_OF_REDCORE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Tentando reformar o protótipo do Traje DV-R…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">DV-R suits are the environmental suits worn by the Dvar from which they take their name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">REMNANTS_OF_REDCORE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Eureca! Conseguimos reparar o protótipo com sucesso e restaurar a produção de mineração. Curiosamente, os trajes de exploração Dvar são altamente dependentes de Cosmita. Os pesquisadores da época ainda não haviam decidido um nome para a substância enigmática, usando termos estranhos como Misterionium, Energion, Voidinium e (nosso favorito) Weirdstuffium. Aprendemos muito sobre essa tecnologia, segredos que os Dvar guardaram para si. Isso deve nos ajudar a melhorar nossas próprias capacidades de produção.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dvar are a player race of squat humanoids miners organized in consortia.
+DV-R suits are the environmental suits worn by the Dvar from which they take their name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">REMNANTS_OF_REDCORE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Infelizmente, nossas tentativas de restaurar os protótipos dos trajes de exploração terminaram em fracasso. Os antigos cientistas usavam métodos indisciplinados e termos estranhos que não podem mais ser decifrados. Ainda assim, conseguimos aprender algumas coisas com o esforço, e nossos engenheiros restauraram a mina à produção.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">REMNANTS_OF_REDCORE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Usar Cosmita para completar o protótipo conforme o design clássico DV-R</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">DV-R suits are the environmental suits worn by the Dvar from which they take their name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">REMNANTS_OF_REDCORE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Reformando o protótipo do Traje DV-R conforme o design clássico DV-R…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">DV-R suits are the environmental suits worn by the Dvar from which they take their name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">REMNANTS_OF_REDCORE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Muito orgulho foi conquistado hoje. Este traje de exploração antigo representa a árdua jornada que nossos parentes suportaram. Ironicamente, descobrimos que foi a população ignorante da Star Union que fechou esta instalação, espalhando medos paranoicos sobre "impacto ambiental". Restauramos a produção. Toda a nossa companhia está trabalhando com renovado entusiasmo, grata às mentes inovadoras que um dia buscaram extrair as riquezas deste lugar. Felizmente, vivemos em uma era mais evoluída, que valoriza nossa indústria.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REMNANTS_OF_REDCORE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Ignorar o protótipo, limpar a pedreira</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REMNANTS_OF_REDCORE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Limpando a pedreira…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">REMNANTS_OF_REDCORE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Todos concordamos que haveria pouco benefício em desperdiçar nosso tempo com protótipos Dvar primitivos. Ainda assim, a pedreira está funcionando novamente e trará benefícios imediatos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SUN_SHARD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">O Fragmento Solar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_SUN_SHARD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um artefato Celestiano, mais antigo que a própria união. Existem poucos desses em existência, construídos pelos primeiros da fé Celestiana para testar o valor de Psionicos aspirantes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_SUN_SHARD</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Encontramos um fragmento de algum tipo, ele emite uma energia tranquilizadora, brilhando intensamente como o sol, mas emanando apenas um calor suave. Claramente, é algum tipo de relíquia Celestiana.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_SUN_SHARD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">O fragmento nos chama, tentando se conectar com nossas mentes. Os Celestianos nunca cedem nada sem um desafio profundo e proposital. O fragmento pulsa com uma energia inimaginável... Talvez possa ser forjado em uma arma?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SUN_SHARD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Tentar Conter e Reforjar o fragmento em uma arma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_SUN_SHARD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Um som doloroso e oco estremeceu nossas mentes, torturando nossos sentidos enquanto trabalhávamos. Nós nos mantivemos firmes e contivemos o fragmento. Nossos melhores artesãos o transformaram em arma. Chamamos o novo dispositivo de... 'Portador do Sol'.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sunbringer is the name of the weapon gained from this option, a hammer with the head forged from the Sun Shard.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_SUN_SHARD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossas mentes foram atacadas com um grito agonizante ao tentarmos manipular o fragmento. O pedaço de luz pura evaporou em um clarão ofuscante.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SUN_SHARD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">A disciplina deve prevalecer, medite e conecte-se ao fragmento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SUN_SHARD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_3_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Meditação em uma tentativa de se conectar ao fragmento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">THE_SUN_SHARD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">O brilho do fragmento projetou sinais nas superfícies. Um zumbido fraco penetrou nossas mentes. O artefato Celestiano aceitou nossa paciência, desbloqueando uma visão. Vimos um templo. Discípulos treinavam em luz pura, até que a sombra imunda de Psynumbra o profanou. Um guardião embala o fragmento, fugindo para o espaço frio. Como uma estrela cadente, a nave do discípulo caiu aqui. A luz do fragmento foi engolida pelos destroços daqueles últimos que o amavam, enterrada neste lugar estranho... esperando por um herói.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SUN_SHARD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">A disciplina é a chave da fé Celestiana, medite sobre este artefato</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">THE_SUN_SHARD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">O brilho do fragmento nos ensinou sobre um passado perdido. Esta relíquia um dia escapou de um destino terrível. Definhando na obscuridade, sobreviveu. Agora, ao nos reunirmos, ela brilha novamente, penetrando nossas mentes e aguçando nossos sentidos. O que estava perdido é restaurado para surgir em um momento em que sua sabedoria é desesperadamente necessária. Muitos mestres antigos deixaram sua marca neste artefato luminoso. O que pensávamos estar perdido foi encontrado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SUN_SHARD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Destruir o revoltante artefato Celestiano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SUN_SHARD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Destruindo o artefato Celestiano…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_SUN_SHARD</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Sacrificamos o fragmento Celestiano à sombra eterna, condenado a cair para sempre no abismo. Aguardamos o dia em que todos os Celestianos serão exilados para um reino de agonia sem fim, e em seu lugar, pesadelos voarão.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_DRAINED_REFUGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">O Refúgio Esgotado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_DRAINED_REFUGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma tumba herdeira onde apenas os Esgotados permanecem. Não havia almas suficientes armazenadas aqui para permitir que até mesmo o alto lorde sobrevivesse ao Tempo de Tribulações.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The Time of Tribulations is the period of war preceding the Es'teq's self imposed exile.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_DRAINED_REFUGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Desenterramos um portão de tumba coberto com os símbolos de uma dinastia antiga. Escrituras adornavam as paredes, cuidadosamente gravadas na pedra enquanto descíamos mais fundo em uma câmara dedicada a uma fé há muito esquecida.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_DRAINED_REFUGE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">Fantasmas verdes flutuam sem rumo por um corredor oculto. Eles orbitam uma estátua de vários braços no fundo do salão. Na base da estátua, muitos artefatos repousam. Ofertas ao Criador. Os Esgotados guardam o acesso a essas relíquias misteriosas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_DRAINED_REFUGE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Atacar as criaturas, devemos alcançar aquele altar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">THE_DRAINED_REFUGE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Quando o último Esgotado caiu, nos aproximamos do santuário. Cada artefato Es'Teq parecia deliberadamente colocado como sacrifício para um ser de reverência, dedicado a um Alto Lorde Es'Teq chamado "Oreus Tyre: O Salvador Corrompido". Um nome estranho para zelotes estranhos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Oreus Tyre is an Es'Teq or Heritor High Lord whom is encountered in the Site "Tyre's Tomb"
+'The Corrupted Saviour' is a title given to Oreus Tyre after his sacrifice to cleanse his tomb of the Rot, a corruption of essence that he took into himself. (as explained in Tyre's Tomb)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_DRAINED_REFUGE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_COMBAT_START</Data></Cell>
+    <Cell><Data ss:Type="String">Para alcançar nosso objetivo, nos preparamos, determinados a eliminar esses guardiões Esgotados.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Drained are humanoids drained of essence, they are damaged and only long to find a new host.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_DRAINED_REFUGE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_COMBAT_CONTINUE</Data></Cell>
+    <Cell><Data ss:Type="String">Esgotados enxamearam a tumba, guardando o santuário do outro lado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Drained are humanoids drained of essence, they are damaged and only long to find a new host.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_DRAINED_REFUGE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Usar nossa expertise Herdeira para oferecer aos Esgotados uma nova vida como simbiontes</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Drained are humanoids drained of essence, they are damaged and only long to find a new host.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_DRAINED_REFUGE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Negociando com os Drenados…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Drained are humanoids drained of essence, they are damaged and only long to find a new host.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">THE_DRAINED_REFUGE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Os Drenados nos olharam com fome, mas então abriram caminho com reverências humildes ao reconhecerem, um por um, nossas intenções devotas. Invocamos direitos ancestrais e nos preparamos, fundindo lentamente nossas mentes com os Drenados. Suas memórias fragmentadas se fixavam no sacrifício de um Alto Lorde que deu sua vida para que não fossem corrompidos pela Entropia. Notavelmente, através de mentes fragmentadas, ainda o reverenciavam, repetindo seu nome: "Oreus Tyre: O Salvador Corrompido."</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Drained are humanoids drained of essence, they are damaged and only long to find a new host.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_DRAINED_REFUGE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Talvez possamos atraí-los com um banquete de energia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_DRAINED_REFUGE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Atraindo os Drenados…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Drained are humanoids drained of essence, they are damaged and only long to find a new host.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">THE_DRAINED_REFUGE</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Colocamos um recipiente sobrecarregado e vazando perto do santuário. Os Drenados não resistiram ao brilho vazante da Essência. Enxameando para contê-lo, deixaram seus postos desprotegidos. O santuário é dedicado a um Heritor Alto Lorde chamado "Oreus Tyre: O Salvador Corrompido". Um nome estranho para o Heritor, que tende a ver seus líderes como infalíveis.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Drained are humanoids drained of essence, they are damaged and only long to find a new host.
+
+Oreus Tyre is an Es'Teq or Heritor High Lord whom is encountered in the Site "Tyre's Tomb"
+'The Corrupted Saviour' is a title given to Oreus Tyre after his sacrifice to cleanse his tomb of the Rot, a corruption of essence that he took into himself. (as explained in Tyre's Tomb)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_OLD_CYBORGS_OASIS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">O Oásis do Velho Ciborgue</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_OLD_CYBORGS_OASIS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Encontramos um exuberante oásis de vida em um local remoto. No centro, jaz uma nave Assembly arruinada, convertida em um lar mais permanente. Um antigo Assembly ainda permanece ali.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_OLD_CYBORGS_OASIS</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos batedores descobriram um exuberante oásis onde repousava uma nave Assembly arruinada, servindo como um abrigo improvisado. Ao investigarmos, uma figura se aproximou: um ciborgue Assembly antigo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_OLD_CYBORGS_OASIS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">Mal se mantendo unido com arame e fita adesiva, o rabugento parecia não saber o que faz do Assembly o Assembly. Quando nos viu, gritou: "Não! Não! Eu jurei nunca mais ver sua espécie! Guerra é tudo o que vocês trazem. Sumam daqui!" Com isso, ele desabou, quando uma de suas pernas cedeu sob ele.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_OLD_CYBORGS_OASIS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">A guerra veio até você, independentemente. Você deve lutar ou ser destruído</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_OLD_CYBORGS_OASIS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Quando o ciborgue caiu, sua expressão era de paz. Saqueamos o oásis, recuperando o rifle do ciborgue. Rapidamente salvamos o que podíamos desse recluso, mas muito está velho demais para ser útil.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_OLD_CYBORGS_OASIS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_COMBAT_START</Data></Cell>
+    <Cell><Data ss:Type="String">"Sua espécie só traz problemas", disse ele. O velho guardião Assembly agarrou seu rifle e se escondeu atrás de uma árvore caída. Várias criaturas da fauna nativa se juntaram ao velho para defender o oásis de nossa intrusão.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_OLD_CYBORGS_OASIS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_COMBAT_CONTINUE</Data></Cell>
+    <Cell><Data ss:Type="String">O ciborgue soou um alarme enquanto nos preparávamos para atacar. Uma variedade de animais locais — os que usam este oásis — vieram correndo em auxílio do estranho guardião Assembly.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_OLD_CYBORGS_OASIS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Oferecer para consertá-lo e ouvir sua história</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_OLD_CYBORGS_OASIS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Consertando o velho ciborgue…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">THE_OLD_CYBORGS_OASIS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">O ciborgue aceitou nossa ajuda após um impasse tenso. Seu nome é Thadeus. Ele já foi um soldado humano comum em uma instalação de pesquisa militar. Um dia, acordou descobrindo implantes cibernéticos que alteraram sua percepção. Ele se recusou a ingressar no programa militar. Vem de uma época em que o Assembly era um segredo militar sussurrado. Ele nos ofereceu sua antiga arma, que afirmou nunca tê-lo decepcionado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_OLD_CYBORGS_OASIS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Este aqui está claramente defeituoso, remontá-lo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">THE_OLD_CYBORGS_OASIS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">O ciborgue vacilou. Seu corpo o traiu. Ignoramos seus protestos. Nossos engenheiros reversos rapidamente entraram em ação, remontando a forma defeituosa e antiquada em uma muito mais útil. Nada será desperdiçado, nem mesmo as memórias do Assembly caído. Elas servirão para nos enriquecer e nos ensinar sobre nossa história coletiva.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Reverse Engineers are assembly support units and their main source of labour to reassemble their enemies and citizens alike.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_OLD_CYBORGS_OASIS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_COMBAT_START</Data></Cell>
+    <Cell><Data ss:Type="String">"Eu nunca voltarei! Me deixem em paz!" O ciborgue gritou enquanto pegava seu rifle e se preparava para lutar. O oásis se encheu de feras nativas da região. Aparentemente, o velho rabugento tem mantido mais do que apenas a si mesmo vivo aqui fora.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_OLD_CYBORGS_OASIS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_COMBAT_CONTINUE</Data></Cell>
+    <Cell><Data ss:Type="String">O velho ciborgue precisa ser eliminado. A infestação de vida selvagem e quaisquer outros tesouros que encontrarmos devem ser colhidos. Este lugar foi abandonado por tempo demais.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_OLD_CYBORGS_OASIS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Buscamos a paz como vocês, mas para todo este mundo, não apenas para nós mesmos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">THE_OLD_CYBORGS_OASIS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">O homem agradeceu nossa bondade e compartilhou seu nome como Thadeus. Ele era um experimento militar da era anterior à formação oficial da facção Assembly. Como soldado, deveria remover seu eu natural e substituí-lo por armas e implantes, mas o pobre homem se apegou profundamente à sua humanidade. Ele até abraçou os caminhos dos Celestianos e se ofereceu para se juntar à nossa causa.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TIME_ANOMALY_RAVALON_IV</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Anomalia Temporal: Ravalon-IV</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ravalon-IV is the name of the planet upon which this incident took place.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TIME_ANOMALY_RAVALON_IV</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma anomalia temporal causada por experimentos passados com Voidtech formou um 'portal' entre os dias atuais e o passado remoto do mundo, antes do cataclismo, onde uma rebelião Kir’ko está em pleno andamento.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TIME_ANOMALY_RAVALON_IV</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Enquanto escavávamos uma estranha zigurate invertida enterrada, encontramos um anel metálico do tamanho de um caminhão, coberto de símbolos codificados. No centro do anel, ondulando como uma poça de luz líquida, havia o que só pode ser uma fenda no tempo e no espaço.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TIME_ANOMALY_RAVALON_IV</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">Através da ruptura no tempo, pudemos ver um período de exploração anterior da Star Union, antes do Cataclismo. Sondas visuais revelaram que a fenda se abria para uma rebelião de Kir’Ko lutando contra os Purificadores Prometeanos contratados pelo Paragon. Alguns aqui teorizaram que, se atacássemos o lado certo, isso poderia criar um eco temporal histórico e nos dar uma vantagem no campo de batalha ainda hoje.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TIME_ANOMALY_RAVALON_IV</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Intervir em favor dos rebeldes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TIME_ANOMALY_RAVALON_IV</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Os Purificadores do Paragon foram derrotados. Embora essa rebelião tenha sido menor e outrora trágica, essas almas Kir’ko agora sobreviveram. Seu comandante nos ofereceu apoio de alguns de seus melhores soldados. Eles retornaram conosco através da fenda. Estão ansiosos para conquistar um futuro cheio de opressores.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TIME_ANOMALY_RAVALON_IV</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_COMBAT_START</Data></Cell>
+    <Cell><Data ss:Type="String">Entramos na fenda e descobrimos que os rebeldes confiaram em nós para lutar ao lado deles. Aparentemente, eles 'sentiram' que viríamos. Devemos entrar na batalha e lutar com eles. Desta vez, com nossa ajuda, o Paragon não vencerá hoje.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TIME_ANOMALY_RAVALON_IV</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_COMBAT_CONTINUE</Data></Cell>
+    <Cell><Data ss:Type="String">Todos os cálculos indicaram a solução ideal. Devemos entrar na fenda temporal e proteger os rebeldes Kir’Ko.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TIME_ANOMALY_RAVALON_IV</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Devemos resgatar nossos irmãos!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TIME_ANOMALY_RAVALON_IV</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Esta rebelião já foi uma triste nota de rodapé em uma história apagada. Seu comandante guarda dentro de si muitos segredos antigos que não tivemos tempo de extrair. Ele tanto lamentou quanto se regozijou com o futuro. O potencial da liberdade vive, mas nosso sonho perpétuo de restaurar a rainha da colmeia permanece elusivo. Para nos ajudar a lembrar do que esquecemos, ele nos deu seus melhores soldados como apoio.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TIME_ANOMALY_RAVALON_IV</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_COMBAT_START</Data></Cell>
+    <Cell><Data ss:Type="String">A oportunidade de ajudar nossos ancestrais é um presente precioso da própria rainha mítica. Não podemos desperdiçar este momento. Esses antigos devem ser protegidos. O líder Kir’Ko reconheceu um aliado imediatamente. A batalha começa.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TIME_ANOMALY_RAVALON_IV</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_COMBAT_CONTINUE</Data></Cell>
+    <Cell><Data ss:Type="String">Dentro da terra escavada, o anel prateado jaz aberto. A fenda temporal crepitou em resposta ao atravessarmos. Vamos inflamar o poder dos Kir’Ko em uma era em que havia pouca esperança.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TIME_ANOMALY_RAVALON_IV</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Intervir em favor do Paragon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TIME_ANOMALY_RAVALON_IV</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">A rebelião Kir’Ko foi derrotada. Eles podem se reagrupar, mas a fenda temporal se dilatou, e tivemos apenas um momento para retornar ao nosso próprio tempo. Antes de partirmos, o Comandante do Paragon recompensou nossos serviços enviando um de seus ases Dragonfly para se juntar à nossa causa. Só posso imaginar o horror que esse soldado do Paragon experimentará ao perceber tudo o que aconteceu desde o Cataclismo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dragonfly is the name of Paragon ground attack craft, a tier 2 unit/vehicle.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TIME_ANOMALY_RAVALON_IV</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_COMBAT_START</Data></Cell>
+    <Cell><Data ss:Type="String">Entramos na fenda e nos aproximamos do Paragon para oferecer ajuda. Eles aceitaram sem questionar, como se seus dons superiores lhes dessem o conhecimento de que o próprio universo lutaria por eles. Essa era nos deixou a todos nos perguntando se deveríamos explicar as coisas terríveis que ainda estavam por vir, mas, em vez disso, nos contivemos e nos preparamos para reprimir a rebelião.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TIME_ANOMALY_RAVALON_IV</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_COMBAT_CONTINUE</Data></Cell>
+    <Cell><Data ss:Type="String">A fenda temporal crepita no ar, esperando que nossa equipe pule para ajudar o Paragon e repelir os rebeldes Kir’Ko primitivos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TIME_ANOMALY_RAVALON_IV</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Não intervir na anomalia, estabelecer uma base de pesquisa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TIME_ANOMALY_RAVALON_IV</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Estabelecendo uma base de pesquisa…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TIME_ANOMALY_RAVALON_IV</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos cientistas reconsideraram interferir no continuum espaço-tempo e estabeleceram um projeto de pesquisa baseado na anomalia. Já aprendemos muitos novos insights sobre respeitar a natureza do universo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TIME_ANOMALY_RAVALON_IV</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_5_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Estabilizar a fenda em um módulo Manipulador de Fase</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TIME_ANOMALY_RAVALON_IV</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_5_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Estabilizando a fenda em um módulo Manipulador de Fase…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TIME_ANOMALY_RAVALON_IV</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_5_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Em vez de explorar o efeito da anomalia, podemos usar o poder da Voidtech para capturar todo o fenômeno complexo em um Manipulador de Fase. Com uma inversão concentrada da dimensão temporal, constringimos a fenda, vinculando a incerteza aleatória, e criamos um recurso que podemos explorar no futuro previsível.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KINGPING_CLUB</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Clube Kingping</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Kingping is the name of the club.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">KINGPING_CLUB</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Encontramos uma caverna onde parece estar escondido um clube subterrâneo... mas o clube é inteiramente povoado por pinguins.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">KINGPING_CLUB</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Nossa escavação descobriu um par de portas funcionais. Ainda mais perturbador, atrás dessas portas havia o que parecia ser um bar de fronteira agitado... povoado por pinguins do tamanho de humanos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">KINGPING_CLUB</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">Um pinguim enorme atrás de uma mesa de pôquer fez sinal para que nos juntássemos ao jogo. Ele é do tipo que gosta de apostar. Conforme ficamos à vontade, apontou para uma placa que dizia: "Todas as apostas em Cosmite ou suas vidas."</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cosmite is a valuable and rare resource used for advanced technology in lore and in game.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KINGPING_CLUB</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Comprar fichas e jogar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">KINGPING_CLUB</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">A expressão do pássaro de smoking era difícil de ler, mas treinamos em jogos de azar! Ganhamos. Ele soltou um grasnido irritado que soou como: "Sorte de principiante!" Bateu as nadadeiras. Mais pinguins trouxeram nossa recompensa: um grande ovo preto. O pássaro então piscou. A sala se distorceu sobre si mesma. A realidade se contorceu como uma pedra jogada em águas profundas. Tudo ficou escuro. Horas se passaram. Acordamos em uma caverna sem características, exceto por um grande ovo preto.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">the Black Egg is the item rewarded for this site.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">KINGPING_CLUB</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">O jogo do pinguim enorme era forte. Forte demais. Apesar de nossos melhores esforços, o pássaro de smoking ganhou todo o Cosmite que tínhamos para apostar. Com um sorriso no bico, grasnou algo que soou como: "Que pena que jogam tão mal. Eu ainda me diverti, então peguem isto." Entregou-nos uma célula de energia totalmente carregada, então piscou. O mundo se dobrou ao nosso redor. Todos desmaiamos, acordando mais tarde em uma caverna vazia com uma única célula de energia brilhante em nosso meio.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cosmite is a valuable and rare resource used for advanced technology in lore and in game.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KINGPING_CLUB</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Que seja a vida então…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">KINGPING_CLUB</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">O pássaro de smoking jogou duro, mas nosso jogador venceu. Admitindo a derrota, o pinguim grasnou com desaprovação: "Tolos imprudentes! Vocês vencem hoje." Bateu as nadadeiras e uma parada de pinguins surgiu carregando um grande ovo preto. Então, com uma piscadela, o mundo inteiro foi sugado por suas narinas. Acordamos horas depois em uma caverna vazia. Rimos nervosamente, convencidos de que tínhamos compartilhado uma alucinação coletiva, até notarmos que havia um grande ovo preto no chão entre nós.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">the Black Egg is the item rewarded for this site.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">KINGPING_CLUB</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Jogamos nosso melhor jogo, mas o pássaro de smoking jogou melhor. Nervosos, esperamos que o pinguim exigisse nossas vidas. Com um sorriso no bico, grasnou algo que soou como: "Sem mais confiança! Junte-se a nós!" Apontou uma nadadeira para um de nossos topógrafos, que gritou alto. Os membros se transformaram em nadadeiras enquanto o topógrafo se metamorfoseava em um pinguim atônito. Com um piscar de olhos, o bar se dobrou na escuridão. Acordamos horas depois em uma caverna estéril. Estamos sem um topógrafo... e sem nossa alma.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">KINGPING_CLUB</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">"Já ganhei" - Distorcer a fase do jogo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Phase Distorting is Void-Tech speak for altering reality.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">KINGPING_CLUB</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Usando Voidtech, não podíamos perder. Um dispositivo de distorção de fase miniaturizado colapsou todas as mãos prováveis em uma contendo todos os ases. O pássaro de smoking se levantou. Grasnou com desgosto algo que soou como: "Bah! Phasewalkers! Levem este prêmio!" Outros pinguins trotaram trazendo um grande ovo preto. Todos se curvaram. O chão se dobrou no teto. A escuridão nos devorou. Desmaiamos, acordando em uma caverna vazia. Rimos da alucinação impossível, até vermos aquele grande ovo preto no chão.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Phasewalkers is a term to refer to users of Void-tech</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_MIND_VATS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">As Cubas Mentais</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_MIND_VATS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma instalação de testes onde pesquisadores da Terratech experimentaram os efeitos do processo de alimentação dos Psi-Peixes usando condenados.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Psi-fish is the name of an in universe alien species.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_MIND_VATS</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Descobrimos uma instalação subterrânea. Dentro, encontramos ela funcionando com energia auxiliar. Embora a fachada externa fosse feita para parecer abandonada, seguindo algumas linhas de energia, descobrimos um grande laboratório cheio de tanques aquosos. Encontramos corpos suspensos em cada tanque. Então algo se moveu.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">THE_MIND_VATS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Medusa Psi-Peixe estava suspensa em um grande tanque no centro da sala. Balançando em tanques menores ao redor dela estavam corpos humanos. Um deles parecia estar quase vivo. As luzes do laboratório piscavam enquanto olhávamos, tentando conter nosso desgosto. A Medusa nos cumprimentou com um tom alegre: "Amigo, nos sentimos radiantes em sua presença. Nos ajudem. Nos libertem."</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Psi-fish is the name of an in universe alien species.
+Medusa is a Psi-fish unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_MIND_VATS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Tentar drenar o Psifish e salvar a humana</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Psi-fish is the name of an in universe alien species.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">THE_MIND_VATS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Com o Psi-Fish morto, uma mulher se mexeu. Nós a retiramos de um 'tanque de alimentação'. Ela veio para cá com um grupo de rebeldes. Os cientistas que estudavam a Medusa haviam negociado um acordo para pacificar os rebeldes. Cinco prisioneiros foram trazidos a estas câmaras. Todos acabaram alimentando o Psi-Fish. Nenhuma mente foi realmente alterada. Ela está convencida de que a Medusa só queria se alimentar e não tinha intenção de reabilitar os prisioneiros. Ela ofereceu sua aliança por tê-la libertado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Psi-fish is the name of an in universe alien species.
+Medusa is a Psi-fish unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THE_MIND_VATS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_COMBAT_START</Data></Cell>
+    <Cell><Data ss:Type="String">O Psi-Fish não pode ser confiável. Tentamos drenar o tanque grande, mas a Medusa ganhou vida, quebrando as paredes do recipiente com uma explosão de energia psiónica. A Medusa pairou sobre nós, os tons opressivos em sua voz mental escurecendo nossas mentes: "Estamos decepcionados, amigo."</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Psi-fish is the name of an in universe alien species.
+Medusa is a Psi-fish unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_MIND_VATS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_COMBAT_CONTINUE</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Medusa Psi-Fish permanece dentro de uma instalação de pesquisa subterrânea, guardando espécimes humanos que parecem estar feridos. Devemos lutar.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Psi-fish is the name of an in universe alien species.
+Medusa is a Psi-fish unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_MIND_VATS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Não interfira, restaure a instalação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_MIND_VATS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Restaurando a instalação de pesquisa às condições de funcionamento…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">THE_MIND_VATS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Deixamos o Psi-Fish seguir com seus afazeres, enquanto restaurávamos a instalação às condições de funcionamento. Analisando os bancos de dados, descobrimos que a Medusa absorveu traços humanos de forma assustadora ao se alimentar dos sujeitos humanos. Ela desenvolveu fortes características emotivas. Este caso peculiar certamente nos dará mais insights à medida que continuamos este fascinante estudo de caso.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Psi-fish is the name of an in universe alien species.
+Medusa is a Psi-fish unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_MIND_VATS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Pedir aos Psifish que se comuniquem com a estranha Medusa</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Psi-fish is the name of an in universe alien species.
+Medusa is a Psi-fish unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_MIND_VATS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Os Psi-Fish estão se comunicando com a Medusa…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Psi-fish is the name of an in universe alien species.
+Medusa is a Psi-fish unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">THE_MIND_VATS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Os Psi-Fish se comunicaram com a estranha Medusa. Apenas uma prisioneira humana pôde ser salva. Os Psi-Fish forçaram a Medusa a 'se alimentar em outro lugar'. A prisioneira explicou que era uma cativa, trazida pelo crime de desobediência civil porque protestou quando a multidão local matou seu marido. Ela, junto com outros sujeitos, foi alimentada à Medusa para que os cientistas pudessem estudar o processo de alimentação dos Psi-Fish. Ela se ofereceu para se juntar a nós em gratidão por sua liberdade.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Psi-fish is the name of an in universe alien species.
+Medusa is a Psi-fish unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_MIND_VATS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Libertar a Medusa</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Medusa is a Psi-fish unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_MIND_VATS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Libertando a Medusa…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Medusa is a Psi-fish unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">THE_MIND_VATS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">A Medusa era tão amigável que decidimos dar a ela sua liberdade exatamente como exigiu. Ela terminou de se alimentar e então nos ofereceu um presente de conhecimento inestimável. A criatura envolveu seus tentáculos em nossas testas e uma onda de sensações encheu nossas mentes. Enquanto nos esforçávamos para registrar todos os insights que entraram em nossa consciência, a Medusa fugiu de nosso controle.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Medusa is a Psi-fish unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIONIC_RESEARCH_LABORATORY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Laboratório de Pesquisa Psiónica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PSIONIC_RESEARCH_LABORATORY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O local parece ser um laboratório militar dedicado à pesquisa psiónica. Cristais de foco, amplificadores psiónicos e circuitos de consciência foram encontrados. Talvez este local tenha estado envolvido na criação do que se tornaria o PsiTec?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">PsiTec is the in universe name for Technology that interacts with Psionics, mostly used by the Syndicate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PSIONIC_RESEARCH_LABORATORY</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Descobrimos uma biblioteca militar usada para pesquisa psiónica. Encontramos cristais de foco, amplificadores psiónicos e estimuladores de consciência. Todos estamos curiosos se este lugar foi fundamental para o pioneirismo do PsiTec. Há cadáveres mumificados espalhados por toda a localidade. Existe uma rica biblioteca de amostras biológicas e dados de pesquisa aqui.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">PsiTec is the in universe name for Technology that interacts with Psionics, mostly used by the Syndicate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PSIONIC_RESEARCH_LABORATORY</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">Na câmara central, um dispositivo esférico está coberto por glifos roxos pulsantes. Os cadáveres cercam a esfera, e cada um segura uma arma. Estariam com medo do poder deste dispositivo? Nossos cientistas acreditam que seja algum tipo de sistema de comunicação ou, possivelmente, um criador de portais. Todos queremos ativá-lo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIONIC_RESEARCH_LABORATORY</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Tentar ativar o dispositivo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PSIONIC_RESEARCH_LABORATORY</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">O portal crepitou e se fechou quando os Psi-Fish foram destruídos. Os pesquisadores devem ter tentado se comunicar com os Psi-Fish usando PsiTec. Mas eles mal responderam aos nossos apelos. Independentemente disso, suas descobertas serão úteis. Saqueamos a instalação, recuperando vários PsiTec raros e informações.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">PsiTec is the in universe name for Technology that interacts with Psionics, mostly used by the Syndicate.
+Psi-fish is the name of an in universe alien species.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PSIONIC_RESEARCH_LABORATORY</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_COMBAT_START</Data></Cell>
+    <Cell><Data ss:Type="String">Após uma preparação cuidadosa, descobrimos um grande botão vermelho, que precisava ser pressionado. As defesas automatizadas ganharam vida quando uma luz suave inundou a sala. A sala se encheu de seres translúcidos estranhos flutuando ao redor. Psi-Fish. As torres imediatamente abriram fogo contra os intrusos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Psi-fish is the name of an in universe alien species.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSIONIC_RESEARCH_LABORATORY</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_COMBAT_CONTINUE</Data></Cell>
+    <Cell><Data ss:Type="String">Um portal se abre, invocando Psi-Peixes através dele. Torres defensivas automáticas miram nas criaturas, e uma batalha se inicia.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Psi-fish is the name of an in universe alien species.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIONIC_RESEARCH_LABORATORY</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Desmontar o Dispositivo e restaurar o laboratório</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIONIC_RESEARCH_LABORATORY</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Restaurando o laboratório…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PSIONIC_RESEARCH_LABORATORY</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Conseguimos restaurar o laboratório em condições de funcionamento. O dispositivo central foi desativado com sucesso. Durante nossos esforços, reunimos uma infinidade de pesquisas úteis e equipamentos valiosos de laboratório.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIONIC_RESEARCH_LABORATORY</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Destruir o dispositivo e saquear as ruínas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PSIONIC_RESEARCH_LABORATORY</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Sucesso! Nossas forças dão conta do dispositivo rapidamente. Desmontamos todo o laboratório e extraímos vários artefatos. Mentes mais brilhantes que as nossas poderão descobrir a utilidade dos itens deste lugar, mas adquirimos muitos tesouros valiosos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PSIONIC_RESEARCH_LABORATORY</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Os explosivos de desativação detonaram prematuramente. O feedback psiónico resultante amplificou a explosão, causando danos horríveis a tudo. Quando a fumaça se dissipou, resgatamos os restos do que poderia ter sido um avanço significativo, se não tivéssemos explodido tudo prematuramente.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIONIC_RESEARCH_LABORATORY</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Esses são glifos de Psi-Peixes, contate-os</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Psi-fish is the name of an in universe alien species.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIONIC_RESEARCH_LABORATORY</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Contatando Psi-Peixes…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Psi-fish is the name of an in universe alien species.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">PSIONIC_RESEARCH_LABORATORY</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Os emissários dos Psi-Peixes nos ajudaram com o dispositivo. Trata-se de um portal interdimensional. Os pesquisadores conseguiram se comunicar com os Psi-Peixes, nos auxiliando a completar a PsiTec. Ativamos o portal. Mais Psi-Peixes apareceram. Eles entrelaçaram seus tentáculos uns nos outros e, então, em nossas mentes, preenchendo-nos com conhecimento. Isso mudou tudo. O dispositivo continuou a pulsar enquanto eles desapareciam através do portal.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Psi-fish is the name of an in universe alien species.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PRESERVED_TYRANNODON_CARCASS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Carcaça Preservada de Tirannodonte</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tyrannodon, an alien T-rex dinosaur like creature used by the Amazon.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PRESERVED_TYRANNODON_CARCASS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os restos bem preservados de um Tirannodonte. Através de investigação, podemos descobrir por que a criatura está com tanta armadura faltando…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tyrannodon, an alien T-rex dinosaur like creature used by the Amazon.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PRESERVED_TYRANNODON_CARCASS</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Localizamos o que restou de um Tirannodonte, completo com uma coleira de obediência. A causa da morte da criatura ainda não está clara, mas claramente era um espécime físico extraordinário. Acreditamos que possa ser um dos experimentos originais. A localização do corpo indica que deve ter escapado de alguma forma de seu confinamento de pesquisa.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tyrannodon, an alien T-rex dinosaur like creature used by the Amazon.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PRESERVED_TYRANNODON_CARCASS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">O cadáver do Tirannodonte, mesmo privado do sopro de vida, é uma visão imponente. Sua barriga parece estranhamente inchada, e alguns membros da equipe desejam dissecar o conteúdo de suas entranhas para ver se há pistas sobre o que tornou essa criatura tão forte e bem preservada. Há mais segredos a serem descobertos se investigarmos os detalhes macabros.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tyrannodon, an alien T-rex dinosaur like creature used by the Amazon.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRESERVED_TYRANNODON_CARCASS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Abrir e recuperar o que ele consumiu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">PRESERVED_TYRANNODON_CARCASS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Abrimos a goela da criatura e retiramos uma variedade de membros, incluindo o corpo intacto de uma Biomante. Seu gravador de dados está funcional, com detalhes sobre o espécime de Tirannodonte. Ele fazia parte de uma exibição destinada a entreter as Amazonas, mas, previsivelmente, a vida encontrou uma maneira de escapar, entrou em fúria e devorou sua plateia. Uma riqueza dos segredos da criatura agora é nossa, talvez o suficiente para que um dia possamos ressintetizá-la.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tyrannodon, an alien T-rex dinosaur like creature used by the Amazon.
+Amazon are a player race that specializes in bio-manipulation, originated from Terra-tech.
+Biomancers - Amazon bio manipulation experts, named after the tier 2 support unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PRESERVED_TYRANNODON_CARCASS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Nojento... Não havia nada de interessante na barriga da criatura, pelo menos nada que não cheirasse mal e nos fizesse vomitar ao abri-la, então enterramos tudo e abandonamos essa ideia como algo saído de uma ficção científica ruim.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRESERVED_TYRANNODON_CARCASS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Permitir que nossos biólogos realizem uma autópsia completa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRESERVED_TYRANNODON_CARCASS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Biólogos estão realizando uma autópsia completa…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">PRESERVED_TYRANNODON_CARCASS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Os biólogos encontraram o corpo de uma Biomante dentro do estômago da criatura. Os bio-gravadores da Amazona falecida fizeram um trabalho notavelmente minucioso, registrando até mesmo enquanto a criatura digeria sua própria treinadora. A fera deveria fazer parte de uma demonstração da engenhosidade das Amazonas. Nossos biólogos acreditam que a treinadora alimentou seu espécime com estimulantes musculares extras para demonstrar a superioridade de sua criação, o que ele fez ao comê-la e escapar. Sem mais sustento de seus criadores, seu corpo rapidamente enfraqueceu e morreu. O bio-gravador está repleto de segredos valiosos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Amazon are a player race that specializes in bio-manipulation, originated from Terra-tech.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PRESERVED_TYRANNODON_CARCASS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos Biomantes devem resolver isso rapidamente</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Biomancers - Amazon bio manipulation experts, named after the tier 2 support unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PRESERVED_TYRANNODON_CARCASS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Biomantes estão recuperando dados da carcaça...</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Biomancers - Amazon bio manipulation experts, named after the tier 2 support unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">PRESERVED_TYRANNODON_CARCASS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos biomantes cuidaram do espécime. Encontramos um gravador de dados em seu ventre, sem dúvida pertencente ao seu treinador tolo. Os dados mais antigos apresentam algumas anomalias interessantes que nunca havíamos considerado. Seus músculos parecem mais fortes do que se pensava ser possível. Acreditamos que podemos usar essa descoberta para aprimorar nossas próprias pesquisas com as criaturas. Isso honrará nossa Tyrannodon caída. Sem dúvida, ela era uma garota esperta.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Biomancers - Amazon bio manipulation experts, named after the tier 2 support unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PRESERVED_TYRANNODON_CARCASS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Esta criatura poderia ser um recipiente perfeito para a Xenopraga...</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Xenoplague, a secret technology that infects and mutates it's victims into new creatures.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PRESERVED_TYRANNODON_CARCASS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Injetando o cadáver com a cepa Alfa…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Alpha Strain is an alternative name for the Xenoplague infection itself.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">PRESERVED_TYRANNODON_CARCASS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Injetamos o cadáver com a Cepa Alfa. A fisiologia única da criatura antiga é forte o suficiente para formar um novo ser vivo. A Xenopraga liberou habilidades genéticas suprimidas. Deliciosamente, a criatura modificada desenvolveu espinhos venenosos e serrilhados. Era boa antes, mas melhor com a Cepa Alfa, que melhora a vida, animando-a. Uma Tyrannodon imponente com espinhos tóxicos permanece perfeitamente obediente e pronta para nos servir.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Xenoplague, a secret technology that infects and mutates it's victims into new creatures.
+Alpha Strain is an alternative name for the Xenoplague infection itself.
+Tyrannodon, an alien T-rex dinosaur like creature used by the Amazon.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CRASHED_SLEEPER_VESSEL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Nave Adormecida Acidentada</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Sleeper Vessel is a space colony ship upon which Vanguard expeditions would enter cryo sleep in order to reach new worlds and set up new links to the Nexus network for Star Union Colonization.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">CRASHED_SLEEPER_VESSEL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Nave Adormecida da Vanguard acidentada.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Sleeper Vessel is a space colony ship upon which Vanguard expeditions would enter cryo sleep in order to reach new worlds and set up new links to the Nexus network for Star Union Colonization.
+Vanguard are a player race of the Militarized expeditionary arm of the Star Union that recently awoke from Cryo Sleep.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">CRASHED_SLEEPER_VESSEL</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Desenterramos os restos de uma Nave Adormecida da Vanguard. O núcleo de energia da nave está funcionando no mínimo, mas estranhamente ainda intacto. A própria nave parece ter colidido aqui, e com o tempo a cratera se encheu. Detectamos o que só pode ser explicado como várias armas experimentais a bordo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Sleeper Vessel is a space colony ship upon which Vanguard expeditions would enter cryo sleep in order to reach new worlds and set up new links to the Nexus network for Star Union Colonization.
+Vanguard are a player race of the Militarized expeditionary arm of the Star Union that recently awoke from Cryo Sleep.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105.75">
+    <Cell><Data ss:Type="String">CRASHED_SLEEPER_VESSEL</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">Descobrimos uma nave abandonada em uma cratera de destroços. Ela sofreu danos severos no impacto, mas, notavelmente, permaneceu intacta. O interior da nave era macabro. Encontramos fileiras de cápsulas de criossono estragadas — tantas baixas. Toda a nave era uma causa perdida, até descobrirmos uma única cápsula intacta e totalmente energizada. Ela está identificada como Franky 'Sparklefingers' Nissen, o Capitão da nave. Alarmantemente, o sistema de energia foi improvisado para estender a função da cápsula. Infelizmente, agora está falhando. Devemos agir rapidamente para salvar o Capitão.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cpt. Franky 'Sparkfingers' Nissen is the name of the hero that can be rescued from this site.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRASHED_SLEEPER_VESSEL</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Tentar despertar o sobrevivente com a energia restante do gerador.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRASHED_SLEEPER_VESSEL</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Forçando o gerador exausto ao seu limite em uma tentativa de despertar o sobrevivente…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">CRASHED_SLEEPER_VESSEL</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Observamos com a rigidez de um cadáver congelado enquanto iniciávamos o procedimento de descongelamento. As células de energia piscaram e flutuaram, ameaçando falhar completamente, enquanto o corpo voltava a ser carne quente. Franky acordou lentamente, grogue. Então, a energia acabou. O Capitão ficou devastado por ser o único sobrevivente. Tentamos explicar como o mundo funciona agora, e ele se comprometeu a se juntar à nossa causa se o ajudássemos a enterrar sua tripulação e amigos perdidos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Franky is the name of the hero that can be rescued from this site.
+Captain refers to Franky's rank in this case.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CRASHED_SLEEPER_VESSEL</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Infelizmente, as flutuações de energia transformaram Sparklefingers em uma lição meio cozida e meio congelada do que não fazer ao descongelar uma pessoa congelada. Nossa decepção foi palpável. Não temos outra escolha senão pegar os poucos recursos restantes antes de selar esta triste nave transformada em cemitério.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sparkfingers is Franky's nickname.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRASHED_SLEEPER_VESSEL</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Esta expedição foi perdida quando caiu aqui, saqueie a nave</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CRASHED_SLEEPER_VESSEL</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Saqueando a Nave Adormecida…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Sleeper Vessel is a space colony ship upon which Vanguard expeditions would enter cryo sleep in order to reach new worlds and set up new links to the Nexus network for Star Union Colonization.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CRASHED_SLEEPER_VESSEL</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Tudo morre. Não tínhamos garantias de que o último adormecido nos ajudaria, e as células de energia da criocápsula eram recuperáveis. Sugamos a energia restante do gerador e saqueamos a nave em busca de objetos de valor.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRASHED_SLEEPER_VESSEL</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Tentar suplementar a energia para despertar o sobrevivente com segurança</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CRASHED_SLEEPER_VESSEL</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Suplementando o gerador com nosso próprio suprimento de energia para despertar o sobrevivente com segurança…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">CRASHED_SLEEPER_VESSEL</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Suplementamos as fontes de energia na interface da câmara criogênica e iniciamos o procedimento de descongelamento. Lentamente, o engenheiro congelado voltou à vida. Sua primeira preocupação foi com sua tripulação. Ele chorou pela perda deles. Ele ouviu atentamente enquanto explicávamos como o mundo mudou desde que embarcou na nave adormecida. Ele concordou em se juntar a nós se prestássemos homenagem a seus amigos caídos. Saqueamos o que podíamos e esperamos enquanto Franky se despedia.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Franky is the name of the hero that can be rescued from this site.
+A Sleeper Vessel is a space colony ship upon which Vanguard expeditions would enter cryo sleep in order to reach new worlds and set up new links to the Nexus network for Star Union Colonization.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CRASHED_SLEEPER_VESSEL</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Despertar o sobrevivente usando um plano de contingência da Vanguard</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Vanguard are a player race of the Militarized expeditionary arm of the Star Union that recently awoke from Cryo Sleep.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CRASHED_SLEEPER_VESSEL</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Reativando o sobrevivente usando estações de emergência de acordo com os planos de contingência da Vanguard…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Vanguard are a player race of the Militarized expeditionary arm of the Star Union that recently awoke from Cryo Sleep.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">CRASHED_SLEEPER_VESSEL</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Esta nave da Vanguard é muito similar a uma das nossas. Foi necessário pouco mais do que uma rápida consulta ao manual da nave para localizar um circuito de contingência. Conectando ao backup, energizamos a última câmara criogênica funcional enquanto descongelava seu passageiro. Franky despertou, confuso e triste por sua tripulação não ter sobrevivido à queda. O Capitão compartilha nossos valores e, conforme revelamos os detalhes da história desde seu sono, ele se considerou sortudo por termos nos deparado com ele.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Vanguard are a player race of the Militarized expeditionary arm of the Star Union that recently awoke from Cryo Sleep.
+Franky is the name of the hero that can be rescued from this site.
+Captain refers to Franky's rank in this case.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESTEQ_ESSENCE_ARK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arca de Essência Es'Teq</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="49.5">
+    <Cell><Data ss:Type="String">ESTEQ_ESSENCE_ARK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um artefato Heritor que era guardado por 4 sugadores em eras passadas. Eles receberam ordens de ficar de guarda até o fim dos tempos e assim o fizeram, mesmo com a estrutura desabando ao redor. Eles criaram um meio de sobreviver, entrando no artefato.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="79.5">
+    <Cell><Data ss:Type="String">ESTEQ_ESSENCE_ARK</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Descobrimos um pequeno templo desprovido dos adornos usuais que associamos aos Heritors. Não há cristais decorativos, nem sinais das vestes típicas dos Es'Teq. Um brilho turquesa sutil emanava de um recipiente fixado no centro da câmara. É um altar e, na verdade, o único indicador óbvio de que este lugar árido já foi um local de reunião para os Heritors.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="79.5">
+    <Cell><Data ss:Type="String">ESTEQ_ESSENCE_ARK</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">Após uma inspeção mais detalhada, o altar parece conter um artefato similar a uma Arca de Essência. A Essência de vários seres gira dentro dele, sustentando-o. Despertar este artefato pode ser perigoso, mas também estamos curiosos sobre as personalidades enigmáticas que depositaram sua força vital neste artefato com a esperança de serem reativadas algum dia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESTEQ_ESSENCE_ARK</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Despertar os ocupantes da Arca</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="64.5">
+    <Cell><Data ss:Type="String">ESTEQ_ESSENCE_ARK</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_COMBAT_START</Data></Cell>
+    <Cell><Data ss:Type="String">Forças fantasmagóricas se materializaram para guardar o artefato enquanto nos preparávamos para ativá-lo. Elas empunharam suas armas e parecem ansiosas para lutar. Todas as tentativas de diálogo falharam. Após tanto tempo, ser despertado e violentamente ativo é um prazer que elas parecem relutantes em abandonar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63">
+    <Cell><Data ss:Type="String">ESTEQ_ESSENCE_ARK</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_COMBAT_CONTINUE</Data></Cell>
+    <Cell><Data ss:Type="String">Quatro forças fantasmagóricas se materializaram para guardar o artefato enquanto nos preparávamos para ativá-lo. Elas empunharam suas armas e parecem ansiosas para lutar. Todas as tentativas de diálogo falharam. Após tanto tempo, ser despertado e violentamente ativo é um prazer que elas parecem relutantes em abandonar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48.75">
+    <Cell><Data ss:Type="String">ESTEQ_ESSENCE_ARK</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Com os guardiões Es'Teq derrotados, nossos pesquisadores deduzem rapidamente que esta Arca poderia ser usada para armazenar a Essência de vítimas de batalha. Caso nossos melhores combatentes caiam, este artefato poderia ser usado para restaurá-los à vida no campo de batalha.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESTEQ_ESSENCE_ARK</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Reivindicar a Arca como arma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESTEQ_ESSENCE_ARK</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Reivindicando a Arca como arma…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ESTEQ_ESSENCE_ARK</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Não se forma um vínculo próximo com os elétrons de uma bateria, tampouco devemos despertar o que agora serve como Essência para alimentar uma arma valiosa. Tomamos o artefato e o adaptamos para atender às nossas necessidades. Não faz sentido atribuir implicações religiosas a esta cultura há muito morta.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESTEQ_ESSENCE_ARK</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Reivindicar a Essência da Arca</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
+    <Cell><Data ss:Type="String">ESTEQ_ESSENCE_ARK</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Somente nós compreendemos o profundo e significativo sacrifício daqueles que se entregaram à Arca. Escutaremos suas memórias sussurrantes enquanto fundimos sua essência e nos ensinam. Todos somos melhores por termos conhecido aqueles que viveram em uma época de desespero e perda.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SECRET_WORKSHOP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">A Oficina Secreta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="49.5">
+    <Cell><Data ss:Type="String">THE_SECRET_WORKSHOP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um mecânico da Assembly enlouquecido que criou seus próprios Succubots personalizados em suas muitas tentativas de recriar seu amor da juventude. Os bots exigem afeição, o herói pode se casar com o bot ou rejeitá-los por sua conta e risco.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="49.5">
+    <Cell><Data ss:Type="String">THE_SECRET_WORKSHOP</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Descobrimos uma oficina de bots domésticos escondida entre as ruínas que estávamos escavando. As marcas recentes nas ferramentas indicam que algo ou alguém ainda está usando o local.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="70.5">
+    <Cell><Data ss:Type="String">THE_SECRET_WORKSHOP</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">Um dos bots despertou, estranhamente belo ao ganhar vida. Ela se identifica como uma fêmea chamada Valer-E. Partes de sua carcaça estão faltando, mas nada mancha sua graça e atratividade. Ela reconheceu nosso herói imediatamente e afirmou que foi programada para se unir por toda a vida com nosso herói que lidera esta expedição de pesquisa. Ela propôs casamento.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SECRET_WORKSHOP</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Rejeitar a proposta dela</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="67.5">
+    <Cell><Data ss:Type="String">THE_SECRET_WORKSHOP</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_COMBAT_START</Data></Cell>
+    <Cell><Data ss:Type="String">Ela não aceitou bem a rejeição. Começou a gritar e a agitar os braços descontroladamente. A princípio, pensamos que sua reação fosse um chilique pré-programado, mas na verdade ela estava ativando uma enorme estrutura de ataque. Ela berra: "Se eu não posso ter você, ninguém mais terá!"</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SECRET_WORKSHOP</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_COMBAT_CONTINUE</Data></Cell>
+    <Cell><Data ss:Type="String">Uma robô desprezada avança em nossa direção, destruindo tudo o que consegue agarrar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="69.75">
+    <Cell><Data ss:Type="String">THE_SECRET_WORKSHOP</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Enquanto Valer-E é despedaçada, refletimos sobre um criador alheio ao conceito de consentimento. Em que época antiga teria existido um tempo em que a palavra 'não' não era uma possibilidade em relacionamentos românticos? Isso deixou nossas mentes perplexas. Recolhemos o pouco de saque que conseguimos encontrar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SECRET_WORKSHOP</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Aceitar graciosamente</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell><Data ss:Type="String">THE_SECRET_WORKSHOP</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Aceitando o pedido de casamento de Valer-E…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="94.5">
+    <Cell><Data ss:Type="String">THE_SECRET_WORKSHOP</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Animados, os robôs ao redor dela se transformaram em uma festa de casamento e conduziram a cerimônia com eficiência robótica. Ela então passou imediatamente a servir submissamente a cada necessidade do nosso herói, ignorando todas as normas sociais de modéstia e decoro. Fica estranhamente ciumenta quando alguém faz algo pelo nosso herói. Temo pelo que fará quando descobrir que nosso herói já tem um cônjuge, mas isso agora é problema deles.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SECRET_WORKSHOP</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Oferecer para remontar um dos protótipos como parceiro dela</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_SECRET_WORKSHOP</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Oferecendo remontar um parceiro para Valer-E…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="97.5">
+    <Cell><Data ss:Type="String">THE_SECRET_WORKSHOP</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos engenheiros reversos adaptaram vários protótipos com uma unidade mental da Assembly sobressalente. Ele ganhou vida com toda a personalidade do nosso herói. O ciborgue e Valer-E compartilham um momento íntimo apropriado ao conectar interfaces palma com palma. Ela então se curvou para reconhecer nossa superioridade e se ofereceu a nós, com a condição de que seu marido robótico (como ela o chamou) a acompanhasse. O androide permanece alheio ao fato de que ela não teve escolha, pois a compulsão robótica é indetectável.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_SLUMBERING_TOMBS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">As Tumbas Adormecidas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_SLUMBERING_TOMBS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma tumba Heritor escavada que parece ser a fonte dos sinais de emergência que temos recebido.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="99.75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_SLUMBERING_TOMBS</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Escavamos uma tumba e agora temos certeza da origem do sinal de emergência. Após invadir o cofre seguro, somos recebidos pelas cápsulas brilhantes de Essência alimentando as pessoas adormecidas que residem aqui. Mais adiante, encontramos evidências de que o sinal de socorro foi ativado recentemente, possivelmente despertado pela atividade dos modelos RPR do lado de fora.[br/]Estamos dentro de um Santuário Heritor, uma das muitas tumbas escondidas neste mundo esquecido.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="96">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_SLUMBERING_TOMBS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">À medida que avançamos, chegamos ao núcleo da estrutura. Daqui, temos controle sobre inúmeras funções que governam a instalação, sendo as mais importantes o Protocolo de Despertar, que despertaria as pessoas e ergueria o santuário. Outra opção seria amplificar o sinal de emergência e fornecer as coordenadas corretas, garantindo que este lugar seja invadido pelos modelos RPR que vagam pela superfície.[br/]Estamos em um momento decisivo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_SLUMBERING_TOMBS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Despertar nosso povo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_SLUMBERING_TOMBS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Despertando nosso povo…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="81.75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_SLUMBERING_TOMBS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Executamos o Protocolo de Despertar e seguimos o procedimento com facilidade. As pessoas nas cápsulas se erguem lentamente e nos recebem como seu líder, seu herdeiro. Elas nos dizem que, embora não compartilhemos seu entumbamento, compartilhamos sua cultura. Despertar para isso, em vez de para algumas criaturas horríveis, já é uma bênção. Elas nos concedem o controle sobre o Santuário e preparam uma força de implantação para nos servir.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_SLUMBERING_TOMBS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Ativar o Protocolo de Despertar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_SLUMBERING_TOMBS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Ativando o Protocolo de Despertar…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="46.5">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_SLUMBERING_TOMBS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Executamos o Protocolo de Despertar e as pessoas nas cápsulas se erguem lentamente. Inicialmente desconfiadas, nossa diplomacia habilidosa as conquista. Elas nos concedem o controle sobre o Santuário e nos fornecem uma força de implantação pronta para servir.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="79.5">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_SLUMBERING_TOMBS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_2_RESULT_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Ao executarmos o Protocolo de Despertar, cometemos um erro no controle de pressão das válvulas de Essência. De repente, toda a instalação treme: os reservatórios se rompem e agora estão destruídos. O povo do Santuário não fica feliz em acordar com isso, mas conseguimos acalmá-los. Tomamos o controle do Santuário, e alguns Herdeiros permanecem conosco, mas a maioria de seu povo parte.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_SLUMBERING_TOMBS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Ativar as instalações auxiliares do Protocolo de Despertar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_SLUMBERING_TOMBS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_3_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Carregamos o controlador secundário da instalação, e ele nos guia pelo despertar. O Protocolo ocorre sem problemas, e as pessoas despertam rapidamente. Elas nos têm em alta estima por nossa estratégia eficaz e nos concedem o controle do Santuário, além de um destacamento para servir à nossa causa.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_SLUMBERING_TOMBS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Amplificar sinal para o RPR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_SLUMBERING_TOMBS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Amplificando o sinal para o RPR…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="81.75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">THE_SLUMBERING_TOMBS</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_4_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Não nos importamos muito com essas pessoas e seu sono, então decidimos amplificar o sinal e convocar o RPR. O massacre é cruel e violento enquanto os ceifadores ancestrais destroem os corpos adormecidos e as arcas. Este Santuário jamais se erguerá novamente. Os RPR ficam imóveis após a destruição, como se estivessem esperando algo. Nossa equipe logo percebe que estão aguardando ordens e acreditam que somos seus antigos administradores.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>3</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+     <RangeSelection>R9C3:R22C3</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

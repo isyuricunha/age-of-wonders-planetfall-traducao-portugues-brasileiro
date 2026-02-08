@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Thomas Schuiten</LastAuthor>
+  <LastSaved>2020-09-07T10:05:45Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15825</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="22" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="139.5"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:Width="528"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="149.25"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="439.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">GALACTIC_EMPIRE</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPEN_EMPIRE_REQUISITION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Requisições do Império</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">OPEN_EMPIRE_REQUISITION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aqui você pode comprar as Requisições selecionadas. Operações e Mods precisam ser comprados apenas uma vez e, depois, podem ser usados normalmente. Unidades podem ser construídas em suas colônias após a compra, desde que a colônia possua a estrutura necessária. Após desbloquear a unidade, você também pode comprá-la diretamente e fazê-la aparecer em sua capital.[br/][br/]Essas compras são feitas com [favor/][hyperlink,000003F300000258]Renome Imperial[/hyperlink], que pode ser obtido ao completar [hyperlink,000003F300000255]Solicitações do Império[/hyperlink] e [hyperlink,000003F300000255]Objetivos Secundários[/hyperlink].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Requisitions are units, mods, operations, and doctrines the player is able to buy using the "Imperial Renown" resource.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CREATE_EMPIRE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Criando seu império</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CREATE_EMPIRE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bem-vindo à Criação do Império![br/][br/]Este é seu primeiro passo para conquistar a galáxia! Criar um [hyperlink,000003F300000251]Império Galáctico[/hyperlink] permitirá que você:[br/][br/][bullet]Conquiste planetas para ganhar EXP[/bullet][br/][bullet]Descubra relíquias antigas[/bullet][br/][bullet]Desbloqueie bônus para criar novas estratégias[/bullet][br/][bullet]Crie sua própria dinastia de Heróis.[/bullet]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STAR_MAP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">O Mapa Estelar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STAR_MAP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Mapa Estelar exibe os planetas que você conquistou para seu [hyperlink,000003F300000251]Império Galáctico[/hyperlink]. A partir daqui, você pode continuar suas conquistas ou embarcar em novas expedições.[br/][br/]Use as abas na parte superior para revisar outros aspectos do seu império.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEROES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">O Salão dos Heróis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HEROES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aqui você pode visualizar os Comandantes que servem ao seu Império. Você também pode recrutar novos Comandantes aqui. Esses comandantes podem ser recrutados para se juntar a você como heróis no planeta.[br/][br/]Clique [hyperlink,000003F300000254]aqui[/hyperlink] para mais informações sobre Comandantes e Heróis no Salão dos Heróis.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HEROES_NO_HERO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aqui você pode visualizar os Comandantes que servem ao seu Império. Você também pode recrutar novos Comandantes aqui. Esses comandantes podem ser recrutados para se juntar a você como heróis no planeta.[br/][br/]Clique no botão para Recrutar seu primeiro herói.[br/][br/]Clique [hyperlink,000003F300000254]aqui[/hyperlink] para mais informações sobre Comandantes e Heróis no Salão dos Heróis.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROGRESSION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Progresso do Império</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PROGRESSION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aqui você pode revisar seu [hyperlink,000003F300000252]progresso[/hyperlink] em relação a cada Raça e Tecnologia Secreta. EXP é obtida ao conquistar planetas com um Comandante daquela Raça ou Tecnologia ou ao completar [hyperlink,000003F300000255]Objetivos Secundários[/hyperlink] e Solicitações do Império durante sua Conquista.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"EXP" is experience.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PROGRESSION_DETAILS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cada Raça e Tecnologia Secreta possui sua própria lista de [hyperlink,000003F300000257]itens de Requisição[/hyperlink], que podem ser desbloqueados ao ganhar EXP suficiente para subir de nível.[br/][br/]Clique [hyperlink,000003F300000252]aqui[/hyperlink] para mais informações sobre Progresso do Império.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELIQUARY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">O Relicário</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RELIQUARY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[hyperlink,000003F300000256]Relíquias[/hyperlink] são obtidas ao Conquistar um planeta com um Traço específico ou ao reivindicar o [hyperlink,000003E900000AC5]Graal[/hyperlink] relevante em um mundo conquistado.[br/]Relíquias obtidas podem desbloquear [hyperlink,000003F300000257]itens de Requisição[/hyperlink] únicos ou certos bônus permanentes!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONQUER_NEW_WORLD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Conquistar um novo mundo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CONQUER_NEW_WORLD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A partir daqui, você pode escolher um mundo para conquistar. Cada mundo possui uma combinação única de [hyperlink,000003F300000255]Traços[/hyperlink] e [hyperlink,000003F300000255]Objetivos Secundários[/hyperlink] associados.[br/]Revise os Traços do planeta antes de embarcar ou procure por um mundo alternativo.[br/][br/]À medida que seu Império Galáctico ganha mais experiência, mundos mais desafiadores ficarão disponíveis para conquista.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REQUISITION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Requisições</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">REQUISITION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aqui você pode selecionar quais [hyperlink,000003F300000257]Requisições[/hyperlink] levar consigo enquanto conquista o próximo planeta.[br/]Essas unidades, operações e mods estarão disponíveis para compra com [favor/][hyperlink,000003F300000258]Renome Imperial[/hyperlink] obtido durante sua Conquista.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_PLANET_LANDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Contatando seu Império</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">EMPIRE_PLANET_LANDING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Agora você pode embarcar na conquista deste planeta![br/]Para contatar seu [hyperlink,000003F300000251]Império Galáctico[/hyperlink], pressione o estandarte do Império no canto inferior esquerdo da tela ou o menu radial.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Empire banner refers to the shield-shaped icon on the bottom right of the interface that bears the Galactic empire's colours and emblem</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>12</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>28</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

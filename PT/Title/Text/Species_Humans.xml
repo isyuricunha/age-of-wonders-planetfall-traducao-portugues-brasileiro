@@ -1,0 +1,598 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>KyleB</LastAuthor>
+  <LastSaved>2019-03-01T14:47:44Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17625</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s67" ss:Parent="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="59" x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:Width="137.25"/>
+   <Column ss:StyleID="s63" ss:Width="66.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="330.75"/>
+   <Column ss:StyleID="s63" ss:Width="147.75"/>
+   <Column ss:StyleID="s63" ss:Width="176.25"/>
+   <Column ss:StyleID="s63" ss:Width="153"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="330.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SPECIES_HUMANS</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RACE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME_SINGULAR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Vanguard</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RACE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME_PLURAL</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Vanguard</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="129">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RACE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:%7BXML_SPECIES_HUMANS@RACE@DESCRIPTION_SHORT%7D[br/][br/][bulletList][bullet][sand]Starting%20Bonus:[/sand]%20Starting%20army%20units%20have%20+1%20[hyperlink,000003AC000000A2]Rank[/hyperlink][/bullet][bullet][sand]Long-Term%20Bonus:[/sand]%20Produc"><Data ss:Type="String">{XML_SPECIES_HUMANS@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]Bônus Inicial:[/sand] Unidades iniciais do exército têm +1 [hyperlink,000003AC000000A2]Nível[/hyperlink][/bullet][bullet][sand]Bônus de Longo Prazo:[/sand] Unidades produzidas têm +1 [hyperlink,000003AC000000A2]Nível[/hyperlink][/bullet][bullet][hyperlink,0000039E0000000F]Armas de Fogo[/hyperlink] Grupo de Armas[/bullet][bullet][hyperlink,0000039E00000010]Laser[/hyperlink] Grupo de Armas[/bullet][bullet]Implantar drones de combate e torres[/bullet][bullet]Uso de propaganda e força militar[/bullet][bullet]Unidades de longo alcance poderosas, capacidade corpo a corpo fraca[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The {text} inserts the DESCRIPTION_SHORT text below.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60.75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RACE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION_SHORT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">A [hyperlink,0000039E00000015]Vanguard[/hyperlink] é composta por pessoas rústicas com poucos laços com a sociedade, então os efeitos de longas viagens interestelares em criossono e a dilatação temporal resultante não importam para elas.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CAMP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Assentamento Vanguard</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CAMP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Um assentamento é uma pequena colônia independente que pode se juntar a você se tiver influência suficiente.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Migrar Colônia: Vanguard</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="51.75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Migrar a população desta colônia para Vanguard. A colônia se tornará uma colônia Vanguard.[br/][br/][fireCol]Ao migrar a população, {PopulationDeath} dos colonos da colônia serão mortos.[/fireCol] [br/][br/]Você recebe:[br/][fireCol]{Reputation} Reputação[br/]{RaceRelation} Relação Racial com a {STR_raceName}[/fireCol]</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">A colônia está atualmente sendo migrada para uma população Vanguard. O processo será concluído em [INT_duration].</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CONFIRMATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Tem certeza de que deseja migrar esta colônia para uma colônia Vanguard?</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ASSAULT_BIKE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Moto de Assalto</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ASSAULT_BIKE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Nos tempos antigos, nossos ancestrais andavam de moto em busca da liberdade, encontrando virtude em uma vida na estrada aberta. Registros ancestrais mostram multidões de arruaceiros de duas rodas vestidos de couro, decorados com os crânios flamejantes de seus inimigos. Alguns antropólogos acreditam que a Moto de Assalto captura essa melancolia instintiva — sem os crânios, é claro. As motos antigas não tinham Matrizes de Laser capazes de varrer multidões de invasores inimigos ou concentrar toda a energia em um único alvo. Só podemos imaginar se nossos ancestrais teriam deixado a estrada aberta se tivessem essas capacidades adicionais.” — Professor Quinlinn T. Ortivexis, “RV-4367H: Paralelos Históricos: O Passado Distorcido da Humanidade”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: Anciently -&gt; In ancient times</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MARINE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Soldado</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MARINE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“A tecnologia existe para automatizar o trabalho do Soldado Vanguard, mas como inspirar uma população que não tem nada em jogo? Essa filosofia foi defendida por imperadores que precisavam que a humanidade simpatizasse com o preço da guerra. Alguns supõem que os soldados são uma ferramenta do CORE, criminosos desesperados sendo forçados a se juntar às suas fileiras. No entanto, em minha experiência, o soldado mais mortal não luta para se redimir do passado, mas para construir um futuro melhor. Para isso, o CORE e os imperadores deveriam ter cuidado. Eles servem, mas nunca se rendem.” — Quinlinn T. Ortivexis, “RV-4367H: Paralelos Históricos: O Passado Distorcido da Humanidade”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: Emperors -&gt; emperors
+Edit: dash changed to comma
+Edit: semicolon changed to comma
+Edit: Emperors and CORE -&gt; CORE and the emperors</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ENGINEER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Engenheiro</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ENGINEER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“O trabalho de um Engenheiro nunca termina. Os soldados têm seu tempo de descanso durante a lenta viagem espacial em criossono. Sou eu quem é acordado quando há uma pequena anormalidade nos diagnósticos do sistema. As Valquírias eram mais velhas do que eu antes de começarmos esta viagem. Elas permaneceram preservadas em perfeita felicidade. Agora sou mais velho do que elas por uma década. Eu equipamento os trajes mecânicos de proteção. Posso consertar qualquer coisa. Posso erguer uma torre de laser. Quando as comunicações FTL do Vazio falharam, alguém pode me culpar por me divertir um pouco com os computadores do sistema?” — Dren Gates, “RV-20456C: Construindo Impérios de Jogos de RV no núcleo de computação AUX da sua nave estelar.”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: Cryosleep -&gt; cryosleep</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WALKER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Mecanoide</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WALKER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Quando o Comandante Abbott desapareceu durante a Missão da Tumba do Cometa, fui promovido a piloto do Mecanoide dele. Dizem que cada mecha tem sua própria personalidade. Abbott queria vingança. Isso me aterrorizava. Gritei na primeira vez que disparei o canhão Vulcano. Jatos de vida explodiram diante de sua saraivada de balas. No ar ou escondidos atrás de cobertura, os finos rastros de fumaça dos lançadores de mísseis de fragmentação do Mecanoide não deixavam sobreviventes. Ganhei elogios, mas lhe digo, o fantasma do Comandante Abbott vive em seu mecha favorito.” — Capitão Paxus Plexis, “RV-334M: Encontros Vanguard, Colônias Perdidas da Nebulosa da Água”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TANK</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Tanque Laser</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TANK</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“A Colônia da Lua Pólux rejubilou ao ver o Tanque Laser Vanguard entre o comboio de suprimentos. Por dias, nos escondemos em bunkers e rezamos por ajuda armada. Quando o inimigo retornou, os moradores gemeram, chorando de medo de que o tanque estivesse imediatamente danificado por causa de uma nuvem de fumaça envolvendo o tanque. O Capitão Paxus acalmou a multidão. O tanque estava bem, explicou. A fumaça obscurece o tanque, uma capacidade defensiva. Ele nos disse para desviar os olhos, enquanto o canhão principal começava seu trabalho mortal.” — Prefeita Delani D’Terni, “RV-333M: Encontros Vanguard, Colônias Perdidas da Nebulosa da Água”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DRONE_CARRIER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Porta-Drones</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DRONE_CARRIER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Por que a Star Union dominou antes do Colapso? Não foram suas políticas comerciais ou a prosperidade concedida aos não agressores. Não, eles dominaram pelo puro poder. No auge de seu alcance, o Império podia lançar enxames de drones do Porta-Drones para propósitos táticos distintos, seja para ofensiva, médica, construção ou destruição de obstáculos, sem a perda de um único fuzileiro. É irônico que uma raça tão horrorizada pela descoberta dos Kir’Ko, semelhantes a enxames, pudesse inventar a arma mais mortal capaz de enxame conhecida em toda a galáxia.”— Professor Quinlinn T. Ortivexis, “RV-4368H: Paralelos Históricos: O Passado Distorcido da Humanidade”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: attack -&gt; for offense
+Edit: removed "space"</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">OWL</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CORUJA</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">OWL</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Quer sobreviver? Mande a CORUJA primeiro. O robozinho voa como um falcão — duas vezes mais alto e tão rápido quanto. Eu não entro em um novo local sem a CORUJA dar uma olhada antes. Rumor diz que vão haver cortes no orçamento. Claro, o laser dela não é lá grande coisa como arma, mas é perfeito para marcar alvos. Minha CORUJA evitou uma dúzia de emboscadas, e quando ela pinta um alvo, meu rifle de precisão nunca erra. É equipamento militar essencial. É mais fácil de consertar do que uma bala na minha cabeça.”— Alferes Topher Erikson, “RV-222M: Depoimento sobre Equipamento Militar da Vanguard”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: em-dash changed to en-dash</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PUG</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PUG</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PUG</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“O Alferes Arnie achou que seria engraçado pregar uma peça no Sargento. Então, ele enfiou a ração de sobremesa dele na Carga de Cura do PUG do Sargento. Acho que ele só esqueceu. Um mês depois, fomos emboscados por insetos, e o Sargento foi atingido. O PUG dele estava funcionando bem. Estava borrado e revidando com seus blasters — tudo certo, até o Sargento pedir ajuda médica. Normalmente, ele o curaria na hora, mas, em vez disso, borrifou pudim de chocolate nele. Foi aí que a batalha tomou um rumo para pior.”— Tenente Lenny Sasse, “RV-333M: Conselho de Guerra do Alferes Arnie Malarkin”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: Chocolate Pudding -&gt; chocolate pudding</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">VALKYRIE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Valquíria</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">VALKYRIE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Minha história termina comigo engolido por um inseto gigante. A coisa defeca larvas, e eu penso: ‘Que desperdício! Vou acabar virando um inseto viscoso?!’ Estou sufocado nas ondulações ácidas e negras de seu trato digestivo. É o suficiente para fazer até o menos religioso rezar. Então, vejo uma luz. Diante de mim, flutuando com uma espada de luz ardente, está um anjo. Ela lança uma granada de luz, cegando o enxame furioso. Nunca esquecerei quando morri e fui salvo por um anjo: uma Valquíria da Vanguard.”— Mah Reg’Nib, Observador Oficial: “RV-771X: Corrida do Néctar: O Preço do Poder”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: What waste?! I am going to be a slimy bug!? -&gt; What a waste! Am I going to end up as a slimy bug?!
+Edit: an -&gt; the
+Edit: angel--A -&gt; angel: a</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">GUNSHIP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Aeronave de Combate</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">GUNSHIP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Os refugiados não conseguiam se comunicar com o apoio aéreo. Só fugimos. Eles voaram em formação, oito Aeronaves de Combate da Vanguard. Atraíram o fogo de nossos perseguidores aéreos. A Vanguard construiu essas aeronaves para repelir inimigos voadores. Achei que tinha uma linha de tiro livre até topar com uma linha de hostis bloqueando nossa retirada. As aeronaves de combate varreram as linhas com facilidade. Os tolos não perceberam que as Aeronaves de Combate da Vanguard são especialistas em metralhar tolos em longas filas também. Se eu tiver uma chance, pagarei uma bebida para aqueles pilotos.”— Mah Reg’Nib, Observador Oficial: “RV-770X: Corrida do Néctar: O Preço do Poder”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: Air-Support -&gt; air support</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ASSAULT_DRONE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Drone de Assalto</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ASSAULT_DRONE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Seu Porta-Drones está carregado ou vazio? Não seja pego sem a mais recente tecnologia em armamento descartável de drones. Presenteie seus inimigos com o modelo Ferrão do Drone de Assalto Sportican 4000, agora com opções de detalhes em Laser Vermelho, Escarlate, Vermelhão ou Carmesim. Nada carrega melhor as baterias do seu robô-súcubo do que um soldado bem equipado com um arsenal completo de drones letais. Estabeleça fogo de supressão, reprima rebeliões com força letal e abra caminho para a vitória!”— Desconhecido, “RV-14A: Agência de Publicidade Adworxs Paragon Portables”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: added "down" after "lay"</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">REPAIR_DRONE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Drone de Reparo</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">REPAIR_DRONE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Depois de um dia difícil suprimindo flora e fauna alienígena, nada anima mais o espírito de um comando do que o brilho reconfortante dos mais avançados Drones de Reparo. Não deixe seus homens sangrarem ou seus equipamentos enferrujarem. Implante a mais recente tecnologia em drones médicos descartáveis. Trate a si mesmo e ao seu equipamento com a cura reconfortante de nanitos que vem do Drone de Reparo Medivac 4000, agora com opções de detalhes em Brilho Azul, Ciano, Cerúleo ou Azul. Nada diz aos soldados que você aprova suas atrocidades de forma mais eficaz do que uma cura completa.”— Desconhecido, “RV-15A: Agência de Publicidade Adworxs Paragon Portables”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MELEE_DRONE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Drone de Escaramuça</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MELEE_DRONE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Cansado de levar todos os socos? Por que não deixar os Drones Rambot de ataque profundo darem uma chance ao seu inimigo? Sente-se e tome um Néctar Mai Tai incrivelmente suave enquanto a mais recente tecnologia de perfuração cinética abre buracos nas linhas inimigas… ou melhor ainda, através do torso do inimigo! Vendidos em ondas percussivas dos mais avançados drones perfuradores de aço-Zybranium, com opções de detalhes nas cores de sua escolha, incluindo: Amarelo-Ouro, Calêndula ou Girassol. Veja seus inimigos ficarem amarelos e correrem.”— Desconhecido, “RV-16A: Agência de Publicidade Adworxs Paragon Portables”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: removed commas after "Tai" and "ram"
+Edit: goldenrod, marigold or sunflower -&gt; Goldenrod, Marigold or Sunflower</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">FRIGATE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Fragata</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">FRIGATE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Chegou até mim o rumor de uma terra chamada Felinar, onde os nativos reverenciavam gatos como deuses. Naturalmente, achei que seria o lugar ideal para meu gato. Peguei carona com uma patrulha de Fragata da Vanguard. Surpreendentemente, os nativos nos cercaram. Seus rostos estavam tensos de desejo. Eles olhavam lascivamente para meu querido gatinho. Eu tinha cometido um erro terrível. Esses selvagens adoravam gatos apenas como comida. Era uma armadilha! A Fragata da Vanguard disparou uma barragem de multilaser, queimando um caminho livre através da multidão de carnívoros felinos. É por isso que o Senhor Bigodinho ama a Vanguard.”— Astro Cattovio, Autor de Livros Infantis, “RV-00495E: As Viagens do Senhor Bigodinho pelo Exterior”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: taut -&gt; strained
+Edit: frigate -&gt; Frigate</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">BATTLESHIP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Encouraçado</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">BATTLESHIP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Nosso Capitão xingou o chiado do interfone, exigindo resposta da engenharia. Pelo buraco no navio onde ficavam os motores, eu sabia que não haveria resposta. Um estrondo ensurdecedor lançou a nave do líder dos saqueadores voando em três direções. Mísseis a despedaçaram. Um Encouraçado da Vanguard surgiu da fumaça. Seus canhões explodiram uma segunda nave, enquanto seus lançadores de mísseis recarregavam. Nós o chamamos, esperando por botes salva-vidas, mas o Encouraçado liberou uma carga cintilante de calor sobre nós. O buraco em nossa nave se fechou, enquanto nanitos microscópicos costuravam tudo de volta.”— Sheldon Zaragoza, “RV-39761M: Justiça da Vanguard”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">INFERNO_MARINE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Soldado Inferno</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">INFERNO_MARINE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Embora nossas armas sejam poderosas e lutemos como demônios, somos chamados de Soldados Inferno porque somos a força de elite da Vanguard, dispostos a pular na própria boca do inferno para cumprir as ordens do nosso comandante. Podemos estar condenados a queimar por toda a eternidade nos poços infernais, mas levaremos tantos inimigos quanto possível conosco.”— Tek Bertlam, Forças Especiais: Soldado Inferno, “RV-854M: Ordem de Operações”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">GUN_TURRET</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Torre de Arma</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">GUN_TURRET</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Como a maioria dos engenheiros, prefiro automatizar meu trabalho para poder me dedicar aos meus projetos paralelos. Não é nada pessoal com os chefes, mas eles são burros. Eu não sou um soldado de combate! Então, reuni meus colegas engenheiros e programei um computador de mira. Coloquei-o em uma torre, mudei essa variável para indicar uma metralhadora, um canhão a laser ou um lançador de foguetes, e ele atira nos inimigos. Quer dizer, você realmente quer que eu, com minha visão ruim e postura horrível, chegue perto de uma arma?”— Dren Gates, “RV-21000C: Construindo Impérios de Jogos em VR em um Computador de Mira.”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: added comma after "posture"</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HEAVY_GUN_TURRET</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Torre de Arma Pesada</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LASER_TURRET</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Torre de Defesa Repetidora</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DEFENSE_TURRET</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Torres de Defesa Repetidoras são as torres de defesa das colônias da Vanguard.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LAUNCHER_TURRET</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Torre Lançadora</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HEAVY_LAUNCHER_TURRET</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Torre Lançadora Pesada</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PLANET_ARRIVAL</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LOG</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Coragem e força a você, Comandante das Forças Expedicionárias da Vanguard! Missões de criossono permitiram que você e suas fileiras de exilados e aventureiros escapassem do passado e conquistassem novos mundos para a Star Union. Mas enquanto você dormia, o Império desapareceu. Você precisará de todas as suas habilidades de combate e sobrevivência para enfrentar as forças que derrubaram a União. O passado está prestes a alcançá-lo, Comandante!</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">VO: Empress Carminia - Female
+
+Edit: filled with -&gt; of
+Edit: added comma after "sleeping"
+Edit: "the empire you served has disappeared" -&gt; "the Empire disappeared"</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NANITE_SUPPORT_STATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Estação de Suporte de Nanites</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NANITE_SUPPORT_STATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“O manual de operações dizia que iria pulverizar a área com um agente obscurecedor de refração de luz chamado Lumitol. Não sei se era esse o produto químico que impedia o inimigo de nos ver, ou se era o agente de cura que estancou meu sangramento, mas devo confessar que estaria muito mais disposto a ajudar nesta guerra se houvesse mais Estações de Suporte pelo caminho.”— Alferes Doohan ‘Camisa Vermelha’ McGee, “RV-957M: Todos os Melhores Aparatos e os Homens que os Amam.”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:Index="59" ss:AutoFitHeight="0" ss:Height="127.5">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HEAVY_GUN_TURRET</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Como a maioria dos engenheiros, prefiro automatizar meu trabalho para poder me dedicar aos meus projetos paralelos. Não é nada pessoal com os chefes, mas eles são burros. Eu não sou um soldado de combate! Então, reuni meus colegas engenheiros e programei um computador de mira. Coloquei-o em uma torre, mudei essa variável para indicar uma metralhadora, um canhão a laser ou um lançador de foguetes, e ele atira nos inimigos. Quer dizer, você realmente quer que eu, com minha visão ruim e postura, chegue perto de uma arma?”— Dren Gates, “RV-21000C: Construindo Impérios de Jogos em VR em um Computador de Mira.”</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>45</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>54</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

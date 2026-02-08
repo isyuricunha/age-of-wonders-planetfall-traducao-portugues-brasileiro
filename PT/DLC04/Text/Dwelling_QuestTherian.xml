@@ -1,0 +1,733 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Michelle Kusters</LastAuthor>
+  <LastSaved>2020-02-10T15:08:25Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15735</WindowHeight>
+  <WindowWidth>-27136</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="144" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="225.75"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="339.75"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="291"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="327.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DWELLING_QUESTTHERIAN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">The Growth are a sentient botanical species. They speak poetically, using puns and metaphors to describe things and speak romantically. They use the word "symbiosis" to refer to their relationships with other races and species. The "Mother Node" is their leader, and they refer to her in such.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEFAULT_RESPONSE</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">Você só tira e tira, mas não está disposto a nos ajudar. Vamos nos virar sozinhos, então.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Default response to failed quests.</Data></Cell>
+   </Row>
+   <Row ss:Index="9" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Não Somos Troféus</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Pare os Caçadores</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Já participou de uma expedição de caça? Parece divertido e alegre, certo? Bem, não é quando você é o alvo! Esses caçadores podem se achar civilizados, mas seu esporte bárbaro diz o contrário. Por favor, pare-os!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Obrigado, esperamos que agora essas pessoas pensem duas vezes antes de caçar nossa matilha por esporte.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">Você nem vai nos ajudar enquanto somos caçados como animais? Gostaria de ver nossas cabeças em uma lareira também? Não verá!</Data></Cell>
+   </Row>
+   <Row ss:Index="15" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Selvageria</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Elimine os Terianos selvagens</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Pensamos como humanos, mas nossos instintos são mais aguçados. Às vezes, essas sensações podem ser avassaladoras e desorientadoras. Alguns de nós cedem a essas sensações, ficam selvagens e não escutam a razão. Eles até machucam seus próprios companheiros de matilha! Nós os expulsamos, mas eles continuam nos atacando. É doloroso vê-los assim. Por favor, liberte-os de sua sede de sangue.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">É triste vê-los partir, mas foi necessário. Obrigado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos irmãos e irmãs selvagens estão livres para atacar seus companheiros enquanto você só observa de longe? Você é realmente tão sem coração?</Data></Cell>
+   </Row>
+   <Row ss:Index="21" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Problema com Bebida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Elimine a ameaça aquática</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Chame de peculiaridade, mas nós, Terianos, gostamos de água fresca. Conseguir água fresca vem com alguns riscos, no entanto... Recentemente, alguns da nossa matilha foram atacados quando foram buscá-la. Os que sobreviveram dizem que há predadores, monstros marinhos, esperando embaixo da superfície e nos puxando para dentro! Ajude!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">A costa está limpa novamente! Hurra!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">Sem água, o que faremos? Teremos que voltar a tomá-la dos outros. Tão sem graça.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Distorções de Identidade</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Destrua as influências corruptoras</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Por décadas, nossos semelhantes foram vítimas de caprichos perversos. Agora, um grupo de entidades sombrias tenta persuadir nossos jovens a se juntarem a uma devassidão e absurdo deploráveis. Por favor. Somos uma matilha acolhedora, mas esse tipo de exploração precisa ser detido.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Aplausos por toda parte! Vamos lembrar como {STR_LeaderName} ficou do nosso lado e ignorou os estereótipos vergonhosos do passado. Obrigado por eliminar essa ameaça.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">Não se preocupe. Percebemos que está ocupado nos ignorando. Vamos apenas reter nosso carinho.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Buscar a Bola</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Dominar a Bola assassina</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Oh não! Nosso jogo foi interrompido! Estávamos jogando um de nossos favoritos, que chamamos de Bola. Ele envolve arremessar a Bola e buscá-la. De repente, a Bola levitou, nos atingiu com armas de energia raivosas e voou para longe. Nossas tentativas de buscá-la resultaram em morte. Por favor. Você poderia trazer nossa Bola de volta, de preferência em uma forma menos assassina e flutuante?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Rabos abanando! Hoje é um ótimo dia! A Bola do nosso esporte voltou e não está mais assassina! Tudo graças a você! Esperto {STR_LeaderName}! Agora que o jogo continue! Jogue a Bola!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">Sentimos seu deboche. Então, nosso esporte é uma piada para você? Tudo bem. Talvez devêssemos brincar com seus rivais, em vez disso…</Data></Cell>
+   </Row>
+   <Row ss:Index="39" ss:AutoFitHeight="0" ss:StyleID="s65">
+    <Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Susto de Saúde</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s65">
+    <Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Destruir os Portadores da Xenopraga</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Height="60" ss:StyleID="s65">
+    <Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Tomamos nossas vacinas e levamos a higiene muito a sério, mas houve um surto perto de nós que ameaça todas as nossas vidas. Essa praga se move por conta própria e nos caça como um predador. Por favor. Ajude-nos! Destrua os portadores dessa praga.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Height="45" ss:StyleID="s65">
+    <Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Patitas juntas! Não tememos mais o contágio, graças a você. Somos uma comunidade novamente. Que a higiene recomece. Esperto {STR_LeaderName}, reconhecemos você como um amigo da matilha!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Height="45" ss:StyleID="s65">
+    <Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Se acha que pode se aproveitar de nós durante esse surto, está enganado. Se não destruir a praga, nos uniremos em nosso ódio compartilhado e o ignoraremos caso chame.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Index="45" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Gostos Especiais</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Concluir Projeto de Produção Especial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Em uma de nossas últimas buscas, encontramos uma caixa de comida especial. Algo chamado “Bark Bites”. Não sabemos exatamente quais são os ingredientes, mas é… viciante. Não conseguimos parar de comer. Nossa matilha está dividida, louca por isso. Outro dia, uma briga estourou quando alguém ouviu um abridor de latas. Se não fizermos algo, a motim está próximo. Precisamos de mais Bark Bites. Rápido. Por favor, pode nos ajudar?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Obrigado, {STR_LeaderName}, com esse estoque a briga interna certamente vai parar… por um tempo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Comida enlatada para os Terianos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Terianos parecem ter um… gosto particular por iguarias. Não pense nos ingredientes, apenas produza o máximo que puder.</Data></Cell>
+   </Row>
+   <Row ss:Index="52" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rações Explosivas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Concluir Projeto de Produção Especial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Às vezes, você precisa ficar perto da natureza e ser criativo com suas armas. Temos nossas Bio Bolotas, mas nossos químicos descobriram uma fórmula para algo que chamamos de… “romangranadas”. Não podemos produzi-las agora porque nossa matilha fica comendo as frutas. Pode nos ajudar? Vamos retribuir!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Bio Acorn refers to a Therian Unit ability.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Não só delicioso, mas também altamente inflamável e explosivo! Isso é coisa boa!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Armamento comestível para os Therians</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Therians precisam de um novo tipo de explosivo para sua colônia, originado de frutas. Bastante inspirador, na verdade.</Data></Cell>
+   </Row>
+   <Row ss:Index="59" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Bombas de Fragmentação e Bastões Explosivos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Concluir Projeto de Produção Especial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Para sobreviver, precisamos de comida e abrigo; para conseguir comida e abrigo, precisamos lutar por eles; para lutar por eles, precisamos de armas. Entendeu? Precisamos de canhões, armas e outras coisas que vão “bum” de um jeito maior e melhor do que temos agora. Estamos trabalhando nisso, mas estamos com falta de ingredientes que fazem o maior “bum”. Você parece ter bastante. Nos ajuda? Por favorzinho?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossa matilha está armada novamente! Dentes, garras, bombas e bum! Valeu!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Explosivos para os Therians</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Therians estão produzindo novas armas e granadas para sua colônia. Eles têm alguns pré-requisitos pouco ortodoxos, mas devemos conseguir fornecer.</Data></Cell>
+   </Row>
+   <Row ss:Index="66" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tecnologia Liberada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_04</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Concluir Projeto de Produção Especial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Como disse nosso antigo líder Deer, não devemos tentar nos aprimorar ainda mais através da ciência genética. Precisamos de outros meios para acompanhar, e o grande Deer não disse nada sobre aprimoramentos cibernéticos. Conseguimos até agora, mas ficamos sem recursos para fabricá-los nós mesmos. Poderia nos ajudar? Temos os planos bem aqui. Só ignore as marcas de patas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_04</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Visores para enxergar ainda mais claramente, pistões para pular mais alto, sensores para cheirar. Vovó, que cibernéticos incríveis você tem! Obrigado, {STR_LeaderName}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_04</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">Você não nos trouxe os cibernéticos que pedimos tão gentilmente. Vamos nos virar com o que temos… Ou talvez peguemos de outros.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_04_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cibernéticos para os Therians</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_04_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Para acompanhar a evolução sem trair seus princípios, os Therians precisam de uma variedade de aprimoramentos cibernéticos. Crie-os para eles.</Data></Cell>
+   </Row>
+   <Row ss:Index="74">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Removedores de Bolas de Pelo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_05</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Concluir Projeto de Produção Especial</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma das grandes dificuldades de ser coberto de pelos é a queda constante. Se você pudesse inventar e depois produzir estações de tosa para o corpo todo, nos pouparia muito tempo durante o dia, que poderíamos usar para fazer coisas mais úteis… como tirar uma soneca.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_05</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Perrrrfeito! Por favor, aceite este prêmio! Agora, por favor, vá embora, a tosa é nosso momento privado… e a soneca também.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_05</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">Tudo bem. Você não quer nos ajudar com nosso problema de queda de pelos. Não nos culpe se cobrirmos seus móveis de pelos soltos.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_05_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Escovador 5000</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_05_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Construa estações de higiene corporal completas, com cortadores de garras, afiadores de bigodes e uma unidade de descarte de pelos para as necessidades higiênicas dos Therians.</Data></Cell>
+   </Row>
+   <Row ss:Index="82" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ilha do Tesouro</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Capture a base aquática da vida selvagem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um mapa! Encontramos um mapa do tesouro! Não podemos viajar sobre a água, mas talvez você possa nos ajudar a encontrá-lo? Compartilharemos o butim, com certeza! Rápido, antes que alguém chegue primeiro!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Tão brilhante! Dá uma olhada em todas essas coisas legais. Aqui, você mereceu sua parte!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">Parece que outros encontraram o tesouro antes de você. Que chato.</Data></Cell>
+   </Row>
+   <Row ss:Index="88" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ratos de Laboratório</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Destrua a base naval do Império</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Alguns dos nossos batedores desapareceram. Nós os rastreamos até algum lugar na costa. Seus gritos nos assombram durante a noite, feridos e aterrorizados. Eles estão presos, machucados, usados como cobaias. Por favor, salve-os!</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos companheiros estão de volta sãos e salvos! Muito obrigado. Por favor, aceite nossa oferta de gratidão.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">Os gritos dos nossos companheiros pararam. A dor deles era terrível de ouvir, mas esse silêncio pode ser ainda pior do que antes. O sangue deles também está em suas mãos, {STR_LeaderName}.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Território Marcado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Destrua o Ninho dos Hopperhounds</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Encontramos marcas estranhas dentro do nosso território. Cheiros, pegadas. Ouvimos uivos e guinchos à noite. Uma matilha rival está se aproximando. Não podemos permitir isso, não mesmo. Trabalhamos tanto por este abrigo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Agradecemos pela camaradagem. Agora nossa matilha pode viver em paz novamente.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">Você só pega e pega, mas não está disposto a nos ajudar a defender o que é nosso? Nós mesmos lutaremos de novo.</Data></Cell>
+   </Row>
+   <Row ss:Index="100" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">A Terra Desperta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_04</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Destrua o Gerador de Terra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O solo onde enterramos nossos assuntos de repente se abriu e ganhou vida. Depois que enterramos um osso, ele deveria continuar enterrado. Por favor, faça a terra parar de cuspir nossos tesouros escondidos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_04</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Agradecemos imensamente por seus esforços, colocando a terra de volta no lugar. Este mundo é estranho, mas é bom saber que temos um amigo aqui fora.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_04</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">Mais uma vez, você ignora nossos problemas para cuidar dos seus próprios assuntos. Não é assim que se trata um aliado, muito menos um amigo. Procuraremos afeto em outro lugar.</Data></Cell>
+   </Row>
+   <Row ss:Index="106" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Filosofia Natural</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Responda à antiga questão Theriana</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao longo das eras, uma pergunta sem resposta sempre nos encheu de expectativa. Nós a procuramos, mas nunca conseguimos encontrar a resposta. Você, com seu conhecimento de mundos, pode nos dizer... quem é um “bom garoto”?</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Então, acontece que... pode ser todos nós! Todos podemos ser bons garotos e garotas. Nós —somos— todos bons garotos e garotas. Isso é incrível! Nossa matilha se alegra!</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">A pergunta continua... talvez nunca saibamos. Continuaremos procurando. Talvez descubramos sem sua ajuda. Quem quer que seja esse “bom garoto”, com certeza não é você.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Quem é um bom garoto?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use seus recursos científicos e acesso a dados imperiais antigos para responder à ainda mais antiga questão Theriana.</Data></Cell>
+   </Row>
+   <Row ss:Index="114" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reunião Convencional</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Encontre o melhor local para uma reunião Theriana fora do mundo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Desde que Deer nos presenteou com sua sabedoria, grupos escolhidos de representantes deixam nossos abrigos a cada década para se encontrarem e verem como estão todas as nossas matilhas. É um momento de festas, jogos e alegria. Chame de uma espécie de conferência. Fomos escolhidos para escolher o local este ano, mas tudo o que encontramos até agora estava lotado. Pode nos ajudar? Precisamos muito causar uma boa impressão!</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Não acreditamos que você encontrou um local para nossa reunião! Isso vai ser incrível!</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">Você também não conseguiu encontrar um lugar para nossa reunião... que pena. Talvez a gente invada alguns Parques Elísios de novo, como da última vez, isso também deu certo!</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Convenção Colorida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Revise e atualize seus mapas estelares e dados planetários para encontrar um local adequado para os Therians e seu evento.</Data></Cell>
+   </Row>
+   <Row ss:Index="122" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Querida Deer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Pesquise a história Theriana</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cantamos a história de nossa grande líder Deer por gerações. Devemos tudo a ela. Mas, com o tempo, os detalhes de sua vida ficaram... vagos. Você tem acesso a arquivos antigos e conhecimento, certo? Nos ajudará a contar sua história?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Então ela foi criada, como nós, em um ato de amor e desespero. Humana antes, algo mais depois. Ela foi salva ao se tornar como nós, mas foi agridoce. Precisamos lembrar e acatar seu aviso. Obrigado por compartilhar isso conosco.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">A cada dia, nosso conhecimento sobre Deer se desvanece. Achávamos que poderíamos contar com você para reacendê-lo. Talvez estivéssemos errados.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pesquisa Histórica</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use seus recursos científicos para acessar os Arquivos Terratech restritos e encontrar informações sobre as origens antropomórficas dos Terianos e sua primeira líder, Deer.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Index="130" ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Foco a Laser</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Crie um jogo envolvendo ponteiros a laser</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Acreditamos que um ótimo esporte poderia ser criado usando ponteiros a laser. Esse ponto vermelho brilhante sempre foi uma distração, mas nossa capacidade de atenção é curta demais para formalizar um jogo. É aí que você entra… Por favor, use seu vasto conhecimento para criar um evento esportivo envolvendo ponteiros a laser!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Uau! Você é tão talentoso! Pense nas variações, nas regras alternativas e naquele pontinho vermelho! Olhe ele indo… o… uh… sobre o que mesmo estávamos falando? Ah, certo, o novo jogo! É ótimo! Aqui está uma recompensa pelos seus esforços!</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">Achamos perturbadora sua falta de amor por ponteiros a laser. Talvez você não seja um aliado confiável, afinal…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pesquisa de Estímulo</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_04_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use seus principais teóricos de jogos e o conhecimento esquecido sobre Armamento a Laser para pesquisar um jogo que prenda a atenção dos Terianos por tempo suficiente para que eles o recompensem.</Data></Cell>
+   </Row>
+   <Row ss:Index="138" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pernoite</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_05</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Pesquisar o Ciclo de Sono Ideal</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma reclamação que ouvimos com frequência é que, quando temos visitantes, muitos de nós estão dormindo e não querem se mexer ou interagir com os convidados. Reconhecemos o inconveniente, mas precisamos das nossas sonecas, especialmente depois de uma festa! Você pode nos ajudar a gerenciar melhor nosso horário de sono?</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_05</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Graças aos seus esforços de pesquisa, conseguimos ficar acordados durante sua última apresentação sobre ciclos de sono. Isso é uma grande conquista. Agora, se nos der licença, pegue sua recompensa, precisamos de uma soneca.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_05</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">Sua incapacidade de nos ajudar a gerenciar nossas necessidades de sono nos esgota. Da próxima vez que quiser algo de nós, vamos dormir pensando no assunto.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_05_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pesquisa do Ciclo de Sono</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_05_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A maioria dos Terianos tem um estilo de vida de alta energia que exige muito tempo de descanso. Ajude-os a gerenciar essa necessidade pesquisando o ritmo circadiano ideal para beneficiá-los.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <TopRowVisible>66</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>75</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

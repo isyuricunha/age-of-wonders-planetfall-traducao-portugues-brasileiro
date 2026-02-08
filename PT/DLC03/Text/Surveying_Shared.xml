@@ -1,0 +1,501 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Tom Bird</Author>
+  <LastAuthor>Kyle Buijs</LastAuthor>
+  <Created>2019-05-07T15:06:48Z</Created>
+  <LastSaved>2019-09-03T11:36:47Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17235</WindowHeight>
+  <WindowWidth>-27136</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="86" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="157.5"/>
+   <Column ss:StyleID="s62" ss:Width="181.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="317.25"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="262.5"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SURVEYING_SHARED</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">ARCADIAN_COMMON</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos scanners detectaram um sinal fraco de origem desconhecida, oculto nas profundezas da vegetação densa. Devemos tentar limpar a vegetação para rastrear a origem do sinal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">ARCADIAN_RARE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos scanners estão detectando um sinal claro de origem desconhecida, oculto nas profundezas da vegetação densa. Devemos tentar limpar a vegetação para rastrear a origem do sinal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">ARCADIAN_UNIQUE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos scanners estão detectando um sinal extremamente poderoso de origem desconhecida, oculto nas profundezas da vegetação densa. Devemos tentar limpar a vegetação para rastrear a origem do sinal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">ARID_COMMON</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos scanners detectaram um sinal fraco de origem desconhecida, sendo emitido de um banco de areia distinto no deserto. Devemos escavar a areia para descobrir a origem do sinal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">ARID_RARE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos scanners estão detectando um sinal claro de origem desconhecida, sendo emitido de um banco de areia distinto no deserto. Devemos escavar a areia para descobrir a origem do sinal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">ARID_UNIQUE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos scanners estão detectando um sinal extremamente poderoso de origem desconhecida, sendo emitido de um banco de areia distinto no deserto. Devemos escavar a areia para descobrir a origem do sinal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">ARCTIC_COMMON</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos scanners detectaram um sinal fraco de origem desconhecida, aparentemente emergindo das profundezas de uma geleira. Se queimarmos o gelo, poderemos localizar a origem do sinal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">ARCTIC_RARE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos scanners estão detectando um sinal claro de origem desconhecida, aparentemente emergindo das profundezas de uma geleira. Se queimarmos o gelo, poderemos localizar a origem do sinal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">ARCTIC_UNIQUE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos scanners estão detectando um sinal extremamente poderoso de origem desconhecida, aparentemente emergindo das profundezas de uma geleira. Se queimarmos o gelo, poderemos localizar a origem do sinal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">FUNGAL_COMMON</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos scanners detectaram um sinal fraco de origem desconhecida, coberto por grandes aglomerados de fungos em alguma vegetação. Devemos remover cuidadosamente os aglomerados de fungos para extrair a fonte do sinal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">FUNGAL_RARE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos scanners estão detectando um sinal claro de origem desconhecida, coberto por grandes aglomerados de fungos em alguma vegetação. Devemos remover cuidadosamente os aglomerados de fungos para extrair a fonte do sinal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">FUNGAL_UNIQUE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos scanners estão detectando um sinal extremamente poderoso de origem desconhecida, coberto por grandes aglomerados de fungos em alguma vegetação. Devemos remover cuidadosamente os aglomerados de fungos para extrair a fonte do sinal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">VOLCANIC_COMMON</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos scanners detectaram um sinal fraco de origem desconhecida, emanando de debaixo de uma montanha de cinzas e escombros. Devemos limpar os escombros e encontrar a origem do sinal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">VOLCANIC_RARE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos scanners estão detectando um sinal claro de origem desconhecida, emanando de debaixo de uma montanha de cinzas e escombros. Devemos limpar os escombros e encontrar a origem do sinal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">VOLCANIC_UNIQUE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos scanners estão detectando um sinal extremamente poderoso de origem desconhecida, emanando de debaixo de uma montanha de cinzas e escombros. Devemos limpar os escombros e encontrar a origem do sinal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">FALLBACK</Data></Cell>
+    <Cell><Data ss:Type="String">Escondidos na natureza selvagem estão vastos restos de propósito desconhecido. Precisamos explorar cuidadosamente este local para descobrir sua função e quaisquer ameaças ocultas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">ARCADIAN_CHOICE_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Limpar a vegetação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">ARID_CHOICE_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Escavar a areia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">ARCTIC_CHOICE_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Queimar o gelo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">FUNGAL_CHOICE_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Remover os fungos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">VOLCANIC_CHOICE_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Limpar cinzas e detritos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">ARCADIAN_CHOICE_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Escavar o local</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">ARID_CHOICE_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Escavando a areia para descobrir a fonte do sinal…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">ARCTIC_CHOICE_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Derretendo o gelo para localizar a origem do sinal…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">FUNGAL_CHOICE_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Removendo os aglomerados de fungos para extrair a fonte do sinal…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STARTING_PHASES</Data></Cell>
+    <Cell><Data ss:Type="String">VOLCANIC_CHOICE_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Limpando a montanha de cinzas e detritos para encontrar a fonte do sinal…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">LEAVE_CHOICE_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Partir por enquanto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">TIMER_DURATION</Data></Cell>
+    <Cell><Data ss:Type="String">Turnos restantes:</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">DEFAULT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sítio Anômalo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">DURATION</Data></Cell>
+    <Cell><Data ss:Type="String">Duração:</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">SUCCESS_CHANCE</Data></Cell>
+    <Cell><Data ss:Type="String">Chance de sucesso:</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">INSTANT</Data></Cell>
+    <Cell><Data ss:Type="String">Instantâneo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used after "Duration: " to show something happens immediately</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">ERROR_HERO_REQUIRED</Data></Cell>
+    <Cell><Data ss:Type="String">É necessário ter um herói presente para explorar este local</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">HERO_PRESENCE</Data></Cell>
+    <Cell><Data ss:Type="String">Um herói deve permanecer presente para explorar este local</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">ACCEPT_REWARD</Data></Cell>
+    <Cell><Data ss:Type="String">Aceitar Recompensa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">LETS_MOVE_ON</Data></Cell>
+    <Cell><Data ss:Type="String">Vamos prosseguir</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">START_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">Iniciar Combate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">SURVEY_SITE_BECOMES</Data></Cell>
+    <Cell><Data ss:Type="String">O sítio anômalo se tornará:</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">SELL_REWARD</Data></Cell>
+    <Cell><Data ss:Type="String">Vender Recompensa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">EVENT_TIME_OUT</Data></Cell>
+    <Cell><Data ss:Type="String">Um sítio anômalo requer sua atenção</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Sucesso!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used to indicate that a success chance roll was successful</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Falha!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used to indicate that a success chance roll was unsuccessful</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">HERO_GETS_PROPERTY</Data></Cell>
+    <Cell><Data ss:Type="String">Será concedido a:</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Placed before a description of a special ability that will be given to a particular hero</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_GETS_UPGRADE</Data></Cell>
+    <Cell><Data ss:Type="String">Será construído em:</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Refers to a colony where an upgrade will be built</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EVENT_DATA_UNLOCKED</Data></Cell>
+    <Cell><Data ss:Type="String">DATA_DECRYPTED_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">Dados Anômalos descriptografados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EVENT_DATA_UNLOCKED</Data></Cell>
+    <Cell><Data ss:Type="String">UNLOCK_RESEARCH_REWARD</Data></Cell>
+    <Cell><Data ss:Type="String">Nossa análise foi concluída, resultando em um tesouro de dados sobre tecnologia perdida da Star Union![br/][br/]Recebemos {INT_researchAmount}[research/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EVENT_DATA_UNLOCKED</Data></Cell>
+    <Cell><Data ss:Type="String">UNLOCK_NEW_RESEARCH_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossa análise revelou a localização de uma ruína da Star Union que pode conter artefatos de grande valor. Devemos enviar uma expedição liderada por um herói o mais rápido possível!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EVENT_SITE_REVEALED</Data></Cell>
+    <Cell><Data ss:Type="String">SITE_REVEALED_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">Sítio Anômalo descoberto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EVENT_SITE_REVEALED</Data></Cell>
+    <Cell><Data ss:Type="String">REASON_BUILDING_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">Ao tentar estabelecer uma base neste setor, descobrimos um Sítio Anômalo! O local pode conter dados e artefatos valiosos. Devemos enviar uma expedição liderada por um herói o mais rápido possível!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EVENT_SITE_REVEALED</Data></Cell>
+    <Cell><Data ss:Type="String">REASON_FOUNDING_COLONY</Data></Cell>
+    <Cell><Data ss:Type="String">Ao tentar estabelecer uma colônia neste setor, descobrimos um Sítio Anômalo! O local pode conter dados e artefatos valiosos. Devemos enviar uma expedição liderada por um herói o mais rápido possível!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EVENT_SITE_REVEALED</Data></Cell>
+    <Cell><Data ss:Type="String">REASON_AFTER_BATTLE</Data></Cell>
+    <Cell><Data ss:Type="String">Ao limpar o campo de batalha, descobrimos um Sítio Anômalo! O local pode conter dados e artefatos valiosos. Devemos enviar uma expedição liderada por um herói o mais rápido possível!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SIDE_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">STADIUM_HAS_SPAWNED</Data></Cell>
+    <Cell><Data ss:Type="String">Um Stadium Arcadium apareceu nas proximidades</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SIDE_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">BIODOME_HAS_SPAWNED</Data></Cell>
+    <Cell><Data ss:Type="String">Um Biodomo Invadido pela Vegetação apareceu nas proximidades</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SIDE_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">QUARRY_HAS_SPAWNED</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Pedreira Abandonada apareceu nas proximidades</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SIDE_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">SUN_SHARD_HAS_SPAWNED</Data></Cell>
+    <Cell><Data ss:Type="String">Um Fragmento Solar apareceu nas proximidades</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SIDE_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">RESEARCH_STATION_HAS_SPAWNED</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Estação de Pesquisa apareceu nas proximidades</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SIDE_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">ESSENCE_WELL_HAS_SPAWNED</Data></Cell>
+    <Cell><Data ss:Type="String">Um Poço de Essência apareceu nas proximidades</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SIDE_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">CHARGE_STATION_HAS_SPAWNED</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Estação de Carga apareceu nas proximidades</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SIDE_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">ARMY_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">O exército sofreu {DamageSuffered} de dano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SIDE_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">HERO_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">O herói sofreu {DamageSuffered} de dano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SIDE_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">ARMY_NO_HERO_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades no exército, exceto o herói, sofreram {DamageSuffered} de dano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SIDE_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">TERRAFORM_VOLCANIC</Data></Cell>
+    <Cell><Data ss:Type="String">Setor foi terraformado para Vulcânico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SIDE_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">GROWTH_DWELLING_HAS_SPAWNED</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Moradia de Crescimento apareceu nas proximidades</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARCHEOLOGY_SKILL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Perito em Arqueologia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ARCHEOLOGY_SKILL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O herói e seu exército ganham {INT_xpAmount} a mais de XP em sítios anômalos, e os custos de recursos das escolhas nos sítios são reduzidos em {INT_discountAmount}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADVANCED_ARCHEOLOGY_SKILL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Especialista em Arqueologia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ADVANCED_ARCHEOLOGY_SKILL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As escolhas em sítios anômalos agora levam {INT_numTurns} turnos a menos (nunca pode ser reduzido abaixo de 1[turn/]). Completar um sítio anômalo com este herói agora concederá uma recompensa extra de pesquisa[research/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MASTER_ARCHEOLOGY_SKILL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mestre em Arqueologia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MASTER_ARCHEOLOGY_SKILL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as chances de sucesso em sítios anômalos são aumentadas em {INT_successChancePercent}. As recompensas de pesquisa de sítios anômalos são aumentadas em {INT_researchRewardPercent}. Completar um sítio anômalo com este herói agora concederá uma recompensa extra de energia[energy/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SIDE_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_INCREASE_ALL_RACES</Data></Cell>
+    <Cell><Data ss:Type="String">Sua relação com todas as raças aumentou em {RelationIncrease}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPERATIONAL_STRENGTH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Força Operacional</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPERATIONAL_STRENGTH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ganha {operationalStrength} de Força Operacional.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS</Data></Cell>
+    <Cell><Data ss:Type="String">Status</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">SITE_SURVEY</Data></Cell>
+    <Cell><Data ss:Type="String">Sítio Anômalo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">EXPEDITION_LEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Líder de Expedição</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">NO_HERO_PRESENT</Data></Cell>
+    <Cell><Data ss:Type="String">Nenhum Herói Presente!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">DIFFICULTY</Data></Cell>
+    <Cell><Data ss:Type="String">Dificuldade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">DIFFICULTY_EASY</Data></Cell>
+    <Cell><Data ss:Type="String">Fácil</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">DIFFICULTY_MODERATE</Data></Cell>
+    <Cell><Data ss:Type="String">Moderado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">DIFFICULTY_HARD</Data></Cell>
+    <Cell><Data ss:Type="String">Difícil</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Progresso: Etapa {INT_step}/{INT_maxSteps}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERFACE</Data></Cell>
+    <Cell><Data ss:Type="String">ANOMALY_DATA_COLLECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Dados de Anomalia Coletados: {INT_step}/{INT_maxSteps}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FRONT_END</Data></Cell>
+    <Cell><Data ss:Type="String">OPTION_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Locais Anômalos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FRONT_END</Data></Cell>
+    <Cell><Data ss:Type="String">OPTION_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Controla quantos locais anômalos são colocados no mundo. Locais anômalos são miniaventuras com histórias que podem ser exploradas por heróis em busca de recompensas especiais.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>11</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>17</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

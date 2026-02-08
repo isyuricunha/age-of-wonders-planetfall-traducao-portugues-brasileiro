@@ -1,0 +1,1171 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2019-11-08T13:59:58Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15825</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="229" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="178.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="268.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="350.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="149.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="246"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="122.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="350.25"/>
+   <Column ss:Index="12" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="49.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">PSYNUMBRA_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSYNUMBRA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Psynumbra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSYNUMBRA</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade Psynumbra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSYNUMBRA</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta é uma unidade Psynumbra.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SINISTER_CHORUS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Coro Sinistro</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SINISTER_CHORUS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um coro sinistro permeia o ar ao redor da unidade. Todas as unidades inimigas não-Mente-Adversa adjacentes a esta unidade recebem [abilityred]Melodia Sinistra[/abilityred], reduzindo sua resistência a dano em {SinisterResistance} e aumentando sua chance de erro em {FumbleChance}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SINISTER_MELODY</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma força maligna reduz a resistência a dano desta unidade em {SinisterResistance} e aumenta sua chance de erro em {FumbleChance}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SINISTER_MELODY</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A chance de erro desta unidade com todos os ataques é aumentada em {SinisterAccuracy}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BLEAK_CRESCENDO</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Clímax Sombrio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BLEAK_CRESCENDO</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade concentra toda sua energia, explodindo em um clímax de som e miséria, causando dano a todas as unidades inimigas adjacentes. Isso mata o Eco do Desespero.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FILLED_WITH_DESPAIR</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tomado pelo Desespero</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FILLED_WITH_DESPAIR</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{FilledWithDespairChance}% de chance de força para aplicar [abilityred]Tomado pelo Desespero[/abilityred] em unidades não-Mente-Adversa até o fim do combate. Se resistido, aplica [abilityRed]Mente Quebrada[/abilityRed] por {BrokenMindDuration} em vez disso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FILLED_WITH_DESPAIR</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem {FilledMoralePenalty}, e quando morre, um Eco do Desespero é invocado sob o comando da facção oponente.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SOUL_SPEAR</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lança Anímica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SOUL_SPEAR</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lança uma lança anímica psiónica na unidade inimiga alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEVOUR_HOPE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Devorar Esperança</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEVOUR_HOPE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tenta se alimentar da esperança da unidade inimiga alvo, fazendo-a entrar em um estado de desespero. Se bem-sucedido, o conjurador se cura em {DevourHP}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIONIC_AWARENESS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Percepção Psiónica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSIONIC_AWARENESS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade possui uma percepção sobrenatural que fornece Detecção, permitindo que veja unidades camufladas no mapa mundial.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ETHEREAL_CLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Garras Etéreas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ETHEREAL_CLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Usa garras incorpóreas para atacar os inimigos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ETHEREAL_SLASH</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Corte Etéreo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GLIMPSE_OF_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vislumbre do Abismo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GLIMPSE_OF_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades inimigas em uma área de raio de {hex} hex são mostradas um vislumbre do Abismo, estilhaçando suas mentes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISCORDANT_WHISPER</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sussurro Discordante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DISCORDANT_WHISPER</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O alvo é bombardeado com visões do Abismo, causando dano Psiónico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBLIVIONS_REFRAIN</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Refrão do Oblívio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBLIVIONS_REFRAIN</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Inspira todas as unidades aliadas com [abilityblue]Êxtase Sombrio[/abilityblue], concedendo-lhes {DarkResistance} de resistência e {DarkMorale} por {OblivionTurns}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MENTAL_FORTRESS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fortaleza Mental</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MENTAL_FORTRESS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem +{MentalResistance} de resistência e é imune a Efeitos de Status Psiónicos e Efeitos de Perigo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SOUL_SEEKER</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Caçador de Almas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SOUL_SEEKER</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Manifesta energia Psiónica na direção da unidade alvo, causando dano. Essa energia então salta até {SoulJumpAmount} vezes para unidades próximas dentro de {SoulJumpRange} hexes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CAGE_OF_SUFFERING</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Jaula do Sofrimento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CAGE_OF_SUFFERING</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Prende o alvo em uma jaula de sua própria discórdia. A unidade não pode se mover ou agir, sofre dano no final de seu turno e fica [abilityred]Tomada pelo Desespero[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CAGE_OF_SUFFERING</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Jaula Psiónica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CAGE_OF_SUFFERING</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{CoSChance}% de chance de força para aplicar [abilityred]Jaula Psiónica[/abilityred] em não-Mente-Vazia por {CoSduration} turnos, ou até o lançador ser atordoado ou morto. Se isso for resistido, aplica [abilityred]Mente Quebrada[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CAGE_OF_SUFFERING</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está aflita com [abilityred]Tomada pelo Desespero[/abilityred], sofre {CageDamage} de dano por turno e não pode se mover ou usar ações.[br/]Este efeito é cancelado se o lançador for atordoado ou morto.</Data></Cell>
+   </Row>
+   <Row ss:Index="43" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LURE_OF_THE_DARK</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Chamado das Trevas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">LURE_OF_THE_DARK</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mostra à unidade inimiga alvo a verdade das artes Psynumbra, tentando convertê-la à nossa causa. O efeito termina se o lançador morrer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MARK_OF_THE_DARK_SUN</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Marca do Sol Negro</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MARK_OF_THE_DARK_SUN</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cada vez que a unidade desfere um golpe fatal, ela ganha [abilityblue]Recompensa Sombria[/abilityblue] até o fim do combate, aumentando seu dano em {MarkDamage}% por acúmulo, até um máximo de {stacks} acúmulos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MARK_OF_THE_DARK_SUN</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{damageBonus} de dano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DARK_REWARD</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Recompensa Sombria</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DARK_REWARD</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade causa {DarkDamage} de dano aumentado por acúmulo até o fim do combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONSUMING_GAZE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Olhar Consumidor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CONSUMING_GAZE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade canaliza energia Psiónica sombria através dos olhos, causando dano à unidade inimiga alvo e curando o conjurador em {DevouringHeal}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PATH_OF_OBLIVION</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">O Mantra Proibido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="109.5">
+    <Cell><Data ss:Type="String">PATH_OF_OBLIVION</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques Psiónicos têm {CatatonicChance}[strengthPsyche/] de chance de força ({CatatonicChanceRepeating}[strengthPsyche/] para ataques repetidos) de aplicar [abilityred]Catatônico[/abilityred] em unidades não-Mente-Vazia por {CatatonicDuration}[turn/]. Buffs Psiónicos aplicam [abilityblue]Êxtase Sombrio[/abilityblue] no alvo, concedendo +{PathMorale}[happiness/] e +{PathResistance}[DefensePsyche/] por {PathTurn}[turn/].</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Psionic attacks have a {CatatonicChance} strength change to apply [abilityred]Catatonic[/abilityred] to non-Mindless for {CatatonicDuration}. Psionic Buffs apply [abilityblue]Dark Elation[/abilityblue] to the target, granting them +{PathMorale} Morale and +{PathResistance} Psionic resistance for {PathTurn} turns.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PATH_OF_OBLIVION</Data></Cell>
+    <Cell><Data ss:Type="String">HOSTILE_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{CatatonicChance} de chance de força para aplicar [abilityred]Catatônico[/abilityred] em unidades não-Mente-Vazia por {CatatonicDuration}.</Data></Cell>
+   </Row>
+   <Row ss:Index="56" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PAIN_MIRROR</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Espelho da Dor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PAIN_MIRROR</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sempre que esta unidade sofrer dano dentro de {hexrange} hexes, causa {PainDamage} de dano de volta ao atacante. Este dano também tem {BrokenMindChance}[StrengthPsyche/] de chance de força para aplicar [abilityred]Mente Quebrada[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AVATAR_OF_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Avatar do Abismo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="89.25">
+    <Cell><Data ss:Type="String">AVATAR_OF_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade ganha {AvatarResistance}[defensePsyche/] de resistência e se torna imune a Efeitos de Status Psiónicos e Perigos Táticos. Todos os ataques têm {AbyssChance}[StrengthPsyche/] de chance de força ({AbyssChanceRepeating}[strengthPsyche/] para ataques repetidos) para aplicar [abilityred]Pânico[/abilityred]. Se resistido, aplica [abilityred]Mente Quebrada[/abilityred] em vez disso.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AVATAR_OF_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Verdade Abissal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AVATAR_OF_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{AbyssChance} de chance de força para aplicar [abilityred]Pânico[/abilityred] em unidades não-Mente-Vazia por {AbyssTurn}. Se resistido, aplica [abilityred]Tomado pelo Desespero[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMBRACE_OF_DARKNESS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Abraço das Trevas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EMBRACE_OF_DARKNESS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade inimiga alvo sofre {EmbraceDamage} de dano e [abilityred]Impacto Devastador[/abilityred]. Além disso, há {StrengthChance} de chance de força para aplicar [abilityred]Mente Quebrada[/abilityred], reduzindo moral e resistência Psiónica por {BrokenMindTurns}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GIFT_OF_OBLIVION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dádiva do Esquecimento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GIFT_OF_OBLIVION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O alvo ganha [abilityblue]Espírito do Esquecimento[/abilityblue] por {SpiritOfOblivionTurns}, concedendo-lhe [abilityblue]Dreno Psiónico[/abilityblue], curando a unidade cada vez que ataca uma unidade não-Mente-Vazia, e um aumento de dano de {SpiritOfOblivionDam}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPIRIT_OF_OBLIVION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Espírito do Esquecimento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPIRIT_OF_OBLIVION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Concede [abilityblue]Dreno Psiónico[/abilityblue], curando a unidade cada vez que ataca uma unidade não-Mente-Vazia, e um aumento de dano de {SpiritOfOblivionDam} por {SpiritOfOblivionTurns}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPIRIT_OF_OBLIVION</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{Damage} dano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WHISPER_OF_DISCORD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sussurro da Discórdia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">WHISPER_OF_DISCORD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Invoca um Sussurro da Discórdia, uma criatura Etérea e invisível que é uma excelente batedora.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">WHISPER_OF_DISCORD</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Através do sofrimento harmonioso, conseguimos invocar um agente do Vazio. Um Sussurro da Discórdia veio nos auxiliar em nossa luta para alcançar a harmonia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FLAGELLATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Flagelação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FLAGELLATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades não-Mente da armada aliada alvo recuperam todos os seus [movewalk/] pontos de movimento, mas perdem {HpDamage} de seus [hp/] atuais e têm suas resistências a dano reduzidas em {WeaknessAll} neste turno.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FLAGELLATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_PROPERTY</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades sofrem {WeaknessAll} de resistência a todo dano por {duration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FLAGELLATION</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCES</Data></Cell>
+    <Cell><Data ss:Type="String">Dizimação e tortura motivaram nossas tropas a continuar marchando.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VISION_OF_DARKNESS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Visão das Trevas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VISION_OF_DARKNESS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Libera energia Psiónica sobre a armada alvo, induzindo visões do Abismo sombrio que se estende além. Elas sofrem {VisionOfDarknessDamage} dano e {VisionOfDarknessMorale} por {VisionOfDarkenssDuration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VISION_OF_DARKNESS</Data></Cell>
+    <Cell><Data ss:Type="String">FAILURE_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">Em caso de falha, as unidades alvo sofrem apenas {DamagePercentage} dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VISION_OF_DARKNESS</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades sofrem {DamagePercentage} dano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VISION_OF_DARKNESS</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION_PROPERTY</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades perdem {MoralePenalty} moral por {Duration}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VISION_OF_DARKNESS</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade viu uma visão do Abismo e sofre {VisionOfDarknessMorale}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VISION_OF_DARKNESS</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCES</Data></Cell>
+    <Cell><Data ss:Type="String">Seu Cabal canalizou com sucesso energia Psiónica do Abismo sobre a armada alvo, e eles sofreram perdas significativas tanto em efetivos quanto em moral.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VISION_OF_DARKNESS</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Seu Cabal bombardeou o inimigo com energia Psiónica, mas os miseráveis mostraram-se mais resistentes do que o esperado, e apenas danos leves foram infligidos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VISION_OF_DARKNESS</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCES</Data></Cell>
+    <Cell><Data ss:Type="String">Sua armada foi atacada por energias Psiónicas, concedendo-lhes visões do vazio que os aguarda. Eles sofreram danos significativos e perda de moral.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VISION_OF_DARKNESS</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Seus inimigos tentaram um bombardeio Psiónico contra suas forças, mas suas tropas mostraram-se resilientes diante dessa ameaça e conseguiram minimizar os danos recebidos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHROUD_OF_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Manto do Abismo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SHROUD_OF_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A colônia alvo fica envolta em trevas, tornando todas as unidades aliadas invisíveis enquanto estiverem no domínio da colônia. Unidades inimigas afetadas pelo manto sofrem [abilityred]Cegueira[/abilityred], reduzindo sua precisão em combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SHROUD_OF_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION_01</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está oculta pelo Manto do Abismo enquanto permanecer neste setor, concedendo-lhe Camuflagem Universal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SHROUD_OF_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos Malitores estão concentrando sua energia para envolver o setor-alvo em trevas. Unidades amigas no setor devem ficar ocultas de olhos hostis, enquanto nossos inimigos ficam cegos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SHROUD_OF_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades amigas ganham [abilityblue]Camuflagem Universal[/abilityblue]. Unidades inimigas ficam [abilityred]Cegas[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ABYSSAL_TEAR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rasgo Abissal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ABYSSAL_TEAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Invoca um perigo de [abilityred]Rasgo Abissal[/abilityred] no setor-alvo que gera exércitos saqueadores, reduz o valor econômico do setor e enfraquece unidades.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ABYSSAL_TEAR</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCES</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos Malitores conseguiram romper o véu que encobre o vazio e abriram um Rasgo Abissal!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ABYSSAL_TEAR</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos Malitores falharam na tentativa de romper o véu devido à interferência inimiga. Com o colapso da brecha, uma enorme retroalimentação psiónica detonou, danificando todas as forças na área.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ABYSSAL_TEAR</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCES</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos inimigos rasgaram a própria realidade e invocaram um Rasgo Abissal neste setor!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ABYSSAL_TEAR</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Descobrimos o inimigo usando algum tipo de poder sombrio para rasgar a realidade em um de nossos setores. Embora tenhamos conseguido detê-los, uma enorme retroalimentação psiónica detonou, danificando todas as forças na área.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ABYSSAL_TEAR</Data></Cell>
+    <Cell><Data ss:Type="String">FAILURE_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Em caso de falha, todas as unidades no setor sofrem {damagePercentage} de dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ABYSSAL_TEAR</Data></Cell>
+    <Cell><Data ss:Type="String">FAILURE_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades sofrem {damagePercentage} de dano</Data></Cell>
+   </Row>
+   <Row ss:Index="100" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DARK_ICON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ícone Sombrio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">DARK_ICON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade amiga-alvo é envolta em sombras por {DarkIconDuration}. Qualquer unidade inimiga a até {DarkIconRange} hexes da unidade-alvo ganha [abilityred]Melodia Assombrosa[/abilityred], reduzindo todas as resistências e aumentando a chance de erro. Qualquer unidade amiga a até {DarkIconRange} hexes do alvo ganha [abilityblue]Êxtase Sombrio[/abilityblue], concedendo {DarkElationMorale} de moral e {DarkElationResistBonus}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DARK_ICON</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está envolta em sombras. Todas as unidades inimigas adjacentes recebem [abilityred]Melodia Assombrosa[/abilityred]. Todas as unidades amigas adjacentes ganham [abilityblue]Êxtase Sombrio[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAUNTING_MELODY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Melodia Assombrosa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HAUNTING_MELODY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade está próxima a um Ícone Sombrio de Psynumbra. Enquanto permanecer ao alcance, sofre {HauntingMelodyDamPen} em todas as resistências e ganha {HauntingMelodyAccuracy} de chance de erro.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAUNTING_MELODY</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{AccuracyPercentage} de chance de erro</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DARK_ELATION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Êxtase Sombrio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DARK_ELATION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem {DarkMorale} e {DarkResistance} de resistência.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DARK_ELATION</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade-alvo ganha [abilityblue]Êxtase Sombrio[/abilityblue] por {Duration}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SACRIFICE_TO_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sacrifício ao Abismo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SACRIFICE_TO_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Destrói uma unidade Biológica ou Ciborgue aliada para invocar um Arauto do Oblívio em seu lugar. Unidades inimigas adjacentes têm {SacrificetotheAbyssChance} de chance de ficarem [abilityred]Apavoradas[/abilityred] por {PanicTurns}. O Arauto do Oblívio desaparece após {HeraldTime}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SACRIFICE_TO_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade Temporária</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SACRIFICE_TO_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade morrerá ao final do combate ou após {Duration}[turn/] de ser invocada.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARIA_OF_EMPTINESS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ária do Vazio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ARIA_OF_EMPTINESS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Ária do Vazio ecoa pelo campo de batalha e todas as unidades inimigas não-Mente-Vazia têm {AriaofEmptinessChance} de chance de ficarem [abilityred]Catatônicas[/abilityred] por {CatatonicTurns}, tornando a unidade incapaz de agir. Em caso de falha, a unidade sofre [abilityred]Mente Quebrada[/abilityred] por {BrokenMindDuration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ritos de Iniciação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades Psynumbra recém-recrutadas começam com {RankIncrease}. Além disso, suas unidades Psynumbra invocam um Eco do Desespero ao morrer, que dura até o fim do combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_1_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao morrer, esta unidade invoca um Eco do Desespero que dura até o fim do combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_1_UNIT_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades Psynumbra ganham {RankIncrease}[medaliron/] de posto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Doutrinação Sádica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A doutrinação intensiva de unidades militares regulares por meio de técnicas Psynumbra pode aumentar drasticamente suas capacidades ofensivas.[br/][br/]Todas as suas unidades não-Mente-Vazia ganham [abilityblue]Sadismo[/abilityblue], fazendo com que causem {SadismDamage} de dano extra a unidades com baixa moral.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Regimes de Tortura</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A tortura sistemática e controlada de nossas forças militares pode liberar seu potencial psíquico oculto.[br/][br/]Todas as suas unidades ganham {PsionicResistance} resistência a todo dano e causam {PsionicDamage} de dano extra com ataques Psíquicos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_3_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade ganha {PsionicResistance} de resistência a todo dano e seus ataques Psíquicos causam {PsionicDamage} de dano extra.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cânticos Sinistros</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_4_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Por decreto letal, nosso povo recita nosso credo repetidamente em uníssono. Esses cânticos sombrios desencorajarão qualquer um de interferir em nossos planos.[br/][br/]Unidades inimigas dentro de nossos Domínios Coloniais sofrem {MoralePenalty} e {PsionicResistance} de resistência.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_4_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade sofre uma penalidade de {MoralePenalty} e {PsionicResistance} de resistência.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SADISM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sadismo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SADISM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade causa {SadismDamageBoost} de dano adicional contra unidades com baixa moral.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SADISM</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String"> +{SadismDamageBoost} de dano contra alvos com baixa moral.</Data></Cell>
+   </Row>
+   <Row ss:Index="131" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">VICTORY_CONDITION</Data></Cell>
+    <Cell><Data ss:Type="String">Cubra o mundo em trevas e desespero.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="40.6875">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades não-Psynumbra têm {BrokenMindstrength}[strengthPsyche/] de chance de ficarem com [abilityred]Mente Quebrada[/abilityred] a cada 2 [turn/] em combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="68.4375">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String"> -{unhappiness}[anger/] de felicidade.[br/]Lei Marcial sempre elimina Revoltosos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="95.4375">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades Psynumbra têm [abilityblue]Êxtase Sombrio[/abilityblue] em combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_DIRGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">O Canto Fúnebre</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_DIRGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Infecte uma Colônia não-Psynumbra e a área ao redor com O Canto Fúnebre por {duration}, uma escuridão induzida psiquicamente que aumenta de força conforme você constrói mais Agulhas do Sofrimento.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THE_DIRGE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCES</Data></Cell>
+    <Cell><Data ss:Type="String">A canção foi cantada, o Canto Fúnebre ressoa sobre a colônia-alvo. Os cidadãos rejubilam-se na glória do esquecimento.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_DIRGE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">As almas da colônia-alvo estão protegidas contra nós, e o Canto Fúnebre falhou. Seus ecos tiveram algum efeito pequeno, no entanto, causando pânico nas ruas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_DIRGE</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCES</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Um poderoso ataque Psiónico foi lançado contra uma de nossas colônias. A população cambaleia pelas ruas em transe, murmurando uma melodia dissonante e encarando o vazio.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_DIRGE</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">O inimigo tentou um ataque Psiónico em nossa colônia. Nós frustramos a tentativa, mas o contra-ataque ainda afetou alguns cidadãos, levando a pânico e revoltas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPIRE_OF_SUFFERING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Agulha do Sofrimento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPIRE_OF_SUFFERING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Agulha do Sofrimento desbloqueia a arma apocalíptica O Canto Fúnebre. Cada Agulha do Sofrimento adicional que você construir aumenta o nível da arma, tornando-a mais poderosa.[br/][br/]Apenas uma Agulha do Sofrimento pode ser construída por colônia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBLIVIO_MUNDI</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oblívio Mundi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OBLIVIO_MUNDI</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O passo final do plano Psynumbra libera o Canto Fúnebre mais poderoso sobre o planeta.[br/][br/]Requer O Canto Fúnebre nível 3.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBLIVIO_MUNDI</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCES</Data></Cell>
+    <Cell><Data ss:Type="String">À medida que a sinfonia cresce, o Canto Fúnebre varre o planeta, preenchendo as almas das pessoas com a harmonia do esquecimento. O clímax se aproxima, a vitória do Abismo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ETHEREAL_SPEAR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Estocada com a Lança Etérea</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ETHEREAL_SPEAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataca com a Lança Etérea.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ETHEREAL_SPEAR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_EQUIPMENT</Data></Cell>
+    <Cell><Data ss:Type="String">Lança Etérea</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SOUL_SPLITTER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fendede-Almas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ONYX_OF_SUFFERING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ônix do Sofrimento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIONIC_MASTERY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Domínio Psiónico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSIONIC_MASTERY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O conhecimento Kir'Ko das artes psiónicas sombrias aprimora esta unidade, aumentando o dano em {PsionicMasteryDamage}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIONIC_MASTERY</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{PsionicMasteryDamage} de dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECONSTRUCT_THE_SOUL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reconstruir a Alma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RECONSTRUCT_THE_SOUL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Assembly são mestres da reassemblagem e, quando esta unidade morre, eles retornam como um Eco do Desespero.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FUELED_BY_SERVITUDE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Alimentado pela Servidão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FUELED_BY_SERVITUDE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Unidades Psynumbra do Syndicate encontram alegria e encorajamento na servidão que os Indentured proporcionam. Esta unidade causa {FueledServitudeDmg} para cada unidade Indentured em batalha, até um máximo de {addedDamage}[damagepsyche/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FUELED_BY_SERVITUDE</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{FueledServitudeDmg} de dano para cada unidade Indentured em batalha.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DARK_LOCUSTS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Gafanhotos Sombrios</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DARK_LOCUSTS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tentar amaldiçoar a unidade alvo com insetos feitos de energia psiónica, causando dano ao longo do tempo. Se o alvo morrer enquanto afetado, os insetos explodem, causando dano e espalhando [abilityred]Tomado pelo Desespero[/abilityred] para unidades inimigas em até {hexrange} hexes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DARK_LOCUSTS</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{DarkLocustsChance}% de chance de aplicar [abilityred]Gafanhotos Sombrios[/abilityred] em não-Mente-Vazia por {durationDarkLocusts}. Se resistir, aplicar [abilityred]Mente Quebrada[/abilityred] em vez disso.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DARK_LOCUSTS</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está sofrendo {DarkLocustDamage} de dano por turno.[br/]Se esta unidade morrer, ela espalha discórdia para todas as unidades aliadas em até {hexrange} hexes, danificando-as e aplicando [abilityred]Tomado pelo Desespero[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DARK_VINE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vinha Sombria</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DARK_VINE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mirar em uma unidade terrestre para acorrentá-la com uma vinha sombria que ataca sua mente.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DARK_THORNS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Espinhos Sombrios</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DARK_THORNS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Criar vinhas sombrias em uma área de 1 hex que sufocam a mente das unidades afetadas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ABYSSAL_REVERB</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reverberação Abissal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ABYSSAL_REVERB</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Teleportar para o hex alvo, causando dano a unidades inimigas adjacentes.</Data></Cell>
+   </Row>
+   <Row ss:Index="170" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TORMENT_CHANNELERS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Canalizadores do Tormento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TORMENT_CHANNELERS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Canalize a dor da população para reforçar nossos exércitos. A colônia-alvo ganha [abilityred]{happinessPenalty}[/abilityred], e todas as unidades produzidas na colônia ganham [abilityblue]Reforçadas pelo Sofrimento[/abilityblue], concedendo-lhes +{hitpointBonus} e +{damageBonus} de dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TORMENT_CHANNELERS</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades ganham +{hitpointBonus}[hp/] e +{damageBonus} de dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TORMENT_CHANNELERS</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Os Malictores estabeleceram os canais, e o sofrimento ambiente da população está sendo amplificado, capturado e canalizado, pronto para ser usado na produção de nossos exércitos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TORMENT_CHANNELERS</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Colônia ganha {happinessPenalty}, unidades produzidas ganham [abilityblue]Reforçadas pelo Sofrimento[/abilityblue]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TORMENT_CHANNELERS</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reforçadas pelo Sofrimento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TORMENT_CHANNELERS</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade foi fortalecida pelo sofrimento e desespero canalizados de almas inocentes durante sua produção. Ela tem +{hitpointBonus} e +{damageBonus} de dano.</Data></Cell>
+   </Row>
+   <Row ss:Index="178" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSY_EVENT_INITIAL_NOTIFICATION</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Condição de Vitória: Oblivio Mundi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSY_EVENT_UPGRADE_CAPTURED</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">Uma de nossas Agulhas do Sofrimento foi capturada!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSY_EVENT_UPGRADE_LOST</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">Você perdeu uma Agulha do Sofrimento!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSY_EVENT_UPGRADE_LOST</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_Player} perdeu uma Agulha do Sofrimento!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSY_EVENT_UPGRADE_LOST_NOT_GLOBAL</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">Você perdeu uma Agulha do Sofrimento. Nossa tentativa de liberar O Canto Fúnebre foi cancelada!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSY_EVENT_UPGRADE_LOST_GLOBAL</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_Player} perdeu uma Agulha do Sofrimento. A tentativa deles de liberar O Canto Fúnebre foi frustrada!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSY_EVENT_INITIAL_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Um jogador liberou O Canto Fúnebre!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PSY_EVENT_UPGRADE_BUILT_01</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">A construção de uma Agulha do Sofrimento deu a {playerName} acesso à sua Arma do Juízo Final, O Canto Fúnebre. Ela está fraca agora, mas se tornará mais poderosa conforme mais Agulhas do Sofrimento forem construídas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PSY_EVENT_UPGRADE_BUILT_02</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Ao construir uma segunda Agulha do Sofrimento, {playerName} fortaleceu sua Arma do Juízo Final, O Canto Fúnebre. Você deve planejar ataques para destruir essas estruturas antes que se tornem poderosas demais.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PSY_EVENT_UPGRADE_BUILT_03</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Ao construir sua última Agulha do Sofrimento, {playerName} maximizou o poder de sua Arma do Juízo Final, O Canto Fúnebre. Eles estão perto de liberá-la completamente e vencer o jogo. A hora de atacar é agora!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PSY_EVENT_UPGRADE_CAPTURED_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">O Cronômetro do Juízo Final foi pausado! Você deve reconquistar a Agulha do Sofrimento perdida, ou perderá a chance de liberar O Canto Fúnebre sobre seus inimigos!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSY_EVENT_UPGRADE_LOST_GLOBAL_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">A perda de uma Agulha do Sofrimento cancelou O Canto Fúnebre, encerrando o Cronômetro do Juízo Final.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSY_EVENT_UPGRADE_LOST_NOT_GLOBAL_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">A perda de uma Agulha do Sofrimento enfraqueceu O Canto Fúnebre, e suas operações do Juízo Final foram canceladas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PSY_EVENT_FINISHER_CAST_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos inimigos ativaram sua Arma do Juízo Final. O Canto Fúnebre se espalhou pelo planeta, e sua própria Arma do Juízo Final foi destruída pelo cataclismo. Você tem {numTurns} para destruir uma de suas Agulhas do Sofrimento, ou eles vencerão o jogo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSY_EVENT_RUNNING_VICTORY_TIMER</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">O Réquiem está ativo, e você vencerá em {numTurns} a menos que perca uma de suas Agulhas do Sofrimento.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSY_EVENT_RUNNING_VICTORY_TIMER</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">O Réquiem está ativo, e {playerName} vencerá em {numTurns} a menos que você consiga destruir uma de suas Agulhas do Sofrimento.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PSY_EVENT_VICTORY_TIMER_PAUSED</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Agulha do Sofrimento foi capturada. Se for destruída, nosso cronômetro do Juízo Final será cancelado. Se você a recapturar, poderá retomar a contagem regressiva.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PSY_EVENT_VICTORY_TIMER_PAUSED</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Agulha do Sofrimento foi capturada. Se for destruída, o cronômetro do Juízo Final será cancelado. Se {playerName} a recapturar, então eles poderão retomar a contagem regressiva.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PSY_EVENT_FINISHER_PRIMING</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">{playerName} está preparando a Arma do Juízo Final Réquiem. Se permitirem que concluam, sua própria Arma do Juízo Final será eliminada, e {playerName} estará a um passo da vitória total!</Data></Cell>
+   </Row>
+   <Row ss:Index="198" ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PSY_END_GAME</Data></Cell>
+    <Cell><Data ss:Type="String">VICTORY_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">A última luz se apagou.[br/]Você ouve o lamento dos quebrantados.[br/]Você se banqueteia com os restos esfarrapados de seus inimigos.[br/]E, no entanto, nada disso importa.[br/]Você é vitorioso.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">VO: Empress Carminia</Data></Cell>
+   </Row>
+   <Row ss:Index="200" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MARK_OF_THE_DARK_SUN</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Marcado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MARK_OF_THE_DARK_SUN</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Marcado pelo Fogo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MARK_OF_THE_DARK_SUN</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Ordenado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MARK_OF_THE_DARK_SUN</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Significado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MARK_OF_THE_DARK_SUN</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Ávido por Poder</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MARK_OF_THE_DARK_SUN</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Escurecido pelo Fogo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONSUMING_GAZE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Perscrutador de Almas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONSUMING_GAZE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Olhar de Punhal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONSUMING_GAZE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Quebrador de Mentes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONSUMING_GAZE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Cativante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONSUMING_GAZE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Olhar Noturno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONSUMING_GAZE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Ameaçador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PAIN_MIRROR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Ferrão Psi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PAIN_MIRROR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Portador da Dor Fantasma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PAIN_MIRROR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Dor Gêmea</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PAIN_MIRROR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Replicador Sombrio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PAIN_MIRROR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Refletor Negro</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PAIN_MIRROR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Vingador Doloroso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AVATAR_OF_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Arauto do Desespero</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AVATAR_OF_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Andarilho da Morte</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AVATAR_OF_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Ícone da Perdição</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AVATAR_OF_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Disseminador de Mania</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AVATAR_OF_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">O Presságio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AVATAR_OF_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Abissal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s66"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>3</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>22</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,346 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Tom Bird</LastAuthor>
+  <LastSaved>2019-11-05T09:04:53Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11025</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="57" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="219.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="162"/>
+   <Column ss:StyleID="s62" ss:Width="198"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="387.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="313.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="309"/>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SYMBIOSIS_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">AMAZON_SKILLS</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">GROUP_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Amazons</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROTECTIVE_GROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Crescimento Protetor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PROTECTIVE_GROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Invoca raízes grossas para proteger uma unidade terrestre aliada, curando-a em {HealAmount}[hp/] e impedindo-a de se mover por {Immoturn}[turn/].[br/]Enquanto imobilizada dessa forma, a unidade recebe +{ArmorProtection}[armor/] e regenera {healthregen}% de seu máximo [hp/] por turno.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PROTECTIVE_GROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade não pode se mover, recebe um adicional de {ArmorProtection}[armor/] e está recuperando {healthregen}% de seu máximo [hp/] a cada turno.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRIMAL_OVERDRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sobreposição Primal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">PRIMAL_OVERDRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tenta [abilityred]Controle Mental[/abilityred] em uma unidade Animal de Tier I ou Tier II que não seja Sem Mente ou Mecânica, com chance de {PrimalChance}[StrengthBio/] de sucesso.[br/]Se o alvo estiver sob efeito de [abilityred]Enredar[/abilityred] ou [abilityred]Dormir[/abilityred], a chance de sucesso aumenta para {PrimalSuperiorChance}[StrengthBio/].[br/]Se controlada mentalmente dessa forma, a unidade passa permanentemente para seu controle. Se resistir, aplica [abilityred]Insanidade[/abilityred] em vez disso.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRIMAL_OVERDRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Controle Animal</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRIMAL_OVERDRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este animal está sob seu controle.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NOURISHING_FIELD_PYLON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pilar de Campo Nutritivo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">NOURISHING_FIELD_PYLON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Implanta um pilar de cura no campo de batalha. O pilar não pode agir ou se mover. Todas as unidades Biológicas e Ciborgues aliadas em até {range} hexágonos serão curadas em {healing} quando esta habilidade for usada, bem como no início de cada turno.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMPLIFYING_FIELD_PYLON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pilar de Campo Amplificador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMPLIFYING_FIELD_PYLON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Implanta um pilar amplificador no campo de batalha. O pilar não pode agir ou se mover. Unidades Biológicas e Ciborgues aliadas adjacentes a este pilar recebem {damage} de dano adicional enquanto permanecerem adjacentes a ele.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LURING_FIELD_PYLON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pilar de Campo Atraente</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LURING_FIELD_PYLON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Implanta um pilar de atração de vida selvagem no campo de batalha. O pilar não pode agir ou se mover. Ele invoca uma unidade selvagem aleatória de Tier II no início de cada turno. O pilar dura por {duration} turnos ou até ser destruído.</Data></Cell>
+   </Row>
+   <Row ss:Index="23" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RAPID_REFORESTATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reflorestamento Rápido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RAPID_REFORESTATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Transforma o setor alvo em um setor de Floresta ([supply/]/[production/]).[br/][br/][productioncol]Não pode ser lançado em setores Urbanos, Montanhosos ou Inimigos.[/productioncol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RAPID_REFORESTATION</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos Biomantes plantaram com sucesso nossas árvores geneticamente aprimoradas, transformando rapidamente todo o setor em uma floresta que podemos chamar de lar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Crescimento Enredante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Reduz a renda [supply/] da colônia inimiga alvo em {FoodIncomeReduction} por {EntanglingTurn}[turn/]. Durante esse período, unidades inimigas no domínio dessa colônia gastam {MovePointCost} adicional ao se mover.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_STRING</Data></Cell>
+    <Cell><Data ss:Type="String">{FoodIncomeReduction} de renda por {EntaglingTurn}[turn/].[br/]Unidades inimigas gastam {MovePointCost} a mais por hexágono dentro deste domínio por {EntaglingTurn}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">O crescimento aprimorado bionicamente invadiu a colônia inimiga alvo. Esse crescimento agressivo arruinará suas plantações e dificultará o movimento das tropas inimigas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">O crescimento aprimorado não conseguiu se estabelecer. A população da colônia inimiga alvo está sofrendo alguma agitação.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos campos foram contaminados com algum tipo de crescimento agressivo que está arruinando nossas plantações e dificultando o movimento de nossas tropas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos inimigos tentaram implantar uma espécie de planta agressiva na colônia, mas ela murchou antes de se estabelecer. Nosso povo, no entanto, não está feliz.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTRODUCE_PREADATORS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Predador Clonado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell><Data ss:Type="String">INTRODUCE_PREADATORS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Invoca um predador poderoso no local alvo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="35.25">
+    <Cell><Data ss:Type="String">INTRODUCE_PREADATORS</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Predador local clonado e implantado com sucesso, pronto para ser usado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARCADIAN_RESTORATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Restauração Arcadiana</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARCADIAN_RESTORATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O setor alvo é terraformado em um setor Arcadiano ([supply/] / [energy/]).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ARCADIAN_RESTORATION</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos Biomantes terraformaram com sucesso o setor alvo em um setor Arcadiano.</Data></Cell>
+   </Row>
+   <Row ss:Index="41" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ECOLOGICAL_CONSTRUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Construção Ecológica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ECOLOGICAL_CONSTRUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O uso inteligente de madeira e materiais locais permite o desenvolvimento de infraestrutura verde e econômica, sem prejudicar ou explorar a natureza.[br/][br/]Cada uma de suas colônias ganha {Production} para cada setor de floresta dentro de seu domínio.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROGRESSIVE_CULTIVATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cultivo Progressivo</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PROGRESSIVE_CULTIVATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Podemos investir em plantações geneticamente modificadas que exploram ao máximo as terras férteis, tornando nossas colheitas mais abundantes.[br/][br/]Suas colônias ganham {GlobalFoodIncomeIncrease}, e um adicional de {FoodIncomeIncrease} para cada setor Arcadiano conectado a elas.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLANETARY_CLEANUP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Limpeza Planetária</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PLANETARY_CLEANUP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A União caída deixou muitas coisas para trás, algumas úteis, mas outras prejudiciais tanto para a natureza quanto para as criaturas. Vemos como nosso dever livrar o mundo desses remanescentes disruptivos e restaurar o mundo à sua maravilha natural.[br/][br/]A remoção de Perigos Mundiais fica {EnergyCostReduction} mais barata.[br/]As operações estratégicas [abilityblue]Reflorestamento Rápido[/abilityblue] e [abilityblue]Restauração Arcadiana[/abilityblue] agora estão {EnergyCostStratOpReduction} mais baratas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="23.25">
+    <Cell><Data ss:Type="String">WILDLIFE_MILITARIZATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Militarização Avançada da Vida Selvagem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="93.75">
+    <Cell><Data ss:Type="String">WILDLIFE_MILITARIZATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao dedicar recursos extras ao bem-estar animal e implantação, podemos integrar ainda mais seres não-sapientes às nossas forças militares, aumentando seu bem-estar geral e sua eficácia em combate.[br/][br/]Todas as unidades Animal e Montada ganham {moraleBonus}, {healthBonus} e recuperam [xp/] {xpBonus} mais rápido.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="93.75">
+    <Cell><Data ss:Type="String">WILDLIFE_MILITARIZATION</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é treinada e cuidada com maestria por tratadores Amazonas. Ela tem {moraleBonus}, {healthBonus} e recupera [xp/] {xpBonus} mais rápido.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARBOREAL_HABITATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Éden Arbóreo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="95.4375">
+    <Cell><Data ss:Type="String">ARBOREAL_HABITATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Através da integração holística da floresta e de seus organismos em todos os aspectos da sociedade Amazon, uma simbiose perfeita pode ser alcançada.[br/][br/]Setores florestais concedem {happinessBonus} quando vinculados a colônias.[br/]O custo de movimento das florestas é ainda mais reduzido, e suas unidades ganham um adicional de {moraleBonus} de moral ao lutar dentro delas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30.5625">
+    <Cell><Data ss:Type="String">BIO_CRUSADE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bio Cruzada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">BIO_CRUSADE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Devemos concentrar nossos esforços em purificar este planeta de todas as máquinas e não orgânicos. Eles são seres antinaturais que precisam ser destruídos para que a natureza prospere.[br/][br/]Suas unidades causam {DamageIncrease} de dano adicional ao lutar contra unidades Mecânicas e Ciborgues.[br/]Suas unidades Montadas ou Animais com ataques Corpo a Corpo ganham [abilityblue]Frenesi[/abilityblue]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="33">
+    <Cell><Data ss:Type="String">BIO_CRUSADE</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades Amazon e Animais causam {DamageIncrease} de dano adicional ao lutar contra unidades Mecânicas e Ciborgues.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIO_CRUSADE</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{DamageIncrease} de dano adicional contra unidades Mecânicas e Ciborgues.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ECOLOGICAL_WARFARE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Guerra Ecológica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="33">
+    <Cell><Data ss:Type="String">ECOLOGICAL_WARFARE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Treine seus soldados em técnicas para extrair substâncias químicas de plantas e animais locais para fins de combate.[br/][br/]Os ataques Corpo a Corpo e Biológicos de suas unidades têm uma chance {strength} de aplicar [abilityred]Veneno[/abilityred] em alvos Biológicos e Ciborgues, reduzindo sua moral e causando dano contínuo.[br/][br/]Além disso, suas unidades não mecânicas se curam em {heal} adicional por turno no mapa mundial.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Selected/>
+   <TopRowVisible>6</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>12</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

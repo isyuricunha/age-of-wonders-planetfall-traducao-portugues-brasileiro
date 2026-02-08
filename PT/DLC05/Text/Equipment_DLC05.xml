@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2020-07-02T13:33:59Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14265</WindowHeight>
+  <WindowWidth>28770</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="26" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="259.5" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="139.5"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:Index="4" ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="191.25"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">EQUIPMENT_DLC05</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Height="150">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">VOLT_PISTOL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pistola de Volt</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">VOLT_PISTOL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Atirar no alvo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">VOLT_PIKE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lança de Volt</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">VOLT_PIKE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Fornece um ataque corpo a corpo e um ataque à distância.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AUGURS_CATALYST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Catalisador do Áugure</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DIVINERS_THREADS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fios da Vidente</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">WATCHERS_SCROLLS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pergaminhos do Vigia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENTROPIC_REVOLVER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Revólver Entrópico</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">STAFF_OF_TURMOIL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cajado do Tumulto</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">ENTOPATHOGENIC_MYCELIA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Micélios Entopatogênicos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Entopathogenic is based on "Entomopathogenic" but made our own name.</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">ENTOPATHOGENIC_MYCELIA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todos os ataques têm {SingleStrength}[StrengthBio/]% de chance de causar [abilityred]Insanidade[/abilityred] ({RepeatingStrength}[StrengthBio/]% para ataques repetidos).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SPORULATION_FLARES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sinalizadores de Esporulação</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">SPORULATION_FLARES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quando danificado por um inimigo, esta unidade dispara um clarão de Bioluminescência com {BlindStrength}[StrengthPhysical/]% de chance de causar [abilityred]Cegueira[/abilityred] em unidades dentro de {Range} hexágonos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Natural light such as from deep sea fish</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GLUTTONY_ETHOS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ética da Gula</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">GLUTTONY_ETHOS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques corpo a corpo curam {SingleHeal} ao acertar ({HealRepeating} em ataques repetidos). Concede uma pilha de [abilityblue]Glutão[/abilityblue] em caso de sucesso.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Glutted as in full from eating</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INFESTED_LANCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lança Infestada</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">INFESTED_LANCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma lança revestida de carne fúngica.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THE_HUNGER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">A Fome</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">THE_HUNGER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Drene a mente do inimigo. Cria um Sugador de Cristal se o alvo for morto por A Fome.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SEED_SHRAPNEL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Estilhaços de Semente</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">SEED_SHRAPNEL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dilacere inimigos com uma vagem de sementes explosiva. Ataques têm {Bleedstrength}[StrengthPhysical/] de chance de causar [abilityred]Sangramento[/abilityred]</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">_</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Loucura</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">BIO_INSANITY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{InsanityChance}[StrengthBiochemical/] de chance de força para aplicar [abilityred]Loucura[/abilityred] em unidades não-Mente-Cega por {durationInsanity}[turn/]. Se resistido, aplica [abilityred]Mente Quebrada[/abilityred] em vez disso.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>6</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>19</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

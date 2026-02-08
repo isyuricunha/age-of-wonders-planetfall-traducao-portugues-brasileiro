@@ -1,0 +1,454 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2019-05-13T08:49:03Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12197</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="41" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.857142857142854" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="137.14285714285714"/>
+   <Column ss:StyleID="s62" ss:Width="195.85714285714286"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="261.85714285714283"/>
+   <Column ss:StyleID="s62" ss:Width="147.85714285714283"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="226.71428571428572"/>
+   <Column ss:StyleID="s62" ss:Width="171.85714285714286"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="261.85714285714283"/>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">XENOPLAGUE_TECHGROUPS</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">XENOPLAGUE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{XML_XENOPLAGUE_TECHGROUPS@XENOPLAGUE@DESC}[br/][br/]{XML_XENOPLAGUE_TECHGROUPS@XENOPLAGUE@FEATURES}</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">No need to translate. This inserts the XENOPLAGUE_TECHGROUPS@XENOPLAGUE@DESC and XENOPLAGUE_TECHGROUPS@XENOPLAGUE@FEATURES texts with some white space.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">XENOPLAGUE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DESC</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">A [hyperlink,000003AC0000032A]Xenopraga[/hyperlink] se espalha por meio de um parasita alienígena altamente adaptável, e pode ser usada para criar armas biológicas, desenvolver super soldados e evoluir populações planetárias.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">XENOPLAGUE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">FEATURES</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">[bulletlist][bullet][sand]Unidade Inicial:[/sand] [hyperlink,0000039A00000230]Pústula[/hyperlink][/bullet][bullet]Invocar e evoluir unidades especiais após batalha[/bullet][bullet]Curar e aprimorar unidades Biológicas[/bullet][bullet]Implantar bioarmas infecciosas[/bullet][bullet]Usa os canais de dano Bioquímico e Cinético[/bullet][/bulletlist]</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_1_FORCES_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mutação Pústula</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_1_FORCES_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“A praga evoluiu mobilidade agressiva a um ponto em que cidadãos comuns desarmados da Star Union não sobreviveriam a um encontro próximo.”[br/]– Dra. Elemandus Fink, Geneticista da Divisão de Pesquisa Avançada da Terratech</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Amazon</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_1_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mutação: Pústula</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_1_FORCES_SUBSKILL_2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Equipamento: Pestilência</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_1_TACTICAL_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Início da Cepa Alfa</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="100.71428571428571">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_1_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“Não são as doenças que destroem civilizações. Essa Cepa Alfa pode infectar tudo o que é vivo. Alguns ficarão mais fortes, enquanto outros serão afligidos e morrerão. Essa incerteza ergue barreiras de quarentena e desperta a crueldade doentia já alojada no fundo do coração humano.”[br/]– Dr. Marvin Mentor, Centro de Controle de Doenças da União</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male (Smartypants)
+
+Edit: added space before "Dr."</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_2_TACTICAL_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Dispersão</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_2_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“As cápsulas são uma forma conveniente de transportar químicos para áreas intocadas. A única desvantagem do mecanismo de entrega é que as crianças tendem a ingeri-las.”[br/]– Dr. Q. Tulwark, Líder da Equipe de Inovação da Xenocorp</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_2_STRATEGIC_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Cepas Militarizadas</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_2_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“Uma força militar inferior pode facilmente destruir uma superior se os soldados da força superior estiverem enfraquecidos por doenças. O único truque é abatê-los com seu rifle enquanto se contorcem de dor por causa da praga.”[br/]– Cabo Bergen Vort, Divisão da Praga</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_3_TACTICAL_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Estimulação Regenerativa</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_3_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“A Xenopraga é uma máquina orgânica. Não precisa ser virulenta. Nossa última inovação demonstra a propensão do vírus para curar tecidos danificados e purificar o corpo de efeitos nocivos enquanto captura e reprograma os atributos genéticos de seu hospedeiro.”[br/]– Dra. Eva Montinga, Geneticista-Chefe da Divisão de Pesquisa Avançada da Terratech</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Female</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_4_FORCES_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mutação Destruidora</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_4_FORCES_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“Não perdemos o controle deste projeto. Essa etapa de sua evolução é natural. A carne é mais fácil de infectar quando está dilacerada.”[br/]– Dra. Eva Montinga, Geneticista-Chefe da Divisão de Pesquisa Avançada da Terratech</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Female</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_4_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mutação: Destruidora</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_4_FORCES_SUBSKILL_2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Equipamento: Acrimonioso</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_4_STRATEGIC_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Cepa Ômega</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_4_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“Posso sentir o trabalho da minha vida dentro de mim. Não tenho mais propósito além de infectar outros. Vou explodir violentamente para viajar pelo ar como esporos ou meu corpo vai se liquefazer e se espalhar pelo abastecimento de água?”[br/]– Última anotação no diário do Professor Darrick Amptor</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_5_TACTICAL_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Agressão Proliferada</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_5_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“Podemos sequestrar as cepas da praga para entregar hormônios comportamentais e manipular as mentes de toda a vida orgânica. Claro, criamos principalmente sujeitos hiperagressivos, mas com mais financiamento para o projeto, talvez descubramos como pacificá-los.”[br/]– Dra. Eva Montinga, Geneticista-Chefe da Divisão de Pesquisa Avançada da Terratech</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Female</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_6_TACTICAL_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Superioridade Simbiótica</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_6_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“Bom, os caras legais do marketing corporativo me obrigaram a mudar o nome da minha invenção para ‘Feixe de Hiperestimulação’. Eu queria chamá-lo de ‘Feixe de Café’.”[br/]– Dr. Q. Tulwark, Líder da Equipe de Inovação da Xenocorp</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_6_FORCES_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mutação do Senhor da Praga</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_6_FORCES_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“A lenda diz que matamos nossos deuses, substituindo-os por tecnologias divertidas. Os deuses, testemunhando sua queda, plantaram a desgraça em nós: uma semente chamada Hubris. Ao presenciar a criação desta abominação, ouço os deuses mortos rindo.”[br/]– Mah Reg’Nib, Abandonando a Xenocorp</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_6_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mutação: Senhor da Praga</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_6_FORCES_SUBSKILL_2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Equipamento: Moléstia</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_6_STRATEGIC_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Cepas Militarizadas Avançadas</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_6_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“Pústulas inchadas rastejam pelas colinas de nossas terras em quarentena. Nossos gritos por ajuda convocam pústulas inchadas para afastar nossos inimigos. Se eu não soubesse melhor, suspeitaria que estão nos protegendo até poderem transformar nossos corpos em seu suprimento de comida.”[br/]– Professor Sandro “Cosmo” Welker, TBCU: Contenção</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_7_STRATEGIC_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Transcendência Ômega</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_7_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“Ao liberar a Cepa Ômega no bioma, toda a vida é forçada a fazer escolhas há muito adiadas. A escassez de alimentos e as doenças farão o trabalho que defendemos o tempo todo. Para sobreviver, os fracos serão purgados e os fortes prevalecerão.”[br/]– Dra. Eva Montinga, Geneticista-Chefe da Divisão de Pesquisa Avançada da Terratech</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Female</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_8_STRATEGIC_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Germinação Acelerada</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_8_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“Aplicar este soro em uma Pústula da Xenopraga fará com que ela evolua instantaneamente para um Destruidor. As pústulas não precisam mais vagar pelo campo matando pessoas para evoluir. Claro, o soro exige a extração de tecido cerebral de doadores vivos.”[br/]– Dra. Eliza R. Snowden, Laboratórios Kolobo</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Amazon</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_1_DOCTRINE_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Reaproveitamento de Biomassa</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_1_DOCTRINE_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“Soldados feridos agora podem extrair nutrientes médicos de corpos inimigos infectados usando o Reaproveitamento de Biomassa. Esta variante da Xenopraga pode transformar material orgânico em sustento. Até o sabor é programável. Então, bom apetite!”[br/]– Dra. Eva Montinga, Geneticista-Chefe da Divisão de Pesquisa Avançada da Terratech</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Female
+
+Edit: removed extra space before "Dr."</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_2_DOCTRINE_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Experimentos de Infecção</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SKILLGROUP_2_DOCTRINE_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">“A pesquisa genética tem suportado o histerismo da população: vacinas que salvam vidas são rejeitadas por ignorantes que afirmam que sua ignorância supera as evidências científicas. Está na hora de contornar a aceitação pública de uma vez por todas.”[br/]– Dra. Eva Montinga, Geneticista-Chefe da Divisão de Pesquisa Avançada da Terratech</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Female
+
+Edit: removed extra space before "Dr."</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>130</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

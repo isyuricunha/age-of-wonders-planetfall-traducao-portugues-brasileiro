@@ -1,0 +1,575 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Luis Ferreira</LastAuthor>
+  <LastSaved>2018-11-15T13:36:50Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9043</WindowHeight>
+  <WindowWidth>21943</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="105" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.857142857142854" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="175.71428571428572"/>
+   <Column ss:StyleID="s62" ss:Width="108.85714285714286"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="303"/>
+   <Column ss:StyleID="s62" ss:Width="147.85714285714283"/>
+   <Column ss:StyleID="s62" ss:Width="311.14285714285711"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="265.71428571428572"/>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPACERS_UNITPROPERTIES</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FRENZIED_BASH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Impacto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FRENZIED_BASH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um ataque corpo a corpo de impacto.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BERSERK_CHEMICALS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Químicos Berserk</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BERSERK_CHEMICALS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade consome químicos que lhe concedem Movimento Rápido, [abilityblue]Impacto Massivo[/abilityblue] e aumentam seu dano causado em {BerserkChemicals}% por {BerserkDuration}.</Data></Cell>
+   </Row>
+   <Row ss:Index="11" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAKESHIFT_TURRET</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Torre Improvisada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAKESHIFT_TURRET</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara a Torre Improvisada no alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECKLESS_CRASH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colisão Temerária</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RECKLESS_CRASH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Avança em alta velocidade contra o alvo, causando dano. [abilityred]Empurra[/abilityred] unidades Leves.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNSTABLE_CONSTRUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Construção Instável</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNSTABLE_CONSTRUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade foi mal construída e explodirá ao morrer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EFFIGY_CARRIER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Portador de Efígie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EFFIGY_CARRIER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quando esta unidade morre, deixa para trás uma Efígie de Espaçador que tem a habilidade de aumentar o dano dos aliados.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAKESHIFT_ACID_JET</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Jato de Ácido Improvisado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAKESHIFT_ACID_JET</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara um jato de ácido na unidade alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACID_BATH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Banho de Ácido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACID_BATH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Espalha ácido à frente desta unidade, causando dano àqueles atingidos.</Data></Cell>
+   </Row>
+   <Row ss:Index="25" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAKESHITFT_FIREBLAST_TURRET</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Torre de Laser Improvisada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAKESHITFT_FIREBLAST_TURRET</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara uma saraivada de tiros de Laser no alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LAUNCH_FIRE_BARREL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Míssil de Espaçador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">LAUNCH_FIRE_BARREL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lança um foguete Explosivo, causando dano em um raio de {hexrad} hexágonos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FUEL_RAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fúria Combustível</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FUEL_RAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade aliada alvo recebe aumento de dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FUEL_RAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_BUFF</Data></Cell>
+    <Cell><Data ss:Type="String">Fúria Alimentada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FUEL_RAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_BUFF</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade ultrapassa seus limites, aumentando o dano causado em {FuelRageDamage}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INCENDIARY_SHOT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tiro Incendiário</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INCENDIARY_SHOT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um projétil inflamável disparado de uma torreta que tem chance de incendiar o alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LAUNCH_TAR_BARREL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lançar Barril de Piche</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">LAUNCH_TAR_BARREL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lança um barril cheio de piche, aplicando [abilityred]Encharcado de Piche[/abilityred], fazendo com que as unidades atingidas sofram -{TardrenchResistance} de resistência e sejam [abilityred]Lentificadas[/abilityred] por {DrenchTurn}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TAR_DEBUFF</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Encharcado de Piche</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TAR_DEBUFF</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está coberta de piche, reduzindo sua velocidade de movimento e diminuindo sua resistência térmica em {TarResistance}.</Data></Cell>
+   </Row>
+   <Row ss:Index="40" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BOARDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Abordagem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BOARDING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Envie pessoas para abordar uma unidade de navio inimiga, tentando tomar o controle da embarcação.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BOARDING_DEBUFF</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Abordado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BOARDING_DEBUFF</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade foi abordada pelo inimigo e está fora do seu controle.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BOARDING_DEBUFF</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_MOD</Data></Cell>
+    <Cell><Data ss:Type="String">{BoardedChance}[StrengthPhysical/] de chance de força para aplicar [abilityred]Abordado[/abilityred] em unidades de Barco Mecânico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BERSERK_CHEMICALS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_BUFF</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem Movimento Rápido, [abilityblue]Impacto Massivo[/abilityblue] e o dano é aumentado em {BerserkDamage}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MADDENING_RANT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Discurso Enlouquecedor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MADDENING_RANT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O pregador profere um discurso terrível e enlouquecedor contra o alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BRAND_OF_THE_EFFIGY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Marca do Effígie</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BRAND_OF_THE_EFFIGY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Marca uma unidade terrestre com o símbolo do effígie, tornando-a {AccuracyBoost} mais fácil de acertar. Além disso, quando ela morre, poderosos poderes psiónicos a moldam em um Effígie Espacial que fortalece suas unidades.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BRAND_OF_THE_EFFIGY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_DEBUFF</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é {AccuracyBoost} mais fácil de acertar e se transforma em um Espantalho Espacial ao morrer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EFFIGY_HYSTERICS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Histeria de Espantalhos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EFFIGY_HYSTERICS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todos os espantalhos no campo de batalha agora aumentam o dano em {HystericsDamage} em vez do aumento de dano normal por {HystericsDuration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EFFIGY_HYSTERICS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_BUFF</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade agora concede uma Fúria de Combustível mais forte.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARDENT_BRAND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Marca Ardente</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ARDENT_BRAND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades terrestres que acompanharem esta unidade em combate serão marcadas com uma forte presença psiónica, ganhando [abilityblue]Portador de Espantalho[/abilityblue], transformando essas unidades em um Espantalho ao morrerem em batalha.[br/]Só funciona quando esta unidade é o Comandante do exército.</Data></Cell>
+   </Row>
+   <Row ss:Index="57" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EFFIGY_REQUISITE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Espantalho Espacial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EFFIGY_REQUISITE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um espantalho espacial.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WASTE_SURVIVAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sobrevivência nos Ermos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FUEL_RAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_MOD</Data></Cell>
+    <Cell><Data ss:Type="String">{FuelDamage} de dano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPROVED_FUEL_RAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_MOD</Data></Cell>
+    <Cell><Data ss:Type="String">{ImprovedFuelDamage} de dano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPROVED_FUEL_RAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fúria de Combustível Aprimorada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">POWER_VACUUM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vácuo de Poder</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">POWER_VACUUM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quando esta unidade morre, todas as unidades amigas Psico e Derretedoras ganham [abilityblue]Garra de Poder[/abilityblue], uma habilidade que, quando usada no Pregador Louco morto, as transforma em um novo Pregador Louco.[br/]Essas unidades só podem ser afetadas por isso uma vez por batalha.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">POWER_GRIP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Garra de Poder</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">POWER_GRIP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Direcione um Pregador Louco morto adjacente para transformar esta unidade em um novo Pregador Louco usando as energias psiónicas remanescentes no cadáver.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LOST_CHANCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Chance Perdida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">LOST_CHANCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade falhou em se tornar o próximo Pregador Louco e não pode se beneficiar do Vácuo de Poder novamente durante esta batalha.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HALLUCINOGENIC_REGULATORS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reguladores Alucinógenos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="107.25">
+    <Cell><Data ss:Type="String">HALLUCINOGENIC_REGULATORS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A fórmula especial do Psico Espacial. Armas de fogo e armas corpo a corpo têm uma chance de {HallCoatAugStr}[strengthBio/] de força ({HallCoatAugStrRep}[strengthBio/] para ataques repetidos) de aplicar [abilityred]Alucinação[/abilityred] em unidades não-Mente, reduzindo sua precisão em {accdown} e fazendo com que todos os ataques contra unidades afetadas contem como flanqueamento. Isso dura por {HalluTurn}[turn/].</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Edit: making so --&gt; causing, added "to"</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEBILITATING_STRAIN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Estirpe Debilitante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="109.5">
+    <Cell><Data ss:Type="String">DEBILITATING_STRAIN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques de armas bioquímicas têm uma chance de força {DebilStrainStr}[strengthBio/] ({DebilStrainStrRep}[strengthBio/] para ataques repetidos) de aplicar [abilityred]Infecção Debilitante[/abilityred] em unidades Biológicas ou Ciborgues, tornando-as {evasiondown} mais fáceis de acertar e lhes causando {DebilMorale}. Isso dura por {DebilTurn}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAKESHIFT_CHOKING_MODULE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Módulo Sufocante Improvisado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="110.25">
+    <Cell><Data ss:Type="String">MAKESHIFT_CHOKING_MODULE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esse módulo deveria iniciar incêndios, mas sua natureza improvisada só faz as coisas soltarem fumaça. As armas a Laser da unidade têm uma chance de força {MakeChokMod}[strengthThermal/] ({MakeChokModRep}[strengthThermal/] para ataques repetidos) de aplicar [abilityred]Sufocamento[/abilityred] em unidades Biológicas ou Ciborgues, tornando seus ataques {Accdown} menos precisos e reduzindo seu dano em {Damagedown}, por {Chokingturn}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_THE_BRANDED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mantra dos Marcados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MANTRA_OF_THE_BRANDED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Compreender as filosofias dos Spacers é difícil. Manter esse Mantra enquanto se preserva a sanidade é ainda mais difícil. Habilidades de suporte psiónico concedem Portador de Efígie a unidades terrestres, e ataques psiónicos ganham uma chance de força {MantraBrandStr}[strengthPsyche/] ({MantraBrandStrRep}[strengthPsyche/] para ataques repetidos) de aplicar [abilityred]Insanidade[/abilityred] em unidades não Insensíveis, fazendo com que a unidade perca seu próximo turno correndo em uma direção aleatória.</Data></Cell>
+   </Row>
+   <Row ss:Index="78" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HALLUCINOGENIC_REGULATORS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Delirante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HALLUCINOGENIC_REGULATORS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Devaneio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HALLUCINOGENIC_REGULATORS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Estimulizador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HALLUCINOGENIC_REGULATORS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Aparição</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HALLUCINOGENIC_REGULATORS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Psicose</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HALLUCINOGENIC_REGULATORS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Delírio</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEBILITATING_STRAIN</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Debilitador</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEBILITATING_STRAIN</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Exaustivo</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEBILITATING_STRAIN</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Exausto</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEBILITATING_STRAIN</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Fatigante</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEBILITATING_STRAIN</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Brigão</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEBILITATING_STRAIN</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Larva</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAKESHIFT_CHOKING_MODULATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Sufocador</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAKESHIFT_CHOKING_MODULATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Cuspidor de Fumaça</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAKESHIFT_CHOKING_MODULATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Chaminé</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAKESHIFT_CHOKING_MODULATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Máquina de Fumaça</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAKESHIFT_CHOKING_MODULATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Disparo Sombrio</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAKESHIFT_CHOKING_MODULATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Bola de Graxa</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_THE_BRANDED</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Carregador de Pilar</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_THE_BRANDED</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Emissário das Terras Devastadas</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_THE_BRANDED</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Porta-Estandarte</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_THE_BRANDED</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Cetro</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_THE_BRANDED</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Chefe Espacial</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_THE_BRANDED</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Bastião do Brasão</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

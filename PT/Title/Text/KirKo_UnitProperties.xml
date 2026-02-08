@@ -1,0 +1,853 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Benny Arents</LastAuthor>
+  <LastSaved>2019-09-10T15:14:20Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15825</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior ss:Color="#F8CBAD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="140" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="125.25"/>
+   <Column ss:StyleID="s62" ss:Width="367.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="153.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="193.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="247.5"/>
+   <Column ss:StyleID="s62" ss:Width="367.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">UNIT_UPGRADES_GENETICS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SWARM_SHIELD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Escudo Enxame</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SWARM_SHIELD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade recebe +{SwarmShieldAmount} quando há uma unidade aliada adjacente com Escudo Enxame.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SWARM_SHIELDED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Protegido por Escudo Enxame</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SWARM_SHIELDED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade tem +{SwarmShieldAmount} por estar ao lado de uma unidade com Escudos Enxame.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Devorar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME_NO_EMERGENT</Data></Cell>
+    <Cell><Data ss:Type="String">Devorar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DEVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tenta comer a unidade alvo com {DevourStrength}% de chance de matá-la instantaneamente e curar esta unidade em {HealAmount}. Esta unidade também ganha a habilidade [abilityblue]Gerar Larva[/abilityblue].[br/]Só funciona em unidades Biológicas Leves ou Ciborgues.[br/]Esta unidade só ganha [abilityblue]Gerar Larva[/abilityblue] se devorar uma unidade que não seja de Reforço.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DEVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION_NO_EMERGENT</Data></Cell>
+    <Cell><Data ss:Type="String">{DevourStrength}% de chance de matar o alvo instantaneamente e curar esta unidade em {HealAmount}.[br/]Só funciona em unidades Biológicas Leves ou Ciborgues.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RENDING_CLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Garras Dilacerantes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RENDING_CLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataca o alvo com garras dilacerantes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RIPCLAW_GASH</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Golpe de Garras Dilacerantes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RIPCLAW_GASH</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataque corpo a corpo poderoso.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOAKING_CARAPACE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Carapaça de Camuflagem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CLOAKING_CARAPACE</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade ganha [abilityblue]Camuflagem Universal[/abilityblue] e fica {CloakingAccuracyDecrease} mais difícil de acertar.[br/][br/]Além disso, cada vez que esta unidade é atingida, ela fica {CloakingAccuracyDecreaseBuff} mais difícil de acertar naquele turno. Esse efeito pode ser acumulado até 3 vezes.[br/][br/][productioncol]Apenas um tipo de carapaça pode estar ativo por vez.[/productioncol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOAKING_CARAPACE</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está {CloakingAccuracyDecrease} mais difícil de acertar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADAPTIVE_CARAPACE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Carapaça Adaptativa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ADAPTIVE_CARAPACE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sempre que esta unidade é atingida por um ataque, ela recebe +{ArmorReact}, por {ArmorReactTurn}. Esse efeito pode ser acumulado até {NumStacks} vezes.[br/][br/][productioncol]Apenas um tipo de carapaça pode estar ativo por vez.[/productioncol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADAPTIVE_CARAPACE</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem +{ArmorReact} por acúmulo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">POISON_EXPULSION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Excreção de Veneno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">POISON_EXPULSION</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">No final de cada turno, unidades inimigas adjacentes sofrem {damage} de dano, e há {poisonchance}% de chance dessas unidades ficarem [abilityred]Envenenadas[/abilityred].[br/][br/]Se esta unidade morrer, ela explode, causando {PoisonExplosionDamage} de dano a todas as unidades inimigas adjacentes, com {poisonchance}% de chance de aplicar [abilityred]Envenenado[/abilityred] a essas unidades.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FRENZY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Frenesi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FRENZY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cada ataque bem-sucedido de uma unidade com Frenesi aumentará o dano corpo a corpo em {FrenzyMeleeIncrease}. Esse bônus dura por {FrenzyTurns} e pode ser acumulado até {StackCap} vezes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FRENZY</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está em frenesi e causa dano corpo a corpo aumentado.</Data></Cell>
+   </Row>
+   <Row ss:Index="31" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACCELERATED_HEALING</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Carapaça Regenerativa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ACCELERATED_HEALING</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade ganha [abilityblue]Regeneração[/abilityblue], recuperando {AcceleratedHealthRegen}[hp/] a cada turno em combate e recupera todo o seu [hp/] no início do turno de seu dono no mapa estratégico.[br/][br/][productioncol]Apenas um tipo de carapaça pode estar ativo por vez.[/productioncol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESUSCITATION_GLANDS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Glândulas de Ressuscitação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RESUSCITATION_GLANDS</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Se esta unidade for morta durante o combate tático, ela reviverá após {SpareTurnRevive} com {SpareHealthRevive}.[br/][br/][firecol]Uma unidade só pode se reviver uma vez por batalha.[/firecol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEIGHTENED_VISION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Visão Aprimorada (Detector)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HEIGHTENED_VISION</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade ganha {ReflexAccuracyIncrease} de precisão aumentada. A unidade também ganha +{IncreaseStrategicVision} de Alcance de Visão Estratégica e Detecção, permitindo que veja unidades ocultas no mapa estratégico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEIGHTENED_VISION</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Precisão aumentada em {ReflexAccuracyIncrease}.</Data></Cell>
+   </Row>
+   <Row ss:Index="40" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNDERING_CLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Garras Debilitantes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SUNDERING_CLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os ataques corpo a corpo desta unidade têm uma chance de {StrengthCripple}[strengthPhysical/] de força ({StrengthCrippleRepeating}[strengthPhysical/] para ataques repetidos) de aplicar [abilityred]Debilitar[/abilityred] em unidades Biológicas ou Ciborgues, por {Duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSI_INFECTED_CLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Garras Psíquicas Infectadas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="111">
+    <Cell><Data ss:Type="String">PSI_INFECTED_CLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques corpo a corpo desta unidade têm uma chance de {StrengthChancePsiClaws}[strengthPsyche/] de força ({StrengthChancePsiClawsRepeating}[strengthPsyche/] para ataques repetidos) de aplicar [abilityred]Concussão[/abilityred], [abilityred]Insanidade[/abilityred], [abilityred]Pânico[/abilityred], [abilityred]Catatonia[/abilityred] ou [abilityred]Imobilizar[/abilityred] aleatoriamente em unidades Biológicas ou Ciborgues não Insensíveis, por {ParasiticInfectionDuration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PSI_INFECTED_CLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Chance de {InfectChance}[StrengthPsyche/] de força para aplicar [abilityred]Concussão[/abilityred], [abilityred]Insanidade[/abilityred], [abilityred]Pânico[/abilityred], [abilityred]Catatonia[/abilityred] ou [abilityred]Imobilizar[/abilityred] em unidades Biológicas ou Ciborgues não Insensíveis por {ParasiticInfectionDuration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXCRETE_LARVA</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Gerar Larva</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXCRETE_LARVA</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Gera a unidade devorada como uma larva aliada.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TUNNELING_ADAPTATION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Garras de Escavação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TUNNELING_ADAPTATION</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os ataques corpo a corpo desta unidade causam +{IncreasedDamage} de dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TUNNELING_ADAPTATION</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">{IncreasedDamage} de dano aumentado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RAVAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Devastar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RAVAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataca repetidamente com garras poderosas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACCELERATED_METABOLISM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Metabolismo Acelerado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ACCELERATED_METABOLISM</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade desenvolve um metabolismo único, concedendo-lhe [abilityblue]Skitter[/abilityblue], tornando-a mais difícil de acertar quanto mais se mover durante seu turno de combate. Uma vez por turno em combate tático, os pontos de ação desta unidade são recarregados após matar uma unidade.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACCELERATED_METABOLISM</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Abates recarregam pontos de ação uma vez por turno.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">NECTARIZED_ADRENAL_RESPONSE_GLANDS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Glândulas de Resposta Adrenal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">NECTARIZED_ADRENAL_RESPONSE_GLANDS</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sempre que a unidade sofre dano, ela ganha uma pilha de [abilityblue]Enfurecido[/abilityblue], concedendo à unidade +{AdrenalMeleeDamage} de dano corpo a corpo, +{AdrenalAccuracy} de precisão e +{AdrenalCritical} de chance de acerto crítico por pilha. Isso pode acumular até {AdrenalStackMax} vezes. Enfurecido dura por {AdrenalTurns}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">NECTARIZED_ADRENAL_RESPONSE_GLANDS</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String"> +{AdrenalAccuracy} de precisão, +{AdrenalCritical} de chance de acerto crítico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">NECTARIZED_ADRENAL_RESPONSE_GLANDS</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION_MELEE</Data></Cell>
+    <Cell><Data ss:Type="String"> +{AdrenalDamage} de dano, +{AdrenalAccuracy} de precisão, +{AdrenalCritical} de chance de acerto crítico.</Data></Cell>
+   </Row>
+   <Row ss:Index="63" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRUSHING_MANDIBLES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mandíbulas Esmagadoras</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRUSHING_MANDIBLES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esmaga o alvo com presas poderosas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BLINDING_GAS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Gás Ofuscante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BLINDING_GAS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara uma bomba que explode em uma nuvem de gás ofuscante que permanece no campo de batalha por {duration}.</Data></Cell>
+   </Row>
+   <Row ss:Index="70" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEIGHTENED_VISION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Nervoso</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEIGHTENED_VISION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Perspicaz</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEIGHTENED_VISION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Atento</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEIGHTENED_VISION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Visão Aguçada</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEIGHTENED_VISION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Concentrado</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEIGHTENED_VISION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Perceptivo</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEIGHTENED_VISION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Dotado</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNDERING_CLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Serrilhado</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNDERING_CLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Cortante</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNDERING_CLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Fraturante</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNDERING_CLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Afiado</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNDERING_CLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Lacerante</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNDERING_CLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Imprevisível</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACCELERATED_HEALING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Regenerador</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACCELERATED_HEALING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Resistente</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACCELERATED_HEALING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Consertado</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACCELERATED_HEALING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Restaurado</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACCELERATED_HEALING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Imortal</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACCELERATED_HEALING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Redimido</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACCELERATED_HEALING</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Duradouro</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">POISON_EXCRETION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Volátil</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">POISON_EXCRETION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Venenoso</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">POISON_EXCRETION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Babante</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">POISON_EXCRETION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Tóxico</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">POISON_EXCRETION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Espinhoso</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">POISON_EXCRETION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Ácido</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">POISON_EXCRETION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Expulsor</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACCELERATED_METABOLISM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Prata-Viva</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACCELERATED_METABOLISM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Raivoso</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACCELERATED_METABOLISM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Ápice</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACCELERATED_METABOLISM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Predatório</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACCELERATED_METABOLISM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Corredor da Fúria</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACCELERATED_METABOLISM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Primevo</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSI_INFECTECD_CLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Rasga-Escudos</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSI_INFECTECD_CLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Duvidoso</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSI_INFECTECD_CLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Perturbado</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSI_INFECTECD_CLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Perturbador</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSI_INFECTECD_CLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Lavador de Mentes</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSI_INFECTECD_CLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Contaminador</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TUNNELING_ADAPTATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Tuneleiro</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TUNNELING_ADAPTATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Escavador</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TUNNELING_ADAPTATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Perseguidor Subterrâneo</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TUNNELING_ADAPTATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Desnivelado</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TUNNELING_ADAPTATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Subterrâneo</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TUNNELING_ADAPTATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Nadador da Terra</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADAPTIVE_CARAPACE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Dançarino das Lâminas</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADAPTIVE_CARAPACE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Fugaz</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADAPTIVE_CARAPACE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Ambíguo</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADAPTIVE_CARAPACE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Vaporizado</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADAPTIVE_CARAPACE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Líquido</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADAPTIVE_CARAPACE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Desvanecente</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADAPTIVE_CARAPACE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Intangível</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOAKING_CARAPACE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Imperceptível</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOAKING_CARAPACE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Perseguidor das Sombras</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOAKING_CARAPACE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Brilho Noturno</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOAKING_CARAPACE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Camaleão</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOAKING_CARAPACE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Encobeto pelo Véu</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOAKING_CARAPACE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Névoa Sombria</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESUSCITATION_GLANDS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Implacável</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESUSCITATION_GLANDS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Inflexível</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESUSCITATION_GLANDS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Profetizado</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESUSCITATION_GLANDS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Inquebrável</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESUSCITATION_GLANDS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Eterno</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESUSCITATION_GLANDS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Predito</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESUSCITATION_GLANDS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Imortal</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"><Data ss:Type="String">Review needed?</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADRENAL_RESPONSE_GLANDS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Frenético</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADRENAL_RESPONSE_GLANDS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Furioso</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADRENAL_RESPONSE_GLANDS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Gritador da Ira</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADRENAL_RESPONSE_GLANDS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Quebrador de Correntes</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADRENAL_RESPONSE_GLANDS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Incendiário</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADRENAL_RESPONSE_GLANDS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Enfurecido</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s67"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Selected/>
+   <TopRowVisible>23</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>35</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

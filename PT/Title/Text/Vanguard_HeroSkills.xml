@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2019-01-30T12:56:08Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10380</WindowHeight>
+  <WindowWidth>22230</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="23" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="128.25"/>
+   <Column ss:StyleID="s62" ss:Width="121.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="309.75"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="186.75"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">VANGUARD_HERO_SKILLS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell ss:Index="5"><Data ss:Type="String">Text between {} should NOT be localized as they are numerical values in-game. Text between [] should NOT be localized as they are either icons or text formatting
+
+EXAMPLE: "Hero gains {PersonaAccDmg} increased damage and accuracy " looks in-game like "Hero gains +5 increased damage and accuracy"</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VANGUARD_SKILL_GROUP</Data></Cell>
+    <Cell><Data ss:Type="String">SKILL_SUBTITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Habilidade de Herói da Vanguard</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill tree header. 
+Vangaurd is an in-game race</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MARTIAL_INSPIRATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Inspiração Marcial</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MARTIAL_INSPIRATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A presença heroica inspira todas as suas forças. Todas as unidades no exército do herói recebem +{MartialMorale}.[br/]Só funciona quando o herói é o comandante do exército.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.
+Commander in this context means the leader of an army, NOT the player character</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MARTIAL_INSPIRATION</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está inspirada e recebe +{MartialMorale}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit buff description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BATTLE_PLAN</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Plano de Batalha (propriedade)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"property" tag behind the name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BATTLE_PLAN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Plano de Batalha</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BATTLE_PLAN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um plano de batalha bem elaborado concede a todas as unidades amigas +{BattleAccuracy} de precisão e +{BattleDamage} de dano por {BattleTurns}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BATTLE_PLAN</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem +{BattleAccuracy} de precisão e +{BattleDamage} de dano.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit buff description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RALLYING_CRY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Grito de Guerra</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RALLYING_CRY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O herói encoraja seus aliados. Todas as unidades amigas ignoram penalidades de moral por {RallyingTurns}[turn/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.
+Morale is an in-game stat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RALLYING_CRY</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é imune a penalidades de moral.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit buff description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COORDINATED_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ataque Coordenado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COORDINATED_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Marque uma unidade inimiga para suas forças se concentrarem. O alvo fica {CoordinatedAccuracy} mais fácil de acertar até o fim do turno.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit buff description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FIELD_MEDICINE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Medicina de Campo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FIELD_MEDICINE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Medicina de campo especializada cura todas as unidades amigas no exército em {FieldHealAmount} a cada turno fora de combate.[br/]Só funciona quando o herói é o comandante do exército.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.
+Commander in this context means the leader of an army, NOT the player character</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FIELD_MEDICINE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade é curada em {FieldHealAmount} a cada turno fora de combate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit buff description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IRON_DISCIPLINE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Disciplina de Ferro</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">IRON_DISCIPLINE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma disciplina forte concede ao herói +{IronPsionicResistance} de resistência e o torna imune a efeitos de [DefensePsyche/] de status e perigos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit buff description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DIG_IN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Entrincheirar</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DIG_IN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O herói é especialista em se proteger e ganha +{DigResistance} de resistência a todo dano enquanto estiver em cobertura.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit buff description.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Selected/>
+   <TopRowVisible>1</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>10</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2020-08-07T10:01:54Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12789</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65" ss:Parent="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="44" x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="51.857142857142854" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:Width="129"/>
+   <Column ss:StyleID="s63" ss:Width="104.14285714285714"/>
+   <Column ss:StyleID="s63" ss:Width="409.71428571428572"/>
+   <Column ss:StyleID="s63" ss:Width="110.14285714285714"/>
+   <Column ss:StyleID="s63" ss:Width="228"/>
+   <Column ss:StyleID="s63" ss:Width="85.714285714285708"/>
+   <Column ss:StyleID="s63" ss:Width="409.71428571428572"/>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SPECIES_OATHBOUND</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_SINGULAR</Data></Cell>
+    <Cell><Data ss:Type="String">Juramentados</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Race name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_PLURAL</Data></Cell>
+    <Cell><Data ss:Type="String">Juramentados</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Race name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef=""><Data ss:Type="String">{XML_SPECIES_OATHBOUND@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]Bônus Inicial: [/sand]Terreno extra revelado perto da colônia inicial[/bullet][bullet][sand]Bônus de Longo Prazo: [/sand]Modificadores de Reputação Positiva duram 50% mais.[/bullet][bullet]Trajes de batalha usam ataques corpo a corpo baseados em [hyperlink,0000039E0000000D]Arc[/hyperlink][/bullet][bullet]Videntes manipulam a probabilidade para controlar o campo de batalha.[/bullet][bullet]Use os canais de dano [hyperlink,0000039E0000000D]Arc[/hyperlink] e [hyperlink,000003E900000096]Entropia[/hyperlink].[/bullet][bullet]Habilidade Racial: Heróis Juramentados podem se conectar a colônias para bônus econômicos.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The {text} inserts the DESCRIPTION_SHORT text below.
+Racial description text</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Os [hyperlink,000003F600000318]Juramentados[/hyperlink] são uma sociedade feudal liderada pelos sábios Videntes e suas previsões do futuro, guiando os Paladinos, vinculados por honra, em seus poderosos trajes de batalha para manter a ordem.[br/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short race description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CAMP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assentamento Juramentado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic map structure name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CAMP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um assentamento é uma pequena colônia independente que pode se juntar a você se tiver influência suficiente.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic map structure description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Migrar Colônia: Juramentados</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic structure operation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Migra a população desta colônia para os Juramentados. A colônia se tornará uma colônia Juramentada.[br/][br/][fireCol]Ao migrar a população, {PopulationDeath} dos colonos da colônia serão mortos.[/fireCol] [br/][br/]Você recebe:[br/][fireCol]{Reputation} Reputação[br/]{RaceRelation} Relação Racial com os {STR_raceName}[/fireCol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic structure operation description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">A colônia está atualmente sendo migrada para uma população Juramentada. O processo será concluído em [INT_duration].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic structure operation description in progress</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">CONFIRMATION</Data></Cell>
+    <Cell><Data ss:Type="String">Tem certeza de que deseja migrar esta colônia para uma colônia Juramentada?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Warning tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LONG_TERM_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">WAR_PER_PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">Em Guerra (Jogador)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LONG_TERM_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">WAR_PER_NPC</Data></Cell>
+    <Cell><Data ss:Type="String">Em Guerra (Facção NPC)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCRYER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vidente</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SCRYER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Normalmente, desconfio de organizações poderosas. O poder absoluto corrompe. Mas e se os Juramentados descobrissem a tecnologia perfeita para uma sociedade perfeita? Eu desconfiava dos Videntes rondando nossas casas, mas então ele me avisou quando eu estava usando um moedor de carne. Ele me mostrou uma visão de mim transformando minha mão em linguiça, porque eu tinha montado a proteção de segurança incorretamente. É esse tipo de coisa. Eles me avisam sobre o perigo antes que aconteça. Que sociedade opressora se importa tanto com seus cidadãos mais humildes a ponto de protegê-los de sua própria estupidez? Os Juramentados são legais para mim.” – Beaver McSnubbins, “RV-93824C: Testemunhos”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Description
+
+The person of the quote is male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PALADIN_ASPIRANT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aspirante a Paladino</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Name (Paladin is a type of battlesuit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">PALADIN_ASPIRANT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Muitos de nós da Vanguard se juntaram aos Juramentados. O pagamento é o mesmo, mas os cidadãos nos respeitam. Eu não policio as pessoas, eu as sirvo. Neutralizamos hostis locais, mas até a tecnologia letal atordoa primeiro. A ascensão é baseada na confiança, em vez de uma corrida para ver quem pode acumular poder suficiente para assumir o controle. Aqueles que abusam do poder ou saem ou são rebaixados a Aspirantes para reaprender a missão central de um Paladino: Servir antes de Si. Eu estou protegendo os inocentes em vez de bajular malucos de alta patente que querem que eu prove minha lealdade abusando de populações vulneráveis.” – Walter Jones, “RV-246014M: Recrutamento”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Description
+
+The person of the quote is male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WATCHER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Observador</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">WATCHER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Imagine se pudéssemos aproveitar a capacidade desses Videntes de prever o destino. Claramente, é tecnologia, não magia — embora eles queiram que você pense assim. Isso é tudo o que está entre nós e o domínio galáctico. No entanto, como roubar de alguém que vê o que você vai fazer antes de você fazer? Até seus Observadores de baixo nível veem nossas fraquezas — sempre aprendendo — constantemente registrando nossas tentativas de espionagem. Então eles nos atingem com sua ‘Maldição da Adversidade’, e observam enquanto nossos planos se desintegram por conta própria.” – Lady Kay da Casa Sindicato Tee, “RV-347223: Destino e Fatalidade”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Description
+
+The person of the quote is female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PALADIN_PROTECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Protetor Paladino</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Name (Paladin is a type of battlesuit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">PALADIN_PROTECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Nós suportamos a selvageria dos Spacers por décadas. Em massa, eles desciam de sua arena de jogos para um ritual que chamavam de ‘os Munchies’. Seu churrasco hedonista consumia nossos familiares que não conseguiam fugir no que exigiam como tributos macabros. Não tínhamos ninguém para nos proteger até a chegada dos Protetores Juramentados. Almas corajosas lutaram com lanças de relâmpago, carregando escudos que nos abrigavam a todos. Os Spacers trouxeram seus terríveis construtos, mas isso só encorajou nossos defensores a lutar com mais afinco. Não somos mais incomodados pelos Spacers. Os Juramentados nos trouxeram a paz.” – Quarla Arx, “RV-9444490T: Libertação”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Description
+Oathbound and Spacers are an in-game faction
+
+The person of the quote is female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PALADIN_WARDEN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Guardião Paladino</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Name (Paladin is a type of battlesuit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">PALADIN_WARDEN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Como uma congregação de verdadeiros crentes, somos mais fortes juntos, unidos em nossa causa comum. Admiro a força em todos nós. Hoje, sirvo como Guardião. Quando puxo meu arco, disparo dardos de relâmpago contra meus inimigos que se escondem no céu ou nos atacam à distância. Quando o inimigo nos cerca, ergo minha bandeira e frustro seu assalto, não importa como tentem nos flanquear. Se eu vacilar, posso voltar a ser um Aspirante. Seja como os Videntes preveem. Não importa quão humilde, sou eternamente Juramentado.”—Guardião Ullen Strig, “RV-030422V: Devoções Solenes”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Description
+Aspirant is a unit as well
+
+The person of the quote is female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AUGUR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Áugure</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">AUGUR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Há uma finalidade no universo. O destino. Ninguém é tão importante que não possa cair. Você já importou, então retorna à matéria. Nós, os Áugures, somos espantalhos postados na encruzilhada do Destino. Finalidade plumosa esvoaça como um bando de pássaros entrópicos, girando com possibilidades. Estendemos a mão. Não mudamos o Destino. Oferecemos ao corvo da desgraça um lugar para pousar e então esperamos. Esperando. É quando somos mais vulneráveis. O Áugure resiste até que a Desgraça pouse. Um pode alçar voo, outro cairá.” – Córtex Chambo, “Treinando Videntes e Adivinhos”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Description
+
+The person of the quote is male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GALLEON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Galeão</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">GALLEON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“O navio cortava a água como um cisne, sua proa e quilha estendidas altas e graciosas. Ao passar, podíamos ouvir seu zumbido e sentir o cheiro distinto de ozônio enquanto puxava energia pulsante do ar. Os navios saqueadores se dispersaram quando arcos de relâmpago azul saltaram do Arco de Volt do galeão. O navio era como uma tempestade em si, e nenhuma das embarcações ousou enfrentá-lo. Saudamos esses recém-chegados—esses Juramentados. Eles não permitem que a injustiça persista—nem mesmo nos mares solitários.” – Capitão Marechal Águasclaras, “RV-577753C: Sabedoria Náutica”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Description
+
+The person of the quote is male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PALADIN_CHAMPION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Campeão Paladino</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Name (Paladin is a type of battlesuit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">PALADIN_CHAMPION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Quando nossas defesas ruíram e os fiéis Juramentados, esfarrapados, vacilaram à beira de sua determinação, um campeão apareceu envolto em relâmpagos, atraindo arcos que crepitaram sobre nós, eriçando cada fio de cabelo como um ímã. Gritamos quando ele despencou do céu, desferindo julgamento decisivo a cada golpe de sua Grande Espada de Volt. Todo aquele que se ergueu para lutar por nossa nobre causa jurou, naquele dia, ser digno de servir ao povo como Campeão e impor a vontade justa da justiça.” – Danika Blaze, Piloto de Campeão Paladino, “RV-475888M: Por Que Servimos.”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Description
+
+The person of the quote is female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DIVINER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Adivinho</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">DIVINER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Alguns me consideram um adivinho. É uma atribuição falsa. Eu só estou sempre fugindo. Adivinhos leem ondulações nas ondas do caos. Eles veem correntes invisíveis de inevitabilidade. Percebem lacunas, redemoinhos e borrões no fluxo da causalidade. O que será, não será ou não pode ser. Uma vez conheci um verdadeiro Adivinho, mas ele não conseguia me perceber. Seus amigos tiveram que garantir que eu não era uma brincadeira. Acho que sempre soube que era bom em evitar o destino. Talvez esse seja meu destino então: não ter destino.” – Mah Reg’Nib, “RV-00004300T: Oráculos e Papa-figos”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Description
+
+The person of the quote is male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PALADIN_EXEMPLAR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Exemplar Paladino</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Name (Paladin is a type of battlesuit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">PALADIN_EXEMPLAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Como um deus da guerra das lendas, o meca ergueu-se para proteger seus súditos. O inimigo o cercou, mas com seus escudos estendidos, os disparos soavam como chuva em um telhado bem construído. Pensamos que talvez fosse o fim, até que ele se moveu e atingiu uma unidade de artilharia inimiga com sua enorme glaive eletrificada. Em um instante, o titã imponente despedaçou as defesas do inimigo, fazendo-os recuar em espiral. Claramente, o Exemplar Juramentado prova que esses recém-chegados defenderão seus ideais com mais do que palavras agradáveis.” – General Otis Falk, Capitão da Horda. “RV-422241M: Avaliações de Força Juramentada”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Description
+
+The person of the quote is male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PALADIN_WARLORD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Senhor da Guerra Paladino</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Name (Paladin is a type of battlesuit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">PALADIN_WARLORD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Nunca fui muito de usar trajes blindados mecanizados, mesmo que façam você se sentir grande e no comando. Saiba que a Onda de Volt do Senhor da Guerra Paladino não é um brinquedo, mas entrega energia de arco a grupos de inimigos. Além disso, aqueles machados gêmeos não são feitos para realizar fantasias de lenhador. Os machados carregados fazem árvores explodirem, destruindo completamente o valor da madeira. Não que eu admita ter tentado isso—os Juramentados são muito sérios sobre a quem confiam seus equipamentos.” – Mah Reg’Nib, “RV-9110066T: Oráculos e Papa-figos”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Description
+
+The person of the quote is male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PALADIN_MARQUIS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Marquês Paladino</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Name (Paladin is a type of battlesuit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">PALADIN_MARQUIS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“O animal interior vive por instinto. Toda carne esquece juramentos. Os Juramentados não podem tornar os outros virtuosos. O caminho para a Honra Juramentada nunca é forçado. A virtude é uma escolha pessoal. Inspiramos a alma a mudar, aspirando a visões maiores. Justiça não é punição. Quando os Paladinos montam seus Marqueses, hasteiam suas bandeiras e entoam os hinos da honra, todos nos lembramos e recuperamos nosso poder. Cavalguem, paladinos, por cada vale baixo e em cada clima. Viajem até que cada ouvido ouça a gloriosa notícia: podemos nos libertar.” – Tedora Publia RV-453009E: A Poeta Paladina”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit Description
+
+The person of the quote is female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">PLANET_ARRIVAL</Data></Cell>
+    <Cell><Data ss:Type="String">LOG</Data></Cell>
+    <Cell><Data ss:Type="String">Com a orientação de seus Videntes, você deve permanecer confiante de que não vacilará em sua missão.[br/][br/]Trajes de batalha pilotados pela elite e justos Paladinos sob seu comando inspirarão seu povo e incutirão medo nas mentes daqueles que ameaçam seus parentes. Como Juramentados, vocês desfrutaram de uma sociedade perfeita em isolamento, mas agora é hora de iluminar aqueles que caíram em desgraça nestes tempos selvagens.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The person that speaks this is a Seer female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BANNER_OF_PROTECTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Estandarte de Proteção</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="195">
+    <Cell><Data ss:Type="String">BANNER_OF_PROTECTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Avaliar anomalia de poder dos Juramentados. 
+Observação: um único Estandarte Juramentado transforma seus fracos em força. 
+P1: O poder reside no tecido ou nas palavras nele estampadas? 
+R1: Desconhecido. 
+P2: Como simplesmente exibir seus estandartes publicamente transmite poder? 
+R2: Desconhecido. 
+P3: De onde se origina essa proeza (ou) contrapergunta: ela já estava dentro deles o tempo todo?
+R3: Desperdício. Ineficiente. Por que não usá-la sempre? 
+Avaliação de Risco: e se esse poder fosse substituído por próteses inferiores durante o processo de criação de sujeitos da Assembly?
+Mitigação: desconhecida.” – Avaliador de Ameaças da Assembly, “RV-332876X: Complexo de Inferioridade”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structured like a question and answer list
+
+The person of the quote is male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PALADIN_LIGHT_BRINGER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Portador da Luz Paladino</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PALADIN_PURIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Paladino Purificador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PALADIN_ECHO_WALKER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Paladino Eco Andarilho</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>6</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>19</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

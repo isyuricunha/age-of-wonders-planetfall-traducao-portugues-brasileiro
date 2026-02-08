@@ -1,0 +1,914 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Michelle Kusters</LastAuthor>
+  <LastSaved>2020-03-19T11:23:11Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15735</WindowHeight>
+  <WindowWidth>-27136</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="171" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="243"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:Width="387"/>
+   <Column ss:StyleID="s62" ss:Width="150"/>
+   <Column ss:StyleID="s62" ss:Width="335.25"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PICKUPS_STORYEVENTS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_FALLBACK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Comboio de Energia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_FALLBACK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os restos deste transporte contêm um módulo de energia recuperável no valor de: {STR_Rewards}. Infelizmente, seus sistemas destruídos não revelam dados sobre a origem do comboio, destino ou o que levou à sua destruição.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_FALLBACK_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Receber a recompensa: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_FALLBACK_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">O Império recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Despacho do Complexo de Energia Imperial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os registros estão intactos e parece que este transporte, carregando: {STR_Rewards}, foi despachado de uma estrutura próxima ({STR_ExploredStructure}) devido a uma emergência desconhecida. A localização foi adicionada ao mapa.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_01_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Mostrar a localização e receber: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_01_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">O Império recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Materiais para Gerador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este transporte de energia fazia parte de um comboio maior antes de ser parado por um ataque de artilharia. Os destroços contêm uma melhoria para colônia ({STR_BuildingName}) que podemos recuperar para uso em uma de nossas colônias.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_02_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Transportar a melhoria para colônia até {STR_ColonyName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_02_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Adicionar a melhoria para colônia ({STR_BuildingName}) como um edifício gratuito em {STR_ColonyName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_02_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Descarregar o núcleo por: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_02_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">O Império recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">A Fuga</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este comboio parece ser o local de uma incursão fracassada dos Spacers. Um esqueleto com traje de Spacer foi encontrado dentro dos destroços, ainda segurando o item valioso ({STR_ItemName}) que levou à sua morte.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_03_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Pegar o item: {STR_ItemName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_03_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Receber o item</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_03_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Vender o item por: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_03_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">O Império recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">A Vida de um Robô</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um Sentinela Autônomo solitário está tentando acessar os caches ainda selados atrás das portas reforçadas do comboio. Parece improvável que seus esforços para invadir tenham sucesso tão cedo. [br/][productioncol]Esta decisão afetará as relações com esta Facção.[/productioncol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_04_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Ajudar o Autônomo e ganhar: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_04_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_Rewards}, e as relações [diplomaticlinks/] com os Autônomos melhoram</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_04_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Saquear o transporte para si, ganhar: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_04_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_Rewards}, mas as relações [diplomaticlinks/] com os Autônomos pioram</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">O Sentinela Perdido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao lado das cápsulas de energia, encontramos uma unidade quase esgotada, mas ainda intacta ({STR_UnitName}). Ela parece incapaz de se conectar ao seu centro de controle, nos dando uma oportunidade única de usá-la para nossa causa.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_05_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Ignorá-la e saquear as cápsulas para obter: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_05_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">O Império recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_05_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Usar as cápsulas para energizá-la sob seu controle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_05_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_UnitName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_05_BUTTON_03</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Usar as cápsulas para energizá-la e libertá-la. Isso impactará sua reputação [reputation6/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_05_BUTTON_03</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você ganha [xpCol]+100 de Reputação [reputation6/][/xpCol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_06</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Guardião da Cápsula</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você encontra um Soldado Paragon solitário em cima das cápsulas de energia, montando guarda. O Soldado não parece representar nenhuma ameaça, mas ele diz que deve proteger essas cápsulas para o retorno da União. [br/][productioncol]Esta decisão afetará as relações com esta Facção.[/productioncol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_06_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Honrar seu dever e ganhar: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_06_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_Rewards}, e as relações [diplomaticlinks/] com os Paragons melhoram</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_06_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">A União está morta – pegar: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_06_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_Rewards}, mas as relações [diplomaticlinks/] com os Paragons pioram</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_FALLBACK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Depósito de Suprimentos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_FALLBACK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você encontra uma reserva imperial de suprimentos recuperável, contendo: {STR_Rewards}. Infelizmente, os registros do contêiner foram destruídos e você não consegue rastrear a origem dos recursos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_FALLBACK_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Pegar: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_FALLBACK_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">A colônia mais próxima recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registros do Depósito</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você recupera: {STR_Rewards} do depósito de suprimentos imperial. Os registros revelam as coordenadas de um local ({STR_ExploredStructure}), que parece ser a origem do conteúdo do depósito.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_01_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Pegar: {STR_Rewards} e mostrar o local</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_01_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">A colônia mais próxima recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pré-fabricados de Fazenda</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dentro dos contêineres, você encontra pré-fabricados de Biodomo. Podemos transportá-los para uma de nossas colônias e facilmente obter uma melhoria de colônia ({STR_BuildingName}), ou podemos simplesmente pegar os suprimentos destinados a iniciar a Biofazenda.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_02_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Transportar a melhoria de colônia para {STR_ColonyName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_02_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Adicionar a melhoria de colônia ({STR_BuildingName}) como um edifício gratuito em {STR_ColonyName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_02_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Ignorar os pré-fabricados de melhoria de colônia e ganhar: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_02_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">A colônia mais próxima recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Comerciante Misterioso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quando você está prestes a abrir os contêineres, um sujeito maltrapilho que parece um eremita Paragon se aproxima em um transporte e mostra um item ({STR_ItemName}) enquanto aponta para o contêiner. Parece que ele quer negociar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_03_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Trocar a comida pelo item ({STR_ItemName})</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_03_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Receber o item</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_03_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Ignorar o comerciante e ganhar: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_03_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">A colônia mais próxima recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_03_BUTTON_03</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Atire nele, ganhando ambos. Isso afetará sua reputação [reputation0/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_03_BUTTON_03</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Ganho: {STR_ItemName} e {STR_Rewards}.[br/][fireCol]-100 [reputation0/] Reputação[/fireCol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Saqueadores de Comida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um pequeno grupo de Spacers se aproxima de você. Eles pedem o conteúdo do esconderijo porque correm o risco de serem "dominados" se voltarem ao Ferro-Velho de mãos vazias. [br/][productioncol]Esta decisão afetará as relações com esta Facção.[/productioncol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_04_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Ajude os Spacers e ganhe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_04_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_Rewards}, e suas relações [diplomaticlinks/] com os Spacers melhoram</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_04_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Saqueie o esconderijo para você e ganhe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_04_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_Rewards}, mas suas relações [diplomaticlinks/] com os Spacers pioram</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pequena Floração</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao abrir os vários contêineres, uma unidade de Growth ({STR_UnitName}) desnutrida sai correndo de dentro de um deles. Parece que ela devorou o conteúdo do esconderijo. No entanto, ainda há mais contêineres para vasculhar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_05_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Alimente-a, fazendo com que a unidade ({STR_UnitName}) se junte a você</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_05_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_UnitName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_05_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Abandone-a e pegue: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_05_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">A colônia mais próxima recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_06</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oásis Animal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Growth Node pode ser vista se dirigindo a este local. Ela diz que este esconderijo é o lugar perfeito para alimentar e fazer crescer alguns dos animais que os Growth acolheram. [br/][productioncol]Esta decisão afetará as relações com esta Facção.[/productioncol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_06_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Conceda-lhes o local e ganhe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_06_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_Rewards}, e as relações [diplomaticlinks/] com os Growth melhoram</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_06_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Ignore-a e ganhe {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_06_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe {STR_Rewards}, mas as relações [diplomaticlinks/] com os Growth pioram</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_FALLBACK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Estoque de Produção Imperial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_FALLBACK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você encontra um transporte contendo um estoque de produção recuperável. Infelizmente, os sistemas do estoque estão destruídos e não fornecem dados sobre sua origem, destino ou o evento que levou à sua destruição.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_FALLBACK_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Pegar os materiais no valor de: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_FALLBACK_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">A colônia mais próxima recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registros de Mineração</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você recupera: {STR_Rewards}, do estoque. Os registros mostram as coordenadas de um local ({STR_ExploredStructure}), que parece ser a origem do conteúdo do estoque.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_01_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Pegar: {STR_Rewards}, e mostrar o local</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_01_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">A colônia mais próxima recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Componentes Industriais</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dentro das caixas e materiais, você descobre que este comboio transportava uma melhoria para colônia ({STR_BuildingName}). Podemos potencialmente usar os materiais para montar a estrutura em uma de nossas colônias.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_02_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Mover a melhoria da colônia para {STR_ColonyName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_02_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Adicionar a melhoria da colônia como um edifício gratuito em {STR_ColonyName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_02_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Descartar a estrutura e ganhar: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_02_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">A colônia mais próxima recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Métodos Faça-Você-Mesmo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você descobre que este transporte carregava projetos e materiais para fabricar duas armas diferentes. Infelizmente, a maioria dos materiais se deteriorou com o tempo e só resta o suficiente para fabricar uma das armas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_03_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Criar o item: {STR_ItemName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_03_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Receber o item</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_03_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Criar o item: {STR_ItemName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_03_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Receber o item</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_03_BUTTON_03</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Ignore os projetos, pegue: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_03_BUTTON_03</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">A colônia mais próxima recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reparo de Motor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Espaciais vêm correndo até você, implorando para que permita que fiquem com o esconderijo. Eles dizem que seus caminhões estão danificados e precisam das peças para reparar a falha. [br/][productioncol]Esta decisão afetará as relações com esta Facção.[/productioncol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_04_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Conceda o esconderijo aos Espaciais e ganhe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_04_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_Rewards}, e suas relações [diplomaticlinks/] com os Espaciais melhoram</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_04_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Ignore-os, saqueie o local e pegue: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_04_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_Rewards}, mas suas relações [diplomaticlinks/] com os Espaciais pioram</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Frenesi de Implantes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma unidade Paragon solitária ({STR_UnitName}) é encontrada caída e enfraquecida ao lado do esconderijo. Ele diz que a União o deixou para apodrecer e que se juntaria a você de bom grado se lhe desse os implantes que acredita estarem dentro do esconderijo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_05_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Ajude e permita que a unidade ({STR_UnitName}) se junte a nós</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_05_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_UnitName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_05_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Ignore o pedido e pegue: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_05_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">A colônia mais próxima recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_06</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Alfândega Negada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao se preparar para adquirir o esconderijo, você recebe uma transmissão Paragon. Eles explicam que os materiais encontrados chegaram ao planeta ilegalmente e que devem ser deixados para que a União os confisque. [br/][productioncol]Esta decisão afetará as relações com esta Facção.[/productioncol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_06_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Deixe os materiais para trás e ganhe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_06_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_Rewards}, e suas relações [diplomaticlinks/] com os Paragon melhoram</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_06_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">A União não vai voltar — pegue: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_06_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_Rewards}, mas suas relações [diplomaticlinks/] com os Paragon pioram</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_FALLBACK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Nave de Pesquisa Acidentada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_FALLBACK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os restos desta nave de pesquisa contêm pads de dados intactos. Infelizmente, eles não revelam nenhuma informação sobre a missão da nave, sua tripulação ou os eventos que levaram ao pouso forçado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_FALLBACK_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Pegar: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_FALLBACK_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">O Império recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registros de Pesquisa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você adquire: {STR_Rewards}, dos pads de dados da nave. Os registros estão intactos, mostrando as coordenadas de um local ({STR_ExploredStructure}).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_01_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Pegar: {STR_Rewards}, e mostrar o local</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_01_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">O Império recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Componentes de Laboratório</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dentro do casco destruído, você descobre que esta nave transportava uma melhoria para colônia ({STR_BuildingName}). Podemos montá-la em uma de nossas bases ou estudá-la e desmontá-la para obter conhecimento sobre antigas arquiteturas da Union.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_02_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Transferir a melhoria para colônia para {STR_ColonyName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_02_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Adicionar a melhoria para colônia como construção gratuita em {STR_ColonyName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_02_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Desmontar o Laboratório e ganhar: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_02_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">O Império recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Nave de Pesquisa de Armas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você encontra um item intacto ({STR_ItemName}) dentro da câmara de análise e diagnósticos. Podemos ficar com o item ou ativar os protocolos de diagnóstico para estudá-lo, destruindo o item no processo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_03_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Adquirir o item: {STR_ItemName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_03_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Receber o item</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_03_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Desmontar o item e ganhar: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_03_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">O Império recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Estudos do Vazio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Pesquisas relacionadas ao Vazio, incluindo algumas amostras, são encontradas dentro desta nave, acompanhadas por um pequeno grupo de Psi-Peixes. Eles parecem interessados no conteúdo da nave, mas você também poderia usar essas amostras para avançar em suas próprias pesquisas. [br/][productioncol]Esta decisão afetará as relações com esta Facção.[/productioncol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_04_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Entregar os registros de dados aos Psi-Peixes e ganhar: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_04_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_Rewards}, e suas relações [diplomaticlinks/] com os Psi-Peixes melhoram</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_04_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Ignorar os Psi-Peixes e ganhar: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_04_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_Rewards}, mas suas relações [diplomaticlinks/] com os Psi-Peixes pioram</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Peixe em um Tanque</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dentro da nave, você encontra uma unidade Psi-Peixe ({STR_UnitName}) presa em um tanque de vidro, inconsciente. De acordo com os registros restantes da nave, a maquinaria conectada ao tanque possui as seguintes funções:</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_05_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Imprimir: Liberar a unidade ({STR_UnitName}) sob seu comando</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_05_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe a unidade: {STR_UnitName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_05_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Dissecar: Estudá-la e ganhar: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_05_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">O Império recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_05_BUTTON_03</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Descartar: Libertá-la na natureza. Isso impactará sua reputação [reputation6/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_05_BUTTON_03</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">[xpCol]+100 de Reputação [reputation6/][/xpCol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_06</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Protocolos de Sonda</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dentro da nave acidentada, você encontra um Monitor Autônomo tentando acessar os registros de dados, mas a segurança está se mostrando problemática. Você pode ajudá-lo ou recuperar os registros para si mesmo. [br/][productioncol]Esta decisão afetará as relações com esta Facção.[/productioncol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_06_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Ajudá-lo e ganhar: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_06_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_Rewards}, e as relações [diplomaticlinks/] com os Autônomos melhoram</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_06_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Ignorá-lo e recuperar: {STR_Rewards}, para você mesmo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_06_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_Rewards}, mas as relações [diplomaticlinks/] com os Autônomos pioram</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COSMITE_PICKUP_EVENT_FALLBACK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Depósito de Cosmita</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COSMITE_PICKUP_EVENT_FALLBACK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você encontra Cosmita[tricorium/] recuperável neste local.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COSMITE_PICKUP_EVENT_FALLBACK_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Pegar: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COSMITE_PICKUP_EVENT_FALLBACK_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PICKUP_EVENT_REP_GOOD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Você realizou recentemente uma ação bondosa.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PICKUP_EVENT_REP_BAD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Você realizou recentemente uma ação maligna.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <TopRowVisible>91</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>93</ActiveRow>
+     <ActiveCol>18</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

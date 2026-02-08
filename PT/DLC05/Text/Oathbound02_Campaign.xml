@@ -1,0 +1,1503 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Laszlo Pieper</Author>
+  <LastAuthor>Frederick Milders</LastAuthor>
+  <Created>2018-10-11T08:22:20Z</Created>
+  <LastSaved>2020-09-24T08:45:58Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17625</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="230" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="252" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="413.25"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="383.25"/>
+   <Column ss:StyleID="s62" ss:Width="150"/>
+   <Column ss:StyleID="s62" ss:Width="254.25"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OATHBOUND02_CAMPAIGN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Index="4" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_CUSTOM_SECTOR_GOVERNMENT_PALACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Palácio Imperial</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_CUSTOM_SECTOR_CYPHER_PARAGON_DWELLING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Capitólio de Neotróia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_CUSTOM_SECTOR_CYPHER_SPACEPORT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Porto Máximo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_CUSTOM_SECTOR_TERRATECH_VAULT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Museu Vivo de História Natural</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_CUSTOM_SECTOR_PARAGON_ARCHIVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vigia Krotiana</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Indústrias Terratech</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ascensão das Tecnologias do Vazio</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Setores Redcore</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Comuna de Naissance</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Quarteirão da Justiça</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_06</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Precinto da Absolvição</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_07</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Zona da Visão</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_08</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Distrito Princípal</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_09</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vizinhança de Storith</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_10</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Departamento de Integridade</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_11</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Distrito Megacorp</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_12</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Precinto Onor</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_13</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Torres da Reflexão</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_14</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Distrito Liberis</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_15</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ascensão de Recincton</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_16</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Região com Vantagem</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_17</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Distrito de Orion</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_18</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Local de Conferência</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_19</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Distrito de Comércio Interestelar</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_20</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Setor Ypsilon</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_21</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Alturas Reluzentes</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_22</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Distrito Corporativo Megatech</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_23</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Projetos de Orion</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_24</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Projetos de Oportunidade</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_25</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Quarteirão dos Zardans</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_26</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Horizontes de Thunderwind</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_27</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Distrito Diamante</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_IMPERIAL_OVERLAY_SECTOR_28</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Horizontes do Hiperpropulsor</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:Index="39" ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_FIND_GRAIL</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Condição de Vitória: Uma Configuração Fatídica</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A header name of a task.
+"Configuration" refers to the "Grail Configuration", an in game structure type.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_FIND_GRAIL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Configuração Fatídica</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A name of a task.
+"Configuration" refers to the "Grail Configuration", an in game structure type.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_FIND_GRAIL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você pode vencer este mapa encontrando e assegurando a Configuração do Graal Prime. Mas perderá se a Assembly encontrá-la primeiro![br/][br/]Seu progresso: {INT_0}/{INT_1} etapas concluídas[br/]Progresso da Assembly: ???/{INT_3} etapas concluídas</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.
+The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_FIND_GRAIL_UPDATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você pode vencer este mapa encontrando e assegurando a Configuração do Graal Prime. Mas perderá se a Assembly encontrá-la primeiro![br/][br/]Seu progresso: {INT_0}/{INT_1} etapas concluídas[br/]Progresso da Assembly: {INT_2}/{INT_3} etapas concluídas</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.
+The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_FIND_GRAIL</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Seu progresso: {INT_0}/{INT_1} etapas concluídas[br/]Progresso da Assembly: ???/{INT_3} etapas concluídas</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_FIND_GRAIL_UPDATE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Seu progresso: {INT_0}/{INT_1} etapas concluídas[br/]Progresso da Assembly: {INT_2}/{INT_3} etapas concluídas</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_BATTLE_FOR_UNION_PRIME</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Condição de Vitória: A Batalha por Union Prime</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A header name of a task.
+"Union Prime" is the name of the planet the mission plays on. See also the corresponding glossary entry.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_BATTLE_FOR_UNION_PRIME</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">A Batalha por Union Prime</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_BATTLE_FOR_UNION_PRIME</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use o poder da Configuração do Graal Prime para repelir as facções inimigas e reivindicar Union Prime para sua recém-formada aliança.[br/][br/]Comandantes Inimigos Derrotados: {INT_0}/{INT_1}[br/][br/][recommendedcol](Dica: abra o painel de operações para ativar a Doutrina concedida a você pelo marco da Configuração do Graal. Você deve defender o marco para manter a poderosa Doutrina ativa!)[recommendedcol/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.
+The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_BATTLE_FOR_UNION_PRIME</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Comandantes Inimigos Derrotados: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_ECHOES_OF_AN_ANCIENT_ERA_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Equis Weviere encarregou você de montar o scanner único que os Oathbound criaram para encontrar os Cifras contendo os segredos das Configurações do Graal.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task descripiton. For the task name see the corresponding entry in the Grails.xml.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_ECHOES_OF_AN_ANCIENT_ERA_QUEST_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um scanner desenvolvido pelos Videntes para descobrir as localizações dos únicos Cifras do Graal.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A colony production option descripiton. For the name see the corresponding entry in the Grails.xml.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MISSION_INTRO_DIALOGUE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Equis Denard, Equis {STR_LeaderName}, bem-vindos a Union Prime! É uma honra ter os dois novos membros do nosso Círculo ao meu lado, mesmo que a decisão de não enviar os paladinos mais experientes nesta missão vital tenha sido uma surpresa. Os caminhos do Oráculo podem ser misteriosos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Louise Weviere" (Oathbound, female)
+"Circle" refers to the "Circle of Heroes" (see corresponding glossary entry).
+"Equis" is the title of an Oathbound Paladin ruling a planet.
+For "Oracle" see the corresponding glossary entry.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MISSION_INTRO_DIALOGUE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Com certeza podem! Os Videntes devem ter previsto que nossas diferentes habilidades se complementarão melhor para enfrentar os perigos que estão por vir.[br/][br/]Agradeço pela confiança, Equis Weviere. Você não ficará decepcionado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)
+For "Seers" see the corresponding glossary entry.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MISSION_INTRO_DIALOGUE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">É verdade que as capacidades não estão igualmente distribuídas entre nosso grupo de liderança. Mas nenhum de vocês precisa se preocupar: quando tudo mais falhar, Equis Denard aparecerá e salvará o dia heroicamente!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Agley Denard" (Oathbound male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MISSION_INTRO_DIALOGUE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Vamos torcer para que não chegue a isso. Por enquanto, a rapidez será nossa maior arma. Precisamos encontrar e recuperar a Configuração do Graal antes que a Assembly o faça. É simples assim.[br/][br/]Equis Denard, seu quartel-general é o mais próximo do ponto de pouso de nossos inimigos. Você montará nossa primeira linha de defesa.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Louise Weviere" (Oathbound, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MISSION_INTRO_DIALOGUE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Equis {STR_LeaderName}, você está encarregado do dispositivo de varredura que trouxemos para localizar os Cifras que levam à Configuração do Graal. Monte-o em suas colônias.[br/][br/]Quanto a mim, farei uma visita silenciosa ao quartel-general da Assembly para monitorar seus próximos passos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Louise Weviere" (Oathbound, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_HEROES_JOIN_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">É bom tê-lo de volta ao meu lado, Vrascal! Suas novas vestes lhe caem bem – essa promoção foi merecida, sem dúvida.[br/][br/]Mas como estão as coisas no Equisato de Verdrice? Espero que o povo lá tenha sobrevivido ao elo do Vazio daquele maldito dispositivo da Assembly!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)
+"Equisat of Verdrice" is the name of the planet the first Oathbound mission played on.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_HEROES_JOIN_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Equisato de {STR_LeaderName} é como você deve dizer, meu ex-aluno. Não honramos mais o nome daquele Apóstata. Mas o planeta está seguro, sim. Houve alguma agitação e turbulência, porém nada que não pudesse ser resolvido.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Vrascal the Seer" (Oathbound, male)
+"Equisat of NAME" is the naming the Oathbound use to name some of the planets governed by an Equis.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_HEROES_JOIN_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quanto à minha “promoção”, não é assim que as coisas funcionam para nós, Videntes. No entanto, aceito este novo papel que o Oráculo me confiou. De qualquer forma, sua empolgação foi devidamente registrada.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Vrascal the Seer" (Oathbound, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_HEROES_JOIN_EVENT_MESSAGE_PAGE_04_NARWA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você certamente não mudou, Vrascal! Seja bem-vindo de volta![br/][br/]Agora, quanto a você, Narwa. Ouvi coisas boas de nossos irmãos e irmãs Celestianos sobre sua recuperação.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_HEROES_JOIN_EVENT_MESSAGE_PAGE_05_NARWA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Estudar o Código d’Equise uma segunda vez encheu meu coração de paz e expectativa. O tempo de humildade e meditação me levou de volta às raízes do que significa ser um Paladino Oathbound.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Narwa the Redeemed" (Oathbound, female)
+"Code d'Equise" is the name of a book and code of honor.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_HEROES_JOIN_EVENT_MESSAGE_PAGE_06_NARWA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Então você está pronto para retornar à luz. Vista esta nova armadura de batalha com dignidade. Ela servirá ao nosso povo como um lembrete de que não há ovelhas perdidas entre os Oathbound.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_HEROES_JOIN_EVENT_MESSAGE_PAGE_04_RODUN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você certamente não mudou, Vrascal! Seja bem-vindo de volta![br/][br/]Agora, quanto a você, Rodun Thalm. Você se saiu bem durante nosso tempo no Equisato de Verdrice e não é mais um Aspirante. Com a autoridade concedida a mim pelo Alto Paladius e seus Videntes, confirmo seu novo posto e deveres.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)
+"Aspirant" refers to Paladin Aspirant, an in game unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_HEROES_JOIN_EVENT_MESSAGE_PAGE_05_RODUN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Obrigado, meu Equis. É uma honra receber a confiança e o reconhecimento que se tornam um Mordomo Paladino. Mas minha maior recompensa será continuar servindo sob sua inspiradora liderança. Dedico minha vida a segui-lo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Rodun Thalm" (Oathbound, male)
+"Steward" is a title given to a Paladin governing a colony.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_MEET_COLDRAN_LEX_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Atenção, escória saqueadora! Como Prefeito de Union Prime, declarei lei marcial até que todos os tumultos sejam esmagados. Entreguem suas armas agora ou preparem-se para conhecer a divisão pacificadora da força militar Paragon. A Star Union não tolera anarquia!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Codran Lex" (Paragon, male)
+"Prefect" is the name of a Paragon governing a planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_MEET_COLDRAN_LEX_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Prefeito Paragon? Star Union? Você está ciente de que o império que lhe concedeu legitimidade entrou em colapso e está apodrecendo há mais de 200 anos? Nenhum de nós cresceu sob o domínio Paragon. Somos Oathbound.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OATH02_MEET_COLDRAN_LEX_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não tente dar lições de história a um homem que sobreviveu a dezenas de gerações. Quando ativei o escudo de emergência de Union Prime, a onda de choque do Cataclismo estava a apenas alguns instantes de distância. 200 anos de confinamento no Vazio, mas eu sempre soube que o Imperador — e seu império — retornaria para salvar seus seguidores leais.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Codran Lex" (Paragon, male)
+For "Cataclysm" see the corresponding glossary title.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_MEET_COLDRAN_LEX_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">E ainda assim a culpa é sua. Aqueles que o tiraram das sombras não são menos erráticos ou destrutivos que o próprio Vazio. Quando Union Prime for remontado de acordo com os planos da Assembly, você desejará que tivesse permanecido onde estava antes.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">OATH02_MEET_COLDRAN_LEX_EVENT_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Menino tolo! Você não ousa imaginar o que significa ter existido onde nenhum homem deveria habitar, testemunhar o aperto crescente do Abismo enquanto o escudo de energia que protege você e seu povo começa lentamente a rachar sob a pressão dos séculos!</Data></Cell>
+    <Cell><Data ss:Type="String">Menina tola! Você não ousa imaginar o que significa ter existido onde nenhum homem deveria habitar, testemunhar o aperto crescente do Abismo enquanto o escudo de energia que protege você e seu povo começa lentamente a rachar sob a pressão dos séculos!</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Codran Lex" (Paragon, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_MEET_COLDRAN_LEX_EVENT_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Assembly está recebendo o tratamento que merece — por distorcer o legado da Paragon Inc. além do reconhecimento.[br/][br/]Quanto a você… há algo estranhamente familiar em sua presença. Tenho a sensação de que conversaremos novamente em breve.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Codran Lex" (Paragon, male)
+"Paragon Inc." is the name of a company.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_MEET_ELLEN_SHAW_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Espécimes humanos, tipo delta-3. Capacidades físicas: baixas. Estado tecnológico: acima da média. Nome auto-designado: Oathbound. Estávamos esperando sua chegada. Precisão de nossa estimativa de tempo: 96,6%.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Ellen Shaw" (Assembly, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_MEET_ELLEN_SHAW_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Poupe-nos de seu exibicionismo inflado de dados. Sem os atos desprezíveis daqueles que traíram seus juramentos, vocês nem saberiam da existência das Configurações do Graal, muito menos teriam chegado perto delas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Louise Weviere" (Oathbound, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_MEET_ELLEN_SHAW_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">E é por isso que vocês fracassarão. A desunião gera fraqueza. Sabia que, através do nosso multiplexador L0G3N-1, posso ouvir os pensamentos de cada indivíduo da Assembly espalhado pela galáxia? Somos todos uma grande família.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Ellen Shaw" (Assembly, female)
+"L0G3N-1" is the name of a male Assembly character.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_MEET_ELLEN_SHAW_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma grande família de monstros! Felizmente, sou especialista em matar bestas de múltiplas cabeças. Antes que o toco possa crescer de volta, minha lança de volt terá desferido uma dúzia de golpes mortais!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Agley Denard" (Oathbound male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_MEET_ELLEN_SHAW_EVENT_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sua confiança é louvável, porém infundada. Analisamos o equipamento dos indivíduos que vocês chamam de Apóstatas. Suas características tecnológicas e biológicas foram adicionadas ao nosso arsenal de armas integradas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Ellen Shaw" (Assembly, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OATH02_MEET_ELLEN_SHAW_EVENT_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mas por que fazer qualquer uma dessas coisas? Se dizem buscar a unidade, por que impõem sua forma de existência aos outros? Não podem deixar o resto da galáxia viver em paz?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_MEET_ELLEN_SHAW_EVENT_MESSAGE_PAGE_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O julgamento das raças humanoides é distorcido pelo medo do desconhecido. O que não conseguem reconhecer, nunca desejarão se tornar. Quando a Reunião estiver completa, todos vocês entenderão.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Ellen Shaw" (Assembly, female)
+For "Reassembly" see the corresponding glossary entry.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OATH02_MEET_CHIN_TIL_TRZ_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Que a paz esteja com vocês, humanos! Sou o Arauto do Enxame Chin Til’Trz, da Liga Egalitária dos Planetas. Ouvimos muito sobre a forma como governam e cuidam de seu povo, mas não houve oportunidade para contato diplomático desde que sua facção emergiu de seu auto-isolamento. Este poderia ser um momento oportuno para mudar isso.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chin Til'Trz" (Kir'Ko, male)
+"Swarm Herald" is a Kir'Ko title.
+For "Egalitarian League of Planets" (short ELOP), see the corresponding glossary entry.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_MEET_CHIN_TIL_TRZ_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O prazer é nosso, Arauto do Enxame dos Kir’Ko. Sua confederação é um exemplo inspirador de cooperação inter-racial. Parece haver muito em comum entre sua liderança e a nossa.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_MEET_CHIN_TIL_TRZ_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bem dito! Prevejo um relacionamento próspero entre a Confederação ELOP e os Oathbound. Um dia, talvez até enxameemos juntos, unidos em uma civilização galáctica.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chin Til'Trz" (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_MEET_CHIN_TIL_TRZ_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não nos adiantemos. Há duas conquistas vitais que distinguem nós, Oathbound, das outras raças. A primeira é nosso juramento e nosso código de honra, o Código d’Equise. A segunda é o Oráculo e sua sabedoria, trazida a nós pelos Videntes. Somente ao abraçar ambos os elementos, forasteiros podem se juntar à nossa sociedade.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Louise Weviere" (Oathbound, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_MEET_CHIN_TIL_TRZ_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Discordo, Equis Weviere. Nosso juramento pode ser feito por qualquer um com o coração de um leão e a constituição de um nobre corcel. Não é preciso um grupo de místicos para prever que aquele que escolher seguir meu exemplo com sinceridade pode ser moldado em um herói!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Agley Denard" (Oathbound male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_MEET_CHIN_TIL_TRZ_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não quero trazer turbulência à unidade de seu enxame. Perdoe minhas propostas apressadas de entusiasmo. Porém, devo alertar que tivemos que lutar muito para nos libertarmos do controle da IA antes conhecida como CORE. Se seu Oráculo funciona de maneira semelhante, não pode ser confiável.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chin Til'Trz" (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_MEET_CHIN_TIL_TRZ_MESSAGE_PAGE_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Deixe que nós decidamos em quem podemos ou não confiar, Chin Til’Trz da ELOP. Ainda não ouvi falar de um inseto que tenha levantado a voz para jurar um juramento.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Louise Weviere" (Oathbound, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_CYPHERS_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Escâner do Graal está operacional. Estamos recebendo sinais de feedback ressonantes de três possíveis localizações de Cifras. Estou enviando as coordenadas para suas interfaces táticas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="240">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_CYPHERS_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bom trabalho, Equis {STR_LeaderName}. Você irá recuperar o Cifrador da Estação de Transmissão perto do Palatium Imperialis. Equis Denard, você enfrentará o Paragon nos quartéis de treinamento deles em Neotroy Capitol. Isso me deixa com o Monumento de Guerra Imperial em Port Maximus.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Louise Weviere" (Oathbound, female)
+"Broadcasting Station" is the name of an in game exploration site.
+"Palatium Imperialis" is the name of a "Government Palace" landmark and in game sector (see custom sectors at the top of this xml).
+"training barracks" refers to "Paragon Training Barracks", an in game exploration site.
+"Neotroy Capitol" is the name of an in game sector (see custom sectors at the top of this xml).
+"Imperial War Monument" is the name of an in game exploration site.
+"Port Maximus" is the name of a "Spaceport" landmark and in game sector (see custom sectors at the top of this xml).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_CYPHERS_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Finalmente, um desafio à altura! Um confronto contra a elite do Paragon é uma batalha digna da minha lenda! Vocês receberão notícias da minha vitória antes do pôr da lua.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Agley Denard" (Oathbound male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_CYPHERS_INTRO_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não espero menos. Temos pouco tempo, e a Assembly está reivindicando a palavra “eficiência” para si. Vamos ensiná-los que estão errados!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Louise Weviere" (Oathbound, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_CYPHERS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Vá até os Locais de Exploração marcados e recupere os Cifradores que levam à Configuração do Graal Prime.[br/][br/][recommendedcol](Dica: aguarde seus aliados recuperarem os Cifradores de seus alvos, a menos que esteja com pouco tempo. Você deve se concentrar principalmente no Cifrador da Estação de Transmissão.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task descripiton. For the task name see the corresponding entry in the Grails.xml.
+"Exploration Site" is the name of an in game structure type.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_CYPHERS_QUEST_SCRIPTED_OBJECTIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Cifrador no Palatium Imperialis Obtido</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_CYPHERS_QUEST_SCRIPTED_OBJECTIVE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Cifrador em Port Maximus Obtido</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_CYPHERS_QUEST_SCRIPTED_OBJECTIVE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Cifrador em Neotroy Capitol Obtido</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_CYPHERS_UPDATE_MESSAGE_01_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Paragon enviou seus melhores.[br/]Eles teriam vencido alguém inferior.[br/]Em vez disso, minha lenda continua a crescer.[br/]Peguem este Cifrador, meus amigos, e deixem-no brilhar!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Agley Denard" (Oathbound male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_CYPHERS_UPDATE_MESSAGE_01_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Excelente trabalho, Equis Denard! Não sabia que você tinha uma queda por poesia. Tenho certeza de que, com o tempo, seus talentos nessa área irão… hmm… se desenvolver para igualar suas habilidades no campo de batalha eventualmente.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Louise Weviere" (Oathbound, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_CYPHERS_UPDATE_MESSAGE_02_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tomei a liberdade de visitar o Monumento de Guerra em Port Maximus em seu nome, Equis Weviere. Basta dizer que, após minha exibição heroica lá, o monumento deveria ser revisado e dedicado ao meu feito e nome. O último Cifrador é nosso!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Agley Denard" (Oathbound male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_CYPHERS_UPDATE_MESSAGE_02_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sua extensão proativa de responsabilidades é devidamente aceita, dada a urgência incomum de nossa missão, Equis Denard. Mas lembre-se de que não tolerarei tais operações pelas minhas costas uma segunda vez.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Louise Weviere" (Oathbound, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_CYPHERS_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Coletamos Cifradores suficientes para alimentar os algoritmos de descriptografia desenvolvidos para este fim. Equis {STR_LeaderName}, seus Videntes foram instruídos a configurar e monitorar os módulos de análise dos Cifradores.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Louise Weviere" (Oathbound, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_CYPHERS_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Se tudo correr bem, em breve saberemos a localização da Configuração do Graal e teremos descriptografado os códigos de acesso necessários para entrar em seu cofre interno.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Louise Weviere" (Oathbound, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OATH02_DECODE_CYPHERS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Deixe seus Videntes analisarem os Cifradores para obter a localização do cofre da Configuração do Graal e seus códigos de acesso.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task descripiton. For the task name see the corresponding entry in the Grails.xml.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_DECODE_CYPHERS_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Acabei de receber a informação dos meus Videntes: a descriptografia dos Cifradores está completa! Estou transmitindo a posição e o código de acesso para os bancos de dados de sua armadura de batalha.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_DECODE_CYPHERS_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Excelente! Estou vendo as coordenadas recebidas – o cofre do Graal fica nas proximidades do território da Assembly, dando-lhes uma vantagem decisiva nesta corrida. Por sorte, eu já suspeitava disso e fiz preparativos…[br/][br/]A todas as unidades: iniciem a operação “Skylift”!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Louise Weviere" (Oathbound, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OATH02_DECODE_CYPHERS_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Plataforma de retransmissão móvel está alcançando a posição alvo. Todos os drones de transporte quântico estão inicializando os propulsores de liberação...[br/][br/]Sucesso! A águia pousou!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Avatar" (AI unit, could be male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">OATH02_DECODE_CYPHERS_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sim! Com a Base de Retransmissão Avançada implantada, podemos enviar nossas tropas para uma investida até o cofre da Configuração do Graal. Equis Denard, Equis {STR_LeaderName}, vocês receberam os esquemas para construir Retransmissores Orbitais perto de suas próprias sedes.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Louise Weviere" (Oathbound, female)
+"Forward Relay Base" is the name of an in game structure.
+"Orbital Relays" refers to "Orbital Relay Exploitation", an in game sector exploitation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_DECODE_CYPHERS_COMPLETION_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Obrigado, Equis Weviere. Isso é altamente impressionante! Mas devemos ser cautelosos e não nos tornarmos excessivamente confiantes: não apenas a Assembly, mas também seus aliados Apóstatas farão qualquer coisa para nos impedir de reivindicar o Graal!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OATH02_DECODE_CYPHERS_COMPLETION_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Que tentem! Quanto mais soldados saqueadores e falsos cirurgiões eles enviarem, maior será nossa fama e vitória!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Agley Denard" (Oathbound male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_RETIREVE_GRAIL_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Envie um exército com um herói para o local da Configuração do Graal Prime e reivindique-a para os Oathbound.[br/][br/][recommendedcol](Dica: construa um Setor de Retransmissão Orbital para transportar rapidamente seus exércitos para a Base de Retransmissão Avançada de Louise Weviere.)[recommendedcol/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task descripiton. For the task name see the corresponding entry in the Grails.xml.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_RETIREVE_GRAIL_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Sítio Anômalo Concluído</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.
+"Anomalous Site" is the name of an in game structure type.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OATH02_EMPRESS_CORONATION_FLASHBACK_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Palatium Imperialis! Mesmo ao lado da imponente paisagem urbana da pomposa arquitetura Paragon, a cúpula do palácio imperial se ergue como um colosso de uma era esquecida. Sinto como se ainda pudesse ouvir as massas em coro se reunindo na praça dos impérios, testemunhando sua histeria inebriante enquanto o Imperador aparece em público…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OATH02_EMPRESS_CORONATION_FLASHBACK_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">…É A HORA, ALIUNA. SEU POVO ESTÁ ESPERANDO. A COROAÇÃO DEVE COMEÇAR.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "CORE" (AI, genderless, see corresponding glossary entry)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_EMPRESS_CORONATION_FLASHBACK_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Estou pronta. Sabe, eu desejava que esse momento, o fim do meu isolamento, chegasse. Só tenho uma pergunta: quando eu entrar na sacada e aceitar meu novo nome e título, o que acontecerá com a garota chamada Aliuna? Ela encontrará amigos para brincar?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)
+Speaking as Empress Carminia as part of a dream vision.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_EMPRESS_CORONATION_FLASHBACK_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">VOCÊ SABE A RESPOSTA. SUA INTUIÇÃO SEMPRE FOI UMA DE SUAS FORÇAS. É ISSO QUE VOCÊ ESTAVA DESTINADA A SE TORNAR. O QUE SEU POVO PRECISA…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "CORE" (AI, genderless, see corresponding glossary entry)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_EMPRESS_CORONATION_FLASHBACK_EVENT_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Reverendo Nacri! Preciso falar com você. Minhas visões voltaram. A garota dos sonhos… descobri que ela era a Imperatriz Carminia o tempo todo!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)
+For "Empress Carminia" see the corresponding glossary entry.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_EMPRESS_CORONATION_FLASHBACK_EVENT_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aprendiz {STR_LeaderFirstName}, é bom falar com você novamente, embora eu preferisse que fosse menos… intrusivo da próxima vez. Mas como pode dizer que a garota era a Imperatriz Carminia? Não aprendeu nada com sua experiência passada?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Reverend Nacri" (Celestian Ascended Teacher unit, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_EMPRESS_CORONATION_FLASHBACK_EVENT_MESSAGE_PAGE_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sim, quero dizer, não… Não tenho mais certeza. Está tudo tão confuso! Se a garota que vi é a Imperatriz Carminia, como é possível que suas palavras e ações fossem tão diferentes da imagem da soberana e governante amplamente adorada que foi preservada até hoje?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_EMPRESS_CORONATION_FLASHBACK_EVENT_MESSAGE_PAGE_08</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ninguém nasce para uma profissão, nem mesmo uma Imperatriz. Todos apenas tentam crescer e se ajustar ao papel na vida que o destino ou eles mesmos buscaram. Por trás da máscara de perfeição que um governante deve usar, muitas esperanças e sonhos despedaçados podem estar enterrados.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Reverend Nacri" (Celestian Ascended Teacher unit, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OATH02_CARMINIA_THOLIAN_DEBATE_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os padrões ornamentais nas paredes, as formações cristalinas… Mesmo que este lugar pareça antigo e alienígena, sinto como se já tivesse estado aqui antes…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">OATH02_CARMINIA_THOLIAN_DEBATE_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">…precisamos planejar cuidadosamente a detonação. As bombas de gravidade devem interromper a Rede Nexus, não destruí-la completamente. Os Urmythianos construíram suas Configurações do Graal para promover a ordem. Eles não pretendiam que seu aparato perfeito caísse nas mãos de anarquistas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Hologram of Emperor Tholian" (hologram is genderless, Tholian is a male Paragon character. See the corresponding glossary entry.)
+For "Nexus Network" see the corresponding glossary entry.
+"Urmythians" is the name of an extinct crystalline race.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_CARMINIA_THOLIAN_DEBATE_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Urmythianos também não pretendiam que seus corpos se transformassem em Cosmita e abastecessem a tecnologia avançada de civilizações galácticas futuras. Se suas previsões podiam estar erradas, as de qualquer um também podem, incluindo as suas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)
+Speaking as Empress Carminia as part of a dream vision.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_CARMINIA_THOLIAN_DEBATE_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você diz que uma detonação controlada paralisará o NÚCLEO por tempo suficiente, mas e se não funcionar? Quer condenar todas as gerações futuras a viver sob o domínio de uma IA como nós fizemos? Não vou correr esse risco. Esta é nossa única chance de independência e devemos aproveitá-la!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)
+Speaking as Empress Carminia as part of a dream vision.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OATH02_CARMINIA_THOLIAN_DEBATE_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mas não dessa forma! A destruição causada por uma explosão dessa magnitude poderia devastar toda a galáxia; uma reação cataclísmica! Lembre-se, o potencial Psiónico induzido por uma bomba de gravidade é uma prova muito frágil da minha teoria. Você poderia morrer, ou pior: ter sucesso. Quer mesmo reinar sobre a humanidade como um deus imortal – por toda a eternidade?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Hologram of Emperor Tholian" (hologram is genderless, Tholian is a male Paragon character. See the corresponding glossary entry.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">OATH02_CARMINIA_THOLIAN_DEBATE_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Terei que carregar esse fardo. Ou, como o NÚCLEO diria: é meu destino.[br/][br/]Mas por que estou discutindo isso com um holograma? O grupo Ômega me informou que Ara’rael se moveu. A sorte está lançada.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)
+Speaking as Empress Carminia as part of a dream vision.
+"Omega group" was an anonymous group of hackers who created the Synthesis secret tech.
+"Ara'rael" is the name of an AI (a male hacker uploading his consciousness into cyber space).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">OATH02_CARMINIA_THOLIAN_DEBATE_MESSAGE_PAGE_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aliuna, por favor, seja razoável. Não é minha culpa que a única pessoa em quem você ainda pode confiar seja um holograma. Nem toda IA é ruim. Veja o sistema de previsão de Archanon-8, por exemplo: ele é construído em torno de uma Configuração do Graal do Conhecimento e nunca mostrou sinais de…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Hologram of Emperor Tholian" (hologram is genderless, Tholian is a male Paragon character. See the corresponding glossary entry.)
+"Archanon-8" is the name of a planet.
+"Grail Configuration of Knowledge" is the name of an in game structure. (it is not the same structure as the one found in this mission, but has the same general type)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_CARMINIA_THOLIAN_DEBATE_MESSAGE_PAGE_08</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sistema de previsão de Archanon-8? Oráculo – não posso acreditar! E tem muito mais: os Urmythianos, o grupo Ômega, Ara’rael… Não sei como explicar nada disso ao Reverendo. Mas este também não é o lugar nem o momento certo para conversar, ainda pode haver perigos à frente.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OATH02_CARMINIA_REVELATION_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você se saiu bem, Aprendiz {STR_LeaderFirstName}. A Configuração do Graal está ao seu alcance.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Reverend Nacri" (Celestian Ascended Teacher unit, male)
+Last message is spoken from the perspective of Empress Carminia, since she reveals her identity in that sentence.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OATH02_CARMINIA_REVELATION_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Reverendo Nacri? Você sabia sobre as Configurações do Graal? Como isso é possível?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OATH02_CARMINIA_REVELATION_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Há uma explicação simples para o meu conhecimento, {STR_LeaderFirstName}, e de fato é hora de você saber a verdade. Veja bem, eu sou a Imperatriz Carminia.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Reverend Nacri" (Celestian Ascended Teacher unit, male)
+Last message is spoken from the perspective of Empress Carminia, since she reveals her identity in that sentence.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_CARMINIA_REVELATION_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você?! A Imperatriz?! ... Então foi assim que tive todas essas visões! Você as plantou na minha mente e depois encenou a farsa sobre discernir sua origem e significado! Mas por que eu? Por que isso?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_CARMINIA_REVELATION_EVENT_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Porque você precisava estar pronto. Pronto para as decisões que virão. Pronto para o seu futuro papel… E a única maneira de prepará-lo era deixá-lo reviver o passado e aprender, para que pudesse evitar os erros que eu cometi.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Empress Carminia" (Paragon, female; see corresponding glossary entry.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="180">
+    <Cell><Data ss:Type="String">OATH02_CARMINIA_REVELATION_EVENT_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você já notou que o destino da garota – meu eu jovem – e o seu próprio destino estavam estranhamente relacionados. Mas o que você não podia perceber é que você é, na verdade, eu, e que eu sou você. Você é a versão de mim mesmo da dimensão alternativa mais semelhante, e eu o trouxe aqui para se tornar Imperador da nova Star Union.</Data></Cell>
+    <Cell><Data ss:Type="String">Você já notou que o destino da garota – meu eu jovem – e o seu próprio destino estavam estranhamente relacionados. Mas o que você não podia perceber é que você é, na verdade, eu, e que eu sou você. Você é a versão de mim mesmo da dimensão alternativa mais semelhante, e eu o trouxe aqui para se tornar Imperatriz da nova Star Union.</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Empress Carminia" (Paragon, female; see corresponding glossary entry.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OATH02_CARMINIA_REVELATION_EVENT_MESSAGE_PAGE_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Isso… é absurdo! Não pode ser verdade. Você deve estar louca! A prova mais óbvia contra essa bobagem é que eu sou um homem![br/][br/] Além disso, não tenho interesse em me tornar Imperador de uma nova Star Union.</Data></Cell>
+    <Cell><Data ss:Type="String">Isso… é absurdo! Não pode ser verdade. Você deve estar louca![br/][br/] Além disso, não tenho interesse em me tornar Imperatriz de uma nova Star Union.</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">OATH02_CARMINIA_REVELATION_EVENT_MESSAGE_PAGE_08</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Isso se chama dimensão alternativa por um motivo. Mas também não importa se você acredita em mim ou não. O importante é que você aceite seu futuro papel como Imperador e que mantenha o Oracle como seu sistema consultivo e contrapeso ao seu poder.</Data></Cell>
+    <Cell><Data ss:Type="String">Isso se chama dimensão alternativa por um motivo. Mas também não importa se você acredita em mim ou não. O importante é que você aceite seu futuro papel como Imperatriz e que mantenha o Oracle como seu sistema consultivo e contrapeso ao seu poder.</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Empress Carminia" (Paragon, female; see corresponding glossary entry.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell><Data ss:Type="String">OATH02_CARMINIA_REVELATION_EVENT_MESSAGE_PAGE_09</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A nova Star Union precisa de um Imperador forte, alguém que possa reparar o cisma entre as diferentes raças humanas após o Cataclismo. Mas também precisa do potencial administrativo e da objetividade de um sistema computacional para governar e conectar os muitos mundos que se unirão sob sua bandeira.</Data></Cell>
+    <Cell><Data ss:Type="String">A nova Star Union precisa de uma Imperatriz forte, alguém que possa reparar o cisma entre as diferentes raças humanas após o Cataclismo. Mas também precisa do potencial administrativo e da objetividade de um sistema computacional para governar e conectar os muitos mundos que se unirão sob sua bandeira.</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Empress Carminia" (Paragon, female; see corresponding glossary entry.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_CARMINIA_REVELATION_EVENT_MESSAGE_PAGE_10</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Nem mesmo os Oathbound estão imunes ao atrito causado por diferentes pontos de vista e filosofias. A Configuração do Graal Primevo é como um fósforo que pode acender o pavio de outra bomba gravitacional. Mas, quando usada corretamente, pode ser a semente da qual um novo império crescerá.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Empress Carminia" (Paragon, female; see corresponding glossary entry.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_GRAIL_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Configuração do Graal Primevo está sob nosso controle! Até agora, as outras facções perceberam que artefato poderoso estávamos buscando. Elas esperarão que reivindiquemos nosso lugar como herdeiros da Star Union e, então, decidirão se precisam nos declarar seus inimigos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_GRAIL_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Codran Lex e seus Paragon claramente desejam o retorno de um Imperador, enquanto a Confederação ELOP teme tanto esse poder centralizado quanto um sistema de IA como o Oracle. Não podemos fazer amizade com nenhum dos dois sem abandonar algumas das regras centrais de nossa sociedade Oathbound. Mas queremos impor nossos ideais a todas as outras raças sem compromisso?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_GRAIL_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Oracle previu essa situação. Desde que deixamos Archanon-8, tenho carregado as instruções secretas e a autoridade vinculante do Alto Paladius para torná-lo o primeiro Imperador Oathbound. Parabéns, Equis {STR_LeaderName}! Você foi destinado à grandeza!</Data></Cell>
+    <Cell><Data ss:Type="String">O Oracle previu essa situação. Desde que deixamos Archanon-8, tenho carregado as instruções secretas e a autoridade vinculante do Alto Paladius para torná-la a primeira Imperatriz Oathbound. Parabéns, Equis {STR_LeaderName}! Você foi destinada à grandeza!</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Louise Weviere" (Oathbound, female)
+"High Paladius" is an Oathbound title.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_GRAIL_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Que trama vilã tenho que testemunhar se desenrolando aqui? A igualdade, como é preservada no Círculo dos Heróis, é a única forma verdadeira de governo que qualquer Paladino pode reconhecer. Apenas a Confederação ELOP parece compartilhar essa visão. É a eles que devemos levar nosso juramento!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Agley Denard" (Oathbound male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_GRAIL_COMPLETION_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">E abandonar o Oracle, cuja sabedoria nos guiou de volta à luz? O que somos nós, Paladinos, sem o conselho de nossos Videntes? Pouco mais que generais marchando em mechas de batalha! Até mesmo o Código d’Equise foi criado por aqueles que você busca abandonar!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Louise Weviere" (Oathbound, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_GRAIL_COMPLETION_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você fala do Código d’Equise, mas está claro que não entende seu significado. Virtude, heroísmo e grandeza são o que impulsiona nossa sociedade. Os Videntes foram ousados o suficiente para iniciar o épico conto dos Oathbound. Eles encontrarão nova força sem o Oracle!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Agley Denard" (Oathbound male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_GRAIL_COMPLETION_MESSAGE_PAGE_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Carminia tinha razão sobre uma coisa… a Configuração do Graal revelou que nós, Oathbound, não estamos tão unidos quanto eu sempre acreditei. Qualquer decisão que eu tomar, haverá Paladinos e Videntes em desacordo. Devo fazer o que parece melhor não apenas para nós, mas para todas as raças. Eu vou…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_GRAIL_COMPLETION_MESSAGE_PAGE_07_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">...abrace o Oráculo e se torne Imperador!</Data></Cell>
+    <Cell><Data ss:Type="String">...abrace o Oráculo e se torne Imperatriz!</Data></Cell>
+    <Cell><Data ss:Type="String">Story dialogue choice option.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_GRAIL_COMPLETION_MESSAGE_PAGE_07_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">...rejeite o Oráculo e se torne Imperador!</Data></Cell>
+    <Cell><Data ss:Type="String">...rejeite o Oráculo e se torne Imperatriz!</Data></Cell>
+    <Cell><Data ss:Type="String">Story dialogue choice option.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_GRAIL_COMPLETION_MESSAGE_PAGE_07_BUTTON_03</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">...rejeite o Oráculo e junte-se à ELOP!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story dialogue choice option.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_GRAIL_COMPLETION_MESSAGE_PAGE_08_ORACLE_EMPRESS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aceito esta bênção concedida por vós em nome do Alto Paladius, Equis Weviere. Como Imperador, continuarei a servir ao povo e inspirá-lo a nos seguir rumo a um futuro melhor! É uma jornada que só ouso empreender com o apoio contínuo do Círculo e do Oráculo.</Data></Cell>
+    <Cell><Data ss:Type="String">Aceito esta bênção concedida por vós em nome do Alto Paladius, Equis Weviere. Como Imperatriz, continuarei a servir ao povo e inspirá-lo a nos seguir rumo a um futuro melhor! É uma jornada que só ouso empreender com o apoio contínuo do Círculo e do Oráculo.</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_GRAIL_COMPLETION_MESSAGE_PAGE_09_ORACLE_EMPRESS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Traição! Ambos desafiam abertamente o segundo mandamento nobre, que nos proíbe de nos elevarmos acima uns dos outros! Se esta é a vontade do Círculo dos Heróis, partirei sem demora. Como o último verdadeiro Paladino, Equis Denard enfrentará e derrotará esta nova monstruosidade nascida de juramentos quebrados e desonra!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Agley Denard" (Oathbound male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_GRAIL_COMPLETION_MESSAGE_PAGE_08_SOLE_EMPRESS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">É verdade que os povos de todas as espécies precisam de um Imperador forte para guiá-los rumo a um futuro melhor, e aceitarei este chamado do destino. Mas a história da Star Union revelou os perigos de um sistema de IA decidir o destino de seres de carne e osso. Não posso permitir que tal ditame retorne.</Data></Cell>
+    <Cell><Data ss:Type="String">É verdade que os povos de todas as espécies precisam de uma Imperatriz forte para guiá-los rumo a um futuro melhor, e aceitarei este chamado do destino. Mas a história da Star Union revelou os perigos de um sistema de IA decidir o destino de seres de carne e osso. Não posso permitir que tal ditame retorne.</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_GRAIL_COMPLETION_MESSAGE_PAGE_09_SOLE_EMPRESS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você está usando o poder do CORE para consolidar sua própria reivindicação como governante incontestável? Isso é loucura! Revogue esta decisão imediatamente, ou serei forçado a declará-lo um Apóstata!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Louise Weviere" (Oathbound, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_GRAIL_COMPLETION_MESSAGE_PAGE_10_SOLE_EMPRESS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não tema, Equis Weviere: eu atacarei esta serpente revestida de aço negro e arrancarei a Configuração do Graal Prime de suas presas envenenadas. Após minha performance, você reconsiderará sua definição de heroísmo!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Agley Denard" (Oathbound male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_GRAIL_COMPLETION_MESSAGE_PAGE_11_SOLE_EMPRESS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Pobre {STR_LeaderFirstName}, não aprendeu com meu exemplo? Você escolhe o caminho mais difícil. Que ele o leve a terras mais felizes do que levou a garota que um dia fui.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Empress Carminia" (Paragon, female; see corresponding glossary entry.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_GRAIL_COMPLETION_MESSAGE_PAGE_08_JOIN_ELOP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Embora esteja honrado pela confiança do Círculo, devo rejeitar a oferta de me tornar Imperatriz sob o domínio do Oráculo. O futuro dos Juramentados reside na cooperação com outras raças. Equis Denard está certo: devemos buscar o diálogo com a Confederação ELOP.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_RETRIEVE_GRAIL_COMPLETION_MESSAGE_PAGE_09_JOIN_ELOP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Inaceitável! O Juramento e o Oráculo são o que os transformou em Paladinos. Ao abandonar qualquer um deles, você está traindo quem é. Em nome do Alto Paladius e de seus Videntes, declaro ambos como renegados. Entreguem seus trajes de batalha agora ou sofram as consequências!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Louise Weviere" (Oathbound, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OATH02_GRAIL_REACTION_MESSAGE_INTRO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Equis {STR_LeaderName}, a notícia de sua nova reivindicação e disputa se espalha rapidamente. Os outros comandantes estão enviando seus cumprimentos... ou denúncias.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Paladin Exemplar" (Oathbound unit, can be any gender)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell><Data ss:Type="String">OATH02_GRAIL_REACTION_MESSAGE_CODRAN_FRIENDLY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Salve, {STR_LeaderName}, futuro Imperador da Star Union! Meus instintos não me enganaram; não sentia tamanha energia e determinação em uma pessoa desde que conheci a jovem Carminia. O Paragon o seguirá fielmente à batalha, meu Imperador – juntos, reergueremos este Império!</Data></Cell>
+    <Cell><Data ss:Type="String">Salve, {STR_LeaderName}, futura Imperatriz da Star Union! Meus instintos não me enganaram; não sentia tamanha energia e determinação em uma pessoa desde que conheci a jovem Carminia. O Paragon a seguirá fielmente à batalha, minha Imperatriz – juntas, reergueremos este Império!</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Codran Lex" (Paragon, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">OATH02_GRAIL_REACTION_MESSAGE_CODRAN_HOSTILE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Deplorável {STR_LeaderName}! Você encontrou novo poder e potencial, mas decidiu desperdiçá-lo nas falsas esperanças de anarquistas e desertores. Quando minha divisão pacificadora terminar com você e os seus, rezarei para que o verdadeiro Imperador retorne!</Data></Cell>
+    <Cell><Data ss:Type="String">Deplorável {STR_LeaderName}! Você encontrou novo poder e potencial, mas decidiu desperdiçá-lo nas falsas esperanças de anarquistas e desertores. Quando minha divisão pacificadora terminar com você e os seus, rezarei para que a verdadeira Imperatriz retorne!</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Codran Lex" (Paragon, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_GRAIL_REACTION_MESSAGE_CHIN_TIL_TRZ_FRIENDLY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hox’Krit’Pat, {STR_LeaderName}! É com grande alegria que a Confederação ELOP dá as boas-vindas a você e a todos os Oathbound dispostos a seguir como novos membros de nossa aliança igualitária. Que possamos permanecer fortes juntos, para defender contra as ameaças remanescentes à paz e prosperidade!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chin Til'Trz" (Kir'Ko, male)
+"Hox'Krit'Pat" is a friendly Kir'Ko greeting.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_GRAIL_REACTION_MESSAGE_CHIN_TIL_TRZ_HOSTILE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName} sedento por poder! Nós estávamos enganados sobre sua suposta dedicação à liberdade e igualdade. Mas podemos nos consolar com o fato de que seu antigo amigo Agley Denard é corajoso o suficiente para buscar nosso apoio por conta própria. Pelo Ro’Qwer’Z, o enxame não o decepcionará!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chin Til'Trz" (Kir'Ko, male)
+"Ro'Qwer'Z" is the name of a male Kir'Ko character.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_GRAIL_REACTION_MESSAGE_MAHINA_FRIENDLY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Que a paz esteja com você, {STR_LeaderFirstName} dos Oathbound! Você provou que os interesses dos Oathbound e das Amazons podem coexistir sem rivalidade. Onde você guiar seu povo, nós o seguiremos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Mahina Wateka" (Amazon, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_GRAIL_REACTION_MESSAGE_MAHINA_HOSTILE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Estávamos certos em desconfiar das palavras de um estranho sem interesse pela natureza ou sua preservação. A Configuração do Graal Prime é uma ferramenta perigosa que poderia perturbar o equilíbrio inato desta galáxia. Devemos garantir que ela não permaneça nas mãos erradas!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Mahina Wateka" (Amazon, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">OATH02_GRAIL_REACTION_MESSAGE_MILA_OF_HOUSE_NYDAR_FRIENDLY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Proclamando-se o novo Imperador da Star Union? Você é mais ousado do que eu esperava! As Casas do Syndicate aprovam o retorno de uma nobreza ao mais alto posto de poder. Você pode contar com nosso apoio!</Data></Cell>
+    <Cell><Data ss:Type="String">Proclamando-se a nova Imperatriz da Star Union? Você é mais ousada do que eu esperava! As Casas do Syndicate aprovam o retorno de uma nobreza ao mais alto posto de poder. Você pode contar com nosso apoio!</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Mila of House Ny'dar" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_GRAIL_REACTION_MESSAGE_MILA_OF_HOUSE_NYDAR_HOSTILE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">É uma pena que eu tenha desperdiçado minha atenção com você, {STR_LeaderName}. Mas nenhuma de suas ações se mostrou do melhor interesse da Casa Ny’dar e, portanto, desta galáxia. Não posso permitir que um artefato poderoso como a Configuração do Graal Prime permaneça sob seu controle.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Mila of House Ny'dar" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_UNEXPECTED_ALLIES_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aliados Inesperados</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A header name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OATH02_MEET_MAHINA_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Saudações, forasteiros! Eu sou a Matriarca Mahina da Irmandade Neogaláctica. Recomendo que mantenham a distância apropriada de nossas fronteiras. Invasores que não respeitarem este aviso serão alvejados por nossas Caçadoras.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Mahina Wateka" (Amazon, female)
+"Matriarch" is an Amazon title.
+"Neogalactic Sisterhood" is the name of the Amazon empire.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_MEET_MAHINA_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Saudações, Mahina das Amazons! Pode ficar tranquila: não buscamos conflito. É triste ouvir palavras tão frias de agressão quando eu esperava que nossos povos pudessem se aproximar em cooperação.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_MEET_MAHINA_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Já ouvimos palavras nesse tom antes, quando a Confederação ELOP enviou seus emissários a Pokaniwa. Eles falaram muito sobre política, mas demonstraram pouco entendimento sobre o que nós, Amazons, consideramos importante. Se você provar que nossos objetivos podem se alinhar, talvez eu reconsidere nossa posição.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Mahina Wateka" (Amazon, female)
+"Pokaniwa" is the name of a planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OATH02_MEET_MAHINA_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Estou disposto a aprender e a ajudar. No entanto, nenhuma promessa pode ser feita antes que eu saiba mais sobre a natureza desses objetivos que seu povo persegue.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">OATH02_MEET_MAHINA_EVENT_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma resposta promissora. Primeiro você deve aprender, depois poderá julgar! Viaje até o Cofre de DNA no Museu Vivo de História Natural. Lá você encontrará uma coleção profunda de sementes, ferramentas e datapads. Uma vez lá, eu lhe direi mais.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Mahina Wateka" (Amazon, female)
+"DNA Vault" is the name of an in game exploration site.
+"Living Muesum of Natural History" is the name of an in game sector (see custom sector names at the top of this xml).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OATH02_RECOVER_ARCADIAN_SEED_LIBRARY_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Coletar Kit de Sementes Arcadianas</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A name of a task.
+"Arcadian" is the name of an in game clime.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_RECOVER_ARCADIAN_SEED_LIBRARY_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mahina Wateka pediu que você limpe o Cofre de DNA e obtenha uma variedade de sementes, instruções e ferramentas, que ajudarão você a entender a causa das Amazons.[br/][br/][firecol](Aviso: completar esta missão enfurecerá o líder do Syndicate!)[/firecol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_RECOVER_ARCADIAN_SEED_LIBRARY_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Se eu entendi corretamente a contabilidade dos datapads, esta biblioteca de sementes que adquirimos contém tudo o que é necessário para transformar um ermo estéril em uma selva exuberante. Incrível!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_RECOVER_ARCADIAN_SEED_LIBRARY_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Impressionante, não é? A Terratech coletou, cultivou e alterou as características de DNA de vários milhões de espécies herbáceas para aperfeiçoar sua Biblioteca de Sementes Arcadianas. É o útero da criação, que pode espalhar um paraíso natural até mesmo para os mundos mais inóspitos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Mahina Wateka" (Amazon, female)
+For "Terratech" see the correpsonding glossary entry.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OATH02_RECOVER_ARCADIAN_SEED_LIBRARY_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">E é isso que vocês, Amazons, buscam realizar? Proteger e nutrir a vida em sua forma mais antiga e primordial?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_RECOVER_ARCADIAN_SEED_LIBRARY_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Isso faz parte, embora nos importemos tanto com os animais e bestas que habitam nossos jardins exaltados. A humanidade tem uma longa história de exploração e destruição de seu ambiente natural. Remendar as cicatrizes e feridas causadas por nossos ancestrais comuns é uma tarefa longa e indispensável.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Mahina Wateka" (Amazon, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_RECOVER_ARCADIAN_SEED_LIBRARY_COMPLETION_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Veja este planeta, por exemplo: Union Prime, em seu estado atual, está à beira de um colapso ecológico completo. As florestas naturais há muito desapareceram da paisagem urbanizada, e o Vazio está rasgando a integridade fundamental da realidade.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Mahina Wateka" (Amazon, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_RECOVER_ARCADIAN_SEED_LIBRARY_COMPLETION_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Para compreender o valor do que buscamos realizar, você mesmo deve se tornar parte do processo de cura que ainda pode salvar o planeta. Você possui as ferramentas e mudas para rejuvenescer a terra e livrá-la de suas diversas cicatrizes. Agora é hora de agir!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Mahina Wateka" (Amazon, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_THE_MENDING_OF_UNION_PRIME_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">A Restauração de Union Prime</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">OATH02_THE_MENDING_OF_UNION_PRIME_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mahina Wateka quer que você participe do processo de cura de Union Prime. Use a operação Restauração Arcadiana e Reflorestamento Rápido do cofre Terratech para espalhar florestas arcadianas pelo planeta e remover os perigos da Fenda Abissal de sua superfície![br/][br/][recommendedcol](Dica: para usar uma Operação Estratégica, você deve primeiro prepará-la na interface de "operações" e depois lançá-la quando estiver pronto.)[recommendedcol/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.
+"Arcadian Restoration" and "Rapid Reforastation" are names of in game strategic operations.
+"Abyssal Tear" is the name of an in game world map hazard.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_THE_MENDING_OF_UNION_PRIME_QUEST_SCRIPTED_OBJECTIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Fendas Abissais Removidas</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_THE_MENDING_OF_UNION_PRIME_QUEST_SCRIPTED_OBJECTIVE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Restauração Arcadiana Usada</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_THE_MENDING_OF_UNION_PRIME_QUEST_SCRIPTED_OBJECTIVE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Reflorestamento Rápido Usado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_THE_MENDING_OF_UNION_PRIME_COMPLETION_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A restauração dos ecossistemas de Union Prime apenas começou, mas com dedicação e os aliados certos, talvez um dia seja concluída. Obrigado, {STR_LeaderFirstName} dos Juramentados. Você provou que a cooperação entre nossas duas raças pode levar a uma relação próspera.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Mahina Wateka" (Amazon, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_MEET_MILA_OF_HOUSE_NYDAR_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Veja só o que temos aqui: um novato em um traje robótico… Você está falando com a Senhora da ilustre e fabulosa Casa Ny’dar, primeira e mais privilegiada das casas governantes do Syndicate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Mila of House Ny'dar" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_MEET_MILA_OF_HOUSE_NYDAR_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Casa Ny’dar? Se isso é o melhor que o Syndicate pode reunir hoje em dia, sua guerra contra a Assembly deve estar indo muito mal. Não acha que é hora de deixar para trás seus sonhos de hegemonia do Syndicate e se juntar a uma aliança mais igualitária de resistência contra a ameaça da Assembly?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OATH02_MEET_MILA_OF_HOUSE_NYDAR_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Está claro que você é novo no refinado jogo da diplomacia, ou saberia que insultos e desdém são as ferramentas erradas ao buscar um aliado. Mas serei franca e fingirei que a primeira parte desta conversa nunca aconteceu. Que tal tentar novamente, e desta vez, começar seu discurso com um presente?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Mila of House Ny'dar" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_MEET_MILA_OF_HOUSE_NYDAR_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você está enganado se pensa que pode me tratar com condescendência, Mila da Casa Ny’dar. Não tenho intenção de pagar tributo a uma governante cujo poder se baseia inteiramente na exploração de seu povo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_MEET_MILA_OF_HOUSE_NYDAR_EVENT_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sempre esses preconceitos! Eu digo “presente”, você ouve “tributo”. Eu digo “amada Senhora”, você ouve “monarca hedonista”. Não acha que é hora de olhar além do próprio nariz e aprender sobre a história e tradições da sociedade que você tão abertamente despreza?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Mila of House Ny'dar" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">OATH02_MEET_MILA_OF_HOUSE_NYDAR_EVENT_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Vou até ajudar nessa parte – veja, nós também podemos fazer o bem! – e vou facilitar: nos arquivos Paragon de Krotian Watch, você pode encontrar a “Prima Dynastia”, uma crônica da história do primeiro império do Syndicate, que começa com a ascensão das Oito Dinastias Douradas e termina com a pacificação da Star Union. Traga-a para mim, e eu lhe ensinarei uma nova compreensão.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Mila of House Ny'dar" (Syndicate, female)
+"Krotian Watch" is the name of an in game sector (see custom sector names at the top of this xml).
+"Prima Dynastia" is the name of a chronicle.
+The "Eight Gilded Dynasties" are the Syndicate families founding the first Syndicate Empire.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_MEET_MILA_OF_HOUSE_NYDAR_EVENT_MESSAGE_PAGE_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Muito bem. Vou lhe dar o benefício da dúvida por um breve tempo. Mas tenho uma intuição bem clara sobre que tipo de história e tradições encontrarei nesse livro.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_RECOVER_PRIMA_DYNASTIA_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Recuperar "Prima Dynastia"</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OATH02_RECOVER_PRIMA_DYNASTIA_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mila da Casa Ny'dar pediu que você recupere a "Prima Dynastia", contendo as crônicas da antiga história do Syndicate. Isso pode ser um passo importante para melhorar as relações entre Syndicate e Juramentados.[br/][br/][firecol](Aviso: completar esta missão deixará a líder das Amazonas irritada!)[/firecol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_RECOVER_PRIMA_DYNASTIA_QUEST_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Buscar nos Arquivos Paragon</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An action name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_RECOVER_PRIMA_DYNASTIA_QUEST_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Encontre a "Prima Dynastia" nos arquivos do Paragon.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An action description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OATH02_RECOVER_PRIMA_DYNASTIA_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Recuperei a crônica que você pediu, Mila da Casa Ny’dar. Você achou que ela poderia mudar minha visão sobre o povo do Syndicate. Bem, estou ouvindo…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_RECOVER_PRIMA_DYNASTIA_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ahh, a “Prima Dynastia”! Parece tão antiga e amarelada quanto sempre imaginei. Vamos ver… a-ha, sim, este capítulo precisa mudar… e aquele… e aquele…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Mila of House Ny'dar" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_RECOVER_PRIMA_DYNASTIA_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Espere um segundo – você está alterando o conteúdo da sua própria crônica!? Esse é o tipo de respeito pelo passado e suas realizações que está tentando me ensinar?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_RECOVER_PRIMA_DYNASTIA_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A história é escrita pelos vencedores, {STR_LeaderName}. Você deveria me agradecer por tirar algumas das antigas famílias empoeiradas e arrogantes do pedestal. Isso ajudará a mantê-las sob controle depois que terminarmos nossas negociações sobre a 'aliança mais igualitária', como você chamou.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Mila of House Ny'dar" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_RECOVER_PRIMA_DYNASTIA_COMPLETION_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não me olhe surpreso assim! Nós da Casa Ny’dar sabemos mais do que qualquer outra casa do Syndicate quando o tempo exige mudanças. Sou flexível o suficiente para fazer alguns compromissos ao assinar pactos de cooperação com pessoas que seguem uma ideologia diferente. A questão é: você é?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Mila of House Ny'dar" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_RECOVER_PRIMA_DYNASTIA_COMPLETION_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Eu… serei, desde que boa-fé seja demonstrada de ambos os lados. Concessões terão que ser feitas. Estou falando de escravidão, direitos civis, distribuição de riqueza… Em troca, podemos prometer nossa proteção às colônias do Syndicate, enviar provisões, maquinário…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_RECOVER_PRIMA_DYNASTIA_COMPLETION_MESSAGE_PAGE_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bom. Muito bom, na verdade. Mas primeiro você deve me fazer um favor e criar um exemplar especial dos seus trajes robóticos avançados. Um sem armas, mas com a elegância e o aparato cerimonial adequados para uma dama de uma casa do Syndicate. Minha mãe está me enchendo por causa disso há séculos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Mila of House Ny'dar" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_RECOVER_PRIMA_DYNASTIA_COMPLETION_MESSAGE_PAGE_08</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Isso parece um pedido incomumente vaidoso, dada a importância de nossas negociações. Mas como não incluirá nenhum componente estritamente militar, vou providenciar para que possamos remover esse último obstáculo entre nossos povos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_BUILD_LUXURY_MECH_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Passeio de Prazer</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_BUILD_LUXURY_MECH_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Para selar o novo pacto de cooperação entre o Syndicate e os Oathbound, Mila da Casa Ny'dar pediu que você fabrique e compartilhe um "traje de batalha" único e desarmado com ela, que ela afirma precisar para sua mãe.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_BUILD_LUXURY_MECH_QUEST_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mecânica de Luxo da Casa Ny'dar</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A colony production option name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OATH02_BUILD_LUXURY_MECH_QUEST_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um traje de batalha desarmado, projetado para atender aos padrões de conforto e acessórios exigidos por um nobre do Syndicate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A colony production option descripiton.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OATH02_BUILD_LUXURY_MECH_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aqui está, Mila da Casa Ny’dar, a mecha de luxo que você considerou importante o suficiente para atrasar nossas negociações de paz. Espero que tenha valido todo o trabalho.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">OATH02_BUILD_LUXURY_MECH_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Excelente! Vamos rezar para que seja feito ao gosto da minha mãe. Permita-me levá-la para… ah, sim, lá está a antiga carcaça do daemon Nexus.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Mila of House Ny'dar" (Syndicate, female)
+"Nexus daemon" refers to a gadget used to store the daemon AI of a person who uploaded her consciousness into cyberspace. "Nexus" refers to "Nexus Network" (see the corresponding glossary entry). At the end of the Heritor campaign, Shae Mara uploads her consciousness into the Nexus Network to escape.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_BUILD_LUXURY_MECH_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Levá-la para fora? Carcaça de daemon? É melhor eu nem perguntar…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_BUILD_LUXURY_MECH_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Finalmente, depois de todo esse tempo vivendo entre código ruim e dados corrompidos. Você fez bem, Lady Mila da Casa Ny’dar. Este novo corpo pode não ser perfeito, mas será muito melhor do que os modelos Sentinel que testamos da última vez.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Shae Mara (avatar form)" (AI, previously female Syndicate)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_ASSEMBLY_COMPLETED_FIRST_STEP_EVENT_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Assembly concluiu a construção de seu próprio Escâner de Frequência do Graal. Não há dúvida de que os malditos Apóstatas compartilharam esse conhecimento com o inimigo. De qualquer forma, teremos que acelerar nossos próprios esforços!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Louise Weviere" (Oathbound, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_ASSEMBLY_COMPLETED_SECOND_STEP_EVENT_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Atualização de status: A Assembly já coletou todos os Cifras necessários para encontrar a Configuração Prime do Graal e está preparando-os para análise. Meus agentes estão tentando retardar o progresso, mas não podemos contar com seu sucesso. A Assembly está chegando perto!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Louise Weviere" (Oathbound, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_ASSEMBLY_COMPLETED_THIRD_STEP_EVENT_MESSAGE_PLAYER_FOUND_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Equis Denard, Equis {STR_LeaderName}, estamos prestes a ter companhia. A Assembly encontrou a Configuração Prime do Graal. Suas tropas estão em movimento, mas, enquanto defendermos o local do Graal, podemos manter nossa vantagem.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Louise Weviere" (Oathbound, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_ASSEMBLY_COMPLETED_THIRD_STEP_EVENT_MESSAGE_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Equis Denard, Equis {STR_LeaderName}, estamos chegando ao ponto sem retorno. A Assembly decodificou os Cifras e encontrou a Configuração Prime do Graal. Em breve, eles terão alcançado seu cofre interno. Precisamos nos apressar para alcançá-los a tempo, ou tudo estará perdido!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Louise Weviere" (Oathbound, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OATH02_ASSEMBLY_COMPLETED_LAST_STEP_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Integração da Configuração Prime do Graal concluída. Rede de nanitos da Assembly pronta para lançamento em 3…[br/]2…[br/]1…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Ellen Shaw" (Assembly, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_ASSEMBLY_COMPLETED_LAST_STEP_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dou as boas-vindas a todos na rede neural das Gerações Unidas da Assembly. Não se assustem; a abundância de vozes pode ser avassaladora no início, mas nosso multiplexador L0G3N-1 irá guiá-los nessa experiência. A reassemblagem está prestes a começar. Desta vez, não haverá resistência.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Ellen Shaw" (Assembly, female)
+"United Generations of the Assembly" is the name of the Assembly empire.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_ELLEN_SHAW_DEFEATED_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A morte de um único indivíduo não tem significado. Minhas ideias e ideais viverão na memória coletiva de bilhões. O que o Primeiro iniciou há 200 anos, as United Generations da Assembly levarão à conclusão!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Ellen Shaw" (Assembly, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_CODRAN_LEX_DEFEATED_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O aperto do Abismo está se intensificando, esmagando meu frágil corpo em seus negros tentáculos. Não, isso não pode ser! Eu sou Paragon! Eu sou imortal! Proteja-me, minha Imperatriz! Eu fui seu mais...</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Codran Lex" (Paragon, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_MILA_OF_HOUSE_NYDAR_DEFEATED_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Fique longe! Uma Dama do sangue do Syndicate é intocável! Ninguém vai ouvir!? Usarei a Alpha Strain para crescer tentáculos, cuspir veneno, despedaçar todos vocês... Ahhh!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Mila of House Ny'dar" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OATH02_AGLEY_DENARD_DEFEATED_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A história de um verdadeiro herói deve terminar com um grande sacrifício. Meu corpo pode morrer e apodrecer, mas a lenda dos meus feitos será lembrada e cantada pela eternidade!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Agley Denard" (Oathbound male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_CHIN_TIL_TRZ_DEFEATED_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A força do enxame está diminuindo. Perdoem-me, meus irmãos, seu Arauto do Enxame falhou com vocês! Viveremos através dos sonhos que passamos para as ninhadas do passado. Que elas encontrem paz onde nós não conseguimos!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chin Til'Trz" (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OATH02_LOUISE_WEVIERE_DEFEATED_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quaisquer últimas palavras famosas são hipocrisia. Todos apenas temem a morte, o fim, a finalidade... Oráculo, por que teve que abandonar seus servos?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Louise Weviere" (Oathbound, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_MAHINA_WATEKA_DEFEATED_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A morte é uma parte natural da vida. No entanto, é o único aspecto da natureza que nós, Amazonas, não conseguimos verdadeiramente abraçar. Quando uma árvore morre, novos brotos tomarão seu lugar. Mas o que acontecerá quando todas as sementes deste mundo tiverem apodrecido e murchado?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Mahina Wateka" (Amazon, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_MISSION_VICTORY_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A batalha por Union Prime acabou, a Configuração do Graal Prime foi assegurada. Eu teria esperado por mais alianças e menos derramamento de sangue, mas as diferenças entre as facções do passado e do presente não são fáceis de superar.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_MISSION_VICTORY_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um símbolo forte é necessário, um que possa invocar confiança e estabilidade nos diferentes mundos desta galáxia com todos os seus povos distintos. Depois de tudo o que aconteceu aqui, eu sei o que precisa ser feito.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_MISSION_VICTORY_MESSAGE_PAGE_03_ELOP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você sabe mesmo, meu novo aliado e amigo. A Egalitarian League of Planets agradece por todas as suas ações. Após invasões e guerras que desgastaram nossa aliança nos últimos anos, há motivo para esperança mais uma vez.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chin Til'Trz" (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_MISSION_VICTORY_MESSAGE_PAGE_03_SOLITARY_EMPEROR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Confiança onde confiança é merecida! Este é um momento histórico para todo Paragon. Após dois séculos de amarga escuridão, um novo sol está nascendo para anunciar o renascimento de um império!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Codran Lex" (Paragon, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_MISSION_VICTORY_MESSAGE_PAGE_03_EMPEROR_WITH_ORACLE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Estou orgulhoso de você, {STR_LeaderFirstName}. Sua experiência como aluno Celestiano e Equis Oathbound foi uma boa preparação para as responsabilidades que virão. Minha tarefa como mentor está completa. Posso partir, sabendo que o futuro desta galáxia repousa em mãos capazes.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Empress Carminia" (Paragon, female; see corresponding glossary entry.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_AMAZONS_ANGERED_EVENT_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Minhas caçadoras relataram que você está ajudando a desprezível líder da Casa Syndicate. Seus experimentos com Xenopraga são uma abominação contra a natureza! Já que você tem negócios com pessoas dessa mentalidade, sou forçada a encerrar nossas relações diplomáticas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Mahina Wateka" (Amazon, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_SYNDICATE_ANGERED_EVENT_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Chegou ao meu conhecimento que você está cooperando com a baixa Mahina Wateka. As Amazonas têm sido hostis conosco desde que descobriram nossos experimentos com Xenopraga. Ajudá-las significa prejudicar os objetivos da Casa Ny’dar.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Mila of House Ny'dar" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OATH02_DECLARED_WAR_ON_OATHBOUND_ALLIES_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você perdeu a cabeça, Equis {STR_LeaderName}? Nenhum Paladino deveria prejudicar outro intencionalmente. É isso que nos separa dos Apóstatas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Louise Weviere" (Oathbound, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OATH02_DECLARED_WAR_ON_OATHBOUND_ALLIES_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sem a ajuda dos meus aliados Oathbound, não há esperança de assegurar a Configuração do Graal Prime antes da Assembly. Estou lutando por uma causa perdida.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Aliuna Lyonesse" (Oathbound, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OATH02_PARAGON_PROLONGUED_FACTION_WAR_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aceitamos o tributo que você pagou ao Paragon. No entanto, esteja ciente de que as hostilidades entre nossos povos não podem cessar enquanto você se opõe à vontade do Prefeito. Saiba que os recursos que nos enviou servirão para restaurar a Star Union à sua antiga glória.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Paragon" (represented by Techno Prophet unit, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATH02_CODRAN_LEX_CB</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Desafiou a Regra da Star Union</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a war reason.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>130</Zoom>
+   <Selected/>
+   <TopRowVisible>68</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>75</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

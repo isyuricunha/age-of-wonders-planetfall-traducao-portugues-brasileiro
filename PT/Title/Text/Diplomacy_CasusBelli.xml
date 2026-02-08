@@ -1,0 +1,467 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>GeraldR</LastAuthor>
+  <Created>2018-05-01T08:33:50Z</Created>
+  <LastSaved>2019-05-22T15:04:04Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>16440</WindowHeight>
+  <WindowWidth>10005</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="82" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="243.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="84.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="334.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="167.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="270.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="127.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DIPLOMACY_CASUS_BELLI</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Index="5" ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">FABRICATED_SMALL_GENERIC_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} cometeu atrocidades contra a população local!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">All entries with TITLE in the TEXT ID column are the title in the game for that casus belli. These entries are used in lists, etc. to show the actions of players and the consequences of these actions.
+
+This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_MEDIUM_GENERIC_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está conspirando para tomar o planeta!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_LARGE_GENERIC_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} começou a construir uma Arma do Juízo Final!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="9" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_SMALL_TARGET_DVAR_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está esgotando os recursos naturais do planeta!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_MEDIUM_TARGET_DVAR_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está poluindo gravemente o planeta com emissões tóxicas!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_LARGE_TARGET_DVAR_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está escavando o planeta de forma desmedida!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="13" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_SMALL_TARGET_VANGUARD_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está adotando políticas fronteiriças que invadem nossas fronteiras!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_MEDIUM_TARGET_VANGUARD_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está empregando estratégias militares agressivas perto de nossas terras!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_LARGE_TARGET_VANGUARD_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} busca destruir raças que não seguem a doutrina da Star Union!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="17" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_SMALL_TARGET_KIR'KO_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está construindo estruturas horríveis semelhantes a colmeias que aterrorizam nosso povo!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_MEDIUM_TARGET_KIR'KO_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está usando poderes psiónicos para controlar a vida humanoide!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_LARGE_TARGET_KIR'KO_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} busca a destruição dos remanescentes da Star Union!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="21" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_SMALL_TARGET_SYNDICATE_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está usando subterfúgios para minar nossa colônia em prol de seus próprios objetivos!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_MEDIUM_TARGET_SYNDICATE_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} planeja monopolizar a economia do planeta através do controle do comércio!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_LARGE_TARGET_SYNDICATE_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está usando duplicidade para destruir nossas relações com outras colônias!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="25" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_SMALL_TARGET_ASSEMBLY_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está reciclando partes de corpos retiradas de nossos irmãos e irmãs caídos!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_MEDIUM_TARGET_ASSEMBLY_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está manipulando o DNA de cidadãos sequestrados!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_LARGE_TARGET_ASSEMBLY_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está tentando desfigurar nosso povo em aberrações cibernéticas!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="29" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_SMALL_TARGET_AMAZON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está mutilando o código genético da vida indígena!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_MEDIUM_TARGET_AMAZON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está usando táticas de guerrilha para emboscar comboios locais!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_LARGE_TARGET_AMAZON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está terraformando o planeta para seus próprios fins!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="33" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_SMALL_SOURCE_VANGUARD_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está trabalhando ativamente para garantir que a Star Union não seja revivida!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_MEDIUM_SOURCE_VANGUARD_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está bloqueando expedições da Vanguard e restringindo explorações futuras!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_LARGE_SOURCE_VANGUARD_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} esteve envolvido no colapso da Star Union!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="37" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_SMALL_SOURCE_AMAZON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está desrespeitando o ecossistema do planeta e continua com suas políticas ambientais prejudiciais!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_MEDIUM_SOURCE_AMAZON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está caçando ativamente espécies indígenas vitais!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_LARGE_SOURCE_AMAZON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está bloqueando protocolos completos de terraformação planetária, negando a evolução de nossa raça!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="41" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_SMALL_SOURCE_DVAR_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está bloqueando depósitos de recursos vitais que podem ser usados em nossa produção!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_MEDIUM_SOURCE_DVAR_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está aplicando embargos comerciais contra nossos commodities de combustíveis fósseis!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_LARGE_SOURCE_DVAR_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está terraformando o planeta, causando a destruição de recursos necessários para nossa raça!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="45" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_SMALL_SOURCE_KIRKO_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está fumigando nossas colônias de colmeias!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_MEDIUM_SOURCE_KIRKO_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} lobotomizou nossas rainhas da colmeia durante os dias do Império!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_LARGE_SOURCE_KIRKO_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} ficou impune por seu milênio de escravidão pelos humanoides!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="49" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_SMALL_SOURCE_ASSEMBLY_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está proibindo o uso de bionics!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_MEDIUM_SOURCE_ASSEMBLY_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} não reconhece a Assembly como um povo soberano!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_LARGE_SOURCE_ASSEMBLY_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está perseguindo cidadãos com corpos aumentados!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="53" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_SMALL_SOURCE_SYNDICATE_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está bloqueando nossas rotas comerciais entre colônias!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_MEDIUM_SOURCE_SYNDICATE_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está usando espionagem em nossos conselhos diplomáticos!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FABRICATED_LARGE_SOURCE_SYNDICATE_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está implementando sanções econômicas severas e injustas!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="57" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">INSULT</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} insultou meu império.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRESPASS</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} invadiu meu território.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ANTIWARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} é maligno e deve ser erradicado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">COVERTOPS</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está usando Operações Secretas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SECTORCLAIM</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} ignorou reivindicações sobre setores.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ATTACKEDALLIEDFACTION</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} atacou nossas facções aliadas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FACTIONCALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} declarou guerra às facções aliadas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ATTACKEDTRESPASSER</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} atacou um exército não hostil.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFEATEDALLIEDPLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} derrotou meu aliado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DOOMSDAY_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} iniciou o desenvolvimento de uma arma apocalíptica!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DOOMSDAY_02</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} aumentou o desenvolvimento de uma arma apocalíptica!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DOOMSDAY_03</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} logo concluirá o desenvolvimento de uma arma apocalíptica!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DOMINATION_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está pavimentando o caminho para a dominação planetária!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DOMINATION_02</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está prestes a alcançar a dominação planetária!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DOMINATION_03</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} logo terá dominação sobre este planeta!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">UNIFIER_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está tentando nos controlar através do Protocolo de Unificação Planetária!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">UNIFIER_02</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} terá controle total sobre nós através do Protocolo de Unificação Planetária!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FALSELYDENOUNCED</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está denunciando falsamente outros comandantes!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">WASDECLAREDWARUPON</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} declarou guerra ao meu império.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ACCEPTEDCALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} se tornou um inimigo após um chamado à guerra.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FABRICATED_01</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} aparentemente não é confiável devido às suas ações passadas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FABRICATED_02</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} é rumorado(a) por ter cometido atrocidades graves.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FABRICATED_03</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} está cometendo crimes contra outros comandantes e ameaça nosso império.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACE_DISTRUSTED</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} tem uma relação racial desconfiada conosco.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACE_DISLIKED</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} tem uma relação racial malvista conosco.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACE_DESPISED</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName} tem uma relação racial desprezada conosco.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>58</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>64</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

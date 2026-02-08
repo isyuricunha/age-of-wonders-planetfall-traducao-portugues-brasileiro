@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Luis Ferreira</LastAuthor>
+  <LastSaved>2020-02-27T14:22:13Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8670</WindowHeight>
+  <WindowWidth>14475</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="73" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="234.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="117"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="237.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="402"/>
+   <Column ss:StyleID="s62" ss:Width="150"/>
+   <Column ss:StyleID="s62" ss:Width="270.75"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SHAKARN_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHAKARN_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">GROUP_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Shakarn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Intimidação de Moradia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao usar uma combinação de chantagem e ameaças diretas, os Shakarn podem intimidar seus inimigos para obter vantagens.[br/][br/]Ganhe um desconto de {InfluenceDiscount}%[influence/] ao negociar com Facções NPC. As recompensas da Missão de Guerra da Facção são acionadas ao derrotar {NewNumberOfUnits} unidades, em vez de {StandardNumberOfUnits}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Faction War Quests is a special mechanic that rewards players who do well when fighting against a NPC Faction.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Saudade do Mundo Natal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O mundo natal dos Shakarn é 90% oceânico, coberto por atóis e arquipélagos. Ao promover festividades próximas a corpos d'água, os colonos Shakarn podem relembrar suas casas e aqueles que deixaram para trás.[br/][br/]Colônias ganham +{FoodAmount}[supply/] e +{HappinessAmount}[happiness/] se o atributo de costa ou rio estiver em seu domínio.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"An atoll, sometimes called a coral atoll, is a ring-shaped coral reef including a coral rim that encircles a lagoon partially or completely."</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Política da Terra Arrasada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Seu povo está sintonizado com o ritmo da guerra e será mais rápido e eficiente ao arrasar colônias inimigas.[br/][br/]Os recursos obtidos ao arrasar colônias inimigas e bases de setor são aumentados em {RazeBonus}%, e leva {TurnsSpeedUp}[turn/] a menos para arrasar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Redes de Agentes Ativos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_4_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao facilitar a comunicação entre agentes ativos, as informações viajam mais rápido.[br/][br/]Ganhe +{Strength}[operationstrength/] ao usar [abilityblue]Central de Operações de Infiltração[/abilityblue][br/]Ganhe +{InfluenceAmount}[Influence/] e +{KnowledgeAmount}[Research/] por turno para cada infiltração ativa em um jogador único.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_5_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Regime Domok Aprimorado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_5_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aumentar a presença de conselheiros Domok veteranos ajuda no treinamento militar e na conscrição, aumentando a eficiência de todas as unidades e reduzindo sua manutenção.[br/][br/]Todas as unidades causam +{DamageIncrease}% de dano, ganham +{AccuracyIncrease}% de precisão e têm seu [energy/] custo de manutenção reduzido em {ReductionPercentage}%.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_5_PROPERTY</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade causa +{DamageIncrease}% de dano e tem +{AccuracyIncrease}% de precisão. Além disso, seu custo de manutenção é reduzido em {UpkeepDiscount}%.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_6_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Canais Zardas Holográficos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_6_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aumentar o número de conselheiros Zardas ajuda a criar e manter uma rede holográfica de sinais, permitindo que seus agentes se comuniquem por meio de códigos holográficos sutis ocultos à vista, enquanto confundem seus inimigos.[br/][br/]Operações Secretas custam {OpDiscount}% menos para preparar e você ganha +{DefenseAmount}[operationDefense/] Defesa Operacional.[br/]Infiltradores agora causam +{Damage}% de dano, mesmo quando em Holomudança.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">holocrafted - created through holograms</Data></Cell>
+   </Row>
+   <Row ss:Index="21" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Restauração Replicante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Remove os Efeitos de Status negativos da unidade aliada alvo e a cura em {HPAmount}[hp/]. Este efeito salta para {OtherTargets} outras unidades dentro de {HexRange} hexes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hololusão</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hologram + Illusion</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades amigas em um raio de {HExRad} hexes ganham {EvasionAmount}% de esquiva e +{ShieldAmount}[Shield/] por {BuffDuration}[turn/]. Todas as unidades inimigas Biológicas e Ciborgues na área têm uma chance de {DisorientedChance}[StrengthPhysical/] de força de ficarem [abilityred]Desorientadas[/abilityred], ganhando {FumbleChance}% de chance de falha por {DisorientedDuration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_2_PROP</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem +{Evasion}% de esquiva e +{Shields}[shield/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Abdução Orbital</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade alvo tem uma chance, baseada em quão baixo está seu [hp/], de ser transportada para a camada orbital para pesquisa, matando a unidade.[br/]A chance aumenta ainda mais se a unidade estiver [abilityred]Atordoada[/abilityred], [abilityred]Desorientada[/abilityred], [abilityred]Debilitada[/abilityred],[br/][abilityred]Atordoada[/abilityred], [abilityred]Adormecida[/abilityred] ou [abilityred]Incapacitada[/abilityred].[br/]Ganhe {KnowledgeAmount}[research/] por nível da unidade abduzida.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Clarão Ômni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_4_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um Clarão Ômni causa {ThermalAmount}[damageThermal/] e {SoundAmount}[damagePhysical/] a unidades em um alcance de {HexRange} hexes. Tem uma chance de {ImpairedChance}[strengthPhysical/] de força de aplicar [abilityred]Debilitado[/abilityred], desativando mods de unidade e aplicando [abilityred]Lentidão[/abilityred] por {Duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Campanha de Desinformação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dissemina desinformação pelos canais de mídia do jogador alvo, reduzindo sua relação com todas as raças em -{RaceReduction}[opinion0/] por {Duration}[turn/].[br/]Em caso de falha, aplica -{RaceReductionFailure}[opinion0/] em vez disso.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_CASTER_SUCCESS_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes infiltraram com sucesso as redes de notícias e mídias sociais do inimigo, espalhando informações falsas sem serem detectados.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_CASTER_SUCCESS_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes infiltraram com sucesso as redes de notícias e mídias sociais do inimigo, espalhando informações falsas, mas o inimigo identificou e baniu nossas contas, e agora está ciente de nossa participação.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_CASTER_FAILURE_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes não conseguiram a tração na mídia necessária para prejudicar a reputação do inimigo. Felizmente, o inimigo não conseguiu identificar nossos agentes ou rastrear nossas contas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_CASTER_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes não conseguiram a tração na mídia necessária para prejudicar a reputação do inimigo. Pior ainda, nossos influenciadores e âncoras foram capturados e cederam sob interrogatório inimigo, revelando nossa participação.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_TARGET_SUCCESS_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Agentes inimigos infiltraram nossas redes de notícias e mídias sociais, desviando e enganando a população, retratando nosso governo como corrupto e imoral! Independentemente da veracidade desses ataques, capturamos os agentes e agora sabemos quem é o responsável, mas nossas relações raciais foram reduzidas até conseguirmos limpar nossa imagem.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_TARGET_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Descobrimos que agentes inimigos infiltraram nossas mídias sociais, mas nossos operativos de contrainteligência os capturaram, bloquearam suas contas e identificaram a fonte desse ataque. Infelizmente, a pequena quantidade de desinformação que espalharam ainda prejudicou as relações raciais.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_TARGET_SUCCESS_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Agentes inimigos infiltraram nossas redes de notícias e mídias sociais, desviando e enganando a população, retratando nosso governo como corrupto e imoral! Verdadeiro ou não, nossas relações raciais foram reduzidas até conseguirmos limpar nossa imagem.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_TARGET_FAILURE_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Descobrimos que agentes inimigos infiltraram nossas mídias sociais, mas nossos operativos de contrainteligência chegaram tarde demais para detê-los. Felizmente, eles não tiveram tração suficiente para fazer suas alegações viralizarem e apenas uma pequena quantidade de relações raciais foi perdida.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Relações raciais caem em -{RaceRelation}[opinion0/] por {Duration}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Transmissão Motivacional</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as colônias com uma [abilityblue]Torre de Propagação[/abilityblue] ganham +{ProductionColony}[production/].[br/][br/]Além disso, durante o combate nos domínios dessas colônias, todas as unidades ganham +{MoraleAmount}[happiness/].[br/]Todos os Propagadores amigos causam esse efeito em batalha enquanto a operação estiver ativa.[br/][br/]Enquanto ativa, as colônias afetadas [firecol]produzem -{Energy}[energy/][/firecol] e a manutenção dos Propagadores é [firecol]aumentada em +{Upkeep}%[/firecol].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Propagation Tower is the Shakarn unique building. Propagator is a Shakarn Unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">As Torres de Propagação agora estão disseminando imagens motivacionais.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_PROPAGATOR_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Propagação: Motivação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_PROPAGATOR_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quando esta unidade entra em combate, concede +{Morale}[happiness/] a todas as unidades amigas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_COMBAT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades do proprietário da transmissão ganham {MoraleIncrease}[happiness/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Propaganda Perturbadora</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tentar disseminar propaganda falsa e perturbadora na colônia inimiga alvo, causando {Unhappiness}[anger/] por {Duration}[turn/], além de até {RioterAmount}[rioter/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Nossa propaganda foi espalhada com sucesso na colônia inimiga, tão perturbadora que faria até um Kir'Ko corar!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">A contrainteligência inimiga impediu nossos agentes de realizar seu trabalho adequadamente, embora a tentativa tenha deixado a colônia em estado de agitação civil.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Alguém espalhou propaganda de mau gosto em nossa colônia, perturbando a população local.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Uma tentativa de disseminar propaganda vil em nossa colônia foi feita, mas nossa equipe de contrainteligência os deteve a tempo, embora a tentativa tenha deixado nossa colônia em estado de agitação civil.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">{UnhappinessAmount}[anger/] por {Duration}[turn/], além de obter {RioterAmount}[rioter/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Transmissão Vigilante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as colônias com uma Torre de Propagação ganham +{OperationalDefense}[OperationDefense/][br/][br/]. Além disso, durante o combate nos domínios dessas colônias, todas as unidades ganham +{ShieldGain}[shield/].[br/]Todos os Propagadores causam esse efeito em batalha enquanto a operação estiver ativa.[br/][br/]Enquanto ativa, as colônias afetadas [firecol]produzem -{Energy}[energy/][/firecol] e a manutenção dos Propagadores é [firecol]aumentada em +{Upkeep}%[/firecol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Propagation Tower is the Shakarn unique building. Propagator is a Shakarn Unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">As Torres de Propagação agora estão disseminando mensagens de vigilância e escudos holorrealistas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_PROPAGATOR_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Propagação: Escudos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_PROPAGATOR_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quando esta unidade entra em combate, concede +{Shields}[shield/] a todas as unidades amigas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_COMBAT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades do proprietário da transmissão ganham {ShieldIncrease}[shield/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Transmissão Holorrealista</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as colônias com uma Torre de Propagação ganham +{Happiness}[happiness/][br/][br/]. Além disso, no início de cada turno em combate nos domínios dessas colônias, todas as unidades inimigas não-Mente têm {HallucanationChance}[strengthPsyche/] de chance de ficarem [abilityred]Alucinadas[/abilityred] por {Duration}[turn/].[br/]Todos os Propagadores causam esse efeito em batalha enquanto a operação estiver ativa.[br/][br/]Enquanto ativa, as colônias afetadas [firecol]produzem -{Energy}[energy/][/firecol] e a manutenção dos Propagadores é [firecol]aumentada em +{Upkeep}%[/firecol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Propagation Tower is the Shakarn unique building. Propagator is a Shakarn Unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">As Torres de Propagação agora estão disseminando objetos holorrealistas e entretenimento para seus cidadãos, enquanto confundem e desnorteiam os inimigos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_PROPAGATOR_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Propagação: Ilusões</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_PROPAGATOR_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">No início de cada turno de combate, unidades inimigas não-Mente têm {HallucinatingChance}[strengthPsyche/] de chance de ficarem [abilityred]Alucinadas[/abilityred] por {duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_COMBAT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">No início de cada turno, unidades inimigas não-Mente têm {HallucinateChance}[strengthPsyche/] de chance de ficarem [abilityred]Alucinadas[/abilityred] por {Duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell>
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFF_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hologramas Ponderados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell>
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFF_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades Infiltrator que você controla recebem +{Armor}[armor/] e {DamageIncrease}% de aumento de dano, mesmo quando Holoshiftadas.[br/]Holoshift agora pode mirar unidades Mecânicas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell>
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFF_1_PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Holoshift agora pode mirar unidades Mecânicas.[br/]Esta unidade recebe +{Armor}[armor/] e causa +{DamageIncrease}% de dano. Isso também se aplica quando a unidade está holoshiftada.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell>
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFF_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hologramas Realistas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell>
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFF_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades Infiltrator que você controla recebem +{Shield}[shield/] e {DamageIncrease}% de aumento de dano, mesmo quando Holoshiftadas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell>
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFF_2_PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade recebe +{Shield}[shield/] e causa +{DamageIncrease}% de dano. Isso também se aplica quando a unidade está holoshiftada.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASTING_INSTRUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">COLONY_FRIENDLY_PROPAGATION</Data></Cell>
+    <Cell><Data ss:Type="String">Afeta todas as colônias amigas com Torres de Propagação</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Propagation Tower is the Shakarn unique building.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFFS</Data></Cell>
+    <Cell><Data ss:Type="String">INFILTRATOR_BUFF_3_PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade causa +{DamageIncrease}% de dano. Isso também se aplica quando a unidade está holoshiftada.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <TopRowVisible>45</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>54</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

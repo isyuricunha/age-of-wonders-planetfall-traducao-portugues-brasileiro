@@ -1,0 +1,937 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Luis Ferreira</LastAuthor>
+  <LastSaved>2020-02-07T13:24:01Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7308</WindowHeight>
+  <WindowWidth>23040</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="158" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="290.39999999999998" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="147.6"/>
+   <Column ss:StyleID="s62" ss:Width="149.4"/>
+   <Column ss:Index="4" ss:StyleID="s62" ss:Width="147.6"/>
+   <Column ss:StyleID="s62" ss:Width="283.8"/>
+   <Column ss:StyleID="s62" ss:Width="286.8"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">UNIT_UPGRADES_PSIONICS</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PSI-RIFLE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Rifle Psiônico</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Psi, as in short for Psionic</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PSI-RIFLE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Dispara um tiro de dano psiónico de longo alcance.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PSI-RIFLE_SNAP_SHOT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Tiro Rápido de Rifle Psiônico</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PSI-RIFLE_SNAP_SHOT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Dispara um tiro rápido, causando dano psiónico reduzido.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PSI-STRIKE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Golpe Psiônico</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PSI-STRIKE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Ataque psiónico de médio alcance.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PHASE_OUT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Passo Encoberto</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PHASE_OUT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Canalizando seus poderes psiônicos, esta unidade se teleporta, espalhando uma nuvem de fumaça obscurecedora em um raio de 1 hex ao redor da localização do hex alvo. Unidades dentro dessa área são {ObscuredPercentage} mais difíceis de acertar.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">VISIONS_OF_MADNESS</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Visões de Loucura</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">VISIONS_OF_MADNESS</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Evoque o passado assombrado desta unidade na mente de uma unidade inimiga alvo. Isso tem {VisionsMadChance}% de chance de aplicar [abilityred]Insano[/abilityred] na unidade por {duration} [turn/].[br/] Se falhar, a unidade recebe [abilityred]Mente Abalada[/abilityred].</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Index="17" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GUIDING_PRESENCE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILTIY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Presença Orientadora</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GUIDING_PRESENCE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Concede a todas as unidades amigas {GuidingAccuracy} de precisão e +{GuidingRange} de alcance máximo e ideal por {GuidingTurns}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GUIDING_PRESENCE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION_HERO</Data></Cell>
+    <Cell><Data ss:Type="String">Concede a todas as unidades amigas em um raio de {HexRad} hex {GuidingAccuracy} de precisão e +{GuidingRange} de alcance máximo e ideal por {GuidingTurns}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GUIDING_PRESENCE</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques têm {GuidingAccuracy} a mais de precisão e +{GuidingRange} de alcance máximo e ideal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GUIDING_PRESENCE</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{GuidingAccuracy} de precisão, {GuidingRange} de alcance.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VENGEFUL_PRESENCE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILTIY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Presença Vingativa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VENGEFUL_PRESENCE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades amigas recebem {PsionicHarmonyDamage} de dano adicional por {PsionicHarmonyTurns}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VENGEFUL_PRESENCE</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{PsionicHarmonyDamage} de dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSI_TORRENT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILTIY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Torrente Psiônica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSI_TORRENT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Forte ataque psiônico à distância.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WAVE_OF_MADNESS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILTIY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Onda de Loucura</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">WAVE_OF_MADNESS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Libera uma onda de loucura em forma de cone, causando dano Psiónico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_CLARITY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mantra da Clareza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_CLARITY</Data></Cell>
+    <Cell><Data ss:Type="String">BUFF_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ofuscação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_CLARITY</Data></Cell>
+    <Cell><Data ss:Type="String">DEBUFF_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Clareza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MANTRA_OF_CLARITY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques psiónicos tornam as unidades {accdown} mais fáceis de acertar.[br/][br/]Bônus psiónicos tornam unidades aliadas {accup} mais difíceis de acertar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_CLARITY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DEBUFF_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está {ClarityDebuffAccuracy} mais fácil de acertar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MANTRA_OF_CLARITY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DEBUFF_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades alvo ficam {ClarityHitChance} mais fáceis de acertar por {ClarityTurn}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_CLARITY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_BUFF_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está {ClarityBuffAccuracy} mais difícil de acertar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MANTRA_OF_CLARITY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_BUFF_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades alvo ficam {ClarityBuffAccuracy} mais difíceis de acertar por {ClarityBuffDuration}.</Data></Cell>
+   </Row>
+   <Row ss:Index="38" ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MANTRA_OF_CLARITY</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques psiónicos deixam um debuff que torna unidades inimigas {ClarityDebuffAccuracy} mais fáceis de acertar. Bônus psiónicos aplicam um debuff que torna unidades aliadas {ClarityBuffAccuracy} mais difíceis de acertar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_LIFE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mantra da Vida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MANTRA_OF_LIFE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques psiónicos curam o conjurador em {HealthAmount}[hp/] ao serem usados.[br/][br/]Bônus psiónicos concedem {LifeShields}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MANTRA_OF_LIFE</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades alvo ganham {LifeShields} por {Lifeturns}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_LIFE</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade possui {LifeTempShields} escudos temporários.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_LIFE</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_ATTACK_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cura {Health}[hp/] ao ser usado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_FLAMES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Foco: Chamas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="107.25">
+    <Cell><Data ss:Type="String">MANTRA_OF_FLAMES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques psiónicos são fortalecidos com chamas, causando dano Térmico e têm uma chance de [strengththermal/] de força ([strengththermal/] para ataques repetidos) de aplicar [abilityred]Queimadura[/abilityred] em unidades não Etéreas e não Minerais, mas os ataques só ignorarão 2[armor/].[br/]Bônus psiónicos aumentam a Resistência Térmica em 4[DefenseThermal/].[br/][br/][productioncol]Apenas um mod de Foco pode estar ativo por vez.[/productioncol]</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MANTRA_OF_FLAMES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_BUFF_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem {FlamesResistBonus} resistência térmica adicional.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MANTRA_OF_FLAMES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_BUFF_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades alvo ganham {FlamesResistance} de resistência térmica por {FlamesTurn}.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_VENOM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Foco: Veneno</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="108">
+    <Cell><Data ss:Type="String">MANTRA_OF_VENOM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques psiónicos são infundidos com ácido, causando dano Bioquímico e têm uma chance de [strengthbio/] de força (8[strengthbio/] para ataques repetidos) de aplicar [abilityred]Envenenamento[/abilityred] em unidades Biológicas e Ciborgues, mas os ataques só ignorarão 2[armor/].[br/]Bônus psíquicos aumentam a resistência Bioquímica em 4[DefenseBio/].[br/][br/][productioncol]Apenas um mod de Foco pode estar ativo por vez.[/productioncol]</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MANTRA_OF_VENOM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_BUFF_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem {VenomResistBonus} de resistência Bioquímica adicional.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MANTRA_OF_VENOM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_BUFF_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades-alvo ganham {VenomResistance} de resistência Bioquímica por {VenomTurn}.</Data></Cell>
+   </Row>
+   <Row ss:Index="56" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AETHER_CONTROL</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mantra de Controle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AETHER_CONTROL</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todos os ataques Psiónicos têm {AetherAccuracyIncrease} de precisão aumentada.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AETHER_CONTROL</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{AetherAccuracyIncrease} de precisão.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AETHER_CONTROL</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dominar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">AETHER_CONTROL</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Através da vontade Psiónica do lançador, a unidade-alvo tem uma chance de {PsiStrengthChance} de força de ser Controlada Mentalmente. Unidades Controladas Mentalmente mudam de facção para o seu lado. O efeito de Controle Mental é cancelado se o lançador for morto.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AETHER_STORM</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tempestade Etérea</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AETHER_STORM</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Canalize o poder do éter através desta unidade. Teleporte para o local-alvo e ataque todos os inimigos em {radius} hexágonos.[br/]Esta unidade entra em seu [abilityblue]Modo Defensivo[/abilityblue] em seguida.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ECHOES_OF_TORMENT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ecos do Tormento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ECHOES_OF_TORMENT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um ataque Psiónico de longo alcance que causa dano pesado em um raio de {hexrad} hexágonos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSI_STONES_OF_DISSONANCE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Psi-Pedras da Dissonância</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSI_STONES_OF_DISSONANCE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um ataque em cone de curto alcance que causa dano Psiónico a todas as unidades.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSI_STONES_OF_HARMONY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Psi-Pedras da Harmonia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSI_STONES_OF_HARMONY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cura uma unidade aliada em {HealAmount} e concede a ela um bônus de {MoraleBoost} em Moral.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSI_STONES_OF_HARMONY</Data></Cell>
+    <Cell><Data ss:Type="String">BUFF_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem {HarmonyMoraleBoost} de Moral aumentada.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOCUSED_HATE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ódio Focado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FOCUSED_HATE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade canaliza seu ódio intenso pelo alvo, causando dano Psiónico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIONIC_MENDING</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cura Psiónica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PSIONIC_MENDING</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Canaliza energias psiónicas para curar a unidade aliada alvo, restaurando {MendinghealthRecovered}.[br/]Não funciona em unidades Mecânicas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ABSORB_PAIN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Absorver Dor</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">ABSORB_PAIN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade se conecta à unidade aliada alvo. Qualquer dano causado à unidade conectada é reduzido em {absorbPainDamageReduction} e é redirecionado para esta unidade. O efeito dura por {duration}[turn/] ou até que a unidade lançadora seja Atordoada.[br/][br/]Absorver Dor não pode ter como alvo unidades Mecânicas, Defesas da Colônia ou outras unidades com Absorver Dor.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"> {absorbPainDamageReduction}  is a percentage.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ABSORB_PAIN_RECEIVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Absorvendo Dor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ABSORB_PAIN_RECEIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está conectada a uma unidade aliada. Qualquer dano causado à unidade conectada é reduzido em {absorbPainDamageReduction} e é redirecionado para esta unidade. O efeito dura até que o temporizador expire ou até que esta unidade seja atordoada.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ABSORB_PAIN_TRANS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Transferindo Dor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ABSORB_PAIN_TRANS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está conectada a uma unidade aliada. Qualquer dano causado a esta unidade é reduzido em {absorbPainDamageReduction} e é redirecionado para a unidade conectada. O efeito dura até que o temporizador expire ou até que a unidade conectada seja atordoada.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ABSORB_PAIN_CANCEL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Quebrar Conexão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ABSORB_PAIN_CANCEL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Interrompe a conexão criada por Absorver Dor.</Data></Cell>
+   </Row>
+   <Row ss:Index="84" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CALL_OF_THE_DEEP</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Chamado das Profundezas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CALL_OF_THE_DEEP</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Profundo tece imagens de afogamento e a sensação de sufocamento que se espalham pela mente do alvo. O chamado reverbera no final do turno da unidade afetada, causando dano que ecoa para unidades próximas, além de lhes aplicar este efeito.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ECHO_OF_THE_DEEP</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Eco das Profundezas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ECHO_OF_THE_DEEP</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade está ressoando com o chamado do Profundo e, no final de seu turno, ecoará o chamado, causando dano a todas as unidades adjacentes e espalhando o Eco das Profundezas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSI_GOUGE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Golpe Psiónico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSI_GOUGE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um ataque psiónico de longo alcance.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BONECRUSHER</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Esmagador de Ossos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BONECRUSHER</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Lança uma onda de choque de energia psiónica que atinge a unidade inimiga alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITEC_BLASTERS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Blasters PsiTec</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITEC_BLASTERS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara blasters PsiTec no alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITEC_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Canhão PsiTec</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSITEC_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara o Canhão PsiTec no alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITEC_BLAST</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Explosão PsiTec</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSITEC_BLAST</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Libera uma explosão psiónica em cone na direção do alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITEC_HEAVY_REPEATERS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Metralhadoras Pesadas PsiTec</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITEC_HEAVY_REPEATERS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara as Metralhadoras Pesadas PsiTec no alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITEC_STAFF</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cajado PsiTec</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSITEC_STAFF</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aponta a ponta de um cajado para o inimigo alvo para disparar rajadas de energia Psiónica.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITEC_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Golpe PsiTec</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITEC_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esmaga um oponente com Manoplas Psiónicas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SOUL_REND</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Garra da Alma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SOUL_REND</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataque psiónico corpo a corpo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITEC_FISTS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Punhos PsiTec</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITEC_GRENADE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Granada PsiTec</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSITEC_GRENADE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Arremessa uma granada carregada de energia Psiónica que causa dano em área.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITEC_NAVAL_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Canhão Naval PsiTec</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSITEC_NAVAL_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara um Canhão PsiTec no alvo. Este ataque não sofre a penalidade de precisão ao atingir unidades Voadoras.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITEC_ILLUSION_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Campo de Ilusão PsiTec</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSITEC_ILLUSION_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Produz um campo de ilusão em massa que destrói a mente dos alvos e os submete a alucinações.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITEC_EMMITER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Emissor PsiTec</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITEC_EMMITER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara um Emissor de PsiTec, causando dano em uma linha de 3 hexágonos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIONIC_DRAIN</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dreno Psiónico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIONIC_DRAIN</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cura a unidade ao atacar alvos não-Mente-Vazia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPPRESSOR_TOWER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Torre Supressora</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPPRESSOR_TOWER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Causa dano Psiónico a um único alvo.</Data></Cell>
+   </Row>
+   <Row ss:Index="120" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_CLARITY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Lúcido</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_CLARITY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Purificado</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_CLARITY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Iluminador</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_CLARITY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Orando</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_CLARITY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Hino da Purificação</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_CLARITY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Cantor Puro</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOCUS_FLAMES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Foco Flamejante</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOCUS_FLAMES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Caçador de Chamas</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOCUS_FLAMES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Descobridor de Chamas</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOCUS_FLAMES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Rastilho Ardente</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOCUS_FLAMES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Fé Ardente</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOCUS_FLAMES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Monge do Inferno</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOCUS_VENOM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Foco Venenoso</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOCUS_VENOM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Caçador de Veneno</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOCUS_VENOM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Descobridor de Veneno</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOCUS_VENOM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Trailer de Veneno</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOCUS_VENOM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Fé Venenosa</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOCUS_VENOM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Monge Tóxico</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_LIFE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Vital</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_LIFE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Meditador</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_LIFE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Presságio da Vida</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_LIFE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Revigorante</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_LIFE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Hino Espiritual</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_LIFE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Cantor da Vida</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_CONTROL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ressoante</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_CONTROL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Pressagiado</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_CONTROL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Clarividente</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_CONTROL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Proclamador da Fé</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_CONTROL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Portador do Credo</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANTRA_OF_CONTROL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Cantor da Fé</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AETHER_STORM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Tufão</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AETHER_STORM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Epitome da Mente</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AETHER_STORM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Quintessência</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AETHER_STORM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Vórtice Psíquico</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AETHER_STORM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Voragem Sombria</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AETHER_STORM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Pandemônio</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s66"/>
+    <Cell ss:Index="7" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s66"/>
+    <Cell ss:Index="7" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s66"/>
+    <Cell ss:Index="7" ss:StyleID="s66"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>93</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>94</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

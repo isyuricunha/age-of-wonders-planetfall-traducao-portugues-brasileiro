@@ -1,0 +1,599 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>GeraldR</LastAuthor>
+  <LastSaved>2019-03-13T10:46:12Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17835</WindowHeight>
+  <WindowWidth>-27136</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="109" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="263.25" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="225.75"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:Width="262.5"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:Index="6" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="274.5"/>
+   <Column ss:StyleID="s62" ss:Width="262.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DWELLING_PSIFISH</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">The Psi-Fish are an extremely exotic and alien species. We tried to convey this through language that is broken, strange, and somethings only use one word to communicate. The use of vibrations, sounds and colours are prevalent to convey their language style.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEFAULT_RESPONSE</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">Vibrações negativas de sucesso recebidas. Não confiáveis. Gosto de fracasso… desagradável.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Default text for all fails Psi-Fish quests.</Data></Cell>
+   </Row>
+   <Row ss:Index="9" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ex Oblivione</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.
+"Ex Oblivione" refers to the H.P. Lovecraft poem.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Derrote o Crescimento Hostil</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Falar com… plantas. Crescimento. Desorientado, ameaça. Espalha sementes, mas sem noção de significado. Sem senso de esquecimento. O senso deve ser incutido. Aceita?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Esquecimento. A vida neste plano, sem sentido. Lutamos, constantemente. Até que o Vazio nos abrace novamente.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Void" refers to an in-game location.
+(see glossary)</Data></Cell>
+   </Row>
+   <Row ss:Index="14" ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cambaleantes das Estrelas</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.
+"Shamblers from the Stars" refers to a horror short story by American writer Robert Bloch.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Derrote os Renegados Hostis</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Renegados, almas hostis. Vermelho violento. Devem ser abatidos… erradicados. Faça isso… recompensa aguarda.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">A ameaça… erradicada. Equilíbrio restaurado. Uma boa… troca. Aceite a recompensa.</Data></Cell>
+   </Row>
+   <Row ss:Index="19" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Inimigos Não Comestíveis</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Derrote o Autônomo Hostil</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Entidade mecânica não comestível. Não é possível comungar. Entidade… hostil. Precisamos de assistência. Entidade deve ser… desativada.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Entidade mecanizada… desmontada. Silêncio restaurado. Retomando consumo de orgânicos. Obrigado, desmontador de máquinas.</Data></Cell>
+   </Row>
+   <Row ss:Index="24" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lamento da Sereia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Derrote o Quartzito Hostil</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest description.
+"Quarzite" are an in-game species.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Uma sereia e seu bando… mineral agressivo… submeta-o à dor. Esferas vibram com o sofrimento da sereia. Ajude-nos, {STR_LeaderName}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">{STR_LeaderName} can be male or female.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Vida baseada em silício… destruída. Agradecimento, {STR_LeaderName}.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Edit: live -&gt; life</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Index="29" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Limitações Corporais</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Construa os Recipientes de Comida para os Peixes-Psi</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Fome... sempre crescente. Mas a comida acaba... constante. Cansativo. A comida é física, limitada pela matéria. Você é físico, ajude a conter o sustento. Acordo?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Conforto reconfortante. Nutrição contida. {STR_LeaderName}… gratidão.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">Nenhum recipiente recebido… a fome persiste. Decepção cinzenta.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest failed text for production quest.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Recipientes de Comida para os Psi-Peixes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Psi-Peixes não são deste plano da realidade, e o conceito de preservar comida lhes é estranho.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Building queue description.</Data></Cell>
+   </Row>
+   <Row ss:Index="37" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Propagação Artificial</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.
+"Propagation" refers to keeping a species alive.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Produza os Casulos Crisálida para os Psi-Peixes</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Nós… nós não somos maus. Nossa casa… além do Vazio. Este plano… estranho. Precisamos… nos propagar como sua espécie come animais e plantas. Construa casulos para nós… para a fase crisálida de nosso crescimento. Não precisaremos mais… de hospedeiros orgânicos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Void" is an in-game location.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Nós… agradecemos por esses casulos. Agora… podemos nos propagar… sem a necessidade de hospedeiros orgânicos. Gratos.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Produzir Casulos Crisálida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Psi-Peixes usam hospedeiros orgânicos para propagar sua espécie, como um parasita. Usar casulos fabricados permitirá que os Psi-Peixes se reproduzam sem a necessidade de hospedeiros.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Building queue description.</Data></Cell>
+   </Row>
+   <Row ss:Index="45" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Organismos Incompatíveis</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Destrua o Esconderijo dos Piratas</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest description.
+"Pirate Hideout" refers to an in-game unit spawner</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Criaturas horríveis, barulhentas e vis. Perturbam nosso equilíbrio. Aniquilação… a única escolha.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Espírito afim, vibrações suaves fluem. Equilíbrio restaurado. Obrigado.</Data></Cell>
+   </Row>
+   <Row ss:Index="50" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Comida de Peixe</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Destrua o Ninho Aquático</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Aquatic Nest" refers to an in-game location that spawns aquatic species.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confundidos… com criaturas aquáticas nativas. Sua presença… deve interferir.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Não mais… comida de peixe. Espécies nativas… não são mais ameaça.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Index="55" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dor de Cabeça por Ultrassom</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Destrua a Base Naval do Império</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Estamos… enlouquecendo. Sinais profundos… chegando à superfície. Vozes que distraem. Destruam… o incômodo.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Criaturas estranhas… dos mares. Destruídas agora… somos gratos.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Index="61" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Despejo de Conhecimento</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Pesquisar Educação Etérea para os Psi-Peixes</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Buscamos… conhecimento. Curiosidade. Sabedoria. Transmitam todo o conhecimento do mundo… para que possamos compreender. Façam isso… e não precisaremos mais absorver cérebros em busca de conhecimento.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Obrigado, {STR_LeaderName}. Este conhecimento… podemos usar. Nossos meios de adquirir mudaram… para melhor.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">{STR_LeaderName} can be male or female.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s63"/>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Educação Etérea</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Os Psi-Peixes aprendem extraindo fisicamente conhecimento dos cérebros de hospedeiros orgânicos. No entanto, poderíamos ensiná-los métodos mais civilizados.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest description.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Index="69" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Psi-Peixes Chamam Lar</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.
+Reference to the film, "E.T. The Extra-Terrestrial"</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Pesquisar Dispositivo de Comunicação para os Psi-Peixes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lar… Vazio. Estamos perdidos… mundo distante. Ajudem-nos a encontrar… nossa origem. Ansiamos…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Void" refers to an in-game location.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Aaaah… vibrações quentes, escuras e profundas. Lar. Obrigado, {STR_LeaderName}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dispositivo de Comunicação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Construir um dispositivo de comunicação que permita aos Psi-Peixes captar sinais de seu lar no Vazio.</Data></Cell>
+   </Row>
+   <Row ss:Index="76" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Prover Fabulosidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Produzir Túnicas Diplomáticas para os Psi-Peixes</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tornamo-nos… conscientes. Os orgânicos usam roupas… pompa… formalidade. Estamos nus. Desejamos… glamour… cortesia. Beleza exterior… para combinar com nossas entranhas transparentes. Buscamos… moda… para igualdade… para primeiras impressões.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Sentimo-nos… belos! Estamos… em alta. Júbilo… agora impressionamos com nossa elegância… elegância… postura.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">Sentimo-nos… nus. Decepção. Alvo de risos. Não, moda é um desperdício estúpido de tempo. Raiva que fere… decepção.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Túnicas Diplomáticas para os Psi-Peixes</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Os Psi-Peixes são uma espécie estranha, mas parecem estar se adaptando rapidamente à nossa realidade. Isso ajudará a integrá-los ainda mais.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:Index="84" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Inocular!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Destruir Infestação de Xenopraga</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Abominações… vida sem pensamento… fome… selvageria… destrua. Incinerar todos os vestígios… organismo antinatural consome tudo. Pare com isso!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Calma restaurada. Transbordamos gratidão… doce agradecimento. O veneno foi vencido… alívio xaroposo.</Data></Cell>
+   </Row>
+   <Row ss:Index="89" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tomadores de Cerco</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Destruir Sequestradores Piratas</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Nossa espécie clama… fora-da-lei cruéis nos dissecam. Poluentes salgados… nos roubam de nosso encanto. Eles devem ser detidos… destruir seu reduto… enviá-los ao esquecimento.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Reencontro alegre… triunfo. Euforia… gratidão digna de ti.</Data></Cell>
+   </Row>
+   <Row ss:Index="94" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Balbúrdia Sem Sentido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Pesquisar Tradutor de Fala Psiónica</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Seres sem mente nesta realidade… inteligência mecânica. Sem meios de comunicação… desejos não realizados. Buscar conversão de mente para matéria.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Gratidão… agora transmitimos pensamentos felizes a todas as coisas. Sofás… fogões… robôs… aspiradores de pó. Dispositivos conhecem nosso amor… coisas felizes e sem mente.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Tradutor de Fala Psiónica</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Os Psi-Peixes não se comunicam como os seres orgânicos que conhecemos. Se pudermos pesquisar um tradutor psiónico, a comunicação com eles ficará muito mais fácil.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:Index="101" ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">KILL_UNITS_07</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Os Arcaicos</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">KILL_UNITS_07</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Destruir os Soldados Paragon</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">KILL_UNITS_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Eles nos caçam… tentamos acalmá-los… não é eficaz. Estão presos ao passado. Tentamos nos comunicar… eles nos caçam… fugimos. Paragon nos perseguem… nos protejam?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The Psi-Fish talk with broken English, they are exotic and foreign to this world.</Data></Cell>
+    <Cell><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">KILL_UNITS_07</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Doce alívio… os caçadores Paragon se foram. Harmonia deliciosa… o passado deve permanecer no passado. Vazio saboroso decora seus túmulos… vagando no Vazio.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Void" refers to an in-game location.</Data></Cell>
+    <Cell><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:Index="106" ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">KILL_UNITS_08</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Coração Sombrio</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">KILL_UNITS_08</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Destrua os cruéis Spacers</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">KILL_UNITS_08</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aniquiladores saqueadores… sua crueldade. Spacers… sangue amargo. Anfitriões difíceis… um desafio terrível. Mentes quebradas… sem esperança de congruência. Gosto selvagem… vasos vazios. Precisamos de mentes melhores... pare a loucura.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Spacers" refers to another in-game faction.</Data></Cell>
+    <Cell><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">KILL_UNITS_08</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Silêncio… poluições tóxicas se diluem no fluxo de pensamentos. A fumaça se dissipa… alçamos voo novamente… livres da opressão selvagem. Despertamos novamente… agradecemos a você.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>96</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>99</ActiveRow>
+     <RangeSelection>R100</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

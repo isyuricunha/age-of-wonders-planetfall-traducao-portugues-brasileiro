@@ -1,0 +1,1121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Luis Ferreira</LastAuthor>
+  <LastSaved>2020-03-12T11:31:47Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11025</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="209" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="144"/>
+   <Column ss:StyleID="s62" ss:Width="121.5"/>
+   <Column ss:StyleID="s62" ss:Width="387"/>
+   <Column ss:StyleID="s62" ss:Width="150"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="380.25"/>
+   <Column ss:StyleID="s62" ss:Width="137.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">UNIT_UPGRADES_SHAKARN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">Extra Notes: Sono- relates to Sonic, all abilities that have a Sono- are Sonic abilities. Omni relates to abilities that combine Sonic and Laser damage. Omni abilities are Sonic Laser abilities. Holo refers to the use of Holograms</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SONO_PULSE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Pulso-Sônico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SONO_PULSE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Projeta um ataque sônico no alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECON_BUOY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Boia de Reconhecimento</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Recon is short for Reconnaissance </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RECON_BUOY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Coloca uma Boia de Reconhecimento no hexágono alvo, tornando todas as unidades inimigas em um raio de {HexRange} hexágonos {EvasionDown}% mais fáceis de acertar, por {Duration}[turn/]. O efeito é reaplicado no início de cada turno.[br/][br/]A boia dura por {DurationBuoy}[turn/] ou até ser destruída.[br/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Reconnaissance Buoy is a Shakarn Unit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECON_BUOY</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade está {EvasionDown}% mais fácil de acertar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RECON_BUOY</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">No início de cada turno, todas as unidades inimigas dentro de {HexRange} hexágonos ficam {EvasionDown}% mais fáceis de acertar por {Duration}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMNI_CARBINE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Carabina Ômni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMNI_CARBINE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara um ataque combinado de Laser Sônico no alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMNI_CARBINE</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assalto Fechado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMNI_CARBINE</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Causa -{KineticrDamage}[damagePhysical/] por cada hexágono de distância do alvo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Reads: Deals -1[damagetype] per each [..]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMNI_RUSH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Investida Ômni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMNI_RUSH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Projeta uma mistura de dano Sônico e Laser em uma linha de {HexRange} hexágonos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SONO_FREQUENCY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Frequência Sônica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SONO_FREQUENCY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Projeta um ataque sônico no alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOSHIFT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Holomudança</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HOLOSHIFT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Copia a aparência e habilidades de uma unidade inimiga não Herói alvo por {Duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOSHIFT_1</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Básico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOSHIFT_1</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Holomudança pode atingir unidades não Mecânicas de Nível I e Nível II.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOSHIFT_2</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ponderado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOSHIFT_2</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Holomudança pode atingir unidades de Nível I e Nível II.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOSHIFT_3</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Realista</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOSHIFT_3</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Holoshift pode atingir unidades de Nível I, Nível II e Nível III.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOSHIFT_LAST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Repetição de Holoshift</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOSHIFT_LAST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Holoshift para a última unidade na qual esta unidade se transformou.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOSHIFT_LAST</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Alvo de Transformação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHIFTBACK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Reversão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHIFTBACK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Retorne esta unidade à sua forma original.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AUTO_SHIFTBACK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Transformada por Holoshift</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">AUTO_SHIFTBACK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está se passando por outra.[br/]Quando o [hp/] desta unidade chegar a 0, ela automaticamente se teleporta para uma posição aleatória a até {ShiftbackHex} hexágonos de distância, reverte à sua forma original e revive com {ShiftbackHP}[hp/].[br/][br/][firecol]Uma unidade só pode se reviver uma vez por batalha.[/firecol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLO_DRAINED</Data></Cell>
+    <Cell><Data ss:Type="String">DISABLE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade transformada recentemente e não pode fazê-lo novamente até seu próximo turno.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMNI_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Canhão Ômni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMNI_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara um ataque combinado de Laser Sônico no alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEADLY_OVERWATCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Vigilância Mortal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DEADLY_OVERWATCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade pode entrar em Vigilância Mortal, permitindo que ela atire automaticamente em um inimigo que se mova ou ataque dentro de seu campo de visão com +{CrticalAndAccUp}% de chance crítica e precisão enquanto estiver em Vigilância.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMNI_PERFORATOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Perfurador Ômni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OMNI_PERFORATOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara um ataque perfurante de Laser Sônico no alvo, causando dano em uma linha de {HexRange} hexágonos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SONO_REPEATER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Repetidor Sônico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SONO_REPEATER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Projeta um ataque sônico no alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISSONOS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Dissonos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISSONOS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Projeta um ataque sônico devastador no local alvo, em um cone de alcance de {HexRange} hexágonos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLO_MEND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Cura Holográfica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HOLO_MEND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade aliada alvo é curada em {Heal}[hp/], tem seus Efeitos de Status negativos removidos e ganha {EvasionUp}% de esquiva por {Duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLO_MEND</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade tem {EvasionUp}% mais chance de não ser atingida.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROPAGATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Propagação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PROPAGATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Quando uma operação de Transmissão Shakarn está ativa, esta unidade ganha um efeito em todo o campo de batalha dependendo da transmissão.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Related to the [Type] Broadcasting Strategic Operations found in Shakarn_TechGroups</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMNI_CLAW</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Garra Ômni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMNI_CLAW</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Ataque corpo a corpo combinado de Laser Sônico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMNI_SHOT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Disparo Ômni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMNI_SHOT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara um ataque combinado de Laser Sônico no alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STAGGERING_FORCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Força Atordoante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STAGGERING_FORCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Ataque de escudo no alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SONO_BLAST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Sono-Blast</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SONO_BLAST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Projeta um ataque sônico no alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRESS_THE_ADVANTAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Aproveitar a Vantagem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRESS_THE_ADVANTAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade aliada não-Taticista alvo recupera todos os pontos de ação.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FALLBACK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Retrair</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FALLBACK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade aliada alvo é curada em {Heal}[hp/] e tem seus Efeitos de Status negativos removidos. A unidade é puxada para um hexágono adjacente a esta unidade.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ONE_OF_US_ALL_ALONG</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Um dos Nossos o Tempo Todo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ONE_OF_US_ALL_ALONG</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade inimiga de Infantaria de Tier I ou II alvo revela que um de seus membros era um Agente Adormecido o tempo todo, que aparece sob seu controle em um hexágono adjacente.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sleeper Agent is a Shakarn Unit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REVERBERATING_DAGGER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Adaga Ressoante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REVERBERATING_DAGGER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Ataque sônico corpo a corpo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIGH_FREQUENCY_BLAST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Explosão de Alta Frequência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIGH_FREQUENCY_BLAST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Projete um ataque sônico no alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMNI_EBB</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Refluxo Sônico</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in the Ebb from Ebb and Flow</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OMNI_EBB</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara um ataque sônico em um alvo. Ao usar, esta unidade ganha uma pilha de [abilityblue]Refluxo[/abilityblue], até {MaxStackAmount} pilhas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMNI_FLOW</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Fluxo Sônico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OMNI_FLOW</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara uma explosão sônica em um alvo. As pilhas de [abilityblue]Refluxo[/abiltyblue] modificam esta habilidade.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in the Flow from Ebb and Flow</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMNI_REPEATER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Repetidor Ômni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMNI_REPEATER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara um ataque combinado de Laser Sônico no alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMNI_BEAM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Feixe Ômni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMNI_BEAM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara um ataque combinado de Laser Sônico em uma linha de {HexRange} hex.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMNI_CHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Carga Ômni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OMNI_CHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Potencializa o próximo [abilityblue]Feixe Ômni[/abilityblue] para ser uma linha de {HexLong} hex de comprimento e {HexWide} hex de largura.[br/]A unidade entra em [abilityblue]Modo Defensivo[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMNI_CHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">O ataque está carregado e causará dano em uma área maior.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SONOKARNS_RALLY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Chamado de Sonokarn</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sonokarn is a shakarn unit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SONOKARNS_RALLY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as outras unidades amigas ganham um aumento de {DamageUp}% no dano por {Duration}[turn/], por Ponto de Ação gasto.[br/]Limita em {StackNumber} pilhas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SONOKARNS_RALLY</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade causa {DamageIncrease}% a mais de dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMNI_SHIELD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Modo Defensivo: Escudo Ômni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OMNI_SHIELD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade encerra seu turno e entra em modo defensivo. Concede a si mesma e a aliados adjacentes {DefenseModePsiTecShieldDefense}[shield/], além de {ExtraEvasion}% de evasão. Além disso, esta unidade fica {DefensiveAccuracyTarget} mais difícil de acertar e não pode ser flanqueada.[br/]Se esta unidade for atordoada, o modo defensivo é cancelado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMNI_SHIELD</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Escudo Ômni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMNI_SHIELD</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem +{Shields}[shield/] e +{EvasionUp}% de esquiva.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SONO_EMISSION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Emissão Sônica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SONO_EMISSION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Projete um ataque sônico no alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SONAR_ANALYSIS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Análise Sonar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SONAR_ANALYSIS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades em um raio de {HexRadius} hex têm {AnalysisChance}[strengthPhysical/] de chance de ganhar [abilityred]Analisado[/abilityred], reduzindo suas resistências em {WeaknessAmount} por {Duration}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXTENDED_FARSIGHT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Visão Avançada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXTENDED_FARSIGHT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade tem +{farsightVisionBonus} de alcance de visão.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ULTRA_SOUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Ultrassônico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ULTRA_SOUND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Projete um ataque sônico no alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EPIMORPHIC_REGENERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Regeneração Epimórfica</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Epimorphic relates to the regeneration of limbs, usually found on Lizards</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EPIMORPHIC_REGENERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Quando esta unidade sofre dano de uma ou mais unidades ou operações inimigas, ela regenerará {HPAmount}[hp/] no início do próximo turno.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENO_DEBILITATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Debilitação Xeno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">XENO_DEBILITATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem -{StatusResistance} de resistência contra efeitos de status devido à sua fisiologia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SONO_EBB</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Refluxo Sônico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SONO_EBB</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Projete um ataque sônico no alvo. Ao usar, esta unidade ganha uma pilha de [abilityblue]Refluxo[/abilityblue], até {MaxStackAmount} pilhas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EBB</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Refluxo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EBB</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Habilidades de Fluxo ganham +{DamageIncrease}% de dano e um raio aumentado em {HexRad} hex por pilha.[br/]Limite de {MaxStack} pilhas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SONO_FLOW</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Fluxo Sônico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SONO_FLOW</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Projete um ataque sônico na unidade inimiga alvo. As pilhas de [abilityblue]Refluxo[/abiltyblue] modificam esta habilidade.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EBB_AND_FLOW</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Refluxo e Fluxo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EBB_AND_FLOW</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cada [abilityblue]Ebb[/abilityblue] consumido aumenta o dano em {DamageIncrease}% e o raio de hexágonos em {HexRad}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_HASHER_SMG</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Metralhadora Hasteadora de Assalto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_HASHER_SMG</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara uma Metralhadora Hasteadora de Assalto no alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_HASHER_SMG</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Causa -{ArcDamage}[damageWave/] por cada hexágono de distância do alvo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Reads: Deals -1[damagetype] per each [..]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLASMA_CLAW</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Garra de Plasma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PLASMA_CLAW</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Ataca um alvo com garras aquecidas, incendiando o hexágono do alvo por {Duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SONO_VOID_BLADES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Lâminas Sono-Vácuo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISORIENTING_DASH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Investida Desorientadora</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HOLOSHIFT_CLONED</Data></Cell>
+    <Cell><Data ss:Type="String">DISABLE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades Holodeslocadas não podem se Clonar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_1</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Módulo de Defesa Xeno</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Xeno as in relating to Alien wildlife</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MOD_1</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade ganha +{Resistance} de resistência ao último tipo de dano recebido.[br/] Este efeito dura até o fim do combate ou até que um dano diferente seja causado à unidade.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_2</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Escâneres Portáteis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MOD_2</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade ganha [abilityblue]Detecção[/abilityblue], +{SensorRange} de Alcance de Sensor e suas habilidades de dano têm {AnalysisChanceSingle}[strengthPhysical/] de chance de força ({AnalysisChanceRepeating}[strengthPhysical/] para ataques repetidos) de aplicar [abilityred]Analisado[/abilityred], reduzindo suas resistências em {ResistanceDown} por {Duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_3</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Granada Debilitante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MOD_3</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lança uma Granada Debilitante em um hexágono, causando dano Sônico em um raio de {HexRange} hexágonos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_4</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Escudos de Holodeslocamento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MOD_4</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade ganha [abilityblue]Deslocamento Rápido[/abilityblue], tornando-a {Evasion}% mais difícil de acertar para cada hexágono movido em seu último turno, além de ganhar [abilityblue]Camuflagem em Água e Rio[/abilityblue], tornando-a indetectável quando em hexágonos de água ou rio.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_4</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Camuflagem em Água e Rio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_4</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade não pode ser detectada quando está em hexágonos de Água ou Rio.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_5</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sistemas de Retorno Orbital</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_5</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reimplantação Tática</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MOD_5</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade é rapidamente reposicionada para a casa-alvo. Em seguida, ela ganha +{ShieldAmount}[shield/] por {duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_5</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem +{Shields}[shield/] e [abilityblue]Flanco[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_6</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Exoesqueleto de Assalto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MOD_6</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade ganha +{CritChance}% de chance de crítico, +{Accuracy}% de precisão e 1 nível de [abilityblue]Resistência a Atordoamento[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_6</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">+{Accuracy}% de precisão e +{CriticalChance}% de chance de crítico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_7</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Manto de Holorrealidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MOD_7</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades não-Inconscientes que atacarem esta unidade dentro de {HexRange} casas têm uma chance de {HallucinatingChance}[strengthPsyche/] de força de ganhar [abilityred]Alucinação[/abilityred] por {Duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_7</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cobertura Holorreal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MOD_7</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cria cobertura na casa-alvo. Unidades inimigas não-Inconscientes adjacentes têm uma {HallucinationChance}[strengthPsyche/] de se tornarem [abilityred]Alucinadas[/abilityred] por {Duration}[turn/]. Se resistirem, aplicam [abilityred]Mente Quebrada[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_8</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sistemas de Ativação por Frase</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_8</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ativação Ômni</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MOD_8</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade ganha [abilityblue]Ressurgimento[/abilityblue] até o fim do combate e entra em [abilityblue]Modo Defensivo[/abilityblue]. No início do próximo turno, esta unidade ganha [abilityred]Insanidade[/abilityred], atacando unidades inimigas aleatoriamente por {Duration}[turn/]. Durante esse tempo, ela também ganha +{DamageIncrease}% de aumento de dano e +{Resistance} de resistência a todos os Canais de Dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MOD_8</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está [abilityred]Insana[/abilityred], atacando inimigos aleatoriamente. A unidade também tem +{DamageIncrease}% de aumento de dano e +{Resistance} de resistência a todos os Canais de Dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_8</Data></Cell>
+    <Cell><Data ss:Type="String">DUMMY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O protocolo de frenesi desta unidade está sendo ativado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Motores Holocromáticos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MOD_9</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade ganha um nível de [abilityblue]Resistência a Atordoamento[/abilityblue].[br/]Quando esta unidade sofre dano inimigo, ela ganha uma habilidade [abilityblue]Ação Livre de Dano[/abilityblue] do mesmo canal de dano.[br/][br/]Quando usada, expira todas as habilidades obtidas dessa forma.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9</Data></Cell>
+    <Cell><Data ss:Type="String">KINETIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Motor de Croma: Cinético</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9</Data></Cell>
+    <Cell><Data ss:Type="String">KINETIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Causa uma explosão que causa dano em um raio de {Hex} casas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9</Data></Cell>
+    <Cell><Data ss:Type="String">BIO_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Motor de Croma: Bioquímico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9</Data></Cell>
+    <Cell><Data ss:Type="String">BIO_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cause dano bioquímico à unidade alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9</Data></Cell>
+    <Cell><Data ss:Type="String">ARC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Motor Cromático: Arco</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MOD_9</Data></Cell>
+    <Cell><Data ss:Type="String">ARC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cause dano de Arco a uma unidade. Esse efeito salta para outras {UnitJump} unidades dentro de {HexJump} hexágonos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9</Data></Cell>
+    <Cell><Data ss:Type="String">THERMAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Motor Cromático: Térmico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9</Data></Cell>
+    <Cell><Data ss:Type="String">THERMAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cause dano a Laser em uma linha de {Hex} hexágonos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9</Data></Cell>
+    <Cell><Data ss:Type="String">PSIONIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Motor Cromático: Psiónico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9</Data></Cell>
+    <Cell><Data ss:Type="String">PSIONIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cause dano psiónico à unidade alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9</Data></Cell>
+    <Cell><Data ss:Type="String">ENTROPY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Motor Cromático: Entropia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9</Data></Cell>
+    <Cell><Data ss:Type="String">ENTROPY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cause dano entrópico à unidade alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_1_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Reativo</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Xeno Defense Module</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_1_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Protegido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_1_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Responsivo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_1_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Atento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_1_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Blindado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_1_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Negador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Escaneando</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Portable Scanners</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Perspicaz</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Inspecionando</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Analisador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliando</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_2_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Explorador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Incapacitante</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Impairing Grenade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Debilitante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Prejudicial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Exaustivo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Desarmador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_3_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Destruidor de Mods</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Deslocado</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Holodisplacement Shields</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Holográfico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Fantasmagórico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Etéreo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Ethereal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_4_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Enganoso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Retransmitindo</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Orbital Recall Systems</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Transmitido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Rearmado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Transportado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Entregue</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_5_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Orbital</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Agressor</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Assault Exoskeleton</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Reforçado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Impactante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Invasor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Hostil</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_6_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Cão de Guerra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_7_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Fantasmagórico</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Holoreality Mantle</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_7_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Holoreal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_7_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Camuflado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_7_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Ilusório</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_7_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Protegido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_7_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Enganador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_8_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Esmagador</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Trigger-Phrase Systems</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_8_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Lavado Cerebral</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_8_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Irritadiço</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_8_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Alterado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_8_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Doutrinado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_8_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Ativado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Mimetizador</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Holochromatic Engines</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Cromático</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Camaleônico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Espalhafatoso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Vibrante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOD_9_TEMPLATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Imitador</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>94</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>106</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

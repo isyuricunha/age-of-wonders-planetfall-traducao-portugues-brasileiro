@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Luis Ferreira</LastAuthor>
+  <LastSaved>2019-09-16T12:40:31Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10215</WindowHeight>
+  <WindowWidth>21570</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="59" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="146.25"/>
+   <Column ss:StyleID="s62" ss:Width="289.5"/>
+   <Column ss:StyleID="s62" ss:Width="351.75"/>
+   <Column ss:StyleID="s62" ss:Width="150"/>
+   <Column ss:StyleID="s62" ss:Width="211.5"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">DIPLOMACY_SPECIESFORGOTTEN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell ss:Index="5"><Data ss:Type="String">For this faction's narrative style and in world references, please check the glossay delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">In the lines below, {STR_LeaderName} is replaced by the name of the player's avatar.</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:Index="5"><Data ss:Type="String">In the lines below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Contemple as generosas formações do Criador ao seu redor. Veio compartilhar sua Essência ou busca algum outro favor?</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Teremos prazer em acolhê-lo, amigo da vida, confiantes de que, em um dia vindouro, poderemos saborear sua Essência.</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Que o Criador o abençoe, Guardião da Essência. Você veio diante dos amaldiçoados e dos apodrecidos, aqueles que foram deixados para sempre no esquecimento. Nossos corpos imortais testemunharam muito sofrimento, mas nossa fé permanece inabalável. Irá juntar-se às nossas preces, {STR_LeaderName}, ou terminará em consumo?</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Suas maneiras pacíficas são fruto de sabedoria ou covardia? Devemos discernir sua Essência. Está disposto a enfrentar os Agentes da Entropia para ganhar o favor do Criador?</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_INTERACTION_WAR_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Sentimos a corrupção da Entropia dentro de você, {STR_LeaderName}. Nós o julgamos indigno de sua própria Essência. É hora de preservá-la dentro de nós.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Damos-lhe as boas-vindas como visitante, amigo da vida {STR_LeaderName}. Embora sua fé ainda não tenha sido provada, o Criador o presenteou com uma Essência preciosa. Confiamos que, ao servi-lo, servimos nosso amado Criador.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Linha sobre linha, preceito sobre preceito; aqui e ali, pouco a pouco, a fé cresce. Sua Essência brilha forte. Revelamos nossos segredos a você.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">A ira é instrumento da Entropia. Buscamos reprimir nossas hostilidades. O arrependimento é oferecido pela graça do Criador. Vamos preservar nossa preciosa Essência e voltar-nos ao perdão.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_DECREASED_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Suas ações cheiram a Corrupção, {STR_LeaderName}. Isso não podemos permitir. O Criador decretou que nossas relações não podem continuar assim. Suas ações enfraqueceram nossos laços diplomáticos.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Por que invade nossos espaços sagrados? Venha. Compartilhe sua Essência e diga-nos o que busca.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Até a vida mais indomável pode ser redimida. Concedemos-lhe este espaço na esperança de que um dia compartilhe de nossa fé.</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Que o Criador o observe, Tomador de Essência. Você veio diante dos amaldiçoados e dos apodrecidos, aqueles que foram deixados para sempre no esquecimento. Nossos corpos imortais testemunharam muito sofrimento, mas nossa fé permanece inabalável. Irá juntar-se às nossas preces, {STR_LeaderName}, ou terminará em consumo?</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Alegra-nos que busque fortalecer ainda mais nossa fé juntos. Precisamos de Essência. O mundo está cheio daqueles que a desperdiçam. Para provar que é digno de mantê-la, cumpra nossas ordens. Nós o guiaremos.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_INTERACTION_WAR_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Nós o julgamos indigno de sua Essência. Você é impertinente e dá ouvidos às tentações sedutoras da Entropia, em vez de prezar pelos mandamentos do Criador. Sentimo-nos compelidos a resgatar sua Essência e preservá-la dentro de nós.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">O que busca o poderoso {STR_LeaderName} aqui, entre nossos túmulos sagrados? Busca a vontade do Criador ou segue o atrativo sedutor da Entropia, desperdiçando sua preciosa Essência? Está livre para pedir o que quiser. Não o julgaremos.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName}, assim como o Criador faz as estações mudarem, sentimos nossas relações mudando. Pouco a pouco, as coisas fracas se tornam fortes.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName}, estamos cansados da língua irada da Entropia. Buscamos a paz do Criador. Se se arrepender, concederemos perdão e poremos fim ao nosso conflito.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_DECREASED_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Suas ações cheiram a Corrupção, {STR_LeaderName}. Isso não podemos permitir. O Criador decretou que nossas relações não podem continuar assim. Suas ações enfraqueceram nossos laços diplomáticos.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Que o Criador abençoado guie seu caminho. Veio a este lugar para compartilhar sua Essência?</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Por favor, sejam nossos convidados. Acolhemo-los agora para que, em um dia vindouro, possamos saborear sua Essência.</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Que o Criador esteja com você, Portador da Essência. Você veio perante os amaldiçoados e os apodrecidos, aqueles que foram deixados para sempre no esquecimento. Nossos corpos imortais testemunharam muito sofrimento, mas nossa fé permanece inabalável. Você se juntará às nossas preces, {STR_LeaderName}, ou terminará em consumação?</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Continuamos com pouca Essência e cautelosos em confiar em estranhos. Se deseja se juntar a nós, prove sua obediência. Ajude-nos.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_INTERACTION_WAR_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName}, lamentavelmente nos encontramos em guerra. Você está aqui para rejeitar o caminho errático da Entropia ou devemos tomar sua Essência à força?</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Salve, {STR_LeaderName}! Sua Essência nos intoxica. Nós o(a) recebemos para compartilhar sua Essência com nossa espécie. O que busca aqui?</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName}, sentimos a glória do Criador crescendo em você. Ao se livrar das influências da Entropia, oferecemos o apoio de nossa fé.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName}, sentimos equilíbrio em seu julgamento. Retiramos nossa condenação e lhe oferecemos um caminho de perdão. Buscará a paz?</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_DECREASED_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Suas ações cheiram a Corrupção, {STR_LeaderName}. Isso não podemos permitir. O Criador decretou que nossas relações não podem continuar assim. Suas ações enfraqueceram nossos laços diplomáticos.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FORGOTTEN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">ESTAMOS SATISFEITOS EM CONHECER E SERVIR-TE.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">FORGOTTEN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">WITHDRAW_STACK_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">BUSCAMOS VALORIZAR ESTE LUGAR. PODEMOS OFERECER RECOMPENSA? {INT_Cost}[influence/]</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FORGOTTEN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">STACK_QUEST_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">BUSCAMOS TEU FAVOR E ORIENTAÇÃO. PODEMOS SERVIR-TE?</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">FORGOTTEN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_WAR_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">LAMENTAVELMENTE, DEVEMOS NOS DISTANCIAR DE TI COM GUERRA.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FORGOTTEN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ATTACK_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">CONTRA TODA ESPERANÇA, GOSTARÍAMOS DE FALAR CONTIGO.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FORGOTTEN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">NOSSO SERVIÇO A TI É OFERECIDO LIVREMENTE.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FORGOTTEN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">CALL_TO_WAR_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">APELAMOS À TUA MISERICÓRDIA. POR FAVOR, DESTRUA NOSSOS INIMIGOS.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FORGOTTEN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">TRADE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">QUE MARAVILHAS PODEMOS ADQUIRIR EM TEUS SALÕES EXALTADOS?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FORGOTTEN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">POR ENQUANTO, OFERECEMOS NOSSA PROTEÇÃO.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">FORGOTTEN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">WITHDRAW_STACK_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">É DO INTERESSE DE AMBOS COMPRARMOS ISTO. {INT_Cost}[influence/]</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FORGOTTEN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">STACK_QUEST_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">GOSTARÍAMOS DE PROVAR NOSSA FÉ SERVINDO-TE.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FORGOTTEN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_WAR_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">A HISTÓRIA É ESCRITA PELOS FORTES. SUBMETA-SE OU MORRA.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FORGOTTEN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ATTACK_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">NÓS O(A) ATACAREMOS SE VOCÊ SE RECUSAR A ATACAR OUTROS.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FORGOTTEN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">ESTAMOS OCUPADOS, MAS POR ENQUANTO CUMPRIREMOS SUAS ORDENS.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FORGOTTEN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">CALL_TO_WAR_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">NOSSOS INIMIGOS SÃO OS SEUS. DECLARE GUERRA CONTRA ELES.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FORGOTTEN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">TRADE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">O QUE VOCÊ CONTRIBUIRÁ PARA NOSSA CAUSA SE FIZERMOS NEGÓCIOS?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FORGOTTEN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">OFERECERÍAMOS NOSSOS SERVIÇOS PARA GANHAR SEU FAVOR.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">FORGOTTEN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">WITHDRAW_STACK_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">GOSTARÍAMOS DE COMPRAR ESTE LOCAL POR UM PREÇO JUSTO. {INT_Cost}[influence/]</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FORGOTTEN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">STACK_QUEST_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">BUSCAMOS GANHAR SEU FAVOR. NOS DÊ UMA TAREFA.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FORGOTTEN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_WAR_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">SEUS MÉTODOS PARASITÁRIOS NOS OFENDEM. MORRA.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FORGOTTEN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ATTACK_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">EMBORA POSSAMOS DISCORDAR, GOSTARÍAMOS DE CONVERSAR COM VOCÊ.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FORGOTTEN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">BUSCAMOS UM CAMINHO DE SERVIÇO QUE GANHE SEU FAVOR.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FORGOTTEN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">CALL_TO_WAR_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">NOSSOS RIVAIS PRECISAM DE SUA INTERVENÇÃO DIVINA.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FORGOTTEN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">TRADE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">ABRA SEUS ESTOQUES PARA NÓS. GOSTARÍAMOS DE NEGOCIAR.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">RIVALRY_WARNING_FORGOTTEN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ande com cuidado, Amigo da Vida. Muitos foram seduzidos a seguir os desejos errantes dos agentes da Entropia. Não podemos tolerar cismas.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_DECLARE_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">Valorizamos a vida. Obedecemos à vontade do Criador. Infelizmente, julgamos você um agente da Entropia. Até que se arrependa, devemos impedi-lo de desperdiçar a Essência de sua vida.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">FORGOTTEN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_RESET</Data></Cell>
+    <Cell><Data ss:Type="String">O Criador é paciente. Nós somos pacientes. Você deve ser paciente. Suspendemos o julgamento até que prove ser confiável ou não.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <TopRowVisible>36</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>57</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

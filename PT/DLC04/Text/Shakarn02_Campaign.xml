@@ -1,0 +1,1300 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Jakob Matthes</LastAuthor>
+  <LastSaved>2020-02-28T11:32:21Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8366</WindowHeight>
+  <WindowWidth>21943</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="197" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="234" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="358.71428571428567"/>
+   <Column ss:StyleID="s62" ss:Width="66.857142857142861"/>
+   <Column ss:Index="4" ss:StyleID="s62" ss:Width="148.71428571428572"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="203.14285714285717"/>
+   <Column ss:StyleID="s62" ss:Width="120.85714285714286"/>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SHAKARN02_CAMPAIGN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CUSTOM_GOVERNMENT_PALACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Senado ELOP Interplanetário</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Location name 
+"ELOP" is a short form of Egalitarian League of Planets, see the corresponding glossary entry.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOM_EXTRA_COLONY_AMA_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Floresta de Sherwood</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Location name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CUSTOM_EXTRA_COLONY_AMA_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bosque Arboriano</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Location name
+"Arborian" is a reference to the "Arborian Sentinel" and "Arborian Queen" in game units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CUSTOM_EXTRA_COLONY_AMA_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Matas de Caliri</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Location name
+"Caliri" is the first name of a female Amazon character.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CUSTOM_EXTRA_COLONY_KIR_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ruínas de Poz'Tk</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Location name
+"Poz Tk" is a reference to "Poz Tk'Nor", a male Kir'Ko character.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CUSTOM_EXTRA_COLONY_KIR_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Blocos Terym</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Location name
+"Terym" is the name of the Kir'Ko tribe led by Poz'Tk'Nor, a male Kir'Ko character.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOM_EXTRA_COLONY_KIR_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Torção do Enxame</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Location name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOM_EXTRA_COLONY_VAN_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Campos de Infiltração</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Location name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CUSTOM_EXTRA_COLONY_DVAR_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Descanso de Stanizoide</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Location name
+"Stanizoid" is the first name of a male Dvar character.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_CRIMSON_DAWN</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Condição de Vitória: Alvorada Escarlate</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A header name of a task.
+"Scarlet" is a reference to "Scarlet Scepter", see the corresponding glossary entry.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_CRIMSON_DAWN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Alvorada Escarlate</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_CRIMSON_DAWN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você pode vencer este mapa conquistando o Senado ELOP. Seria a vitória decisiva do Cetro Escarlate contra a Liga Egalitária dos Planetas.[br/][br/]Senado Destruído: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.
+The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_CRIMSON_DAWN</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Senado Destruído: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_CRIMSON_DAWN_UPDATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você pode vencer este mapa derrotando todos os comandantes da aliança ELOP e eliminando sua liderança.[br/][br/]Comandantes ELOP Derrotados: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.
+The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_CRIMSON_DAWN_UPDATE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Comandantes ELOP Derrotados: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_ELOP_SENATE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Conquistar o Senado ELOP</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DESTROY_ELOP_SENATE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tome o Senado ELOP Interplanetário por quaisquer meios militares necessários. Sem seus líderes políticos, a Confederação ELOP se dividirá em facções menores que a força de invasão Shakarn poderá eliminar uma a uma.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DESTROY_ELOP_SENATE_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Senado ELOP Conquistado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MISSION_INTRO_DIALOGUE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Passar pelo fogo cruzado orbital de nossos inimigos foi difícil, mas agora estamos em posição de contra-atacar. Todos que chegaram inteiros, reúnam-se! O Chanceler está prestes a fazer seu discurso.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)
+"Chancellor" is a military and political title of the Shakarn.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">MISSION_INTRO_DIALOGUE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Fortaleza Etérea crepitava em chamas, e ardeu por nove longas semanas até se abrir, e seus fragmentos derretidos se transformaram em serpentes sinuosas que caíram do céu. Prokarn e Shazora observaram seus filhos mergulharem e se espalharem pelos dezesseis mares; e ambos sorriram, pois sabiam que sua prole faria deste mundo o seu próprio.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)
+"Ethereal Stronghold" is the name of the mythological Shakarn heaven.
+"Prokarn" and "Shazora" are mythological Shakarn characters, see their respective glossary entries.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MISSION_INTRO_DIALOGUE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Soldados do Cetro Escarlate! Hoje é o dia de relembrar a criação de nossos ancestrais em Kadalos. Pois hoje chega o momento em que devemos honrar sua lenda e reivindicar esta galáxia!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)
+For "Scarlet Scepter" see the corresponding glossary entry.
+"Kadalos" is the name of the Shakarn home world.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MISSION_INTRO_DIALOGUE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos inimigos estão encurralados. Eles tremem de medo dos invasores alienígenas que virão saquear seus lares, derrubar suas defesas. Eu digo: que não esperem mais! Aumentem seus sonos! Foquem seus lasers! Esta noite, faremos os céus chorarem!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MISSION_INTRO_DIALOGUE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O senhor me chamou, meu Chanceler? Permita-me ser o primeiro a dizer que suas palavras foram verdadeiramente inspiradoras. Não via minhas tropas tão motivadas desde a destruição do Reator de Vácuo ELOP.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)
+"Chancellor" is a military and political title of the Shakarn.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">MISSION_INTRO_DIALOGUE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ah, sim, General {STR_LeaderFirstName}. É bom finalmente conhecê-lo pessoalmente. Como sabe, o Cetro Escarlate está muito satisfeito com suas conquistas em Celaudius-2. E que melhor recompensa poderia haver do que compartilhar a glória da vitória iminente, quando atacarmos o Senado Interplanetário ELOP lado a lado?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)
+"Interplanetary ELOP Senate" is the name of a goverment palace landmark on the map.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MISSION_INTRO_DIALOGUE_PAGE_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Nosso inimigo montou fortes instalações defensivas. Elas precisam ser destruídas uma a uma antes de atacarmos as bases que protegem. Quando suas instalações começarem a cair em nossas mãos, nós as desmantelamos para abastecer nossa própria máquina de guerra. Assim, os esmagaremos até o último homem!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONQUERORS_TOLL_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pedágio do Conquistador</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A header name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SIEGE_BREAKER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rompedor de Cerco</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SIEGE_BREAKER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O território ELOP está fortificado com Defesas Imperiais. Essas estruturas fornecem suporte de combate adicional aos seus inimigos e precisam ser arrasadas![br/][br/][recommendedcol](Dica: Estruturas de Defesa Imperial serão defendidas pela guarnição da colônia ou base setorial à qual estão conectadas.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SIEGE_BREAKER_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Defesas Imperiais Inimigas Destruídas</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SIEGE_BREAKER_QUEST_COMPLETION_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tijolo por tijolo, as fortificações de nossos inimigos desmoronam nos cones de som amplificados de nossas máquinas de guerra.[br/][br/]Bom trabalho, General {STR_LeaderFirstName}! Você merece comandar o equipamento de guerra Shakarn mais devastador.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCORCHED_EARTH_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Terra Arrasada</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SCORCHED_EARTH_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Invada as bases setoriais de seu inimigo para enfraquecer suas linhas de suprimento e obter recursos para aprimorar e reforçar seus exércitos.[br/][br/][recommendedcol](Dica: arrasar bases setoriais com uma exploração concede recursos correspondentes ao tipo de renda dessa exploração.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SCORCHED_EARTH_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Bases Setoriais Inimigas Destruídas</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SCORCHED_EARTH_QUEST_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Que todas as muralhas sejam derrubadas e as terras férteis do inimigo sejam reduzidas a cinzas. Não pode haver descanso até que o último forte seja arrasado e a última cidade esteja em ruínas.[br/][br/]Chegou a hora, General {STR_LeaderFirstName}. Implante os Sonokarn!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)
+"Sonokarn" is the name of a Shakarn unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SCORCHED_EARTH_QUEST_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Com prazer, meu Chanceler. Nada se compara a acionar o motor de um destruidor de mundos!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)
+"Chancellor" is a military and political title of the Shakarn.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">JAMES_HENKINS_JOIN_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">General? É assim que devo chamá-lo agora, certo? Sei que não estou em posição de questionar suas ordens, mas posso perguntar por que não fui enviada para a linha de frente como todos os outros? É porque ainda teme minha traição?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "James/Jane Henkins" (Vanguard, can be male or female depending on the gender of "Naranga Od". Always has the opposite gender of "Naranga Od".)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">JAMES_HENKINS_JOIN_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não, não é, Jane. Mas não faça perguntas que me fariam me arrepender da decisão de aceitá-la em nossas fileiras. Você não é uma soldado treinada. E não deveria ver as crueldades que acontecem com seu povo na linha de frente.</Data></Cell>
+    <Cell><Data ss:Type="String">Não, não é, James. Mas não faça perguntas que me fariam me arrepender da decisão de aceitá-lo em nossas fileiras. Você não é um soldado treinado. E não deveria ver as crueldades que acontecem com seu povo na linha de frente.</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">JAMES_HENKINS_JOIN_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mas eu… preciso ver as consequências das minhas ações! Quando as coisas que fiz levam ao sofrimento, como posso desviar o olhar e ignorar a verdade? Principalmente quando preciso aprender como nossas duas raças poderão coexistir no futuro.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "James/Jane Henkins" (Vanguard, can be male or female depending on the gender of "Naranga Od". Always has the opposite gender of "Naranga Od".)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">JAMES_HENKINS_JOIN_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Há uma resposta simples para sua última pergunta, Jane: elas não vão. Nós, Shakarn, não nos misturamos com outras espécies. Nós as conquistamos.[br/][br/]Agora pegue aquele fuzil de assalto ali. Você tem muito a aprender.</Data></Cell>
+    <Cell><Data ss:Type="String">Há uma resposta simples para sua última pergunta, James: eles não vão. Nós, Shakarn, não nos misturamos com outras espécies. Nós as conquistamos.[br/][br/]Agora pegue aquele fuzil de assalto ali. Você tem muito a aprender.</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SHAKARN_AGENT_JOIN_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Agora que recebeu sua merecida promoção pela demonstração de astúcia e habilidade em Celaudius-2, acho que seria apropriado finalmente perguntar seu nome verdadeiro, agente. Qual é o rosto real por trás de sua máscara holográfica?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SHAKARN_AGENT_JOIN_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Vastrix Zokla está às suas ordens, General, e pronto para agir atrás das linhas inimigas.[br/][br/]Se houver necessidade de ridicularizar nossos oponentes enquanto os derrotamos, é só dizer!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Vastrix Zokla" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SHAKARN_AGENT_JOIN_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Vou ter isso em mente, Vastrix Zokla. Mas, por enquanto, suas habilidades e experiência são mais bem empregadas em um de nossos comandos de ataque de frente. Em uma guerra desta escala, há pouco tempo para jogos e subterfúgios.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MEET_ELOP_COMMANDERS_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma tempestade está chegando. Os abutres deixaram seu ninho entre as névoas para descer sobre os restos podres do outrora poderoso Star Union. Mas onde eles veem decadência, uma nova vida já começou a surgir, e aqueles que semearam o vento colherão apenas o turbilhão.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "First Minister Tholian" (Paragon, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MEET_ELOP_COMMANDERS_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Se há uma coisa que meus irmãos provaram no passado, é que nunca deixaremos de lutar por nossa liberdade. Pelo chifre e cauda de Ro’Qwer’Z, nenhum inimigo resistirá à fúria do enxame quando as colônias Kir’Ko se unirem para defender seus lares!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Poz Tk'Nor" (Kir'Ko, male)
+"Ro Qwer'Z" is the name of a male Kir'Ko liberation fighter during the Zok'Shiar (see corresponding glossary entries).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MEET_ELOP_COMMANDERS_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A paz é a conquista mais valorizada da Liga Egalitária de Planetas. No entanto, quando a guerra bater à nossa porta, barricaremos nossos portões e defenderemos essa paz por tudo o que ela vale.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Nicole Crustus" (Vanguard, female) Actually, Nicole is a female Shakarn sleeper agent. She is talking from the perspective of her cover identity, so this is mostly irrelevant for translation itself, but good as some provided context.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MEET_ELOP_COMMANDERS_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Nem todas nós, Amazonas, nos importamos com o mundo fora de nossos jardins perfeitos. No entanto, aquelas de nós que foram abençoadas com a curiosidade de explorar e estudar todos os aspectos da vida descobriram que tais jardins podem existir em muitas formas e tamanhos.[br/][br/]Não temos medo de predadores.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Iona Caliri" (Amazon, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MEET_ELOP_COMMANDERS_EVENT_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Como Dvar, posso apreciar a beleza de uma defesa bem organizada sendo testada em uma demonstração de poder de fogo e habilidade de combate. Mas quando o mesmo oponente recorre a jogadas sujas e profana os membros do meu Consórcio, minha família, ele se torna o inimigo, e pelo martelo de Rogody Zhelezo, provará minha vingança!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Korvin Zhelezo" (Dvar, male)
+"Rogody Zhelezo" is the name of a male Dvar character.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_ELOP_COMMANDERS_EVENT_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ótimo. Que os comandantes da ELOP rosnem e urram com toda sua força! Não há glória em derrotar um inimigo fraco!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_BEYOND_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Condição de Vitória: Além do Abismo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A header name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_BEYOND_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Além do Abismo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_BEYOND_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Para vencer este mapa, você precisa repelir a invasão dos Voidbringers. Não pode haver vitória para os Shakarn enquanto esses habitantes do oblívio continuarem emergindo do Vazio.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.
+The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_BEYOND_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Invasão dos Voidbringers Repelida</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_BEYOND_THE_ABYSS_UPDATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Como servo dos Voidbringers, só há um caminho para a vitória: varrer os tolos restantes que ainda ousam ficar no caminho de seus mestres Voidbringers![br//][br/]Comandantes Resistentes Derrotados: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.
+The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_BEYOND_THE_ABYSS_UPDATE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Comandantes Resistentes Derrotados: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">DEATH_METAL_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Maravilhoso! Mais fãs do medo e da dominação sinistra vieram se juntar ao palco da maior performance de Dali Ardelli. A Confederação ELOP pode ter rejeitado minha oferta de atuar como embaixador do Syndicate, denunciando minhas práticas de tortura como barbárie. Em vez disso, ainda estão atrás daquele cachorro escravo fugitivo, Marlok Tenor. Patético!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Dali Ardelli" (Syndicate, male)
+"Marlok Tenor" is the name of a male Syndicate character.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">DEATH_METAL_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mas, felizmente, esse nunca foi meu principal motivo para vir a Parlamon Alpha. Os sons do Abismo me chamaram, me convocaram, despertaram meu apetite artístico. Como discípulo de Psynumbra, estou acostumado a um estilo de vida heavy metal, mas o futuro que vislumbrei nos últimos dias é ainda mais hardcore.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Dali Ardelli" (Syndicate, male)
+"Parlamon Alpha" is the name of the planet the mission plays on.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">DEATH_METAL_QUEST_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Eles despertaram. Aqueles que dormiam além do Abismo. E agora precisam ser recebidos e saudados de uma forma digna de sua presença – e da minha reputação como artista. Já construí e preparei o palco. A ambientação será fornecida por sua guerra. Agora, a única coisa que falta é um sistema de som adequado para explodir a plateia.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Dali Ardelli" (Syndicate, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DEATH_METAL_QUEST_INTRO_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">É aí que você entra. Meus batedores testemunharam o poder de suas armas baseadas em som no campo de batalha. Sua ressonância mortal oferece exatamente o nível de intensidade que eu estava procurando...</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Dali Ardelli" (Syndicate, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">DEATH_METAL_QUEST_INTRO_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você tem um interesse curioso pela morte e pelo sofrimento, humano. E é ousado ao se aproximar do Cetro Escarlate com seu pedido para compartilhar armamentos. Muito ousado. É uma sorte imensa que você e sua gangue de cumprimentadores da morte sejam insignificantes demais para serem considerados uma ameaça por nós, ou sua carreira teria um fim literal agora.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)
+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">DEATH_METAL_QUEST_INTRO_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Qualquer assistência que vocês possam receber de nossas mãos não será nada menos que um ato de cortesia. Considere esta conversa uma mensagem para o povo do Syndicate de que pode haver gratificação para aqueles que se curvam ao poder dos Shakarn.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)
+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEATH_METAL_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Death Metal</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DEATH_METAL_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dali Ardelli quer que você providencie um sistema de som potente o suficiente "para rasgar o Abismo". Alguns sono-blasters reaproveitados devem dar conta.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEATH_METAL_QUEST_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sono-Blasters Reaproveitados</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A city production name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEATH_METAL_QUEST_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Reaproveitar sono-blasters em um sistema de som quase não letal para Dali Ardelli.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A city production description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HORROR_SHOW_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Inferno, sim! Todos os níveis de som medidos estão fora dos gráficos! Finalmente, poderei entoar o hino do Abismo em todo o seu poder. Junte-se à plateia, {STR_LeaderName}! Este show será uma experiência única!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Dali Ardelli" (Syndicate, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HORROR_SHOW_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Como General do Cetro Escarlate, tenho coisas mais importantes a fazer do que comparecer a devassidões questionáveis como esta. No entanto, enviarei uma delegação Shakarn para garantir que não haja uso ou análise de nossa tecnologia de maneiras não acordadas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)
+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HORROR_SHOW_QUEST_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">É verdade o relatório que recebi, General? Que você tem compartilhado armas com o Syndicate, nossos inimigos? Você está ciente de que tal ação teria que ser considerada um ato de traição, se não fosse cometida por razões extraordinárias.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HORROR_SHOW_QUEST_INTRO_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você tem todo o direito de questionar meus métodos neste assunto, meu Chanceler. Mas pode ter certeza de que minhas ações foram motivadas por questões da mais grave preocupação. Em meus relatórios de Celaudius-2, descrevi os encontros com um novo tipo de Peixe-Psi que atualmente chamamos de 'Portadores do Vazio'.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)
+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HORROR_SHOW_QUEST_INTRO_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Entidades individuais desses 'Portadores do Vazio' já foram avistadas em Parlamon Alpha, e – se houver alguma credibilidade nas palavras de Dali Ardelli – muitas outras podem estar a caminho. Se eles se revelarem uma ameaça séria, quero estar preparado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)
+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HORROR_SHOW_QUEST_INTRO_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sua iniciativa foi devidamente registrada, General {STR_LeaderFirstName}. Mas você não deve conduzir assuntos dessa magnitude pelas costas do seu Chanceler, nem deixar que eles o distraiam de desempenhar seu papel como General nesta guerra.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HORROR_SHOW_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Horror Show</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HORROR_SHOW_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dali Ardelli convidou você para participar de seu "show" em antecipação à chegada dos Portadores do Vazio. Devemos enviar alguns de nossos cientistas para observar o espetáculo e descobrir se esses Portadores do Vazio se tornarão uma ameaça real.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HORROR_SHOW_QUEST_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Observações do Concerto</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A research option name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HORROR_SHOW_QUEST_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Análise dos fenômenos sobrenaturais observados durante o show de Dali Ardelli.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A research option description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HORROR_SHOW_QUEST_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Vivendo duro, vivendo preso[br/]Ingresso vitalício acorrentado ao chão[br/]Peço tudo, dê agora![br/]Levando tudo enquanto você tem que se curvar!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Dali Ardelli" (Syndicate, male)
+Entire text is a reference to the "Highway to Hell" lyrics.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HORROR_SHOW_QUEST_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todos nós vamos cair![br/]Até o fim[br/]Pelo Abismo![br/]Uou…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Dali Ardelli" (Syndicate, male)
+Entire text is a reference to the "Highway to Hell" lyrics.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HORROR_SHOW_QUEST_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Escravo Físico. Oferenda de Energia. Vibrações Carmesins.[br/][br/]Saciem Nosso Apetite.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Voidbringers" (no concrete single entity, see the corresponding glossary entry on the Voidbringers)
+"Thrall" is a reference to the "enthralled" mechanic used by Voidbringer units in the game.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HORROR_SHOW_QUEST_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Foi quando a gravação de som se transformou em ruído e gritos indistinguíveis. Nossa delegação fugiu enquanto cenas caóticas de tumulto começaram a se desenrolar, com pessoas se sacrificando como se não tivessem mais controle sobre si mesmas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)
+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">HORROR_SHOW_QUEST_COMPLETION_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O que você descreve, General, não parece diferente de outros rituais bem-orquestrados do Psynumbra sobre os quais ouvimos registros antes. Você não deveria se intimidar tão facilmente. Assim que a Confederação ELOP for resolvida, daremos a Dali Ardelli e suas fantasias do ‘Portador do Vazio’ o tratamento que merecem.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">COMPLETE_ANNIHILATION_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Atenção! Todos os Senadores devem evacuar as instalações imediatamente! Esta é uma situação de emergência – repito, todos precisam pegar os ônibus de resgate preparados – AGORA!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "First Minister Tholian" (Paragon, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">COMPLETE_ANNIHILATION_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Energia Alíble. Sabor das Estirpes Brancas. Realidade Suave Esperando pela Colheita.[br/][br/]A Comunhão Terá Início.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Voidbringers" (no concrete single entity, see the corresponding glossary entry on the Voidbringers)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">COMPLETE_ANNIHILATION_QUEST_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bwaha! Os políticos da ELOP estão se dispersando para os quartéis-generais de seus Comandantes militares como gado assustado fugindo do abate. Normalmente não gosto quando outros fazem meu trabalho, mas no fim, a vitória e a glória ainda serão nossas!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">COMPLETE_ANNIHILATION_QUEST_INTRO_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Acho difícil compartilhar seu entusiasmo, meu Chanceler. O que acontece se esses Portadores do Vazio mirarem uma de nossas próprias divisões com seu próximo ataque? Quando seus ataques acontecem do nada assim, como vamos nos defender deles?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)
+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">COMPLETE_ANNIHILATION_QUEST_INTRO_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Seu pessimismo constante está começando a se tornar um incômodo, General {STR_LeaderFirstName}. Você realmente tem tão pouca confiança no planejamento e na liderança militar de seu Chanceler? Devemos primeiro pressionar nossa vantagem para erradicar os Comandantes da ELOP. Depois, ainda podemos pescar seus kraken.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMPLETE_ANNIHILATION_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aniquilação Total</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">COMPLETE_ANNIHILATION_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os líderes da Confederação ELOP fugiram do Senado Interplanetário da ELOP para os quartéis-generais de seus comandantes. Precisamos esmagá-los a todos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">COMPLETE_ANNIHILATION_QUEST_SCRIPTED_OBJECTIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Nicole Crustus Derrotada</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">COMPLETE_ANNIHILATION_QUEST_SCRIPTED_OBJECTIVE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Poz Tk'Nor Derrotado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">COMPLETE_ANNIHILATION_QUEST_SCRIPTED_OBJECTIVE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Iona Caliri Derrotada</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">COMPLETE_ANNIHILATION_QUEST_SCRIPTED_OBJECTIVE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Korvin Zhelezo Derrotado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">BREAKING_THE_BARRIER_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Seres Físicos. Andarilhos das Margens do Mar do Vazio Escuro.[br/]Não Fiquem Ociosos.[br/]Ouçam.[br/]Purifiquem Seus Desejos Mundanos.[br/]Ouçam.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Voidbringers" (no concrete single entity, see the corresponding glossary entry on the Voidbringers)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">BREAKING_THE_BARRIER_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bebam Nossos Sonhos.[br/]Ouçam.[br/]Juntem-se às Ondas.[br/]Ouçam.[br/]Saciem Nossa Fome – Escravos!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Voidbringers" (no concrete single entity, see the corresponding glossary entry on the Voidbringers)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">BREAKING_THE_BARRIER_QUEST_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sim! Eu anseio por essa malícia, a sede primordial irreprimível das profundezas do esquecimento. Bebam nossa energia! Intoxiquem este reino com suas melodias cativantes! Juntos, cantaremos a profecia autorrealizável do fim de todas as eras.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Dali Ardelli" (Syndicate, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">BREAKING_THE_BARRIER_QUEST_INTRO_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Há fragmentos de cometa dos Portadores do Vazio caindo por todo o planeta, abrindo portais para sua dimensão sombria. Nossos postos orbitais detectaram picos de energia psiónica antes de cada novo fragmento que chega. O farol no topo do Senado da ELOP deve estar chamando os outros Portadores do Vazio para Parlamon Alpha.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)
+"beacon" is a reference to the "Voidbringer Beacon" structue in the game.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">BREAKING_THE_BARRIER_QUEST_INTRO_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Muito bem. Vamos dar a essas águas-vivas flutuantes a atenção que você vem pedindo, General. Seu covil ou ‘farol’, como você chama, está protegido por uma poderosa barreira de éter. O único material que parece ser capaz de enfraquecê-la é o minério infundido de seu próprio cometa.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">BREAKING_THE_BARRIER_QUEST_INTRO_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Então devemos atacar os geradores dos Portadores do Vazio e coletar fragmentos de cometa suficientes para romper a barreira. Os Comandantes da ELOP estão tão afetados quanto nós, então ainda haverá tempo para lidar com eles depois.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BREAKING_THE_BARRIER_QUEST_INTRO_MESSAGE_PAGE_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Faça isso, General {STR_LeaderFirstName}! Amanhã, espero ter sushi no café da manhã.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BREAKING_THE_BARRIER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rompendo a Barreira</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">BREAKING_THE_BARRIER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Farol Devorador do Vazio está protegido por uma barreira poderosa. Para conseguir rompê-la, você precisa coletar fragmentos infundidos dos spawners que os Devoradores do Vazio continuam lançando para invadir o planeta.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BREAKING_THE_BARRIER_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Spawners Devoradores do Vazio Destruídos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CHANCELLOR_KOR_ENTHRALLED_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Chanceler Shakarn.[br/]Escute o Mar Negro do Vazio.[br/]Ouça as Vozes do Oceano Eterno.[br/]Chame por Casa.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Voidbringers" (no concrete single entity, see the corresponding glossary entry on the Voidbringers)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">CHANCELLOR_KOR_ENTHRALLED_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Kadalos… Consigo ver as torres submersas de Tekra em seu tom de madrepérola, ler os sonorroteiros no poço profundo dos heróis. Mas todos os cidadãos – meus cidadãos – estão letárgicos, movendo-se em transe, controlados pelos tentáculos tóxicos d’ELES!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)
+"Tekra" is the name of a Shakarn city.
+"Deep well of heroes" is the name of a Shakarn monument.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CHANCELLOR_KOR_ENTHRALLED_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Roooar! Encarem-me, monstros Devoradores do Vazio! Deixem-me mostrar o que um Shakarn pode fazer com um rifle ômega e um par de punhos…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CHANCELLOR_KOR_ENTHRALLED_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Meu Chanceler! Espere! Agir assim contra os Devoradores do Vazio seria suicídio...</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CHANCELLOR_KOR_ENTHRALLED_EVENT_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Venha.[br/]Abraçe o Oblívio.[br/]Reúna-se.[br/]Ao Seu Povo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Voidbringers" (no concrete single entity, see the corresponding glossary entry on the Voidbringers)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CHANCELLOR_KOR_ENTHRALLED_EVENT_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">É tarde demais, General {STR_LeaderFirstName}. Contra a força bruta dessa maré despertando, nunca poderá haver vitória. Você só pode se juntar a Nós. Ou perecer no turbilhão do oblívio.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male) Enthralled by the Voidbringers.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CHANCELLOR_KOR_ENTHRALLED_EVENT_MESSAGE_PAGE_06_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Juntar-se aos Devoradores do Vazio</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A dialogue choice option.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CHANCELLOR_KOR_ENTHRALLED_EVENT_MESSAGE_PAGE_06_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Resistir aos Devoradores do Vazio</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A dialogue choice option.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CHANCELLOR_KOR_ENTHRALLED_EVENT_MESSAGE_PAGE_07_JOIN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Onde meu Chanceler me ordenar ir, eu irei. Mesmo que me leve ao fim do mundo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CHANCELLOR_KOR_ENTHRALLED_EVENT_MESSAGE_PAGE_08_JOIN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Vibrações Amarelas Lúcidas.[br/]Cumpra Nossa Vontade, Servo.[br/]Destrua Toda Resistência.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Voidbringers" (no concrete single entity, see the corresponding glossary entry on the Voidbringers)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CHANCELLOR_KOR_ENTHRALLED_EVENT_MESSAGE_PAGE_07_RESIST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você não é mais você mesmo, meu Chanceler. São os Devoradores do Vazio falando através de você, tentando esmagar toda esperança. Mas eu resistirei. Por você. Por nosso povo. Por Kadalos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ELOP_PEACE_OFFER_EVENT_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O abutre solitário está perdido no deserto, condenado a ver seu único companheiro apodrecer na areia. Os Devoradores do Vazio são um inimigo terrível, {STR_LeaderName}, e embora não tivéssemos conhecimento dessa ameaça imediata, possuíamos as ferramentas para mantê-la afastada. Se não fosse por seu ato implacável de sabotagem…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "First Minister Tholian" (Paragon, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">ELOP_PEACE_OFFER_EVENT_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Se isso é para ser uma lição de moral, pode poupar o fôlego, Primeiro-Ministro Tholiano. Sua ex-Imperatriz já tentou um truque parecido quando nos alertou sobre desativar o Reator de Fenda. Mas ela estava errada. Pode ter salvado o ELOP miserável, mas sua Tempestade do Vazio não protegeu o Império Shakarn. Os Devoradores do Vazio teriam vindo atrás de nós de qualquer forma.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ELOP_PEACE_OFFER_EVENT_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Isso pode ser verdade. Mas então eles teriam se quebrado contra as forças combinadas da frota de invasão Shakarn, em vez de chegarem quando seu território natal estava menos defendido.[br/][br/]Você diz que Carminia o alertou sobre os Devoradores do Vazio? Isso por si só é outro mistério que me faz questionar…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "First Minister Tholian" (Paragon, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">ELOP_PEACE_OFFER_EVENT_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mas independentemente de tudo isso, o presente exige ações rápidas – e líderes capazes de enxergar além de seus preconceitos. Se continuarmos lutando uns contra os outros, Parlamon Alpha será consumida pelos Devoradores do Vazio. Enquanto que, se assinarmos uma trégua e unirmos forças, muito poderia ser feito para curar as feridas abertas nas últimas semanas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "First Minister Tholian" (Paragon, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ELOP_PEACE_OFFER_EVENT_PAGE_04_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Aceitar a oferta de paz do ELOP</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A dialogue choice option.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ELOP_PEACE_OFFER_EVENT_PAGE_04_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Recusar</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A dialogue choice option.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ELOP_PEACE_OFFER_EVENT_PAGE_05_ACCEPT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sua oferta é uma surpresa, Primeiro-Ministro. Um senhor da guerra habilidoso esmaga seus inimigos quando estão mais vulneráveis, não os acomoda... No entanto, compartilho sua avaliação da situação atual de que os Devoradores do Vazio só podem ser repelidos com um esforço conjunto. O Cetro Escarlate aceita sua trégua temporária.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ELOP_PEACE_OFFER_EVENT_PAGE_05_DECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sua generosa oferta de paz está envenenada. As forças Shakarn estão isoladas do nosso império, sem reforços a caminho. Assim que os Voidbringers forem expulsos de Parlamon Alpha, a Confederação ELOP começaria a se reagrupar e treinar novos soldados, até que eventualmente nos superem em todos os fronts.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ELOP_PEACE_OFFER_EVENT_PAGE_06_DECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">É uma pena que espere que os outros sigam sua própria mentalidade traiçoeira. Esta guerra já causou derramamento de sangue demais em todos os lados. No fim, os únicos vencedores serão os Voidbringers.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "First Minister Tholian" (Paragon, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SLEEPER_AGENT_REVEALS_HERSELF_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Psiu, {STR_LeaderName}. Este é um canal seguro. Posso ter sua atenção?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Nicole Crustus" (Vanguard, female) Actually, Nicole is a female Shakarn sleeper agent. She is talking from the perspective of her cover identity, so this is mostly irrelevant for translation itself, but good as some provided context.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SLEEPER_AGENT_REVEALS_HERSELF_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O que é, humano insignificante? Já recusei a oferta comunicada pelo seu Primeiro Ministro. Não há mais nada a discutir fora do campo de batalha.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">SLEEPER_AGENT_REVEALS_HERSELF_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um bom soldado do Cetro Escarlate de corpo e alma, não é? Você me lembra meu eu mais jovem, mas anos e anos de convivência com o suposto inimigo mudarão lentamente sua perspectiva. Não sei se é uma bênção ou uma maldição que, diante da catástrofe dos Voidbringers, você seja a grande esperança da raça Shakarn. Mas eu sei que você precisa de um aliado…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Nicole Crustus" (Vanguard, female) Actually, Nicole is a female Shakarn sleeper agent. She is talking from the perspective of her cover identity, so this is mostly irrelevant for translation itself, but good as some provided context.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SLEEPER_AGENT_REVEALS_HERSELF_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">…um aliado que protegerá seus flancos enquanto tanto os Voidbringers quanto os Comandantes da ELOP se aproximam de todos os lados.[br/][br/]E esta velha Shakarn se considera qualificada para realizar essa tarefa. Tyra Krox está à sua disposição, General.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Tyra Krox" (Shakarn, female) The actual identity of Nicole Crustus.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SLEEPER_AGENT_REVEALS_HERSELF_EVENT_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não posso acreditar… você sempre esteve entre nós! Mas por que, pelo sangue de Shazora, não se revelou antes? Nosso Chanceler precisava do seu apoio. Por que esperar até que as probabilidades estejam contra nós?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">SLEEPER_AGENT_REVEALS_HERSELF_EVENT_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">É sempre fácil julgar à distância. Você sabe como é estar em uma infiltração profunda quando a sociedade ao seu redor desmorona e todo o contato com seu império natal cessa… por décadas e décadas? Nasci em solo da Star Union muitos anos após o Cataclismo. Meus pais eram os únicos dois Shakarn no sistema estelar, como muitos outros agentes adormecidos em mundos isolados.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Tyra Krox" (Shakarn, female) The actual identity of Nicole Crustus.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SLEEPER_AGENT_REVEALS_HERSELF_EVENT_MESSAGE_PAGE_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Nem todos querem esperar suas vidas inteiras na vaga esperança de um império que retorne. Então nos estabelecemos e nos misturamos para levar vidas semi-normais. Um ato de deserção e traição, como sempre foi estigmatizado pelo Cetro Escarlate. Até eu acusei meus pais disso quando era jovem. Mas tive muitos anos para aprender com esse erro.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Tyra Krox" (Shakarn, female) The actual identity of Nicole Crustus.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SLEEPER_AGENT_REVEALS_HERSELF_EVENT_MESSAGE_PAGE_08</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Se tudo isso é verdade, então por que está aqui me oferecendo sua ajuda? Não parece que você teria uma relação muito boa com o Cetro Escarlate e seu atual representante de mais alto escalão… eu.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SLEEPER_AGENT_REVEALS_HERSELF_EVENT_MESSAGE_PAGE_09</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ainda sou uma Shakarn, {STR_LeaderName}. Sonhei com Kadalos e o poço profundo dos heróis muitas vezes, mas só conheço esse mundo por holo-imagens e sonorregistros. Se não vencermos esta batalha contra os Voidbringers, nosso lar será perdido. Todos os Shakarn se tornariam exilados como eu e meus pais. Não posso deixar isso acontecer.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Tyra Krox" (Shakarn, female) The actual identity of Nicole Crustus.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SECOND_SHARD_COLLECTED_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Toma essa, água-viva gigante! Esta é pelo Chanceler![br/][br/]Com mais um fragmento coletado, estamos mais perto de romper o escudo de energia. Só falta mais um…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SECOND_SHARD_COLLECTED_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Suas Ações Barulho Ácido.[br/]Sua Existência Toque Ácido do Oceano Contorcido.[br/]Desintegre.[br/]Fim.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Voidbringers" (no concrete single entity, see the corresponding glossary entry on the Voidbringers)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THIRD_SHARD_COLLECTED_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Temos os meios para romper o escudo e atacar o farol dos Voidbringers. Agora vamos mostrar a esses habitantes de além do Abismo do que os Shakarn são feitos!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">THIRD_SHARD_COLLECTED_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sofra.[br/]Desmorone.[br/]Sonhe em Vibrações Tóxicas.[br/]Afogue-se. Agora.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Voidbringers" (no concrete single entity, see the corresponding glossary entry on the Voidbringers)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LAST_TIDE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Última Maré</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">LAST_TIDE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Agora que fragmentos suficientes para romper o escudo dos Voidbringers foram coletados, é hora de atacar seu farol e empurrar esses habitantes do Vazio de volta para onde vieram!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LAST_TIDE_QUEST_SCIRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Farol Voidbringer Destruído</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SHAKARN_VICTORY_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Maldição.[br/]Cheiro Roxo de Reflexos Ondulantes.[br/]A Fome Permanece.[br/][br/]Eterna.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Voidbringers" (no concrete single entity, see the corresponding glossary entry on the Voidbringers)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SHAKARN_VICTORY_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Voidbringers restantes estão desaparecendo pelos portais que se fecham, libertando seus Escravos para finalmente descansarem em paz.[br/][br/]Parabéns, General. Conseguimos!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Tyra Krox" (Shakarn, female) The actual identity of Nicole Crustus.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SHAKARN_VICTORY_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">ELOP. Sindicato. Portadores do Vazio. No fim, todos sucumbiram ao nosso poder. Porque essa é a herança dos Shakarn: Nós aprendemos. Superamos. E conquistamos!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)
+The last four sentences are a reference to the Shakarn01 mission briefing written out in the ScenarioDefinitions_DLC04Campaign.xml. Please translate consistently.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ELOP_ALLY_VICTORY_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O abutre trocou sua pele e penas para se tornar uma pomba cinzenta. Vitórias importantes muitas vezes são os arautos da lembrança e do luto, {STR_LeaderName}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "First Minister Tholian" (Paragon, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ELOP_ALLY_VICTORY_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Discordo, Primeiro Ministro da Liga Egalitária dos Planetas. Vitória é quando a glória é distribuída. Apenas os fracos lamentam suas perdas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DARKVOID_VICTORY_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Vibrações Vermelhas Terminadas.[br/]Fome Eterna Saciada.[br/][br/]Por enquanto.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Voidbringers" (no concrete single entity, see the corresponding glossary entry on the Voidbringers)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_FORESHADOW_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Venha, General {STR_LeaderFirstName}. Há algo que quero que veja.[br/][br/](O Chanceler liga um monitor, que está transmitindo imagens ao vivo de dentro de uma câmara de testes remota.)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_FORESHADOW_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(Um soldado humano está imóvel no meio da sala vazia. Há tentáculos carnudos brotando da parte de trás de sua cabeça.)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xenoplague Test Subject" (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_FORESHADOW_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos cientistas têm experimentado com esse parasita Xenopraga nas últimas semanas. É um estudo interessante ver como a simbiose com a Cepa Alfa pode alterar os atributos e o comportamento de seu hospedeiro.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_FORESHADOW_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">No passado, sempre foi uma tarefa tediosa governar e ocupar raças conquistadas pelo Cetro Escarlate. Quantas vezes tivemos que reprimir rebeliões ou realocar a população de planetas inteiros? Com o uso correto da Xenopraga, no entanto, tudo isso poderia mudar…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_FORESHADOW_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(Uma série de comandos é transmitida para a câmara de testes. De acordo com eles, e sem nenhum sinal de emoção, o soldado se move para os diferentes cantos da sala.)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xenoplague Test Subject" (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_FORESHADOW_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Imagine que, em vez de estabelecer uma ocupação militar completa, liberamos uma variante específica da Cepa Alfa na população-alvo, uma variante que altera seus padrões de comportamento, suprimindo qualquer impulso de dissidência ou rebelião, ao mesmo tempo em que aprimora suas capacidades físicas. Os escravos trabalhadores perfeitos nasceriam.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_FORESHADOW_MESSAGE_PAGE_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Que solução… completa e definitiva, meu Chanceler. Sua sabedoria e visão continuam a servir de inspiração para todos os Shakarn.[br/][br/]Quanto tempo ainda acha que levará até que essa nova variante da Cepa Alfa esteja pronta? Certamente ainda está em um estágio inicial…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_FORESHADOW_MESSAGE_PAGE_08</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Pelo contrário, General, espero que os primeiros testes de campo em larga escala comecem em breve. É o projeto científico de maior prioridade no império e conta com os pesquisadores mais brilhantes e leais dedicados a ele.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_FORESHADOW_MESSAGE_PAGE_09</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Que sorte… afortunada. Estes são tempos abençoados para o Cetro Escarlate e seus líderes.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">É hora, General {STR_LeaderFirstName}. Chegou o momento de testar a nova Cepa Alfa nas massas. Dê a ordem para saquear a cidade e podemos realocar os habitantes para nossos campos de teste preparados.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_QUEST_INTRO_MESSAGE_PAGE_02_SPOUSE_ALIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não faça isso, {STR_LeaderName}! Eu lhe imploro para parar com essa loucura. O que está planejando não é nada menos que um genocídio organizado!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "James/Jane Henkins" (Vanguard, can be male or female depending on the gender of "Naranga Od". Always has the opposite gender of "Naranga Od".)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_QUEST_INTRO_MESSAGE_PAGE_03_SPOUSE_ALIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Explique-me essa indignação, General {STR_LeaderFirstName}! Não apenas há um humano portando armas Shakarn, conhecendo segredos Shakarn. Mas ela também tem a audácia de bisbilhotar nossa conversa e interferir!</Data></Cell>
+    <Cell><Data ss:Type="String">Explique-me essa indignação, General {STR_LeaderFirstName}! Não apenas há um humano portando armas Shakarn, conhecendo segredos Shakarn. Mas ele também tem a audácia de bisbilhotar nossa conversa e interferir!</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_QUEST_INTRO_MESSAGE_PAGE_04_SPOUSE_ALIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não é segredo quando metade de suas tropas está se gabando da arma biológica que escravizará o inimigo.[br/][br/]Ouça-me, {STR_LeaderFirstName}! Você estava errado quando disse que os Shakarn nunca se misturariam com outras espécies. Vocês não se misturaram conosco, humanos, durante os últimos três anos? E quanto a todos os outros agentes enviados para infiltração?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "James/Jane Henkins" (Vanguard, can be male or female depending on the gender of "Naranga Od". Always has the opposite gender of "Naranga Od".)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_QUEST_INTRO_MESSAGE_PAGE_05_SPOUSE_ALIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Vocês, Shakarn, têm um talento notável para aprender e se adaptar a culturas estrangeiras. O que restará de sua própria identidade, uma vez que tenham eliminado todas as outras civilizações da galáxia? Eu sei que não é isso que você é nem o que deseja, {STR_LeaderFirstName}. Senão, teria me matado lá em Celaudius-2.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "James/Jane Henkins" (Vanguard, can be male or female depending on the gender of "Naranga Od". Always has the opposite gender of "Naranga Od".)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_QUEST_INTRO_MESSAGE_PAGE_05_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Ordem para saquear a cidade</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A dialogue choice option.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_QUEST_INTRO_MESSAGE_PAGE_05_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Desafie a ordem do Chanceler Kor</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A dialogue choice option.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_QUEST_INTRO_MESSAGE_PAGE_06_SPOUSE_ALIVE_OBEY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sinto muito, Jane. Isso vai além do que você e eu podemos resolver.[br/][br/]Carreguem as omni-armas, soldados! Temos uma cidade para incinerar.</Data></Cell>
+    <Cell><Data ss:Type="String">Sinto muito, James. Isso vai além do que você e eu podemos resolver.[br/][br/]Carreguem as omni-armas, soldados! Temos uma cidade para incinerar.</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_QUEST_INTRO_MESSAGE_PAGE_07_SPOUSE_ALIVE_OBEY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Então deixe-me ser a primeira vítima do seu crime de guerra![br/][br/]Por favor, me perdoe, meu David. Traí sua memória…</Data></Cell>
+    <Cell><Data ss:Type="String">Então deixe-me ser a primeira vítima do seu crime de guerra![br/][br/]Por favor, me perdoe, minha Sarah. Traí sua memória…</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "James/Jane Henkins" (Vanguard, can be male or female depending on the gender of "Naranga Od". Always has the opposite gender of "Naranga Od".)
+"David" and "Sarah" are the first names of the Vanguard (male and female) characters that were married to "James/Jane Henkins" (always heterosexual marriage assumed).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_QUEST_INTRO_MESSAGE_PAGE_06_SPOUSE_ALIVE_REFUSE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sinto muito, meu Chanceler, mas não posso sobrecarregar minha consciência com as vidas de todas essas pessoas. O humano pode estar sendo dramático demais em suas palavras; no entanto, ele tem razão: não há necessidade de crueldade adicional nesta guerra já tão brutal.</Data></Cell>
+    <Cell><Data ss:Type="String">Sinto muito, meu Chanceler, mas não posso sobrecarregar minha consciência com as vidas de todas essas pessoas. A humana pode estar sendo dramática demais em suas palavras; no entanto, ela tem razão: não há necessidade de crueldade adicional nesta guerra já tão brutal.</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_QUEST_INTRO_MESSAGE_PAGE_07_SPOUSE_ALIVE_REFUSE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você se recusa a executar as ordens diretas do seu Chanceler? Isso é traição, General {STR_LeaderFirstName}! Por sorte, o Cetro Escarlate não esquece seus méritos passados em Celaudius-2. Mas, quando esta guerra esfriar, seria sensato de sua parte solicitar uma aposentadoria antecipada.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_QUEST_INTRO_MESSAGE_PAGE_02_SPOUSE_DEAD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tem certeza, meu Chanceler, de que é necessário raptar toda a população desta colônia? Certamente, ainda podemos coletar dados suficientes se limitarmos nossos testes a um grupo menor de indivíduos. Afinal, alguém precisa restar para se ajoelhar em nossos desfiles de vitória…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_QUEST_INTRO_MESSAGE_PAGE_03_SPOUSE_DEAD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Por que pensar pequeno quando temos um planeta inteiro de cobaias à nossa disposição? A nova Cepa Alfa está pronta, e a única forma eficaz de testar um agente biológico é aplicá-lo em massa. Mas chega de hesitação. Faça isso, General {STR_LeaderFirstName}!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_QUEST_INTRO_MESSAGE_PAGE_04_SPOUSE_DEAD_OBEY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Como desejar, meu Chanceler. Carreguem as omni-armas, soldados! Temos uma cidade para incinerar.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_QUEST_INTRO_MESSAGE_PAGE_04_SPOUSE_DEAD_REFUSE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sinto muito, meu Chanceler, mas não posso sobrecarregar minha consciência com as vidas de todos esses civis. Não era o propósito original do nosso povo defender-se da Star Union, e não aniquilá-la? Não há necessidade de crueldade adicional nesta guerra já tão brutal.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">A Obediência é Fundamental</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Chanceler Kor ordenou que você arrase a colônia conquistada e envie seus habitantes para a área de testes preparada por ele.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_QUEST_COMPLETION_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bom. Muito bom. Por um momento, pareceu que você recuaria, General {STR_LeaderFirstName}. Em vez disso, continua sendo um exemplo da força Shakarn!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBEDIENCE_IS_KEY_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Colônia Conquistada Arrrasada</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WAR_CRIME_COMMITED_RACE_RELATION_MOD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cometeu Crimes de Guerra</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A race relation modifier.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PLAYER_BEAKS_SHAKARN_ALLIANCE_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O que está fazendo, General {STR_LeaderFirstName}? Soldados, cuidem desse traidor!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PLAYER_BEAKS_SHAKARN_ALLIANCE_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sem o apoio das minhas próprias tropas, serei preso para enfrentar um julgamento por traição. Receio que este seja o fim.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">KORVIN_DEFEATED_EVENT_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Abri meu caminho através dos Redentores, lutei incansavelmente contra a corrupção do Conselho Adamant. Minha filha Inessa, agora todo o peso do Consórcio Zhelezo recai sobre seus ombros! Seja forte!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Korvin Zhelezo" (Dvar, male)
+"Redeemers" is the name of an Assembly splinter group showing up in the Dvar base game campaign. Please translate consistently.
+"Adamant Council" is the name of the Dvar ruling gremium.
+"Inessa" is the first name of a female Dvar character.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">POZ_TK_NOR_DEFEATED_EVENT_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Meus irmãos, ataquem comigo! Lembrem-se dos ensinamentos de Hatyl Ur’Uk e levem meu último sonho de volta a Xa’Kir’Ko.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Poz Tk'Nor" (Kir'Ko, male)
+"Hatyl Ur'Uk" is the name of a male Kir'Ko character.
+"Xa Kir'Ko" is the name of the Kir'Ko home planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">IONA_CALIRI_DEFEATED_EVENT_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sempre acreditei que toda morte também faz brotar nova vida. No entanto, é difícil encontrar consolo nisso quando todos os jardins cósmicos estão destinados a murchar. Minha consciência poderia escapar para o mundo digital, mas de que vale isso se não posso mais sentir o cheiro das flores ou respirar o ar fresco de uma floresta enevoada?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Iona Caliri" (Amazon, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">NICOLE_CRUSTUS_DEFEATED_EVENT_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A criossono de repente não parece tão ruim quando se enfrenta o esquecimento eterno. A luz Celestiana me guiou para longe de um caminho de conflito, mas ainda assim foi o conflito que me encontrou e acabou comigo.[br/][br/]A ironia…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Nicole Crustus" (Vanguard, female) Actually, Nicole is a female Shakarn sleeper agent. She is talking from the perspective of her cover identity, so this is mostly irrelevant for translation itself, but good as some provided context.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TYRA_KROX_DEFEATED_EVENT_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os dezesseis mares estão me chamando irrevogavelmente para habitar suas profundezas mais frias. Se algum dia voltar a Kadalos, {STR_LeaderName}, prometa colocar uma concha-de-lótus no Santuário Pearlshade.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Tyra Krox" (Shakarn, female) The actual identity of Nicole Crustus.
+"Pearlshade Sanctuary" is the name of a temple on Kadalos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CHANCELLOR_KOR_DEFEATED_EVENT_RESISTED_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Con… tinuem… resistindo… General… {STR_LeaderFirstName}. Nosso povo… precisa…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CHANCELLOR_KOR_DEFEATED_EVENT_RESISTED_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sua morte será vingada, meu Chanceler. Nós empurraremos esses Portadores do Vazio de volta para a dimensão das trevas de onde vieram!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CHANCELLOR_KOR_DEFEATED_EVENT_JOINED_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Con… tinuem… lutando… General… {STR_LeaderFirstName}. Nosso povo…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Chancellor Kor" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CHANCELLOR_KOR_DEFEATED_EVENT_JOINED_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Escravo Shakarn.[br/]Decepção.[br/]{STR_LeaderName}. [br/]Última Chance.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Voidbringers" (no concrete single entity, see the corresponding glossary entry on the Voidbringers)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DALI_ARDELLI_DEFEATED_EVENT_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Meu corpo pode morrer aqui em Parlamon Alpha, mas minhas canções, meu legado, viverão. Os cantos do Abismo me aguardam…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Dali Ardelli" (Syndicate, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">KUDAT_ROTAK_DIES_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bah, já passei por situações muito piores do que esta! Isso é apenas um arranhão…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Kudat Rotak" (Shakarn, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">KUDAT_ROTAK_DIES_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Marechal, você não precisa desperdiçar seu último suspiro tentando parecer durão. Todos sabemos que é. Foi uma honra tê-lo lutando ao meu lado. Seu sonoscript terá seu lugar no poço profundo dos heróis. Eu cuidarei disso!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">VASTRIX_ZOKLA_DIES_EVENT_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Viver e deixar morrer soa muito melhor quando é você quem puxa o gatilho. Eu deveria ter ouvido minha mãe de ninhada quando disse: “Nunca vá para as linhas de frente, meu filho, se quiser morrer como espião.”</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Vastrix Zokla" (Shakarn, male)
+"clutch mother" is the name for a Shakarn nursery teacher.
+"live and let die" is a reference to the song and James Bond movie with the same name. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">JAMES_HENKINS_DIES_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dav- Quer dizer, {STR_LeaderFirstName}. Pode me fazer um último favor? Ative seu projetor holográfico e me deixe ver o rosto dele novamente. Por favor.</Data></Cell>
+    <Cell><Data ss:Type="String">Sar- Quer dizer, {STR_LeaderFirstName}. Pode me fazer um último favor? Ative seu projetor holográfico e me deixe ver o rosto dela novamente. Por favor.</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "James/Jane Henkins" (Vanguard, can be male or female depending on the gender of "Naranga Od". Always has the opposite gender of "Naranga Od".)
+"David" and "Sarah" are the first names of the Vanguard (male and female) characters that were married to "James/Jane Henkins" (always heterosexual marriage assumed).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">JAMES_HENKINS_DIES_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Muito bem, Jane. Espero que possa se reunir com ele em algum tipo de vida após a morte. Sinceramente, espero.</Data></Cell>
+    <Cell><Data ss:Type="String">Muito bem, James. Espero que possa se reunir com ela em algum tipo de vida após a morte. Sinceramente, espero.</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Naranga Od" (Shakarn, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PLAYER_RELATION_MODIFIER_SHAKARN_ELOP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Alvos da Invasão Shakarn</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short description of a diplomatic modifier between players.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PLAYER_RELATION_MODIFIER_KOR_NARANGA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Missão Concluída em Celaudius-2</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short description of a diplomatic modifier between players.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PLAYER_RELATION_MODIFIER_NARANGA_KOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Chanceler dos Shakarn</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short description of a diplomatic modifier between players.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PLAYER_RELATION_MODIFIER_ELOP_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Invasores Implacáveis</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short description of a diplomatic modifier between players.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PLAYER_RELATION_MODIFIER_ELOP_ELOP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Membro da Confederação ELOP</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short description of a diplomatic modifier between players.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASUS_BELLI_SHAKARN_ELOP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Invasão há muito planejada do território da Star Union.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short description of a casus belli.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASUS_BELLI_ELOP_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Atacando a Confederação ELOP em todas as frentes.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short description of a casus belli.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>158</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>161</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

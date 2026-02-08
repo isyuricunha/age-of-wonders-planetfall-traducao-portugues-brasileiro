@@ -1,0 +1,1037 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Thomas Schuiten</LastAuthor>
+  <LastSaved>2020-08-31T08:20:56Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>19965</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="191" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="232.5"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="531"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="234.75"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="439.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">GALACTIC_EMPIRES_OBJECTIVES_DLC05</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_PROMETHEAN_SECRETS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Segredos Prometeanos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Promethean - the name of a Secret tech.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OBJECTIVE_PROMETHEAN_SECRETS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Reivindicar os cofres Fênix deste mundo deve apaziguar os elementos [abilityblue]Promethean[/abilityblue] em seu império e nos conceder uma visão significativa de seus avançados sistemas de armas.[br/][br/][bulletList][bullet]Cada [abilityblue]Cofre Fênix[/abilityblue] reivindicado concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Promethean - the name of a Secret tech.
+Phoenix Vaults - in game Name of the Promethean Landmarks.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">OBJECTIVE_PROMETHEAN_SECRETS</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Cofres Fênix[/abilityblue] capturados</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OBJECTIVE_BOUNTIFUL_HARVEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colheita Abundante</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_BOUNTIFUL_HARVEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Explorar a fertilidade natural deste mundo deve apaziguar as facções [abilityblue]Amazon[/abilityblue] em seu império e garantir que estejam mais dispostas a compartilhar seus segredos.[br/][br/][bulletList][bullet]Cada [abilityblue]Especialização em Alimentos[/abilityblue] construída concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_BOUNTIFUL_HARVEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Especializações em Alimentos[/abilityblue] produzidas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_REBIRTH_OF_CIVILIZATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Renascimento da Civilização</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_REBIRTH_OF_CIVILIZATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Vanguard[/abilityblue] não desejam nada além da reconstrução da civilização, e fundar novas colônias neste mundo morto deve agradá-los.[br/][br/][bulletList][bullet]Cada [abilityblue]Colônia[/abilityblue] que você fundar concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_REBIRTH_OF_CIVILIZATION</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Colônias[/abilityblue] Fundadas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_POWERFUL_ALLIES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aliados Poderosos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_POWERFUL_ALLIES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O [abilityblue]Syndicate[/abilityblue] certamente ficaria satisfeito se você garantisse uma aliança com o Paragon.[br/][br/][bulletList][bullet]Alcance o nível de relação [abilityblue]Integração[/abilityblue] com o [abilityblue]Paragon[/abilityblue].[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_POWERFUL_ALLIES</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Relação com o [abilityblue]Paragon[/abilityblue] alcançou 'Integração'</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_NETWORKING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Networking</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_NETWORKING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Elementos [abilityblue]Synthesis[/abilityblue] em seu império ficariam satisfeitos em ter a oportunidade de dar uma olhada interna na rede Autonom. Garanta a confiança dos Autonom e eles ficarão satisfeitos.[br/][br/][bulletList][bullet]Alcance o nível de relação [abilityblue]Integração[/abilityblue] com os [abilityblue]Autonom[/abilityblue].[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_NETWORKING</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Relação com os [abilityblue]Autonom[/abilityblue] alcançou 'Integração'</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_WEED_WHACKING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Erradicação de Ervas Daninhas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_WEED_WHACKING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Promethean[/abilityblue] não aceitam compromissos quando se trata de agressão alienígena. Eles ficariam satisfeitos em ver o Growth reduzido.[br/][br/][bulletList][bullet]Cada [abilityblue]Moradia Growth[/abilityblue] reivindicada concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Growth - Faction name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_WEED_WHACKING</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Moradias Growth[/abilityblue] capturadas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_CAPABLE_PETS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Animais de Estimação Capazes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_CAPABLE_PETS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Psynumbra[/abilityblue] respeitam aqueles com aptidão para manipulação. Dominar os Psi-Peixes deve impressionar os discípulos do Abismo.[br/][br/][bulletList][bullet]Cada [abilityblue]Moradia Psi-Peixe[/abilityblue] reivindicada concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_CAPABLE_PETS</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Moradias Psi-peixes[/abilityblue] capturadas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_GANK_THE_OUTLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Eliminar os Foras da Lei</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_GANK_THE_OUTLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Vanguard[/abilityblue] desejam o retorno da ordem acima de tudo, esses Espaciais são uma ameaça a essa ordem.[br/][br/][bulletList][bullet]Cada [abilityblue]Moradia Espacial[/abilityblue] conquistada concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Spacer - Faction name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_GANK_THE_OUTLAWS</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Moradias Espaciais[/abilityblue] capturadas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_MINE_FOR_THE_TAKING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mina para Tomar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_MINE_FOR_THE_TAKING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Dvar[/abilityblue] respeitam aqueles capazes de acumular riqueza, e reivindicar Nódulos de Cosmita deve impressionar bastante os Consórcios.[br/][br/][bulletList][bullet]Cada setor contendo um [abilityblue]Nódulo de Cosmita[/abilityblue] conquistado concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cosmite - Special resource</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_MINE_FOR_THE_TAKING</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Setores contendo [abilityblue]Nódulos de Cosmita[/abilityblue] conquistados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_VOID_MONOPOLY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Monopólio do Vazio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_VOID_MONOPOLY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Voidtech[/abilityblue] respeitam aqueles que comandam certo controle sobre o vazio.[br/][br/][bulletList][bullet]Cada setor contendo um [abilityblue]Teletransportador[/abilityblue] conquistado concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Voidtech - Secret tech</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_VOID_MONOPOLY</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Setores contendo [abilityblue]Teletransportadores[/abilityblue] conquistados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SERVICE_PROVISION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Prestação de Serviços</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_SERVICE_PROVISION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Assembly[/abilityblue] desejam controle sobre a rede de Transmissão, com que finalidade só o tempo dirá.[br/][br/][bulletList][bullet]Cada setor contendo uma [abilityblue]Estação de Transmissão[/abilityblue] conquistada concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SERVICE_PROVISION</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Setores contendo [abilityblue]Estações de Transmissão[/abilityblue] conquistados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_CLEANUP_AND_REBUILD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Limpar e Reconstruir</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_CLEANUP_AND_REBUILD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Vanguard[/abilityblue] apoiam aqueles que buscam restaurar a civilização para a arruinada Star Union, removendo as cicatrizes do cataclismo deve enviar a mensagem certa.[br/][br/][bulletList][bullet]Cada [abilityred]Perigo[/abilityred] removido concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_CLEANUP_AND_REBUILD</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Perigos[/abilityred] removidos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_KEEP_AN_EYE_OUT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fique de Olho</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_KEEP_AN_EYE_OUT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As facções [abilityblue]Synthesis[/abilityblue] respeitam aqueles que entendem o valor da informação, e estabelecer uma rede de monitoramento pode ajudar a garantir seu apoio.[br/][br/][bulletList][bullet]Cada [abilityblue]Estação de Monitoramento[/abilityblue] colocada concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_KEEP_AN_EYE_OUT</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Estações de Monitoramento[/abilityblue] colocadas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_CULL_THE_HERD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reduzir o Rebanho</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cull: reduce the population of (a wild animal) by selective slaughter</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_CULL_THE_HERD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Essas mutações selvagens são uma ameaça ao ecossistema deste mundo. As matriarcas [abilityblue]Amazon[/abilityblue] podem ser mais receptivas se você estabilizar a situação.[br/][br/][bulletList][bullet]Cada [abilityred]Spawner[/abilityred] destruído concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_CULL_THE_HERD</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Spawners[/abilityred] destruídos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_INDUSTRIAL_MIGHT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Poderio Industrial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_INDUSTRIAL_MIGHT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Consórcios [abilityblue]Dvar[/abilityblue] têm grande interesse neste mundo rico em minerais. Provar seu valor como uma potência industrial pode ajudá-lo a tê-los ao seu lado.[br/][br/][bulletList][bullet]Cada [abilityblue]Especialização em Produção[/abilityblue] construída concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Imperial Renown is a kinda currency the player uses in game.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_INDUSTRIAL_MIGHT</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Especializações em Produção[/abilityblue] produzidas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_PEST_CONTROL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Controle de Pragas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_PEST_CONTROL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Consórcios [abilityblue]Dvar[/abilityblue] oferecem uma recompensa por Quartzito e Psionica, presumivelmente por sua aptidão em consumir minerais valiosos.[br/][br/][bulletList][bullet]Cada [abilityred]Spawner de Quartzito ou Psionica[/abilityred] destruído concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_PEST_CONTROL</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Spawners de Quartzito ou Psionica[/abilityred] destruídos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SETTLE_THE_CLAIM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Resolver a Disputa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_SETTLE_THE_CLAIM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Consórcios [abilityblue]Dvar[/abilityblue] informaram seus diplomatas que este mundo está sendo disputado por dois Consórcios rivais. Mediar uma solução pacífica pode agradá-los muito.[br/][br/][bulletList][bullet]Forjar uma [abilityblue]Aliança[/abilityblue] com ambos os Dvar garante um aumento massivo de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SETTLE_THE_CLAIM</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Rivais Dvar[/abilityblue] aliados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SWIFT_ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ação Rápida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OBJECTIVE_SWIFT_ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Voidtech[/abilityblue] contatou seus diplomatas, alegando que eventos terríveis estão em andamento e que, a menos que um império rival seja destruído antes do 20º ciclo, haverá consequências graves.[br/][br/][bulletList][bullet][abilityblue]Derrotar[/abilityblue] outro [abilityred]Império[/abilityred] antes que o turno {TurnLimit} passe concede um aumento massivo de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Voidtech: name of Secret tech faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SWIFT_ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Império Derrotado[/abilityblue] antes do turno {TurnLimit}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DENY_THE_UNNATURAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Negar o Antinatural</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_DENY_THE_UNNATURAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um Comandante [abilityblue]Vanguard[/abilityblue] oferece uma recompensa por cada um dos senhores da guerra da Assembly que compõem a aliança que está se reerguendo neste mundo, então eliminá-los pode ser benéfico.[br/][br/][bulletList][bullet]Cada Comandante da [abilityred]aliança Assembly[/abilityred] derrotado concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DENY_THE_UNNATURAL</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Comandantes da aliança Assembly[/abilityred] derrotados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_PRESERVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Preservar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_PRESERVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma comuna [abilityblue]Celestian[/abilityblue] ficou sabendo do Culto Prometeico de Khansu e de seus planos para este mundo. Eles solicitaram que você impeça o sacrifício do Culto.[br/][br/][bulletList][bullet]Cada Comandante do [abilityred]Culto de Khansu[/abilityred] derrotado concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_PRESERVE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Comandantes do Culto Prometeico[/abilityred] de Khansu derrotados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_ALTERNATIVE_TRANSPORT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Transporte Alternativo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_ALTERNATIVE_TRANSPORT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Voidtech[/abilityblue] respeitam mentes criativas. Este mundo possui uma atmosfera incomum que dificulta o voo atmosférico, então contornar essa desvantagem deve agradar os Voidtech.[br/][br/][bulletList][bullet]Cada [abilityblue]Especialização de Relevo Orbital[/abilityblue] construída concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Voidtech: name of Secret tech faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_ALTERNATIVE_TRANSPORT</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Especializações de Relevo Orbital[/abilityblue] produzidas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_RECOVER_SAMPLES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Recuperar Amostras</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_RECOVER_SAMPLES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um cientista da [abilityblue]Xenopraga[/abilityblue] está oferecendo uma recompensa por quaisquer amostras que possam ser recuperadas dos ninhos Micelianos neste mundo.[br/][br/][bulletList][bullet]Cada [abilityred]Gerador Miceliano[/abilityred] destruído concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Xenoplague: name of Secret tech faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_RECOVER_SAMPLES</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Geradores Micelianos[/abilityred] destruídos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_THIN_THE_SWARM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dizimar o Enxame</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_THIN_THE_SWARM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um senhor da guerra [abilityblue]Prometeano[/abilityblue] ofereceu uma recompensa pela destruição dos ninhos de Hopperhound, já que este planeta em particular sofre com sua presença. Elimine os ninhos para ganhar Renome.[br/][br/][bulletList][bullet]Cada [abilityred]Gerador de Hopperhound[/abilityred] destruído concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_THIN_THE_SWARM</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Geradores de Hopperhound[/abilityred] destruídos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SILENCE_THE_STATIC</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Silenciar o Ruído</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_SILENCE_THE_STATIC</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Colmeia [abilityblue]Kir'Ko[/abilityblue] alega que os cristais psicoativos deste mundo interferem com seus dons Psiónicos, então destruí-los certamente renderá seu Renome Imperial.[br/][br/][bulletList][bullet]Cada [abilityred]Gerador Psiónico[/abilityred] destruído concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SILENCE_THE_STATIC</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Geradores Psiónicos[/abilityred] destruídos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_BAD_COMPANY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Má Companhia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_BAD_COMPANY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A fé [abilityblue]Celestiana[/abilityblue] há muito demoniza os Xenopinguins como os encontrados neste mundo, e eliminá-los deve colocá-lo nas boas graças dos Celestianos.[br/][br/][bulletList][bullet]Cada [abilityred]Colmeia de Pinguins[/abilityred] destruída concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_BAD_COMPANY</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Colmeias de Pinguins[/abilityred] destruídas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_KNOWLEDGE_IS_POWER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Conhecimento é Poder</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_KNOWLEDGE_IS_POWER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Assembly[/abilityblue] valorizam a inteligência acima de tudo. Provar que você compartilha dos mesmos valores pode impressioná-los.[br/][br/][bulletList][bullet]Cada [abilityblue]Especialização em Pesquisa[/abilityblue] construída concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_KNOWLEDGE_IS_POWER</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Especializações em Pesquisa[/abilityblue] produzidas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_POWER_IS_POWER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Poder é Poder</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_POWER_IS_POWER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Vanguard[/abilityblue] solicitaram a restauração da rede elétrica deste mundo. Estabelecer uma rede de energia em preparação para sua conquista certamente os agradará.[br/][br/][bulletList][bullet]Cada [abilityblue]Especialização em Energia[/abilityblue] construída concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_POWER_IS_POWER</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Especializações de Energia[/abilityblue] produzidas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_REJECT_MORTAL_TETHERS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rejeitar Laços Mortais</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_REJECT_MORTAL_TETHERS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Psynumbra[/abilityblue] exigem uma demonstração de fé. Rejeite seus laços mortais e deixe este mundo um ermo estéril![br/][br/][bulletList][bullet]Cada [abilityblue]Colônia[/abilityblue] [abilityred]Destruída[/abilityred] concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_REJECT_MORTAL_TETHERS</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Colônias[/abilityblue] Destruídas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_CLEANSE_THE_INFESTATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Purgar a Infestação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_CLEANSE_THE_INFESTATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Promethean[/abilityblue] combatem a Cepa Alfa onde quer que seja encontrada; demonstrar sua dedicação à sua destruição certamente os agradará.[br/][br/][bulletList][bullet]Cada [abilityred]Gerador de Xenopraga[/abilityred] destruído concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_CLEANSE_THE_INFESTATION</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Geradores de Xenopraga[/abilityred] destruídos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_RULE_THE_WAVES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dominar os Mares</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_RULE_THE_WAVES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Shakarn[/abilityblue] respeitam a dominação em seu domínio. Mostre-lhes seu poder nas ondas.[br/][br/][bulletList][bullet]Cada [abilityred]Gerador Aquático[/abilityred] destruído concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_RULE_THE_WAVES</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Geradores Aquáticos[/abilityred] destruídos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DENY_THE_FAITHFUL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Negar os Fiéis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_DENY_THE_FAITHFUL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma criatura [abilityblue]Psynumbra[/abilityblue] se manifestou em sua embaixada, exigindo a destruição da Cruzada Celestiana neste mundo.[br/][br/][bulletList][bullet]Cada Comandante da [abilityred]Santa Cruzada[/abilityred] derrotado concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DENY_THE_FAITHFUL</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Celestian[/abilityred] Comandantes da Santa Cruzada derrotados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_AVENGE_THE_PAST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vingar o Passado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_AVENGE_THE_PAST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um emissário [abilityblue]Kir'Ko[/abilityblue] abordou sua expedição e solicitou a destruição das duas casas Syndicate aliadas neste mundo. O emissário alegou que elas tiveram um papel proeminente na opressão de seu povo no passado.[br/][br/][bulletList][bullet]Cada Comandante dos [abilityred]Aliados Syndicate[/abilityred] derrotado concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_AVENGE_THE_PAST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Syndicate[/abilityred] Comandantes Aliados derrotados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SURPRESS_THE_SCUM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Suprimir a Escória</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_SURPRESS_THE_SCUM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um nobre [abilityblue]Syndicate[/abilityblue] contatou seu embaixador, exigindo que você esmague o enxame Kir'Ko estabelecido neste mundo. O homem se referiu a eles como 'propriedade obsoleta'.[br/][br/][bulletList][bullet]Cada Comandante do [abilityred]Enxame Kir'Ko Agressivo[/abilityred] derrotado concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SURPRESS_THE_SCUM</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Kir'Ko[/abilityred] Comandantes do Enxame Agressivo derrotados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_ENFORCE_ORDER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Impor a Ordem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_ENFORCE_ORDER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um(a) Vidente [abilityblue]Juramentado(a)[/abilityblue] procurou seu embaixador com um pedido: destrua as gangues de Apóstatas que se aninham neste planeta. Faça isso e seja recompensado.[br/][br/][bulletList][bullet]Cada [abilityred]Torre Sombria[/abilityred] explorada concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_ENFORCE_ORDER</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Torres Sombrias[/abilityblue] exploradas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_DENY_THE_ANATHEMA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Negar a Anátema</Data></Cell>
+    <Cell><Data ss:Type="String">Anátema: algo ou alguém que se detesta veementemente.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_DENY_THE_ANATHEMA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um Lorde [abilityblue]Herdeiro[/abilityblue] contatou sua embaixada, solicitando a destruição das forças RPR neste planeta.[br/][br/][bulletList][bullet]Cada [abilityred]Torre RPR[/abilityred] destruída concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DENY_THE_ANATHEMA</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Torres RPR[/abilityred] destruídas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_OPERATIONAL_EFFICIENCY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Eficiência Operacional</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_OPERATIONAL_EFFICIENCY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A [abilityblue]Síntese[/abilityblue] respeita habilidade técnica e planejamento. Prove sua capacidade para garantir seu favor.[br/][br/][bulletList][bullet]Cada [abilityblue]Operação Estratégica[/abilityblue] lançada com sucesso concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_OPERATIONAL_EFFICIENCY</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Operações Estratégicas[/abilityblue] lançadas com sucesso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_BRUTALLY_CUNNING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Astúcia Brutal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_BRUTALLY_CUNNING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O [abilityblue]Sindicato[/abilityblue] é uma cultura de subterfúgio e astúcia. Prove sua astúcia para garantir seu favor.[br/][br/][bulletList][bullet]Cada [abilityblue]Operação Encoberta[/abilityblue] lançada com sucesso concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_BRUTALLY_CUNNING</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Operações Encobertas[/abilityblue] lançadas com sucesso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DAGGERS_IN_THE_DARK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Adagas nas Sombras</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_DAGGERS_IN_THE_DARK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O [abilityblue]Sindicato[/abilityblue] é uma cultura de subterfúgio e astúcia, prove sua astúcia para garantir seu favor.[br/][br/][bulletList][bullet]Cada [abilityblue]Infiltração[/abilityblue] lançada com sucesso concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Meant to be, same description as row 112. Please copy translation from row 112.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DAGGERS_IN_THE_DARK</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Infiltrar Centro de Operações[/abilityblue] com sucesso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_MAKING_CONNECTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fazendo Conexões</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_MAKING_CONNECTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Kir'Ko[/abilityblue] respeitarão um império que explora suas opções.[br/][br/][bulletList][bullet]Cada Comandante [abilityblue]Contatado[/abilityblue] concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_MAKING_CONNECTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Comandantes [abilityblue]contatados[/abilityblue]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC03_OBJECTIVE_A_VAST_INHERITANCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Vasta Herança</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DLC03_OBJECTIVE_A_VAST_INHERITANCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Herdeiros[/abilityblue] deixaram para trás um vasto legado; desvendar o passado pode oferecer uma visão de seus costumes.[br/][br/][bulletList][bullet]Cada [abilityblue]Sítio de Pesquisa[/abilityblue] concluído concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC03_OBJECTIVE_A_VAST_INHERITANCE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Locais de Pesquisa[/abilityblue] concluídos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_MIGHT_OF_THE_DOMOK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Poder do Domok</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_MIGHT_OF_THE_DOMOK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um Senhor da Guerra Domok [abilityblue]Shakarn[/abilityblue] pediu apoio para resolver uma disputa e quer que você elimine os escravos de um rival.[br/][br/][bulletList][bullet]Cada Comandante [abilityred]Shakarn Thrall[/abilityred] derrotado concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_MIGHT_OF_THE_DOMOK</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Comandantes Shakarn Thrall[/abilityred] derrotados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_NECESSARY_EVIL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mal Necessário</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_NECESSARY_EVIL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um agente [abilityblue]Syndicate[/abilityblue] abordou seu embaixador e sugeriu que você compense as falhas deste planeta sugando recursos da concorrência...[br/][br/][bulletList][bullet]Cada [abilityblue]Sifão de Energia[/abilityblue] lançado com sucesso concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_NECESSARY_EVIL</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Sifões de Energia[/abilityblue] lançados com sucesso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_CLAIM_THEIR_BIOMASS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reivindique sua Biomassa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_CLAIM_THEIR_BIOMASS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um cientista [abilityblue]Xenoplague[/abilityblue] exigiu que você reivindicasse os assentamentos deste mundo, pois eles poderiam ser excelentes cobaias...[br/][br/][bulletList][bullet]Cada [abilityblue]Assentamento[/abilityblue] conquistado concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_CLAIM_THEIR_BIOMASS</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Assentamentos[/abilityblue] conquistados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC03_OBJECTIVE_GHOST_BUSTIN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Caça-Fantasmas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DLC03_OBJECTIVE_GHOST_BUSTIN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um emissário [abilityblue]Heritor[/abilityblue] afirma que 'caçar faz ele se sentir bem'. Há muitas criaturas escondidas perto dos itens coletáveis deste mundo — elimine-as.[br/][br/][bulletList][bullet]Cada [abilityblue]Item Coletável[/abilityblue] coletado concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC03_OBJECTIVE_GHOST_BUSTIN</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Itens Coletáveis[/abilityblue] coletados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DEFIANT_OF_NATURE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Desafiando a Natureza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_DEFIANT_OF_NATURE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As [abilityblue]Amazons[/abilityblue] são mestres da adaptação. Mostre a elas que você pode superar os desafios deste mundo e prosperar.[br/][br/][bulletList][bullet]Cada [abilityblue]Especialização de Setor Residencial[/abilityblue] construída concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DEFIANT_OF_NATURE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Especializações de Setor Residencial[/abilityblue] construídas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_NAVAL_DOMINANCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Domínio Naval</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_NAVAL_DOMINANCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Shakarn[/abilityblue] são mestres da expansão naval; prove seu valor nas ondas para ganhar seu favor.[br/][br/][bulletList][bullet]Cada [abilityblue]Hidro-Exploração[/abilityblue] construída concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_NAVAL_DOMINANCE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Hidro-Explorações[/abilityblue] produzidas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_CIVIC_DUTY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dever Cívico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_CIVIC_DUTY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Oathbound[/abilityblue] veem o bem-estar de seus cidadãos como uma demonstração de retidão; prove que você tem a mesma inclinação.[br/][br/][bulletList][bullet]Cada [abilityblue]Evento de Felicidade[/abilityblue] alcançado concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_CIVIC_DUTY</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Eventos de Felicidade[/abilityblue] alcançados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_CAST_OFF_THE_SHACKLES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Quebrar os Grilhões</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_CAST_OFF_THE_SHACKLES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Kir'Ko[/abilityblue] conheceram os grilhões da servidão como ninguém, então libertar este mundo das garras da Darkvoid certamente causará uma impressão.[br/][br/][bulletList][bullet]Cada [abilityred]Gerador de Voidbringer[/abilityred] destruído concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_CAST_OFF_THE_SHACKLES</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Geradores de Voidbringer[/abilityred] destruídos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SEAL_THEIR_FATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Selar seu Destino</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OBJECTIVE_SEAL_THEIR_FATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma criatura [abilityblue]Psynumbran[/abilityblue] apareceu em sua corte, exigindo a destruição dos impérios deste mundo. Atender a sua demanda pode trazer grandes recompensas...[br/][br/][bulletList][bullet][abilityblue]Derrotar[/abilityblue] outros [abilityred]Impérios[/abilityred] antes do fim do turno {TurnLimit} concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SEAL_THEIR_FATE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Impérios Derrotados[/abilityblue] antes do turno {TurnLimit}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_NOBLE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Busca Nobre</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_NOBLE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Oathbound[/abilityblue] estão obcecados em reivindicar este 'Graal'. Fazê-lo certamente conquistará o respeito deles.[br/][br/][bulletList][bullet]Reivindicar o [abilityblue]Graal[/abilityblue] concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_NOBLE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Graal[/abilityblue] reivindicado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SWARM_RUSH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ataque da Horda</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OBJECTIVE_SWARM_RUSH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um delegado [abilityblue]Kir'Ko[/abilityblue] exigiu que você demonstre compreensão da filosofia da horda. Esmague a ameaça neste mundo rapidamente para ganhar seu favor.[br/][br/][bulletList][bullet][abilityblue]Derrotar[/abilityblue] outro [abilityred]Império[/abilityred] antes do fim do turno {TurnLimit} concede um aumento massivo em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_SWARM_RUSH</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Império Derrotado[/abilityblue] antes do turno {TurnLimit}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_ADAPT_AND_OVERCOME</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Adaptar e Superar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_ADAPT_AND_OVERCOME</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um pesquisador [abilityblue]Xenoplague[/abilityblue] ficou sabendo de sua expedição a este mundo e prometeu apoio caso você prove estar à altura dos desafios.[br/][br/][bulletList][bullet]Cada [abilityred]Perigo[/abilityred] removido concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_ADAPT_AND_OVERCOME</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Perigos[/abilityred] removidos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DESTROY_THE_WEAK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Destruir os Fracos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_DESTROY_THE_WEAK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um senhor da guerra [abilityblue]Xenoplague[/abilityblue] proclamou que o ELOP é uma resposta fraca aos desafios desta galáxia e está oferecendo uma recompensa para quem provar seu ponto.[br/][br/][bulletList][bullet]Cada [abilityred]ELOP[/abilityred] Comandante derrotado concede um aumento substancial em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DESTROY_THE_WEAK</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]ELOP[/abilityred] Comandantes derrotados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_VENGEANCE_FOR_KADALOS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vingança por Kadalos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_VENGEANCE_FOR_KADALOS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Shakarn[/abilityblue] têm mais motivos do que a maioria para odiar os Portadores do Vazio e exigem sua destruição, onde quer que sejam encontrados.[br/][br/][bulletList][bullet]Cada [abilityred]Gerador de Portadores do Vazio[/abilityred] destruído concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_VENGEANCE_FOR_KADALOS</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Geradores de Portadores do Vazio[/abilityred] destruídos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_WILD_AND_FREE_UNDER_ME</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Selvagens e Livres, Sob Mim.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_WILD_AND_FREE_UNDER_ME</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Certos elementos [abilityblue]Amazon[/abilityblue] desejam ver certos elementos rebeldes trazidos sob controle.[br/][br/][bulletList][bullet]Cada [abilityblue]Moradia Teriana[/abilityblue] conquistada concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_WILD_AND_FREE_UNDER_ME</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Moradias Terianas[/abilityblue] capturadas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DLC03_OBJECTIVE_RETURN_THEM_TO_THE_FOLD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Devolvê-los ao Rebanho</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DLC03_OBJECTIVE_RETURN_THEM_TO_THE_FOLD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um Lorde [abilityblue]Heritor[/abilityblue] contatou sua embaixada, solicitando que você recupere os Esquecidos defeituosos para ele.[br/][br/][bulletList][bullet]Cada [abilityblue]Moradia dos Esquecidos[/abilityblue] conquistada concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DLC03_OBJECTIVE_RETURN_THEM_TO_THE_FOLD</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Moradias dos Esquecidos[/abilityblue] capturadas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_MONITOR_THE_ANOMALIES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Monitorar as Anomalias</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_MONITOR_THE_ANOMALIES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um cientista [abilityblue]Assembly[/abilityblue] solicitou que você estabeleça infraestrutura de Pesquisa neste mundo para estudar as estranhas anomalias.[br/][br/][bulletList][bullet]Cada [abilityblue]Especialização em Pesquisa[/abilityblue] construída concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_OBJECTIVE_MONITOR_THE_ANOMALIES</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Especializações em Pesquisa[/abilityblue] produzidas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_REPURPOSED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reaproveitados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_REPURPOSED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Synthesis[/abilityblue] respeitam aqueles com redes de informação extensas; utilize a rede doutrinária deste mundo para impressioná-los.[br/][br/][bulletList][bullet]Cada [abilityblue]Doutrina[/abilityblue] promulgada concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_REPURPOSED</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Doutrinas[/abilityblue] promulgadas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_PEACE_THROUGH_POWER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Paz Através do Poder</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_PEACE_THROUGH_POWER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Celestians[/abilityblue] ensinam controle e contenção acima de tudo. Mostre a eles que você dominou a contenção.[br/][br/][bulletList][bullet]Cada [abilityblue]Pacto Defensivo[/abilityblue] que você firmar com outro Comandante concede um aumento de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_PEACE_THROUGH_POWER</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Pactos Defensivos[/abilityblue] firmados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DEFILE_AND_DESECRATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Profanar e Desecratar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_DEFILE_AND_DESECRATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma criatura [abilityblue]Psynumbran[/abilityblue] apareceu na corte, exigindo a captura e profanação dos 'Locais Sagrados' deste mundo.[br/][br/][bulletList][bullet]Cada [abilityblue]Arquivo Celestiano[/abilityblue] conquistado concede um aumento substancial de Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_DEFILE_AND_DESECRATE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Arquivos Celestiais[/abilityblue] capturados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_READY_FOR_ANYTHING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Preparado para Qualquer Coisa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OBJECTIVE_READY_FOR_ANYTHING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Oathbound[/abilityblue] reverenciam os 'defensores do povo'. Mostre a eles que você leva esses assuntos a sério e se prepare para todas as ameaças![br/][br/][bulletList][bullet]Cada atualização de [abilityblue]Infraestrutura Militar Avançada[/abilityblue] produzida concede um impulso em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_READY_FOR_ANYTHING</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">atualizações de [abilityblue]Infraestrutura Militar Avançada[/abilityblue] produzidas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC03_OBJECTIVE_THE_HAND_THAT_TAKES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">A Mão que Toma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DLC03_OBJECTIVE_THE_HAND_THAT_TAKES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um emissário [abilityblue]Heritor[/abilityblue] ofereceu uma solução para os desafios deste mundo: tomar dos indignos e dos hereges![br/][br/][bulletList][bullet]Cada [abilityblue]Colônia[/abilityblue] [abilityred]Destruída[/abilityred] concede um substancial impulso em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC03_OBJECTIVE_THE_HAND_THAT_TAKES</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Colônias[/abilityblue] Destruídas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_MAKING_UP_THE_DEFICIENCY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Compensando a Deficiência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OBJECTIVE_MAKING_UP_THE_DEFICIENCY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os [abilityblue]Assembly[/abilityblue] não são nada se não eficientes. Mostre a eles que você sabe como compensar contratempos como os deste mundo.[br/][br/][bulletList][bullet]Cada [abilityblue]Especialização em Energia[/abilityblue] construída concede um impulso em Renome Imperial e Experiência.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBJECTIVE_MAKING_UP_THE_DEFICIENCY</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Especializações em Energia[/abilityblue] produzidas</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>177</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>194</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

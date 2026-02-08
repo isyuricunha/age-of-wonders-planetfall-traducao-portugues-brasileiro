@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Arnout Sas</Author>
+  <LastAuthor>Luis Ferreira</LastAuthor>
+  <Created>2019-10-30T10:28:35Z</Created>
+  <LastSaved>2020-01-09T12:24:06Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17325</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="14" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="258" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="185.25"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:Width="440.25"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="221.25"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">LOADOUT_PERKS_DLC04</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento Básico Shakarn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O kit padrão que você recebeu após o treinamento básico.[br/][br/]O kit inclui:[br/]Uma [AbilityGreen]Omni Carbine[/AbilityGreen] que causa [DamagePhysical/] dano Cinético e [DamageThermal/] Térmico repetidamente.[br/]Uma [AbilityGreen]Sono Pistol[/AbilityGreen] que causa [DamagePhysical/] dano Sônico Cinético repetidamente.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Combate Corpo a Corpo Shakarn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O kit que você recebeu após o treinamento de Combate Corpo a Corpo.[br/][br/]Este treinamento avançado concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Combate Próximo I[/AbilityGreen] - aumenta o dano causado ao usar Armas Brancas.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta seu [hp/] máximo.[br/][br/]O kit inclui:[br/]Uma [AbilityGreen]Reverb Dagger[/AbilityGreen] que causa [DamagePhysical/] dano Sônico Cinético repetidamente em curta distância.[br/]Uma [AbilityGreen]Granada Térmica[/AbilityGreen], que ao ser usada causa [DamageThermal/] dano Térmico em área e tem chance de queimar os atingidos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Assalto Shakarn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O kit que você recebeu após o treinamento de Assalto.[br/][br/]Este treinamento avançado concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Combate à Distância[/AbilityGreen] - aumenta o dano causado ao usar Armas de Longo Alcance.[br/][AbilityGreen]Mira Firme[/AbilityGreen] - aumenta sua precisão quando estiver atrás de cobertura.[br/][br/]O kit inclui:[br/]Uma [AbilityGreen]Omni Carbine[/AbilityGreen] que causa [DamagePhysical/] dano Cinético e [DamageThermal/] Térmico repetidamente.[br/]Uma [AbilityGreen]Sono Pistol[/AbilityGreen] que causa [DamagePhysical/] dano Sônico Cinético repetidamente.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento Pesado Shakarn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O kit que você recebeu após o treinamento de Atirador de Elite.[br/][br/]Este treinamento avançado concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Combate à Distância[/AbilityGreen] - aumenta o dano causado ao usar Armas de Longo Alcance.[br/][AbilityGreen]Olho de Águia I[/AbilityGreen] - aumenta levemente a precisão e a chance de acerto crítico.[br/][br/]O kit inclui:[br/]Uma [AbilityGreen]Omni Cannon[/AbilityGreen] que causa uma rajada de [DamagePhysical/] dano Cinético e [DamageThermal/] Térmico.[br/]Uma [AbilityGreen]Sono Pistol[/AbilityGreen] que causa [DamagePhysical/] dano Sônico Cinético repetidamente.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DAREDEVIL_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Veículo de Assalto Shakarn</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">DAREDEVIL_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O [AbilityGreen]Glaukus[/AbilityGreen] é um veículo que você encomendou de um excêntrico cientista Zardas que via as ondas sonoras como as marés do oceano.[br/][br/]Você possui as seguintes habilidades:[br/][AbilityGreen]Pilotagem[/AbilityGreen] - permite ao Comandante conduzir veículos básicos e montarias.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta consideravelmente seu máximo de [hp/] Pontos de Vida.[br/][br/]O armamento inclui:[br/]Seu [AbilityGreen]Glaukos[/AbilityGreen], que possui poderosas capacidades [DamagePhysical/] Cinéticas além de um [AbilityGreen]Mod.[/AbilityGreen][br/]Uma [AbilityGreen]Granada Térmica[/AbilityGreen], que ao ser usada causa [DamageThermal/] dano Térmico em área e tem chance de queimar os atingidos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Glaukos is a Shakarn Vehicle Unit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SUPPORT_PILOT_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você encontrou um [AbilityGreen]APC Imperial[/AbilityGreen] perdido e o consertou.[br/][br/]Você possui as seguintes habilidades:[br/][AbilityGreen]Pilotagem[/AbilityGreen] - permite ao Comandante conduzir veículos básicos e montarias.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta consideravelmente seu máximo de [hp/] pontos de vida.[br/][br/]O armamento inclui:[br/]Um [AbilityGreen]APC Imperial[/AbilityGreen] com várias habilidades de suporte.[br/]Uma [AbilityGreen]Granada Térmica[/AbilityGreen], que ao ser usada causa [DamageThermal/] dano Térmico em área e tem chance de queimar os atingidos.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

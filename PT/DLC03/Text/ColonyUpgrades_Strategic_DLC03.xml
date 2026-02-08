@@ -1,0 +1,434 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Thomas Schuiten</Author>
+  <LastAuthor>Benny Arents</LastAuthor>
+  <Created>2019-04-26T09:01:31Z</Created>
+  <LastSaved>2019-09-19T15:20:31Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10360</WindowHeight>
+  <WindowWidth>28760</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="304" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="52" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:Width="221"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="128"/>
+   <Column ss:StyleID="s63" ss:Width="316.5"/>
+   <Column ss:StyleID="s62" ss:Width="148"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="284"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">COLONYUPGRADES_STRATEGIC</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell><Data ss:Type="String">CITY_SECTOR_ORBITAL_RELAY_SPECIALIZATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Exploração de Relevo Orbital</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="80.25">
+    <Cell><Data ss:Type="String">CITY_SECTOR_ORBITAL_RELAY_SPECIALIZATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta é uma exploração de relevo orbital. Ela permite que suas unidades viajem através dela para outro relevo orbital conectado. Viajar através de um relevo consumirá todos os pontos de movimento. A rede de relevos também pode ser expandida por meio de diplomacia, assinando [abilityblue]Acordos de Relevo Aberto[/abilityblue] com seus aliados.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CITY_SECTOR_ORBITAL_RELAY_LEVEL_I</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{SlotBonus}[productionSlot/], {SlotBonus}[energySlot/], {SlotBonus}[foodSlot/], {SlotBonus}[ResearchSlot/], {SlotBonus}[happinessSlot/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Everything between {} and [] can be ignored for localization</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell><Data ss:Type="String">ORBITAL_RELAY_OP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Destinos do Relevo</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="47.25">
+    <Cell><Data ss:Type="String">ORBITAL_RELAY_OP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O relevo orbital permite que unidades aliadas se teletransportem para qualquer relevo conectado. Mover-se através do relevo orbital consumirá todos os pontos de movimento restantes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ORBITAL_RELAY_OP</Data></Cell>
+    <Cell><Data ss:Type="String">OP_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Relevo para {STR_destinationName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_I</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Base de Montagem Militar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_I</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Converter este relevo em uma base de montagem militar permitirá que ele reabasteça rapidamente tropas que chegam e adicione torres e muralhas de nível militar às suas defesas.[br/][br/][productioncol]Isso só pode ser construído em um setor de exploração de Relevo Orbital que não tenha uma Base de Logística Orbital.[/productioncol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_I</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_I</Data></Cell>
+    <Cell><Data ss:Type="String">Exércitos aliados que chegam a este relevo são completamente [abilityblue]curados[/abilityblue] e ganham [abilityblue]Reabastecimento[/abilityblue][br/]Este relevo agora possui muralhas e torres no combate tático.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21.75">
+    <Cell><Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_I</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_STRING</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades ganham [abilityblue]Reabastecimento[/abilityblue]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18.75">
+    <Cell><Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_I</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reabastecido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48.75">
+    <Cell><Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_I</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem suprimentos novos, concedendo-lhe {ResuppliedMoraleBonus} e {ResuppliedDamageModifier} dano bônus em todos os ataques até o próximo combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell><Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_II</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Base de Logística Orbital</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="76.5">
+    <Cell><Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_II</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Converter este relevo em uma base de logística aumentará a eficiência de todos os outros setores explorados. [br/][br/][productioncol]Isso só pode ser construído em um setor de exploração de Relevo Orbital que não tenha uma Base de Montagem Militar.[/productioncol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_II</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_I</Data></Cell>
+    <Cell><Data ss:Type="String">Cada setor explorado gera uma {BonnusResources} renda adicional de seu tipo de exploração.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">String is misspelled, double check that it works</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_III</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Plataforma de Reforço Orbital</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="93.75">
+    <Cell><Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_III</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Estabelece uma plataforma de lançamento para unidades de resposta rápida. Qualquer combate no domínio da colônia anexa ganha o efeito de combate [abilityblue]Reforço Rápido[/abilityblue].[br/][br/][productioncol]Isso só pode ser construído em um setor de exploração de Relevo Orbital que não tenha uma Plataforma de Operações Estratégicas.[/productioncol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_III</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_I</Data></Cell>
+    <Cell><Data ss:Type="String">Concede o efeito de combate [abilityblue]Guarnição Orbital[/abilityblue] no combate tático enquanto estiver dentro do domínio da colônia. A cada 2 turnos, uma cápsula de desembarque cai sobre uma unidade inimiga, deslocando-a e gerando uma unidade terrestre aliada de Tier 1 ou 2 (excluindo batedores).</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">domain refers to the territory that is claimed by the colony. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_IV</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Plataforma de Operações Estratégicas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_IV</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Utilizando o impressionante conjunto de sensores do relevo, uma plataforma de operações estratégicas pode ser estabelecida.[br/][br/][productioncol]Isso só pode ser construído em um setor de exploração de Relevo Orbital que não tenha uma Plataforma de Reforço Orbital.[/productioncol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SECTOR_SPECIALIZATION_INFRASTRUCTURE_IV</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_I</Data></Cell>
+    <Cell><Data ss:Type="String">{StratOpPointIncome}. {OpDefenseBonus} dentro do domínio da colônia anexada.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIVE_QUEEN_EFFIGY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Efigie da Rainha da Colmeia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell><Data ss:Type="String">HIVE_QUEEN_EFFIGY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Concede {HappinessIncrease} à colônia e {MoraleBonus} às unidades Kir'Ko dentro do domínio desta colônia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HIVE_QUEEN_EFFIGY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Possui {HappinessIncrease} da Efigie da Rainha da Colmeia presente em uma colônia próxima.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:AutoFitHeight="0" ss:Height="21.75">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_BUILD_FORWARD_RELAY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Melhorar para Base de Retransmissão Avançada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="80.25">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_BUILD_FORWARD_RELAY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Melhora esta base avançada para uma base de retransmissão avançada. A base de retransmissão atua como um retransmissor orbital para transporte de unidades e não pode ser anexada a uma colônia, nem gera qualquer renda. A base de retransmissão avançada tem um custo de manutenção de {INT_energyUpkeep}[energy/] e {INT_crystalUpkeep}[tricorium/].</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">A forward base is a physical structure on the world map, that claims a sector. The forward relay base is the same with added functionality</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_BUILD_FORWARD_RELAY</Data></Cell>
+    <Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Atualizando a base avançada para base de retransmissão avançada. O processo será concluído em [INT_duration].</Data></Cell>
+   </Row>
+   <Row ss:Index="36" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORWARD_RELAY_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Base de Retransmissão Avançada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="109.5">
+    <Cell><Data ss:Type="String">FORWARD_RELAY_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta estrutura reivindica o setor para seu proprietário. Ela fornece cura para suas unidades, e inimigos não podem entrar nela sem invadir. No entanto, ela não gera qualquer renda.[br/][br/]A base de retransmissão atua como um retransmissor orbital para transporte de unidades e não pode ser anexada a uma colônia. A base de retransmissão avançada tem um custo de manutenção de {INT_energyUpkeep}[energy/] e {INT_crystalUpkeep}[tricorium/].</Data></Cell>
+   </Row>
+   <Row ss:Index="39" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRYSTAL_ALTAR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Altar de Cristal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="110.25">
+    <Cell><Data ss:Type="String">CRYSTAL_ALTAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O altar de cristal pode potencializar a capacidade das unidades ao expô-las à essência contida nele durante seu treinamento.[br/][br/]Todas as unidades produzidas nesta colônia têm +{Resistance} de resistência a efeitos de status e +{CritChance}% de chance de acerto crítico.[br/][br/]Além disso, todas as unidades [abilityblue]Heritor[/abilityblue] produzidas nesta colônia causam +{damage}% de dano.
+</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Essence refers to the Essence we are using in the new secret tech: Heritor. It can be seen as 'lifeforce' however is also found in non biological units. It is a form of energy inherent in all things, that can be tapped into / extracted and used for abilities.
+
+Heritor is refering to the new secret tech that we are implementing. It's derived from Heritage. Heritor is both plural and singular.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRYSTAL_ALTAR</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aprimoramento Cristalino</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="54.75">
+    <Cell><Data ss:Type="String">CRYSTAL_ALTAR</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade foi modificada com aprimoramentos cristalinos finos, concedendo-lhe {Resistance} de resistência contra todos os efeitos de status e +{CritChance}% de chance de acerto crítico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CRYSTAL_ALTAR</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_BONUS_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades Heritor produzidas ganham +{damage}% de dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CRYSTAL_ALTAR</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_BONUS_2</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades produzidas ganham +{Resistance} de resistência a efeitos de status e +{CritChance}% de chance de acerto crítico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:Index="48" ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Index="50" ss:AutoFitHeight="0" ss:Height="60"/>
+   <Row ss:Index="53" ss:AutoFitHeight="0" ss:Height="90" ss:Span="1"/>
+   <Row ss:Index="57" ss:AutoFitHeight="0" ss:Height="120"/>
+   <Row ss:Index="59" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:Index="61" ss:AutoFitHeight="0" ss:Height="90" ss:Span="1"/>
+   <Row ss:Index="65" ss:AutoFitHeight="0" ss:Height="120"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Index="69" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Index="71" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Index="75" ss:AutoFitHeight="0" ss:Height="60"/>
+   <Row ss:Index="77" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Index="79" ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Index="81" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Index="83" ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Index="85" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Index="87" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Index="89" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Index="94" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:Index="98" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:Index="100" ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:Index="102" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:Index="104" ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:Index="107" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="45" ss:Span="1"/>
+   <Row ss:Index="111" ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:Index="113" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:Index="115" ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:Span="1"/>
+   <Row ss:Index="122" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:AutoFitHeight="0" ss:Height="60"/>
+   <Row ss:Index="127" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:Index="129" ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:Index="132" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:Span="1"/>
+   <Row ss:Index="137" ss:AutoFitHeight="0" ss:Height="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="45" ss:Span="1"/>
+   <Row ss:Index="141" ss:AutoFitHeight="0" ss:Height="90"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:Span="2"/>
+   <Row ss:Index="147" ss:AutoFitHeight="0" ss:Height="90"/>
+   <Row ss:AutoFitHeight="0" ss:Height="45" ss:Span="1"/>
+   <Row ss:Index="152" ss:AutoFitHeight="0" ss:Height="90"/>
+   <Row ss:Index="154" ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:Index="156" ss:AutoFitHeight="0" ss:Height="120"/>
+   <Row ss:Index="158" ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:Index="160" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:AutoFitHeight="0" ss:Height="60"/>
+   <Row ss:Index="164" ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="4" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45" ss:Span="1"/>
+   <Row ss:Index="181" ss:AutoFitHeight="0" ss:Height="60" ss:Span="2"/>
+   <Row ss:Index="188" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:Index="190" ss:AutoFitHeight="0" ss:Height="135"/>
+   <Row ss:Index="193" ss:AutoFitHeight="0" ss:Height="75" ss:Span="1"/>
+   <Row ss:Index="197" ss:AutoFitHeight="0" ss:Height="60"/>
+   <Row ss:Index="199" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:Index="203" ss:AutoFitHeight="0" ss:Height="45" ss:Span="8"/>
+   <Row ss:Index="224" ss:AutoFitHeight="0" ss:Height="60"/>
+   <Row ss:Index="226" ss:AutoFitHeight="0" ss:Height="45" ss:Span="1"/>
+   <Row ss:Index="230" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:Index="232" ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:Index="235" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:Index="237" ss:AutoFitHeight="0" ss:Height="30" ss:Span="2"/>
+   <Row ss:Index="242" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:Index="244" ss:AutoFitHeight="0" ss:Height="30" ss:Span="2"/>
+   <Row ss:Index="249" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:Index="251" ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:Index="253" ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:Index="256" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:Index="258" ss:AutoFitHeight="0" ss:Height="30" ss:Span="3"/>
+   <Row ss:Index="263" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:Span="4"/>
+   <Row ss:Index="270" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:Index="272" ss:AutoFitHeight="0" ss:Height="30" ss:Span="3"/>
+   <Row ss:Index="278" ss:AutoFitHeight="0" ss:Height="60" ss:Span="1"/>
+   <Row ss:Index="282" ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:Index="284" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:Index="286" ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:Index="288" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:Index="290" ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:Index="292" ss:AutoFitHeight="0" ss:Height="60"/>
+   <Row ss:Index="294" ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:Index="296" ss:AutoFitHeight="0" ss:Height="60"/>
+   <Row ss:Index="298" ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:Index="300" ss:AutoFitHeight="0" ss:Height="60"/>
+   <Row ss:Index="302" ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:Index="304" ss:AutoFitHeight="0" ss:Height="60"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>33</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>43</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

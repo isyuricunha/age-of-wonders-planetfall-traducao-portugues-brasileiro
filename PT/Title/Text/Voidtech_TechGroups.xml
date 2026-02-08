@@ -1,0 +1,1172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Luis Ferreira</LastAuthor>
+  <LastSaved>2019-03-11T14:48:39Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7308</WindowHeight>
+  <WindowWidth>23040</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="229" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.6" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="236.39999999999998"/>
+   <Column ss:StyleID="s62" ss:Width="168.60000000000002"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="296.39999999999998"/>
+   <Column ss:StyleID="s62" ss:Width="147.6"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="258.60000000000002"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="144.6"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="296.39999999999998"/>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">VOIDTECH_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOIDTECH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tecnologia do Vazio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASEWALK_MODULATOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Modulador de Andar de Fase</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PHASEWALK_MODULATOR</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade ganha [abilityblue]Campo de Fase[/abilityblue]. A unidade pode atravessar obstáculos e é {PhaseEvasion}% mais difícil de acertar em combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RIFT_COILS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bobinas de Fenda de Distorção</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RIFT_COILS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Libera a instabilidade acumulada em um alvo.</Data></Cell>
+   </Row>
+   <Row ss:Index="13" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAVITY_PULSE_GRENADES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Granada de Pulso Gravitacional</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GRAVITY_PULSE_GRENADES</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Arremessa uma Granada de Pulso Gravitacional causando dano em uma área de {hexrad} hexágonos de raio.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_AUGMENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aprimoramento do Vazio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">VOID_AUGMENT</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os ataques da unidade têm uma chance de {VoidAugmentChance}[strengthphysical/] de força ({VoidAugmentChanceRepeating}[strengthphysical/] para ataques repetidos) de aplicar [abilityred]Instabilidade Dimensional[/abilityred].[br/]Se o ataque já aplica esse efeito de status, em vez disso, aumenta sua força em +{VoidAugmentChanceRepeating}[strengthphysical/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_DRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Propulsor de Fase</Data></Cell>
+   </Row>
+   <Row ss:Index="19" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STASIS_POCKET_INDUCER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Indutor de Bolsão de Estase</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STASIS_POCKET_INDUCER</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os ataques da unidade têm uma chance de {StasisChance}[strengthphysical/] de força ({StasisChanceRepeating}[strengthphysical/] para ataques repetidos) de remover {stasisremoveap} ponto de ação do alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Avatar Quântico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sempre que a unidade sofre dano, seu atacante é teletransportado {QuantumAvatarTeleport} hexágonos para longe de sua posição atual e tem uma chance de {StasisChance}[strengthphysical/] de força de receber [abilityred]Instabilidade Dimensional[/abilityred].[br/][br/]A unidade e quaisquer unidades adjacentes com Tecnologia do Vazio ou modificadas por ela recebem {QuantumAvatarShields}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Halo de Avatar Quântico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade com Tecnologia do Vazio está sob o efeito de um halo de Avatar Quântico, ganhando {QuantumAvatarShields}.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"><Data ss:Type="String">Is this supposed to be Stagger Resistance, like in the mod description?</Data></Cell>
+   </Row>
+   <Row ss:Index="26" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ECHO_PROTOCOLS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Protocolos de Eco</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">ECHO_PROTOCOLS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Tecnologia do Vazio permite a capacidade de criar cópias eco limitadas de pessoas que podem realizar tarefas reais, aumentando a produção de recursos da colônia.[br/][br/]Todas as colônias produzem {ResourceIncome} de seu respectivo recurso por colono trabalhando nos slots de [Food/], [Energy/], [Production/] e [Research/].</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Applies to Food, Knowledge, Production, Energy</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PREVENTATIVE_SURVEILLANCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vigilância Preventiva</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PREVENTATIVE_SURVEILLANCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A tecnologia da Tecnologia do Vazio pode ser aplicada a sensores, aumentando o alcance e permitindo que leiam a assinatura dimensional de entidades.[br/][br/]Unidades de Reconhecimento e colônias ganham {ScoutSensorRange} de alcance de sensor e visão. Unidades que não são de Reconhecimento ganham {NonScoutSensorRange} de alcance de sensor e visão.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_SHARING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Extração de Energia Quântica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RESEARCH_SHARING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Se estamos gerando energia nesta dimensão, certamente outra versão de nós está fazendo o mesmo em uma dimensão diferente. Se pudéssemos encontrar uma maneira de extrair essa energia...[br/][br/]Colônias produzem um adicional de {EnergyIncome}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THE_QUANTUM_PROJECT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Projeto Quântico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THE_QUANTUM_PROJECT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao implementar redes quânticas, a velocidade de pesquisa pode ser aumentada tremendamente.[br/][br/]{ResearchIncome} em cada colônia para cada setor de pesquisa conectado a ela.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOIDTECH_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade Tecnologia do Vazio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VOIDTECH_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é considerada uma Unidade Tecnologia do Vazio e está protegida contra Operações e habilidades ofensivas de Tecnologia do Vazio.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_SHIFT_ABDUCT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Deslocamento de Fase: Abduzir</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PHASE_SHIFT_ABDUCT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tenta teletransportar à força a unidade alvo para um hexágono adjacente a esta unidade com uma chance de {teleportchance}. Uma unidade pode ser alvo desta habilidade apenas uma vez por turno.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_SHIFT_ABDUCT</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Puxão de Fase</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_SHIFT_EVACUATE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Deslocamento de Fase: Evacuar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PHASE_SHIFT_EVACUATE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade aliada alvo é teletransportada para um hexágono adjacente a esta unidade, curando {Evacuateheal} e ganhando +{shieldgain} por {turnshield}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_SHIFT_EVACUATE</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade tem +{shieldgain}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_BLADES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lâminas do Vazio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_BLADES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataque corpo a corpo com lâminas dimensionais.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_HAMMER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Martelo do Vazio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VOID_HAMMER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataque corpo a corpo poderoso que [abilityred]empurra[/abilityred] unidades Leves.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_GLAIVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Glaive do Vazio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_GLAIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataque corpo a corpo com lâminas dimensionais.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Instabilidade Dimensional</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{DimensionalInstabilityChance}[StrengthPhysical/] chance de força para causar [abilityred]Instabilidade Dimensional[/abilityred] até o fim do combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY_1</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Instabilidade Dimensional 1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY_1</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem resistência -{PhysicalResistanceDecrease}[DefensePhysical/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY_2</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Instabilidade Dimensional 2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY_2</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade não está mais solidamente conectada a esta dimensão. Ela perde um nível de Resistência a Atordoamento.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY_3</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Instabilidade Dimensional 3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY_3</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está perdendo sua conexão com esta dimensão, reduzindo o dano de seus ataques em {PsionicDamageDecrease}%.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY_4</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Instabilidade Dimensional 4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DIMENSIONAL_INSTABILITY_4</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A própria existência desta unidade é instável. No início de seu turno, ela se teleporta aleatoriamente para até {TeleportRange} hexes de distância de sua posição original.</Data></Cell>
+   </Row>
+   <Row ss:Index="60" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUANTUM_ECHO</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Eco Quântico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">QUANTUM_ECHO</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade se divide em versões alternativas de si mesma. A unidade clonada se teleporta a uma curta distância, deixando a versão original para trás. O clone dura {turns}. Se a unidade original for eliminada enquanto clonada, o clone permanecerá, substituindo a unidade original.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUANTUM_PULSE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pulso Quântico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">QUANTUM_PULSE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade se divide em versões alternativas de si mesma. A unidade clonada se teleporta a uma curta distância, liberando uma explosão de instabilidade, deixando a versão original para trás. O clone dura {turns}. Se a unidade original for eliminada enquanto clonada, o clone permanecerá, substituindo a unidade original.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUANTUM_CLONE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Clone Quântico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">QUANTUM_CLONE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é um clone quântico. Se a unidade original for eliminada, esta unidade a substituirá, tornando-se a original.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Campo de Fase</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PHASE_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade pode se mover através de obstáculos em combate tático e é {PhaseFieldDef} mais difícil de acertar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DIMENSIONAL_DESYNC</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dessincronia Dimensional</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">DIMENSIONAL_DESYNC</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tem força {procChance} para aplicar [abilityred]Dessincronia Dimensional[/abilityred] à unidade alvo por {dimensionaldesynctime}, tornando-a imune a dano, mas incapaz de usar habilidades. Em caso de falha, aplica [abilityred]Instabilidade Dimensional[/abilityred].[br/][br/]Sempre tem sucesso ao atingir aliados.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DIMENSIONAL_DESYNCED</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dessincronizado Dimensionalmente</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DIMENSIONAL_DESYNCED</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade é imune a dano, mas não pode usar habilidades.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DIMENSIONAL_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fenda Dimensional</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DIMENSIONAL_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Causa uma fenda menor em uma área de raio de {hexrad} hex, causando dano e teleportando alvos {DimensionalRiftHexes} hexes em uma direção aleatória.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TIME_WARP_FRIENDLY</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aceleração da Distorção Temporal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TIME_WARP_ENEMY</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Desaceleração da Distorção Temporal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TIME_WARP</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Distorção Temporal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TIME_WARP</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Afeta todas as unidades em uma área de raio de {TimeWarpRadius} hex. Unidades aliadas ganham [abilityblue]Movimento Rápido[/abilityblue], e unidades inimigas são afetadas com [abilityred]Movimento Lento[/abilityred] por {TimeWarpDuration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TIME_WARP</Data></Cell>
+    <Cell><Data ss:Type="String">FRIENDLY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem [abilityblue]Movimento Rápido[/abilityblue] por {Duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TIME_WARP</Data></Cell>
+    <Cell><Data ss:Type="String">ENEMY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem [abilityred]Movimento Lento[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REACTIVE_PHASE_PROTECTION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Proteção de Fase Reativa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">REACTIVE_PHASE_PROTECTION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade alvo recebe Defesa de Fase Reativa por {ReactivePhaseProtectionTime}. Cada vez que a unidade sofre dano, ela é teleportada para um hex aleatório dentro de {ReactivePhaseProtectionRange} hexes de sua posição original.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REACTIVE_PHASE_DEFENSE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Defesa de Fase Reativa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">REACTIVE_PHASE_DEFENSE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cada vez que a unidade sofre dano, ela é teleportada para um hex aleatório dentro de {ReactivePhaseProtectionRange} hexes de sua posição original.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VORTEX_CHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Carga de Vórtice</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VORTEX_CHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lança uma Carga de Vórtice em uma área de raio de {AoERadius} hex, causando {VorextChargeDamage} de dano a todas as unidades não-Voidtech com {VortexChargeChance} de chance de infligir [abilityred]Instabilidade Dimensional[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_ECHO</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Criar Eco de Fase</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">PHASE_ECHO</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cria um Eco Instável da unidade alvo não-Herói. Uma cópia da unidade aparece adjacente a ela e fica sob seu controle. Ecos Instáveis causam [abilityred]50%[/abilityred] menos dano, mas são indistinguíveis do original.[br/][br/]O Eco Instável se dissipa ao fim do combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNSTABLE_ECHO</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Eco Instável</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">UNSTABLE_ECHO</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade não passa de uma sombra de si mesma e causa [abilityred]{UnstableEchoDamagePen}[/abilityred] menos dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNSTABLE_ECHO</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]{UnstableEchoDamagePen}[/abilityred] de dano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TIME_REWIND</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rebobinar Tempo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TIME_REWIND</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ressuscitar uma unidade morta aliada não Voadora e não Herói com [hp/] completo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DIMENSIONAL_VORTEX_BOMB</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bomba Vortex Dimensional</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">DIMENSIONAL_VORTEX_BOMB</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lançar uma Bomba Vortex Dimensional na área alvo de raio de 1 hex, causando {DimVortexBombDamage}[damagephysical/] de dano com Impacto Massivo. Todas as unidades não Voidtech na área são teletransportadas aleatoriamente para uma posição a até {DimVortexRange} hexes de distância de sua localização original.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Anomalia Temporal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades no exército alvo perdem todos os seus pontos de movimento [movewalk/]. Além disso, todas as unidades no exército alvo têm [abilityred]Movimento Muito Lento[/abilityred] por {TurnDuration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">O bloqueio temporal afetou com sucesso o exército alvo, paralisando seu avanço.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">O bloqueio temporal não conseguiu distorcer o tempo local, mas pelo menos afetou parcialmente o exército alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">O tempo e o espaço ao redor de um de nossos exércitos foram distorcidos, paralisando seu avanço.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos inimigos tentaram atingir um de nossos exércitos com um bloqueio temporal para paralisar seu avanço. Nosso exército foi apenas parcialmente afetado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_STRING_MOVEPOINT</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades no exército afetado perderam todos os seus pontos de movimento [movewalk/] por {Duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_STRING_PROPERTY</Data></Cell>
+    <Cell><Data ss:Type="String">Em caso de falha, unidades no exército afetado têm [abilityred]Movimento Muito Lento[/abilityred] por {TurnDuration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TIME_ANOMALY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade tem [abilityred]Movimento Muito Lento.[/abilityred]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INSTABILITY_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DMG</Data></Cell>
+    <Cell><Data ss:Type="String">Aumento de Dano por Fenda de Instabilidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INSTABILITY_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION_DMG</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade tem {InstabilityDmgI}% de dano aumentado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMERGENCY_REDEPLOY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Redeploy de Emergência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EMERGENCY_REDEPLOY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Teletransportar o exército próprio alvo para a colônia capital e conceder a todas as unidades no exército [abilityblue]Movimento Rápido[/abilityblue] por {TurnDuration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EMERGENCY_REDEPLOY</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_STRING</Data></Cell>
+    <Cell><Data ss:Type="String">O exército foi chamado de volta para a colônia capital e tem [abilityblue]Movimento Rápido[/abilityblue] por {TurnCounter}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EMERGENCY_REDEPLOY</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade foi chamada de volta para a colônia capital e tem [abilityblue]Movimento Rápido.[/abilityblue]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EMERGENCY_REDEPLOY</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">O farol de recall em massa funcionou exatamente como planejado, retornando o exército alvo para a colônia capital.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_STORM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tempestade do Vazio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">VOID_STORM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um perigo de Tempestade do Vácuo é gerado no setor alvo, reduzindo a renda de [energy/] em {IncomeReduction} e a felicidade em {HappinessReduction} nas colônias afetadas. A Tempestade do Vácuo também tem chance de aplicar [abilityred]Instabilidade Dimensional[/abilityred] a todas as unidades no setor a cada {TurnChance} em combate tático.[br/][br/]Além disso, todas as unidades não-Voidtech no setor sofrem dano igual a {PercentageDamageCurrentHP} de seu [hp/] atual[br/][br/]Em caso de falha, a Tempestade do Vácuo não é gerada, mas o dano ainda é causado às unidades.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VOID_STORM</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">A Tempestade do Vácuo se formou com sucesso em uma explosão violenta no local alvo. Unidades inimigas não-Voidtech no setor sofreram danos significativos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VOID_STORM</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">A Tempestade do Vácuo falhou em se ancorar nesta dimensão, mas ainda assim danificou unidades inimigas no setor.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VOID_STORM</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Um perigo de Tempestade do Vácuo foi gerado em seu setor, causando dano aos exércitos presentes no setor.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VOID_STORM</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">A Tempestade do Vácuo falhou em se ancorar em seu setor, mas não sem antes danificar os exércitos presentes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VOID_STORM</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_STRING</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades sofreram {PercentageDamageCurrentHP} de dano de seu [hp/] atual</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DIMENSIONAL_CASCADE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cascata Dimensional</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fenda de Instabilidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">VICTORY_CONDITION</Data></Cell>
+    <Cell><Data ss:Type="String">Envolver o mundo em Fendas Dimensionais, extraindo energia delas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades Voidtech ganham [abilityblue]Campo de Fase[/abilityblue]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Roubar renda de {EnergyDrain}[energy/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades não-Voidtech têm {TeleportChance} de chance de força para serem teletransportadas aleatoriamente até {teleportDistance} hexágonos de distância a cada [turn/] em combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fenda de Instabilidade Nível 3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{TeleportChance} de chance de força para teletransportar aleatoriamente unidades que não pertencem a um jogador Voidtech até 2 hexágonos de distância no início de cada turno de combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DIMENSIONAL_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fenda Dimensional</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DIMENSIONAL_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Rasgar o espaço-tempo na colônia inimiga não-Voidtech alvo, criando uma Fenda Dimensional por {duration}. Este efeito aumenta em força conforme você constrói mais Torres Amplificadoras Dimensionais.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DIMENSIONAL_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Os geradores de fendas dispararam com sucesso, e uma fenda foi aberta ao redor da colônia alvo. Já estamos começando a extrair energia da fenda para uso em nosso império.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DIMENSIONAL_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Os sistemas defensivos inimigos interferiram no funcionamento de nossos geradores de fendas, fazendo com que falhassem. Conforme a fenda entrou em colapso, ondas de choque varreram a colônia, causando pânico nas ruas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DIMENSIONAL_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">O inimigo abriu algum tipo de fenda dimensional sobre uma de nossas colônias. A fenda está interferindo na infraestrutura local e nos sistemas de energia, causando caos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DIMENSIONAL_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">O inimigo tentou abrir algum tipo de fenda dimensional sobre uma de nossas colônias, mas foi impedido por nossos sistemas defensivos. As consequências do ataque causaram alguns danos menores, o que levou a tumultos e pânico entre a população.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DIMENSIONAL_AMPLIFIER_TOWER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Torre Amplificadora Dimensional</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DIMENSIONAL_AMPLIFIER_TOWER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Torre Amplificadora Dimensional desbloqueia a Arma Apocalíptica Fenda Dimensional. Cada Torre Amplificadora Dimensional adicional que você construir aumenta o nível da arma, tornando-a mais poderosa.[br/][br/]Apenas uma Torre Amplificadora Dimensional pode ser construída por colônia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DIMENSIONAL_CASCADE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cascata Dimensional</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DIMENSIONAL_CASCADE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A etapa final do plano Voidtech abre Fendas Dimensionais em vários mundos, extraindo uma quantidade quase infinita de energia delas.[br/][br/]Requer Fenda de Instabilidade nível 3.[br/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DIMENSIONAL_CASCADE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Após anos de pesquisa árdua e experimentos intermináveis, o momento finalmente chegou. Assim como nossas previsões calcularam, a cascata se espalhou pelo planeta, abrindo fenda após fenda. Quando o processo estiver completo, teremos acesso a poder sem limites!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DIMENSIONAL_COLLAPSE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colapso Dimensional</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DIMENSIONAL_COLLAPSE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Colapsa a realidade ao redor do alvo, com {InstaKillChance}% de chance de matá-lo instantaneamente sem deixar cadáver. Se falhar, causa {DimensionalCollapseDamage} de dano e [abilityred]Impacto Massivo[/abilityred] em vez disso.[br/][br/]Não pode atingir unidades Comandante.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_ECHO_GUARD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Guarda Eco de Fase</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PHASE_ECHO_GUARD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Prepara Ecos de Fase na colônia amiga alvo. Eles serão invocados durante qualquer combate que ocorra dentro do domínio da colônia. No início do combate, isso criará Ecos Instáveis de {PhaseEchoGuardNumber} unidades amigas aleatórias. Os Ecos permanecem até o fim do combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PHASE_ECHO_GUARD</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Os Guardas Eco de Fase foram preparados e estão prontos para serem enviados ao combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_ECHO_GUARD</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O defensor enviou Ecos Instáveis para esta batalha.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fenda do Vazio Localizada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">DEBUFF_NAME_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Desestabilizado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">DEBUFF_NAME_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Desmoralizado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades no exército alvo ganham [abilityred]Desestabilizado[/abilityred] por {TurnDuration}, reduzindo a resistência a dano em {LoweredResistance} e diminuindo a moral em {LoweredMorale}.[br/][br/]Se resistido, elas ficam [abilityred]Desmoralizadas[/abilityred] em vez disso, reduzindo sua moral em {LoweredMorale}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade sofre de {LoweredResistance} em todos os canais de resistência e {LoweredMorale}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade sofre de {LoweredMorale}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Nossa tecnologia do Vazio localizada desestabilizou com sucesso nossos inimigos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossa fenda do Vazio localizada colapsou quase imediatamente. A visão do Vazio apenas desmoralizou nossos inimigos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos inimigos abriram uma fenda do Vazio local, desestabilizando nossas tropas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos inimigos tentaram abrir uma fenda local do Vazio, mas ela entrou em colapso rapidamente. A visão do Vazio, no entanto, desmoralizou nossas tropas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_STRING_SUCCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">O exército alvo está [abilityred]Desestabilizado[/abilityred] por {TurnDuration}, reduzindo sua resistência a danos em {LoweredResistance} e sua moral em {LoweredMorale}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">LOCALIZED_VOID_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_STRING_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">O exército alvo está [abilityred]Desmoralizado[/abilityred] por {TurnDuration}, reduzindo sua moral em {LoweredMorale}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_BARRIERS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Barreiras do Vazio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">VOID_BARRIERS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades inimigas dentro do domínio da colônia amiga afetada precisam usar {ExtraMovePoints} pontos de movimento extras para cada hexágono que se movem e a cada {delay} têm {StrChanceSlow}% de chance de ganhar [abilityred]Lentidão[/abilityred], por {Duration}[turn/] ao lutar neste domínio.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VOID_BARRIERS</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Conseguimos erguer Barreiras do Vazio ao redor da colônia, o que irá retardar quaisquer visitantes indesejados.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VOID_BARRIERS</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A cada {delay}, todas as unidades inimigas têm {StrChanceSlow}% de chance de ganhar [abilityred]Lentidão[/abilityred], por {Duration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_EVENT_INITIAL_NOTIFICATION</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Condição de Vitória: Cascata Dimensional</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VOID_EVENT_UPGRADE_CAPTURED</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">Uma de nossas Torres de Amplificação Dimensional foi capturada!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_EVENT_UPGRADE_LOST</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">Você perdeu uma Torre de Amplificação Dimensional!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_EVENT_UPGRADE_LOST</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_Player} perdeu uma Torre de Amplificação Dimensional!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VOID_EVENT_UPGRADE_LOST_NOT_GLOBAL</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">Você perdeu uma Torre de Amplificação Dimensional. Nossa tentativa de liberar a Cascata Dimensional foi cancelada!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VOID_EVENT_UPGRADE_LOST_GLOBAL</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_Player} perdeu uma Torre de Amplificação Dimensional. A tentativa deles de liberar a Cascata Dimensional foi frustrada!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_EVENT_INITIAL_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Um jogador liberou sua Cascata Dimensional!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">VOID_EVENT_UPGRADE_BUILT_01</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Ao construir uma Torre de Amplificação Dimensional, {playerName} agora tem acesso à sua Arma do Juízo Final, a Cascata Dimensional. Ela está fraca agora, mas se tornará mais poderosa conforme mais Torres de Amplificação Dimensional forem construídas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VOID_EVENT_UPGRADE_BUILT_02</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Ao construir uma segunda Torre de Amplificação Dimensional, {playerName} fortaleceu sua Arma do Juízo Final, a Cascata Dimensional. Você deve planejar ataques para destruir essas estruturas antes que se tornem poderosas demais.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">VOID_EVENT_UPGRADE_BUILT_03</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Ao construir sua última Torre de Amplificação Dimensional, {playerName} maximizou a força de sua Arma do Juízo Final, a Cascata Dimensional. Eles estão próximos de liberá-la completamente e vencer o jogo. A hora de atacar é agora!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VOID_EVENT_UPGRADE_CAPTURED_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">O Cronômetro do Juízo Final foi pausado! Você deve reconquistar a Torre de Amplificação Dimensional perdida ou perderá a chance de liberar a Cascata Dimensional sobre seus inimigos!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VOID_EVENT_UPGRADE_LOST_GLOBAL_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">A perda de uma Torre de Amplificação Dimensional cancelou a Cascata Dimensional, encerrando o Cronômetro do Juízo Final.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VOID_EVENT_UPGRADE_LOST_NOT_GLOBAL_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">A perda de uma Torre de Amplificação Dimensional enfraqueceu nossa Cascata Dimensional, e suas operações do Juízo Final foram canceladas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">VOID_EVENT_FINISHER_CAST_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos inimigos ativaram sua Arma do Juízo Final, uma Cascata Dimensional se espalhou pelo planeta, e sua própria Arma do Juízo Final foi destruída pelo cataclismo. Você tem {numTurns} para destruir uma de suas Torres de Amplificação Dimensional ou eles vencerão o jogo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VOID_EVENT_RUNNING_VICTORY_TIMER</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">A Cascata Dimensional está ativa, e você vencerá em {numTurns} a menos que perca uma de suas Torres de Amplificação Dimensional.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VOID_EVENT_RUNNING_VICTORY_TIMER</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">A Cascata Dimensional está ativa, e {playerName} vencerá em {numTurns} a menos que você consiga destruir uma de suas Torres de Amplificação Dimensional.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VOID_EVENT_VICTORY_TIMER_PAUSED</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Torre de Amplificação Dimensional foi capturada! Se for destruída, nosso cronômetro do Juízo Final será cancelado. Se você recapturar a torre, poderá retomar a contagem regressiva.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VOID_EVENT_VICTORY_TIMER_PAUSED</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Torre de Amplificação Dimensional foi capturada! Se for destruída, o cronômetro do Juízo Final será cancelado. Se {playerName} recapturar a torre, então eles poderão retomar a contagem regressiva.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VOID_EVENT_FINISHER_PRIMING</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">{playerName} está preparando sua Arma do Juízo Final de Cascata Dimensional! Se permitirem que concluam, sua própria Arma do Juízo Final será destruída, e {playerName} estará a um passo da vitória total!</Data></Cell>
+   </Row>
+   <Row ss:Index="179" ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">VOID_END_GAME</Data></Cell>
+    <Cell><Data ss:Type="String">VICTORY_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Você é o governante deste mundo… pelo menos nesta dimensão.[br/]Existem dimensões infinitas nas quais você não é.[br/]Aproveite sua vitória, mas os custos de suas ações[br/]ressoam por todo o multiverso.[br/]Cada ação desencadeia alguma forma de reação,[br/]mesmo na física quântica.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">VO: Empress Carminia</Data></Cell>
+   </Row>
+   <Row ss:Index="181" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASEWALK_MODULATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Intangível</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASEWALK_MODULATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Faseado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASEWALK_MODULATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Espectro</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASEWALK_MODULATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Aparição</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASEWALK_MODULATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Dissociado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASEWALK_MODULATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Estado Dividido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASEWALK_MODULATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell><Data ss:Type="String">Profundidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_AUGMENT</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Instável</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_AUGMENT</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Anulado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_AUGMENT</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Errático</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_AUGMENT</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Caótico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_AUGMENT</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Anarquista</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_AUGMENT</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Artífice do Vazio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_AUGMENT</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell><Data ss:Type="String">Ferreiro do Vazio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_AUGMENT</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_8</Data></Cell>
+    <Cell><Data ss:Type="String">Qubit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAVITY_PULSE_GRENADES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Bombardeiro do Vazio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAVITY_PULSE_GRENADES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Malabarista de Vórtice</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAVITY_PULSE_GRENADES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Supernova</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAVITY_PULSE_GRENADES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Gravitacional</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAVITY_PULSE_GRENADES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Tecido Quântico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAVITY_PULSE_GRENADES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Buraco Negro</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAVITY_PULSE_GRENADES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell><Data ss:Type="String">Rasgado pelo Tempo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAVITY_PULSE_GRENADES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_8</Data></Cell>
+    <Cell><Data ss:Type="String">Gráviton</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_DRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Clarão do Vazio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_DRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Corredor Planar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_DRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Corredor da Fenda</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_DRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Instante Decisivo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_DRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Distorcido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_DRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Fotônico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_DRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell><Data ss:Type="String">Bicho-papão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_DRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_8</Data></Cell>
+    <Cell><Data ss:Type="String">Susto Repentino</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_DRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_9</Data></Cell>
+    <Cell><Data ss:Type="String">Polarizado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_DRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_10</Data></Cell>
+    <Cell><Data ss:Type="String">Multiversal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STASIS_POCKET_INDUCER</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Sugador de Tempo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STASIS_POCKET_INDUCER</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Congelamento Instantâneo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STASIS_POCKET_INDUCER</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Paralisador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STASIS_POCKET_INDUCER</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Supressor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STASIS_POCKET_INDUCER</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Petrificante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STASIS_POCKET_INDUCER</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Atordoante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STASIS_POCKET_INDUCER</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell><Data ss:Type="String">Lentidão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STASIS_POCKET_INDUCER</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_8</Data></Cell>
+    <Cell><Data ss:Type="String">Bandido Azul</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STASIS_POCKET_INDUCER</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_9</Data></Cell>
+    <Cell><Data ss:Type="String">Temporal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Exodimensional</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Rasgador de Planos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Gêmeos da Fase</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Antimatéria</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Horizonte de Eventos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Embaralhador de Realidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUANTUM_AVATAR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell><Data ss:Type="String">Quebrador de Fendas</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>117</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>124</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

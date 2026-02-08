@@ -1,0 +1,697 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Benny Arents</Author>
+  <LastAuthor>Luis Ferreira</LastAuthor>
+  <Created>2018-12-04T15:56:28Z</Created>
+  <LastSaved>2019-05-14T10:03:21Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10215</WindowHeight>
+  <WindowWidth>21570</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="130" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="14.4375">
+   <Column ss:StyleID="s62" ss:Width="144"/>
+   <Column ss:StyleID="s62" ss:Width="135"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="369.75"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="325.5"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="369.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="57.5625">
+    <Cell><Data ss:Type="String">TUTORIAL_MAP</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="57.5625">
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="86.4375">
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lagoa de Altutori</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Altutori's - Name of the Lake</Data></Cell>
+   </Row>
+   <Row ss:Index="10" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Explorar Dolos Minerva</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Descobrir o que aconteceu com o centro de pesquisa neste planeta.</Data></Cell>
+   </Row>
+   <Row ss:Index="14" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SEARCHING_FOR_SURVIVORS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Procurando Sobreviventes</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">SEARCHING_FOR_SURVIVORS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Selecione seu exército e explore o setor próximo. Localize e investigue o Biodomo Sobrecrescido.[br/][br/][recommendedcol]Dica: você pode ver seu progresso nas missões ativas no momento na interface de Objetivos.[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Imperial Biodome - Food producing location on the map</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SEARCHING_FOR_SURVIVORS</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_01</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Explorar o setor próximo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Objective</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SEARCHING_FOR_SURVIVORS</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_02</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Tomar controle do Biodomo Sobrecrescido</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Objective</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SEARCHING_FOR_SURVIVORS</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_01</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Planetfall bem-sucedido, Comandante. Ativando sistemas da base colonial.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">SEARCHING_FOR_SURVIVORS</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_02</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Bom, não há tempo a perder. Começaremos estabelecendo e expandindo esta colônia. Inicie uma varredura na superfície em busca de sobreviventes e infraestrutura colonial existente. Informe-me quando nossos sistemas de pesquisa estiverem online.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">SEARCHING_FOR_SURVIVORS</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_03</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Sim, Comandante. Recalibrando sensores e iniciando varredura na superfície…[br/][br/]Um biodomo foi localizado nas proximidades, mas não há sinais de sobreviventes.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">SEARCHING_FOR_SURVIVORS</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_04</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Continue escaneando a superfície do planeta. Se houver sobreviventes neste mundo, quero saber. Vou explorar os setores adjacentes e investigar o biodomo — ele deve conter suprimentos que nos ajudarão a expandir nossa colônia.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:Index="24" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESTABLISH_COLONY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Estabelecer Colônia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="86.4375">
+    <Cell><Data ss:Type="String">ESTABLISH_COLONY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Abra a interface da colônia e conclua o projeto de produção ‘Instalação de Replicador Central’, encontrado na aba de Produção de Estruturas.[br/][br/][recommendedcol]Dica: a interface da colônia pode ser aberta selecionando a colônia. Se houver um exército em cima dela, seu primeiro clique selecionará o exército, e um segundo clique selecionará a própria colônia.[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Central Replicator Facility - A structure that is build in colonies</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESTABLISH_COLONY</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Concluir um projeto de produção</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Objective</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="57.5625">
+    <Cell><Data ss:Type="String">ESTABLISH_COLONY</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_01</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">As instalações de produção da colônia estão ociosas no momento, Comandante.[br/]Recomendo começarmos construindo o[br/][recommendedcol]Instalação de Replicador Central[/recommendedcol] [recommended/] para aumentar a produção.[br/][br/]Destaquei esta estrutura na interface da colônia.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s66"/>
+    <Cell ss:Index="7" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Index="30" ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">NOBODY_HOME</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_01</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Não há sobreviventes aqui. Parece que a estrutura foi tomada por criaturas.[br/][br/]Devemos retomar este biodomo e anexar seu setor à nossa colônia. Isso expandirá nosso domínio e aumentará nossos suprimentos.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">NOBODY_HOME</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_02</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Ainda não temos colonos suficientes para controlar setores adicionais, Comandante. Precisaremos de mais comida para permitir que a colônia cresça. Colônias maiores podem sustentar mais setores provinciais.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">NOBODY_HOME</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_03</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Quero estabelecer nossa posição aqui o mais rápido possível. Podemos recuperar comida extra do Biodomo Sobrecrescido depois de eliminarmos a vida selvagem.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:Index="35" ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">RESEARCH_SYSTEMS_ONLINE</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_01</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Comandante, nossos laboratórios estão online e a Pesquisa agora está disponível. Podemos começar a pesquisar tecnologias para desbloquear novos desdobramentos que nos ajudarão neste planeta.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">RESEARCH_SYSTEMS_ONLINE</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_02</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Excelente. Por onde você sugere começarmos, considerando os parâmetros da missão?</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="115.3125">
+    <Cell><Data ss:Type="String">RESEARCH_SYSTEMS_ONLINE</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_03</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Para Pesquisa Militar, é recomendado começar com[br/][recommendedcol]Suporte de Nanitas[/recommendedcol] [recommended/] para fornecer proteção extra às nossas tropas e desbloquear operações de suporte em batalha.[br/][br/]Para Pesquisa Social, é recomendado começar com[br/][recommendedcol]Instalações de Fronteira[/recommendedcol] [recommended/] para desbloquear melhorias básicas de infraestrutura para nossa colônia. [br/][br/]Destaquei essas habilidades na interface de pesquisa para sua conveniência.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Nanite Support and Frontier Facilities - Tech Names</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:Index="40" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPAND_COLONY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Expandir Colônia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="57.5625">
+    <Cell><Data ss:Type="String">EXPAND_COLONY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Expanda sua colônia anexando o setor próximo.[br/][br/][recommendedcol]Dica: você pode anexar um setor selecionando 'Anexar Setor' nas opções disponíveis.[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Annex Sector - Refers to interface button</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPAND_COLONY</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">Anexar um setor à sua colônia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Objective</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPAND_COLONY</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_02</Data></Cell>
+    <Cell><Data ss:Type="String">Explorar um setor de província</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Objective</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">EXPAND_COLONY</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">Comandante, nossa colônia cresceu o suficiente para suportar um setor adicional. Recomendo anexar o setor que contém o biodomo, pois isso adicionará sua renda de comida à nossa colônia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">EXPAND_COLONY</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">Bom. Vamos anexar este setor à nossa colônia como um setor de província para começarmos a explorar a terra em busca de recursos o mais rápido possível.</Data></Cell>
+   </Row>
+   <Row ss:Index="48" ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">EXPLOIT_SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_01</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Comandante, esse setor foi anexado com sucesso à nossa colônia e agora é considerado um setor de província. Ele pode ser explorado para obter recursos adicionais.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">EXPLOIT_SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_02</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Vamos colocar essa exploração em funcionamento o mais rápido possível. O que a análise do terreno nos diz? Como podemos explorar melhor nosso novo setor de província?</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="129.5625">
+    <Cell><Data ss:Type="String">EXPLOIT_SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_03</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Analisando...[br/][br/]Clima: Fúngico ([supply/]/[research/])[br/]Terreno: Planícies Férteis ([supply/]/[research/])[br/]Nó de Recurso: Biodomo ([supply/])[br/]Processando análise...[br/][br/]Recomendação: [recommendedcol]Exploração Agrícola[/recommendedcol][recommended/][br/][br/]Uma exploração agrícola terá sinergia com o clima e o terreno, permitindo que o setor alcance seu potencial máximo por meio de pesquisa e construção.[br/][br/]O biodomo também terá sinergia com uma exploração agrícola, fornecendo um bônus adicional à renda de comida.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Fungal - Clime Name
+
+Fertile Plains - Terrain Name
+
+Agriculture Exploitation - Name of a sector exploitation that specializes on food</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:Index="53" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FAMILIAR_SIGNALS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sinais Familiares</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FAMILIAR_SIGNALS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Localize o sinal militar da Vanguard no setor próximo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Vanguard - Player Race</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FAMILIAR_SIGNALS</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_01</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Investigar o sinal da Vanguard</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Objective</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">FAMILIAR_SIGNALS</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_01</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Varredura de superfície concluída, Comandante. Estou captando um sinal militar da Vanguard próximo. Isso pode indicar a presença de sobreviventes no planeta.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FAMILIAR_SIGNALS</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_02</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Mostre nos scanners. Vamos descobrir o que diabos está acontecendo aqui.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:Index="60" ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">QUARTZITE_TROUBLES</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_01</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Tenente Jiang? Que diabos você está fazendo neste planeta? Pelo que eu soube, você estava estacionado em Leave-6.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Lieutenant Jiang - Female Vanguard Hero Name</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="57.5625">
+    <Cell><Data ss:Type="String">QUARTZITE_TROUBLES</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_02</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Comandante {STR_LeaderName}! Preciso de sua ajuda imediata! Nosso assentamento está infestado de Hopperhounds e precisamos de ajuda para combatê-los. Estamos enviando os projetos de algumas modificações de armas, vamos queimar esses insetos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hopperhounds - Marauder/Enemy faction that is hostile to the player, made of giant alien beetles and grasshoppers
+
+NO LOCALIZATION NEEDED, fixed the following: Capitalized the "L" in "STR_leaderName"</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_TROUBLES</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_03</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Recebido, Tenente, vamos dar um jeito rápido nesses insetos.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">QUARTZITE_TROUBLES</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_04</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Comandante, antes de entrar em batalha, devemos modificar nossas unidades para torná-las mais eficazes em combate.[br/][br/]Selecione nosso exército e inspecione as unidades no painel do exército abaixo para ver e equipar mods.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">QUARTZITE_TROUBLES</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Podemos equipar os mods que o Tenente Jiang nos deu em tropas ou em suas armas, Comandante. Lembre-se de que, embora o processo seja imediato em suas armas, modificar nossas tropas as deixa vulneráveis por um único ciclo.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_TROUBLES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Problemas com Hopperhounds</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_TROUBLES</Data></Cell>
+    <Cell><Data ss:Type="String">DECRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Ajude Daiyu Jiang a derrotar a ameaça dos Hopperhounds.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_TROUBLES</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_01</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Derrote os Hopperhounds</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:Index="70" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MORE_QUESTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mais Perguntas</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">MORE_QUESTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Explore o setor próximo para encontrar o marco de Voidtech</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Voidtech Landmark - A silver landmark that normally house hostiles, empty in this campaign</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MORE_QUESTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_01</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Investigue o marco de Voidtech</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Objective</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MORE_QUESTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_02</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Anexe o marco de Voidtech</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Objective</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MORE_QUESTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_01</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Obrigado, Comandante. Você nos tirou de uma situação difícil.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MORE_QUESTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_02</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Não há de quê, Tenente. Relatório de situação. O que aconteceu aqui?</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">MORE_QUESTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_03</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Uma força de Outlanders fez pouso planetário alguns ciclos atrás e atacou nossas posições. O ataque deles foi centrado na instalação de Voidtech próxima. Nós os repelimos, mas sofremos pesadas baixas…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Outlander - Any race from outside of the Star Union Empire, made of outcasts and small empires.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MORE_QUESTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_04</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Algum sobrevivente?</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">MORE_QUESTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">Nenhum do lado deles, mas nossa colônia foi queimada até o chão durante o ataque. Você está olhando para tudo o que restou do meu destacamento e da colônia.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">MORE_QUESTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">Que bagunça... Sinto muito pelas suas baixas, Tenente. E essa instalação de Voidtech? Por que eles estavam atrás dela?</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">MORE_QUESTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_07</Data></Cell>
+    <Cell><Data ss:Type="String">Não sei, Comandante. Todos os cientistas que conheciam a instalação morreram no ataque. Com nossa colônia destruída, não conseguimos anexar o marco para investigá-lo melhor.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="57.5625">
+    <Cell><Data ss:Type="String">MORE_QUESTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_08</Data></Cell>
+    <Cell><Data ss:Type="String">Certo, vamos colocar as coisas de volta nos trilhos. Eu assumo o comando aqui. Desmonte seu assentamento para que possamos realocá-lo e estabelecer uma colônia adequada.[br/][br/]Tenente Jiang, guie o caminho até a instalação de Voidtech.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="57.5625">
+    <Cell><Data ss:Type="String">MORE_QUESTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_08_ALTERNATIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Certo, Tenente, vamos colocar as coisas de volta nos trilhos. Eu assumo o comando aqui. Desmonte seu assentamento para que possamos realocá-lo e estabelecer uma colônia adequada.[br/][br/]Depois, você nos acompanhará até o Marco de Voidtech.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MORE_QUESTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_09</Data></Cell>
+    <Cell><Data ss:Type="String">Entendido, Comandante.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s68"/>
+   </Row>
+   <Row ss:Index="86" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECOND_COLONY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Nova Colônia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="100.6875">
+    <Cell><Data ss:Type="String">SECOND_COLONY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Agora que você tem uma nova unidade de Colonizador, pode fundar uma segunda colônia. Uma nova colônia expandirá seu domínio neste planeta e aumentará sua renda e crescimento econômico.[br/][br/][recommendedcol]Dica: você pode fundar uma colônia movendo um Colonizador para o centro de um setor e então selecionando o botão ‘Fundar Colônia Vanguard’ no menu de interface do setor.[br/][br/]Uma colônia não pode ser colocada em um setor adjacente a uma colônia existente.[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Colonizer - A unit that creates new colonies in available sectors
+
+Found Vanguard Colony - Interface button to create a colony once a colonizer is on an available sector</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECOND_COLONY</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_01</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Funde uma nova colônia no setor Maeva</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Objective</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:Index="91" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CATACLYSMIC_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">Aviso: onda gravitrônica incoming em 2,26 segundos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CATACLYSMIC_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_02</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Onda gravitrônica? Quê…</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CATACLYSMIC_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">Que diabos foi aquilo?!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CATACLYSMIC_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">Uma onda gravitrônica passou por este sistema, origem desconhecida.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CATACLYSMIC_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Bom, parece que ainda estamos todos com nossos átomos no lugar. Relatório de status.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="57.5625">
+    <Cell><Data ss:Type="String">CATACLYSMIC_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_06</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Leituras preliminares indicam que a anomalia do Vazio absorveu a maior parte da força gravitrônica, mantendo o planeta relativamente ileso.[br/][br/]Para uma análise mais aprofundada, precisarei me conectar à instalação de Voidtech. Ela contém sensores avançados que estão sintonizados com a anomalia do Vazio.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Void - name of an unknown dimension; the anomaly permeates from this place</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CATACLYSMIC_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_07</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Certo, vamos avançar e conectar você à instalação de Voidtech o mais rápido possível.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:Index="100" ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">VOIDTECH_COMPLEX</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">Há sinais de batalha por toda a estrutura. Tenente Jiang, a instalação ainda está operacional?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">VOIDTECH_COMPLEX</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_02</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Os danos que você vê na estrutura são todos superficiais; todos os combates pesados ocorreram nos arredores.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">VOIDTECH_COMPLEX</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_03</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Aiva, você consegue acessar a instalação e usar seus sensores para ver o que está acontecendo com a anomalia do Vazio?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Aiva - AI that has been helping throughout this campaign</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">VOIDTECH_COMPLEX</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_04</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">O acesso à instalação está criptografado, Comandante. Estabelecer uma conexão exigirá que a instalação de Voidtech seja anexada a uma colônia para que eu possa me conectar diretamente ao mainframe deles.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">VOIDTECH_COMPLEX</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Não temos tempo a perder. Vamos fundar nossa segunda colônia nas proximidades e anexar este setor a ela.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">VOIDTECH_COMPLEX</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_05_ALTERNATIVE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Não temos tempo a perder. Fundamos uma nova colônia próxima à qual podemos anexar o setor do marco.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:Index="108" ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">RESEARCH_FACILITY</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_01</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Esta deve ter sido a principal instalação de pesquisa para investigar a anomalia do Vazio. Há sinais de combate por toda a estrutura... são recentes?</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="57.5625">
+    <Cell><Data ss:Type="String">RESEARCH_FACILITY</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_02</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">A análise térmica da estrutura e da área ao redor indica que o combate ocorreu nos últimos ciclos, Comandante. Além disso, detectei rastros distintos saindo da instalação. A análise mostra que esses rastros são de origem Vanguard.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">RESEARCH_FACILITY</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_03</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Então, alguns deles sobreviveram afinal. Vamos seguir esses rastros e ver o que encontramos.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s64"/>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">RESEARCH_FACILITY_DAIYU_DANGER</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_01</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">A análise térmica da estrutura e da área ao redor indica que o combate ocorreu nos últimos ciclos, Comandante. Além disso, detectei-</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">RESEARCH_FACILITY_DAIYU_DANGER</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_02</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Droga, Aiva, não tem nada nessa sua cabeça além de elétrons? Jiang precisa da nossa ajuda!</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s64"/>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:Index="117" ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">CONNECTION_ESTABLISHED</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_01</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Estabelecendo conexão com o banco de dados…[br/]…[br/]Conexão com o banco de dados da instalação de Voidtech estabelecida.[br/]Executando análise da anomalia do Vazio…</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONNECTION_ESTABLISHED</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_02</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Relatório. Quais são suas descobertas?</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">CONNECTION_ESTABLISHED</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_03</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">A anomalia do Vazio começou a se expandir exponencialmente. Há 99,07% de chance de que o planeta seja consumido pela anomalia nos próximos três ciclos.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONNECTION_ESTABLISHED</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_04</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Devíamos ir embora, Comandante!</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">CONNECTION_ESTABLISHED</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_05</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Faça backup de todos os dados da instalação e evacue todo mundo. Não há tempo a perder!</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="72">
+    <Cell><Data ss:Type="String">CONNECTION_ESTABLISHED</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_06</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Status do backup: completo.[br/]Vetores de escape planetário: calculados.[br/][br/]Cuidado: devido à perturbação do Vazio, há 33,1% de chance de falha catastrófica durante a fuga do poço gravitacional. As margens de segurança precisam ser ignoradas antes que um curso possa ser definido.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">CONNECTION_ESTABLISHED</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_07</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Ao inferno com as margens de segurança! Temos 100% de chance de morrer se ficarmos! Defina os vetores de escape e nos tire deste buraco infernal!</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:Index="125" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mostrar Pesquisa</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Interface Button</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mostrar Exploração de Setor</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Interface Button</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_BUTTON_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mostrar Estruturas</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Interface Button</Data></Cell>
+   </Row>
+   <Row ss:Index="130" ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">DAIYU_FALL</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">Hurg... Caí em combate. Se ao menos eu tivesse Tappels comigo... não se preocupe, Comandante, estarei ao seu lado enquanto exploramos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tappels - a mechanical dog that appears on the next Vanguard Campaign Mission</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>17</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>24</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

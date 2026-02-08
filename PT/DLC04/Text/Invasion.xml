@@ -1,0 +1,653 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2020-03-19T09:13:12Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10125</WindowHeight>
+  <WindowWidth>18240</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11" ss:Color="#333333"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11" ss:Color="#333333"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="102" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="288.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="158.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="104.25"/>
+   <Column ss:StyleID="s62" ss:Width="402.75"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="283.5"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">INVASION</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INVASION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Invasão dos Portadores do Vazio</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Title of an event. The Voidbringers are an in-game faction of evil aliens attacking the planet</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INVASION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Descrição de invasão provisória</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="34.5">
+    <Cell><Data ss:Type="String">INVASION_SETTING_EARLIEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mais Cedo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Game setting. Indication of what time an invasion can happen.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="32.25">
+    <Cell><Data ss:Type="String">INVASION_SETTING_EARLY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cedo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Game setting. Indication of what time an invasion can happen.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INVASION_SETTING_NORMAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Game setting. Indication of what time an invasion can happen.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INVASION_SETTING_LATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tarde</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Game setting. Indication of what time an invasion can happen.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INVASION_SETTING_LATEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mais Tarde</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Game setting. Indication of what time an invasion can happen.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INVASION_SETTING_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A invasão ocorrerá por volta do turno {turn}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Elaboration of the above.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INVASION_SETTING_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_RANDOM</Data></Cell>
+    <Cell><Data ss:Type="String">A invasão ocorrerá em um turno escolhido aleatoriamente.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORESHADOWING_1</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Força Não Identificada</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Title of an event.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FORESHADOWING_1</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma força hostil não identificada foi reportada próxima ao nosso império. Devemos lidar com eles para descobrir mais sobre sua origem.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of an event.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORESHADOWING_2</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">O Farol Chegou</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Title of an event.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FORESHADOWING_2</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um Farol dos Portadores do Vazio pousou, destruindo um setor inteiro. Parece haver uma barreira impenetrável ao redor dele.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of an event.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INVASION_START</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">A Invasão Começa</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Title of an event.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">INVASION_START</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Por todo este mundo, fragmentos misteriosos caíram na superfície, aparentemente convocados pelo Farol que desceu recentemente.[br/][br/]Criaturas dos Portadores do Vazio emergem desses fragmentos. Junto com elas, marcham exércitos de unidades Escravizadas, completamente dependentes de seus senhores Portadores do Vazio.[br/][br/]Se quisermos ter alguma chance, precisamos destruir um número suficiente desses Geradores de Portadores do Vazio para que o Farol fique vulnerável, antes de invadi-lo e destruí-lo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of an event.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DARKVOID_BEACON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Farol dos Portadores do Vazio</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DARKVOID_BEACON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um farol misterioso e imponente que parece enviar sinais para fora do planeta.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DARKVOID_SPAWNER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Gerador de Portadores do Vazio</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DARKVOID_SPAWNER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma nave que transporta unidades dos Portadores do Vazio.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DARKVOID_JOIN</Data></Cell>
+    <Cell><Data ss:Type="String">EVENT_TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Exigência dos Portadores do Vazio</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Event title where the Voidbringers demand you join their cause</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DARKVOID_JOIN</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Como se invadissem sua mente, um dos Portadores do Vazio se aproxima de você.[br/][br/]Você sente um impulso de se juntar a eles em sua conquista para destruir este mundo.[br/][br/][abilityred]Juntar-se aos Portadores do Vazio os impedirá de atacar seu império. Isso cria alianças com todos os Comandantes que se juntaram aos Portadores do Vazio e guerra com aqueles que não o fizeram.[abilityred/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Event text where the Voidbringers demand you join their cause</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DARKVOID_JOIN</Data></Cell>
+    <Cell><Data ss:Type="String">JOIN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">Ceder e juntar-se</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Reply button</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DARKVOID_JOIN</Data></Cell>
+    <Cell><Data ss:Type="String">JOIN_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você se juntará aos Portadores do Vazio. Isso desencadeará guerra instantânea com todas as Facções NPC e qualquer Comandante que não tenha se juntado aos Portadores do Vazio.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Reply button tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DARKVOID_JOIN</Data></Cell>
+    <Cell><Data ss:Type="String">RESIST_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">Resistir e lutar</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Reply button</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DARKVOID_JOIN</Data></Cell>
+    <Cell><Data ss:Type="String">RESIST_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você não se juntará aos Portadores do Vazio e terá que combatê-los.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Reply button tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Forma Psiónica</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Voidbringers form name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48.75">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Portadores do Vazio desta forma se apoiam fortemente em habilidades Psiónicas. Eles resistem a todos os tipos de dano, exceto Biológico. Os Escravos desses Portadores do Vazio são, em sua maioria, unidades com habilidades Psiónicas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Thralls are units controlled by the Voidbringers.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Forma Arco</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Voidbringers form name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell><Data ss:Type="String">FORM_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Portadores do Vazio desta forma se apoiam fortemente em habilidades de Arco. Eles resistem a todos os tipos de dano, exceto Psiónico. Os Escravos desses Portadores do Vazio são, em sua maioria, unidades com habilidades de Arco.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Thralls are units controlled by the Voidbringers.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Forma Bioquímica</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Voidbringers form name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Portadores do Vazio desta forma se apoiam fortemente em habilidades Bioquímicas. Eles resistem a todos os tipos de dano, exceto Térmico. Os Escravos desses Portadores do Vazio são, em sua maioria, unidades com habilidades Bioquímicas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Thralls are units controlled by the Voidbringers.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Forma Térmica</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Voidbringers form name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Portadores do Vazio desta forma se apoiam fortemente em habilidades Térmicas. Eles resistem a todos os tipos de dano, exceto Arco. Os Escravos desses Portadores do Vazio são, em sua maioria, unidades com habilidades Térmicas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Thralls are units controlled by the Voidbringers.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAYER_JOINED_DARKVOID</Data></Cell>
+    <Cell><Data ss:Type="String">EVENT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName} se juntou aos Portadores do Vazio</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">a player joined the Voidbringers invasion</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPAWNER_SPAWNED</Data></Cell>
+    <Cell><Data ss:Type="String">EVENT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Gerador dos Portadores do Vazio pousou</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">event title for when a spawner landed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPAWNER_WARNING</Data></Cell>
+    <Cell><Data ss:Type="String">EVENT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aviso! Local de pouso do Gerador dos Portadores do Vazio detectado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Event title for when a spawner is about to land</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_01</Data></Cell>
+    <Cell><Data ss:Type="String">Os Quebradores de Mentes Negros</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for a Psionic based Voidbringer sub-faction. If no perfect translation can be achieved, try to make the name relate to the Psionic form as much as possible</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_02</Data></Cell>
+    <Cell><Data ss:Type="String">Os Senhores Suprapsíquicos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for a Psionic based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_03</Data></Cell>
+    <Cell><Data ss:Type="String">Os Dilaceradores de Pensamentos Vazios</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for a Psionic based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_04</Data></Cell>
+    <Cell><Data ss:Type="String">Os Dobradores de Vontade</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for a Psionic based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_05</Data></Cell>
+    <Cell><Data ss:Type="String">Os Crucificadores Outrosmundanos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for a Psionic based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_06</Data></Cell>
+    <Cell><Data ss:Type="String">O Oculto Preternatural</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for a Psionic based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_07</Data></Cell>
+    <Cell><Data ss:Type="String">Os Arautos das Trevas</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for a Psionic based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_08</Data></Cell>
+    <Cell><Data ss:Type="String">As Profundezas da Torção Mental</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for a Psionic based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_09</Data></Cell>
+    <Cell><Data ss:Type="String">Os Dilacerados do Nada</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for a Psionic based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_10</Data></Cell>
+    <Cell><Data ss:Type="String">Os Ascendentes das Eras</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for a Psionic based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_PSIONIC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_11</Data></Cell>
+    <Cell><Data ss:Type="String">Os Libertadores do Fardo Vital</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for a Psionic based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="49.5">
+    <Cell><Data ss:Type="String">FORM_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_01</Data></Cell>
+    <Cell><Data ss:Type="String">Os Invocadores do Trovão</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Arc based Voidbringer sub-faction. If no perfect translation can be achieved, try to make the name relate to the Arc form as much as possible</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_02</Data></Cell>
+    <Cell><Data ss:Type="String">Os Carregadores do Infinito</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Arc based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_03</Data></Cell>
+    <Cell><Data ss:Type="String">Os Arautos da Tempestade</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Arc based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_04</Data></Cell>
+    <Cell><Data ss:Type="String">Os Mestres dos Ciclones</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Arc based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_05</Data></Cell>
+    <Cell><Data ss:Type="String">Os Vindicadores Galvânicos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Arc based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_06</Data></Cell>
+    <Cell><Data ss:Type="String">O Relâmpago Desencadeado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Arc based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_07</Data></Cell>
+    <Cell><Data ss:Type="String">O Relâmpago Dividido</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Arc based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_08</Data></Cell>
+    <Cell><Data ss:Type="String">Os Messias Voltaicos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Arc based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_09</Data></Cell>
+    <Cell><Data ss:Type="String">Os Condutos do Trovão</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Arc based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_10</Data></Cell>
+    <Cell><Data ss:Type="String">Os Devastadores Arcanos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Arc based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="49.5">
+    <Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_01</Data></Cell>
+    <Cell><Data ss:Type="String">A Escuridão Venenosa</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Biochemical based Voidbringer sub-faction. If no perfect translation can be achieved, try to make the name relate to the Biochemical form as much as possible</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_02</Data></Cell>
+    <Cell><Data ss:Type="String">O Terror Tóxico</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Biochemical based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_03</Data></Cell>
+    <Cell><Data ss:Type="String">Os Infiltradores Venenosos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Biochemical based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_04</Data></Cell>
+    <Cell><Data ss:Type="String">Os Libertadores Ácidos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Biochemical based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_05</Data></Cell>
+    <Cell><Data ss:Type="String">Os Espaçorrendores Nocivos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Biochemical based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_06</Data></Cell>
+    <Cell><Data ss:Type="String">Os Venerados Venenosos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Biochemical based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_07</Data></Cell>
+    <Cell><Data ss:Type="String">A Grande Praga Venenosa</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Biochemical based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_08</Data></Cell>
+    <Cell><Data ss:Type="String">O Enxame da Praga Reverenciado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Biochemical based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_09</Data></Cell>
+    <Cell><Data ss:Type="String">A Praga Sagrada da Chuva</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Biochemical based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_10</Data></Cell>
+    <Cell><Data ss:Type="String">A Aflição Profetizada</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Biochemical based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="49.5">
+    <Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_01</Data></Cell>
+    <Cell><Data ss:Type="String">Os Senhores da Tempestade de Fogo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Thermal based Voidbringer sub-faction. If no perfect translation can be achieved, try to make the name relate to the Thermal form as much as possible</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_02</Data></Cell>
+    <Cell><Data ss:Type="String">Os Condutores da Chama</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Thermal based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_03</Data></Cell>
+    <Cell><Data ss:Type="String">A Grande Conflagração</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Thermal based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_04</Data></Cell>
+    <Cell><Data ss:Type="String">Os Cruzados do Fogo Eterno</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Thermal based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_05</Data></Cell>
+    <Cell><Data ss:Type="String">O Inferno Infinito</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Thermal based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_06</Data></Cell>
+    <Cell><Data ss:Type="String">Os Portadores da Canção Ardente</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Thermal based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_07</Data></Cell>
+    <Cell><Data ss:Type="String">Os Patriarcas do Fogo Sagrado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Thermal based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_08</Data></Cell>
+    <Cell><Data ss:Type="String">As Profundezas Abrasadoras</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Thermal based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_09</Data></Cell>
+    <Cell><Data ss:Type="String">Os Portadores da Tocha</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Thermal based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORM_THERMAL</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_NAME_10</Data></Cell>
+    <Cell><Data ss:Type="String">Os Devastadores de Charscorn</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name for an Thermal based Voidbringer sub-faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BEACON_SHIELD</Data></Cell>
+    <Cell><Data ss:Type="String">EVENT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">O Escudo Farol foi danificado!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of an event</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORESHADOW_KILLED</Data></Cell>
+    <Cell><Data ss:Type="String">EVENT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Forças não identificadas foram derrotadas!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of an event</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="99">
+    <Cell><Data ss:Type="String">FORESHADOW_KILLED</Data></Cell>
+    <Cell><Data ss:Type="String">EVENT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A força atacante foi revelada como unidades conhecidas. Elas estavam dominadas por criaturas ferozes desconhecidas, agora chamadas de 'Portadores do Vazio'.[br/][br/]A subfacção invasora de Portadores do Vazio recebeu o nome de '{STR_InvasionName}' por aqueles que foram dominados por elas. Isso deve dar uma ideia do tipo de destruição que os invasores trarão sobre nós.[br/][br/]Devemos preparar nossos exércitos para a invasão iminente desses Portadores do Vazio.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of an event</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BEACON_SHIELD_DAMAGED</Data></Cell>
+    <Cell><Data ss:Type="String">EVENT_TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">O escudo do Farol foi danificado!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of an event</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BEACON_SHIELD_BROKEN</Data></Cell>
+    <Cell><Data ss:Type="String">EVENT_TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">O escudo do Farol está quebrado!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of an event</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Invasão</Data></Cell>
+   </Row>
+   <Row ss:Index="87" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INVASION_BEATEN_POPUP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Os Portadores do Vazio foram derrotados</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Header of a story event</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="76.5">
+    <Cell><Data ss:Type="String">INVASION_BEATEN_POPUP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Farol dos Portadores do Vazio foi destruído, impedindo que os Portadores do Vazio tenham mais acesso a este mundo.[br/]Ao nosso redor, há um mundo em ruínas, desesperadamente necessitando de reparos por impérios unificados.[br/][br/]Devemos reivindicar a vitória agora, unificando os impérios remanescentes e reconstruir este mundo, ou devemos continuar nossa conquista como antes da invasão dos Portadores do Vazio?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Content of a story event</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INVASION_BEATEN_POPUP</Data></Cell>
+    <Cell><Data ss:Type="String">END_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">Reivindicar Vitória</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button text</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INVASION_BEATEN_POPUP</Data></Cell>
+    <Cell><Data ss:Type="String">CONTINUE_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">Continuar Jogo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button text</Data></Cell>
+   </Row>
+   <Row ss:Index="92" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION</Data></Cell>
+    <Cell><Data ss:Type="String">DISABLED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Desativado até a invasão ser derrotada</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Text for all victory conditions when they are disabled</Data></Cell>
+   </Row>
+   <Row ss:Index="94" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OBTAINED_OPERATION_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Operações dos Portadores do Vazio</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story event message header</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="50.25">
+    <Cell><Data ss:Type="String">OBTAINED_OPERATION_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">BODY</Data></Cell>
+    <Cell><Data ss:Type="String">Agora você pode invocar os Portadores do Vazio para ajudá-lo![br/][br/]Use Chamar Gerador para invocar um Gerador de Portadores do Vazio e atacar a resistência![br/][br/]Use Chamar Portadores do Vazio para invocar unidades dos Portadores do Vazio sob seu controle!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story event message body</Data></Cell>
+   </Row>
+   <Row ss:Index="97" ss:AutoFitHeight="0" ss:Height="49.5">
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">JOIN_WARNING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Você se juntará aos Portadores do Vazio e desencadeará uma guerra com qualquer Comandante e Facção NPC que não tenha se juntado a eles. Você obterá duas operações especiais para chamar os Portadores do Vazio em seu auxílio.[br/][br/]Tem certeza de que deseja se juntar a eles?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Warning event message</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="35.25">
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">RESIST_WARNING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Você resistirá aos Portadores do Vazio e travará guerra contra eles.[br/][br/]Tem certeza de que deseja resistir a eles?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Warning event message</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">BLOCKED_QUESTS</Data></Cell>
+    <Cell><Data ss:Type="String">Enquanto a invasão estiver em andamento, nenhuma missão será concedida!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36.75">
+    <Cell><Data ss:Type="String">DIFFICULTY_SETTING</Data></Cell>
+    <Cell><Data ss:Type="String">EASY</Data></Cell>
+    <Cell><Data ss:Type="String">Reduz a força e a quantidade de inimigos defensores e errantes durante a Invasão.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Difficulty setting tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="41.25">
+    <Cell><Data ss:Type="String">DIFFICULTY_SETTING</Data></Cell>
+    <Cell><Data ss:Type="String">NORMAL</Data></Cell>
+    <Cell><Data ss:Type="String">Força e quantidade normais de inimigos defensores e errantes durante a Invasão.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Difficulty setting tooltip</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell><Data ss:Type="String">DIFFICULTY_SETTING</Data></Cell>
+    <Cell><Data ss:Type="String">HARD</Data></Cell>
+    <Cell><Data ss:Type="String">Aumenta a força e a quantidade de inimigos defensores e errantes durante a Invasão.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Difficulty setting tooltip</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>90</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>106</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

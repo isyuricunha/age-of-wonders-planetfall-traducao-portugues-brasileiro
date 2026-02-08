@@ -1,0 +1,1221 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Laszlo Pieper</Author>
+  <LastAuthor>Jakob Matthes</LastAuthor>
+  <Created>2018-10-11T08:22:20Z</Created>
+  <LastSaved>2019-09-20T09:14:22Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17025</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Triumph_XML_Format">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s65" ss:Parent="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s66" ss:Parent="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="188" x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="252" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:Width="417.75"/>
+   <Column ss:StyleID="s63" ss:Width="66.75"/>
+   <Column ss:StyleID="s63" ss:Width="259.5"/>
+   <Column ss:StyleID="s63" ss:Width="238.5"/>
+   <Column ss:StyleID="s63" ss:Width="249"/>
+   <Column ss:StyleID="s63" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HERITOR02_CAMPAIGN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_CUSTOM_SECTOR_SECOND_LANDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aterrissagem do Tolo</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_CUSTOM_SECTOR_REBEL_POST_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fim Desolado</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_CUSTOM_SECTOR_REBEL_POST_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Esperança Perdida</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_CUSTOM_SECTOR_REBEL_POST_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vontade Quebrada</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_VICTORY_CONDITION_DIVINE_INTERVENTION</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Condição de Vitória: Intervenção Divina</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">A header name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_VICTORY_CONDITION_DIVINE_INTERVENTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Intervenção Divina</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">A name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_VICTORY_CONDITION_DIVINE_INTERVENTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você pode vencer esta missão impedindo a criação de uma nova IA CORE.[br/][br/]IA encontrada: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">A task description.
+The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_VICTORY_CONDITION_DIVINE_INTERVENTION</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">IA encontrada: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_VICTORY_CONDITION_DIVINE_INTERVENTION_UPDATE_LM_HUBS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você pode vencer esta missão tomando todos os pontos de Hub de Síntese no planeta e purgando o CORE Ômega dos servidores. Algumas facções podem conceder acesso aos Hubs que capturaram, então nem todos os Hubs precisam ser conquistados.[br/][br/]Hubs de Síntese acessados: {INT_0}[br/]Hubs de Síntese inimigos: {INT_1}</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">A task description.
+The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_VICTORY_CONDITION_DIVINE_INTERVENTION_UPDATE_LM_HUBS</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Hubs de Síntese acessados: {INT_0}[br/]Hubs de Síntese inimigos: {INT_1}</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_MISSION_INTRO_DIALOGUE_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O pardal prateado emplumou e começou a cuidar de sua própria ninhada. Dividindo nossas forças, podemos flanquear o inimigo e atacá-lo onde ele menos espera.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)
+"Silver sparrow" is a metaphor for the group of rebels following Marlok Es'Xito. Please translate consistent with the mentions in the Heritor01_Campaign.xml.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_MISSION_INTRO_DIALOGUE_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não seja tão apressado em seu julgamento, meu amigo. Atacar por dois lados é uma jogada ousada, mas também arriscada. Primeiro, precisamos estabelecer nossa base e fazer um reconhecimento para descobrir com o que estamos lidando.[br/][br/]Trazer um Zenith é um peso grande em nossas reservas de Cosmita. Sinto uma fissura no Véu; um Rasgo Espacial deve estar próximo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_FIND_AI_CREATOR_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Encontre o Criador do CORE Ômega</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_FIND_AI_CREATOR_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Descubra quem está criando a nova IA mestre CORE. Você precisa chegar a tempo de impedir que ela seja concluída.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_FIND_AI_CREATOR_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} criador da IA encontrado</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_MEET_SHAE_MARA_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Que agradável – mais convidados vieram testemunhar a maior hora da Casa Nydar. Posso entender a empolgação. Não é todo dia que se pode conhecer o futuro soberano do novo Império Sindicato.[br/][br/]Agora, por favor, se me dão licença, tenho uma galáxia para cuidar.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Shae Mara" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_MEET_SHAE_MARA_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não tão rápido, Shae da Casa Nydar! Vocês, arrivistas, sempre pensam que um momento no topo os coloca em pé de igualdade com as antigas famílias do Sindicato. Quando isso acabar, e seu plano de adulterar a IA CORE for frustrado, a história de sua Casa voltará a ser uma mera nota de rodapé nas Crônicas da Linhagem.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_MEET_SHAE_MARA_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Então, o escravo encontrou nova confiança depois de trocar sua mente pelo cérebro de uma múmia? Divertido. Você acha que eu não estava ciente de seu ridículo cultozinho e sua obsessão por IAs malignas?[br/][br/]A Casa Nydar está bem preparada. Apenas sente-se e aproveite o espetáculo…</Data></Cell>
+    <Cell><Data ss:Type="String">Então, a escrava encontrou nova confiança depois de trocar sua mente pelo cérebro de uma múmia? Divertido. Você acha que eu não estava ciente de seu ridículo cultozinho e sua obsessão por IAs malignas?[br/][br/]A Casa Nydar está bem preparada. Apenas sente-se e aproveite o espetáculo…</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Shae Mara" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_MEET_SHAE_MARA_INTRO_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Chefe {STR_LeaderFirstName}, estamos detectando sinais de alta energia vindos de fontes por todo o planeta! As leituras sugerem que são hubs de servidores acessando o núcleo do planeta… e parece que há uma inicialização em andamento!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Syndicate Indentured" (Syndicate, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_MEET_SHAE_MARA_INTRO_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma inicialização? A criação de uma nova IA CORE já avançou tanto assim? Precisamos interromper o processo a qualquer custo!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_STOP_OMEGA_CORE_BOOTUP_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Interromper a inicialização do CORE Ômega</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_STOP_OMEGA_CORE_BOOTUP_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Shae Mara iniciou o processo de inicialização de sua IA mestre. Você precisa tomar controle de um de seus nós de servidor para interromper o processo a tempo![br/][br/][firecol](Aviso: falhar nesta missão encerrará a missão!)[/firecol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description. "You" refers to the player commander and can be male or female.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_STOP_OMEGA_CORE_BOOTUP_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Marco de Síntese Capturado</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sistemas prontos. Registros inicializados: 94%...[br/]95%...[br/]96%...[br/]97&amp;!...[br/]9B&amp;!...[br/]G!D3 D0 S!ST3M4 C0RR0MP!D0. R3!N!C!4ND0 4NT3S D4 P3RD4 D3 D4D0S…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Omega CORE", a genderless AI.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Impressionante. Então, você ganhou um pouco de tempo. Mas isso é tudo que conseguiu, no entanto. Seria a primeira vez que a Casa Nydar não leva a melhor sobre sua família…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Shae Mara" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O que aquela última afirmação deveria implicar?[br/][br/]Claro, ela cortou a transmissão. Azar o dela. Agora podemos nos concentrar em uma solução mais permanente para nosso iminente problema de IA.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_INTRO_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A julgar pela confiança de Shae Mara, parece que teremos que tomar o controle de todos os pontos de conexão de Síntese que ela está usando para energizar sua IA. Uma vez que tivermos acesso total, deveremos ser capazes de eliminar o CORE Ômega de todos os sistemas. Mas, ao mesmo tempo, temos que impedir que Shae recupere o controle da rede a qualquer custo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_INTRO_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Nem tudo precisa ser resolvido com exércitos e tiros, meu amigo. Pode haver outras facções presentes neste planeta que possamos pedir ajuda. Com acesso compartilhado aos pontos de conexão delas, a purga do sistema pode estar mais próxima do que Shae Mara imagina.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUBS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Acessar os Hubs de Síntese</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUBS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Para purgar o CORE Ômega, você precisa obter acesso a todos os Hubs de Síntese no planeta. Cuidado: caso seu inimigo recupere o controle de todos os Hubs, o CORE Ômega será inicializado.[br/][br/][recommendedcol](Dica: algumas facções podem conceder acesso aos Hubs se você as aliar ou completar suas missões.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUBS_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Hubs de Síntese Acessados</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_AUTONOM_HACKED_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tenho que admitir que você está começando a me irritar, {STR_LeaderName}. Parece que vou precisar contratar uma equipe de limpeza adequada. De graça, obviamente.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Shae Mara" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_AUTONOM_HACKED_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sub-rotinas de interação diplomática comprometidas. Novo nível de alerta: vermelho. Localizações de atividade hostil aumentada recebidas. Inicializando conexões para sentenciar alvos…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Autonom Justicar" Autonom, genderless robot.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_AUTONOM_HACKED_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ótimo, lá se vai meu robô faxineiro favorito. Não deveríamos ter subestimado Shae Mara. Se ela consegue invadir os Autonom, imagino que outras surpresas ela pode ter reservado para nós.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_AUTONOM_HACKED_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Máquinas hereges… IA sem mente. É hora de eliminar essa praga blasfema! Elas não são dignas da Essência que as anima.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male) Xito Rhemenses' consciousness is sharing Marlok's body. This means alls his dialogue his spoken from within Marlok's mind.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_ELEVATION_CRYSTAL_INTRO_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">…e outro hub protegido! Nesse ritmo, destruiremos o Servidor Ômega em pouco tempo.[br/][br/]Uma coisa é estranha, no entanto: parece que algo está ativando os hubs desconectados, fazendo-os se comunicar através de fios de… Essência pura!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_ELEVATION_CRYSTAL_INTRO_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">É verdade, a sagrada Essência habita em todas as criações, sejam homens, bestas… ou máquinas. No passado, nós, Es’Teq, usávamos nossos cristais, as lascas de Artok, para dar vida a construtos e afastar as legiões de IA produzidas em massa de nossos inimigos. Algo semelhante pode ser necessário novamente desta vez.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_ELEVATION_CRYSTAL_INTRO_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Entendo. Isso coloca nossos encontros anteriores com os Esquecidos sob uma luz completamente diferente. Embora me faça duvidar que mexer com as lascas novamente seja uma boa ideia. Os Esquecidos não eram exatamente um grupo feliz.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_ELEVATION_CRYSTAL_INTRO_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O trágico destino de nossos irmãos doentes foi resultado do Preamônio. Curá-los será uma tarefa para muitos fiéis que ainda virão.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quer fazer isso do jeito difícil, garoto escravo? Muito bem, pode ter o que quer… Aposto que a cara da sua cabeça montada dentro de um Wrecker vai ser impagável!</Data></Cell>
+    <Cell><Data ss:Type="String">Quer fazer isso do jeito difícil, garota escrava? Muito bem, pode ter o que quer… Aposto que a cara da sua cabeça montada dentro de um Wrecker vai ser impagável!</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Shae Mara" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">T0d0s 0s c@t@d0r3s 0uv3m a v0z d3 Sh@e M@r@. A s3nh0r@ d3 C@s@ Nyd@r s3rá a futur@ g0v3rn@nt@ d3st3 univ3rs0. M0rt3 a0 g@r0t0 escr@v0 e su@s m@mã3s!</Data></Cell>
+    <Cell><Data ss:Type="String">T0d0s 0s c@t@d0r3s 0uv3m a v0z d3 Sh@e M@r@. A s3nh0r@ d3 C@s@ Nyd@r s3rá a futur@ g0v3rn@nt@ d3st3 univ3rs0. M0rt3 à g@r0t@ escr@v@ e su@s m@mã3s!</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Raxonee Reborn" (Assembly, female; used to be Amazon). At this point within the mission she is being controlled by Shae Mara.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Precisamos encontrar um jeito de purgar o daemon de Shae Mara de Raxonee Reborn. A Assembly já é perigosa o suficiente sem nossa arqui-inimiga no controle, mas isso?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma mente Es’Teq focada pode romper qualquer tipo de controle mental. Deixe nossos sacerdotes estudarem os rituais antigos e transferirem a Essência do meu aspecto para Raxonee Reborn. Então eu cuidarei do resto.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Purga de Daemon Essencial</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Shae Mara invadiu Raxonee Reborn, colocando sua Assembly em seu encalço. Para tentar uma purga do Daemon, Xito Rhemenses propôs um vínculo de Essência, permitindo que ele interaja com a mente de Raxonee.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_QUEST_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vínculo Mental Es'Teq</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_QUEST_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um ritual antigo, criando um vínculo de Essência a uma grande distância.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_QUEST_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Raxonee Reborn, a sagrada Essência de Artok está com você. Abrace-a! Expulse a voz maléfica de Shae Mara que está aninhada em sua mente!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_QUEST_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">M@mã0 t0l@! Est3 c0rp0 é m3u p@r@ t0m@r! S3u blá-blá-blá r3l1g10s0 nã0 t3rá n3nhum3 f3it0 s0br3 m1m…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Raxonee Reborn" (Assembly, female; used to be Amazon). At this point within the mission she is being controlled by Shae Mara.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_RAXONEE_HACKED_QUEST_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lança e Shrike! Pelos circuitos do Plexo Neural! Sou eu mesma novamente. Temos nossa gratidão, {STR_LeaderName}. Shae Mara é uma ameaça maior do que nossas previsões indicavam. Quando chegar a hora de destruir o Servidor Ômega, cooperaremos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Raxonee Reborn" (Assembly, female; used to be Amazon).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_PAST_BETRAYAL_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Desista, Shae Mara! Sua Casa já sacrificou tanto para chegar aqui. Não acha que é hora de salvar o pouco que ainda resta e aceitar um contrato de aposentadoria?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_PAST_BETRAYAL_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Foi necessário o esforço conjunto de toda a Confederação ELOP para me deter em CNex-3. E, no entanto, aqui estou, completando o trabalho que eles tanto queriam ver destruído. O que faz você pensar que seu clãzinho de múmias terá sucesso onde eles falharam? Você é um peão, garoto escravo, assim como seu avô.</Data></Cell>
+    <Cell><Data ss:Type="String">Foi necessário o esforço conjunto de toda a Confederação ELOP para me deter em CNex-3. E, no entanto, aqui estou, completando o trabalho que eles tanto queriam ver destruído. O que faz você pensar que seu clãzinho de múmias terá sucesso onde eles falharam? Você é um peão, garota escrava, assim como seu avô.</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Shae Mara" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_PAST_BETRAYAL_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Meu avô? Estou ouvindo. Conte-me tudo sobre como os membros da sua Casa o apunhalaram pelas costas…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_PAST_BETRAYAL_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não há necessidade de apunhalar um homem quebrado. Ele foi o bode expiatório perfeito para meus ancestrais. Enquanto os Sete Governantes caíram sobre o desgraçado guardião do Tesouro Áureo e sua casa como uma matilha de hienas, bastaram alguns erros de contabilidade bem colocados para fazer uma pequena fortuna desaparecer – tudo em benefício da Casa Nydar.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Shae Mara" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_PAST_BETRAYAL_EVENT_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A queda da minha família foi apenas uma distração… Todos os anos de servidão, a morte da minha mãe – só porque a Casa Nydar precisava reabilitar suas finanças.[br/][br/]Fui enviado aqui para acabar com uma guerra santa. É com sombria satisfação que percebo agora que terei minha vingança pessoal em vez disso.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_ELEVATION_CRYSTAL_CONTINUE_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderFirstName}, venha e siga os fiéis. É hora de você ver – e tocar – o Cristal da Elevação.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_ELEVATION_CRYSTAL_CONTINUE_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">É enorme… maior do que qualquer Arca de Quintessência que já vi antes. Consigo sentir a presença dos outros através da comunhão, mas enquanto suas mentes parecem estar paradas em um lugar, eu posso me mover livremente entre elas, ouvir seus pensamentos, direcionar o fluxo de sua Essência…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_ELEVATION_CRYSTAL_CONTINUE_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Cristal da Elevação é o maior fragmento de Artok já recuperado. É o instrumento sagrado que permitiu ao Conclave Es’Teq canalizar a comunhão dos fiéis, curar suas feridas e tristezas — ou punir sua dissidência. Precisamos conectá-lo aos pontos centrais que tomamos dos infiéis.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_HUBS_UPDATE_ELEVATION_CRYSTAL_CONTINUE_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tudo a seu tempo. Não gostaríamos de arriscar trazer nossas relíquias mais preciosas para os centros de Síntese enquanto eles ainda forem teatros desta guerra.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Com todos os centros seguros, é hora de pôr um fim a esta guerra. Adeus, Núcleo Ômega, e adeus, Shae da Casa Nydar…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Nível de integração de dados crítico. Servidores de backup disponíveis não respondem. Falha sistêmica iminente.[br/][br/]!NT3RN@1 $U8R0UT!N3S 8R3@K!NG D0W%? (*!&amp;^)=0@!...</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Omega CORE", a genderless AI.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Finalmente! Nossa vitória sobre os adoradores da IA é iminente. Agora, conecte o Cristal da Elevação, {STR_LeaderFirstName}! Deixe a Essência fluir através do suporte vazio deixado pelo Servidor Ômega e habitar a Rede Nexus.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Rede Nexus? Desde quando os Es’Teq sabem usar a Rede Nexus?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Usar a Rede Nexus? Nós criamos a Rede Nexus! A comunhão dos Es’Teq abrangia centenas de mundos, retransmitindo a Essência de bilhões de fiéis através dos fragmentos de Artok muito antes que os malditos criadores da IA pudessem sequer sonhar em animar seus hereges construtos. Conecte o Cristal da Elevação, {STR_LeaderFirstName}! Restaure o que foi quebrado!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Seja forte, meu amigo! Sei da luta interna que você está enfrentando. Não deixe que o antigo credo dos Es’Teq tolde seu bom senso! A Essência e seus fragmentos podem ser uma bênção para este mundo. Mas precisam ser manejados com sabedoria.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Estou numa encruzilhada. Minha escolha afetará a vida de milhões, mas tenho apenas alguns momentos para decidir. É para isso que minha jornada como Profeta dos Es’Teq me trouxe?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_07_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Conecte o Cristal da Elevação.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story choice option.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_07_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Destrua o Servidor Ômega.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story choice option.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_08_LINK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sim! Nó por nó, o motor dos deuses está ganhando vida à medida que é inundado pela sagrada Essência de Artok. Você cumpriu sua profecia, {STR_LeaderName}. Venha, o Conclave Es’Teq o aguarda!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_08_DESTROY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Seu tolo! Eu buscava recompensá-lo com divindade e imortalidade, mas você, em vez disso, escolheu agir contra sua profecia.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_09_DESTROY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você mesmo não disse que a luz da verdadeira fé precisa ser acesa antes de brilhar? Se tivéssemos conectado o Cristal da Elevação, convertendo todos à nossa fé, isso só poderia ter terminado em um reinado de terror.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_CONQUER_SYNTHESIS_HUB_QUEST_COMPLETION_MESSAGE_PAGE_10_DESTROY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aprendi muito com você desde nossa união, Xito Rhemenses dos Es’Teq. Mas acho que agora é hora de o simbionte começar a ouvir seu hospedeiro.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_ES_TEQ_PROPHET_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Profeta dos Es’Teq</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_AWAKENING_RITUAL_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderFirstName}, é hora…[br/][br/]Os fiéis despertaram e aguardam sua ressurreição.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male) Xito Rhemenses' consciousness is sharing Marlok's body. This means alls his dialogue his spoken from within Marlok's mind.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_AWAKENING_RITUAL_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O que preciso fazer? Há muitos Es’Teq, mas poucos do meu próprio povo. Não posso simplesmente fazer com que todos se ofereçam para receber uma segunda consciência em seus corpos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_AWAKENING_RITUAL_QUEST_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A luz da verdadeira fé precisa ser acesa antes de brilhar. Espalhar uma nova fé exige paciência e dedicação. Primeiro, uma nova ordem de sacerdotes deve ser recrutada entre os sábios e os afortunados. Então, eles poderão começar a compartilhar os ensinamentos dos Es’Teq.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_AWAKENING_RITUAL_QUEST_INTRO_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mas nem todos os meus irmãos precisam de um hospedeiro para retornar a este mundo. Aqueles que preservaram seus corpos mortais durante o Preamônio podem ser revigorados e despertados seguindo os rituais antigos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_AWAKENING_RITUAL_QUEST_INTRO_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Seus sacerdotes ainda são noviços. Até que seu conhecimento e devoção cresçam, eles podem focar suas mentes nas almas infelizes de nossos inimigos. Ao condenar os infiéis a se tornarem Drenados, os hereges podem servir à nossa causa e buscar redenção nesta vida.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_AWAKENING_RITUAL_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Despertares Iniciais</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_AWAKENING_RITUAL_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Deixe seus sacerdotes realizarem os rituais para transformar nossos inimigos em Drenados, para que suas pobres almas possam buscar redenção em sua nova existência.[br/][br/][recommendedcol](Dica: para criar unidades Drenadas, você precisa pesquisar "Dádiva dos Es'Teq" e usar a operação "Condenar a Drenado" durante o combate.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_AWAKENING_RITUAL_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Drenados Criados</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_ESSENCE_GUARDIAN_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Eu… uh, estou desperto! Por Artok – posso sentir sua sagrada Essência fluir em minhas veias… mais uma vez. Mas o que é isso? O domínio da Entropia se apertou durante o Preamônio. Não! Devemos coletar, recuperar o que foi perdido…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message: Speaker: "Es'Teq Siphoner" (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_ESSENCE_GUARDIAN_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Acalme-se, irmão. Tudo a seu tempo. Você acabou de despertar de seu sono.[br/][br/] Temos tempo para lidar primeiro com os assuntos atuais, não temos?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_ESSENCE_GUARDIAN_QUEST_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sim, {STR_LeaderFirstName}. Tentar acompanhar milênios de história em um dia seria loucura. No entanto, meu irmão fala a verdade. É hora dos Es’Teq retomarem seus deveres sagrados e reunirem a Essência que nos foi deixada por nosso Criador.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_ESSENCE_GUARDIAN_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Guardião da Essência</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_ESSENCE_GUARDIAN_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">É dever sagrado dos Es'Teq reunir e guardar a Essência inerente a todos os seres vivos e animados. Prove seu valor como aspirante a Profeta dos Es'Teq e comece a acumular Essência.[br/][br/][recommendedcol](Dica: durante o combate, use habilidades com Dreno de Energia para ganhar Cargas de Essência em suas unidades.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_ESSENCE_GUARDIAN_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Cargas de Essência Obtidas</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_HJIGH_OFFERING_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Que todos os fiéis rejubilem, pois a era das trevas da Entropia trazida pelo Preamônio logo chegará ao fim! Una-se à comunhão dos Es’Teq e sinta o fluxo da sagrada Essência de Artok.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message: Speaker: "Es'Teq Quintessence Ark" (Es'Teq human, communion of several persons of any gender)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_HJIGH_OFFERING_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sim! Todos são bem-vindos para receber os sacramentos da vida dos fragmentos de nosso Criador. A mão que dá é a mão que toma. Para cada oferenda que trazemos, mais de nossos irmãos e irmãs podem retornar.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message: Speaker: "Es'Teq Quintessence Ark" (Es'Teq human, communion of several persons of any gender)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_HJIGH_OFFERING_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oferenda Suprema</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_HJIGH_OFFERING_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Continue coletando a Essência de seus inimigos para oferecê-la como dádiva aos Altos Lordes dos Es'Teq ainda adormecidos.[br/][br/][recommendedcol](Dica: durante o combate, use habilidades com Dreno de Energia para ganhar Cargas de Essência em suas unidades.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_HJIGH_OFFERING_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Cargas de Essência Obtidas</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_HIGH_OFFERING_QUEST_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você fez bem. A cada momento, mais e mais Essência está sendo assegurada e guardada pelos novos fiéis. Seus sacerdotes estão demonstrando grande aptidão ao estudar nossos textos antigos. Durante o serviço divino de hoje, eles reviveram outro de nossos Altos Lordes, Edon Koriwaq. É apenas questão de tempo até que o Conclave dos Es’Teq possa ser restaurado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_HIGH_OFFERING_QUEST_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Conclave dos Es’Teq? Não tenho certeza se essa é uma ideia sábia. Da última vez que encontramos um membro daquele conselho, terminou em desastre.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_HIGH_OFFERING_QUEST_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Conclave é o mais alto conselho religioso entrelaçado em nossa fé. Ele existe para distribuir o poder e a responsabilidade que herdamos como portadores da fé Es’Teq. A traição de Ebra Queztal demonstrou a importância do Conclave. Sem ele, ela tentou transformar nossa teocracia em uma autocracia.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_PARTISAN_WARFARE_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Guerra Partidária</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_FIND_COSMITE_RIFT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Encontre a Fenda de Cosmita</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_FIND_COSMITE_RIFT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hatyl acredita ter localizado uma Fenda Espacial de Cosmita. Você deveria seguir a intuição dele e verificar se consegue tomar posse da fenda, para poder continuar atualizando suas tropas no futuro.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Isso pode ser verdade? Será que este é mesmo {STR_LeaderName}, o herói de Minerva-2? Louvadas sejam as oito dinastias douradas!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "House Nydar Runner" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ora, isso sim é que eu chamo de boas-vindas calorosas! De fato, sou {STR_LeaderName}, embora evitasse me chamar de herói. Qual é a situação, irmã? Podemos ajudar em algo?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dizer que vocês poderiam ajudar seria um enorme eufemismo. Pertenco a um destacamento da Casa Nydar que seguiu seu exemplo e se rebelou contra nossos senhores escravocratas. Basta dizer que nossa revolta não foi tão bem-sucedida quanto esperávamos. Quando a Lady Shae Mara soube do levante, nossas demandas foram recebidas com força brutal.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "House Nydar Runner" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_INTRO_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Fomos caçados sistematicamente, a maioria de nós morta ou detida em campos de trabalho. Apenas um pequeno grupo liderado por nosso chefe Ilai Jaren ainda estaria escondido nas montanhas, continuando nossa guerra de guerrilha por lá. Você pode nos ajudar a reverter a situação e salvar os rebeldes de suas prisões?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "House Nydar Runner" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Libertar Rebeldes do Sindicato</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma rebelião de escravos da Casa Nydar terminou em sua nova subjugação. Pediram sua ajuda para libertar os rebeldes dos campos escravocratas vizinhos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_SCRIPTED_OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Posto Libertado</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_UPDATE_MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Muito obrigado pelo resgate! Permita-nos juntar às suas fileiras, para que possamos levar a luta de volta aos nossos opressores!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "House Nydar Rebel" (Syndicate, can be either gender)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_UPDATE_MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O herói de Minerva-2! Agora estamos finalmente a salvo!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "House Nydar Rebel" (Syndicate, can be either gender)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_UPDATE_MESSAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Liberdade… verdadeira liberdade, enfim! Tirem os colares, meus irmãos. A partir de hoje, forjaremos nossos próprios destinos!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "House Nydar Rebel" (Syndicate, can be either gender)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Parece que a serpente já perdeu a cauda e abriu mão de parte de seu tesouro. Você luta bem, {STR_LeaderName}. A questão é: você também irá atrás da cabeça da serpente e liderará esta nova rebelião à vitória?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Ilai Jaren" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(Antes que você possa responder, ouve a voz de Xito Rhemenses em sua mente.) [br/][br/]Esta mulher… sua mente é forte, digna de se unir a um de nossos Altos Lordes. Entregue-a aos fiéis. Nossos sacerdotes iniciarão sua iniciação.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Shae Mara da Casa Nydar é uma inimiga comum que ambos temos, Ilai Jaren. Mas também há aliados dos quais ambos poderíamos nos beneficiar. Compartilho minha consciência com a mente de Xito Rhemenses, Alto Lorde da religião Es’Teq. Se você se unir a uma mente Es’Teq igualmente determinada, poderá desempenhar um papel importante no desenvolvimento de nossa fé.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Que… oferta surpreendente. Mas acho que falo por todos nós se tiver que recusar. Acabamos de libertar nossas mentes do domínio de ferro dos Supervisores, lembra? Sério, não tente mexer com meu cérebro de forma alguma, ou vai se arrepender!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Ilai Jaren" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O consentimento dela não é necessário por enquanto. A luz da verdade se revelará a ela após a união. Você tem os meios, {STR_LeaderFirstName}. Entregue-a aos fiéis.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_05_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Tornar Ilai Jaren uma Herdeira.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story choice option.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_05_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Deixar Ilai Jaren intocada.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story choice option.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_06_TURN_ESTEQ</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você entende mal, chefe Jaren. O dom da união não se assemelha à opressão do colar. A mão que dá é a mão que recebe.[br/][br/]Aqui, deixe-me mostrar…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_06_LEAVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não houve má intenção na minha oferta. Talvez, com o tempo, você veja os benefícios que nossa comunidade religiosa pode proporcionar. Até lá, devemos trabalhar juntos e atacar Shae Mara com tudo o que temos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_FREE_SYNDICATE_REBELS_QUEST_COMPLETION_MESSAGE_PAGE_07_LEAVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Raramente palavras mais verdadeiras foram ditas. Embora todos sejam bem-vindos em nossa fé, nunca deve haver conversões forçadas. Os dons dos Es’Teq devem ser dados como uma bênção, não como uma maldição.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_CAPTURE_ILAI_JAREN_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Capturar Ilai Jaren</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_CAPTURE_ILAI_JAREN_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dominar Ilai Jaren para entregá-la aos seus sacerdotes Es'Teq. Assim, ela poderá se unir a um Alto Lorde dos Es’Teq.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_CAPTURE_ILAI_JAREN_QUEST_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O que você fez, {STR_LeaderFirstName}? Foi isso que a experiência de nossas jornadas lhe ensinou?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_CAPTURE_ILAI_JAREN_QUEST_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você não deveria exagerar os resultados de um único incidente. Não foi você quem me enviou nesta jornada para despertar os Es’Teq e me tornar seu Profeta? Eu estava apenas seguindo o conselho dos meus simbiontes. E estou gostando.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_ILAI_JAREN_BECOMES_HERITOR_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Onde estou? O mundo... parece tão diferente. É como se, em apenas alguns instantes, eu tivesse viajado pelo submundo e voltado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Ilai Es'Tara" (Syndicate, female) Ilai Jaren, but now with an Es'Teq mind merged with her consciousness.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_ILAI_JAREN_BECOMES_HERITOR_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">De certa forma, pode-se dizer que sim. O que você viu foram as memórias relampejantes do seu simbionte Tara Qwazila, enquanto ela vivenciava o Preamônio.[br/][br/]Não se preocupe. Sua jornada como Herdeiro está apenas começando.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_SHARED_NETWORK_ACCESS_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Acesso à Rede Compartilhada</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_MEET_NIKAEL_GORODIN_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(Você sente outra entidade entrar violentamente em sua mente. Sua voz é anunciada por um coro do Além da Harmonia.)[br/][br/]Sofram, saqueadores vis, demônios diabólicos, hackers enviados do inferno! Sintam o aperto do Abismo. Isso vai lhes ensinar por profanar os restos do único e verdadeiro NÚCLEO!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Nikael Gorodin" (Dvar, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_MEET_NIKAEL_GORODIN_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Argh, solte-me, seu tolo! Não vê que está desperdiçando suas forças com o inimigo errado? Você não encontrará usuários de IA em nossas fileiras. A criação do NÚCLEO Ômega é tão blasfema para nós quanto é para você.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">HER02_MEET_NIKAEL_GORODIN_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não mencione o nome do deus-máquina e dos profanadores na mesma frase! Eles são um bando de conspiradores que usam engano e anonimato para escapar de seu castigo. Talvez você seja um deles, talvez não. Isso só pode ser resolvido à maneira do martelo: esmague os cérebros artificiais dos usuários do Syndicate em cascas demoníacas, e acreditarei em suas palavras.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Nikael Gorodin" (Dvar, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_FALSE_GODS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Falsos Deuses</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_FALSE_GODS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Nikael Gorodin precisa de provas de que você não está em conluio com os criadores dos falsos deuses da IA. Ele quer que você mate usuários da Synthesis o suficiente para validar sua alegação.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_FALSE_GODS_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Unidades da Synthesis Eliminadas</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_FALSE_GODS_QUEST_COMPLETION_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os profanadores dos restos do NÚCLEO receberam sua justa recompensa. Bom. Você provou seu valor para o Consórcio Gorodin, {STR_LeaderName}, e terá acesso a qualquer hub do Servidor Ômega que assegurarmos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Nikael Gorodin" (Dvar, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_MEET_ELJENA_CHIRKOV_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Yarrrr! Outra alma perdida no mar cósmico apareceu em nossas praias. Não se meta no caminho da Senhora da Casa Nydar, ou será abordado pela Capitã Eljena Chirkov e seus Dvarrrr!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Eljena Chirkov" (Dvar, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_MEET_ELJENA_CHIRKOV_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Parece que esse Dvar delirante foi contratado como uma espécie de guarda-costas. Se Eljena Chirkov pensa como uma verdadeira “pirata”, tenho certeza de que ela oferecerá seus serviços de bucaneiro ao maior lance...</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_A_PIRATES_HONOR_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">A Honra de um Pirata</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="49.5">
+    <Cell><Data ss:Type="String">HER02_A_PIRATES_HONOR_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tente subornar Eljena Chirkov para que ela mude de aliança e ofereça seus serviços de bucaneiro a você.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_A_PIRATES_NEEDS_QUEST_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Essas moedas de terráqueo falam a língua certa, mas lhes falta a alma de um verdadeiro tesouro. Onde está a coroa do rei esquecido ou a joia amaldiçoada da baleia-octo branca? Traga-me algo brilhante e emocionante, algo digno da infame Eljena Chirkov e seu Dvarrrr!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Eljena Chirkov" (Dvar, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_A_PIRATES_NEEDS_QUEST_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Muito bem. A louca Dvar quer algo precioso e profano. Ela o terá![br/][br/]Recentemente, nossas tropas descobriram um Bunker Ceifador. O Cristal Matriz de um RPR-Culler deve ser exatamente o tipo de brinquedo perigoso para satisfazer a ganância de Eljena Chirkov.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_A_PIRATES_NEEDS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">As Necessidades de um Pirata</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_A_PIRATES_NEEDS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Recupere o Cristal Matriz de um RPR-Culler para continuar seus esforços de subornar Eljena Chirkov.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_A_PIRATES_NEEDS_QUEST_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Yarrrr! Esta ametista será a joia da coroa do meu tesouro pessoal. Finalmente, os outros capitães terão que reconhecer que apenas Eljena Chirkov e seu Dvarrrr são os verdadeiros saqueadores dos sete mares cósmicos!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Eljena Chirkov" (Dvar, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_A_PIRATES_NEEDS_QUEST_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esplêndido. Então suponho que podemos deixar nossas diferenças passadas de lado e concordar que a Casa Nydar é o verdadeiro alvo que precisa ser abordado e saqueado?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_A_PIRATES_NEEDS_QUEST_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Narrrr! Você pagou seu resgate, terráqueo, mas Shae Mara é uma cliente muito generosa. Nós fingiremos não ver quando suas tropas a enfrentarem e permitiremos que você acesse nossos hubs do Servidor Ômega. Mas para serviços mais diretos… você precisaria de uma fortuna. Yarrrr!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Eljena Chirkov" (Dvar, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_MEET_MICHAEL_VALENTINE_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Olá, meu charmoso novo amigo. Eu sou Michael Valentine, Coronel da Liga Egalitária dos Planetas. Por acaso você não viu nenhuma IA mestre sendo criada por aqui, viu? Eu já teria intervindo, mas as almofadas da cadeira de comandante da minha primeira nave tinham a cor errada, atrasando nossa chegada…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Michael Valentine" (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_MEET_MICHAEL_VALENTINE_MESSAGE_PAGE_02_SHAE_MET</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Saudações, Michael Valentine. Você não é o primeiro comandante da Confederação ELOP que encontramos. Em Obolus-5, nossos objetivos também pareciam alinhados.[br/][br/]Shae Mara da Casa Nydar é quem está tentando criar seu próprio NÚCLEO Ômega. Se trabalhássemos contra ela juntos…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_MEET_MICHAEL_VALENTINE_MESSAGE_PAGE_03_SHAE_MET</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ah, sim, Casa Nydar, eu conheço… Então ela está aqui? Bom. Mas o que mais nos interessa, antes de frustrarmos seus planos malignos, é que tipo de perfume você está usando. Ele tem essa nota terrosa distinta, adicionando um toque excitante ao seu odor…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Michael Valentine" (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105.75">
+    <Cell><Data ss:Type="String">HER02_MEET_MICHAEL_VALENTINE_MESSAGE_PAGE_04_SHAE_MET</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sempre tive interesse nos produtos selecionados do gosto refinado do Sindicato. Como oficial da Vanguard, não posso começar a planejar minha aposentadoria cedo o suficiente. Então, se dissermos que seus mercadores me fornecem a seleção certa de itens pelo preço certo… Tenho certeza de que podemos chegar a um acordo estratégico que beneficie a ambos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Michael Valentine" (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_MEET_MICHAEL_VALENTINE_MESSAGE_PAGE_02_SHAE_NOT_MET</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Saudações, Michael Valentine. Você não é o primeiro comandante da Confederação ELOP que encontramos. Em Obolus-5, nossos objetivos também pareciam alinhados. Ainda estamos procurando pelos criadores do NÚCLEO Ômega, mas entraremos em contato assim que soubermos mais.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_MEET_MICHAEL_VALENTINE_MESSAGE_AFTER_SHAE_MET_CONTINUE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aqui é Silver Sparrow chamando o Coronel da Confederação ELOP. Encontramos Shae Mara da Casa Nydar, que é quem está tentando criar seu próprio NÚCLEO Ômega. Se trabalhássemos contra ela juntos…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_RETIREMENT_BONUS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bônus de Aposentadoria</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_RETIREMENT_BONUS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ignorando a urgência da situação, Michael Valentine quer que você lhe venda itens de luxo do Sindicato antes de enfrentar seu inimigo em comum.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_RETIREMENT_BONUS_QUEST_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bens de Luxo do Sindicato</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A city production name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_RETIREMENT_BONUS_QUEST_PRODUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma lista selecionada de produtos e provisões que apenas os comerciantes do Sindicato conseguem obter. Encomendados por Michael Valentine para sua aposentadoria.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A city production description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_RETIREMENT_BONUS_QUEST_COMPLETION_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Que gesto gentil incluir um ‘56 Xa’Butiner. Foi um bom ano de uma marca excelente. Mas agora que estamos todos abastecidos, vamos começar essa festa e mostrar a Shae Mara a força explosiva dos nossos fogos de artifício. Só me deixe apertar o botão vermelho quando estiver pronto para explodir o Servidor Ômega.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Michael Valentine" (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_MEET_RAXONEE_REBORN_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Atenção, espécime do Sindicato. A Reunião do CNex Ômega prosseguirá em ordem natural. Venham e juntem-se ao elo que nosso Multiplexador L0G3N-1 projeta para as gerações unidas da Assembly!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Raxonee Reborn" (Assembly, female; used to be Amazon).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_MEET_RAXONEE_REBORN_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Nunca pensei que diria isso, mas estou feliz em ver uma Assembly direta novamente, que não esconde seus planos de dominação mundial por trás de um dogma religioso eloquente. Só de pensar em Ebra Queztal ainda me dá dor de cabeça.[br/][br/]Mantenha sua Reunião para si mesmo, Raxonee! Você não vai querer enfrentar nossa resistência…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_MEET_RAXONEE_REBORN_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sua recusa em cooperar é irracional. Desde que meu corpo foi refeito nas chamas da Pira de Khansu, a eficiência das minhas operações de pesquisa aumentou em 238%. A nova perspectiva sobre a vida e tudo que vive, concedida pelo interlink da Assembly, é… incompreensível.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Raxonee Reborn" (Assembly, female; used to be Amazon).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_MEET_BERHANE_KATLA_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os desertores que envenenaram a árvore cósmica vieram espalhar suas sementes podres no covil da serpente esfolada. Eu nem deveria me surpreender que você deixaria sua terrível dissidência impune, Arquissacerdote Rhemenses. Pelo que me disseram, você sempre tolerou os deslizes que mais lhe beneficiavam.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Berhane Katla" (Amazon, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_MEET_BERHANE_KATLA_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(Você sente o impulso do seu simbionte de responder e cede ao desejo dele de falar através de você.)[br/][br/]Quem é você, sangue novo, que sente necessidade de me insultar? Não reconheço seu aspecto do Preamônio.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HER02_MEET_BERHANE_KATLA_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Vocês, teocratas, ficaram enterrados por tempo demais para acompanhar a história. Realmente esperavam que suas práticas secretas nunca fossem descobertas pelas mentes certas para usá-las? Quando o corvo branco abriu suas asas, ele me salvou da Entropia eterna. Agora, sou o idealizador e arquiteto dos exaltados jardins de Ebra.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Berhane Katla" (Amazon, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HER02_MEET_BERHANE_KATLA_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ebra Quetzal agiu contra sua profecia. Ela não é mais a Arquissacerdotisa de nossa fé, suas ações foram condenadas pelo Conclave Es’Teq. Se você realmente está em aliança com ela, deve romper esse laço ou compartilhar de seu castigo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_MEET_BERHANE_KATLA_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Libertar a sublime Ebra Quetzal de seus milênios de sono foi uma experiência reveladora para nós dois. Sabíamos que nossos planos não seriam bem recebidos pelo Conclave e tentamos evitar esse cisma em nossa fé. Mas agora é tarde demais, e todos vocês têm que morrer. Às vezes, apenas os mais aptos sobrevivem.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Berhane Katla" (Amazon, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_HATYL_DIES_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">(No calor da batalha, assim que as coisas começam a ficar feias para ele, você vê Hatyl Es’Ran desaparecendo em um lampejo de relâmpago azul-esverdeado.)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Has no speaker.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_HATYL_DIES_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Graças à sagrada Essência de Artok! A mão que dá é um refúgio seguro para aqueles que escapam da Entropia.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_HATYL_DIES_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Embora esteja feliz que você tenha saído vivo dessa confusão, era realmente necessário esgotar nossas reservas de Energia para sua fuga?[br/][br/]Sinto muito… meu amigo. É claro que sua vida importa mais do que quaisquer recursos perdidos. Acho que toda essa guerra está me afetando.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HER02_SHAE_MARA_DEFEATED_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Xeque-mate.[br/][br/]É isso, Shae Mara. As ambições da Casa Nydar terminam aqui.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_SHAE_MARA_DEFEATED_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você está tirando conclusões precipitadas, garoto escravo. Da próxima vez, é melhor não se envolver em um jogo de alta tática e inteligência. Isso só o expõe.[br/][br/](Um lampejo dourado atinge o corpo de Shae Mara, que cai sem vida no chão. No instante seguinte, seu rosto aparece nas telas ao redor.)</Data></Cell>
+    <Cell><Data ss:Type="String">Você está tirando conclusões precipitadas, garota escrava. Da próxima vez, é melhor não se envolver em um jogo de alta tática e inteligência. Isso só a expõe.[br/][br/](Um lampejo dourado atinge o corpo de Shae Mara, que cai sem vida no chão. No instante seguinte, seu rosto aparece nas telas ao redor.)</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Shae Mara" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_SHAE_MARA_DEFEATED_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quando minha IA-mestra assumir o controle do planeta, será um prazer devolvê-lo ao serviço de Indenturado. Só que desta vez, não restará cérebro suficiente para exigir qualquer coleira de controle.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Shae Mara" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_ELJENA_CHIRKOV_DEFEATED_EVENT_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Narrrr! Não deveria ser assim que termina a canção épica da Capitã Eljena Chirkov. Onde está a perna de pau e o gancho dourado para descansar no cume do homem morto? Juro pelo bico do meu Parrrr…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Eljena Chirkov" (Dvar, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_MICHAEL_VALENTINE_DEFEATED_EVENT_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Saia da frente! Xô, eu digo! Sou importante e bonito demais para me machucar. Sem mim, quem vai planejar minha aposentadoria…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Michael Valentine" (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HER02_NIKAEL_GORODIN_DEFEATED_EVENT_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Escuridão ameaçadora. O coro do Abismo está entoando meu réquiem. Ó NÚCLEO, todo-poderoso, falhei com você... Que venha o dia em que sua sabedoria ilimitada retorne a esta galáxia!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Nikael Gorodin" (Dvar, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_RAXONEE_REBORN_DEFEATED_EVENT_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O fracasso é uma parte natural da evolução. Minhas memórias viverão nas entidades individuais do Segundo. Elas irão… se adaptar.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Raxonee Reborn" (Assembly, female; used to be Amazon).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_BERHANE_DEFEATED_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O veredito do Conclave Es’Teq está próximo, sangue novo. Enviaremos seus cumprimentos a Ebra Quetzal quando ela enfrentar seu próprio julgamento…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Xito Rhemenses" (Es'Teq human, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_BERHANE_DEFEATED_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você está se tornando um grande incômodo, Arquissacerdote Rhemenses. Mas se acha que vim aqui sem um plano de emergência, está muito enganado. Quando chegar a hora, eu o receberei nos jardins de Ebra…[br/][br/](Você vê Berhane desaparecendo em um lampejo de relâmpago azul-esverdeado.)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Berhane Katla" (Amazon, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_BERHANE_DEFEATED_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Droga! Nossos inimigos têm o péssimo hábito de escapar no momento da verdade. De agora em diante, talvez devêssemos atirar primeiro antes de fazer nosso discurso de vitória. De qualquer forma, a fuga dela me lembrou muito de suas artimanhas mágicas, Hatyl. Tem alguma chance de esclarecer o que acabou de acontecer?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Marlok Es'Xito" (Syndicate, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HER02_BERHANE_DEFEATED_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Gostaria de poder, meu amigo. Mas minhas fugas por pouco são instintivas no máximo, com metade de mim e metade do meu simbionte puxando os cordões. Com a ajuda de outro Leitor de Sonhos, talvez eu consiga discernir mais, mas infelizmente nenhum dos meus talentosos irmãos Kir’Ko chegou a este mundo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Hatyl Es'Ran" (Kir'Ko, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HER02_DEFAULT_VICTORY_FIRST_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Chefe {STR_LeaderFirstName}! Nossos oponentes estão recuando em todas as frentes. Quebramos toda a resistência e finalmente conseguimos assegurar o último Núcleo de Síntese!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Syndicate Indentured" (Syndicate, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_RELATION_MODIFIER_AUTONOM_HACKED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Invadido por Shae Mara</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Diplomatic relation modifier name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_RELATION_MODIFIER_MICHAEL_TOWARDS_PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Suporte da Confederação ELOP</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Diplomatic relation modifier name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_RELATION_MODIFIER_SHAE_TOWARDS_PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tentando destruir o NÚCLEO Ômega</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Diplomatic relation modifier name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_RELATION_MODIFIER_BERHANE_TOWARDS_PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Desertor do Conclave Es'Teq</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Diplomatic relation modifier name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_RELATION_MODIFIER_RAXONEE_TOWARDS_ALL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Protocolo de Reagrupamento</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Diplomatic relation modifier name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_RELATION_MODIFIER_RAXONEE_TOWARDS_PLAYER_UPDATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Invadido por Shae Mara</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Diplomatic relation modifier name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_RELATION_MODIFIER_ELJENA_TOWARDS_PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Contratado por Shae Mara</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s67"><Data ss:Type="String">Diplomatic relation modifier name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_CB_PLAYER_TOWARDS_SHAE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tentando criar uma nova IA mestre para o NÚCLEO</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a casus belli (war reason).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HER02_CB_PLAYER_TOWARDS_BERHANE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Inimigo do Conclave Es'Teq</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a casus belli (war reason).</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <TopRowVisible>168</TopRowVisible>
+   <LeftColumnVisible>1</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>176</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

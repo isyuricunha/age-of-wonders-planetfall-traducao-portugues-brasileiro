@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Benny Arents</LastAuthor>
+  <LastSaved>2019-09-24T14:04:41Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11550</WindowHeight>
+  <WindowWidth>25410</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65" ss:Parent="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="17" x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:Width="139.5"/>
+   <Column ss:StyleID="s63" ss:Width="39"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="468.75"/>
+   <Column ss:StyleID="s63" ss:Width="147.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="240.75"/>
+   <Column ss:StyleID="s63" ss:Width="120.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="240">
+    <Cell><Data ss:Type="String">TOMEOFWONDERS_DLC03</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">If some concepts in the text are unclear or do not make sense, try looking that concept up in this xml as the text in this xml serves as an encyclopeadia you have a good chance of finding it. Unclear terms can be found in the AoW_Glossary.  Do not change anything that is between [ and ] because it could break the hyperlink and strip it of its function. Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LINK_UNITS_FORGOTTEN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lista de todas as Unidades Esquecidas</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Forgotten faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LINK_UNITS_HERITOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lista de todas as Unidades Heritor</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Heritor secret technology</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LINK_MODS_ESSENCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lista de todas as Armas e Mods de Essência</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Essence using units (Forgotten)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LINK_MODS_HERITOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lista de todas as Armas e Mods Heritor</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Heritor secret technology</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LINK_SKILLS_HERITOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lista de todas as Habilidades de Herói Heritor</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Heritor secret technology</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LINK_RESEARCH_HERITOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lista de todas as Tecnologias e Melhorias Heritor</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Heritor secret technology</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LINK_OPERATIONS_HERITOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lista de todas as Operações Heritor</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in: the Heritor secret technology</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECRET_TECH_HERITOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tecnologia Secreta: Heritor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SECRET_TECH_HERITOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell ss:StyleID="s65" ss:HRef="mailto:%7BXML_HERITOR_TECHGROUPS@HERITOR@DESC%7D[br/][br/]%7BXML_HERITOR_TECHGROUPS@HERITOR@FEATURES%7D[br/][br/]ORIGIN: The Es'Teq faith is centered around their god Artok, the Great Creator. They believe all life comes%2"><Data ss:Type="String">{XML_HERITOR_TECHGROUPS@HERITOR@DESC}[br/][br/]{XML_HERITOR_TECHGROUPS@HERITOR@FEATURES}[br/][br/]ORIGEM: A fé dos Es'Teq é centrada em seu deus Artok, o Grande Criador. Eles acreditam que toda vida vem de sua sagrada Essência, e é seu serviço divino coletar e proteger sua Essência contra a entropia do universo. A tecnologia e a filosofia dos Heritor derivam dessa ideologia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ANOMALOUS_SITES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sítios Anômalos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="225">
+    <Cell><Data ss:Type="String">ANOMALOUS_SITES</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Os mundos da Star Union estão repletos de mistérios e anomalias para seus heróis descobrirem e explorarem. Esses sítios anômalos são frequentemente perigosos, cheios de armadilhas e inimigos poderosos, mas grandes segredos e recompensas únicas aguardam aqueles que ousam enfrentá-los.[br/][br/]Sítios anômalos são [hyperlink,000003AC000000CD]Localizações[/hyperlink] no [hyperlink,000003AC000000CC]Mapa Estratégico[/hyperlink] identificados por um marcador roxo. Para interagir com um sítio, você precisará enviar um [hyperlink,000003AC0000009B]Exército[/hyperlink] contendo um [hyperlink,000003CF0000008C]Herói ou Comandante[/hyperlink] até o local. Cada sítio anômalo apresenta várias opções de abordagem. Cada opção terá diferentes durações e chances de sucesso. Após fazer a escolha, seu herói deverá permanecer no sítio durante o processo. Durante esse tempo, ele ganhará experiência a cada[hyperlink,000003AC0000002E]Turno[/hyperlink].[br/][br/]As diferentes opções resultarão em diferentes desfechos ao serem bem-sucedidas, como fornecer recompensas únicas, gerar uma nova localização ou revelar um novo sítio anômalo com maior raridade, além de sempre conceder XP. Sítios anômalos com maior raridade proporcionarão recompensas melhores e mais XP. Se a ação falhar, algo negativo pode acontecer, como um [hyperlink,0000039C00001C1A]Perigo[/hyperlink] surgindo no setor.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NPC_FACTION_FORGOTTEN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Facção NPC: Esquecidos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell><Data ss:Type="String">NPC_FACTION_FORGOTTEN</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">[bulletlist][bullet]Antigos e corrompidos Es'Teq[/bullet][bullet][hyperlink,000003E900000096]Dano de Entropia[/hyperlink][/bullet][bullet]Tentando sobreviver e suportar a dor da Podridão, pois isso é melhor do que a Morte Verdadeira[/bullet][/bulletlist][br/][br/]ORIGEM: Esses antigos Es'Teq nunca deveriam ter despertado. Alguns foram sepultados por falhas do corpo ou da mente, outros por serem criminosos e indesejáveis, todos foram selados em câmaras para dormir eternamente. Devoradores dos Mortos vagavam por esses salões, garantindo que nenhum residente morresse por falta de Essência. Em vez disso, eram devorados, uma grande honra para aqueles sepultados nesses santuários, pois viveriam eternamente dentro do Devorador.[br/]Quando ocorreu o Colapso, essas câmaras semelhantes a hospícios foram abaladas pela Tempestade do Vazio que varreu a galáxia, despertando os habitantes e corrompendo sua Essência. Agora, eles vivem de uma substância dolorosa conhecida como Podridão e fazem trajes de metal e engrenagens para carregar os fracos e debilitados, pois viver com dor é certamente melhor do que enfrentar a Morte Verdadeira.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESSENCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Essência</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">ESSENCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">A tecnologia de Essência foi dominada pela antiga dinastia Es'Teq para drenar a força vital de seus inimigos enquanto se fortaleciam.[br/][br/]Todas as unidades podem ganhar cargas de Essência, aumentando seu dano em 10% por carga. Essas cargas podem ser usadas para ativar [hyperlink,0000039E00000063]Mods[/hyperlink] e habilidades Es'Teq.[br/]Raças equipadas com equipamentos Es'Teq ou [hyperlink,000003AC00000329]Tecnologia Secreta[/hyperlink] podem aumentar a quantidade de cargas de Essência que uma unidade pode armazenar.[br/][br/]Ataques baseados em Essência usam o [damageentropy/] [hyperlink,000003AC00000290]Canal de Dano[/hyperlink] de Entropia.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>13</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>14</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Luis Ferreira</LastAuthor>
+  <LastSaved>2019-03-12T13:46:38Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14025</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="26" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="366" ss:DefaultRowHeight="14.4375">
+   <Column ss:StyleID="s62" ss:Width="79.5"/>
+   <Column ss:StyleID="s62" ss:Width="147"/>
+   <Column ss:StyleID="s62" ss:Width="417"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="197.25"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="86.4375">
+    <Cell><Data ss:Type="String">VICES_PERKS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="86.4375">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NO_VICE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sem Vício</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NO_VICE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você não tem imperfeições.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARTY_ANIMAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Festeiro</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="86.4375">
+    <Cell><Data ss:Type="String">PARTY_ANIMAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você é um festeiro, sempre buscando novas emoções e formas de curtir ainda mais. Você até organiza festivais em suas colônias![br/][br/]Você obtém o seguinte:[br/][AbilityRed]Improdutivo:[/AbilityRed] festas e festivais descontrolados reduzem a produtividade em todas as colônias, diminuindo sua [production/] Produção em {ProductionReductionPercentage}.[br/][AbilityGreen]Hora da Festa:[/AbilityGreen] enquanto você é o Comandante de um exército, todos estão se divertindo. As unidades em sua pilha ganham {MoraleIncrease} de moral.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KLEPTOMANIAC</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cleptomaníaco</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="86.4375">
+    <Cell><Data ss:Type="String">KLEPTOMANIAC</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você vê algo na mesa, está desprotegido... você pega. Seu assessor não precisava daquilo mesmo. É assim que você sempre foi, e gosta.[br/][br/]Você obtém o seguinte:[br/][AbilityRed]Desfalque:[/AbilityRed] você pega {EnergyDecrease} de energia de seu Império a cada turno.[br/]Alguém precisa planejar sua aposentadoria, afinal.[br/][AbilityGreen]Roubo:[/AbilityGreen] você roubou algo durante seu treinamento, dando a você um Mod aleatório que funciona com seu equipamento.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STUBBORN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Teimoso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="100.6875">
+    <Cell><Data ss:Type="String">STUBBORN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você é apegado aos seus métodos, afinal, mudanças nem sempre são agradáveis. Você cortou parte do orçamento de pesquisa para que as coisas andem no seu ritmo.[br/][br/]Você obtém o seguinte:[br/][AbilityRed]Corte de Verba:[/AbilityRed] você cortou o financiamento do departamento de ciência em seu orçamento da missão, reduzindo o [research/] Conhecimento de suas colônias em {KnowledgeReductionPercentage}.[br/][AbilityGreen]Recusar Mudanças:[/AbilityGreen] você ensina seu exército a rejeitar mudanças como você faz. Você e seu exército comandado ganham {ResistanceIncrease} de resistência a Efeitos de Status.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRUEL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cruel</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="72">
+    <Cell><Data ss:Type="String">CRUEL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aproveitar-se dos outros é sua rotina diária. Se não estão servindo a você, deveriam estar.[br/][br/]Você obtém o seguinte:[br/][AbilityRed]Vilão:[/AbilityRed] você é um tirano para seu povo, e suas colônias têm {DecreasedHappiness} de infelicidade.[br/][AbilityGreen]Crueldade:[/AbilityGreen] você ganha {MoraleIncrease}[happiness/] de moral cada vez que mata uma unidade em batalha.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECADENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Decadente</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="100.6875">
+    <Cell><Data ss:Type="String">DECADENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Servos, luxo e alta sociedade! Assim é que a vida deve ser, sempre desfrutando da melhor comida, bebida e companhia.[br/][br/]Você obtém o seguinte:[br/][AbilityRed]Desvio de Suprimentos:[/AbilityRed] você possui parte da indústria alimentícia de suas colônias, fazendo-as trabalhar para você e sua elite, reduzindo a produção de [supply/] Alimentos em {FoodReductionPercentage}.[br/][AbilityGreen]Bem Alimentado:[/AbilityGreen] você tem uma constituição aprimorada devido à sua criação abastada, ganhando um aumento de {HealthIncrease} em Pontos de Vida.</Data></Cell>
+   </Row>
+   <Row ss:Index="17" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRUEL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Crueldade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRUEL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_EFFECT_LEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Em combate, esta unidade ganha {MoraleGain}[happiness/] de moral por cada unidade que matar até o fim do combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARTY_ANIMAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Hora da Festa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">PARTY_ANIMAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_HERO</Data></Cell>
+    <Cell><Data ss:Type="String">Este Comandante sabe como motivar seus exércitos. Todas as unidades neste exército, incluindo o Comandante, têm {IncreasedMorale} de moral.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARTY_ANIMAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_UNITS</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem {IncMorale} de moral.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STUBBORN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Recusar Mudanças</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">STUBBORN</Data></Cell>
+    <Cell><Data ss:Type="String">STACK_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você e as unidades de seu exército têm profundo desprezo por mudanças, concedendo a você e seu exército {IncreasedResistance} de resistência a Efeitos de Status.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STUBBORN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_HERO</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem {IncreasedResistance} de resistência a Efeitos de Status.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECADENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Bem Alimentado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DECADENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_HERO</Data></Cell>
+    <Cell><Data ss:Type="String">Os Pontos de Vida da unidade foram aumentados em {HedonisticHP}.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Selected/>
+   <TopRowVisible>9</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>20</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

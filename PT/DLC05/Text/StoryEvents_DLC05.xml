@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2020-08-06T12:36:53Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14265</WindowHeight>
+  <WindowWidth>28770</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="27" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="270" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="240"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:Width="278.25"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="180"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">DLC05_STORYEVENTS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">DEFAULT_OUTPOST_EVENT_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um assentamento Oathbound, um oásis de adornos e símbolos reluzentes. Ele inspira esperança e refúgio a todos os seus cidadãos e visitantes. As ruas são ladeadas por trajes de batalha Paladin, belos e impressionantes em tamanho e poder. Acolhedores, mas prontos para voltar suas lâminas contra qualquer ameaça ao assentamento.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.
+
+You in the text can refer to a male or female character</Data></Cell>
+   </Row>
+   <Row ss:Height="285">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_DLC05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Maquinário Brotado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.
+
+In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_DLC05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Preso sob as antigas caixas imperiais, você encontra um dispositivo notável. Ele se contorce com uma mistura de descargas elétricas e crescimento fúngico desenfreado. Um {STR_UnitName} Myceliano, informa seu batedor. Antiga maquinaria agrícola reabsorvida pela natureza através de esporos infecciosos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">You in the text can refer to a male or female character
+Mycelian is in-game race of machines overgrown by fungi</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_DLC05_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Adotar o {STR_UnitName} em suas fileiras</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_DLC05_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe a unidade: {STR_UnitName}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_DLC05_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Colocar a máquina para trabalhar em suas fábricas: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_DLC05_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_DLC05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Traje de Batalha Corrompido</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A battlesuit is a mecha vehicle</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_DLC05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A nave de pesquisa parece ter sido derrubada por uma grande máquina escura. Talvez um veículo Apostate, o {STR_ItemName} agora dormente paira sobre os destroços da nave de pesquisa acidentada, entrelaçado com seus pés.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Apostates are an evil faction who have broken oaths to the Oathbound</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_DLC05_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Reformar o {STR_ItemName}, destruindo a pesquisa</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_DLC05_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe o veículo ({STR_ItemName})</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_DLC05_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Recuperar a nave de pesquisa {STR_Rewards}, destruindo o traje de batalha.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RESEARCH_PICKUP_EVENT_DLC05_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Caixa-forte Energizada</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este comboio de energia parece transportar uma grande caixa-forte com um {STR_ItemName} dentro. O reservatório de energia que a carrega alimenta a fechadura eletricamente carregada da carga, mas o circuito parece muito instável. Qualquer modificação irá drenar as células de energia ou trancar a caixa-forte para sempre.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC05_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Curtir o circuito, recebendo {STR_ItemName}, mas explodindo as células de energia.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC05_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe o item ({STR_ItemName})</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC05_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Remover cuidadosamente as células de energia para {STR_Rewards}, mas trancando a caixa.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC05_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_DLC05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Psionica Glutona</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_DLC05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os tonéis de rações foram abertos por um(a) {STR_UnitName}, que está devorando-os no momento. Podemos tentar domesticá-lo(a) nesse estado, mas pode demorar um pouco, já que está consumindo as rações.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Psionica creature is involved here, an in-game race of leeching creatures</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_DLC05_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Domesticar o(a) {STR_UnitName} e adicioná-lo(a) às suas fileiras.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_DLC05_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe a unidade: {STR_UnitName}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_DLC05_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Espantar a criatura e pegar a comida {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FOOD_PICKUP_EVENT_DLC05_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>19</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

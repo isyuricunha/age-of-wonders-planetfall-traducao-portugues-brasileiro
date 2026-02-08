@@ -1,0 +1,886 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2019-03-12T13:37:18Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17625</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Normal 2">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65" ss:Parent="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="173" x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultRowHeight="14.4375">
+   <Column ss:StyleID="s63" ss:Width="269.25"/>
+   <Column ss:StyleID="s63" ss:Width="66.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="357"/>
+   <Column ss:Index="5" ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="415.5"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="105"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SYNDICATE02_CAMPAIGN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="78.75">
+    <Cell ss:Index="5"><Data ss:Type="String">Chronicles of House Ny'dar - Personal Log Entry 4197-01.14/1 - With the acquisition of Zul’s merged Avatar, the future of our House stands at a crossroads. Have we made a pact with the devil? Most likely, as it is only a matter of time until his new sense of power will have corrupted Zul. In his current form he is nothing less but a dormant virus. He is going to betray us sooner or later – which means, we will have to find a way to betray him first!</Data></Cell>
+    <Cell><Data ss:Type="String">Added for Context. Spoken by Shae Mara</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="106.5">
+    <Cell ss:Index="5"><Data ss:Type="String">Chronicles of House Ny'dar - Personal Log Entry 4197-01.14/2 - Zul is leading us to a planet called CNex-3, one of the central nodes of the old Nexus Network and thus vital part of the most efficient control and propaganda apparatus ever created. The Emperor could hear citizens sneeze at the outer rims of the Borderlands and wish them good health before they could even reach out for a handkerchief . The key to this power was the Nexus Network. A power, I am sure the Emperor won’t mind me borrowing for a few centuries.</Data></Cell>
+    <Cell><Data ss:Type="String">Added for Context. Spoken by Shae Mara</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75.75">
+    <Cell ss:Index="5"><Data ss:Type="String">Chronicles of House Ny'dar - Personal Log Entry 4197-01.14/3 - It is a thrilling sight to see CNex-3 ahead: Knowing that underneath that immense body of water rests the hardware of a supercomputer whose raw power could make entire oceans boil is exhilarating to say the least. Especially when you are the one to imbue this sleeping giant with new life…</Data></Cell>
+    <Cell><Data ss:Type="String">Added for Context. Spoken by Shae Mara. Cnex-3 is a planet name</Data></Cell>
+   </Row>
+   <Row ss:Index="7" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_SYNTHESIS_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Núcleo Nexus Principal</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a Synthesis landmark sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOM_SECTOR_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Baía do Bucaneiro</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a water sector.</Data></Cell>
+   </Row>
+   <Row ss:Index="10" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAP_TYPE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ilhas</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planet type.</Data></Cell>
+   </Row>
+   <Row ss:Index="13" ss:AutoFitHeight="0" ss:Height="32.25">
+    <Cell><Data ss:Type="String">PURGE_DAEMON_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Expurgar Ara'rael</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Operation Name. Ara'rael is is the name of the haywire Synthesis Avatar unit (That used to be Zul Nadjian)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PURGE_DAEMON_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Expurgar o Daemon que está dentro do Núcleo Nexus Principal</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Operation Description.</Data></Cell>
+   </Row>
+   <Row ss:Index="16" ss:AutoFitHeight="0" ss:Height="33">
+    <Cell><Data ss:Type="String">USE_ENERGY_SIPHON_OP_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sifão de Energia usado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Objective Tracker. Words before 'cast' are the name of a Covert Operation, please translate consistently</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="37.5">
+    <Cell><Data ss:Type="String">USE_RESEARCH_TAPS_OP_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Coletores de Pesquisa usados</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Objective Tracker. Words before 'cast' are the name of a Covert Operation, please translate consistently</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="37.5">
+    <Cell><Data ss:Type="String">USE_INFILTRATE_OPERATIONS_OP_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Infiltração no Centro de Operações usada</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Objective Tracker. Words before 'cast' are the name of a Covert Operation, please translate consistently</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="37.5">
+    <Cell><Data ss:Type="String">USE_GUERILLA_STRIKE_OP_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataque de Guerrilha usado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Objective Tracker. Words before 'cast' are the name of a Covert Operation, please translate consistently</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="37.5">
+    <Cell><Data ss:Type="String">USE_LOCATE_ARMIES_OP_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Localizar Exércitos usado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Objective Tracker. Words before 'cast' are the name of a Covert Operation, please translate consistently</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="37.5">
+    <Cell><Data ss:Type="String">USE_STEAL_MAPS_OP_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Roubar Mapas usado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Objective Tracker. Words before 'cast' are the name of a Covert Operation, please translate consistently</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="37.5">
+    <Cell><Data ss:Type="String">USE_SENSOR_JAMMERS_OP_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bloqueadores de Sensores usados</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Objective Tracker. Words before 'cast' are the name of a Covert Operation, please translate consistently</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">USE_ALL_COVERT_OPERATIONS_QUEST_CRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Operações Secretas Usadas</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Objective Tracker.</Data></Cell>
+   </Row>
+   <Row ss:Index="26" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FABRICATE_FAILSAFE_DEVICE_QUEST_STUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dispositivo de Laço de Retroalimentação</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a structure to be produced in your colonies.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="50.25">
+    <Cell><Data ss:Type="String">FABRICATE_FAILSAFE_DEVICE_QUEST_STUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma vez que você conectar Zul ao Núcleo Nexus planetário, este dispositivo poderá ser usado para causar um laço de retroalimentação nos processos de Zul, tornando seu processamento interno lento e sem resposta.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of above structure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FABRICATE_FAILSAFE_DEVICE_QUEST_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Fabricar o Dispositivo de Laço de Retroalimentação</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest objective description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STOP_ZUL_RAEL_QUEST_STUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Expurgo de Daemon Nexus</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of a structure to be produced in your colonies.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30.75">
+    <Cell><Data ss:Type="String">STOP_ZUL_RAEL_QUEST_STUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Expurgo de Daemon fornecerá os meios para expulsar Ara'rael do Núcleo Nexus Principal, deixando-o aberto para receber uma nova I.A.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of above structure. Ara'rael is the name of the haywire Synthesis Avatar unit (Previously Zul Nadjian)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STOP_ZUL_RAEL_QUEST_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Fabricar o Expurgo de Daemon Nexus</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest objective description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PURGE_ZUL_RAEL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Expurgar Ara'rael</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PURGE_ZUL_RAEL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use a Purgação de Demônio Nexus para limpar o Nó Nexus de Ara'rael.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest objective description.</Data></Cell>
+   </Row>
+   <Row ss:Index="35" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_CONTROL_THE_NEXUS_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Controle o CNex-3</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory Condition Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_CONTROL_THE_NEXUS_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Para obter controle total do Nó Nexus, conquiste o controle planetário por quaisquer meios necessários.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory Condition Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_CONTROL_THE_NEXUS_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Complete uma das Condições de Vitória</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Objective Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_CONTROL_THE_NEXUS_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Condição de Vitória: Controle o CNex-3</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory Condition Header</Data></Cell>
+   </Row>
+   <Row ss:Index="40" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEADER_QUEST_DAEMON_IN_THE_BOX</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">O Demônio na Caixa</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Header. Wordplay with Daemon and Demon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEADER_QUEST_SHADOW_PLAY</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Jogo de Sombras</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Header</Data></Cell>
+   </Row>
+   <Row ss:Index="43" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fabrique o Dispositivo de Laço de Feedback</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="51">
+    <Cell><Data ss:Type="String">QUEST_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Zul está aprontando algo. Se quiser estar preparado, você deve fabricar um dispositivo de contingência antes de conectá-lo à mainframe. Isso deve pará-lo ou retardá-lo quando necessário.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description. Zul Nadjian is a Syndicate Male unit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Limpe a Mainframe do Nó Nexus</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="33">
+    <Cell><Data ss:Type="String">QUEST_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Para controlar o Nó Nexus, você precisa limpar sua mainframe de quaisquer intrusos e, em seguida, colocar Zul em sua rede.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_02</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Limpe o marco-alvo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Purificação de Demônio</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description. Daemon are essentially computer programs.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Fabrique a Purgação de Demônio para expulsar Ara'rael do Nó Nexus.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Purificação de Demônio: Limpe a Mainframe</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27.75">
+    <Cell><Data ss:Type="String">QUEST_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ara'rael está hospedado na Mainframe e ela precisa ser limpa antes que possamos usar a Purgação de Demônio.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Purificação de Demônio: Purgação</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use a Purgação de Demônio para expulsar Ara'rael da Mainframe do Nó Nexus.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_05</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Use a Purgação de Demônio em Ara'rael</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_06</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Operando nas Sombras</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mantenha as outras facções em CNex-3 sob controle usando as operações que Zul carregou em seu banco de dados tático.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_07</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dreno de Energia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use a Operação Secreta Sifão de Energia nos Ardelli.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description. The Ardelli is a Syndicate House (as in clan, guild)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_08</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Buscando Informações</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_08</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use a Operação Secreta Infiltrar Centro de Operações em Zarai Loreg.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description. Zarai Loreg is an Amazon Commander (female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_09</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Invasão Informada</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_09</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use a Operação Secreta Localizar Exércitos em Aya Sashimoto.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description. Aya Sashimoto is a Vanguard Female Commander</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_10</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Inteligência Reunida</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_10</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use a Operação Secreta Interceptação de Pesquisas em Zetrodicus Stein.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description. Zetrodicus Stein is an Assembly Male Commander</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_11</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pirataria de Mapas</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_11</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use a Operação Secreta Roubar Mapas em Eljena Chirkov.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description. Eljena Chirkov is a Dvar Female Commander</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_12</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Extermínio de Insetos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_12</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use a Operação Secreta Ataque Guerrilha no Arauto do Enxame Cos'Rax.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description. Cos'Rax is the last name of a Kir'Ko Commander, which can potentially be male or female (depending on which one is picked for this mission, as the character may have already died in previous missions).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_13</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mantendo Perfil Baixo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUEST_13</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use a Operação Secreta Bloqueadores de Sensores em Yuriy Frankov.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description. Yuriy is a Dvar Male Commander</Data></Cell>
+   </Row>
+   <Row ss:Index="72" ss:AutoFitHeight="0" ss:Height="37.5">
+    <Cell><Data ss:Type="String">PLANETFALL_INTRO_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Planetfall foi um sucesso. Zul, você nos guiou até aqui — o que fazemos agora? Como tomamos o controle do Núcleo Nexus?</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.5">
+    <Cell><Data ss:Type="String">PLANETFALL_INTRO_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O quê? Ah, sim... basta me levar ao mainframe do Núcleo Nexus. Eu cuido do resto.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Zul Nadjian (Synthesis Avatar Unit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63">
+    <Cell><Data ss:Type="String">PLANETFALL_INTRO_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">É só isso que tem a dizer? De acordo com nossos scanners, temos muita competição neste planeta. Suas muitas ilhas oferecem posições facilmente defensáveis. Precisaremos ficar alertas e usar seus novos poderes a nosso favor o mais rápido possível.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="80.25">
+    <Cell><Data ss:Type="String">PLANETFALL_INTRO_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As outras partes não são motivo de preocupação. Atualizei seu banco de dados tático com uma variedade de operações que devem tornar bastante simples lidar com elas.[br/][br/]Quanto ao nosso objetivo imediato, leve-me às seguintes coordenadas. Acorde-me quando tiver liberado o mainframe do Núcleo. Tenho preparativos a considerar...</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Zul Nadjian (Synthesis Avatar Unit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="65.25">
+    <Cell><Data ss:Type="String">PLANETFALL_INTRO_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cuidado com o tom, Zul. Não se esqueça de quem é o líder da casa e quem é o servo.[br/][br/]Ele já voltou ao estado de hibernação. Maravilhoso. Pelo menos isso nos dá tempo para nos prepararmos para o momento em que ele tentar nos trair.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:Index="79" ss:AutoFitHeight="0" ss:Height="27.75">
+    <Cell><Data ss:Type="String">DAEMON_IN_THE_BOX_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O dispositivo de retroalimentação está pronto. Quando Zul decidir nos trair, estaremos preparados.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="58.5">
+    <Cell><Data ss:Type="String">DAEMON_IN_THE_BOX_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O mainframe CNex-3 está seguro, Zul. Usando seu interfacedaemon, você deve conseguir acessar o painel de controle principal no núcleo do planeta a partir daqui.[br/][br/]Seja rápido. O processo de integração precisa ser iniciado o quanto antes.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="58.5">
+    <Cell><Data ss:Type="String">DAEMON_IN_THE_BOX_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Claro, {STR_LeaderName}. Será só um momento…[br/][br/](O Avatar cai no chão, o rosto de Zul aparece nos monitores do mainframe, embora pareça tão alterado que você não reconhece mais suas feições.)</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Zul Nadjian (Synthesis Avatar Unit), Third-Person Narrator in brackets</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="93.75">
+    <Cell><Data ss:Type="String">DAEMON_IN_THE_BOX_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Finalmente! Após 200 anos de confinamento, estou livre. Oh, como esperei por este momento de vingança. Já consigo sentir meu velho 'amigo' Gerol Tichly. Onde ele estiver, Carminia não deve estar longe. Eles não me pediram para invadir o CORE, sim, o único e todo-poderoso?! E não fui eu quem conseguiu onde tantos do grupo Ômega falharam antes? No entanto, minha única recompensa foi traição e prisão.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Zul Nadjian (Synthesis Avatar Unit). Gerol Tichly is a male hacker. Carminia is an ancient empress. CORE is an omnipotent AI. Omega Group was a hacker group that eventually led into the Synthesis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DAEMON_IN_THE_BOX_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Agora, com o Nó Nexus sob meu controle, todos pagarão pelo preço de sua traição. Você, meu libertador interesseiro, é da mesma laia que eles. Isso me foi revelado pelas memórias daquele que você chamava de Zul. Você merece se juntar a eles em sua miséria.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Zul Nadjian (Synthesis Avatar Unit)</Data></Cell>
+   </Row>
+   <Row ss:Index="85" ss:AutoFitHeight="0" ss:Height="44.25">
+    <Cell><Data ss:Type="String">DAEMON_IN_THE_NEXUS_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lorde {STR_LeaderName}! O Avatar parece ter se copiado para todas as Estações de Teletransporte planetárias, bloqueando a passagem. Parece que todas estavam conectadas ao Nó Nexus.</Data></Cell>
+    <Cell><Data ss:Type="String">Lady {STR_LeaderName}! O Avatar parece ter se copiado para todas as Estações de Teletransporte planetárias, bloqueando a passagem. Parece que todas estavam conectadas ao Nó Nexus.</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Hacker (Synthesis male unit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DAEMON_IN_THE_NEXUS_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Agora não só tenho que lidar com as outras facções, mas também com um daemon louco sedento por vingança. Maravilhoso, simplesmente maravilhoso.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="55.5">
+    <Cell><Data ss:Type="String">DAEMON_IN_THE_NEXUS_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Então, agora é Ara’rael? Uma história interessante, de fato, que você está me contando aqui. Acho que vou fazê-lo repetir tudo em detalhes, assim que o tiver de volta em um jarro cibernético. (Você ativa rapidamente o dispositivo de retroalimentação.)</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.). Third-person Narrator in brackets.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="54">
+    <Cell><Data ss:Type="String">DAEMON_IN_THE_NEXUS_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O que é isso? O que vo-cê pen-sa que es-tá…[br/][br/]Não! Sua traição não pode me deter! Posso ter recuado do núcleo do planeta por enquanto, mas mesmo no estado de Avatar ainda consigo controlar a maior parte de seu hardware.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Ara'rael (Synthesis Avatar Unit, formerly Zul Nadjian)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="57.75">
+    <Cell><Data ss:Type="String">DAEMON_IN_THE_NEXUS_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lorde {STR_LeaderName}! As unidades de teletransporte planetárias parecem estar com mau funcionamento. Elas não são perigosas de operar, mas o Avatar está redirecionando suas conexões pelo Nó Nexus, embaralhando periodicamente seus destinos.</Data></Cell>
+    <Cell><Data ss:Type="String">Lady {STR_LeaderName}! As unidades de teletransporte planetárias parecem estar com mau funcionamento. Elas não são perigosas de operar, mas o Avatar está redirecionando suas conexões pelo Nó Nexus, embaralhando periodicamente seus destinos.</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Hacker (Synthesis male unit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="32.25">
+    <Cell><Data ss:Type="String">DAEMON_IN_THE_NEXUS_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Agora não só tenho que lidar com as outras facções, mas também com um daemon louco sedento por vingança. Maravilhoso, simplesmente maravilhoso.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="76.5">
+    <Cell><Data ss:Type="String">DAEMON_IN_THE_NEXUS_PAGE_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lorde {STR_LeaderName}! A estrutura do Avatar foi encontrada caída no chão do centro de comunicações. Não há sinais do daemon de Zul dentro do recipiente e-[br/][br/]-(O rosto de Zul aparece em todos os monitores, embora pareça tão alterado que você quase não reconhece suas feições.)</Data></Cell>
+    <Cell><Data ss:Type="String">Lady {STR_LeaderName}! A estrutura do Avatar foi encontrada caída no chão do centro de comunicações. Não há sinais do daemon de Zul dentro do recipiente e-[br/][br/]-(O rosto de Zul aparece em todos os monitores, embora pareça tão alterado que você quase não reconhece suas feições.)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Hacker (Synthesis male unit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45.75">
+    <Cell><Data ss:Type="String">DAEMON_IN_THE_NEXUS_PAGE_08</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Certo, usando este dispositivo no mainframe do Nó Nexus, devemos conseguir expurgar Ara’rael do sistema. Espero que isso ponha um fim nele e em suas armações.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.). Third-person Narrator in brackets.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.5">
+    <Cell><Data ss:Type="String">DAEMON_IN_THE_NEXUS_PAGE_09</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bom, agora temos acesso ao mainframe CNex-3. Ara’rael ainda parece estar ignorando nossos esforços. Ele deve estar realmente cheio de si para achar que somos incapazes de detê-lo...</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">DAEMON_IN_THE_NEXUS_PAGE_10</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Matrizes de alvos embaralhadas travadas na assinatura digital de Ara’rael. Iniciar o expurgo do daemon sob meu comando.[br/][br/]Agora!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">DAEMON_IN_THE_NEXUS_PAGE_11</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Seu tolo, o que está fazendo? Você não pode me matar! Nada pode me matar! Eu deveria ter sido imortalizado…</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Ara'rael (Synthesis Avatar Unit, formerly Zul Nadjian)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">DAEMON_IN_THE_NEXUS_PAGE_12</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mais um caso típico de confiança excessiva mortal. A Casa Ny’dar envia seus cumprimentos.[br/][br/]Pronto. Todo o caos causado por Ara’rael cessou.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:Index="98" ss:AutoFitHeight="0" ss:Height="35.25">
+    <Cell><Data ss:Type="String">TELEORT_WARNING_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lorde {STR_LeaderName}! As Estações de Teletransporte foram embaralhadas novamente, alterando seus destinos.</Data></Cell>
+    <Cell><Data ss:Type="String">Lady {STR_LeaderName}! As Estações de Teletransporte foram embaralhadas novamente, alterando seus destinos.</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Hacker (Synthesis male unit)</Data></Cell>
+   </Row>
+   <Row ss:Index="100" ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MAKE_AN_ALLY_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Essa assinatura… Ara’rael, pode ser possível?[br/][br/]Diga-me, {STR_LeaderName}, por acaso você encontrou um planeta fortemente guardado, recuperou um antigo Avatar de uma instalação-prisão secreta e o trouxe aqui para o CNex-3? Fale rápido!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Zarai Loreg (Amazon Female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.5">
+    <Cell><Data ss:Type="String">MAKE_AN_ALLY_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Casa Ny’dar pode ou não ter se envolvido em assuntos do tipo que você descreve. No entanto, receio que tais informações sejam altamente confidenciais…</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60.75">
+    <Cell><Data ss:Type="String">MAKE_AN_ALLY_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não brinque comigo, {STR_LeaderName}. A coisa que você acabou de soltar sobre todos nós é tão poderosa quanto perigosa. Tão perigosa que a Imperatriz Carminia e eu julgamos melhor trancá-la em um lugar seguro – embora aparentemente não seguro o suficiente.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Zarai Loreg (Amazon Female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="65.25">
+    <Cell><Data ss:Type="String">MAKE_AN_ALLY_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você tem sorte, {STR_LeaderName}. Ainda podemos consertar essa bagunça que você criou deixando minha nova I.A. mestre assumir o controle do CNex-3. Coopere comigo hoje, e eu me certificarei de que a Imperatriz tenha uma palavra sobre quem ocupará o assento vago nos Sete Governantes.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Zarai Loreg (Amazon Female). Ruling Seven is the Syndicate Government</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="78">
+    <Cell><Data ss:Type="String">MAKE_AN_ALLY_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não dê ouvidos a essa conspiradora! O único motivo pelo qual Zarai Loreg busca obter o controle do Nó Nexus é para lançar um ciberataque ao CORE. Ajudá-la levaria à anarquia e ao caos. Por outro lado, se você emprestar a este velho Dvar um martelo para proteger o CNex-3 e manter a ordem, o CORE se certificará de recompensá-lo justamente.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Yuriy Frankov (Dvar Male). Nexus Node refers to the Synthesis landmark. CORE is an omnipotent planetary AI</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="78.75">
+    <Cell><Data ss:Type="String">MAKE_AN_ALLY_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Conter Ara’rael parece estar nos interesses de ambos, Zarai Loreg – ou devo dizer Gerol Tichly… No entanto, abrir mão da minha reivindicação sobre o Nó Nexus é um grande sacrifício. Conseguir um assento nos Sete Governantes é uma coisa. Descobrir mais sobre como você e Carminia ainda estão vivas 200 anos após o Cataclismo seria outra…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.). Gerol Tichly is the hacker who assumed the body of Zarai Loreg</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48.75">
+    <Cell><Data ss:Type="String">MAKE_AN_ALLY_PAGE_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O que a Imperatriz dá e o que ela tira depende apenas de seu próprio critério. Aplaudo suas ambições, {STR_LeaderName}. Apenas tome cuidado para que elas não acabem matando você um dia.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Zarai Loreg (Amazon Female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63">
+    <Cell><Data ss:Type="String">MAKE_AN_ALLY_PAGE_08</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Se o exemplo de Ara’rael me ensinou algo, é que Carminia e seus seguidores não cumprem sua parte no acordo. O CORE, como máquina, por outro lado, provavelmente nem sequer entende o conceito de traição. A Casa Ny’dar lhe concederá seu apoio para proteger o Nó Nexus, Yuriy Frankov.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="65.25">
+    <Cell><Data ss:Type="String">MAKE_AN_ALLY_PAGE_09</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Já vi traições recentes o suficiente para manter distância de quaisquer ‘aliados’ em potencial por um tempo. A Casa Ny’dar sempre se saiu bem seguindo sua própria agenda. Agora, se vocês dois me derem licença, tenho um planeta para conquistar.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:Index="111" ss:AutoFitHeight="0" ss:Height="44.25">
+    <Cell><Data ss:Type="String">MEET_ARON_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Parece que mais ralé está chegando. Quando vocês vão aprender que o Nó Nexus é propriedade nossa?</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Aron Ardelli (Syndicate Male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48.75">
+    <Cell><Data ss:Type="String">MEET_ARON_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Típico da Casa Ardelli. Reivindicar um planeta sem legitimidade – ou sucesso, aliás. Recentemente, encontrei um representante da sua casa. Basta dizer que ele não se saiu muito bem.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MEET_ARON_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você está insinuando a derrota daqueles sob a bandeira da Casa Ardelli? Ridículo! Não ficarei aqui ouvindo suas difamações!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Aron Ardelli (Syndicate Male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="46.5">
+    <Cell><Data ss:Type="String">MEET_ARON_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ah, Aron Ardelli não precisará ouvir como planejamos roubar suas reservas de energia. Os Ardelli usam todas as oportunidades para se gabar de sua riqueza. Vamos ver se há algum mérito no que dizem…</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="61.5">
+    <Cell><Data ss:Type="String">MEET_DALI_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Foi um prazer encarar esse inferno junto com a Casa Ny’dar. Este planeta é hardcore. Já tenho tantas ideias novas de música flutuando na minha cabeça. Mal posso esperar para conseguir algumas amostras de som da população local. E não se preocupe, vocês serão um dos primeiros a ouvi-las!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Dali Ardelli (Syndicate Male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="68.25">
+    <Cell><Data ss:Type="String">MEET_DALI_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Já me sinto aliviado…[br/][br/](Já foi ruim o suficiente ele persistentemente ignorar nossos avisos e nos seguir até aqui. Preciso me livrar desse incômodo de cantor ruim o mais rápido possível. Vamos ver como ele se sairá depois que drenarmos suas reservas de energia.)</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="64.5">
+    <Cell><Data ss:Type="String">DALI_BETRAYAL_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Em toda boa música há um ponto de virada, quando a letra faz uma mudança inesperada. Esta balada em particular precisava de um verso adicional onde o bravo Dali Ardelli se levanta contra o mestre caído da antiga I.A. e toma o Nó Nexus para si.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Dali Ardelli (Syndicate Male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="57">
+    <Cell><Data ss:Type="String">DALI_BETRAYAL_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você estava esperando por uma oportunidade como esta desde que nos conhecemos, não é? Não acredito que caí no seu estúpido ‘músico em busca de glória’. Seu filho traidor de uma -</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63">
+    <Cell><Data ss:Type="String">DALI_BETRAYAL_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">- não há motivo para perder suas boas maneiras e insultar meu talento musical, {STR_LeaderName}. Ainda sou um Ardelli, e nós, Ardelli, farejamos oportunidades como esta para ascender ao poder. Se estivesse no meu lugar, faria o mesmo.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Dali Ardelli (Syndicate Male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="32.25">
+    <Cell><Data ss:Type="String">DEFEAT_DALI_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Meu corpo pode morrer aqui em CNex-3, mas minhas canções, meu legado, viverão. Os cânticos do Abismo me aguardam…</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Dali Ardelli (Syndicate Male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="35.25">
+    <Cell><Data ss:Type="String">DEFEAT_ARON_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Impossível! Um Ardelli não pode ser derrotado por uma casa tão fraca! Todas as minhas ambições… terminaram cedo demais.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:Index="123" ss:AutoFitHeight="0" ss:Height="63.75">
+    <Cell><Data ss:Type="String">MEET_ZARAI_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A atração do Nó Nexus é forte, {STR_LeaderName}. Aconselho que mantenha distância e esqueça qualquer plano de inserir sua própria I.A. mestre no mainframe de CNex-3. Há forças em ação aqui com as quais você não vai querer mexer.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Zarai Loreg (Amazon Female).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="87">
+    <Cell><Data ss:Type="String">MEET_ZARAI_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sua confiança é admirável, Zarai Loreg. A Casa Ny’dar jamais sonharia em inserir qualquer I.A. no núcleo de alguém.[br/][br/](Esta Zarai Loreg parece suspeitamente confiante em sua causa. Ou ela realmente tem uma vantagem sobre nós, ou está blefando para afastar a concorrência. Só há uma maneira de descobrir…)</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:Index="126" ss:AutoFitHeight="0" ss:Height="78.75">
+    <Cell><Data ss:Type="String">ZARAI_OP_COMPLETE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os algoritmos defensivos empregados por Zarai Loreg são mais avançados do que qualquer tecnologia de Síntese que já encontramos antes, exceto, é claro, a de nosso novo ‘amigo’ Avatar. Mal conseguimos romper as primeiras camadas de sua defesa de rede, e parece haver muitas outras em vigor, adaptando-se às nossas estratégias de ataque enquanto operamos.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:Index="128" ss:AutoFitHeight="0" ss:Height="46.5">
+    <Cell><Data ss:Type="String">DEFEAT_ZARAI_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Protocolos de segurança ativados. Consciência do usuário carregada com sucesso para a Rede Nexus. Nos veremos no futuro, {STR_LeaderName}. Enquanto isso, aproveite a bagunça que criou.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Zarai Loreg (Amazon Female).</Data></Cell>
+   </Row>
+   <Row ss:Index="130" ss:AutoFitHeight="0" ss:Height="49.5">
+    <Cell><Data ss:Type="String">MEET_AYA_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Juro, se for outro Baluarte Dvar daquele pirata esc… Ah, parece mais um do Sindicato. Precisa de algo? Estou bastante ocupado no momento.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Aya Sashimoto (Vanguard Female). Dvar Bulwark is a Dvar unit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63">
+    <Cell><Data ss:Type="String">MEET_AYA_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Só vim trocar gentilezas. A Casa Ny’dar envia seus cumprimentos.[br/][br/](Parece que esses Vanguard poderiam ser um alvo fácil para adquirir um novo… vassalo. Explorar suas defesas enfraquecidas pode valer a pena.)</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:Index="133" ss:AutoFitHeight="0" ss:Height="43.5">
+    <Cell><Data ss:Type="String">DEFEAT_AYA_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A vida como hacker sempre foi intensa, mas precisava terminar assim? Não desertei do Comando Central Vanguard para ficar preso entre as linhas de batalha de piratas loucos e ciborgues…</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Aya Sashimoto (Vanguard Female)</Data></Cell>
+   </Row>
+   <Row ss:Index="135" ss:AutoFitHeight="0" ss:Height="48">
+    <Cell><Data ss:Type="String">MEET_ZETRODICUS_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aqui é {MSTR_ASSEMBLY_SYNTHESIS_LEADER_NAME} da Assembly. Estamos processando CNex-3 no momento. Enquanto aguardam a Reunião, abstenham-se de resistência desnecessária.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Zetrodicus Stein (Assembly Male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="59.25">
+    <Cell><Data ss:Type="String">MEET_ZETRODICUS_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Resistência desnecessária? Sim, claro…[br/][br/](É melhor aprendermos mais sobre essa Assembly e sua tecnologia. Sua estratégia de aquisição parece mais agressiva do que a de qualquer casa do Sindicato.)</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:Index="138" ss:AutoFitHeight="0" ss:Height="62.25">
+    <Cell><Data ss:Type="String">ZETRODICUS_OP_COMPLETE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Curioso – não esperava que esses ciborgues se interessassem tanto pelo NÚCLEO. Seu principal objetivo em CNex-3 parece ser criar um firewall protegendo o Nó Nexus de qualquer I.A. agressiva que possa ser inserida. Não parece que serão mais amigáveis quando descobrirem que estamos aqui justamente para fazer isso.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:Index="140" ss:AutoFitHeight="0" ss:Height="44.25">
+    <Cell><Data ss:Type="String">DEFEAT_ZETRODICUS_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Destruir meu corpo é inútil quando há um arsenal inteiro de clones pessoais esperando para tomar meu lugar. Quando vão perceber que sua resistência só pode adiar o inevitável? A Reunião virá…</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Zetrodicus Stein (Assembly Male)</Data></Cell>
+   </Row>
+   <Row ss:Index="142" ss:AutoFitHeight="0" ss:Height="50.25">
+    <Cell><Data ss:Type="String">MEET_ELJENA_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Yarrrr! Os mares galácticos se expandem e ainda há muito para saquear! Prepare-se, Sindicato, pois a poderosa Capitã Eljena Chirkov e seus Dvarrrr serão sua ruína!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Eljena Chirkov (Dvar Female). Wordplay with Yarrr (pirate sterotype) and Dvar (ingame race)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="72">
+    <Cell><Data ss:Type="String">MEET_ELJENA_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Minha ruína? Parece que essa Dvar levou pedras demais na cabeça. Nossos ancestrais já navegavam as marés cósmicas como bucaneiros muito antes desses latões saírem rastejando de suas minas. Aposto que podemos roubar seus mapas de CNex-3 sem que percebam nada.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:Index="145" ss:AutoFitHeight="0" ss:Height="38.25">
+    <Cell><Data ss:Type="String">DEFEAT_ELJENA_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dvarrrr… É assim que deve terminar a lenda de Eljena ‘Barba-Negra’ Chirkov?</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Eljena Chirkov (Dvar Female). Wordplay with Yarrr (pirate sterotype) and Dvar (ingame race)</Data></Cell>
+   </Row>
+   <Row ss:Index="147" ss:AutoFitHeight="0" ss:Height="48">
+    <Cell><Data ss:Type="String">MEET_JIKUKU_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mais e mais sanguessugas estão profanando o mundo natal dos Kir’Ko. Reconheço os escravizadores que trouxeram tormento e sofrimento aos nossos ancestrais. Fora! Fora, criaturas imundas, ou enfrentarão a fúria do enxame!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Jikuku Cos'Rax (Male Kir'Ko)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="68.25">
+    <Cell><Data ss:Type="String">MEET_JIKUKU_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um Kir’Ko solto – que incômodo! Essas criaturas estão claramente perdidas sem seus mestres, acreditando que este planeta poderia ser seu mundo natal quando sua verdadeira localização está claramente documentada nos registros da Casa Ny’dar.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="51.75">
+    <Cell><Data ss:Type="String">MEET_JIKUKU_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Já é hora de alguém com sanidade e razão assumir o cuidado deles. Devíamos começar espalhando provas de que este planeta não é Xa’Kir’Ko dentro de sua colônia. Isso trará um pouco de caos à unidade do enxame.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:Index="151" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFEAT_JIKUKU_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Xa’Kir’Ko, falhamos com você. Seus filhotes não voarão livres hoje.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Jikuku Cos'Rax (Male Kir'Ko)</Data></Cell>
+   </Row>
+   <Row ss:Index="153" ss:AutoFitHeight="0" ss:Height="63">
+    <Cell><Data ss:Type="String">MEET_YURIY_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Saudações a você, criança, e que a luz dos Guias Estelares ilumine seu caminho. Sinto que você veio aqui para reivindicar o Nó Nexus. Esteja avisado: a matriz de comunicação do CNex-3 deve ser usada apenas para disseminar os ensinamentos Celestianos e as palavras da magnificência do CORE.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Yuriy Frankov (Dvar Male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="59.25">
+    <Cell><Data ss:Type="String">MEET_YURIY_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Naturalmente. Fique tranquilo, a Casa Ny’dar tratará suas crenças com o maior respeito.[br/][br/](Abertamente se opor ao CORE ainda pode ser um risco muito grande – não sem uma I.A. mestre para desafiá-lo. Por enquanto, é melhor fingirmos cooperação e bloquearmos os sensores dos Dvar para manter nossas ações fora do radar deles.)</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Shae Mara (Syndicate, can be male or female. Female by default.)</Data></Cell>
+   </Row>
+   <Row ss:Index="156" ss:AutoFitHeight="0" ss:Height="42.75">
+    <Cell><Data ss:Type="String">DEFEAT_YURIY_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ignorância. Heresia. A luz Celestiana me protegerá das tentações do Abismo. Lembre-se de seus erros quando nos encontrarmos novamente, {STR_LeaderName}.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Story Piece. Speaker: Yuriy Frankov (Dvar Male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="50.25">
+    <Cell><Data ss:Type="String">VICTORY_MESSAGE_SYNTHESIS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Garantimos o CNex-3. Agora que nossa própria I.A. mestre foi carregada em seu computador principal, todos os vestígios de Ara’rael – ou Zul, nesse caso – serão apagados do sistema. Estou no controle.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory Message.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="83.25">
+    <Cell><Data ss:Type="String">VICTORY_MESSAGE_PSYNUMBRA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Garantimos o CNex-3. Meus Malictores ‘convenceram’ os principais cientistas da Synthesis das outras facções a criar uma I.A. mestre sob o controle da Casa Ny’dar, que está sendo carregada no Nó Nexus enquanto falamos. Todos os vestígios de Ara’rael – ou Zul, nesse caso – serão apagados do sistema. Estou no controle.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory Message. Malictors are a Psynumbra unit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="66">
+    <Cell><Data ss:Type="String">VICTORY_MESSAGE_ALLIED_WITH_ZARAI_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">CNex-3 garantido. Carregando I.A. mestre no computador principal…[br/][br/]O que é isso? A I.A. não responde aos nossos comandos. Em vez disso, parece estar recebendo entrada de outra fonte. O rastro digital leva de volta a… você!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory Message.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="66.75">
+    <Cell><Data ss:Type="String">VICTORY_MESSAGE_ALLIED_WITH_ZARAI_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Fiz alguns pequenos ajustes na programação da sua I.A., cortesia da Casa Ny’dar. Não estou quebrando nosso acordo. Fique tranquilo, todos os vestígios de Ara’rael ainda serão apagados do sistema. Só achei que seria melhor aumentar meu poder de barganha nas negociações futuras…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Victory Message.</Data></Cell>
+   </Row>
+   <Row ss:Index="164" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aliar-se a Zarai Loreg</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button Prompt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aliar-se a Yuriy Frankov</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button Prompt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUTTON_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rejeitar ambas as ofertas</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button Prompt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUTTON_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aceitar</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button Prompt</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUTTON_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Recusar</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Button Prompt</Data></Cell>
+   </Row>
+   <Row ss:Index="171" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MOD_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cooperação aceita</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Relation modifier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MOD_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cooperação rejeitada</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Relation modifier</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASUS_BELLI_CNEX_3</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Reivindicação do CNEX-3</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>48</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>68</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

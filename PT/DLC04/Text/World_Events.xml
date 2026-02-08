@@ -1,0 +1,728 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>ThomM</LastAuthor>
+  <LastSaved>2020-03-19T10:15:19Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10215</WindowHeight>
+  <WindowWidth>21570</WindowWidth>
+  <WindowTopX>32760</WindowTopX>
+  <WindowTopY>32760</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="127" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="288.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="153.75"/>
+   <Column ss:StyleID="s62" ss:Width="172.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="498.75"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="283.5"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">WORLD_EVENTS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">Evento Mundial: {STR_Name} {INT_Duration}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAP_SETUP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Eventos Mundiais</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAP_SETUP</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Determina se efeitos aleatórios em todo o planeta podem ocorrer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TOTAL_ECLIPSE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Eclipse Total</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TOTAL_ECLIPSE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades e estruturas perdem {sightPenalty} de alcance de visão. Unidades perdem {rangePenalty} de alcance em Combate Tático, com mínimo de 4.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TOTAL_ECLIPSE</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">A maior lua em órbita deste mundo está em trânsito entre a estrela-mãe e nós. O brilho da coroa estelar e os pontos prateados cintilantes são espetáculos que todos deveriam ver, mas alguns só conseguem se preocupar com a sombra escura que a lua projeta.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TOTAL_ECLIPSE</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades perdem {rangePenalty} de alcance em todos os ataques e habilidades, com mínimo de {rangeMinimum}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TOTAL_ECLIPSE</Data></Cell>
+    <Cell><Data ss:Type="String">STRUCTURE_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Esta estrutura tem {sightPenalty} de alcance de visão.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FUNGAL_AWAKENING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Despertar Fúngico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FUNGAL_AWAKENING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A cada [turn/], alguns setores serão terraformados para Fúngico, e perigos de Nuvem de Esporos aparecerão nesses setores.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Fungal" refers to an in-game terrain type. "Spore Cloud hazard" refers to in-game obstacle. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FUNGAL_AWAKENING</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Fungos parecem ser uma daquelas poucas certezas na vida… ou talvez da vida. Enormes nuvens de esporos fúngicos se espalharam por todo o mundo, e as condições estão propícias para que prosperem ainda mais.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FUNGAL_AWAKENING</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">A cada {turn}[turn/] {explosionNumber}, explosões de veneno com raio de 2 hexágonos acontecem em um local aleatório, causando {bioDamage}[damagebio/] às unidades no alcance.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FUNGAL_AWAKENING</Data></Cell>
+    <Cell><Data ss:Type="String">AOE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Nuvem de Veneno Fúngico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FUNGAL_AWAKENING</Data></Cell>
+    <Cell><Data ss:Type="String">AOE_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Causa {damage}[damagebio/] a todas as unidades que se moverem ou terminarem o turno neste hexágono.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COSMITE_RAIN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Chuva de Cosmita</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">COSMITE_RAIN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[tricorium/] coletas aparecem em setores aleatórios a cada [turn/]. Durante o Combate Tático, isso causa deslocamento em uma unidade aleatória a cada {turn}[turn/], teletransportando-a para uma distância aleatória de sua posição original.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Cosmite" refers to the in-game resource. "displacement" refers to the in-game effect. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COSMITE_RAIN</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Cosmita é um recurso raro e valioso, e estar chovendo no planeta é, na verdade, uma boa notícia. Porém, devemos ter cuidado ao manuseá-lo, pois o material apresenta uma série de efeitos colaterais estranhos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COSMITE_RAIN</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Devido às propriedades estranhas da cosmita, uma unidade aleatória será deslocada a cada {turn}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PIRATE_UPRISING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rebelião Pirata</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PIRATE_UPRISING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">1 Base Pirata aparecerá no mapa a cada [turn/], e durante o Combate Tático, destroços atingirão 5 unidades aleatórias a cada {turn}[turn/], cada um com 4[strengthphysical/]% de chance de causar [abilityred]Atordoamento[/abilityred].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Stagger" refers to the in-game condition.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PIRATE_UPRISING</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Eles estão escondidos no subterrâneo desde que pousamos, mas agora já tiveram o suficiente. Piratas estão montando bases e planejam invadir nosso território aqui na superfície, enquanto usam suas naves para manobrar todo tipo de destroços, fazendo-os cair ao nosso redor.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PIRATE_UPRISING</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Todo destroço de {turn}[turn/] atingirá 5 unidades aleatórias e terá uma chance de força 4[strengthphysical/] de causar [abilityred]Atordoamento[/abilityred].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Stagger" refers to the in-game condition.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arsenal de Armas Orbitais</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aparecem coleta de armas no mapa estratégico. No Combate Tático, uma unidade aleatória será atingida por destroços explosivos causando 10[damagethermal/] a cada {turn}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Objetos voadores não identificados são algo que sempre nos farão questionar. São alienígenas? São naves espaciais secretas do governo? Não! Desta vez é um doce, doce saque caindo do céu — armas grandes e pequenas explodindo de arsenais, caixas e contêineres de carga.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">A cada {turn}[turn/], uma unidade aleatória será atingida por destroços explosivos causando 10[damagethermal/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">COMMON_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">Arsenal de Armas Comuns</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">UNCOMMON_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">Arsenal de Armas Incomuns</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">RARE_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">Arsenal de Armas Raras</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">COMMON_CACHE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um arsenal de armamentos comuns, lançado de órbita.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">UNCOMMON_CACHE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um arsenal de armamentos incomuns, lançado de órbita.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">RARE_CACHE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um arsenal de armamentos raros, lançado de órbita.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">Abrir Arsenal de Armas - {STR_ItemName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ORBITAL_WEAPONS_CACHE</Data></Cell>
+    <Cell><Data ss:Type="String">BUTTON_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Armas encontradas dentro:</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WHITE_STAR_SUPERNOVA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Supernova da Estrela Branca</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">WHITE_STAR_SUPERNOVA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A cada[turn/], alguns setores serão terraformados para Vulcânico. As unidades terão todas as resistências reduzidas em [abilityred]{resistanceReduction}[/abilityred].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Volcanic" describes an in-game terrain type. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">WHITE_STAR_SUPERNOVA</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Supernovas são explosões extremamente luminosas criadas por estrelas moribundas ao liberarem suas camadas externas. Infelizmente, estamos próximos demais da onda de choque de uma, e ela será devastadora quando atingir o planeta... o que acontecerá muito em breve.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">WHITE_STAR_SUPERNOVA</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Os remanescentes de uma supernova estão danificando a integridade molecular desta unidade. Todas as resistências são reduzidas em [abilityred]{resistanceReduction}[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WHITE_STAR_SUPERNOVA</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as resistências de todas as unidades são reduzidas em [abilityred]{resistanceReduction}[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SATELLITE_DISRUPTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Perturbações de Satélite</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SATELLITE_DISRUPTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todos os custos de [energy/] de operações Estratégicas e Táticas (exceto Devastação e Doutrinas) são dobrados.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Strategic and Tactical Operations" "Doomsday", "Doctrines" describe in-game concepts and actions.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SATELLITE_DISRUPTIONS</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Raios cósmicos estão interrompendo nossos satélites, causando mau funcionamento e superaquecimento ocasionais. Embora não seja devastador, isso desperdiça energia destinada ao uso em operações.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SATELLITE_OVERCHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sobrecarga de Satélite</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SATELLITE_OVERCHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todos os custos de [energy/] e [influence/] de operações Estratégicas e Táticas (exceto Devastação e Doutrinas) são removidos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Strategic and Tactical Operations" "Doomsday", "Doctrines" describe in-game concepts and actions.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SATELLITE_OVERCHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">No pico de seu máximo solar, a produção de energia de nossa estrela hospedeira aumentou significativamente, e nossos satélites conseguem tirar proveito disso. Isso nos permite gastar menos das reservas de energia dos satélites do que o normal ao usá-los em operações.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PERFECT_CLIMATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Clima Perfeito</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PERFECT_CLIMATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[foodslot/] produzem {bonusFood}. Todas as unidades Biológicas e Ciborgues ganham {happinessBonus}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Biological", "Cyborg" describe in-game concepts. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PERFECT_CLIMATE</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Os muitos fatores que compõem um clima se alinharam tão perfeitamente que lembram o planeta teórico “Gaia”. Temperaturas amenas, bons níveis de umidade — tudo se encaixou como se fosse feito para a vida biológica.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PERFECT_CLIMATE</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Devido ao clima muito favorável, esta unidade ganha {happinessBonus}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACID_RAINS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Chuvas Ácidas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ACID_RAINS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Colônias produzem {foodReduction}[supply/] a menos. A cada {turn}[turn/] durante o Combate Tático, a chuva ácida derreterá {armor}[armor/] de todas as unidades.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Biochemical", "Strength Chance", "Poisoned", "Biological", "Cyborg" describe in-game concepts. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ACID_RAINS</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">A poluição de diversas fontes saturou o ar e as névoas, e o resultado está caindo sobre nós — literalmente. A acidez da chuva está prejudicando o crescimento da flora e causando desde irritação até queimaduras naqueles que toca.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACID_RAINS</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">A cada {turn}[turn/], a chuva ácida derreterá {armor}[armor/] de todas as unidades.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CORONAL_MASS_EJECTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ejeção de Massa Coronal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CORONAL_MASS_EJECTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O [production/] da colônia é reduzido em {productionReduction}. A cada {turn}[turn/] durante o Combate Tático, brasas quentes causam {thermalDamage}[damagethermal/] e têm uma chance de força {strengthChance}[strengththermal/] de aplicar[abilityred]Carbonizado[/abilityred] por {turn}[turn/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Thermal", "Strength Chance", "Charred", describe in-game concepts. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CORONAL_MASS_EJECTION</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Uma poderosa e inesperada explosão de matéria solar foi lançada de nossa estrela hospedeira e atingiu este planeta. Ela fritou muitos de nossos eletrônicos e superaqueceu muitas partículas minúsculas flutuando no ar, que carbonizam todas as superfícies que tocam.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CORONAL_MASS_EJECTION</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">A cada {turn}[turn/], brasas quentes causam {thermalDamage}[damagethermal/] e têm uma chance de força {strengthChance}[strengththermal/] de aplicar[abilityred]Carbonizado[/abilityred] por {turn}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IONIC_NEBULA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Nebulosa Iônica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">IONIC_NEBULA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Geradores de energia supercarregados resultam em {energyIncrease} de renda {energyProduction} adicional. A cada {turn}[turn/] durante o Combate Tático, descargas elétricas removerão {shield}[shield/] de todas as unidades.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">IONIC_NEBULA</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">À medida que a estrela que orbitamos ioniza mais gás e poeira ao redor deste planeta do que o normal, conseguimos aproveitar as partículas carregadas adicionais que vazam pela nossa atmosfera. Isso facilita a condução de maiores quantidades de eletricidade por máquinas e armamentos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IONIC_NEBULA</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">A cada {turn}[turn/] uma descarga elétrica removerá {shield}[shield/] de todas as unidades.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPERMOONS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Superluas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SUPERMOONS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Condições aprimoradas de pesquisa astrológica resultam em {researchIncrease} de renda adicional de [research/]. A cada {turn}[turn/] durante o Combate Tático, uma onda de energia Psiónica varre o campo de batalha que tem {strengthChance}[srengthpsyche/] de chance de aplicar [abilityred]Mente Quebrada[/abilityred].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Psionic", "Strength Chance", "Broken Mind", describe in-game concepts.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SUPERMOONS</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">As superluas sempre tiveram superstições ligadas a elas, mas o fortalecimento dos Psiónicos acabou se mostrando verdadeiro. Momentos como esses são sempre uma boa desculpa para estudar seus poderes mentais de perto. Ou apenas torcer para que eles o deixem em paz.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SUPERMOONS</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">A cada {turn}[turn/] uma onda de energia Psiónica varre o campo de batalha, tentando infligir [abilityred]Mente Quebrada[/abilityred] com {strengthChance}[strengthpsyche/] de chance.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRYSTAL_METEORS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Meteoros de Cristal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CRYSTAL_METEORS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Geradores de Quartzito aparecem pelo mapa e unidades Minerais ganham {armorBonus}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"quartzite", "Quartize Spawner" "Mineral" describe in-game concepts.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CRYSTAL_METEORS</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Formas de vida baseadas em silício são bastante raras, sendo o quartzito um dos poucos exemplos conhecidos. Meteoros repletos dessas criaturas caindo do céu levantam várias questões, como: “Como chegaram ao espaço?” e “Será que se originam do vácuo entre planetas?”.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRYSTAL_METEORS</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Fortalecidas pelos Meteoros de Cristal, todas as unidades Minerais ganham {armorBonus}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_SHIP_CRASH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Queda da Nave Colonial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COLONY_SHIP_CRASH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Acampamentos de refugiados aparecerão pelo mapa a cada [turn/] e podem ser resgatados para conceder à colônia mais próxima 1[population/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">COLONY_SHIP_CRASH</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Recebemos um pedido de socorro de uma nave colonial próxima, mas como parece que ninguém pode ajudá-los, eles optaram por usar suas cápsulas de fuga. Devemos prestar assistência àqueles que pousaram aqui; eles podem até querer se juntar às nossas colônias.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GIANTS_PERIHELION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Periélio do Gigante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GIANTS_PERIHELION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades ganham [abilityblue]Movimento Rápido[movewalkenhanced/][/abilityblue].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Fast Movement" describes an in-game concept.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GIANTS_PERIHELION</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Periélios geralmente não são nada especiais, mas desta vez é um pouco diferente. Nossa maior aproximação da estrela coincide com a aproximação do nosso maior vizinho: um gigante gasoso massivo. A pura massa do gigante gasoso está realmente afetando a atração gravitacional deste planeta.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GIANTS_PERIHELION</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Devido à menor atração gravitacional, esta unidade ganha [abilityblue]Movimento Rápido[movewalkenhanced/][/abilityblue].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Fast Movement" describes an in-game concept.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GIANTS_PERIHELION</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Devido à menor atração gravitacional, todas as unidades ganham [abilityblue]Movimento Rápido[movewalkenhanced/][/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPERSTORM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Supertempestade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SUPERSTORM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A tempestade se move em linha reta e transforma vários setores em setores Árticos a cada [turn/]. Unidades voadoras agora têm [abilityred]Movimento Lento[/abilityred].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Arctic" describes an in-game terrain type. "Flying" and "Slow Movement" describe in-game concepts.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SUPERSTORM</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Uma queda inesperada nas temperaturas globais está provocando várias nevascas pelo planeta. Essas tempestades assustadoramente poderosas estão cobrindo tudo o que tocam com uma espessa camada de gelo e neve, e não parece que isso vá derreter tão cedo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPERSTORM</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades voadoras têm sua velocidade reduzida para [abilityred]Movimento Lento[/abilityred].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Slow Movement describes an in-game concept.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TOMBS_OF_IGNITION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tumbas da Ignição</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TOMBS_OF_IGNITION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Várias Abóbadas Prometeanas aparecem pelo mapa a cada [turn/], e ataques à distância têm {strengthChance}[strengththermal/] de chance de força para aplicar[abilityred]Queimadura[/abilityred] em unidades não Etéreas e não Minerais.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Star Union" and "Promethean" refer to in-lore factions. "Promethean Vault", "Strength Chance", "Burning" describe in-game concepts. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TOMBS_OF_IGNITION</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Muitas informações foram perdidas desde o colapso da Star Union, incluindo as Abóbadas Prometeanas que estão sendo subitamente desenterradas. Seja qual for a razão, elas vêm acompanhadas de vários gases e elementos combustíveis, alguns até se inflamando espontaneamente ao entrarem em contato com o ar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TOMBS_OF_IGNITION</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Todos os ataques à distância têm {strengthChance}[strengththermal/] de chance de força para aplicar[abilityred]Queimadura[/abilityred] em unidades não Etéreas e não Minerais por {turn}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAGNETIC_FIELD_DISRUPTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Disrupção do Campo Magnético</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MAGNETIC_FIELD_DISRUPTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A renda de [influence/] é reduzida em {influenceReduction}. A cada {turn}[turn/] durante o Combate Tático, cargas estáticas causam 4[damagewave/] e têm {strength}[strengthwave/] de chance de força para aplicar[abilityred]Carga Estática[/abilityred] em todas as unidades por {turns}[turn/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Kinetic", "Strength chance", "Concussion" describe in-game concepts. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MAGNETIC_FIELD_DISRUPTION</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">O campo magnético do planeta está constantemente presente, mas tem força variável. Estamos observando um aumento em sua intensidade agora, e isso está causando estragos em nossas comunicações, além de induzir cargas estáticas em vários objetos diferentes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MAGNETIC_FIELD_DISRUPTION</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">A cada {turn}[turn/] durante o Combate Tático, cargas estáticas causam 4[damagewave/] e têm {strength}[strengthwave/] de chance de força para aplicar[abilityred]Carga Estática[/abilityred] em todas as unidades por {turns}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLANATARY_POLLEN_CLOUD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Nuvem de Pólen Planetária</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PLANATARY_POLLEN_CLOUD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A renda de [food/] é dobrada. Todas as unidades Biológicas e Ciborgues ganham {moraleBonus}[happiness/] e regeneram 10[hp/] a cada turno. Unidades de Planta e Abelha também causam {damageIncrease} a mais de dano.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Plant" and "Bee" describe specific unit types. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PLANATARY_POLLEN_CLOUD</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">A taxa de reprodução na primavera neste planeta está fora dos padrões. De uma só vez, toda a flora lançou suas sementes, esporos ou pólen no ar, deixando-os serem carregados pelo vento. Tudo está coberto por nuvens gigantes de pólen, afetando todos os seres vivos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PLANATARY_POLLEN_CLOUD</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_EFFECT_DUO</Data></Cell>
+    <Cell><Data ss:Type="String">O ar cheio de pólen está fortalecendo esta unidade. Todas as suas habilidades causam {damageBonus} a mais de dano, e ela ganha {moraleBonus}[happiness/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PLANATARY_POLLEN_CLOUD</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades Biológicas e Ciborgues ganham {moraleBonus}[happiness/] e regeneram 10[hp/] a cada turno. Unidades de Planta e Abelha também causam {damageIncrease} a mais de dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AURORA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aurora</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AURORA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as Colônias ganham renda de {happinessIncrease}[happiness/]. Unidades não Insanas ganham {moraleIncrease}[happiness/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AURORA</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Para a maioria das pessoas, é a primeira vez que veem uma aurora, e a reação é de silêncio impressionado. A variedade de luzes e padrões belíssimos que iluminam o céu noturno é resultado de uma reação causada pelo vento solar da estrela interagindo com a magnetosfera do planeta.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AURORA</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades não Insanas ganham {moraleIncrease}[happiness/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MIRROR_SEAS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mares Espelhados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MIRROR_SEAS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Setores Costeiros produzem o dobro de [food/], [research/] e [energy/]. Unidades Aquáticas ganham [abilityblue]Movimento Rápido[/abilityblue] e dois hexes de alcance aumentado em suas habilidades, e mais itens aparecem em locais aleatórios na água.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Coastal Sector", "Water Units", "Fast Movement", "Range" describe in-game concepts. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MIRROR_SEAS</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Um clima excepcionalmente calmo resultou em uma superfície marinha discreta e espelhada. É como se o mar tivesse se acalmado, permitindo que coletássemos seus recursos com muito mais eficiência e recolhêssemos uma quantidade maior de objetos que flutuaram até a superfície.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MIRROR_SEAS</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_EFFECT_AQU</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade possui [abilityblue]Movimento Rápido[/abilityblue] e dois hexes de alcance aumentado em suas habilidades.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Fast Movement, "Range" describe in-game concepts. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MIRROR_SEAS</Data></Cell>
+    <Cell><Data ss:Type="String">SECTOR_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Este setor produz o dobro de [food/], [research/] e [energy/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MIRROR_SEAS</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades aquáticas possuem [abilityblue]Movimento Rápido[/abilityblue] e dois hexes de alcance aumentado em suas habilidades.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_ECHOES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ecos do Vazio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VOID_ECHOES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Em nossas colônias, esses ecos fornecem 1 recurso adicional para cada [foodslot/][productionslot/][energyslot/][researchslot/], e no Combate Tático, isso cria um Eco de uma unidade aleatória a cada {turn}[turn/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Void" refers to a lore concept. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VOID_ECHOES</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Devido a uma anomalia do Vazio detectada recentemente, temos experimentado estranhos ecos de nós mesmos. Ver a si mesmo fazendo o que acabou de fazer ou repetindo o que acabou de dizer é uma experiência e tanto. Pelo menos parece estar ajudando no nosso trabalho!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID_ECHOES</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">A energia do Vazio está criando um Eco de uma unidade aleatória a cada {turn}[turn/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Void" refers to a lore concept. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REFLECTIVE_DUST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Poeira Refletora</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">REFLECTIVE_DUST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades possuem [abilityblue]Camuflagem Universal[/abilityblue] e ataques à distância têm {decreasedAccuracy} de precisão reduzida.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Universal Camouflage" refers to an in-game concept. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">REFLECTIVE_DUST</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Poder passar despercebido em um mundo hostil parece uma boa ideia, mas não ajuda se todos os outros seres vivos naquele mundo também estiverem invisíveis. A poeira brilhante que tem se depositado há algum tempo está fazendo exatamente isso agora.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REFLECTIVE_DUST</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_EFFECT_A</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade tem {decreasedAccuracy} de precisão reduzida em ataques à distância.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"accuracy" refers to an in-game concept.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REFLECTIVE_DUST</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">As unidades têm {decreasedAccuracy} de precisão reduzida em ataques à distância.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"accuracy" refers to an in-game concept.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERSTELLAR_TRADE_CONVOY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Comboio de Comércio Interestelar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INTERSTELLAR_TRADE_CONVOY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Gerar Energia[energy/] e Gerar Conhecimento[research/] convertem {productionConversion} de nossa renda de [production/], em vez de 25%.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Generate Energy", " Generate Knowledge" refer to in-game concepts. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INTERSTELLAR_TRADE_CONVOY</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Dizem que dá azar recusar uma boa oferta, e acabamos de receber uma. Um comboio de comerciantes interestelares nos contatou, dizendo que trocarão parte de sua energia e conhecimento por quaisquer mercadorias ou reparos que possamos oferecer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHORT_LIVED_NANITES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Nanitas de Vida Curta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SHORT_LIVED_NANITES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Acelerar produção custa {buyNowDecrease}% menos [energy/]. Unidades [br/]Ciborgues e Mecânicas são curadas em {heal}[hp/] durante o Combate Tático e têm uma chance adicional de {fumbleChance} de falhar em seus ataques e habilidades.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Hurry production", "Cyborg", "Mechanical" refer to in-game concepts. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SHORT_LIVED_NANITES</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Após abrir uma espécie de tumba antiga, uma enorme nuvem de nanitas escapou e se espalhou rapidamente pelo mundo, aninhando-se em qualquer equipamento eletrônico que encontrou. Embora sejam de vida curta, estão reparando e aprimorando muito todas as partes das máquinas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SHORT_LIVED_NANITES</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades Ciborgues e Mecânicas são curadas em {healthIncrease}[hp/] a cada [turn/] e têm uma chance adicional de {fumbleChance} de falhar em seus ataques e habilidades.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Cyborg", "Mechanical" refer to in-game concepts. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EARTHQUAKE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Terremoto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EARTHQUAKE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Alguns setores foram terraformados para Montanhosos. No combate tático por turnos, os tremores secundários têm uma chance de força {strengthChance}[damagekinetic/] de aplicar [abilityred]Atordoamento[/abilityred] a todas as unidades terrestres e causar 10 de dano a uma grande quantidade de obstáculos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EARTHQUAKE</Data></Cell>
+    <Cell><Data ss:Type="String">LORE</Data></Cell>
+    <Cell><Data ss:Type="String">Duas placas tectônicas colidiram com tamanha violência que ergueram parte da crosta planetária, formando uma nova cadeia de montanhas. O evento foi quase instantâneo, mas os tremores secundários serão sentidos por todo o planeta por um tempo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EARTHQUAKE</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Tremores secundários têm uma chance de força {strengthChance}[damagekinetic/] de aplicar [abilityred]Atordoamento[/abilityred] a todas as unidades terrestres e causar 10 de dano a uma grande quantidade de obstáculos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Evento Mundial</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>36</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>47</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

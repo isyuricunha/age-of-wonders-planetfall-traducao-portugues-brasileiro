@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Michelle Kusters</LastAuthor>
+  <LastSaved>2020-02-05T14:43:58Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9810</WindowHeight>
+  <WindowWidth>20850</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="33" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="270" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="240"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:Width="279"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="180.75"/>
+   <Column ss:StyleID="s62" ss:Width="265.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DLC04_STORYEVENTS</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="6"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="6"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="6"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THERIANS_WEAK_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Seleção Natural</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">THERIANS_WEAK_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Temos que apoiar nossa alcateia. Aqui fora é comer ou ser comido, entende? E estamos com tanta fome. {XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THERIANS_MEDIUM_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sem Luvas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">THERIANS_MEDIUM_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Nossas garras estão afiadas, nossos dentes à mostra e todos os seguros das armas desativados. Queremos que experimente o verdadeiro potencial da nossa companhia. Ainda alegres, só que mais sangrentos. {XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THERIANS_STRONG_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Feito em Farrapos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">THERIANS_STRONG_ATTACK_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Poderíamos ter sido amigos. Mas agora o caçador se tornou a presa. Sentimos seu medo. Quando ouvir nossos uivos, já será tarde demais. {XML_NPC_FACTIONS_STORYEVENTS@NEGOTIATE_PEACE@DESCRIPTION}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Only the string reference between brackets {} was added. This does not require additional localization, apart from the string reference which should be added</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_THERIANS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Exigência da Facção Therian</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_THERIANS_ENERGY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você não está ouvindo nossos uivos e rosnados. Talvez uma exigência direta seja mais clara. Precisamos de energia para nosso abrigo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_THERIANS_ALIENGOOD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você vagueia por aí, fazendo o que quer, nos ignorando e aos nossos desejos. Jogue-nos um osso aqui. Ou pelo menos, um pouco de cosmita.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FACTION_DEMAND_THERIANS_SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Essa amizade parece muito unilateral. Você só toma e toma, então agora vamos reivindicar o que é nosso. Abandone este setor para nós.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RIVALRY_WARNING_SECOND_THERIANS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Nossa companhia não o deixa feliz? Você é realmente como os outros — tiranos e amotinados? Prove que é diferente, ou mostraremos como é estar do nosso lado ruim.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DEFAULT_OUTPOST_EVENT_SHAKARN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esse assentamento Shakarn é adornado com belos objetos holográficos flutuando acima das ruas e seus habitantes. Mas, conforme você se aproxima, as cores começam a desbotar e a verdadeira natureza do assentamento se revela como uma base militar de operações.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">You in the text can refer to a male or female character</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_DLC04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Perdido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_DLC04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao se aproximar do esconderijo, você assusta um Therian perdido {STR_UnitName} que estava tentando abrir uma das caixas. Ele recua com cautela, faminto e sozinho. Você pode ajudá-lo ou ficar com os recursos para si. [br/][productioncol]Esta decisão afetará as relações com esta facção. [/productioncol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_DLC04_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Adotar o perdido em suas fileiras ({STR_UnitName})</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">{STR_UnitName} gives a unit name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_DLC04_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe a unidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_DLC04_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Ignorar o perdido e ficar com o {STR_Rewards} para si</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">{STR_Rewards} shows a reward amount</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_DLC04_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_DLC04_BUTTON_03</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Abrir a caixa e deixá-la para o perdido, ganhando [diplomaticlinks/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRODUCTION_PICKUP_EVENT_DLC04_BUTTON_03</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Suas relações [diplomaticlinks/] com os Therians melhoram</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Depósito de Energia Danificado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao se aproximar do depósito de energia danificado, você percebe que um pequeno grupo de Therians está usando uma arma para forçar a abertura do depósito. O líder deles avisa que chegaram primeiro e reivindicam 'prioridade', mas você tem certeza de que pode expulsá-los se tentar. [br/][productioncol]Esta decisão afetará as relações com esta facção.[/productioncol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC04_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Expulsá-los e reivindicar a arma: ({STR_ItemName})</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">{STR_ItemName} gives an item name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC04_BUTTON_01</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe a arma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC04_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Expulsá-los e reivindicar o depósito, perdendo a arma: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC04_BUTTON_02</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Você recebe: {STR_Rewards}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC04_BUTTON_03</Data></Cell>
+    <Cell><Data ss:Type="String">LABEL</Data></Cell>
+    <Cell><Data ss:Type="String">Deixar isso para os Therians e ganhar [diplomaticlinks/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_PICKUP_EVENT_DLC04_BUTTON_03</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Suas relações [diplomaticlinks/] com os Therians melhoram</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

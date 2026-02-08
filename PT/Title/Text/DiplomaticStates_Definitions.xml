@@ -1,0 +1,471 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>ThomM</LastAuthor>
+  <LastSaved>2019-05-16T07:52:09Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17835</WindowHeight>
+  <WindowWidth>10005</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="74" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="164.25"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:Width="284.25"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="213.75"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Column ss:StyleID="s62" ss:Width="284.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">DIPLOMATICSTATES_DEFINITIONS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPTION_WAR_NORMAL_CB</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Declarar Guerra com Casus Belli Normal (6-10[CasusBelli/])</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is listed as an item in the interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OPTION_WAR_NORMAL_CB</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Declarar guerra ao outro jogador usando um Casus Belli normal. Seu estado diplomático mudará para guerra e seu Apoio Popular aumentará.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPTION_WAR_MINOR_CB</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Declarar Guerra com Casus Belli Menor (1-5[CasusBelli/])</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is listed as an item in the interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OPTION_WAR_MINOR_CB</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Declarar guerra ao outro jogador usando um Casus Belli menor. Seu estado diplomático mudará para guerra e seu Apoio Popular aumentará.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPTION_WAR_MAJOR_CB</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Declarar Guerra com Casus Belli Maior (11+[CasusBelli/])</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is listed as an item in the interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OPTION_WAR_MAJOR_CB</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Declarar guerra ao outro jogador usando um Casus Belli maior. Seu estado diplomático mudará para guerra e seu Apoio Popular aumentará.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPTION_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Declarar Guerra sem Casus Belli</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is listed as an item in the interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OPTION_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Declarar guerra ao outro jogador. Isso mudará seu estado de relação para guerra e você sofrerá uma penalidade de Apoio da População.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPTION_PEACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oferecer Pacto de Não Agressão</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is listed as an item in the interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OPTION_PEACE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Oferecer um pacto de não agressão no qual ambos os jogadores mantêm um estado pacífico.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPTION_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oferecer Trégua</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is listed as an item in the interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OPTION_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Oferecer uma trégua na qual ambos os jogadores concordam em cessar todas as ações hostis.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPTION_VASSALAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tornar-se vassalo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is listed as an item in the interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OPTION_VASSALAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Tornar-se vassalo do outro jogador. Isso cria efetivamente uma aliança fixa com o outro jogador, que só o suserano pode romper. O acordo só funciona se nenhum dos jogadores já for vassalo. O suserano ganhará um adicional de {INT_energy}% de energia e {INT_research}% de pesquisa por turno com base na renda de seu vassalo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPTION_OVERLORD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tornar-se suserano</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is listed as an item in the interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OPTION_OVERLORD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Tornar-se suserano do outro jogador. Isso cria efetivamente uma aliança fixa com o outro jogador, que só o suserano pode romper. O acordo só funciona se nenhum dos jogadores já for vassalo. O suserano ganhará um adicional de {INT_energy}% de energia e {INT_research}% de pesquisa por turno com base na renda de seu vassalo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPTION_DEFENSIVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oferecer Pacto Defensivo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is listed as an item in the interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OPTION_DEFENSIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Oferecer um pacto defensivo no qual ambos os jogadores tentam ajudar um ao outro em guerra.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPTION_ALLIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Propor Aliança</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is listed as an item in the interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OPTION_ALLIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Propor uma aliança com o outro jogador. Esta é uma ação mútua, e ambos os jogadores precisam compartilhar um pacto defensivo primeiro.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BREAK_NONAGGRESSION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Romper Pacto de Não Agressão</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is listed as an item in the interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BREAK_NONAGGRESSION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Rompa seu pacto de não agressão e volte a um estado neutro. Isso resultará em algumas penalidades de opinião e reputação.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BREAK_DEFENSIVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Romper Pacto Defensivo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is listed as an item in the interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BREAK_DEFENSIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Rompa seu pacto defensivo e volte a um estado neutro. Isso resultará em penalidades moderadas de opinião e reputação.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BREAK_ALLIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Romper Aliança</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is listed as an item in the interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BREAK_ALLIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Rompa sua aliança e volte a um estado neutro. Isso resultará em penalidades graves de opinião e reputação.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BREAK_VASSALAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Encerrar Vassalagem</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is listed as an item in the interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BREAK_VASSALAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Encerre a vassalagem. Isso libera o vassalo e reverte a relação para um pacto de não agressão. Essa ação leva um turno e afeta sua reputação e a opinião de ambos os jogadores um em relação ao outro.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data></Cell>
+   </Row>
+   <Row ss:Index="33" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPENBORDERS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Abrir fronteiras</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is listed as an item in the interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OPENBORDERS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Abra as fronteiras para o outro jogador.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OPENBORDERSFORTURNS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Abrir fronteiras por duração fixa</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is listed as an item in the interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OPENBORDERSFORTURNS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Abra as fronteiras para o outro jogador por uma duração fixa.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data></Cell>
+   </Row>
+   <Row ss:Index="38" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHAREVISION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Compartilhar visão</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is listed as an item in the interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SHAREVISION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Compartilhe visão com o outro jogador.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHAREVISIONFORTURNS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Compartilhar visão por duração fixa</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is listed as an item in the interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SHAREVISIONFORTURNS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Compartilhe visão com o outro jogador por uma duração fixa.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data></Cell>
+   </Row>
+   <Row ss:Index="43" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHAREINTELLIGENCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Compartilhar inteligência</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is listed as an item in the interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SHAREINTELLIGENCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Compartilhe um pacto de inteligência com o outro jogador.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHAREINTELLIGENCEFORTURNS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Compartilhar inteligência por duração fixa</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is listed as an item in the interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SHAREINTELLIGENCEFORTURNS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Compartilhe um pacto de inteligência com o outro jogador por uma duração fixa.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data></Cell>
+   </Row>
+   <Row ss:Index="48" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALLOWCLAIMEDSECTORS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Permitir construção em setores reivindicados</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is listed as an item in the interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ALLOWCLAIMEDSECTORS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Permitir que o outro jogador construa em setores reivindicados.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ALLOWCLAIMEDSECTORSFORTURNS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Permitir construção em setores reivindicados por tempo limitado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is listed as an item in the interface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ALLOWCLAIMEDSECTORSFORTURNS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Permitir construção em setores reivindicados por tempo limitado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a tooltip for a trade item in the trade interface</Data></Cell>
+   </Row>
+   <Row ss:Index="53" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRADE_MODIFIER_DISLIKE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Superar Desagrados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRADE_MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os seguintes modificadores serão removidos:[br/]{STR_modifiers}[br/]Negociar esses modificadores irá removê-los da relação.</Data></Cell>
+   </Row>
+   <Row ss:Index="56" ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">OPTION_ALLIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">AI_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">Proponho que forjemos uma aliança para que possamos nos ajudar mutuamente quando a guerra chamar.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">OPTION_DEFENSIVE</Data></Cell>
+    <Cell><Data ss:Type="String">AI_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">É hora de aprofundarmos nossas relações pacíficas e nos aliarmos em um pacto defensivo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">OPTION_PEACE</Data></Cell>
+    <Cell><Data ss:Type="String">AI_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">Devíamos firmar um pacto de não agressão.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">OPTION_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">AI_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">Vamos esquecer o passado e seguir para um novo futuro!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">OPTION_VASSALAGE</Data></Cell>
+    <Cell><Data ss:Type="String">AI_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">Entrego meu império a você. Vamos forjar uma aliança e trabalhar juntos, comigo como seu vassalo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">OPTION_OVERLORD</Data></Cell>
+    <Cell><Data ss:Type="String">AI_DESC</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Renda-se a mim e sobreviva como meu vassalo leal. Juntos, o mundo será nosso.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">OPTION_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">AI_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">Esse relacionamento acabou. Vou atrás de você!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">OPTION_WAR_MINOR_CB</Data></Cell>
+    <Cell><Data ss:Type="String">AI_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">Suas ações contra mim não ficarão impunes. Você é o próximo na minha lista!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">OPTION_WAR_NORMAL_CB</Data></Cell>
+    <Cell><Data ss:Type="String">AI_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">Você não achou que eu simplesmente esqueceria, não é?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">OPTION_WAR_MAJOR_CB</Data></Cell>
+    <Cell><Data ss:Type="String">AI_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">Suas ações não podem ser perdoadas. Terei minha vingança!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">BREAK_ALLIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">AI_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">Essa aliança não parece mais vantajosa para mim. É aqui que nossos caminhos se separam.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">BREAK_DEFENSIVE</Data></Cell>
+    <Cell><Data ss:Type="String">AI_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">Esse pacto defensivo claramente não foi uma boa ideia. Lembre-se de que posso esmagar seu império quando quiser.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">BREAK_NONAGGRESSION</Data></Cell>
+    <Cell><Data ss:Type="String">AI_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">Preciso de mais independência. Nosso pacto acabou.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">BREAK_VASSALAGE</Data></Cell>
+    <Cell><Data ss:Type="String">AI_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">Você me serviu bem como vassalo, mas agora lhe concederei mais liberdade diplomática.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">DEMAND_BREAK_VASSALAGE</Data></Cell>
+    <Cell><Data ss:Type="String">AI_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">Já servi por tempo suficiente. Por favor, conceda-me mais liberdade diplomática e encerre este vassalagem.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">OPENBORDERS</Data></Cell>
+    <Cell><Data ss:Type="String">AI_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">Vamos abrir nossas fronteiras uma para a outra. Isso melhoraria muito nossa mobilidade.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SHAREVISION</Data></Cell>
+    <Cell><Data ss:Type="String">AI_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">Vamos compartilhar nossa visão para que possamos nos ajudar melhor!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SHAREINTELLIGENCE</Data></Cell>
+    <Cell><Data ss:Type="String">AI_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">Compartilhar nossas informações nos proporcionará proteção mútua!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">ALLOWCLAIMEDSECTORS</Data></Cell>
+    <Cell><Data ss:Type="String">AI_DESC</Data></Cell>
+    <Cell><Data ss:Type="String">Vamos fortalecer nossas posições. Permitir que eu construa perto de suas fronteiras nos tornará mais fortes.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>130</Zoom>
+   <Selected/>
+   <TopRowVisible>66</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>69</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

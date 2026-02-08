@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>KyleB</LastAuthor>
+  <LastSaved>2019-02-04T13:41:37Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12789</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="65" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.857142857142854" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="235.71428571428572"/>
+   <Column ss:StyleID="s62" ss:Width="132.85714285714286"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="398.14285714285717"/>
+   <Column ss:StyleID="s62" ss:Width="147.85714285714283"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="316.71428571428572"/>
+   <Column ss:StyleID="s62" ss:Width="147"/>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OPERATIONDEFINITIONS_STRATEGIC</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CITY_OPERATION_ABSORB</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Absorver</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">text for the button to absorb the colony into your own kingdom</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CITY_OPERATION_ABSORB</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você absorve a colônia para seu império, colocando-a sob seu controle.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CITY_OPERATION_ABSORB</Data></Cell>
+    <Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta colônia está sendo absorvida. O processo será concluído em [INT_duration].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CITY_OPERATION_RAZE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Destruir</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">text for the button to raze the colony, see cell below for more information about the action</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CITY_OPERATION_RAZE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Queime a colônia até o chão. Isso tornará várias melhorias da colônia inutilizáveis e a própria colônia inabitável até ser reconstruída.[br/][br/]Você recebe:[br/][fireCol]{ReputationDecrease} Reputação[br/]{RaceRelationDecrease} Relações Raciais com a raça da colônia[/fireCol]</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Burns the town to the ground. Removed Instantly for each language!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CITY_OPERATION_RAZE</Data></Cell>
+    <Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A colônia está sendo destruída. O processo será concluído em [INT_duration].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CITY_OPERATION_TRANSFER_HQ</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Transferir QG</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CITY_OPERATION_TRANSFER_HQ</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Transfere o edifício do QG para outro centro de colônia. O edifício do QG é responsável pela renda econômica base e é onde seu Líder aparecerá ao retornar do Vazio.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CITY_OPERATION_TRANSFER_HQ</Data></Cell>
+    <Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O QG está sendo transferido. O processo será concluído em [INT_duration].</Data></Cell>
+   </Row>
+   <Row ss:Index="16" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_RAZE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Destruir</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_RAZE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Queime a base de um setor até o chão.[br/][firecol]Isso também destruirá todas as melhorias e removerá a posse sobre este setor.[/firecol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_RAZE</Data></Cell>
+    <Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A base do setor está sendo destruída. O processo será concluído em [INT_duration].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_RAZE_DEFENSE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Destruir esta defesa imperial.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_RAZE_DEFENSE</Data></Cell>
+    <Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta defesa imperial está sendo destruída. O processo será concluído em [INT_duration].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_CAPTURE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">[annex/] Capturar e anexar setor a {STR_cityName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_CAPTURE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Captura o setor e o anexa à sua colônia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_CAPTURE</Data></Cell>
+    <Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este setor está sendo anexado. O processo será concluído em [INT_duration].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_TRANSFER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Transferir para {STR_cityName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_TRANSFER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Transfere o setor de uma colônia para outra colônia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_TRANSFER</Data></Cell>
+    <Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Transferindo o setor para sua colônia. O processo será concluído em [INT_duration].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_RELEASE_FORWARD_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Liberar setor como base avançada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_RELEASE_FORWARD_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Libera a base do setor como uma base avançada, desvinculando-a de sua colônia.[br/][firecol]Isso remove toda a renda deste setor.[/firecol][br/][br/]Uma base avançada não permite coletar renda do setor, mas projeta uma reivindicação sobre todos os setores adjacentes, fornece visão da área ao redor e serve como obstáculo para seus inimigos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_RELEASE_FORWARD_BASE</Data></Cell>
+    <Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este setor está sendo liberado como base avançada. O processo será concluído em [INT_duration].</Data></Cell>
+   </Row>
+   <Row ss:Index="31" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_FORWARD_BASE_ANNEX</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">[annex/] Anexar base avançada a {STR_cityName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_FORWARD_BASE_ANNEX</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Vincula a base avançada à sua colônia.[br/][br/]{XML_COLONYDEFINITION_STRATEGIC@SECTOR_OPERATION_BUILD_BASE@SHARED_TEXT}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_FORWARD_BASE_ANNEX</Data></Cell>
+    <Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Anexando a base avançada como base de setor. O processo será concluído em [INT_duration].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_FORWARD_BASE_CAPTURE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Capturar base avançada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_FORWARD_BASE_CAPTURE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Captura a base avançada, transferindo sua posse para você.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECTOR_OPERATION_FORWARD_BASE_CAPTURE</Data></Cell>
+    <Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta base avançada está sendo capturada. O processo será concluído em [INT_duration].</Data></Cell>
+   </Row>
+   <Row ss:Index="38" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LANDMARK_OPERATION_ANNEX</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">[annex/] Anexar marco a {STR_cityName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LANDMARK_OPERATION_ANNEX</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Vincula o marco à sua colônia.[br/][br/]{XML_COLONYDEFINITION_STRATEGIC@SECTOR_OPERATION_BUILD_BASE@SHARED_TEXT}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LANDMARK_OPERATION_ANNEX</Data></Cell>
+    <Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este marco está sendo anexado. O processo será concluído em [INT_duration].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LANDMARK_OPERATION_RELEASE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Liberar marco</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LANDMARK_OPERATION_RELEASE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Libera o marco da colônia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LANDMARK_OPERATION_RELEASE</Data></Cell>
+    <Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este marco está sendo liberado. O processo será concluído em [INT_duration].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LANDMARK_OPERATION_CAPTURE_RELEASE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Capturar e liberar marco</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LANDMARK_OPERATION_CAPTURE_RELEASE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Captura o marco e o libera como um setor desconectado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LANDMARK_OPERATION_CAPTURE_RELEASE</Data></Cell>
+    <Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este marco está sendo capturado. O processo será concluído em [INT_duration].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LANDMARK_OPERATION_CAPTURE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">[annex/] Capturar e anexar marco a {STR_cityName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LANDMARK_OPERATION_CAPTURE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Captura o marco e o anexa à sua colônia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LANDMARK_OPERATION_CAPTURE</Data></Cell>
+    <Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este marco está sendo anexado no momento. O processo será concluído em [INT_duration].</Data></Cell>
+   </Row>
+   <Row ss:Index="51" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DWELLING_OPERATION_ANNEX</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">[annex/] Anexar moradia a {STR_cityName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DWELLING_OPERATION_ANNEX</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Anexa a moradia à sua colônia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DWELLING_OPERATION_ANNEX</Data></Cell>
+    <Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta moradia está sendo anexada no momento. O processo será concluído em [INT_duration].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DWELLING_OPERATION_RELEASE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Liberar moradia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DWELLING_OPERATION_RELEASE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Libera a moradia da sua colônia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DWELLING_OPERATION_RELEASE</Data></Cell>
+    <Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta moradia está sendo liberada no momento. O processo será concluído em [INT_duration].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DWELLING_OPERATION_CAPTURE_RELEASE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Capturar e liberar moradia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DWELLING_OPERATION_CAPTURE_RELEASE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Captura a moradia e a libera como um setor desconectado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DWELLING_OPERATION_CAPTURE_RELEASE</Data></Cell>
+    <Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta moradia está sendo capturada no momento. O processo será concluído em [INT_duration].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DWELLING_OPERATION_CAPTURE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">[annex/] Capturar e anexar moradia a {STR_cityName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DWELLING_OPERATION_CAPTURE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Captura a moradia e a anexa à sua colônia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DWELLING_OPERATION_CAPTURE</Data></Cell>
+    <Cell><Data ss:Type="String">INPROGRESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta moradia está sendo anexada no momento. O processo será concluído em [INT_duration].</Data></Cell>
+   </Row>
+   <Row ss:Index="64" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTER_STRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Entrar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTER_STRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Entre neste local para lutar contra seus habitantes. Apenas o exército posicionado sobre a estrutura pode entrar; exércitos adjacentes não participarão deste combate.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>15</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>32</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

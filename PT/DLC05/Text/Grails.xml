@@ -1,0 +1,585 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Ajay Ramautar</LastAuthor>
+  <LastSaved>2020-09-03T13:43:02Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7365</WindowHeight>
+  <WindowWidth>17025</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="107" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="127.5"/>
+   <Column ss:StyleID="s62" ss:Width="201"/>
+   <Column ss:StyleID="s62" ss:Width="386.25"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="379.5"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GRAILS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY_ANOMALY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sítio de Pesquisa da Configuração do Graal</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY_ANOMALY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este é o local de um artefato poderoso. Ele pode ser explorado por um Herói com os Códigos de Acesso de Cifra corretos para obter o poder da Configuração do Graal.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">A busca pela Configuração do Graal</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_QUEST_SHARED</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell><Data ss:Type="String">A Configuração do Graal caiu em mãos inimigas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Grail Configuration / Grail - Powerful relics by an ancient race</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_1_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ecos de uma Era Ancestral</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_1_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Construa o Escâner de Frequência do Graal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PHASE_1_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOR</Data></Cell>
+    <Cell><Data ss:Type="String">O sistema A.I.V.A. localizou a presença de uma Configuração do Graal neste planeta, um artefato antigo usado pelo CORE para estabilizar e controlar a galáxia. Eles concedem poderosos benefícios àqueles que os utilizam. A energia do Graal permeia o planeta, então devemos construir um Escâner de Frequência do Graal para localizar fontes de energia que possam nos levar até ele.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A.I.V.A. is the in world support AI seen in the tutorial and some cmapaign missions
+
+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PHASE_1_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETE</Data></Cell>
+    <Cell><Data ss:Type="String">Detectamos múltiplos sinais originados de locais de Cifras do Graal. Eles apontam para os Sítios de Exploração espalhados pelo planeta — e para as Moradias das facções NPC locais, que parecem ter coletado as Cifras como itens de valor.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cyphers - Provide the Access Codes to enter the Grail Configuration; </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_1_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Construa o E.F.G. para localizar as Cifras escondidas neste planeta.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">GFS - Grail Frequency Scanner</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_1_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">STRUCTURE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Escâner de Frequência do Graal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PHASE_1_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">STRUCTURE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um poderoso escâner global sintonizado com a assinatura energética da Configuração do Graal neste planeta. Ele pode ser usado para localizar as Cifras que ressoam com a frequência correspondente do Graal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_2_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mensagem Codificada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PHASE_2_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Obtenha Cifras suficientes dos Sítios de Exploração ou facções NPC para obter a chave do cofre da Configuração do Graal.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Exploration Sites and NPC Faction are ingame terms</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">PHASE_2_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOR</Data></Cell>
+    <Cell><Data ss:Type="String">Precisamos coletar as Cifras para localizar e destravar o cofre que guarda o Graal. O escâner revelou que elas podem ser encontradas em [hyperlink,000003E100000670]Sítios de Exploração[/hyperlink] e através da Loja de Moradias das [hyperlink,0000039E00000075]facções[/hyperlink] locais.[br/][br/]A.I.V.A. nos alertou que nem todas as Cifras dentro das ruínas ainda estarão intactas e que os [hyperlink,000003E300004242]Apóstatas[/hyperlink] desonrados estão tentando reivindicar o Graal para si, atacando qualquer um à vista das Cifras quando têm chance.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Apostates are an ingame wildlife group</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PHASE_2_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETE</Data></Cell>
+    <Cell><Data ss:Type="String">Adquirimos Cifras suficientes ainda intactas para começar a decodificar as informações ocultas nelas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_2_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cifras coletadas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_2_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">SCAN_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Escanear em busca de Cifras e Entrar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">PHASE_2_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">SCAN_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Escanear este sítio em busca de Cifras. A unidade permanecerá estacionária por {Turn}[turn/].[br/]Se o Sítio estiver ocupado:[bulletList][bullet]Lute contra os defensores do sítio e obtenha uma Cifra intacta.[/bullet][/bulletList][br/]Se o sítio estiver vazio:[bulletList][bullet]Grande chance de lutar contra Apóstatas e obter uma Cifra intacta.[/bullet][bullet]Pequena chance de lutar contra Apóstatas e obter uma Cifra destruída.[/bullet][bullet]Chance mínima de obter uma Cifra intacta sem luta.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_2_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">SCAN_IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Escanenando Sítio de Exploração.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_3_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Decodificando as Cifras</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_3_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Analise os Cifras para encontrar a localização e os códigos de acesso do cofre do Graal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PHASE_3_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOR</Data></Cell>
+    <Cell><Data ss:Type="String">A.I.V.A. compartilhou conosco um antigo algoritmo de análise de Cifras da Star Union. Nossos cientistas podem usá-lo para encontrar a localização da Configuração do Graal e os códigos de acesso necessários para entrar em seu cofre interno.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PHASE_3_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETE</Data></Cell>
+    <Cell><Data ss:Type="String">A análise foi um sucesso. Identificamos a localização do Graal e os códigos de acesso necessários para entrar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_3_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Analisar as Cifras do Graal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_3_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">RESEARCH_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Análise de Cifras</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PHASE_3_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">RESEARCH_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um algoritmo para descriptografar as Cifras e obter acesso à Configuração do Graal neste planeta.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_4_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Recuperar o Graal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_4_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Leve um exército liderado por um Herói até o Local de Pesquisa do Graal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PHASE_4_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOR</Data></Cell>
+    <Cell><Data ss:Type="String">Precisamos de um herói confiável com um exército poderoso para ir e obter a Configuração do Graal para nosso Império. É de se esperar que os Apóstatas façam de tudo para intervir.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PHASE_4_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETE</Data></Cell>
+    <Cell><Data ss:Type="String">Obtivemos a Configuração do Graal. Desde que o Marco do Cofre permaneça sob nosso controle, podemos usar sua Doutrina para dar ao nosso império uma vantagem sobre nossos competidores neste planeta.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHASE_4_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Concluir o Local de Pesquisa do Graal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cofre da Configuração da Lei</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este cofre guarda um Graal que reina sobre a Lei. A configuração está relacionada à aplicação de regras à realidade e à garantia de que essas regras sejam seguidas. Na prática, ela auxilia na organização de grandes sociedades, concedendo bônus à produtividade industrial e à manutenção militar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cofre da Configuração da Unidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este cofre guarda um Graal cuja configuração leva à Unidade. A configuração facilita a comunicação, ajuda a encontrar um terreno comum e a resolver conflitos. O graal concede bônus à felicidade, influência e apoio popular.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cofre da Configuração da Vida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este cofre guarda um Graal que auxilia a Vida. Essas configurações estão relacionadas à organização de formas de vida para fazê-las funcionar e se destacar. Elas concedem bônus ao crescimento de Alimentos e, ao manipular a realidade, regeneram unidades aos seus ideais cognitivos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cofre da Configuração do Conhecimento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este cofre guarda um Graal do Conhecimento. A configuração está relacionada à organização e coleta de dados abstratos. Um graal desse tipo aumenta a Pesquisa e dá às suas unidades certa Precognição sobre seus inimigos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cofre da Configuração do Potencial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta câmara forte guarda um Graal que promove o Potencial. A configuração aprimora e fortalece máquinas e seres vivos além de seus limites físicos. O graal facilita a geração de Energia e aumenta o dano causado pelas unidades.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_RESULT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Descobrimos a câmara forte de uma Configuração de Graal, relíquias poderosas de tempos passados que têm o poder de moldar nosso futuro para melhor. Com os códigos de acesso de Cifra adequados, poderíamos entrar e obtê-la para nós.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_START</Data></Cell>
+    <Cell><Data ss:Type="String">Após percorrer os salões externos da instalação, fica cada vez mais claro por que a existência das Configurações de Graal foi mantida em segredo durante a época da Star Union. Os dados deixados para trás sobre o estudo do Graal parecem apontar para sua origem alienígena. À medida que avançamos, nos deparamos com uma porta fortemente fortificada, que deve servir como entrada para a câmara forte.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Usar os Códigos de Acesso de Cifra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_START_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">Inserimos os códigos de acesso e a enorme porta começa a se abrir diante de nós. Mas não há tempo para entrar na câmara forte, pois um esquadrão de Apóstatas imediatamente nos ataca para nos negar a entrada. Eles parecem ter monitorado nossos movimentos e esperaram que abríssemos o caminho para o Graal para eles.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_CONTINUE_COMBAT</Data></Cell>
+    <Cell><Data ss:Type="String">Os Apóstatas agora parecem venerar a Configuração, tentando desvendar seus segredos. Precisamos eliminá-los se quisermos algum dia revelar os segredos do Graal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GRAIL_SURVEY</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_2_CHOICE_1_RESULT</Data></Cell>
+    <Cell><Data ss:Type="String">Derrotamos todos os Apóstatas atraídos para a câmara da Configuração de Graal. O graal agora está sob nosso comando.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOCTRINE_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Configuração da Lei</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DOCTRINE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As cidades sob seu controle geram +{Percentage}%[production/], suas unidades não podem desertar, e seu custo de [energy/]manutenção{UpkeepPercentage} é reduzido em [br/]%.[br/][firecol]O custo de manutenção das unidades nunca pode ser reduzido em mais de 50%.[/firecol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOCTRINE_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Configuração da Unidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOCTRINE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Seus [influence/] ganhos aumentam em +{Percentage}%, o Apoio Popular permanece no máximo, e suas colônias ganham +{HappinessGain}[happiness/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOCTRINE_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Configuração da Vida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOCTRINE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As cidades sob seu controle geram +{Percentage}%[supply/], e as unidades sob seu controle recuperam {HPAmount}[hp/] por turno durante o combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOCTRINE_03</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está sob a influência de uma poderosa Configuração de Graal, regenerando {HPAmount}[hp/] por turno durante o combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOCTRINE_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Configuração do Conhecimento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOCTRINE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As cidades sob seu controle geram +{Percentage}%[research/] e as unidades sob seu controle ganham uma pilha de [abilityblue]Precognição[/abilityblue] por turno durante o combate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Precognition is a buff connected to the Oathbound</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOCTRINE_04</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está sob a influência de uma poderosa Configuração de Graal, concedendo-lhe uma pilha de [abilityblue]Precognição[/abilityblue] por turno durante o combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOCTRINE_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Configuração do Potencial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOCTRINE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As cidades sob seu controle geram +{Percentage}%[energy/], e as unidades sob seu controle ganham um aumento de {DamageUp}% no dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOCTRINE_05</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está sob a influência de uma poderosa Configuração de Graal, ganhando um aumento de {DamageUp}% no dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_GENERAL</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{income}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Configuração do Graal da Lei</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este marco abriga uma poderosa Configuração do Graal. Quem controlar este marco terá acesso à doutrina [hyperlink,000003E300003FBA]Configuração da Lei[/hyperlink].[br/][br/]Além disso, quando anexado, concede:[bulletList][bullet]{ProductionFlat}[/bullet][bullet]{ProductionSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{ResearchFlat}[/bullet][bullet]{ResearchSlot}[/bullet][/bulletlist]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_01</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este marco é um setor avançado de Produção e concede o seguinte quando anexado:[br/]{ProductionFlat}, {ProductionSlot}.[br/]{ResearchFlat}, {ResearchSlot}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Configuração do Graal da Unidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este marco abriga uma poderosa Configuração do Graal. Quem controlar este marco terá acesso à doutrina [hyperlink,000003E300003FC5]Configuração da Unidade[/hyperlink].[br/][br/]Além disso, quando anexado, concede:[bulletList][bullet]{ResearchFlat}[/bullet][bullet]{ResearchSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{InfluenceFlat}[/bullet][/bulletlist]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_02</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este marco é um setor avançado de Pesquisa e concede o seguinte quando anexado:[br/]{ResearchFlat}, {ResearchSlot}.[br/]{InfluenceFlat}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Configuração do Graal da Vida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este marco abriga uma poderosa Configuração do Graal. Quem controlar este marco terá acesso à doutrina [hyperlink,000003E300003FCB]Configuração da Vida[/hyperlink].[br/][br/]Além disso, quando anexado, concede:[bulletList][bullet]{FoodFlat}[/bullet][bullet]{FoodSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{ProductionFlat}[/bullet][bullet]{ProductionSlot}[/bullet][/bulletlist]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_03</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este marco é um setor avançado de Suprimentos e concede o seguinte quando anexado:[br/]{FoodFlat}, {FoodSlot}.[br/]{ProductionFlat}, {ProductionSlot}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Configuração do Graal do Conhecimento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este marco abriga uma poderosa Configuração do Graal. Quem controlar este marco terá acesso à doutrina [hyperlink,000003E300003FD0]Configuração do Conhecimento[/hyperlink].[br/][br/]Além disso, quando anexado, concede:[bulletList][bullet]{ResearchFlat}[/bullet][bullet]{ResearchSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{EnergyFlat}[/bullet][bullet]{EnergySlot}[/bullet][/bulletlist]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_04</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este marco é um setor avançado de Pesquisa e concede o seguinte quando anexado:[br/]{ResearchFlat}, {ResearchSlot}.[br/]{EnergyFlat}, {EnergySlot}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Configuração do Graal do Potencial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este marco abriga uma poderosa Configuração do Graal. Quem controlar este marco terá acesso à doutrina [hyperlink,000003E300003FD6]Configuração do Potencial[/hyperlink].[br/][br/]Além disso, quando anexado, concede:[bulletList][bullet]{EnergyFlat}[/bullet][bullet]{EnergySlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{SupplyFlat}[/bullet][bullet]{SupplySlot}[/bullet][/bulletlist]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GRAIL_STRUCTURE_05</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este marco é um setor avançado de Energia e concede o seguinte quando anexado:[br/]{EnergyFlat}, {EnergySlot}.[br/]{SupplyFlat}, {SupplySlot}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTION_SHOP</Data></Cell>
+    <Cell><Data ss:Type="String">BLOCKED</Data></Cell>
+    <Cell><Data ss:Type="String">Já comprado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTION_SHOP</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Cifra do Graal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">ALREADY_SCANNED</Data></Cell>
+    <Cell><Data ss:Type="String">Já escaneado em busca de Cifra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">HAS_CYPHER</Data></Cell>
+    <Cell><Data ss:Type="String">Possui Cifra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">CYPHER_CLAIMED</Data></Cell>
+    <Cell><Data ss:Type="String">Cifra Reivindicada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTION_SHOP</Data></Cell>
+    <Cell><Data ss:Type="String">CYPHER_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Solicitar Cifra do Graal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FACTION_SHOP</Data></Cell>
+    <Cell><Data ss:Type="String">CYPHER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma cifra especial encontrada pela facção local que contém informações sobre a Configuração do Graal deste mundo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BATTLE_REPORT</Data></Cell>
+    <Cell><Data ss:Type="String">CYPHER_REWARD</Data></Cell>
+    <Cell><Data ss:Type="String">Cifra obtida!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BATTLE_REPORT</Data></Cell>
+    <Cell><Data ss:Type="String">NO_CYPHER</Data></Cell>
+    <Cell><Data ss:Type="String">Nenhuma cifra intacta encontrada!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTION_RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Cifra Comprada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">PHASE_COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_PlayerName} completou {STR_PhaseName}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">event text when a player completed a grail phase</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">GRAIL_COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_PlayerName} completou a fase final e adquiriu a Configuração do Graal</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">event text when a player has complted the grail event</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">GRAILS</Data></Cell>
+    <Cell><Data ss:Type="String">Graais</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">GRAILS_CHANCE</Data></Cell>
+    <Cell><Data ss:Type="String">Chance de Graais</Data></Cell>
+   </Row>
+   <Row ss:Index="95" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NORMAL</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Normal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NORMAL</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">A cadeia de missões do Graal começará por volta do turno {turn}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LATE</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Tardia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EARLY</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Precoce</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISABLED</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Desativado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISABLED</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">A cadeia de missões do Graal não aparecerá.</Data></Cell>
+   </Row>
+   <Row ss:Index="103" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAP_SETUP</Data></Cell>
+    <Cell><Data ss:Type="String">SETTINGS_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Graais</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MAP_SETUP</Data></Cell>
+    <Cell><Data ss:Type="String">SETTINGS_TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Defina as configurações para a cadeia de missões do Graal</Data></Cell>
+   </Row>
+   <Row ss:Index="107" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">STRUCTURE_SCANNED</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_StructureName} escaneado em busca de Cifra</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>78</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>106</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+     <RangeSelection>R107C1:R107C3</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

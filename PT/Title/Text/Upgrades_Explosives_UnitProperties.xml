@@ -1,0 +1,707 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Luis Ferreira</LastAuthor>
+  <LastSaved>2019-04-30T09:33:51Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15940</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="122" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="52" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="145.5"/>
+   <Column ss:StyleID="s62" ss:Width="107.5"/>
+   <Column ss:StyleID="s62" ss:Width="280.5"/>
+   <Column ss:StyleID="s62" ss:Width="148"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="327"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="323.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">UNIT_UPGRADES_EXPLOSIVES</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FRAG_GRENADE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Granada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30.75">
+    <Cell><Data ss:Type="String">FRAG_GRENADE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Arremessa uma granada, causando dano em um raio de {hexrad} hexágonos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30.75">
+    <Cell><Data ss:Type="String">GREATER_FRAG_MISSILE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Míssil de Ataque Aprimorado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FRAG_MISSILE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Míssil de Ataque</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FRAG_MISSILE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara um míssil, causando dano em um raio de {hexrad} hexágonos.</Data></Cell>
+   </Row>
+   <Row ss:Index="12" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SELF_DESTRUCT_MODULE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Autodestruição</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRIGGER_SELF_DESTRUCT_MODULE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ativar Autodestruição</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SELF_DESTRUCT_MODULE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade se autodestrói, causando dano a todas as unidades adjacentes.</Data></Cell>
+   </Row>
+   <Row ss:Index="16" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SELF_DESTRUCT_ON_DEATH</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Construção Instável</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SELF_DESTRUCT_ON_DEATH</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade explodirá ao morrer, causando {DestructDamage} de dano a todas as unidades adjacentes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PYRX_SELF_DESTRUCT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Autodestruição Incendiária</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PYRX_SELF_DESTRUCT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade se autodestrói, causando [damagethermal/] de dano a todas as unidades adjacentes.</Data></Cell>
+   </Row>
+   <Row ss:Index="21" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOGAS_SELF_DESTRUCT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Autodestruição por Biogás</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BIOGAS_SELF_DESTRUCT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade se autodestrói, causando [damageBio/] de dano a todas as unidades adjacentes.</Data></Cell>
+   </Row>
+   <Row ss:Index="24" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMP_SELF_DESTRUCT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Autodestruição por Arco Elétrico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EMP_SELF_DESTRUCT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade se autodestrói, causando [damagewave/] de dano a todas as unidades adjacentes.</Data></Cell>
+   </Row>
+   <Row ss:Index="27" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EQUIPMENT</Data></Cell>
+    <Cell><Data ss:Type="String">BASIC_GRENADE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Granada Básica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SWARM_MISSILES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mísseis Enxame</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SWARM_MISSILES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara um enxame de mísseis, atingindo uma área ao redor da unidade alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXECUTION_MISSILES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Míssil Punidor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXECUTION_MISSILES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lance um míssil no hexágono alvo, causando dano a tudo na área de efeito.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUSTER_MISSILES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Míssil Buster</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BUSTER_MISSILES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lance um míssil no hexágono alvo, causando dano a tudo na área de efeito.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FLASHBANG_GRENADE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Granada de Clarão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FLASHBANG_GRENADE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Jogue uma granada que causa dano Explosivo em um clarão no hexágono alvo e nos hexágonos adjacentes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FLASHBANG_GRENADE</Data></Cell>
+    <Cell><Data ss:Type="String">PLUGIN_ADDITION</Data></Cell>
+    <Cell><Data ss:Type="String">Clarão</Data></Cell>
+   </Row>
+   <Row ss:Index="38" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAND_MORTAR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Morteiro de Mão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAND_MORTAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispare um Morteiro de Mão, causando dano a unidades em um raio de {hexrad} hexágonos.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Index="41" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RAMJET_MISSILE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Foguete Ramjet</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RAMJET_MISSILE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispare um foguete, causando dano Explosivo em um raio de {hexrad} hexágonos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEMOLISHER_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Canhão Demolidor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEMOLISHER_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispare o Canhão Demolidor, causando dano Explosivo a alvos em um raio de {hexread} hexágonos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MISSILE_BARRAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Barragem de Mísseis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MISSILE_BARRAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara uma barragem repetida de Explosivos no alvo.</Data></Cell>
+   </Row>
+   <Row ss:Index="48" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TOSS_BOMB</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arremessar Bomba</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TOSS_BOMB</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Jogue uma bomba em um único alvo, causando dano Explosivo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mecanismos de Entrega Guiada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aumenta o alcance de ataques Explosivos à distância em {GuidedDelRan} hexágonos e sua precisão em {GuidedDelAcc}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mecanismo de Guiagem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O alcance de ataque é aumentado em {GuidedDelRan} hexágonos e tem +{GuidedDelAcc} de precisão.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FLASH_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Carga Relâmpago</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="81.75">
+    <Cell><Data ss:Type="String">FLASH_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques explosivos agora têm uma chance de força {FlashPayloadStrength}[strengthphysical/] ({FlashPayloadStrengthRepeating}[strengthphysical/] para ataques repetidos) de aplicar [abilityred]Cegueira[/abilityred] em unidades não Etéreas, por {BlindDuration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INCENDIARY_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Explosivos: Incendiários</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="96">
+    <Cell><Data ss:Type="String">INCENDIARY_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques explosivos agora causam dano Térmico e têm uma chance de força 12[StrengthThermal/] (8[strengthThermal/] para ataques repetidos) de aplicar [abilityred]Queimadura[/abilityred].[br/][br/][productioncol]Não pode ser combinado com Explosivos: Elétricos.[/productioncol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SABOTAGE_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Explosivos: Sobrecarga de Arco</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="109.5">
+    <Cell><Data ss:Type="String">SABOTAGE_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques explosivos agora causam dano de Arco e têm uma chance de força 6[StrengthWave/] (3[strengthWave/] para ataques repetidos) de aplicar [abilityred]Atordoamento[/abilityred].[br/][br/][productioncol]Não pode ser combinado com Explosivos: Incendiários.[/productioncol]</Data></Cell>
+   </Row>
+   <Row ss:Index="61" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Carga Micro Nuclear</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="108.75">
+    <Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques explosivos ganham um nível de [abilityred]Impacto Atordoante[/abilityred], destroem {amountA}[armor/] e {amountS}[shield/] por acerto e têm uma chance de força {ImmolateStrength}[strengthThermal/] ({ImmolateStrengthRepeating}[strengthThermal/] para ataques repetidos) de aplicar [abilityred]Imolação[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Derretimento Defensivo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Destrói {amountA}[armor/] e {amountS}[shield/] por acerto.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SMART_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Carga Inteligente</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SMART_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques explosivos ignoram alvos aliados e ganham um nível de [abilityred]Impacto Atordoante[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SMART_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ignora alvos aliados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NAVAL_MISSILE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lançar Míssil Naval</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">NAVAL_MISSILE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lança um míssil no hexágono alvo, causando dano a tudo na área de efeito.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEAVY_SHELL_TURRET</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Torre de Projéteis Pesados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HEAVY_SHELL_TURRET</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara a Torre de Projéteis Pesados no alvo, causando dano Explosivo. Unidades adjacentes recebem {DamagePercentage} desse dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BROADSIDE_BOMBARDMENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bombardeio de Bordo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BROADSIDE_BOMBARDMENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Libera todas as armas disponíveis, causando dano em um raio de {hexrad} hexágonos. Isso gera fumaça e calor que precisam ser expelidos antes que este ataque possa ser usado novamente.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPEL_EXHAUST_FUMES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Expelir Fumaça de Exaustão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EXPEL_EXHAUST_FUMES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Expele fumaça e calor, permitindo o Bombardeio Lateral e obscurecendo a área ao redor desta unidade. Todas as unidades na fumaça são {evadeup} mais difíceis de acertar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BOMBARD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bombardear</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BOMBARD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara um projétil de artilharia poderoso, porém impreciso, no local alvo, causando dano em uma área de raio de 1 hex.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLOSIVE_ROUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Projétil Explosivo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPLOSIVE_ROUND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara um único projétil explosivo no local alvo, causando dano em uma área de raio de {hexrad} hex.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_FACE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">E.C.F.A. Tático</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TACTICAL_FACE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Explosivo de Contato Forçado Aplicado é um método altamente eficiente de controle de multidões.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BOMB</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">B.O.M.B.A.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BOMB</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Explosão de Massa de Origem Corporal atinge todas as unidades adjacentes, causando dano explosivo. Ideal para quando não há tempo de E.C.F.A. todo mundo.</Data></Cell>
+   </Row>
+   <Row ss:Index="85" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FLASH_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Brilhante</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FLASH_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Reluzente</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FLASH_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Chamejante</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FLASH_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Teletransporte Explosivo</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FLASH_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Reluzente</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FLASH_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Cintilante</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLOSIVES_INCENDIARY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Incinerante</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLOSIVES_INCENDIARY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Inflamante</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLOSIVES_INCENDIARY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Inflamável</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLOSIVES_INCENDIARY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Napalm</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLOSIVES_INCENDIARY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Carbonizante</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLOSIVES_INCENDIARY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Cianeto</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Otimizado</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Assistido</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Disparo Preciso</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Simplificado</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Direcionado</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GUIDED_DELIVERY_MECHANISMS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Disparo em Deriva</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLOSIVES_ELECTRICAL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Choque Potente</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLOSIVES_ELECTRICAL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Bomba Relâmpago</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLOSIVES_ELECTRICAL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Eletrostático</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLOSIVES_ELECTRICAL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Condutor</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLOSIVES_ELECTRICAL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Carregado</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLOSIVES_ELECTRICAL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Disparador de Volts</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SMART_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Lançador Neural</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SMART_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Fogo Amigo</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SMART_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Eficiente</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SMART_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Lançador Inteligente</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SMART_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Alta Tecnologia</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SMART_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Seletor Inteligente</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">O Fim</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Lançador Apocalíptico</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Fusão Nuclear</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">O Juiz</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sinos do Inferno</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Guerra Final</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MICRO_NUCLEAR_PAYLOAD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Paz Forçada</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>49</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>58</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

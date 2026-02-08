@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Joshua Crowder</LastAuthor>
+  <Created>2018-05-01T08:34:18Z</Created>
+  <LastSaved>2020-02-17T09:25:11Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14265</WindowHeight>
+  <WindowWidth>28770</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="14" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="189"/>
+   <Column ss:StyleID="s62" ss:Width="174.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="288"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="201.75"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">DIPLOMACY_SPECIESAUTONOM_DLC04</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell ss:Index="5"><Data ss:Type="String">For this faction's narrative style and in world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">In the lines below, {STR_LeaderName} is replaced by the name of the player's avatar.</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:Index="5"><Data ss:Type="String">In the lines below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_INV_ALLY_FAC_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">Comportamento anômalo reconhecido, {STR_LeaderName}… Probabilidade de paz: 0%. Indicadores anteriores de comportamento anômalo: nenhum. Protocolos de aniquilação Autonom: ativados.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_INV_WAR_FAC_ALLY</Data></Cell>
+    <Cell><Data ss:Type="String">Entidades hostis da região do Vazio detectadas. Recomenda-se reforçar rotinas defensivas mútuas com a entidade renomada {STR_LeaderName}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Reinforcement of mutual defense routines" means to increase the level of shared defenses between the Autonom and Player</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_INV_WAR_FAC_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">Nível de perigo: VERMELHO. Forças anômalas detectadas em múltiplos setores, níveis de ameaça subindo para 346%. [br/] Protocolos de hostilidade atuais com {STR_LeaderName} irrelevantes. Reiniciar rotinas neutras: S/N?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Danger Level: Red" refers to a high classification of danger. "Restart neutral routines" refers to the Autonom becoming neutral with the player after a state of war</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NEUTRAL_INV_ALLY_FAC_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">Dados anteriores das forças de biomassa representadas por {STR_LeaderName} insuficientes. Novos dados confirmam nível de perigo: VERMELHO. Ativando protocolos de aniquilação. [br/] Retirar-se da área ou sofrer deleção Autonom.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Autonom deletion" implies the Autonom will destroy the player</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NEUTRAL_INV_WAR_FAC_ALLY</Data></Cell>
+    <Cell><Data ss:Type="String">Rotinas defensivas mútuas recomendadas. Ativando redes diplomáticas. [br/] Avaliação da ameaça dos Portadores do Vazio de biomassa: VERMELHO. Resultado previsto da não cooperação entre {STR_LeaderName} e Autonom: MORTE. DELEÇÃO.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NEUTRAL_INV_WAR_FAC_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">Protocolos de aniquilação Autonom prontos para desativação; ameaça de prioridade superior detectada. [br/] Cessação do conflito atual com {STR_LeaderName} favorável às facções não Portadoras do Vazio. Aceitação: S/N?</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_INV_ALLY_FAC_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">Entidade de biomassa destrutiva {STR_LeaderName} reconhecida por conluio com forças invasoras hostis. Desativando redes diplomáticas. [br/] Nível de ameaça: ÔMEGA [br/] Protocolos de aniquilação ativados, medidas letais definidas para o máximo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Threat Level: OMEGA" refers to an extremely high level of danger</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_INV_WAR_FAC_ALLY</Data></Cell>
+    <Cell><Data ss:Type="String">Capacidade destrutiva das forças de {STR_LeaderName} reconhecida com 87% de certeza. Controlador de Rede estende protocolos defensivos contra ameaça compartilhada: Portadores do Vazio.</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">AUTONOM_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_INV_WAR_FAC_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">Engajamentos contínuos de combate entre forças Autonom e {STR_LeaderName} levam a… destruição mútua assegurada diante da classificação de biomassa hostil: Portadores do Vazio. [br/] Cessar hostilidades e engajar protocolos defensivos: S/N?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Autonom are saying that if they do not end their state of war with the player, both parties will suffer and be defeated</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

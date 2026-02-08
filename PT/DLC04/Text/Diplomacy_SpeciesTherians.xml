@@ -1,0 +1,440 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Joshua Crowder</Author>
+  <LastAuthor>Michelle Kusters</LastAuthor>
+  <Created>2019-11-15T13:56:42Z</Created>
+  <LastSaved>2020-01-30T15:15:14Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14265</WindowHeight>
+  <WindowWidth>28770</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="68" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="144.75"/>
+   <Column ss:StyleID="s62" ss:Width="289.5"/>
+   <Column ss:StyleID="s62" ss:Width="315"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="249.75"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">DIPLOMACY_SPECIESTHERIAN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon.  {STR_LeaderName} refers to the name of the player's avatar.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For this faction's narrative style and in world references, please check the glossay delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="5"><Data ss:Type="String">In the lines below, {STR_LeaderName} is replaced by the name of the player's avatar.</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the lines below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Suas pegadas combinam com as nossas, {STR_LeaderName}. Seja bem-vindo ao nosso abrigo. Gostaria de trocar favores?</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Ficaremos felizes em deixar este abrigo para sua matilha, {STR_LeaderName}. Afinal, tudo fica melhor quando é compartilhado!</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Corra com a matilha, {STR_LeaderName}, e saúde a nave-tesouro dos ilustres Therians! Não vê nada precioso? Bem, olhe de novo, mais de perto, e perceberá o imenso valor que pode ser encontrado na alegre liberdade da nossa companhia. Ouvimos coisas boas sobre você. Junte-se a nós! Embarque e partiremos para novas vidas e lugares. Compartilhe esta aventura!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Company meaning both their collective, and their presence</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Poderíamos nos tornar amigos! Vamos nos ajudar; você coça as nossas costas e nós coçamos as suas. Você primeiro. Temos um trabalho para você.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A way to say tit for tat</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_INTERACTION_WAR_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Acha que é o primeiro a nos ameaçar? Pensamos que você fosse diferente, mas não seremos expulsos de novo. Quer solicitar uma negociação ou prefere que mostremos como estas garras são afiadas de verdade?</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Estávamos ansiosos pelo nosso próximo encontro, {STR_LeaderName}! Seja bem-vindo ao nosso abrigo. O que podemos fazer por você? Virá uivar com a matilha?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Você é uma boa pessoa, {STR_LeaderName}. Nossa matilha o aceita.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Dá para ver que a guerra não está na sua natureza. Devíamos parar de mostrar os dentes e caçar juntos para sempre. O que acha?</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_DECREASED_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Nós o advertimos, mas nossos rosnados caíram em ouvidos moucos. Você agiu mal e não toleraremos isso. Considere esta nossa mensagem diplomática oficial: não estamos em bons termos.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Você invade nosso território como uma fera raivosa. Está aqui para conversar ou para ir direto à nossa garganta?</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Parece que você precisa mais deste abrigo do que nós. Deixe-nos em paz, e faremos o mesmo.</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Você fede a morte, {STR_LeaderName}. Chegou à nave-tesouro dos ilustres Therians. Talvez não tenhamos muito, mas defenderemos a alegre liberdade da nossa companhia. Está aqui para se juntar a nós em nossa busca por novas vidas e lugares... ou veio para lutar?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Treasure ship" is an actuall ship they fly in.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Poderíamos usar um companheiro forte como você! Podemos nos ajudar; se você coçar nossas costas, nós coçaremos as suas. Você primeiro. Temos um trabalho para você.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_INTERACTION_WAR_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Acha que é o primeiro a tentar nos intimidar? Não seremos expulsos de novo! Quer solicitar uma negociação ou prefere que mostremos como estas garras são afiadas de verdade?</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Você ainda fede a morte, {STR_LeaderName}. Seja bem-vindo ao nosso abrigo. Como podemos ajudá-lo?</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Você não é tão ruim quanto pensávamos, {STR_LeaderName}. Talvez possamos ser companheiros, afinal.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">O Apex vê sua força. Que tal unirmos forças em vez de ficarmos nos atacando? Devíamos parar de mostrar os dentes e caçar juntos para sempre. O que acha?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Apex is an in-game unit of the Therians</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_DECREASED_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Nós o advertimos, mas nossos rosnados caíram em ouvidos moucos. Você agiu mal e não toleraremos isso. Considere esta nossa mensagem diplomática oficial: não estamos em bons termos.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Você entra em nosso território como uma fera selvagem. Está aqui para conversar ou para mostrar os dentes?</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Você precisa mais deste abrigo do que nós. Estamos partindo – você sabe onde nos encontrar. Até mais!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Hopping" means very active.</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Corra com a matilha, {STR_LeaderName}, e saude o navio do tesouro dos ilustres Therians! Não vê nada precioso? Bem, olhe de novo, mais de perto, e notará o imenso valor que pode ser encontrado na liberdade alegre de nossa companhia. Embarque e partiremos para novas vidas e lugares – só mantenha suas armas e garras prontas para qualquer criatura que encontrarmos pelo caminho!</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Gostaríamos de nos dar bem! Podemos ajudar uns aos outros; você coça nossas costas e nós coçamos as suas. Você primeiro. Temos um trabalho para você.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_INTERACTION_WAR_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Acha que é o primeiro a querer nos expulsar? Não seremos enxotados de novo. Quer pedir uma negociação ou devemos mostrar como essas garras são afiadas de verdade?</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">O Apex sentiu sua chegada, {STR_LeaderName}. Seja bem-vindo ao nosso abrigo. Virá uivar conosco?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Você parece confiável, {STR_LeaderName}. Nossa matilha o aceita.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">O Apex sente potencial em suas ações. Devíamos parar de mostrar os dentes e caçar juntos para sempre. O que acha?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Our teeth" the Apex is referring to the Therian Faction</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_DECREASED_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Nós o advertimos, mas nossos rosnados caíram em ouvidos moucos. Você se comportou mal e não toleraremos isso. Considere esta nossa mensagem diplomática oficial: não estamos em bons termos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">You can be male or female depending on the leader the player chose.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Aventuras mágicas? Onde assinamos?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are responses the player chooses.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">WITHDRAW_STACK_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Precisamos muito dessa localização. Consegue nos convencer a nos mudar? {INT_Cost}[influence/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are responses the player chooses.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">STACK_QUEST_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Gostaríamos de provar que não queremos lhe fazer mal. O que podemos fazer por você?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are responses the player chooses.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_WAR_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Vamos ver você e sua 'companhia' removidos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are responses the player chooses.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ATTACK_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Gostaríamos de falar com o alfa de sua matilha.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are responses the player chooses. Alpha refers to the Therian's leader.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Tudo bem, vamos ajudá-lo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are responses the player chooses.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">CALL_TO_WAR_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Precisamos que sua matilha nos fortaleça nesta guerra.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are responses the player chooses.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">TRADE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Mostre-nos esses tesouros que está oferecendo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are responses the player chooses.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Podemos unir forças e tomar o que é nosso.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are responses the player chooses.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">WITHDRAW_STACK_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Sai fora da nossa propriedade. {INT_Cost}[influence/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are responses the player chooses.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">STACK_QUEST_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Queremos que confie em nós. Mostre-nos como fazer isso.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are responses the player chooses.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_WAR_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Já tivemos o suficiente de vocês, aberrações. Morram.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are responses the player chooses.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ATTACK_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Seja um bom bichinho e nos leve até seu alfa.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are responses the player chooses.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Aceitamos esse desafio, Therian.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are responses the player chooses.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">CALL_TO_WAR_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Temos um inimigo em comum. Ataquem.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are responses the player chooses.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">TRADE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Mostre-nos o que tem a oferecer.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are responses the player chooses.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Naves espaciais e aventuras? Parece divertido!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are responses the player chooses.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">WITHDRAW_STACK_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Precisamos muito desse seu 'covil'. {INT_Cost}[influence/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are responses the player chooses.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">STACK_QUEST_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Gostaríamos de provar que podemos coexistir. O que podemos fazer por você?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are responses the player chooses.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_WAR_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Vocês não passam de piratas de orelhas peludas. Está na hora de verem a justiça.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are responses the player chooses.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ATTACK_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Leve-nos até o alfa da sua alcateia.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are responses the player chooses.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Diga-nos do que precisa.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are responses the player chooses.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">CALL_TO_WAR_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Precisamos de suas garras em uma batalha pela liberdade.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are responses the player chooses.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THERIAN_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">TRADE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Mostre-nos os tesouros que está oferecendo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are responses the player chooses.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">RIVALRY_WARNING_THERIAN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Vocês colaborariam com tiranos e opressores? Não querem ser nossos amigos?</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_DECLARE_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">Nós rosnamos, rugimos, tentamos avisar. Não podemos deixar vocês destruírem o que construímos. Se esperam que nos submetamos, estão enganados. Nosso antigo líder Deer nos ensinou a manter nossa posição. Não vamos desistir.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_RESET</Data></Cell>
+    <Cell><Data ss:Type="String">Todos merecem uma segunda chance. Talvez você possa reconquistar nossa confiança, {STR_LeaderName}.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_INV_ALLY_FAC_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">Como puderam fazer isso? Achávamos que podíamos confiar em vocês, mas nos viram as costas e se juntaram à alcateia dos Portadores do Vazio? Lutaremos pela nossa liberdade, mesmo contra vocês!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Voidbringers is an in-game term</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_INV_WAR_FAC_ALLY</Data></Cell>
+    <Cell><Data ss:Type="String">Estamos felizes por ter você ao nosso lado, {STR_LeaderName}. Vamos rugir juntos e caçar os horríveis opressores Portadores do Vazio!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Voidbringer is an in-game term</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEKEEPER_INV_WAR_FAC_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">Uma ameaça maior chegou e você sabe disso também, {STR_LeaderName}. Vamos unir alcateias e lutar juntos contra o inimigo comum!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Voidbringer is an in-game term</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NEUTRAL_INV_ALLY_FAC_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">Não deveríamos nos surpreender por vocês terem se juntado aos horríveis Portadores do Vazio. Se esperam que nos submetamos, estão enganados. Está ouvindo? Esses são os rugidos da guerra.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Voidbringers is an in-game term</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NEUTRAL_INV_WAR_FAC_ALLY</Data></Cell>
+    <Cell><Data ss:Type="String">Estamos felizes por ter você ao nosso lado, {STR_LeaderName}. Vamos rugir juntos e caçar os horríveis opressores Portadores do Vazio!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Voidbringer is an in-game term</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NEUTRAL_INV_WAR_FAC_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">Estivemos em conflito por muito tempo, mas uma ameaça maior paira sobre nós. Solicitamos uma reunião e pedimos que se junte a nós, {STR_LeaderName}, para que possamos caçar juntos esses monstros Portadores do Vazio.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Voidbringer is an in-game term</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_INV_ALLY_FAC_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">Deveríamos ter confiado em nossos instintos sobre você, {STR_LeaderName}. Juntar-se aos horríveis Portadores do Vazio é imperdoável. Prepare-se para sentir as presas da fúria Therian.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Voidbringers is an in-game term</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_INV_WAR_FAC_ALLY</Data></Cell>
+    <Cell><Data ss:Type="String">Suas garras ensanguentadas serão úteis agora, {STR_LeaderName}. Vamos unir forças e caçar esses monstros horríveis dos Portadores do Vazio!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Voidbringers is an in-game term</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">THERIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">WARMONGER_INV_WAR_FAC_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">Lutamos por muito tempo, mas uma ameaça maior chegou e você sabe disso, {STR_LeaderName}. Para sobreviver, precisamos direcionar nossa fúria para outro lugar. O que me diz, vamos caçar os Portadores do Vazio juntos?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Voidbringers is an in-game term</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <TopRowVisible>48</TopRowVisible>
+   <LeftColumnVisible>1</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>61</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

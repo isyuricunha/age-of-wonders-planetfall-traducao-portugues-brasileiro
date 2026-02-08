@@ -1,0 +1,1062 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>TomB</LastAuthor>
+  <LastSaved>2019-03-06T10:22:52Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15940</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="194" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="52" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="172.5"/>
+   <Column ss:StyleID="s62" ss:Width="207"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="355.5"/>
+   <Column ss:StyleID="s62" ss:Width="148"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="355.5"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="425.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SPECIALOPERATIONS_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GROUP_NAMES</Data></Cell>
+    <Cell><Data ss:Type="String">SPECIALOPERATION_SKILLS_OPERATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">Operações</Data></Cell>
+   </Row>
+   <Row ss:Index="8" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STEAL_MAP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Roubar Mapas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STEAL_MAP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Roubar dados cartográficos do jogador-alvo, revelando todas as áreas do mapa-múndi que ele explorou.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STEAL_MAP</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes invadiram com sucesso os sistemas de dados do inimigo e conseguiram roubar uma enorme quantidade de informações geográficas sem serem detectados.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STEAL_MAP</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes invadiram com sucesso os sistemas de dados do inimigo e conseguiram roubar uma enorme quantidade de informações geográficas, mas foram detectados no último momento! Infelizmente, o inimigo agora está ciente de nossa participação.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STEAL_MAP</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes não conseguiram penetrar nos sistemas de segurança do inimigo para obter acesso total aos dados necessários, e apenas uma pequena quantidade de dados geográficos foi recuperada. Felizmente, a tentativa permanece sem detecção.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">STEAL_MAP</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes não conseguiram penetrar nos sistemas de segurança do inimigo para obter acesso total aos dados necessários, e apenas uma pequena quantidade de informações geográficas foi recuperada. Para piorar, eles foram capturados durante a tentativa de invasão, e o inimigo agora está ciente de nossa participação.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STEAL_MAP</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Agentes inimigos violaram nossos sistemas de segurança e roubaram enormes quantidades de informações geográficas! Conseguimos capturar os agentes, mas não antes que eles transmitissem todos os dados de volta para seus mestres.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STEAL_MAP</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Agentes inimigos foram capturados tentando violar nossos sistemas de segurança para roubar dados geográficos! Conseguimos capturar os agentes, mas não antes que eles transmitissem uma pequena quantidade de dados de volta para seus mestres.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENERGY_SIPHON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sifão de Energia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ENERGY_SIPHON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Coletar {INT_percentage} da renda total de energia do jogador-alvo ao longo de um número fixo de turnos. A energia será transferida para nós assim que a operação durar {duration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ENERGY_SIPHON</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes se infiltraram com sucesso nas instalações do inimigo e instalaram os sifões de energia. Em alguns turnos, a sequência será concluída e a energia roubada será transmitida para nós.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ENERGY_SIPHON</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes foram capturados enquanto se infiltravam nas instalações do inimigo e não conseguiram instalar os sifões de energia. Felizmente, eles conseguiram se safar, e o inimigo não está ciente de nossa tentativa de infiltração.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ENERGY_SIPHON</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes foram capturados enquanto se infiltravam nas instalações do inimigo e não conseguiram instalar os sifões de energia. Infelizmente, nossos agentes cederam sob interrogatório inimigo e revelaram nossa participação na operação.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ENERGY_SIPHON</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Agentes inimigos foram capturados tentando se infiltrar em nossas instalações para instalar dispositivos projetados para desviar energia de nossas reservas. Após horas de interrogatório, conseguimos identificar o estado por trás dessa tentativa vil.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ENERGY_SIPHON</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_ANONYMOUS</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos sifões de energia funcionaram perfeitamente e transmitiram a energia para nós. Os sifões se autodestruíram, não deixando evidências que pudessem nos ligar a este roubo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ENERGY_SIPHON</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_REVEALED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos sifões de energia funcionaram perfeitamente e transmitiram a energia para nós. No entanto, um sifão não se autodestruiu, e o inimigo agora está ciente de nossa participação neste roubo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ENERGY_SIPHON</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS_ANONYMOUS</Data></Cell>
+    <Cell><Data ss:Type="String">Perdemos uma grande quantidade de energia por meio de algum tipo de dispositivo de sifão. Infelizmente, os dispositivos se autodestruíram antes que pudéssemos analisá-los, então não temos informações sobre quem os plantou.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ENERGY_SIPHON</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS_REVEALED</Data></Cell>
+    <Cell><Data ss:Type="String">Perdemos uma grande quantidade de energia por meio de algum tipo de dispositivo de sifão. Conseguimos recuperar um dos dispositivos para análise e rastrear o alvo da transferência de energia até um estado inimigo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESEARCH_TAPS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Interceptação de Pesquisa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RESEARCH_TAPS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Colete dados de pesquisa do jogador-alvo ao longo de vários turnos. Os dados são transmitidos para nós e os esforços de pesquisa do alvo são sabotados assim que a operação durar {duration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RESEARCH_TAPS</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes infiltraram com sucesso as instalações inimigas e instalaram os dispositivos de interceptação de pesquisa. Em alguns turnos, a sequência será concluída e os dados serão transmitidos para nós.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RESEARCH_TAPS</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes foram capturados enquanto se infiltravam nas instalações inimigas e não conseguiram instalar os dispositivos de interceptação de pesquisa. Felizmente, eles conseguiram se safar, então o inimigo não está ciente da nossa tentativa de infiltração.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RESEARCH_TAPS</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes foram capturados enquanto se infiltravam nas instalações inimigas e não conseguiram instalar os dispositivos de interceptação de pesquisa. Infelizmente, nossos agentes cederam sob interrogatório inimigo e revelaram nosso envolvimento na operação.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RESEARCH_TAPS</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Agentes inimigos foram capturados tentando se infiltrar em nossas instalações para instalar dispositivos projetados para interceptar nossos fluxos de pesquisa. Após horas de interrogatório, conseguimos identificar o estado por trás dessa tentativa covarde.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RESEARCH_TAPS</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_ANONYMOUS</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos dispositivos de interceptação de pesquisa funcionaram perfeitamente e transmitiram os dados do inimigo para nós. Os sifões se autodestruíram, causando enorme dano aos esforços de pesquisa do alvo e não deixando evidências que pudessem nos ligar a esse roubo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RESEARCH_TAPS</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_REVEALED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos dispositivos de interceptação de pesquisa funcionaram perfeitamente e transmitiram os dados do inimigo para nós. Os sifões se autodestruíram, causando enorme dano aos esforços de pesquisa do alvo. No entanto, o inimigo conseguiu rastrear a transmissão e sabe que fomos responsáveis.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RESEARCH_TAPS</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS_ANONYMOUS</Data></Cell>
+    <Cell><Data ss:Type="String">Dispositivos de interceptação de pesquisa inimigos roubaram grandes quantidades de nossos dados de pesquisa, apagando-os de nossos servidores no processo. Infelizmente, os dispositivos se autodestruíram antes que pudéssemos analisá-los, então não temos informações sobre quem os plantou.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RESEARCH_TAPS</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS_REVEALED</Data></Cell>
+    <Cell><Data ss:Type="String">Dispositivos de interceptação de pesquisa inimigos roubaram grandes quantidades de nossos dados de pesquisa, apagando-os de nossos servidores no processo. Conseguimos recuperar um dos dispositivos para análise e rastrear o destino da transferência de dados até um estado inimigo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIVERSAL_DATA_SIPHON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sifão de Dados Universal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIVERSAL_DATA_SIPHON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Obtenha acesso à visão do jogador-alvo por {duration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNIVERSAL_DATA_SIPHON</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes hackearam com sucesso os sistemas de dados do inimigo e conseguiram instalar os sifões de dados sem serem detectados.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">UNIVERSAL_DATA_SIPHON</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes não conseguiram penetrar nos sistemas de segurança do inimigo para instalar os sifões de dados. Felizmente, a tentativa passou despercebida.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">UNIVERSAL_DATA_SIPHON</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes não conseguiram penetrar nos sistemas de segurança do inimigo para instalar os sifões de dados. Para piorar, eles foram capturados durante a tentativa de invasão, e o inimigo agora está ciente do nosso envolvimento.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">UNIVERSAL_DATA_SIPHON</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Agentes inimigos foram capturados tentando instalar sifões de dados em nosso sistema de escaneamento! Esses sifões teriam permitido ao inimigo acesso total a todos os nossos registros de topologia planetária. Felizmente, conseguimos capturar esses agentes e temos evidências de que isso foi obra de um estado inimigo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIVERSAL_DATA_SIPHON</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Dados de visão acessados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SENSOR_JAMMERS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bloqueadores de Sensores</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SENSOR_JAMMERS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Desative a Detecção do jogador-alvo por {duration}, fazendo com que eles detectem apenas unidades ocultas adjacentes às suas próprias pilhas e estruturas. Além disso, isso garante que nossos exércitos não aparecerão nos sensores do jogador-alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SENSOR_JAMMERS</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes hackearam com sucesso os sistemas de dados do inimigo e conseguiram instalar os bloqueadores de sensores sem serem detectados.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SENSOR_JAMMERS</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes não conseguiram penetrar nos sistemas de segurança do inimigo para instalar os bloqueadores de sensores. Felizmente, a tentativa passou despercebida.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SENSOR_JAMMERS</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes não conseguiram penetrar nos sistemas de segurança inimigos para instalar os bloqueadores de sensores. Para piorar, eles foram capturados durante a tentativa de invasão, e o inimigo agora está ciente de nossa participação.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SENSOR_JAMMERS</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Agentes inimigos foram pegos tentando instalar bloqueadores de sensores em nosso sistema de escaneamento! Esses bloqueadores teriam interferido em nossos sensores e em nossa capacidade de detectar unidades inimigas ocultas. Felizmente, conseguimos capturar esses agentes e temos provas de que isso foi obra de um estado inimigo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SENSOR_JAMMERS</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Sistemas de detecção desativados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SENSOR_JAMMERS</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_TEXT_2</Data></Cell>
+    <Cell><Data ss:Type="String">Exércitos ocultos dos sensores</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFILTRATE_OPERATIONS_CENTER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Infiltrar Centro de Operações</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">INFILTRATE_OPERATIONS_CENTER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Reduz a Defesa Operacional do jogador-alvo em {operationDefensePenalty} contra nossas operações e nos permite visualizar seus traços de personalidade, além de uma lista das operações especiais ativas e não-cobertas desse jogador.[br/][br/]Jogadores cujo Centro de Operações você tiver infiltrado também serão exibidos no ranking de Capacidades.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">INFILTRATE_OPERATIONS_CENTER</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nosso agente conseguiu infiltrar com sucesso o centro de operações inimigo e está nos enviando dados por um canal seguro. Com sua ajuda, podemos visualizar as operações atuais do inimigo e torná-lo mais vulnerável às nossas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INFILTRATE_OPERATIONS_CENTER</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossa tentativa de infiltrar o centro de operações inimigo falhou. Felizmente, o treinamento superior de nosso agente permitiu que ele escapasse sem ser detectado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INFILTRATE_OPERATIONS_CENTER</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nosso agente foi capturado ao tentar infiltrar o centro de operações inimigo. Para piorar, ele cedeu sob interrogatório e nos delatou como seus superiores!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">INFILTRATE_OPERATIONS_CENTER</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Um agente inimigo foi capturado tentando infiltrar nosso centro de operações. Se tivesse tido sucesso, ele teria conseguido monitorar nossas operações especiais e burlar nossas defesas operacionais. O agente inimigo já cedeu sob interrogatório e revelou quem são seus superiores.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INFILTRATE_OPERATIONS_CENTER</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_TEXT_1</Data></Cell>
+    <Cell><Data ss:Type="String">Defesa Operacional reduzida em {operationDefensePenalty} contra nossas operações.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFILTRATE_OPERATIONS_CENTER</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_TEXT_2</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as operações especiais não-cobertas e tecnologias secretas reveladas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERNAL_PURGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Purga Interna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INTERNAL_PURGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tentar identificar e remover quaisquer Operações Cobertas que estejam afetando você no momento. Isso também aumentará seu [abilityblue]Nível de Alerta[/abilitylevel] em {AlertLevelBoost}, aumentando sua Defesa Operacional.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Alert level is described in SpecialOperations_TechGroups.xml (this document)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INTERNAL_PURGE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_ON_START</Data></Cell>
+    <Cell><Data ss:Type="String">Iniciamos uma auditoria completa de todo o pessoal e equipamento em nosso centro de operações, um processo que deve levar {duration} turnos. Temos confiança de que quaisquer infiltrados serão encontrados e expostos!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INTERNAL_PURGE</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_ON_START</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos inimigos iniciaram uma purga completa de seu pessoal e sistemas operacionais, um processo que deve levar cerca de {duration} turnos. Devemos retirar nossos agentes imediatamente, antes que sejam descobertos!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INTERNAL_PURGE</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_ON_COMPLETE</Data></Cell>
+    <Cell><Data ss:Type="String">O inimigo concluiu uma purga completa de seus sistemas operacionais em uma tentativa de erradicar quaisquer infiltrados e espiões.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INTERNAL_PURGE</Data></Cell>
+    <Cell><Data ss:Type="String">RESULTS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Após semanas de interrogatórios e investigações, concluímos nossa purga interna e estamos prontos para apresentar os resultados.[br/][br/]As seguintes brechas foram descobertas e eliminadas:</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SABOTAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Contraoperação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SABOTAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tentar interromper e encerrar uma operação inimiga. O sucesso é determinado pela Força Operacional versus a Defesa Operacional do inimigo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SABOTAGE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_ANONYMOUS</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes conseguiram se infiltrar com sucesso no centro de operações inimigo e realizaram a sabotagem. Nenhum problema foi encontrado, e nossos agentes escaparam sem serem detectados.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SABOTAGE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_REVEALED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes conseguiram se infiltrar com sucesso no centro de operações inimigo e realizaram a sabotagem. No entanto, um agente foi capturado durante a fuga, e o inimigo agora está ciente de nossa participação.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SABOTAGE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_ANONYMOUS</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes se infiltraram no centro de operações inimigo, mas foram interrompidos antes de concluírem a sabotagem. Felizmente, os agentes conseguiram escapar na confusão, e nossa participação permanece em segredo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SABOTAGE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_REVEALED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes se infiltraram no centro de operações inimigo, mas foram interrompidos antes de concluírem a sabotagem. Infelizmente, os agentes foram capturados ao tentar escapar, e o inimigo agora está ciente de nossa participação.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SABOTAGE</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS_ANONYMOUS</Data></Cell>
+    <Cell><Data ss:Type="String">Agentes inimigos se infiltraram em nosso centro de operações e sabotaram uma de nossas operações! Os agentes eram bem treinados e desapareceram sem deixar rastros após concluírem a missão.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SABOTAGE</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS_REVEALED</Data></Cell>
+    <Cell><Data ss:Type="String">Agentes inimigos se infiltraram em nosso centro de operações e sabotaram uma de nossas operações! Felizmente, um inimigo foi capturado ao tentar escapar e já revelou o nome de seu empregador aos nossos interrogadores.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SABOTAGE</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE_ANONYMOUS</Data></Cell>
+    <Cell><Data ss:Type="String">Agentes inimigos foram pegos em nosso centro de operações tentando sabotar uma de nossas operações! Infelizmente, os agentes conseguiram escapar na confusão resultante, sem deixar pistas sobre a identidade de seus empregadores.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SABOTAGE</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE_REVEALED</Data></Cell>
+    <Cell><Data ss:Type="String">Agentes inimigos foram pegos em nosso centro de operações tentando sabotar uma de nossas operações! Felizmente, um inimigo foi capturado ao tentar escapar e já revelou o nome de seu empregador aos nossos interrogadores.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SABOTAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ABORT_TARGET_LOST</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes relatam que a operação que estavam alvejando desapareceu repentinamente. Ou nosso inimigo a desmantelou, ou outro agente tomou medidas contra ela. Independentemente disso, nossa intervenção não é mais necessária.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SABOTAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ABORT_NO_TIME</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes relatam que a operação que estavam alvejando está programada para ser desmantelada em breve. Eles calculam que, quando estiverem prontos para agir, a operação já terá sido desmantelada. Portanto, a sabotagem será impossível de executar e foi abortada.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEPLOY_MONITOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Implantar Monitor </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">DEPLOY_MONITOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma estação de monitoramento aparece no hexágono alvo. A estação fornece ao jogador que a implantou visão por {DeployMonitorVision} hexágonos e cobertura de sensores por {DeployMonitorSensor} hexágonos.[br/]A estação é camuflada e só pode ser detectada por outros jogadores com Detecção ou se eles se moverem para adjacente a ela. Estações de monitoramento não são marcadas como pertencentes a um jogador específico e podem ser destruídas por outros jogadores sem desencadear guerra.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Edit: casting -&gt; deploying</Data></Cell>
+    <Cell><Data ss:Type="String">A monitoring station appears on the targeted hex. The station provides the casting player with vision for {DeployMonitorVision} hexes and sensor coverage for {DeployMonitorSensor} hexes.[br/]The station is concealed, and can only be detected by other players with Detection, or if they move adjacent to it. Monitoring stations are not marked as belonging to a particular player, and can be destroyed by other players without triggering war.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEPLOY_MONITOR</Data></Cell>
+    <Cell><Data ss:Type="String">MARKER_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Estação de Monitoramento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEPLOY_MONITOR</Data></Cell>
+    <Cell><Data ss:Type="String">MARKER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma instalação de monitoramento furtiva que escaneia a área próxima e envia dados de vigilância para seu proprietário.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEPLOY_MONITOR</Data></Cell>
+    <Cell><Data ss:Type="String">MARKER_DESTROYED_EVENT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Estação de Monitoramento interrompida por atividade inimiga!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DEPLOY_MONITOR</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">A estação de monitoramento foi implantada com sucesso por meio de um lançamento orbital. Ela permanecerá oculta no local, fornecendo dados críticos até ser descoberta pelo inimigo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LOCATE_ARMIES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Localizar Exércitos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">LOCATE_ARMIES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Pelos próximos {duration} turnos, todos os exércitos do jogador alvo ficam visíveis para o jogador que lançou o feitiço. Cada exército é marcado com um efeito de partícula de sensor na cor primária do jogador alvo. Exércitos que consistem apenas de unidades camufladas não são exibidos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">LOCATE_ARMIES</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes conseguiram invadir os sistemas de dados do inimigo e instalaram o vírus localizador de exércitos sem serem detectados.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LOCATE_ARMIES</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes não conseguiram penetrar nos sistemas de segurança do inimigo para instalar o vírus localizador de exércitos. Felizmente, a tentativa permanece sem ser detectada.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">LOCATE_ARMIES</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes não conseguiram penetrar nos sistemas de segurança inimigos para instalar o vírus localizador de exércitos. Para piorar, foram capturados durante a tentativa de invasão, e o inimigo agora está ciente de nossa participação.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">LOCATE_ARMIES</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Agentes inimigos foram pegos tentando instalar dispositivos de espionagem em nossos sistemas militares! Esses dispositivos teriam revelado as localizações de todos os nossos exércitos. Felizmente, conseguimos capturar os agentes e temos provas de que isso foi obra de um estado inimigo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LOCATE_ARMIES</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Localizações dos exércitos reveladas</Data></Cell>
+   </Row>
+   <Row ss:Index="91" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECRET_STATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Estado Secreto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SECRET_STATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um departamento secreto é criado com a tarefa de prevenir qualquer ameaça possível à sua população e territórios.[br/][br/]Você ganha {OperationDefenceBonus} Defesa Operacional.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">OPERATIONAL_SUPPORT_I_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Apoio Operacional I</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">OPERATIONAL_SUPPORT_II_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Apoio Operacional II</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">OPERATIONAL_SUPPORT_III_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Apoio Operacional III</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">OPERATIONAL_SUPPORT_IV_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Apoio Operacional IV</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">OPERATIONAL_SUPPORT_V_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Apoio Operacional V</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">OPERATIONAL_SUPPORT_VI_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Apoio Operacional VI</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">OPERATIONAL_SUPPORT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ganhe {OperationalSupportBonus} pontos de Operação Estratégica e {OperationalSupportBonusTactical} pontos de Operação Tática.[br/][br/]Isso permite que você use mais operações a cada turno, tanto dentro quanto fora de combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">OPERATIONAL_PROWESS_I_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Proeza Operacional I</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">OPERATIONAL_PROWESS_II_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Proeza Operacional II</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">OPERATIONAL_PROWESS_III_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Proeza Operacional III</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">OPERATIONAL_PROWESS_IV_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Proeza Operacional IV</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">OPERATIONAL_PROWESS_V_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Proeza Operacional V</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">OPERATIONAL_PROWESS_VI_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Proeza Operacional VI</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">OPERATIONAL_PROWESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ganhe {OperationalStrengthBonus} Força Operacional e {OperationalDefenceBonus} Defesa Operacional.[br/][br/]Isso torna suas operações mais propensas a terem sucesso contra seus inimigos e as operações inimigas menos propensas a terem sucesso contra você.</Data></Cell>
+   </Row>
+   <Row ss:Index="108" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GUERRILLA_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Golpe de Guerrilha</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GUERRILLA_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Criar um exército da facção não hostil selecionada para atacar o jogador-alvo. Não pode ser usado se nenhuma facção não hostil for conhecida.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GUERRILLA_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nosso agente conseguiu organizar um ataque contra nosso alvo! Ele desviou habilmente toda a atenção para os locais, sem deixar vestígios de nossa participação.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GUERRILLA_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nosso agente conseguiu organizar um ataque contra nosso alvo! Infelizmente, ele deixou vestígios que comprovam nossa participação neste assunto.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GUERRILLA_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nosso agente falhou em organizar um ataque contra nosso alvo! Felizmente, o agente evitou detecção e não deixou vestígios de nossa participação.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GUERRILLA_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nosso agente falhou em organizar um ataque contra nosso alvo! Infelizmente, eles rastrearam essa tentativa fracassada até nós.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GUERRILLA_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Um agente inimigo foi capturado enquanto organizava um ataque contra nosso glorioso império. Ele influenciou um dos povos locais a atacar nossa soberania. Felizmente, conseguimos capturar o agente e encontramos evidências que apontam para um estado inimigo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GUERRILLA_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Um agente inimigo foi descoberto, mas nossas forças chegaram tarde demais para intervir em seu plano de organizar um ataque contra nós. No entanto, o agente inimigo foi capturado e, após horas de interrogatório, temos informações suficientes para saber quem é o responsável.</Data></Cell>
+   </Row>
+   <Row ss:Index="117" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SABOTAGE_FACTION_RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sabotar Relação com Locais</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SABOTAGE_FACTION_RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Prejudica a relação entre o jogador-alvo e uma das facções locais, fazendo com que sua relação caia um nível.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SABOTAGE_FACTION_RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nosso agente conseguiu influenciar uma facção local a atacar nosso alvo. Ele desviou habilmente toda a atenção para os locais, sem deixar vestígios de nossa participação.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SABOTAGE_FACTION_RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nosso agente conseguiu influenciar uma facção local a atacar nosso alvo. Infelizmente, ele deixou vestígios que comprovam nossa participação neste assunto.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SABOTAGE_FACTION_RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nosso agente falhou em influenciar as facções locais contra nosso alvo! Por sorte, o agente evitou detecção e não deixou vestígios de nossa participação.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SABOTAGE_FACTION_RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nosso agente falhou em influenciar as facções locais contra nosso alvo. Infelizmente, eles rastrearam essa tentativa fracassada até nós.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SABOTAGE_FACTION_RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Um agente inimigo foi capturado enquanto espalhava mentiras sobre nosso império para facções locais. Felizmente, conseguimos capturar o agente e encontramos evidências que apontam para um estado inimigo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SABOTAGE_FACTION_RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Um agente inimigo foi descoberto, mas nossas forças chegaram tarde demais para intervir em seu plano de espalhar mentiras sobre nosso império para uma facção local. No entanto, o agente inimigo foi capturado e, após horas de interrogatório, temos informações suficientes para saber quem é o responsável.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRIGGER_WAR_WITH_FACTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Provocar Guerra com Facção</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TRIGGER_WAR_WITH_FACTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sabotar a relação do jogador inimigo-alvo com uma facção, degradando sua relação ao longo do tempo até que eventualmente entrem em guerra com o jogador.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TRIGGER_WAR_WITH_FACTION</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Entramos em contato com partidos dissidentes dentro da facção-alvo, e planos já estão em andamento para começar a espalhar a propaganda e desinformação que devem levar rapidamente à guerra entre eles e nossos inimigos.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TRIGGER_WAR_WITH_FACTION</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Apesar de nossos melhores esforços, não conseguimos encontrar ninguém nas facções locais que fosse simpático à nossa causa. A discrição de nossos agentes pelo menos impediu que nossos inimigos fossem alertados sobre nossos planos.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TRIGGER_WAR_WITH_FACTION</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_DETECTED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Um de nossos agentes foi capturado enquanto tentava marcar um encontro com membros de uma facção local. Os desprezíveis locais entregaram o agente aos nossos inimigos! Tememos que eles já saibam tudo sobre nossos planos.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TRIGGER_WAR_WITH_FACTION</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE_DETECTED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Após uma denúncia, capturamos um agente estrangeiro tentando semear discórdia e rebelião entre as facções locais. Após um extenso interrogatório, a identidade de seu empregador foi revelada.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TRIGGER_WAR_WITH_FACTION</Data></Cell>
+    <Cell><Data ss:Type="String">PROGRESS_MESSAGE</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Graças ao trabalho contínuo de nossos agentes, a relação do inimigo com a facção local diminuiu!</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FALSIFY_ATROCITIES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Falsificar Atrocidades</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FALSIFY_ATROCITIES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Falsificar habilmente alegações de crimes de guerra hediondos contra o jogador inimigo alvo. O jogador inimigo perde reputação, e todos os outros jogadores ganham um Casus Belli de nível máximo contra esse jogador.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FALSIFY_ATROCITIES</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Por meio de reportagens falsas, inserção de dados em fluxos de espionagem e boa e velha fofoca, garantimos que o mundo acredite que nosso alvo é culpado de crimes tão vis que nem podem ser nomeados. Melhor ainda, o alvo não faz ideia de que estivemos envolvidos!</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FALSIFY_ATROCITIES</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_DETECTED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Por meio de reportagens falsas, inserção de dados em fluxos de espionagem e boa e velha fofoca, garantimos que o mundo acredite que nosso alvo é culpado de crimes tão vis que nem podem ser nomeados. Infelizmente, um de nossos agentes foi pego pichando mensagens de grafite obscenas e admitiu nosso envolvimento na operação!</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FALSIFY_ATROCITIES</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Devido a um mal-entendido cultural, nosso agente não conseguiu convencer muitas pessoas dos crimes de nosso alvo. Na verdade, podemos ter acidentalmente tornado o alvo um pouco mais popular. Pelo menos nossos agentes conseguiram permanecer indetectados, então o alvo não sabe que somos responsáveis.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FALSIFY_ATROCITIES</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_DETECTED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Devido a um mal-entendido cultural, nosso agente não conseguiu convencer muitas pessoas dos crimes de nosso alvo. Na verdade, podemos ter acidentalmente tornado o alvo um pouco mais popular. Pior ainda, um de nossos agentes foi capturado mentindo para um repórter local e admitiu nosso envolvimento na operação!</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FALSIFY_ATROCITIES</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS_UNDETECTED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Agentes inimigos têm espalhado mentiras vis e cruéis sobre nós para as outras potências do planeta. Nossa reputação foi severamente prejudicada, e as outras raças estão até discutindo abertamente declarar guerra contra nós! Para piorar, não temos ideia de quem é responsável por essa traição ultrajante.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FALSIFY_ATROCITIES</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS_DETECTED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Agentes inimigos têm espalhado mentiras vis e cruéis sobre nós para as outras potências do planeta. Nossa reputação foi severamente prejudicada, e as outras raças estão até discutindo abertamente declarar guerra contra nós! Sabemos quem é responsável por esse ultraje, mas o dano infelizmente já foi feito.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FALSIFY_ATROCITIES</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE_UNDETECTED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Chegou ao nosso conhecimento que agentes inimigos têm tentado espalhar rumores e mentiras cruéis sobre nós. Temos sorte que, em sua ignorância, muitas pessoas na verdade passaram a nos ver com melhores olhos! É uma pena que não tenhamos ideia de quem é responsável por isso...</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FALSIFY_ATROCITIES</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE_DETECTED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Chegou ao nosso conhecimento que agentes inimigos têm tentado espalhar rumores e mentiras cruéis sobre nós. Temos sorte que, em sua ignorância, muitas pessoas na verdade passaram a nos ver com melhores olhos! Ainda assim, identificamos quem é responsável, caso queira responsabilizá-los. Ou agradecê-los.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FALSIFY_ATROCITIES</Data></Cell>
+    <Cell><Data ss:Type="String">CASUS_BELLI</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">{STR_leaderName} cometeu uma atrocidade indescritível</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FALSIFY_ATROCITIES</Data></Cell>
+    <Cell><Data ss:Type="String">ALIGNMENT_MODIFIER</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Acusado de uma atrocidade indescritível</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FALSIFY_ATROCITIES</Data></Cell>
+    <Cell><Data ss:Type="String">ALIGNMENT_BONUS</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Uma acusação mal compreendida de atrocidade</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FALSIFY_ATROCITIES</Data></Cell>
+    <Cell><Data ss:Type="String">OTHER_PLAYER_EVENT_NAME</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">{STR_playerName} cometeu uma atrocidade!</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">FALSIFY_ATROCITIES</Data></Cell>
+    <Cell><Data ss:Type="String">OTHER_PLAYER_EVENT_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Nossos agentes têm captado muitos rumores de que um comandante aliado, {STR_playerName}, cometeu um ato tão indescritível e degradante que a única resposta razoável é uma declaração imediata de guerra. Esse ato é tão repugnante que não temos certeza do que realmente foi, apenas que deve ter sido terrível para chegarmos a ouvir falar dele!</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LOCATE_ARTIFACTS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Localizador de Ameaça Nativa</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LOCATE_ARTIFACTS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Revela a localização do Spawner hostil mais próximo e inexplorado da colônia alvo.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LOCATE_ARTIFACTS</Data></Cell>
+    <Cell><Data ss:Type="String">SUCCESS</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Um Spawner foi localizado: </Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LOCATE_ARTIFACTS</Data></Cell>
+    <Cell><Data ss:Type="String">FAILURE</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Nenhum novo Gerador pode ser detectado neste planeta.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">LOCATE_ARTIFACTS</Data></Cell>
+    <Cell><Data ss:Type="String">CAST_SUCCESSFULLY</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Após uma longa e exaustiva análise dos arquivos e dados de sensores disponíveis, nossos cientistas estão prontos para apresentar seus resultados.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REVIVE_HERO</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Protocolo de Ressurreição de Herói</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">REVIVE_HERO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ressuscite um Herói caído por meio de manipulação genética e medicina regenerativa.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FABRICATE_CASUS_BELLI</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fabricar Casus Belli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FABRICATE_CASUS_BELLI</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use dados roubados e falsificações para fabricar um Casus Belli que justifique uma guerra contra este jogador. Apenas um Casus Belli fabricado pode estar ativo contra um jogador por vez.[br/]Em caso de falha, um Casus Belli menor ainda será aplicado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FABRICATE_CASUS_BELLI</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes conseguiram construir uma narrativa incriminadora com provas contra o alvo! Divulgar essas provas será suficiente para justificar uma guerra, se optarmos por prosseguir.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FABRICATE_CASUS_BELLI</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">CASTER_SUCCESS_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes conseguiram construir uma narrativa incriminadora com provas contra o alvo! Infelizmente, um agente foi capturado enquanto reunia provas, revelando todo o plano, mas temos certeza de que os outros acreditarão mais em nós do que neles.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FABRICATE_CASUS_BELLI</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes não conseguiram encontrar nenhuma informação útil que pudéssemos usar para incriminar o alvo. Como resultado, foram forçados a inventar uma fabricação do nada. As provas serão suficientes, mas são muito frágeis e não resistirão a uma análise minuciosa.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FABRICATE_CASUS_BELLI</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">CASTER_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes não conseguiram encontrar nenhuma informação útil que pudéssemos usar para incriminar o alvo. Como resultado, foram forçados a inventar uma fabricação do nada. Infelizmente, o inimigo descobriu seu rastro, alertando-os sobre nossos planos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FABRICATE_CASUS_BELLI</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">TARGET_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos espiões relatam que um inimigo está tentando nos incriminar por algo que não fizemos, na tentativa de justificar uma guerra contra nós! Seus esforços foram interrompidos, mas algumas pessoas ainda acreditarão neles.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FABRICATE_CASUS_BELLI</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">TARGET_SUCCESS_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos espiões relatam que um inimigo conseguiu construir uma narrativa crível para nos pintar de forma negativa. De alguma forma, eles conseguiram provas para sustentar sua história e certamente poderão usá-las contra nós para iniciar uma guerra, se acharem conveniente.</Data></Cell>
+   </Row>
+   <Row ss:Index="163" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DEVELOPMENT_I_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Desenvolvimento de Doutrina I</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DEVELOPMENT_I_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ganhe {doctrine} espaço para doutrina, aumentando o número de Doutrinas que podem estar ativas ao mesmo tempo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DEVELOPMENT_II_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Desenvolvimento de Doutrina II</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DEVELOPMENT_II_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ganhe {doctrine} espaço para doutrina, aumentando o número de Doutrinas que podem estar ativas ao mesmo tempo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DEVELOPMENT_III_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Desenvolvimento de Doutrina III</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DEVELOPMENT_III_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ganhe {doctrine} espaço para doutrina, aumentando o número de Doutrinas que podem estar ativas ao mesmo tempo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DEVELOPMENT_IV_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Desenvolvimento de Doutrina IV</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DEVELOPMENT_IV_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ganhe {doctrine} espaço para doutrina, aumentando o número de Doutrinas que podem estar ativas ao mesmo tempo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DEVELOPMENT_V_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Desenvolvimento de Doutrina V</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DEVELOPMENT_V_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ganha {doctrine} slot de doutrina, aumentando o número de Doutrinas que podem estar ativas ao mesmo tempo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DEVELOPMENT_VI_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Desenvolvimento de Doutrina VI</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEFAULT_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">DOCTRINE_DEVELOPMENT_VI_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ganha {doctrine} slot de doutrina, aumentando o número de Doutrinas que podem estar ativas ao mesmo tempo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCANNING_UPGRADE</Data></Cell>
+    <Cell><Data ss:Type="String">RANGE_UPGRADE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Melhoria de Scanner: Alcance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCANNING_UPGRADE</Data></Cell>
+    <Cell><Data ss:Type="String">RANGE_UPGRADE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Melhora os scanners em suas colônias. Todas as colônias agora têm visão e alcance de scanner de {rangeincrease}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCANNING_UPGRADE</Data></Cell>
+    <Cell><Data ss:Type="String">INFORMATION_UPGRADE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Melhoria de Scanner: Informações de Facção</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCANNING_UPGRADE</Data></Cell>
+    <Cell><Data ss:Type="String">INFORMATION_UPGRADE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Melhora os scanners em suas colônias. Todas as colônias agora mostram informações de facção de todos os alvos dentro do alcance do scanner.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNLOCK_CAPABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Classificação de Capacidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNLOCK_CAPABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Desbloqueia classificações de capacidade, mostradas na interface de Tarefas do Império, permitindo que você veja como seu Império se compara ao de outros jogadores.[br/][br/]A capacidade é visível para seu Império e seus aliados. Para ver as classificações de outros jogadores, você deve usar [abilityblue]Operação de Infiltração no Centro de Operações[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALERT_LEVEL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Nível de Alerta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="84">
+    <Cell><Data ss:Type="String">ALERT_LEVEL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sempre que detectar outro jogador usando uma operação contra você, seu Nível de Alerta aumentará. Cada nível concede {INT_pointsPerLevel}[operationDefense/] de defesa contra operações inimigas.[br/][br/]Seu Nível de Alerta atual é {INT_level}, concedendo {INT_currentDefense}[operationDefense/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell><Data ss:Type="String">ALERT_LEVEL</Data></Cell>
+    <Cell><Data ss:Type="String">EXPIRES_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">O Nível de Alerta cairá em um em {INT_duration}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell><Data ss:Type="String">ALERT_LEVEL</Data></Cell>
+    <Cell><Data ss:Type="String">RAISED</Data></Cell>
+    <Cell><Data ss:Type="String">Nível de Alerta agora em {INT_newLevel}!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The system prints this if the alert level is raised OR if the alert level is at max level and cannot be raised</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRANSLOCATE_COSMITE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Translocadores de Cosmita</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="57.5">
+    <Cell><Data ss:Type="String">TRANSLOCATE_COSMITE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Coleta {INT_percentage} da renda total de cosmita do jogador-alvo ao longo de um número fixo de turnos. A cosmita será transferida para nós assim que a operação durar {duration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TRANSLOCATE_COSMITE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes infiltraram com sucesso as instalações inimigas e instalaram os translocadores de cosmita. Em alguns turnos, a sequência será concluída e a cosmita roubada será transmitida para nós.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="54">
+    <Cell><Data ss:Type="String">TRANSLOCATE_COSMITE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_UNDETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes foram pegos enquanto se infiltravam nas instalações inimigas e não conseguiram instalar os translocadores de cosmita. Felizmente, eles conseguiram se safar, então o inimigo não está ciente da nossa tentativa de infiltração.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="62.5">
+    <Cell><Data ss:Type="String">TRANSLOCATE_COSMITE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes foram pegos enquanto se infiltravam nas instalações inimigas e não conseguiram instalar os translocadores de cosmita. Infelizmente, nossos agentes cederam sob interrogatório inimigo e revelaram nosso envolvimento na operação.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48">
+    <Cell><Data ss:Type="String">TRANSLOCATE_COSMITE</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE_DETECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Agentes inimigos foram pegos tentando se infiltrar em nossas instalações para instalar dispositivos projetados para translocar cosmita preciosa de nossas reservas. Após horas de interrogatório, conseguimos identificar o estado por trás dessa tentativa vil.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="54">
+    <Cell><Data ss:Type="String">TRANSLOCATE_COSMITE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_ANONYMOUS</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos translocadores funcionaram perfeitamente e teletransportaram o Cosmita para nós. Os translocadores se autodestruíram, não deixando nenhuma evidência que pudesse nos ligar a este roubo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="46.25">
+    <Cell><Data ss:Type="String">TRANSLOCATE_COSMITE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_REVEALED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos translocadores funcionaram perfeitamente e teletransportaram o Cosmita para nós. No entanto, um translocador não se autodestruiu, e o inimigo agora está ciente de nossa participação neste roubo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="65.5">
+    <Cell><Data ss:Type="String">TRANSLOCATE_COSMITE</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS_ANONYMOUS</Data></Cell>
+    <Cell><Data ss:Type="String">Perdemos uma grande quantidade de cosmita pelo uso de algum tipo de dispositivo de translocação. Infelizmente, os dispositivos se autodestruíram antes que pudéssemos analisá-los, então não temos informações sobre quem os plantou.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="49.75">
+    <Cell><Data ss:Type="String">TRANSLOCATE_COSMITE</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS_REVEALED</Data></Cell>
+    <Cell><Data ss:Type="String">Perdemos uma grande quantidade de cosmita pelo uso de algum tipo de dispositivo de translocação. Conseguimos recuperar um dos dispositivos para análise e rastrear o alvo da transferência de cosmita até um estado inimigo.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>45</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>51</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

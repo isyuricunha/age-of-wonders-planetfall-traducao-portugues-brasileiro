@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2019-09-20T10:16:54Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11190</WindowHeight>
+  <WindowWidth>24015</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="14" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="167.25"/>
+   <Column ss:StyleID="s62" ss:Width="111"/>
+   <Column ss:StyleID="s62" ss:Width="253.5"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="170.25"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell><Data ss:Type="String">TOMBWORLD</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Text surounded by {} or [] are special tags for code. These tag will be replaced with other text eg: the name of a player. The tags should NOT be localized. They represent the place in the sentens for their replacing string. Some {} tags start with STR or INT. STR means it will be replaced with text, INT means it will be replaced with a numerical value  </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEAR_THE_REAPERS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tema os Ceifadores</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FEAR_THE_REAPERS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao pousarmos, recebemos vários sinais vindos da superfície do planeta. Para determinar com precisão as coordenadas de uma dessas transmissões, precisamos dos dados localizados dentro desta instalação.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEAR_THE_REAPERS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Bunker dos Ceifadores Eliminado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Objective</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FEAR_THE_REAPERS</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">Pouso bem-sucedido, Comandante. Estamos recebendo uma variedade de sinais de emergência desde que entramos na atmosfera. A fonte está usando um protocolo antigo do proto-império que carrega a mesma mensagem de socorro. Analisando...</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: AIVA (female tutorial AI)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FEAR_THE_REAPERS</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">As coordenadas transmitidas pelos sinais não correspondem aos dados geográficos atuais, Comandante. Também não conseguimos localizar com precisão a origem apenas pelos sinais. Desenvolvendo método alternativo…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: AIVA (female tutorial AI)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">FEAR_THE_REAPERS</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">Comandante, há uma estação de transporte subterrânea arcaica, mas funcional, reaproveitada como bunker, que parece estar captando esses sinais. Há 99% de chance de que esta instalação tenha os dados topológicos de que precisamos para localizar a fonte da transmissão. Alerta: há assinaturas hostis neste abrigo improvisado; recomenda-se um destacamento militar preparado caso decidamos investigar o local.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: AIVA (female tutorial AI)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FEAR_THE_REAPERS</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_SUCCESS_01</Data></Cell>
+    <Cell><Data ss:Type="String">Comandante, os modelos RPR que acabamos de enfrentar eram robôs usados pela União para caçar remanescentes dos Es’Teq, uma facção que já se opôs ao Império. Meus bancos de dados indicam que eles deveriam ter sido desativados e fora de uso. Analisando...</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: AIVA (female tutorial AI)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FEAR_THE_REAPERS</Data></Cell>
+    <Cell><Data ss:Type="String">MESSAGE_SUCCESS_02</Data></Cell>
+    <Cell><Data ss:Type="String">A instalação apresenta vestígios de atividade recente. Esses RPRs pareciam estar esperando sinais dos Es’Teq e se preparando para montar um ataque a um local que acreditamos corresponder à origem de um dos sinais. Avaliando…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: AIVA (female tutorial AI)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">A_NEW_LEGACY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Um Novo Legado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">A_NEW_LEGACY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Recebemos as coordenadas de um local que acreditamos pertencer a quem está enviando um dos sinais de emergência. Devemos investigar este local o mais rápido possível.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">A_NEW_LEGACY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sítio Anômalo Eliminado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Objective</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">A_NEW_LEGACY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">FAILED_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Outro comandante eliminou o sítio anômalo!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Failure</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>130</Zoom>
+   <Selected/>
+   <TopRowVisible>9</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>13</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

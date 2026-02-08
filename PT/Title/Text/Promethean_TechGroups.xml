@@ -1,0 +1,1149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>LaszloP</LastAuthor>
+  <LastSaved>2018-11-15T16:03:08Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8880</WindowHeight>
+  <WindowWidth>23565</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="205" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="215.25"/>
+   <Column ss:StyleID="s62" ss:Width="234.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="360"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="146.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="293.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="126.75"/>
+   <Column ss:StyleID="s62" ss:Width="400.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">PROMETHEAN_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROMETHEAN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Prometeano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROMETHEAN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade Prometeana</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROMETHEAN</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta é uma unidade Prometeana.</Data></Cell>
+   </Row>
+   <Row ss:Index="10" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFERNO_ARMOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lançadores de Bomba Fênix</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PYRX_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Plasma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPERHEATED_PLASMA_ACTUATORS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Atuadores de Plasma Superaquecido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SUPERHEATED_PLASMA_ACTUATORS</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques de plasma com [abilityred]Queimadura[/abilityred] ou [abilityred]Sufocamento[/abilityred] agora aplicam [abilityred]Imolação[/abilityred], causando {ImmoDamage} de dano por turno. A Imolação dura por {ImmoTurn}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXTERMINATION_TARGETING_RELAY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Relé de Mira Térmica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">EXTERMINATION_TARGETING_RELAY</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade ganha {IncreasedAcc}% de precisão em todos os ataques.[br/][br/]Os ataques desta unidade recebem +{IncreasedBurningAcc}% de precisão e +{ExterminationExtraDamage}% de dano contra alvos [abilityred]Queimando[/abilityred] ou [abilityred]Imolados[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXTERMINATION_TARGETING_RELAY</Data></Cell>
+    <Cell><Data ss:Type="String">DEBUFF_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Relé Térmico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EXTERMINATION_TARGETING_RELAY</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">+{IncreasedAcc}% de precisão e +{IncreaseDmg}% de dano contra alvos [abilityred]Queimando[/abilityred] ou [abilityred]Imolados[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PURIFICATION_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Campo de Purificação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PURIFICATION_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Restaura {HealAmount}[hp/] e remove quaisquer Efeitos de Status não Psiónicos desta unidade ou de uma unidade adjacente alvo.</Data></Cell>
+   </Row>
+   <Row ss:Index="21" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZMAT_PROTECTION</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Proteção contra Riscos Químicos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HAZMAT_PROTECTION</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Fornece à unidade um sistema de proteção, concedendo-lhe +{BiochemicalResistance} de resistência contra efeitos de status e [abilityblue]Imunidade a Riscos Táticos[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BACKLASH_PROJECTORS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Projetores de Retrocesso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PYRX_ABSORPTION_PANELS</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Painéis de Absorção de PyrX</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These are found in Hazards_unitproperties.rpk</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PYRX_ABSORPTION_PANELS</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao permanecer em Riscos Térmicos, esta unidade causa +{PanelsDamageIncrease} de dano e se cura em {PanelsHealPerTurn}[hp/] no início de cada turno.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PYRX_ABSORPTION_PANELS</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION_MOD</Data></Cell>
+    <Cell><Data ss:Type="String">Ao permanecer em Riscos Térmicos, esta unidade causa +{PanelsDamageIncrease} de dano e se cura em {PanelsHealPerTurn}[hp/] no início de cada turno.[br/][br/]A unidade também ganha +{DefenseThermal}[defenseThermal/] de resistência e imunidade a [abilityblue]Efeitos de Status Térmicos e Riscos Táticos[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PYRX_ABSORPTION_PANELS</Data></Cell>
+    <Cell><Data ss:Type="String">GIVEN_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está absorvendo o fogo de PyrX em que está, carregando seus sistemas. O dano da unidade é aumentado em {PanelsDamageIncrease} e ela se cura em {PanelsHealperTurn} enquanto permanecer no fogo de PyrX.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PYRX_ABSORPTION_PANELS</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{PanelsDamageIncrease} de dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KINETIC_FORCE_PROJECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Projetor de Força</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">KINETIC_FORCE_PROJECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Direciona uma onda de choque focada em um alvo, [abilityred]derrubando[/abilityred] unidades Leves.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WIDE_FORCE_BLAST</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Explosão de Força Ampla</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WIDE_FORCE_BLAST</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lança uma Explosão de Força projetada que estoura em uma área de raio de {hexrange} hex.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLASMA_BOMBS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lançar Bombas de Plasma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PLASMA_BOMBS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara uma Bomba de Plasma, causando dano em uma área de raio de {hexrad} hex e deixando um Perigo em chamas por {plasmaBombDuration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFERNO_BOMBS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lançar Bombas Fênix</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INFERNO_BOMBS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara uma Bomba Fênix, causando dano em uma área de raio de {hexrad} hex e deixando um Perigo em chamas por {plasmaPhoenixDuration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLASMA_BLAST</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Explosão de Plasma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PLASMA_BLAST</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara uma rajada de plasma inflamado em um alvo, incendiando o hex alvo por {PlasmaDuration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLASMA_BOW</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arco de Plasma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PLASMA_BOW</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara flechas que se inflamam com plasma no ar, incendiando o hex alvo por {PlasmaDuration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLASMA_REPEATER</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Repetidor de Plasma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PLASMA_REPEATER</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara rajadas rápidas de plasma inflamado em um alvo, incendiando o hex alvo por {PlasmaDuration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell><Data ss:Type="String">PLASMA_SMOG</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Neblina de Plasma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="37.5">
+    <Cell><Data ss:Type="String">PLASMA_SMOG</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara uma rajada de uma mistura espessa de plasma e neblina, incendiando o hex alvo por {PlasmaDuration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLASMA_MASTERY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Maestria em Plasma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PLASMA_MASTERY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O conhecimento Dvar sobre ferramentas de mineração de plasma foi aplicado ao desenvolvimento de armas, aumentando o dano em {PlasmaMasteryDamage}.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Edit: creation of weapon --&gt; weapons development</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLASMA_MASTERY</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{PlasmaMasteryDamage} de dano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LASH_OUT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Investida Feroz</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LASH_OUT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use plasma para atacar um alvo com fúria.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLASMA_SURGE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Surto Fênix</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PLASMA_SURGE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade avança rapidamente para outro hexágono, causando dano a todas as unidades adjacentes ao pousar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BACKLASH_PROJECTION</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Projeção de Repercussão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BACKLASH</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Repercussão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BACKLASH</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quando sofrer dano, esta unidade libera uma onda de fogo ao redor de si, causando {backlashDamage} de dano a todas as unidades inimigas adjacentes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BOOST_FALLOUT_SHIELDS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Potencializar Escudos de Radiação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BOOST_FALLOUT_SHIELDS</Data></Cell>
+    <Cell><Data ss:Type="String">DEFENSE_ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Modo Defensivo: Potencializar Escudos de Radiação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">BOOST_FALLOUT_SHIELDS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aumenta o poder do seu [abilityblue]Escudo de Proteção contra Radiação[/abilityblue] até o início do próximo turno, concedendo resistência adicional de {BoostShields} e {BoostResistance}.[br/]Este efeito é cancelado se esta unidade for atordoada.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BOOST_FALLOUT_SHIELDS</Data></Cell>
+    <Cell><Data ss:Type="String">GIVEN_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade recebeu proteção extra e ganhou {FalloutShields} Escudos a mais e {FalloutThermalResistance} de resistência.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FALLOUT_PROTECTION_SHIELDING</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Escudo de Proteção contra Radiação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FALLOUT_PROTECTION_SHIELDING</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade projeta uma cúpula que a protege e a todas as unidades amigas adjacentes. A cúpula concede +{FalloutShields}, +{FalloutThermalResistance} de resistência e Imunidade a Efeitos de Status Térmico e Perigos Ambientais.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FALLOUT_PROTECTION_SHIELDING</Data></Cell>
+    <Cell><Data ss:Type="String">GIVEN_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está recebendo proteção de um Tanque Aegis próximo. Ela ganha {FalloutShields} Escudos e {FalloutThermalResistance} de resistência Térmica, além de imunidade a Efeitos de Status Térmico e Perigos Ambientais.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLASMA_CUTTER</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cortador de Plasma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLASMA_CUTTER</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Estenda uma chama concentrada, quente o suficiente para cortar qualquer coisa.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLASMA_BELCH</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Eructação de Plasma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PLASMA_BELCH</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Expila uma mistura de plasma e fumaça para frente.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FIRESTORM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tempestade de Fogo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FIRESTORM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Libera chamas líquidas em todos os hexágonos dentro do alcance de {HexRange} hex, incendiando o terreno por {HazardDuration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TORRENT_OF_FLAME</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Torrente de Chamas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TORRENT_OF_FLAME</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Espalha uma grande torrente de chamas em uma área em cone de {hexcon} hexes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PYRX_GAS_BOMB</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bomba PyrX</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PYRX_GAS_BOMB</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lança uma bomba no combate tático que dispersa uma nuvem de PyrX em uma área de raio de {PyrXGasBombRadius} hexes. Unidades terrestres Biológicas e Ciborgues atingidas pela nuvem sofrem [abilityred]Sufocamento[/abilityred]. Após {Timer}[turn/], a nuvem explode, causando {ExplDamage} de dano com [abilityred]Impacto Devastador[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PLASMOID_DEPLOYMENT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Implantação de Plasmoide</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLASMOID_DEPLOYMENT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Invoca uma unidade Plasmoide no mapa estratégico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PLASMOID_DEPLOYMENT</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Seu satélite implantou com sucesso uma unidade Plasmoide na superfície. Todos os sistemas estão operacionais.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMERGENCY_SHIELDING</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Blindagem de Emergência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMERGENCY_SHIELDING</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Implanta um escudo protetor na unidade alvo, concedendo à unidade +{ShieldShieldingDefenses}, [abilityBlue]Imunidade a Atordoamento[/abilityBlue] e [abilityBlue]Imunidade Térmica[/abilityBlue] por {EmergencyShield} turnos. A unidade não pode se mover durante a duração do efeito.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EMERGENCY_SHIELDING</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem +{shields} e Imunidade Térmica, mas não pode se mover.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AEGIS_PROTECTION_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Campo de Proteção Aegis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AEGIS_PROTECTION_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades aliadas ganham [abilityblue]Proteção Aegis[/abilityblue], concedendo-lhes +{AegisProctShield}, além de +{AegisThermalResistance} e +{AegisBiochemicalResistance} de resistência por {DeployFalloutShieldingTime} turnos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AEGIS_PROTECTION_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Proteção Aegis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AEGIS_PROTECTION_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade tem +{aegisshield}, além de {AegisThermalResistance} e {AegisBiochemicalResistance} de resistência.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FIRESTORM_PROJECTILE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Projétil Tempestade de Fogo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FIRESTORM_PROJECTILE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Chama um ataque aéreo que causa {FirestormDamage} de dano a um alvo com [abilityred]Alto Impacto[/abilityred]. O projétil também causa {FirestormAdjacentDamage} de dano a todas as unidades inimigas adjacentes e deixa um Perigo de PyrX em todos os hexes afetados por {FirestormTurns} turnos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PLASMA_RAY_DEFENSE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Defesa por Raio de Plasma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PLASMA_RAY_DEFENSE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A colônia aliada alvo é defendida por um Raio de Plasma Superaquecido. Durante os primeiros {numTurns} de combate, {minNumber} a {maxNumber} unidades aleatórias não Minerais e não Etéreas têm uma chance de força {strength} de se tornarem [abilityred]Imoladas[/abilityred] a cada [turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLASMA_RAY_DEFENSE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Os procedimentos de Defesa por Raio de Plasma foram ativados e todos os sistemas estão funcionando conforme o esperado. Qualquer agressor deverá ser repelido com muito mais facilidade.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">PLASMA_RAY_DEFENSE</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A cada [turn/] tático, {minNumber} a {maxNumber} unidades aleatórias não Minerais e não Etéreas têm uma chance de força {strength} de se tornarem [abilityred]Imoladas[/abilityred] no domínio desta colônia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INCINERATION_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ataque Incinerador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INCINERATION_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um drone de ataque cobre o inimigo em napalm. Causa dano igual a {IncinerationProtocolDamage} de seu [hp/] atual e enfraquece sua resistência [defensethermal/] em {IncinerationProtocolsResistance} em combate por {IncinerationProtocolsDuration} turnos estratégicos [turn/].[br/][br/]Em caso de falha, causará apenas dano igual a {IncinerationProtocolDamage} de seu [hp/] atual.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INCINERATION_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Seu ataque de drone atingiu o alvo com efeito total. O exército inimigo sofreu danos significativos e terá menor resistência a novos ataques térmicos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INCINERATION_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">O inimigo estava mais preparado para o ataque de drone do que o previsto. Embora não tenham sofrido o efeito total do bombardeio, ainda assim sofreram alguns danos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INCINERATION_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Drones de ataque Promethean bombardearam seu exército, causando danos significativos e enfraquecendo sua resistência contra novos ataques térmicos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INCINERATION_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Drones de ataque Promethean tentaram bombardear seu exército, mas foram frustrados por suas tropas. Embora o ataque não tenha tido efeito total, ainda sofremos alguns danos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INCINERATION_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade foi afetada por um Ataque Incinerador recente e sua Resistência Térmica está reduzida em {IncinerationStrikeResistance}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INCINERATION_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades afetadas perderam {DamagePercentage} de seu [hp/] atual</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">INCINERATION_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION_WEAKNESS</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades afetadas têm {ThermalWeakness} a menos de resistência [defensethermal/] por {Duration} turnos estratégicos [turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PYRX_FLASH_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ataque Relâmpago PyrX</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PYRX_FLASH_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara um míssil de ignição rápida no setor alvo, causando dano a unidades inimigas equivalente a {ProportionalDamage} de seu [hp/] atual e transformando o setor em um setor Vulcânico. Se esta operação mirar um Núcleo de Colônia inimigo, remove {Colonists Removed}[population/] Colonos do alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PYRX_FLASH_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Iniciamos com sucesso um ataque relâmpago PyrX.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PYRX_FLASH_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Nosso míssil de ataque relâmpago PyrX apresentou falha e causou apenas danos mínimos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PYRX_FLASH_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Fomos atacados por um violento ataque relâmpago PyrX e sofremos baixas pesadas!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PYRX_FLASH_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos inimigos tentaram nos atingir com um ataque relâmpago PyrX, mas apenas uma quantidade marginal de dano foi infligida.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PYRX_FLASH_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">FAILURE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Em caso de falha, causa apenas {FailureDamage} e mata {ColonistAmount} [population/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PYRX_FLASH_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_STRING_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades afetadas perderam {DamagePercentage} de seu [hp/] atual</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Protocolos de Extermínio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">É nosso dever purificar todas as impurezas da galáxia, e o faremos sem hesitação.[br/][br/]Suas unidades causam {ExtraDamage} de dano extra. Isso aumenta para {ExtraXenoDamage} ao lutar contra Xenoplague.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_1_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Suas unidades causam {ExtraDamage} de dano extra. Isso aumenta para {ExtraXenoDamage} ao lutar contra Xenoplague.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_1_MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{ExtraDamage} de dano, {ExtraXenoDamage} contra unidades Xenoplague</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Protocolos de Colonização Fênix</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O cofre ainda guarda os protocolos para colonização pós-purga – eles podem ajudar em nossos esforços de colonização em terrenos perigosos.[br/][br/]Todas as suas Colônias ignoram penalidades econômicas de Perigos e Vulcões.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Protocolo de Armamento Fênix</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A teoria de armamento Fênix prioriza a eficiência acima de tudo.[br/][br/]Unidades Prometeanas são {PrometheanProduction} mais baratas para construir e seu custo de manutenção é reduzido em {UpkeepRedec}.[br/][br/][firecol]Os custos de unidades nunca podem ser reduzidos em mais de 75%.[/firecol][br/][firecol]A manutenção de unidades nunca pode ser reduzida em mais de 50%.[/firecol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_3_UNIT_BONUS_1</Data></Cell>
+    <Cell><Data ss:Type="String">{PrometheanProduction}[energy/] + [production/] de custo para unidades Prometeanas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Protocolos de Defesa Fênix</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_4_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Devemos manter os hostis longe de nossas fronteiras e fora do alcance de nossas colônias até podermos liberar todo o potencial do PyrX.[br/][br/]Suas unidades ganham {ExtraArmor}[armor/] dentro do seu Domínio e você ganha {OperationalDefense}[operationdefense/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_4_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Suas unidades ganham {ExtraArmor}[armor/] dentro do seu Domínio.</Data></Cell>
+   </Row>
+   <Row ss:Index="119" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">VICTORY_CONDITION</Data></Cell>
+    <Cell><Data ss:Type="String">Inflame a atmosfera para purificar o planeta.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades de jogadores não-Prometeanos têm resistência -{thermalweakness}[resistThermalDown/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Toda a renda reduzida em {SupplyReduction}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Nível 2 de PyrX</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades Biológicas e Ciborgues de jogadores não-Prometeanos têm [abilityred]Sufocante[/abilityred] em combate.[br/]Fogueiras de PyrX aparecem em combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PYRX_FUMIGATION_PROTOCOLS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Protocolos de Fumigação de PyrX</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PYRX_FUMIGATION_PROTOCOLS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Inunda uma colônia inimiga não-Prometeana com gás PyrX por {duration}, que aumenta de intensidade conforme você constrói mais Refinarias de PyrX.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PYRX_FUMIGATION_PROTOCOLS</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Nossas bombas de PyrX atingiram o alvo, inundando a colônia inimiga com gás e espalhando pânico entre a população.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PYRX_FUMIGATION_PROTOCOLS</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossas bombas de PyrX foram desviadas pelos sistemas defensivos inimigos. Embora as bombas não tenham detonado, o susto causou pânico nas ruas da colônia-alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PYRX_FUMIGATION_PROTOCOLS</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">O inimigo lançou algum tipo de bomba de gás em uma de nossas cidades. Um gás denso e inflamável cobre as ruas, causando pânico e explosões frequentes!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PYRX_FUMIGATION_PROTOCOLS</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos sistemas defensivos desviaram algum tipo de bomba de gás lançada contra nossa colônia. Embora a população esteja segura, o susto causou pânico nas ruas!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PYRX_GAS_REFINERY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Refinaria de PyrX</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PYRX_GAS_REFINERY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Refinaria de PyrX desbloqueia a Arma do Juízo Final Protocolos de Fumigação de PyrX. Cada Refinaria de PyrX adicional que você construir aumenta o nível da arma, tornando-a mais poderosa.[br/][br/]Apenas uma Refinaria de PyrX pode ser construída por Colônia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PLANETARY_PURIFICATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Purificação Planetária</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLANETARY_PURIFICATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O passo final do plano Prometeano inunda toda a atmosfera do planeta com PyrX.[br/][br/]Requer Protocolos de Fumigação de PyrX nível 3.[br/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLANETARY_PURIFICATION</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">O gás PyrX agora satura a atmosfera enquanto nosso povo se abriga nas profundezas do subsolo. É apenas uma questão de tempo até o cataclismo que marcará o glorioso renascimento deste planeta.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PURIFIER_GUN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Canhão Purificador</Data></Cell>
+   </Row>
+   <Row ss:Index="138" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROME_EVENT_INITIAL_NOTIFICATION</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Condição de Vitória: Purificação Planetária</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROME_EVENT_UPGRADE_CAPTURED</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">Uma de nossas Refinarias de PyrX foi capturada.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PROME_EVENT_UPGRADE_LOST</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">Você perdeu uma Refinaria de PyrX!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PROME_EVENT_UPGRADE_LOST</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_Player} perdeu uma Refinaria de PyrX!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PROME_EVENT_UPGRADE_LOST_NOT_GLOBAL</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">Você perdeu uma Refinaria de PyrX. Sua tentativa de Purificar o Planeta foi cancelada!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PROME_EVENT_UPGRADE_LOST_GLOBAL</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_Player} perdeu uma Refinaria de PyrX. A tentativa deles de Purificar o Planeta foi frustrada!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PROME_EVENT_INITIAL_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Um jogador começou a liberar PyrX na atmosfera para iniciar a purificação do planeta!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PROME_EVENT_UPGRADE_BUILT_01</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Ao construir uma Refinaria de PyrX, {playerName} agora tem acesso à sua Arma do Juízo Final, a Purificação Planetária. Ela está fraca agora, mas se tornará mais poderosa à medida que mais Refinarias de PyrX forem construídas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PROME_EVENT_UPGRADE_BUILT_02</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Ao construir uma segunda Refinaria de PyrX, {playerName} fortaleceu sua Arma do Juízo Final, a Purificação Planetária. Você deve planejar ataques para destruir essas estruturas antes que a arma deles se torne poderosa demais.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PROME_EVENT_UPGRADE_BUILT_03</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Ao construir sua última Refinaria de PyrX, {playerName} maximizou a força de sua Arma do Juízo Final, a Purificação Planetária. Eles estão próximos de liberá-la e vencer o jogo. A hora de atacar é agora!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PROME_EVENT_UPGRADE_CAPTURED_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">O Cronômetro do Juízo Final foi pausado! Você deve recuperar a Refinaria de PyrX perdida ou perderá sua chance de purificar o planeta!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PROME_EVENT_UPGRADE_LOST_GLOBAL_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">A perda de uma Refinaria de PyrX cancelou a Purificação Planetária, encerrando o Cronômetro do Juízo Final.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PROME_EVENT_UPGRADE_LOST_NOT_GLOBAL_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">A perda de uma Refinaria de PyrX reduziu a quantidade de PyrX liberada na atmosfera e interrompeu nossa Purificação Planetária como resultado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PROME_EVENT_FINISHER_CAST_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos inimigos ativaram sua Arma do Juízo Final e começaram a espalhar PyrX pelo planeta. Sua própria Arma do Juízo Final foi destruída pelo cataclismo. Você tem {numTurns} para destruir uma de suas Refinarias de PyrX ou eles vencerão o jogo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PROME_EVENT_RUNNING_VICTORY_TIMER</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">A Purificação Planetária foi iniciada, e você vencerá o jogo em {numTurns} a menos que perca uma de suas Refinarias de PyrX.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PROME_EVENT_RUNNING_VICTORY_TIMER</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">A Purificação Planetária foi iniciada, e {playerName} vencerá em {numTurns} a menos que você consiga destruir uma de suas Refinarias de PyrX.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PROME_EVENT_VICTORY_TIMER_PAUSED</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Refinaria de PyrX foi capturada! Se for destruída, nosso cronômetro do Juízo Final será cancelado. Se você recapturar a refinaria, poderá retomar a contagem regressiva.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROME_EVENT_VICTORY_TIMER_PAUSED</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Refinaria de PyrX foi capturada! Se for destruída, o cronômetro do Juízo Final será cancelado. Se {playerName} recapturar sua refinaria, eles poderão retomar a contagem regressiva.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PROME_EVENT_FINISHER_PRIMING</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">{playerName} está se preparando para liberar seu PyrX e purificar o planeta; se for permitido que terminem, sua própria Arma do Juízo Final será eliminada, e {playerName} estará a um passo da vitória total!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">VO: Empress Carminia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PROME_END_GAME</Data></Cell>
+    <Cell><Data ss:Type="String">VICTORY_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Das cinzas dos fogos prometeicos surge um vencedor, [br/] e um novo começo para este mundo. [br/] Não seja consumido pela corrupção, [br/] ou a próxima pira pode ser a sua.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THERMAL_PLATING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Blindagem Térmica Resistente</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">THERMAL_PLATING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade possui uma armadura térmica especialmente projetada que concede +{ThermalResistance} de resistência e imunidade contra Riscos Térmicos e Efeitos de Status.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFERNO_PLATING</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Blindagem Térmica Resistente</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFERNO_PLATING</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade possui uma armadura térmica especialmente projetada que concede +{InfernoThermalResistance} de resistência e imunidade contra Riscos Térmicos e Efeitos de Status.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PURIFICATION_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Purificador</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PURIFICATION_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Resgate</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PURIFICATION_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Médico</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PURIFICATION_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Consertador</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PURIFICATION_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Doutor</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PURIFICATION_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Acalmador</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZMAT_PROTECTION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Preparado</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZMAT_PROTECTION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Protegido</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZMAT_PROTECTION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Andarilho de Perigos</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZMAT_PROTECTION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Controlado</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZMAT_PROTECTION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Operador</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZMAT_PROTECTION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Eliminador</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXTERMINATION_TARGETING_RELAY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Exterminador</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXTERMINATION_TARGETING_RELAY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Contágio</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXTERMINATION_TARGETING_RELAY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Controle de Pragas</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXTERMINATION_TARGETING_RELAY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Horticultor</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXTERMINATION_TARGETING_RELAY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Caçador Botânico</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is now used for Backlash Projectors</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXTERMINATION_TARGETING_RELAY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Mira Assistida</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is now used for Backlash Projectors</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THERMAL_PROXIMITY_PROTECTION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Dançarino das Chamas</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is now used for Backlash Projectors</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THERMAL_PROXIMITY_PROTECTION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Arauto Escaldante</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is now used for Backlash Projectors</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THERMAL_PROXIMITY_PROTECTION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Sangue Quente</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is now used for Backlash Projectors</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">THERMAL_PROXIMITY_PROTECTION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Blindado Solar</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is now used for Backlash Projectors</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THERMAL_PROXIMITY_PROTECTION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Corredor de Magma</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">THERMAL_PROXIMITY_PROTECTION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Dispersor de Fogo</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPERHEATED_PLASMA_ACTUATORS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Fervoroso</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPERHEATED_PLASMA_ACTUATORS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Fervente</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPERHEATED_PLASMA_ACTUATORS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Imolador</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPERHEATED_PLASMA_ACTUATORS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Superaquecido</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPERHEATED_PLASMA_ACTUATORS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Ativado</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPERHEATED_PLASMA_ACTUATORS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Guerreiro de Plasma</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PYRX_ABSORPTION_PANELS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Pai do Fogo</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PYRX_ABSORPTION_PANELS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Absorvedor de Calor</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PYRX_ABSORPTION_PANELS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Incólume</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PYRX_ABSORPTION_PANELS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Dissipador de Calor</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PYRX_ABSORPTION_PANELS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Blindagem Ígnea</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PYRX_ABSORPTION_PANELS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Obsidiana</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHOENIX_BOMB_LAUNCHERS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Lançador de Chamas</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHOENIX_BOMB_LAUNCHERS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Carbonizado</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHOENIX_BOMB_LAUNCHERS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Trazedor de Chamas</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHOENIX_BOMB_LAUNCHERS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Rebanho de Chamas</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHOENIX_BOMB_LAUNCHERS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Camada Devastada</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PHOENIX_BOMB_LAUNCHERS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Destruidor de Planetas</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>57</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>66</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

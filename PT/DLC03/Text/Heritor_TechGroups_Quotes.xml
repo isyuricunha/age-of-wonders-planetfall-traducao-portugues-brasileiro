@@ -1,0 +1,456 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Joshua Crowder</LastAuthor>
+  <LastSaved>2019-09-30T10:26:17Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12197</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s67" ss:Parent="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#FF0000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="43" x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="51.857142857142854" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:Width="121.71428571428571"/>
+   <Column ss:StyleID="s63" ss:Width="198"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="252.85714285714286"/>
+   <Column ss:StyleID="s63" ss:Width="147.85714285714283"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="252.85714285714286"/>
+   <Column ss:StyleID="s63" ss:Width="120"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="252.85714285714286"/>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HERITOR_TECHGROUPS</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">OLD TEXT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HERITOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Herdeiro</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is the name of the secret tech, please translate consistently.</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HERITOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="mailto:%7BXML_HERITOR_TECHGROUPS@HERITOR@DESC%7D[br/%5d%5bbr/%5d%7BXML_HERITOR_TECHGROUPS@HERITOR@FEATURES%7D"><Data ss:Type="String">{XML_HERITOR_TECHGROUPS@HERITOR@DESC}[br/][br/]{XML_HERITOR_TECHGROUPS@HERITOR@FEATURES}</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">No need to translate. This inserts the XML_HERITOR_TECHGROUPS@HERITOR@DESC and XML_HERITOR_TECHGROUPS@HERITOR@FEATURES texts with some white space.</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HERITOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESC</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Os Herdeiros são descendentes de uma dinastia teocrática conhecida como os Es’Teq. Sua tecnologia ancestral permite que aproveitem energia e prolonguem suas vidas. Eles buscam reencarnar bilhões de seguidores que jazem sepultados pela galáxia e restabelecer seu domínio divino.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Desciption of the secret tech, as shown in character customization and the imperial archive.</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HERITOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">FEATURES</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">[bulletlist][bullet][sand]Unidade Inicial:[/sand] [hyperlink,0000038C00001D29]Sifonador[/hyperlink][/bullet][bullet]Drene a Essência dos inimigos e use-a para alimentar habilidades poderosas.[/bullet][br/][bullet]Empunhe armas de Entropia poderosas[/bullet][br/][bullet]Aproveite o poder da [hyperlink,000003E90000005A]Essência[/hyperlink][/bullet][br/][bullet]Reencarne mentes ancestrais dos Es’Teq.[/bullet][br/][bullet]Ataques fortes contra máquinas.[/bullet][/bulletlist]</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Bulletlist of the features of the secret tech.</Data></Cell>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_1_TACTICAL_NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dádiva dos Es’Teq</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_1_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Até mesmo o mais rudimentar dos Es’Teq mecaniza o toque de um amante. Pode-se Drenar Essência como a força de um amante apaixonado é sugada por momentos de flerte. Conceda Essência para fortalecer cobaias; elas se tornam como amantes que ignoram suas necessidades, cheias de paixão imprudente. Esta descoberta dos Herdeiros interfere nos próprios impulsos da vida.”[br/]– Dr. Richter Hart, Antropólogo Médico-Chefe</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_2_FORCES_NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Despertar do Sifonador</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_2_FORCES_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Seguimos ordens superiores — aquelas da própria vida. Não somos cruéis. Nossa missão é redentora. Sifonamos a vida daqueles que a desperdiçam, acelerando apenas o que ocorre naturalmente em sua heresia persistente. Sua essência alimenta uma missão divina, enriquecendo aqueles que prezam a vida. Incline-se diante de meu cajado. Se for digno, receberá vitalidade. Se não, sua vitalidade será liberada para servir ao propósito mais elevado.”[br/]– Congregado Mahrood Madur, Líder dos Sifonadores</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_2_STRATEGIC_NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Presença Sagrada</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_2_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Sinta a vida ao seu redor. Toda ela é sagrada. Sinta-a lutando para se agarrar às frágeis estruturas da carne. Cheia e brilhante em um fôlego, então desaparece no seguinte. Para onde vai? Embora. Não existe mais sem os Es’Teq. Nenhum espírito eterno sobrevive. Até agora, a morte era o fim. Nós a preservamos. Deixe-nos encher você com vitalidade de gerações perdidas. Este é o Benedito dos Es’Teq.”[br/]– Sheera Na Teev, Alta Senhora da Vida</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_3_TACTICAL_NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Convicção Zelosa</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="180">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_3_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Os primeiros Herdeiros doavam sua Essência livremente como demonstração de boa vontade. Eles curavam problemas incuráveis de maneira renovável, sacrificando sua própria Essência para realizar milagres. Infelizmente, a fé não se sustenta apenas com milagres e boa vontade. O problema de uma Era de Maravilhas é que, enquanto ela dura, poucos a valorizam. Alguns estavam insatisfeitos em viver de maneira simples e altruísta. Precisavam de um inimigo. Eles codificaram heresias e sequestraram o caminho dos Herdeiros. Os Altos Lordes não foram os criadores dos Es’Teq — foram seus ladrões excessivamente zelosos.”[br/]– Mah Reg’Nib, Herege Fugitivo</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_3_STRATEGIC_NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Ira dos Ancestrais</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_3_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“A fé encontra um caminho. Alguns se juntam a nós porque reconhecem a virtude e sentem nossa vitalidade. Outros se juntam pelas promessas de vida longa e um caminho melhor. Ainda assim, alguns fiéis se unem a nós quando os Ancestrais liberam sua ira sobre os hereges e amaldiçoam o mundo por sua perversidade. Eles vêm. Não importa como.”[br/]– Ma Tar Xan, Alta Sacerdotisa Herdeira da Colheita</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_3_DOCTRINE_NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Credo Ancestral</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_3_DOCTRINE_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Não chore pelos que partiram. As vidas que se entregaram à Arca não estão perdidas. Consigo sentir mil memórias perdidas tão claramente quanto você se lembra do rosto de sua mãe. Elas se entregaram para manter seus sonhos vivos em mim. Essa é sua imortalidade e legado ancestral. Não há máquina que possa reivindicar isso. Eles chamam de tecnologia para menosprezar a magnitude deste milagre dos Es’Teq.”[br/]– Set Koi Xant, Alto Lorde Guardião da Arca</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_4_TACTICAL_NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Rituais de Transmigração</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_4_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Eu te concedo o Sacerdócio Es’Teq com todos os seus direitos e privilégios inerentes à fé dos Herdeiros. Eu te consagro como campeão da vida, com a estrita incumbência de revitalizar os virtuosos entre nós. Tome essência apenas dos mais imprudentes e vis, mantendo firme a esperança de que os infiéis menores se arrependam e retornem a nós. Ao prezar este vibrante dom, saiba que mesmo na morte você ressurgirá reencarnado com a vida renovada.”[br/]– Sacer Dotan, Alto Lorde Consagrador</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_5_FORCES_NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Despertar da Arca da Quintessência</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_5_FORCES_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“A vida é um vórtice aprisionado fugazmente na carne por uma única existência. Sem o fragmento sagrado dos Es’Teq, estamos perdidos no caos. A Arca da Quintessência une os redemoinhos da vida a um santuário de luz. Como um dos líderes dos Herdeiros, eu guardo o acesso ao poço de vitalidade, distribuindo-o àqueles com Es’Teq. Sinta a doce Comunhão preservada neste templo itinerante. Este é o centro da devoção dos Herdeiros. Vida mantida em perpetuidade, nutrindo os devotos.”[br/]–Vascul Nephri Telis, Guardiã da Quintessência</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_5_STRATEGIC_NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Prelúdio ao Arrebatamento</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_5_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“O tempo de súplicas logo chegará ao fim. A escolha de se juntar à nossa causa e viver em vitalidade imortal será retirada. Será um dia grandioso e terrível. Grandioso para os leais, que serão preenchidos com essência, e terrível para os iníquos que negligenciaram suas vidas, preferindo a corrupção. Mentes desperdiçadas renascerão à sombra de nossos pináculos sagrados. Ergam-nos, então, por toda a terra. Tragam a Ruptura Mental.”[br/]– Alsanu Amu Tet, Oráculo da Essência</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_6_TACTICAL_NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Rituais de Disseminação</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_6_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Cuidado com os enganadores que vestem as peles de seguidores fiéis. Os convertidos não são atormentados pelo Banquete. Eles o abraçam. Não questionam o dom da Essência concedido a eles por Es’Teq. Eles se alimentam do conduto da vida avidamente, devorando hereges. Dúvidas azedam a disseminação, e os fiéis não hesitarão em drená-las também.”[br/]– Vallyx Bont, Herdeiro Inquisidor da Pureza</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_7_TACTICAL_NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Providência Sagrada</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_7_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Muitas casas do Syndicate, por incontáveis gerações, ocultaram nossos laços com os Heritors e sua Es’Teq, mas foram nossos progenitores que foram os primeiros Altos Lordes, convertendo milhares ao serviço fiel, caçando hereges e revitalizando as comunidades de congregados. Agora que os Heritors retornam, estamos prontos para aprimorar a tecnologia e usá-la para alcançar nossa agenda eterna. Somente nossas Casas estão prontas para subjugar a vida e provar que somos dignos da Imortalidade.”[br/]– Lady Em da Providência Sagrada</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_7_DOCTRINE_NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Ressurgimento Sagrado</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_7_DOCTRINE_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Suas armas intolerantes podem despedaçar nossa carne, mas nossa Essência permanecerá para alimentar os descendentes da profecia. Os ímpios não as compreendem, mas não seremos esquecidos para sempre. Nos esconderemos até que alguém seja considerado digno de despertar nossa Cidade Sagrada. Um dia, marcharemos com a Legião Divina. Embora nossas formas físicas habitem as profundezas, em um dia vindouro, nos reuniremos com nossos amados parentes.”[br/]– Cho Zen Huan, Vidente da Cidade Secreta</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_8_FORCES_NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Despertar do Alto Lorde</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_8_FORCES_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Nossos seres mais sagrados e preciosos permanecem ocultos atrás de um labirinto de sacrifícios. Esses deuses adormecidos são puros demais para pisar em nossos mundos caídos. Eles derrubarão todas as máquinas mortas, empunhando eras de Julgamento. Virão nos dias finais, cheios de ira e verdade para reviver os mortos e recompensar os fiéis. Quando os Altos Lordes forem despertados, o fim de nossa longa espera estará próximo.”[br/]– Alsanu Amu Tet, Oráculo da Essência</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_8_STRATEGIC_NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Conversão Forçada</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_8_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Quem somos nós para questionar o que desencadeia Es’Teq e ativa os grandes poderes que ela libera? Religião é tecnologia. Cultos são experimentos sociais científicos. Nunca haverá uma era sem religião, a menos que a mente humana seja privada de seu senso de admiração. Então, por que não abraçar o estranho e o desconhecido? Quem sabe? Talvez os deuses dos antigos fossem apenas viajantes tecnologicamente avançados nos apontando para as estrelas.”[br/]– Jax Armstrong, herói esportivo da Union e convertido Heritor</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_9_TACTICAL_NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Encarnação Venerada</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_9_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Ó, guias tolos e cegos! Mantenham-se firmes em sua fé mesmo enquanto recuam para as trevas. Este é apenas um revés temporário. Seus inimigos serão abatidos pela minha vingança. Embora selada atrás deste cofre e enterrada nas profundezas do tempo, eu ressurgirei. Mesmo agora, possuo suas mentes frágeis. Deem-me carne. Eu a preencherei com Essência. Lutarei por sua causa até que sejamos libertados desta prisão montanhosa e tenhamos rédea solta pela galáxia novamente.”[br/]– Annu Ix Ishta, Alta Senhora, Deusa no Exílio</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_10_STRATEGIC_NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Revelação Final</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is the name of a skill - i.e. something you research from the tech tree.</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SKILLGROUP_10_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Todos virão e se juntarão à Ruptura Mental. Ergam suas vozes, todos juntos. Cantem nosso coro de exultação. Entreguem sua vontade e alma fiel. Liberem todo o seu potencial. Sintam o abraço do retorno do Senhor Vivo. Vivam mil vidas passadas. Essência é uma fonte inesgotável. O tempo do julgamento acabou. Vocês viveram até este advento sagrado e, assim, provaram ser dignos aqui. A luta da vida acabou. Venham se juntar ao nosso alegre cortejo.”[br/]– Amun Bis Xhet, Alto Cantor Heritor da Ruptura</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">This is a skill description. I.e. a bit of flavor text about the unit that gives an insight into the lore of the game. This takes the form of a quote - from a book, diary, journal, etc - followed by the source. A lot of them try to get across some of the humor Triumph is known for.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="Default"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>130</Zoom>
+   <Selected/>
+   <TopRowVisible>1</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

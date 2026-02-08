@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Elliott Van Neste</Author>
+  <LastAuthor>Bas Staffhorst</LastAuthor>
+  <Created>2018-10-30T08:44:30Z</Created>
+  <LastSaved>2019-08-02T14:05:21Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9825</WindowHeight>
+  <WindowWidth>20850</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="111" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="285.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="244.5"/>
+   <Column ss:StyleID="s62" ss:Width="168.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="684.75"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="293.25"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="355.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STRUCTURES_STRATEGIC</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONCENTRATED_GRAVITY_FLUX</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fluxo de Gravidade Concentrado</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CONCENTRATED_GRAVITY_FLUX</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Gerador de Gravidade cria uma anomalia gravitacional concentrada ao redor da colônia, visando exércitos hostis para dificultar seu movimento.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CONCENTRATED_GRAVITY_FLUX</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Gerador de Gravidade cria uma anomalia gravitacional concentrada ao redor da colônia, visando exércitos hostis para dificultar seu movimento.[br/][br/][bulletList][bullet][abilityred]Inimigo[/abilityred] custo de movimento dentro do domínio da colônia é aumentado em {MovementCost} por hex no mapa mundial.[/bullet][bullet]Em combate:[/bullet][bulletList][bullet][abilityred]Unidades [/abilityred] inimigas dentro do domínio da colônia têm velocidade de movimento [abilityred]Lenta[/abilityred].[/bullet]</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">Slow movement speed means the unit has less move points and moves slower on the world map. A hex has a movepoint cost(movement cost), and a unit has a number of move points. A unit spends movepoints equivalent to a hex's movepoint cost to move unto that hex.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TARGETING_COMPUTING_SUPPORT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Suporte de Computação de Mira</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TARGETING_COMPUTING_SUPPORT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Conjunto de Mira fornece soluções de disparo em tempo real para as tropas que protegem a colônia, aumentando a precisão de suas armas.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TARGETING_COMPUTING_SUPPORT</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Matriz de Mira fornece soluções de tiro em tempo real para as tropas que guardam a colônia, aumentando a precisão de suas armas.[br/][br/][bulletList][bullet]O alcance de visão e sensores para unidades [abilityblue]aliadas[/abilityblue] dentro do domínio da colônia é aumentado em {sensorRange}.[/bullet][bullet][abilityblue]Unidades [/abilityblue]aliadas[/bullet] dentro do domínio da colônia ganham Detecção.[bullet][abilityblue]Habilidades de ataque à distância de unidades [/abilityblue]aliadas{accuracybuff} ganham {rangebuff} precisão e [/bullet] alcance em hexágonos.__PH18__</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCRAMBLER_EMISSIONS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Emissões do Operação Scrambler</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCRAMBLER_EMISSIONS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Operador Scrambler pulsa com emissões de sinais de interferência, tornando impossível realizar operações de forma eficaz.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCRAMBLER_EMISSIONS</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Operador Scrambler emite pulsos de sinais de interferência, tornando impossível realizar operações de forma eficaz.[br/][br/][bulletList][bullet]Não é possível realizar operações dentro deste domínio da colônia, tanto no mapa mundial quanto no combate tático por turnos.[/bullet]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PULSE_DEFENSE_WATCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Relógio de Defesa por Pulso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PULSE_DEFENSE_WATCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Torre de Defesa de Pulso designa uma zona de abate ao redor da colônia disparando pulsos eletromagnéticos em unidades mecânicas e cibernéticas inimigas para interrompê-las e danificá-las.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">PULSE_DEFENSE_WATCH</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Torre de Defesa de Pulso designa uma zona de eliminação ao redor da colônia disparando pulsos eletromagnéticos contra forças inimigas cibernéticas e mecânicas para interrompê-las e danificá-las.[br/][br/][bulletList][bullet]Em combate dentro deste domínio da colônia, a cada {turns}[turn/] turnos: [/bullet][bulletList][bullet]Todas as unidades [abilityred]inimigas[/abilityred] Mecânicas e Ciborgues sofrem {TCdamage} [damagewave/] de dano de Arco.[/bullet][bullet][abilityred]Unidades [/abilityred]inimigas{Stunchance} Mecânicas e Ciborgues têm [strengthwave/]% de chance de serem [abilityred]Atordoadas[/abilityred] por {Stunduration}.[/bullet]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mechanical and Cyborg are unit types, that determine whether or not some abilities and status effects can affect them. Stunned is a negative status effect that makes a unit unable to move or act.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AERIAL_DENIAL_PROTOCOL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Protocolo de Negação Aérea</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AERIAL_DENIAL_PROTOCOL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Sistema de Negação Aérea protege o espaço aéreo da colônia-alvo, mirando e hostilizando automaticamente unidades aéreas inimigas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">AERIAL_DENIAL_PROTOCOL</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Sistema de Negação Aérea protege o espaço aéreo da colônia-alvo, mirando e hostilizando automaticamente unidades aéreas inimigas. [br/][br/][bulletList][bullet]Em combate dentro do domínio da colônia, a cada {turns}[turn/] turno: [/bullet][bulletList][bullet]Uma unidade Voadora inimiga aleatória [abilityred][/abilityred] sofre {TCdamage} [damagephysical/]dano Cinético e o debuff Turbulência por {turnsTurbulence} turnos.[/bullet]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Turbulence is a negative status effect that affects flying units, making them less accurate with their attacks.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ORBITAL_DEFENSE_SCREEN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tela de Defesa Orbital</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ORBITAL_DEFENSE_SCREEN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">A Estação de Defesa Orbital fornece cobertura defensiva para a colônia, engajando automaticamente unidades hostis que estejam atacando tropas aliadas.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ORBITAL_DEFENSE_SCREEN</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Estação de Defesa Orbital fornece cobertura defensiva para a colônia, engajando automaticamente unidades hostis que estão atacando tropas amigas.[br/][br/][bulletList][bullet]Em combate dentro do domínio da colônia, a cada {turns}[turn/] turnos: [/bullet][bulletList][bullet]{units} [abilityred]inimigas[/abilityred] aleatórias sofrem {TCdamage} [damagephysical/]dano Cinético.[/bullet][bullet]Unidades não resistentes ficarão [abilityred]Atordoadas[/abilityred].[/bullet]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Stagger is a negative effect that can be applied to enemy units that means they are less effective.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHROUD_PROJECTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Projeção do Véu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SHROUD_PROJECTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Gerador de Névoa projeta um imenso manto de névoa artificial absorvedora de luz que prejudica os sentidos visuais do inimigo e oculta as forças aliadas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SHROUD_PROJECTION</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Gerador de Névoa projeta um manto gigante de névoa artificial absorvente de luz que prejudica os sentidos visuais do inimigo e oculta as forças aliadas.[br/][br/][bulletList][bullet]Todas as unidades [abilityred]inimigas[/abilityred] dentro do domínio da colônia têm alcance de {VisionRange} visão enquanto estiverem neste setor.[/bullet][bullet]Em combate dentro do domínio da colônia:[/bullet][bulletList][bullet]Unidades inimigas sem Detecção têm o alcance máximo de todas as suas habilidades reduzido para {WeaponRangeTC} hexes.[bullet/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Vision range is how far a unit can see on the world map. It gets reduced in sectors affected by this operation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">IMPERIAL_DEFENSE_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">CASTING_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Enquanto esta operação for mantida, este domínio da colônia estará sob a proteção do efeito de defesa imperial!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sustaining refers to the operation being applied as long as upkeep costs are being paid, or until the operation gets cancelled.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:Span="7"/>
+   <Row ss:Index="45" ss:AutoFitHeight="0" ss:Height="90" ss:Span="3"/>
+   <Row ss:Index="53" ss:AutoFitHeight="0" ss:Height="75"/>
+   <Row ss:Index="55" ss:AutoFitHeight="0" ss:Height="90"/>
+   <Row ss:Index="57" ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:Index="59" ss:AutoFitHeight="0" ss:Height="75" ss:Span="1"/>
+   <Row ss:Index="69" ss:AutoFitHeight="0" ss:Height="60"/>
+   <Row ss:Index="72" ss:AutoFitHeight="0" ss:Height="90"/>
+   <Row ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:Index="79" ss:AutoFitHeight="0" ss:Height="60"/>
+   <Row ss:AutoFitHeight="0" ss:Height="45" ss:Span="2"/>
+   <Row ss:Index="90" ss:AutoFitHeight="0" ss:Height="75" ss:Span="1"/>
+   <Row ss:Index="96" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="6"><Data ss:Type="String">Edit: Soulblaze --&gt; Soulburn</Data></Cell>
+   </Row>
+   <Row ss:Index="99" ss:AutoFitHeight="0" ss:Height="90"/>
+   <Row ss:Index="102" ss:AutoFitHeight="0" ss:Height="60"/>
+   <Row ss:Index="105" ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:Index="108" ss:AutoFitHeight="0" ss:Height="45"/>
+   <Row ss:Index="111" ss:AutoFitHeight="0" ss:Height="105"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>7</TopRowVisible>
+   <LeftColumnVisible>1</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>11</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

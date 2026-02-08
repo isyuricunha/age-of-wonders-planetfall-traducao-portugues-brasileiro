@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2019-01-29T16:00:31Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15940</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="16" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="121.5"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Column ss:StyleID="s62" ss:Width="254.5"/>
+   <Column ss:StyleID="s62" ss:Width="148"/>
+   <Column ss:StyleID="s62" ss:Width="211.5"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">ASSEMBLY_HERO_SKILLS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:Index="5"><Data ss:Type="String">Text between {} should NOT be localized as they are numerical values in-game. Text between [] should NOT be localized as they are either icons or text formatting
+
+EXAMPLE: "Hero gains {PersonaAccDmg} increased damage and accuracy " looks in-game like "Hero gains +5 increased damage and accuracy"</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSEMBLY_SKILL_GROUP</Data></Cell>
+    <Cell><Data ss:Type="String">SKILL_SUBTITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Habilidade de Herói da Assembly</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill tree header.
+Assembly is an-game race.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BATTLEFIELD_REPAIRS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reparos em Campo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">BATTLEFIELD_REPAIRS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sendo um especialista em reparos, o herói cura cada unidade Ciborgue e Mecânica no exército em {BattlefieldHeal} após cada batalha.[br/]Só funciona quando o herói é o comandante do exército.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.
+Cyborg and Mechanical are in-game unit types. 
+Commander in this context means the leader of an army, NOT the player character</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BATTLEFIELD_REPAIRS</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cura em {BattlefieldHeal} após cada batalha.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit buff description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CYBERNETIC_OVERDRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sobrecarga Cibernética</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CYBERNETIC_OVERDRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade Ciborgue ou Mecânica aliada alvo tem todos os seus pontos de ação recarregados. [br/]Não funciona em unidades incapazes de se mover e realizar ações.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Action points are in-game points spent on actions.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NANITE_BOOSTERS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Impulsionadores de Nanitos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">NANITE_BOOSTERS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Impulsionadores avançados de nanitos fornecem a todas as unidades do exército +{NaniteResistance} de resistência a todos os efeitos de status.[br/]Só funciona quando o herói é o comandante do exército.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.
+Commander in this context means the leader of an army, NOT the player character</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">NANITE_BOOSTERS</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os impulsionadores de nanitos do herói concedem a esta unidade +{NaniteResistance} de resistência a todos os efeitos de status.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Unit buff description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STUNNING_DISCHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Descarga Atordoante</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STUNNING_DISCHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O herói possui um módulo de descarga integrado. Quando ativado, causa dano a todas as unidades amigas e inimigas adjacentes.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STABILIZERS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Estabilizadores</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STABILIZERS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Estabilizadores avançados concedem ao herói um nível de [abilityblue]Resistência a Atordoamento.[/abilityblue]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Skill description.
+Stagger resistance is in-game unit stat.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

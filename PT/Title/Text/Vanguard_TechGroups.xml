@@ -1,0 +1,490 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Tom Bird</LastAuthor>
+  <LastSaved>2020-08-27T11:33:16Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12789</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="67" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="230.57142857142858" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="199.71428571428572"/>
+   <Column ss:StyleID="s62" ss:Width="156"/>
+   <Column ss:Index="4" ss:StyleID="s62" ss:Width="147.85714285714283"/>
+   <Column ss:StyleID="s62" ss:Width="228.85714285714283"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">EXPEDITIONAIRYWARFARE_TECHGROUPS</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">VANGUARD_SKILLS</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">GROUP_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Vanguard</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NANITE_SUPPORT_STATION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Estação de Suporte de Nanitos</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NANITE_SUPPORT_STATION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Lança uma Estação de Suporte de Nanitos no campo de batalha. A Estação de Suporte de Nanitos possui um campo de distorção integrado que concede [abilityblue]Obscurecido[/abilityblue] a todas as unidades adjacentes. Além disso, a estação cura todas as unidades amigas adjacentes {MedicalHealAmount} no início de cada turno. A Estação de Suporte de Nanitos pode ser destruída.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NANITE_SUPPORT_STATION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Envia nanitos de suporte para curar unidades adjacentes em {NaniteSupportHeal} no início de cada um de seus turnos.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DEPLOY_AUTOTURRETS</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Torre Lançadora Pesada</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DEPLOY_AUTOTURRETS</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Implanta uma Torre Lançadora Pesada em combate. [br/][br/]A torre causa{TurretDamage} [damagephysical/] de dano em área de efeito e permanece até o fim do combate.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">INFERNO_DROP_POD</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Implantar Valquíria</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">INFERNO_DROP_POD</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Uma cápsula de lançamento orbital pousa no local alvo, causando {damage} de dano com [abilityred]Alto Impacto[/abilityred] em unidades em uma área de efeito de 1 hex de raio ao redor do ponto de impacto. A cápsula se desdobra em cobertura. A cápsula contém uma unidade Valquíria que permanece até o fim do combate.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DIRECT_COMMAND</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Comando Direto</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DIRECT_COMMAND</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Todas as unidades amigas não-inconscientes ganham {moraleBonus}[happiness/], têm um aumento de {DamageIncrease}% no dano e ganham um nível de [abilityblue]Resistência a Atordoamento[/abilityblue] por {duration}[turn/]</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DIRECT_COMMAND</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">INSPIRED_EFFECT_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Sob Comando Direto</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DIRECT_COMMAND</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">INSPIRED_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">A unidade tem +{moraleBonus}, +{DamageIncrease}% de dano e um nível aumentado de [abilityblue]Resistência a Atordoamento[/abilityblue].</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">COMBAT_ASSIST_SYSTEM</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Sistema de Assistência em Combate</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">COMBAT_ASSIST_SYSTEM</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Envia um drone CAS para auxiliar a unidade alvo. O drone remove quaisquer efeitos de status negativos e fornece {CombatShields} enquanto estiver ativo, por até {CombatDuration}.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">COMBAT_ASSIST_SYSTEM</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">A unidade tem temporariamente +{CombatShields} de escudos devido à operação do drone CAS.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Index="23" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMERGENCY_RECON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reconhecimento de Emergência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EMERGENCY_RECON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Implanta uma CORUJA das reservas da colônia para fornecer reconhecimento de emergência.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EMERGENCY_RECON</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Uma CORUJA foi implantada das reservas da colônia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SECURITY_DRONES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Drones de Segurança</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SECURITY_DRONES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Drones de segurança estão ativos no domínio da colônia. Quando exércitos amigos lutam nesse domínio, {AmountUnitsSpawned} drones os auxiliarão em combate.[br/]Os drones desaparecem ao fim do combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SECURITY_DRONES</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Drones foram implantados para auxiliar na defesa deste território.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BUNKER_BUSTER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Destruidor de Bunkers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">BUNKER_BUSTER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Direcione uma colônia ou exército inimigo com uma bomba Destruidor de Bunkers. Se uma colônia for afetada, ela destrói um edifício de Infraestrutura Militar ou Torre de Defesa, se houver algum, e se um exército for afetado, causa {KineticDamage} de dano a todas as unidades nesse hexágono.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BUNKER_BUSTER</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Nós lançamos com sucesso um Destruidor de Bunkers em um alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BUNKER_BUSTER</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">O Destruidor de Bunkers errou o alvo, tornando-o inútil.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BUNKER_BUSTER</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos inimigos nos miraram com um Destruidor de Bunkers!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BUNKER_BUSTER</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos inimigos tentaram nos mirar com um Destruidor de Bunkers, mas ele caiu fora do alvo. Isso ainda preocupou nossos cidadãos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ORBITAL_LASER_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Canhão Laser Orbital</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ORBITAL_LASER_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Causa dano igual a {damage} do [hp/] do exército alvo. Se um centro de colônia for mirado, matará {ColonistsKilled} colonos e reduzirá a felicidade da colônia em {HappinessIncome} por {TurnDuration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ORBITAL_LASER_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">O Canhão Laser Orbital infligiu danos pesados em seu alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ORBITAL_LASER_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">O Canhão Laser Orbital apenas danificou parcialmente o alvo. Eles se mostraram resilientes diante de seu poder e seu espírito permanece inabalado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ORBITAL_LASER_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Seu exército foi mirado por um Canhão Laser Orbital e sofreu danos pesados.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ORBITAL_LASER_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Seu exército foi mirado por um Canhão Laser Orbital, mas suas tropas conseguiram evitar o pior.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ORBITAL_LASER_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_STRING</Data></Cell>
+    <Cell><Data ss:Type="String">Reduz a felicidade em {HappinessLowered} por {TurnDuration}</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ORBITAL_LASER_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_STRING_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">O exército sofreu {Damage} de dano.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="35.464285714285715">
+    <Cell><Data ss:Type="String">ORBITAL_LASER_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">FAILURE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Em caso de falha, o exército alvo sofre {Damage} de dano</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPPLY_DROP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Suprimento Aéreo</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SUPPLY_DROP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um exército aliado é reabastecido por drones de suporte da Vanguard, curando-os até o [hp/] completo e aumentando seu dano em {DamageIncrease} até o fim do próximo combate.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SUPPLY_DROP</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Seu exército foi reabastecido. Seu vigor foi renovado e eles estão prontos para a ação!</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPPLY_DROP</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reabastecido</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SUPPLY_DROP</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade causa {DamageBonus} de dano aumentado até o fim do combate.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPPLY_DROP</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_STRING_HEAL</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades afetadas têm [hp/] completo</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SUPPLY_DROP</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_STRING_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades afetadas causam {DamageIncrease} de dano aumentado até o fim do seu próximo combate.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FRONTIER_SURVIVAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sobrevivência na Fronteira</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">FRONTIER_SURVIVAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Desde que a Vanguard foi enviada para mundos remotos, seus membros foram treinados para se sustentar enquanto novos suprimentos estavam a caminho. Como resultado, os militares ajudam a manter e controlar o consumo de alimentos em nossa colônia.[br/][br/]{FoodIncome} em suas colônias.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONY_MILITA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Milícia Colonial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="189">
+    <Cell><Data ss:Type="String">COLONY_MILITA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A população está armada e pronta. Recrutar tropas diretamente de nossa milícia colonial reduz o tempo de treinamento, permitindo que levemos tropas ao campo de batalha mais rapidamente.[br/][br/]O custo de produção de todas as unidades é reduzido em {ProductionCost1} em suas colônias. Além disso, o custo de produção é reduzido em mais {ProductionCost2} para cada infraestrutura militar ou construção de defesa em sua colônia.[br/][br/][firecol]Os custos das unidades nunca podem ser reduzidos em mais de 75%.[/firecol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">COLONY_MILITA</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">{productionBonus}[production/] de custo para todas as unidades, mais {extraBonus} por quartel ou construção de defesa.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTEGRATED_SUPPORT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Suporte Integrado Global</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">INTEGRATED_SUPPORT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Expanda nossa rede de operações em nível global para resposta e implantação rápidas.[br/][br/]Você pode lançar Operações Táticas a partir do primeiro turno de combate e ganha {NumTacticalPoints}[castingtactical/] e {NumStrategicPoints}[casting/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEARTS_AND_MINDS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Corações e Mentes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">HEARTS_AND_MINDS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Podemos pacificar populações mais rapidamente usando nosso carisma e liderança naturais.[br/][br/]+{InfluenceIncome} obtido ao completar Missões. Além disso, absorver colônias é {AbsorbtionSpeed} mais rápido.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HEARTS_AND_MINDS</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{InfluenceIncome} de Influência por completar missões.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIG_STICK_DIPLOMACY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Diplomacia do Grande Porrete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="124.5">
+    <Cell><Data ss:Type="String">BIG_STICK_DIPLOMACY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Podemos usar ameaças militares para trazer a paz.[br/][br/]Iniciar uma guerra não gera mais penalidades de reputação, e outros jogadores não receberão mais um [casusBelli/] contra nós quando tivermos reputação negativa.[br/]Além disso, ganhamos {reputation}[reputation6/] de reputação e {popularSupport} de Apoio Popular enquanto esta doutrina estiver ativa.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLANETARY_CONQUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Conquista Planetária</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PLANETARY_CONQUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Proclamar nosso sucesso militar convence a população de que somos invencíveis, com a vitória final se aproximando no horizonte.[br/][br/]Você tem {PopularSupportIncrease} adicional de Apoio Popular enquanto esta Doutrina estiver ativa.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHOCK_AND_AWE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Choque e Pavor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="130.28571428571428">
+    <Cell><Data ss:Type="String">SHOCK_AND_AWE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Reenfoque nossa doutrina militar para mover armas explosivas de um papel secundário para um primário.[br/][br/]Todos os ataques explosivos contra suas unidades ganham {AccuracyBonus} de precisão, {DamageBonus} de dano e um nível extra de [abilityred]Impacto Atordoante[/abilityred].[br/][br/]Ataques com granadas também ganham {RangeBonus} de alcance.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>60</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>70</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

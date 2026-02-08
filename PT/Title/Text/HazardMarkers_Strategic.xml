@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Benny Arents</LastAuthor>
+  <LastSaved>2019-03-13T13:21:06Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17235</WindowHeight>
+  <WindowWidth>-27136</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0000FF" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65" ss:Parent="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="56" x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="14.4375">
+   <Column ss:StyleID="s63" ss:Width="221.25"/>
+   <Column ss:StyleID="s63" ss:Width="168.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="362.25"/>
+   <Column ss:StyleID="s63" ss:Width="147.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="228"/>
+   <Column ss:StyleID="s63" ss:Width="120"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="362.25"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="358.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="86.4375">
+    <Cell><Data ss:Type="String">HAZARDMARKERS_STRATEGIC</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_GEOTHERMAL_CRACK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Instabilidade Geotérmica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_GEOTHERMAL_CRACK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este setor é geotermicamente instável, fazendo com que fogo e calor vazem para a superfície. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="171">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_GEOTHERMAL_CRACK</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[bulletList][bullet]Anexar este setor penaliza a colônia com [abilityred]{Happiness}[/abilityred][/bullet][bullet]Anexar este setor faz com que uma colônia gere [abilityred]-20%[/abilityred][production/][/bullet][bullet]Unidades neste setor perdem sua [hp/] [abilityred]Regeneração[/abilityred] no Mapa Estratégico.[/bullet][bullet]Unidades neste setor sofrem [abilityred]{ResistanceReduction}[/abilityred] de resistência.[/bullet][bullet]A cada {turns} turnos de combate:[/bullet][bulletList][bullet]Todas as unidades recebem {TCdamage} de dano com uma chance de força {Burnchance} de causar [abilityred]Queimando[/abilityred] em unidades não Etéreas e não Minerais por {BurningDuration}[turn/].[/bullet][/bulletList][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Annexing a sector means attaching the sector to your colony sector.All units have 'Regeneration'  on the world map, which is how much life they get every turn. Ethereal and Mineral are unit types, meaing a ghostlike or rocklike creature, respectively.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="65.25">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_GEOTHERMAL_CRACK</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A cada {turns}[turn/], o campo de batalha é tomado por calor geotérmico, causando {Tcdamage} de dano a todas as unidades, com uma chance de força {Burnchance} de causar [abilityred]Queimando[/abilityred] em unidades não Etéreas e não Minerais por {BurningDuration}[turn/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ethereal and Mineral are unit types, meaing a ghostlike or rocklike creature, respectively.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_GEOTHERMAL_CRACK</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é afetada pela Instabilidade Geotérmica neste setor, anulando a [hp/] regeneração recebida a cada turno estratégico.[br/]Unidade sofre [abilityred]{Resistancereduction}[/abilityred] de resistência.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">All units have a resistance against damage and status effects.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_GEOTHERMAL_CRACK</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_INCOME</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][production/]</Data></Cell>
+   </Row>
+   <Row ss:Index="10" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_ARC_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tempestade de Íons</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_ARC_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este setor está sob o efeito de uma Tempestade de Íons, fazendo com que raios de Arco surjam pelo ar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="152.25">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_ARC_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[bulletList][bullet]Anexar este setor penaliza a colônia com [abilityred]{Happiness}[/abilityred][/bullet][bullet]Anexar este setor faz com que uma colônia gere [abilityred]-20%[/abilityred][energy/][/bullet][bullet]Unidades neste setor perdem sua [hp/] [abilityred]Regeneração[/abilityred] no Mapa Estratégico.[/bullet][bullet]Unidades neste setor sofrem [abilityred]{ResistanceReduction}[/abilityred] de resistência.[/bullet][bullet]A cada {turns} turnos de combate:[/bullet][bulletList][bullet]{TargetNumber} unidades aleatórias recebem {TCdamage} de dano com uma chance de força {Electrifiedchance} de aplicar [abilityred]Eletrizado[/abilityred] em unidades não Etéreas por {ElectrifiedDuration}[turn/][/bullet][/bulletList][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Happiness is a value in your colonies, that deals with how happy the population in your colony is. </Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_ARC_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A cada {turns}[turn/], {TargetNumber} unidades aleatórias são atingidas por raios de Arco, causando {BoltDamage}[damagewave/] com uma chance de força {ElectrifiedStrength} de causar [abilityred]Eletrizado[/abilityred] em unidades não Etéreas por {ElectrifiedDuration}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_ARC_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é afetada pela Tempestade de Íons neste setor, anulando a [hp/] regeneração recebida por turno estratégico.[br/]Unidade sofre [abilityred]{Resistancereduction}[/abilityred] de resistência.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_ARC_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_INCOME</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][energy/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Nuvem de Esporos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este setor está afetado por uma Nuvem de Esporos, um perigo bioquímico perigoso para a maioria das formas de vida convencionais. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="152.25">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[bulletList][bullet]Anexar este setor penaliza a colônia com [abilityred]{Happiness}[/abilityred][/bullet][bullet]Anexar este setor faz com que uma colônia gere [abilityred]-20%[/abilityred][food/][/bullet][bullet]Unidades não Xenopraga neste setor perdem sua [hp/] [abilityred]Regeneração[/abilityred] no Mapa Estratégico.[/bullet][bullet]Unidades não Xenopraga neste setor sofrem [abilityred]{ResistanceReduction}[/abilityred] de resistência.[/bullet][bullet]A cada turno de combate:[/bullet][bulletList][bullet]Unidades Biológicas e Ciborgues não Xenopraga têm uma chance de força {PoisonStrength} de serem [abilityred]Envenenadas[/abilityred] por {PoisonDuration}[/bullet][/bulletList][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Xenoplague is one of the secret technologies of the game. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A cada turno, todas as unidades Biológicas e Ciborgues não Xenopraga têm uma chance de força {Poisonchance} de serem [abilityred]Envenenadas[/abilityred] por {PoisonDuration}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é afetada pela Nuvem de Esporos neste setor, anulando a [hp/] regeneração recebida por turno estratégico.[br/]Unidade sofre [abilityred]{Resistancereduction}[/abilityred] de resistência.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_SPORE_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_INCOME</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][food/]</Data></Cell>
+   </Row>
+   <Row ss:Index="23" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Precipitação Nuclear</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este setor está afetado pela Precipitação Nuclear de uma detonação passada. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="111.75">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[bulletList][bullet]Anexar este setor penaliza a colônia com [abilityred]{Happiness}[/abilityred][/bullet][bullet]Anexar este setor faz com que a colônia gere [abilityred]-20%[/abilityred][food/][/bullet][bullet]Unidades neste setor perdem sua [hp/] [abilityred]Regeneração[/abilityred] no Mapa Estratégico.[/bullet][bullet]Unidades neste setor sofrem [abilityred]{ResistanceReduction}[/abilityred] em todas as resistências a dano.[/bullet]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades sofrem [abilityred]{ResistanceReduction}[/abilityred] em todas as resistências.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é afetada pela Precipitação Nuclear neste setor, anulando a [hp/] regeneração recebida por turno estratégico.[br/]A unidade sofre {resistances} em todas as resistências.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_NUCLEAR_IMPACT_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_INCOME</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][food/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fenda Abissal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este setor contém uma fenda para o Abismo, pela qual sua influência malévola se infiltra neste mundo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="146.25">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[bulletList][bullet]Anexar este setor penaliza a colônia com [abilityred]{Happiness}[/abilityred][/bullet][bullet]Anexar este setor faz com que a colônia gere [abilityred]-20%[/abilityred][production/][/bullet][bullet]Unidades neste setor perdem sua [hp/] [abilityred]Regeneração[/abilityred] no Mapa Estratégico.[/bullet][bullet]O alcance de visão e escaneamento de unidades Não-Psinumbra é reduzido em {SightRangeReduction}[/bullet][bullet]Unidades Não-Mente e não-Psinumbra sofrem {MoraleDebuff}[/bullet][bullet]Saqueadores Psinumbra surgem aqui para atacar seus arredores.[/bullet]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Psynumbra is one of the secret technologies of the game. Vision and scanning range deal with how far a unit can see or detect units on the world map, respectively. Mindless units are units without a mind, so simple drones and robots etc. Marauders are units on the world map that cannot be engaged in diplomacy, and attack everything they see in sight.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades Não-Mente e não-Psinumbra sofrem {MoraleReduction}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é afetada pela Fenda Abissal neste setor, anulando a [hp/] regeneração recebida por turno estratégico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_02_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ofuscação Abissal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_02_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é afetada pela Fenda Abissal neste setor, fazendo com que seu alcance de visão e escaneamento seja reduzido em {SightRangeReduction}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_03_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Enfraquecimento Abissal de Moral</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_03_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é afetada pela Fenda Abissal neste setor, sofrendo {MoraleDebuff}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_TEAR_INTO_THE_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_INCOME</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][production/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_VOID_BOMB_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tempestade do Vazio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="50.25">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_VOID_BOMB_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este setor é Dimensionalmente Instável, fazendo com que a realidade nesta seção do espaço fique distorcida.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dimensionally unstable is in refering to alternate dimensions that are interfering with the current dimension (reality) of the sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="123">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_VOID_BOMB_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[bulletList][bullet]Anexar este setor penaliza a colônia com [abilityred]{Happiness}[/abilityred][/bullet][bullet]Anexar este setor faz com que a colônia gere [abilityred]-20%[/abilityred][energy/][/bullet][bullet]Unidades neste setor perdem sua [hp/] [abilityred]Regeneração[/abilityred] no Mapa Estratégico.[/bullet][bullet]A cada turno de combate:[/bullet][bulletList][bullet]Unidades não-Voidtech têm uma chance de força {Instabilitychance} de receber [abilityred]Instabilidade Dimensional[/abilityred][/bullet]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Voidtech is one of the secret technologies of the game. Dimensional Instability is a status effect that</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_VOID_BOMB_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A cada turno, unidades não-Voidtech têm uma chance de força {DimensionalInstabilityStrength} de receber [abilityred]Instabilidade Dimensional[abilityred/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_VOID_BOMB_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é afetada pela Tempestade do Vazio neste setor, anulando a [hp/] regeneração recebida por turno estratégico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_VOID_BOMB_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_INCOME</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][energy/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_CELESTIAN_METEOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Véu da Tranquilidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_CELESTIAN_METEOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este setor está sob o Véu da Tranquilidade, concedendo refúgio aos fiéis e danação aos acusados.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="128.25">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_CELESTIAN_METEOR</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[bulletList][bullet]Anexar este setor concede {Happiness} à colônia.[/bullet][bullet]Anexar este setor faz com que uma colônia gere [abilityred]-20%[/abilityred][research/][/bullet][bullet]Unidades não mecânicas e não Psynumbra recuperam {WorldmapRecoveryBonus} adicional por turno estratégico.[/bullet][bullet]A cada turno de combate:[/bullet][bulletList][bullet][abilityblue]Unidades [/abilityblue]Iluminadas{EnlightenedHeal} são curadas em [/bullet][bullet]Unidades afetadas por [abilityred]Queimadura da Alma[/abilityred] sofrem {SoulblazeDamage} de dano.[/bullet]</Data></Cell>
+    <Cell><Data ss:Type="String">Edição: --&gt; Soulfire para Queimadura da Alma</Data></Cell>
+    <Cell><Data ss:Type="String">Celestian is one of the secret technologies of the game. Enlightened is a celestian status effect that speaks to their soul being enlighted with starlight, washing their soul in truth. Soulburn is a debuff applied to enemy units, that sets their soul on fire, dealing damage and debuffing them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_CELESTIAN_METEOR</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A cada turno, unidades [abilityblue]Iluminadas[/abilityblue] são curadas em {EnlightenedHeal}, e unidades [abilityred]Alma em Chamas[/abilityred] sofrem {SoulblazeDamage} de dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.6875">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_CELESTIAN_METEOR</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é afetada pelo Véu da Tranquilidade neste setor, recebendo um adicional de {Hpregen} por turno estratégico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_CELESTIAN_METEOR</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_INCOME</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][research/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vazamento de Óleo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Há um vazamento de óleo contaminando este setor.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[bulletList][bullet]Anexar este setor penaliza a colônia com [abilityred]{Happiness}[/abilityred][/bullet][bullet]Anexar este setor faz com que uma colônia gere [abilityred]-20%[/abilityred][energy/] e [supply/][/bullet][bullet]Unidades neste setor perdem sua [hp/] [abilityred]Regeneração[/abilityred] no Mapa Estratégico.[/bullet][bullet]Unidades neste setor sofrem [abilityred]-{OilResistanceReduction}[/abilityred] de resistência a [DamageThermal/].[/bullet][bullet]A cada Turno de Combate:[/bullet][bulletList][bullet]Unidades não voadoras têm {OilSlowChance}[DamagePhysical/] de chance de ficarem [abilityred]Lentas[/abilityred] por {OilSlowDuration}.[/bullet]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.3125">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A cada turno, unidades têm {OilSlowChance} de chance de ficarem [abilityred]Lentas[/abilityred] por {OilSlowDuration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é afetada pelo Vazamento de Óleo neste setor, anulando a [hp/] regeneração recebida por turno estratégico e tendo [abilityred]-{OilResistanceReduction}[/abilityred] de resistência a [DamageThermal/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell><Data ss:Type="String">HAZARD_SOURCE_OIL_SPILL</Data></Cell>
+    <Cell><Data ss:Type="String">SCREEN_INCOME</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]-20%[/abilityred][energy/]</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>47</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>52</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

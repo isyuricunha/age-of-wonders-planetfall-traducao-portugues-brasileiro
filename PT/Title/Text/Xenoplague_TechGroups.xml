@@ -1,0 +1,1174 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Luis Ferreira</LastAuthor>
+  <LastSaved>2019-11-19T12:06:51Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7308</WindowHeight>
+  <WindowWidth>23040</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="224" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.6" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="238.8"/>
+   <Column ss:StyleID="s62" ss:Width="181.79999999999998"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="333.6"/>
+   <Column ss:StyleID="s62" ss:Width="147.6"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="209.39999999999998"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="333.6"/>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">XENOPLAGUE_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENOPLAGUE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Xenopraga</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENO_GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Treinamento de Preparação de Biomassa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">XENO_GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Treine seus comandantes em como os corpos de inimigos derrotados podem ser otimizados para uso pelo vírus Xenopraga.[br/][br/]A chance de unidades Xenopraga surgirem ou evoluírem aumenta em {PlagueInfectionChance} para cada herói que você tiver em batalha.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENO_GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Coleta de Biomassa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">XENO_GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A ciência Xenopraga permite a coleta de biomassa para fins regenerativos.[br/][br/]Após cada batalha vitoriosa, unidades em exércitos Xenopraga se curam em {Healing}[hp/] por unidade Biológica ou Ciborgue morta.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENO_GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pesquisa de Mutação Orgânica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">XENO_GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao liberar um vírus hiperinteligente em nossa população, podemos impulsionar o progresso científico. A longo prazo, isso nos ajudará a avançar no desenvolvimento da cepa Ômega.[br/][br/]{ResearchIncome}[research/] em suas colônias.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENO_GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Infecção Forçada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">XENO_GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_4_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Para promover nossa causa, exigiremos que todas as nossas tropas sejam infectadas com a cepa Xeno. Esta é uma infecção única da cepa Xeno e não enfraquecerá nossas tropas à medida que cresce dentro delas.[br/][br/]Perder unidades em batalha enquanto esta Doutrina estiver ativa contribuirá para o surgimento de Pústulas Xenopraga e a evolução de outras unidades Xenopraga ao final do combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENO_INFECTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Golpe Parasita</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">XENO_INFECTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade Biológica ou Ciborgue alvo sofre {ViralInfectionDamage} de dano e tem {ViralInfectionStrength} de chance de contrair uma [abilityred]Infecção Parasita[/abilityred]. O efeito salta até {ViralInfectionJumps} vezes para um alvo próximo dentro de {ViralInfectionRange} hexes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DROP_SPORE_POD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lançar Cápsula de Esporos</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Operation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DROP_SPORE_POD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lança uma cápsula de esporos no combate tático que explode ao atingir o solo. A cápsula causa {BioDamage} de dano em uma área de efeito de raio de {radius} hexes com [abilityred]Alto Impacto[/abilityred]. A cápsula de esporos deixa para trás uma unidade Pústula Inchada no hex de impacto. A unidade é destruída ao final do combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENO_RESTORATION_BEAM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Feixe de Restauração Xeno</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Operation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="82.199999999999989">
+    <Cell><Data ss:Type="String">XENO_RESTORATION_BEAM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade Xenopraga alvo é curada em {HyperMutationHeal} e todos os Efeitos de Status negativos são dissipados. O alvo também ganha {ResistanceAll} de resistência a todos os tipos de dano e [abilityblue]Resistência a Atordoamento[/abilityblue] aumentada por {BuffDuration}.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Fixed resistance typo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">XENO_RESTORATION_BEAM</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade tem {ResistanceAll} de resistência a todos os tipos de dano e [abilityblue]Resistência a Atordoamento[/abilityblue] aumentada.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENO_CONTAMINANT_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Golpe de Contaminante Xeno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">XENO_CONTAMINANT_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade Biológica ou Ciborgue não-Xenopraga alvo e {UnstableContaminationJumpMax} outras unidades dentro de {UnstableContaminationJumpRange} hexes sofrem {UnstableContaminationDamage}[damageBio/] e têm {UnstableContaminationChance} de chance de ganhar [abilityred]Infecção Parasita[/abilityred] e [abilityred]Contaminação Instável[/abilityred] até o final do combate, fazendo com que explodam ao morrer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENO_CONTAMINANT_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Contaminação Instável</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">XENO_CONTAMINANT_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">{UnstableContaminationStrength} de chance de aplicar [abilityred]Contaminação Instável[/abilityred] à unidade Biológica ou Ciborgue não-Xenopraga alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">XENO_CONTAMINANT_STRIKE</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade explodirá ao morrer, causando {UnstableContaminationDeathDamage} de dano com {UnstableContaminationDeathInfectResist} de chance de causar [abilityred]Infecção Parasitária[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AGGRAVATE_INFECTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Feixe de Hiperestimulação</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Operation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">AGGRAVATE_INFECTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Alveje uma unidade Xenopraga não-Mente e até {UnitAmount} unidades Xenopraga em até {HexRange} hexágonos para curar {HealAmount}[hp/] e torná-las [abilityblue]Enraivecidas[/abilityblue] por {duration}. Unidades Enraivecidas não estão mais sob seu controle e atacam automaticamente a unidade inimiga mais próxima. Além disso, a unidade causa {RabidDam} de dano extra, é imune a Efeitos de Status, ganha {RabidHP} de [hp/] máximo e [abilityblue]Movimento Rápido[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AGGRAVATE_INFECTION</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Enraivecida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AGGRAVATE_INFECTION</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade perdeu o controle e atacará o inimigo mais próximo. Ela causa {RabidDamage} de dano extra, tem {RabidHp} de [hp/] máximo, é imune a Efeitos de Status e tem [abilityblue]Movimento Rápido[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AGGRAVATE_INFECTION</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{Damage} de dano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMBUSH_LEAP</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Salto de Emboscada</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Unit Ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMBUSH_LEAP</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade salta {hex} hexágonos para frente. Ao alvejar uma unidade inimiga não-Pesada, causa dano e empurra a unidade para trás, tomando seu lugar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEROCIOUS_DETERMINATION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Determinação Feroz</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Unit Ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FEROCIOUS_DETERMINATION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é imune a efeitos negativos de Moral e não pode ser Controlada Mentalmente.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFECTIOUS_BITE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mordida Infecciosa</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Unit Ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFECTIOUS_BITE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Desfere uma mordida infecciosa.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BURST</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Explosão</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Unit Ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BURST</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A criatura se autodestrói, causando dano a todos os hexágonos adjacentes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNSTABLE_MEMBRANE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Membrana Instável</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Unit Ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">UNSTABLE_MEMBRANE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A criatura se autodestrói automaticamente ao morrer, causando dano a todos os hexágonos adjacentes, com {ParasiticInfectionChance} de chance de aplicar [abilityred]Infecção Parasitária[/abilityred] a unidades Biológicas e Ciborgues.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAVAGE_BITE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mordida Selvagem</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Unit Ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAVAGE_BITE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataca a unidade inimiga com presas afiadas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LACERATING_TENTACLES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tentáculos Lacerantes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LACERATING_TENTACLES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Golpeia a unidade inimiga alvo com tentáculos espinhosos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACIDIC_BILE_SPIT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cuspe de Bile Ácida</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Unit Ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACIDIC_BILE_SPIT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataque bioquímico à distância que derrete armaduras.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HYPER_EVOLVED_IMMUNE_SYSTEM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sistema Imunológico Hiper-evoluído</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Unit Ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HYPER_EVOLVED_IMMUNE_SYSTEM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade tem +{HyperEvolvedImmuneSystemResist} de resistência contra todos os Efeitos de Status não Psiónicos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VORACIOUS_HUNGER</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fome Voraz</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Unit Ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VORACIOUS_HUNGER</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cura {VoraciousHungerHP} ao matar unidades Biológicas ou Ciborgues.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SERRATED_SPIKES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Espinhos Serrilhados</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Unit Ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SERRATED_SPIKES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara espinhos serrilhados das pontas dos tentáculos, pingando um líquido infeccioso.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPERINFECTION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Superinfecção</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Unit Ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPERINFECTION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara um espinho infectado em um inimigo alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPERINFECTION</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hiperinfecção</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SUPERINFECTION</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{StunChance}[StrengthBio/] de chance de [abilityred]Atordoar[/abilityred] uma unidade Biológica ou Ciborgue por {Stuntime}. Se resistir, aplica [abilityred]Atordoamento[/abilityred] em vez disso.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REANIMATION_SPORES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Esporos de Reanimação</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Unit Ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">REANIMATION_SPORES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Reanima uma unidade Xenopraga morta aliada usando um feixe concentrado de esporos parasitas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REGENERATIVE_SPORE_CLOUD</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Nuvem de Esporos Regenerativos</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Unit Ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">REGENERATIVE_SPORE_CLOUD</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade e todas as unidades Biológicas e Ciborgues amigas adjacentes ganham [abilityblue]Regeneração[/abilityblue], curando {RegenerativeSporeCloudHP}[hp/] a cada turno em combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CULTIVATE_THE_SWARM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cultivar o Enxame</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Unit Ability</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CULTIVATE_THE_SWARM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as criaturas Xenopraga são curadas em {HealAmount} de seu [hp/] máximo ao final de cada batalha. Isso inclui unidades modificadas com certos mods Xenopraga.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENOPLAGUE_PARASITE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Parasita Xenopraga</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Mod</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">XENOPLAGUE_PARASITE</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade está infectada com uma cepa de Xenopraga e ganha [abilityblue]Sistema Imunológico Hiper-evoluído[/abilityblue], concedendo +{resistancehyperevo} de resistência a todos os Efeitos de Status não Psiónicos, e [abilityblue]Determinação Feroz[/abilityblue], tornando a unidade imune a efeitos negativos de moral e Controle Mental.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAGUE_PODS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cápsulas da Praga</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Mod</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PLAGUE_PODS</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Arremessa Cápsulas da Praga no alvo, causando dano Bioquímico em um raio de {hexrad} hexes. Unidades Xenopraga nessa área são curadas em {PlaguePodsHP}.</Data></Cell>
+   </Row>
+   <Row ss:Index="69" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIO-SPORES_PURIFICATION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Purificação Bioesporo</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Mod</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BIO-SPORES_PURIFICATION</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Injeta na unidade Biológica ou Ciborgue aliada uma mistura específica de esporos purificadores. O alvo é curado em {BioSporesPurificationHP} e todos os Efeitos de Status negativos são removidos.[br/][br/]Unidades Mecânicas com aprimoramentos Xenopraga também podem ser afetadas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARASITIC_HYBRID</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Híbrido Parasita</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Mod</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PARASITIC_HYBRID</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade ganha {ParasiticHybridHP}, {ParasiticHybridDef}, [abilityblue]Sistema Imunológico Hiper-evoluído[/abilityblue] e [abilityblue]Determinação Feroz[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIO-SPORES_HYPER_AGGRESSION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hiperagressão Bioesporo</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Mod</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">BIO-SPORES_HYPER_AGGRESSION</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Libera uma explosão de esporos da unidade, levando a unidade e todas as unidades Biológicas e Ciborgues amigas em {distance} hexes a [abilityblue]Hiperagressão[/abilityblue], aumentando seu dano em {HyperAggressionDamage} por {HyperAggressionTurns}.[br/][br/]Unidades Mecânicas com aprimoramentos Xenopraga também podem ser afetadas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HYPER_AGGRESSION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hiperagressão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HYPER_AGGRESSION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O dano da unidade é aumentado em {HyperAggressionDam}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HYPER_AGGRESSION</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{HyperAgressionDam} de dano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIO-SPORES_PROLIFERATION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Proliferação Bioesporo</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Mod</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BIO-SPORES_PROLIFERATION</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ressuscita uma unidade Biológica ou Ciborgue aliada. Se usada em um cadáver não Xenopraga, a unidade retornará como uma unidade Xenopraga.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARASITIC_SYMBIOSIS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Simbiose Parasita</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Mod</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">PARASITIC_SYMBIOSIS</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade é infectada com uma cepa forte de Xenopraga e ganha:[br/][abilityblue]Sistema Imunológico Hiper-evoluído[/abilityblue], concedendo +{resistancehyperevo} de resistência a todos os Efeitos de Status não Psiónicos.[br/][abilityblue]Determinação Feroz[/abilityblue], concedendo imunidade a efeitos negativos de Moral e Controle Mental.[br/][abilityblue]Regeneração[/abilityblue], concedendo {hpregen} de regeneração por turno de combate e recuperação total de [hp/] por turno no mapa-múndi.[br/][abilityblue]Nuvem de Esporos Regenerativos[/abilityblue], concedendo a todas as unidades Biológicas e Ciborgues adjacentes amigas [abilityblue]Regeneração[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENOGRAFTED_MUSCLES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Músculos Xenotransplantados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="107.25">
+    <Cell><Data ss:Type="String">XENOGRAFTED_MUSCLES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade se beneficia de músculos Xenopraga transplantados. Ataques corpo a corpo causam {GraftDamage}% de dano extra e ganham um nível adicional de [abilityblue]Impacto Atordoante[/abilityblue].[br/][br/]Este mod também concede aos ataques corpo a corpo uma chance de {InfectionChance}força ([strengthbio/]% para ataques repetidos) de aplicar {InfectionChanceRepeating}Infecção Parasita[strengthbio/] em unidades Biológicas e Ciborgues.[abilityred][/abilityred]Em uma habilidade corpo a corpo de unidade Xenopraga ou arma corpo a corpo Xenopraga, a chance de força é sempre [br/]%.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENOPLAGUE_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade Xenopraga</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENOPLAGUE_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade foi infectada pela Xenopraga.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cepa Ômega</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">VICTORY_CONDITION</Data></Cell>
+    <Cell><Data ss:Type="String">Desperte o Despertar Ômega</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades da Xenopraga ganham [abilityblue]Regeneração[/abilityblue/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_1_UNIT_DEBUFF_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Enfermo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_1_UNIT_DEBUFF_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade cura {healBonus} a menos por turno no mapa mundial.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{supplyPenalty}[supply/] de renda.[br/]Unidades biológicas e ciborgues não-Xenopraga curam {healPenalty}[hp/] a menos a cada [turn/] estratégico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades biológicas e ciborgues não-Xenopraga têm [abilityred]Infecção Parasitária[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMEGA_INFECTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Infecção Ômega</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OMEGA_INFECTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Infecte uma colônia inimiga não-Xenopraga e a área ao redor com a Cepa Ômega por {duration}, um agente viral poderoso que se fortalece conforme você constrói mais Colmeias Ômega.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OMEGA_INFECTION</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes conseguiram liberar a Cepa Ômega na colônia-alvo. A população já adoece e definha enquanto o vírus começa seu trabalho.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OMEGA_INFECTION</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos agentes foram pegos tentando liberar a Cepa Ômega na colônia inimiga. Embora não tenham tido sucesso total, parte do vírus vazou para o sistema de água local, causando pânico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OMEGA_INFECTION</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Agentes inimigos liberaram algum tipo de agente viral poderoso em uma de nossas colônias. A doença se espalha rapidamente, envenenando plantações e adoecendo a população.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OMEGA_INFECTION</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Agentes inimigos foram pegos tentando liberar algum tipo de agente viral poderoso em uma de nossas colônias. Embora tenhamos conseguido evitar danos maiores, parte do agente vazou para os sistemas de água e causou pânico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMEGA_HIVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colmeia Ômega</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OMEGA_HIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Colmeia Ômega desbloqueia a Arma do Juízo Final Cepa Ômega. Cada Colmeia Ômega adicional que você construir aumenta o nível da arma, tornando-a mais poderosa.[br/][br/]Apenas uma Colmeia Ômega pode ser construída por colônia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OMEGA_AWAKENING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Despertar Ômega</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OMEGA_AWAKENING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O passo final do plano da Xenopraga libera a forma definitiva da Cepa Ômega sobre o mundo inteiro.[br/][br/]Requer Nível 3 da Cepa Ômega.[br/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WEAPON_PESTILENCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pestilência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WEAPON_PESTILENCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataque o alvo com Pestilência.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WEAPON_ACRIMONIOUS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ácida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WEAPON_ACRIMONIOUS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispare Ácida em um alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WEAPON_MALADY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Doença</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WEAPON_MALADY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Causa Doença em um alvo.</Data></Cell>
+   </Row>
+   <Row ss:Index="110" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CALL_OF_THE_PLAGUE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Chamado da Praga</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CALL_OF_THE_PLAGUE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A colônia alvo começa a transmitir o chamado da praga, invocando uma Pústula Inchada em combate a cada turno por {duration} durante a batalha no território desta colônia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CALL_OF_THE_PLAGUE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Sua colônia começou a transmitir o chamado da praga – Pústulas Inchadas serão invocadas no campo durante a batalha.</Data></Cell>
+   </Row>
+   <Row ss:Index="114" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENOBONIC_PLAGUE_BOMB</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bomba de Praga Xenobônica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">XENOBONIC_PLAGUE_BOMB</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Implanta uma Bomba de Praga Xenobônica na colônia alvo. A colônia perde {XenobonicPlagueBombPop} e quaisquer unidades Biológicas e Ciborgues não-Xenopraga na colônia são infectadas com [abilityred]Infecção Parasitária[/abilityred] por {ParasiteStrategicDuration}.[br/]Além disso, {PustuleSpawn} Pústulas de Xenopraga surgem perto da colônia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">XENOBONIC_PLAGUE_BOMB</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION_PROPERTY</Data></Cell>
+    <Cell><Data ss:Type="String">Infecta todas as unidades Biológicas e Ciborgues não-Xenopraga com Infecção Parasitária por {ParasiteDuration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">XENOBONIC_PLAGUE_BOMB</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Seus agentes implantaram com sucesso a Bomba de Praga Xenobônica na colônia alvo. Seus efeitos foram catastróficos para o rival, dizimando grande parte da população da colônia e gerando várias pústulas de Xenopraga nas proximidades.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">XENOBONIC_PLAGUE_BOMB</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Seus agentes tentaram implantar a Bomba de Praga Xenobônica na colônia inimiga, mas foram pegos no ato. Embora não tenham conseguido detonar a bomba, os colonos inimigos ficaram inquietos devido à nossa tentativa.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">XENOBONIC_PLAGUE_BOMB</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Agentes inimigos cometeram um ato vil, detonando uma Bomba de Praga Xenobônica sobre sua colônia, matando muitos colonos indefesos e infectando-os com a cepa Xeno!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">XENOBONIC_PLAGUE_BOMB</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Agentes inimigos tentaram se infiltrar em sua colônia e estavam montando uma Bomba de Praga Xenobônica antes de serem pegos por contra-agentes. Embora a tentativa de bombardeio tenha sido frustrada, os colonos ficaram inquietos.</Data></Cell>
+   </Row>
+   <Row ss:Index="122" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SLEEPER_XENOMOMES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Xenomomos Adormecidos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SLEEPER_XENOMOMES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Infecta o exército alvo com Xenomomos Adormecidos. O exército alvo sofre {SleeperXenomomesDamage} de dano, e unidades biológicas e ciborgues são afligidas com [abilityred]Infecção Parasitária[/abilityred] por {SleeperXenomomesDuration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SLEEPER_XENOMOMES</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades perdem {percentage} de vida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SLEEPER_XENOMOMES</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION_PROPERTY</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades são afetadas com [abilityred]Infecção Parasitária[/abilityred] por {duration}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SLEEPER_XENOMOMES</Data></Cell>
+    <Cell><Data ss:Type="String">FAILURE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Em caso de falha, o exército alvo sofre apenas {SleeperXenomomesDamage} de dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SLEEPER_XENOMOMES</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Seus agentes dispersaram com sucesso os Xenomomos Adormecidos no exército alvo, e o impacto da infecção está enfraquecendo consideravelmente o exército. Agora seria o momento ideal para atacar, enquanto a infecção ainda está recente.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SLEEPER_XENOMOMES</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Seus agentes falharam em dispersar os Xenomomos Adormecidos no exército alvo e, embora tenham conseguido infligir danos leves, a infecção não se estabeleceu entre as fileiras inimigas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SLEEPER_XENOMOMES</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Seu exército é atingido por Xenomomos Adormecidos, sofrendo danos e infectando suas tropas com uma vil [abilityred]Infecção Parasitária[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SLEEPER_XENOMOMES</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Agentes inimigos tentaram dispersar Xenomomos Adormecidos em seu exército. Eles foram impedidos, mas ainda conseguiram infligir danos leves ao exército.</Data></Cell>
+   </Row>
+   <Row ss:Index="132" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REGENERATIVE_STIMULANT_INJECTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Infecções Regenerativas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">REGENERATIVE_STIMULANT_INJECTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Infecta um exército aliado com um vírus regenerativo, curando-o completamente e concedendo {RenerativeStimulantInjectionResistance} de resistência a efeitos de status por {RegenerativeStimulantInjectionDuration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REGENERATIVE_STIMULANT_INJECTION</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION_HEAL</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades são curadas até a vida máxima</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">REGENERATIVE_STIMULANT_INJECTION</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION_PROPERTY</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades ganham {RenerativeStimulantInjectionResistance} de resistência a efeitos de status por {RegenerativeStimulantInjectionDuration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">REGENERATIVE_STIMULANT_INJECTION</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Sua distribuição do vírus regenerativo teve efeito imediato, e seu exército está renovado e pronto para o combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">REGENERATIVE_STIMULANT_INJECTION</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está afetada por um vírus regenerativo e tem {amount} de resistência contra efeitos de status.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HYPER_EVOLUTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hiperaceleração da Evolução</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HYPER_EVOLUTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Acelera o processo de praga dentro da Pústula alvo, transformando-a em um Destruidor.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HYPER_EVOLUTION</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Administramos uma poção xeno que acelerou o crescimento de uma de nossas Pústulas Xeno, evoluindo-a para um Destruidor.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HYPER_EVOLUTION</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade evoluiu para um Destruidor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPREAD_PLAGUE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bomba de Esporos Fúngicos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPREAD_PLAGUE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lança uma bomba carregada com esporos fúngicos infectados. O setor alvo é terraformado para um setor Fúngico, e uma [abilityred]Nuvem de Esporos[/abilityred] é gerada. Este Perigo reduz a renda econômica e enfraquece quaisquer unidades no setor.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPREAD_PLAGUE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Lançamos a bomba com sucesso no setor alvo. Os esporos rapidamente tomaram conta do setor e o terraformaram para terreno Fúngico, enquanto enchiam o ar de bioesporos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPREAD_PLAGUE</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">O inimigo lançou uma bomba cheia de esporos em um de nossos setores. Os esporos rapidamente tomaram conta do setor e o terraformaram para terreno Fúngico, enquanto enchiam o ar de fumaça tóxica.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPREAD_PLAGUE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossa bomba foi interceptada pelos sistemas defensivos inimigos e não detonou corretamente. Alguns dos esporos sobreviveram, e o ambiente foi permanentemente alterado, mas os esporos já se dissiparam sem causar danos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPREAD_PLAGUE</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">O inimigo tentou lançar uma bomba cheia de esporos em um de nossos setores. Nossos sistemas defensivos conseguiram evitar que a bomba causasse danos graves, mas o terreno na área foi permanentemente alterado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPREAD_PLAGUE</Data></Cell>
+    <Cell><Data ss:Type="String">FAILURE_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">Em caso de falha, o setor alvo é apenas terraformado para terreno Fúngico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PUSTULE_MUTATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mutação de Pústula</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PUSTULE_MUTATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Matar inimigos afetados por [abilityred]Infecção Parasitária[/abilityred] agora pode gerar Pústulas sob seu controle ao vencer o combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROYER_MUTATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mutação Destruidora</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DESTROYER_MUTATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Matar inimigos afetados por [abilityred]Infecção Parasitária[/abilityred] agora pode evoluir Pústulas sob seu controle para Destruidores ao vencer o combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAGUE_LORD_MUTATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mutação Senhor da Praga</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PLAGUE_LORD_MUTATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Matar inimigos afetados por [abilityred]Infecção Parasitária[/abilityred] agora pode evoluir Destruidores sob seu controle para Senhores da Praga ao vencer o combate.</Data></Cell>
+   </Row>
+   <Row ss:Index="157" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENO_EVENT_INITIAL_NOTIFICATION</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Condição de Vitória: Despertar Ômega</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENO_EVENT_UPGRADE_CAPTURED</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">Um de nossos Ninhos Ômega foi capturado!</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENO_EVENT_UPGRADE_LOST</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">Você perdeu um Ninho Ômega!</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENO_EVENT_UPGRADE_LOST</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_Player} perdeu um Ninho Ômega!</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">XENO_EVENT_UPGRADE_LOST_NOT_GLOBAL</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">Você perdeu um Ninho Ômega. Nossa tentativa de liberar o Despertar Ômega foi cancelada!</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">XENO_EVENT_UPGRADE_LOST_GLOBAL</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_Player} perdeu um Ninho Ômega. A tentativa deles de liberar o Despertar Ômega foi frustrada!</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENO_EVENT_INITIAL_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Um jogador liberou seu Despertar Ômega!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">XENO_EVENT_UPGRADE_BUILT_01</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Ao construir um Ninho Ômega, {playerName} agora tem acesso à sua Arma do Juízo Final, o Despertar Ômega. Ela está fraca agora, mas se tornará mais poderosa conforme mais Ninhos Ômega forem construídos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">XENO_EVENT_UPGRADE_BUILT_02</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Ao construir um segundo Ninho Ômega, {playerName} fortaleceu sua Arma do Juízo Final, o Despertar Ômega. Você deve planejar ataques para destruir essas estruturas antes que se tornem poderosas demais.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">XENO_EVENT_UPGRADE_BUILT_03</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Ao construir seu último Ninho Ômega, {playerName} maximizou a força de sua Arma do Juízo Final, o Despertar Ômega. Eles estão perto de liberá-la e vencer o jogo. A hora de atacar é agora!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">XENO_EVENT_UPGRADE_CAPTURED_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">O Cronômetro do Juízo Final foi pausado! Você deve reconquistar o Ninho Ômega perdido, ou perderá a chance de liberar a Cepa Ômega sobre seus inimigos!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">XENO_EVENT_UPGRADE_LOST_GLOBAL_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">A perda de um Ninho Ômega cancelou o Despertar Ômega, encerrando o Cronômetro do Juízo Final.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">XENO_EVENT_UPGRADE_LOST_NOT_GLOBAL_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">A perda de um Ninho Ômega enfraqueceu nosso Despertar Ômega e suas operações do Juízo Final foram canceladas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">XENO_EVENT_FINISHER_CAST_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos inimigos ativaram sua Arma do Juízo Final, o Despertar Ômega se espalhou pelo planeta, e sua própria Arma do Juízo Final foi destruída pelo cataclismo. Você tem {numTurns} para destruir um dos Ninhos Ômega deles ou eles vencerão o jogo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">XENO_EVENT_RUNNING_VICTORY_TIMER</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">O Despertar Ômega está ativo, e você vencerá em {numTurns} a menos que perca um de seus Ninhos Ômega.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">XENO_EVENT_RUNNING_VICTORY_TIMER</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">O Despertar Ômega está ativo, e {playerName} vencerá em {numTurns} a menos que você consiga destruir um dos Ninhos Ômega deles.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">XENO_EVENT_VICTORY_TIMER_PAUSED</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">Um Ninho Ômega foi capturado! Se for destruído, nosso Cronômetro do Juízo Final será cancelado. Se você recapturar o Ninho, poderá retomar a contagem regressiva.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">XENO_EVENT_VICTORY_TIMER_PAUSED</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">Um Ninho Ômega foi capturado! Se for destruído, o Cronômetro do Juízo Final será cancelado. Se {playerName} recapturar o Ninho, poderá retomar a contagem regressiva.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">XENO_EVENT_FINISHER_PRIMING</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">{playerName} está preparando sua Arma do Juízo Final do Despertar Ômega. Se for permitido que concluam, sua própria Arma do Juízo Final será eliminada, e {playerName} estará a um passo da vitória total!</Data></Cell>
+   </Row>
+   <Row ss:Index="177" ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">XENO_END_GAME</Data></Cell>
+    <Cell><Data ss:Type="String">VICTORY_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Sinta os Xenos crescerem dentro de você.[br/]A simbiose da Cepa Alfa está completa.[br/]Seus inimigos se tornam adubo[br/]enquanto sucumbem à sua grande infecção.[br/]Banqueteie-se bem - milhares de planetas da Star Union[br/]aguardam seus esporos vorazes.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">VO: Empress Carminia</Data></Cell>
+   </Row>
+   <Row ss:Index="179" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENOPLAGUE_PARASITE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Infectado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENOPLAGUE_PARASITE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Parasita</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENOPLAGUE_PARASITE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Sugado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENOPLAGUE_PARASITE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Hospedeiro Parasita</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENOPLAGUE_PARASITE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Contaminado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENOPLAGUE_PARASITE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Contaminado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENOPLAGUE_PARASITE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell><Data ss:Type="String">Corrompido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAGUE_PODS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Bombardeiro da Praga</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAGUE_PODS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Granadeiro Bio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAGUE_PODS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Malabarista da Praga</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAGUE_PODS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Arremessador de Bílis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAGUE_PODS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Maníaco da Praga</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAGUE_PODS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Arremessador de Maldição</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOSPORES_PURIFICATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Médico da Praga</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOSPORES_PURIFICATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Curandeiro da Praga</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOSPORES_PURIFICATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Descontaminador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOSPORES_PURIFICATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Corruptor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOSPORES_PURIFICATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Probiótico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOSPORES_PURIFICATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Micróbio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOSPORES_HYPER_AGGRESSION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Xenomaníaco</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOSPORES_HYPER_AGGRESSION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Hiperviolento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOSPORES_HYPER_AGGRESSION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Injetado de Sangue</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOSPORES_HYPER_AGGRESSION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Uivador da Praga</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOSPORES_HYPER_AGGRESSION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Febril</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOSPORES_HYPER_AGGRESSION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Portador de Esporos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOSPORES_HYPER_AGGRESSION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell><Data ss:Type="String">Desequilibrado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARASITIC_SYMBIOSIS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Simbionte</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARASITIC_SYMBIOSIS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Hospedeiro Ômega</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARASITIC_SYMBIOSIS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Campeão Xeno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARASITIC_SYMBIOSIS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Unificado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARASITIC_SYMBIOSIS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Coalescente</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARASITIC_SYMBIOSIS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Harmonia da Praga</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARASITIC_SYMBIOSIS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell><Data ss:Type="String">Criança Xeno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOSPORES_PROLIFERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Ascendente Mórbido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOSPORES_PROLIFERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Artesão da Podridão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOSPORES_PROLIFERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Xenomante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOSPORES_PROLIFERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Necrocontaminado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOSPORES_PROLIFERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Corruptor Tumular</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOSPORES_PROLIFERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Deus Mortis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOSPORES_PROLIFERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell><Data ss:Type="String">Farol da Praga</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENOGRAFTED_MUSCLES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Enxertado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENOGRAFTED_MUSCLES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Musculoso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENOGRAFTED_MUSCLES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Vigoroso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENOGRAFTED_MUSCLES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Robusto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENOGRAFTED_MUSCLES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Fibroso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">XENOGRAFTED_MUSCLES</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Resistente</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>87</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>91</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,1273 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Frederick Milders</LastAuthor>
+  <LastSaved>2019-02-08T10:37:44Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>19020</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="233" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="305.25"/>
+   <Column ss:StyleID="s62" ss:Width="75.75"/>
+   <Column ss:StyleID="s62" ss:Width="447.75"/>
+   <Column ss:StyleID="s62" ss:Width="150"/>
+   <Column ss:StyleID="s62" ss:Width="315"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SCENARIODEFINITIONS_CAMPAIGN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Index="4" ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:Index="5"><Data ss:Type="String">General Loca Notes for this XML: For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.
+
+In the text below, text is spoken by a character who can be either male or female (except for Amazon, which is always female). If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TUTORIAL_PLANET</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma colônia de pesquisa parou de responder, e a Vanguard inicia uma arriscada missão de resgate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TUTORIAL_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">PLANET</Data></Cell>
+    <Cell><Data ss:Type="String">Dolos Minerva [recommendedcol](Tutorial)[/recommendedcol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TUTORIAL_PLANETFALL_OBJECTIVES_01</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Procurar por sobreviventes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TUTORIAL_PLANETFALL_OBJECTIVES_02</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Descobrir o que aconteceu.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TUTORIAL_BRIEFING_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Comandante 13545.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TUTORIAL_BRIEFING_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Registro Pessoal do Comandante: A Vanguard LCVP-86 emergiu intacta do Espaço do Vazio. Nosso destino é um pequeno planeta localizado próximo à anomalia neste sistema. Os scans não mostram nada além de estática da base de pesquisa abaixo. O sinal de socorro que recebemos continua sendo o único sinal de vida.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Vanguard or Female Vanguard
+
+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TUTORIAL_PLANETFALL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Comandante 13545.14</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TUTORIAL_PLANETFALL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">A Anomalia do Vazio paira sobre o planeta como um presságio sombrio. Esses cientistas devem ter sido loucos para estudar o fenômeno de tão perto, mas não cabe a mim questionar seus motivos. Estamos aqui para garantir uma posição, procurar por sobreviventes e investigar o que aconteceu. Preparem-se para o Planetfall.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Vanguard or Female Vanguard
+
+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TUTORIAL_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Comandante 13545.17</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="57">
+    <Cell><Data ss:Type="String">TUTORIAL_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mal escapamos da superfície do planeta antes que a Anomalia do Vazio o consumisse. Tivemos sorte de conseguir resgatar os colonos com vida. Estes últimos dias me deixaram com mais perguntas do que respostas. O que aconteceu na superfície? O que foi aquela onda gravitrônica que rasgou este aglomerado estelar?</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TUTORIAL_DEBRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Comandante 13545.18</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="71.25">
+    <Cell><Data ss:Type="String">TUTORIAL_DEBRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Bem, parece que teremos bastante tempo para refletir sobre isso. A força gravitrônica desestabilizou a Fenda do Vazio neste sistema, tornando as viagens mais rápidas que a luz impossíveis. Temos que voltar para casa à moda antiga – levará cerca de 200 anos para alcançarmos o hub mais próximo da Star Union. Ordenei que todos se preparem para a criossono. Veremos que tipo de mundo nos aguarda ao despertar.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Vanguard or Female Vanguard
+</Data></Cell>
+   </Row>
+   <Row ss:Index="18" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MISSION_VANGUARD01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Após 200 anos de criossono, a Vanguard enfrenta um retorno cataclísmico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VANGUARD01_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Comandante 13545.19</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VANGUARD01_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Registro Pessoal do Comandante: Forças Expedicionárias da Vanguard. Ciclo de criossono concluído – sem baixas. Tempo desde o lançamento: 197 anos. Finalmente voltamos. Após uma tempestade destruir nossa passagem pelo hiperespaço, tivemos que fazer o caminho mais longo. A maioria de nós se juntou à Vanguard para escapar do passado. Dois séculos devem ser suficientes para dar a todos um novo começo.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VANGUARD01_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Comandante 13545.25</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VANGUARD01_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Hora de contatar o Comando Central da Vanguard. Estamos indo para Leave-6, o centro de trânsito militar nesta seção das Borderlands. A tripulação já está especulando sobre visitar os Parques Elísios: jogos de azar, bebida e androides promíscuos… Bem, após dois séculos de sono, é hora de um pouco de diversão!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Capitalized "Borderlands" to be consisten with other uses. (It needs to be capitalized, since it is the unique name of a region of space.)</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VANGUARD01_BRIEFING_DEFAULT_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Comandante 13545.27</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VANGUARD01_BRIEFING_DEFAULT_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Algo está errado. Chegamos ao sistema estelar Leave-6, mas, em vez da Patrulha Orbital, havia apenas destroços espalhados esperando nossa chegada. Enquanto procurávamos por sobreviventes, avistamos uma nave de configuração desconhecida. Ao entrar na atmosfera do planeta, ela ignorou nossas chamadas. A interferência residual do vazio nos impede de escanear a superfície.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VANGUARD01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Comandante 13545.28</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VANGUARD01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Os Parques Elísios terão que esperar. Temos uma nova missão: precisamos avaliar a situação estratégica em Leave-6, contatar o Comando Central da Vanguard — e ajudá-los a limpar essa bagunça. Preparem-se para o Planetfall! Pela Vanguard! E pela União!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VANGUARD01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">PLANET</Data></Cell>
+    <Cell><Data ss:Type="String">Leave-6</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VANGUARD01_PLANETFALL_OBJECTIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Descobrir o que aconteceu no Planeta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VANGUARD01_PLANETFALL_OBJECTIVE_02</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Encontrar a Nave Alienígena</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VANGUARD01_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Comandante 13545.53</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VANGUARD01_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Embora a crise em Leave 6 tenha chegado ao fim, o destino da Star Union permanece incerto. Por que nenhuma outra nave imperial chegou desde que as Tempestades do Vazio começaram a diminuir? Além disso, por que Sina pôde agir com tanta crueldade, ignorando abertamente o governo civil? Receio que o caos e a destruição que encontramos aqui sejam apenas o começo.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VANGUARD01_DEBRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Comandante 13545.54</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">VANGUARD01_DEBRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Renascer como uma fênix das cinzas. Era assim que os Prometheans costumavam embelezar seus massacres e destruição. Sempre desprezei seus métodos, mas em tempos difíceis como estes, sua tecnologia pode ser útil. Mesmo que o Syndicate não faça parte de uma força de invasão Outlander maior, devo me preparar para a próxima vez que nos encontrarmos. Eles querem brincar com fogo? Terão!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data></Cell>
+   </Row>
+   <Row ss:Index="35" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MISSION_AMAZON01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma aspirante Amazon deve rastrear sua mentora em um mundo de selva infectado.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String" x:Ticked="1">aspirant' needs to be capitalized?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMAZON01_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro da Matriarca 13413.08</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMAZON01_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Quando a sociedade entra em colapso, apenas os mais aptos sobrevivem. A queda da Star Union lançou nós, Amazonas, na selva — e nós a dominamos. Modificação genética, treinamento cognitivo e disciplina rigorosa são as ferramentas de seleção que nos transformaram de presas em predadoras. Como tal, impomos a lei da natureza como nossa própria lei, adaptando o ambiente e sua vida selvagem aos nossos ideais.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female only</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Female Amazon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMAZON01_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro da Matriarca 13413.09</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">AMAZON01_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Ainda há muitos mundos que precisam da mão cuidadosa das Amazonas. Com nosso equipamento de terraformação, trazemos nova vida a planetas áridos e os transformamos em jardins exuberantes. Mas a harmonia que criamos exige cultivo. Pragas devem ser eliminadas e invasores capturados. Fui criada e treinada como uma Matriarca Amazon. Somos o escudo e a lança que protegem essa ordem.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female only</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Female Amazon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMAZON01_BRIEFING_DEFAULT_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro da Matriarca 13414.16</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMAZON01_BRIEFING_DEFAULT_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Minha antiga mentora, Berhane Katla, tornou-se uma ameaça à nossa causa. Ela ultrapassou os limites estabelecidos para a manipulação do código genético das Amazonas e foi declarada renegada após se recusar a enfrentar seu julgamento. Fui encarregada de caçar Berhane. Este é meu teste de fogo, a última prova de força antes de concluir meu treinamento como Matriarca.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female only
+
+Berhane Katla - Female Amazon character</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Female Amazon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMAZON01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro da Matriarca 13416.31</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMAZON01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Rastreamos Berhane até um planeta chamado Thanakiwa. Ela sabe muito bem que não deve esperar misericórdia de sua antiga protegida, então temos que nos preparar para resistência máxima.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female only
+
+'Thanakiwa' is a planet</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Female Amazon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMAZON01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">PLANET</Data></Cell>
+    <Cell><Data ss:Type="String">Thanakiwa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMAZON01_PLANETFALL_OBJECTIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Encontrar e derrotar Berhane</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMAZON01_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro da Matriarca 13545.47</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMAZON01_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Embora tenhamos chegado tarde demais para confrontar Berhane pessoalmente, ainda conseguimos frustrar seus planos e conter os efeitos de seus experimentos com a Xenopraga. Berhane deveria ter me enfrentado enquanto ainda tinha vantagem: Agora que sobrevivemos ao primeiro contato com sua arma parasitária, podemos estudá-la e adaptar nossas estratégias de acordo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female only
+</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Female Amazon</Data></Cell>
+   </Row>
+   <Row ss:Index="51" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MISSION_DVAR01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Em um ermo gelado, dois Consórcios Dvar competem pelas riquezas de um mundo esquecido.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DVAR01_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Diretor 13303.2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DVAR01_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Explosões são as mestras da criação. O Big Bang forjou o universo, e o Cataclismo esculpiu os Dvar. Privação e reclusão não prejudicaram nossos ancestrais mineradores. Apenas inflamaram a força e a sede por recursos que ainda impulsionam nossa espécie. Agora, sob o olhar atento do Conselho Adamantino, os Consórcios Dvar estão presos em uma competição implacável. Prestígio e riquezas infinitas versus pobreza e vergonha eterna são nossos novos riscos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String" x:Ticked="1">Adamant Council' is like the government for the Dvar</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Dvar or Female Dvar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DVAR01_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Diretor 13545.6</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DVAR01_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Sou o líder do Consórcio Dvar Zhelezo. Antes do meu governo, nossa casa era fraca e complacente com sua posição. Eu despertei a ambição em meu povo. O Dvar Zhelezo ascendeu rapidamente em status, mas o Conselho Adamantino ainda nos menosprezava. Hoje, tudo muda. Nossos prospectores encontraram o mundo rico em recursos de Chimera Glacialis. Assim que o Conselho nos conceder os direitos de mineração, o Consórcio Zhelezo finalmente alcançará o status que merece.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String" x:Ticked="1">'Zhelezo' is a clan name</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Dvar or Female Dvar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DVAR01_BRIEFING_DEFAULT_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Diretor 13545.9</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DVAR01_BRIEFING_DEFAULT_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">O Conselho é demente! Aqueles tolos desajeitados concederam nossa reivindicação ao desonroso Consórcio Rassvet. Nós encontramos este mundo. Pelos direitos tradicionais de reivindicação, ele deveria ser nosso. Está claro para mim que o Conselho nunca confiará em nós, então devemos abrir nosso próprio caminho. Eles não ficarão no caminho do Zhelezo, e nem o Valodny Rassvet!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String" x:Ticked="1">'Rassvet' is a clan name
+
+'Valodny Rassvet' male dvar character</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Dvar or Female Dvar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DVAR01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">PLANET</Data></Cell>
+    <Cell><Data ss:Type="String">Chimera Glacialis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DVAR01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Diretor 13546.1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DVAR01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">O mundo de Chimera Glacialis está abaixo de nós, sua superfície tempestuosa escondendo riquezas prontas para o saque. Conforme descemos, essas tempestades interferirão nos sistemas de navegação de nossa nave. Duvido que será o último obstáculo escondendo os segredos deste planeta.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String" x:Ticked="1">'Chimera Glacialis' is a planet</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Dvar or Female Dvar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DVAR01_PLANETFALL_OBJECTIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Reivindique os recursos de Chimera Glacialis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DVAR01_PLANETFALL_OBJECTIVE_02</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Lide com Valodny Rassvet</Data></Cell>
+   </Row>
+   <Row ss:Index="65" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DVAR01_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Diretor 13550.1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DVAR01_DEBRIEFING_VAULT_FOUND_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">O Cofre que descobrimos recompensou todo o sangue, suor e lágrimas que derramamos nesta expedição. Esta impressionante recompensa de Cosmita certamente apaziguará o Conselho Adamantino e provará nosso valor. A escavação de Chimera Glacialis se mostrou tão lucrativa para o Zhelezo quanto havíamos projetado. As operações de mineração estão funcionando com eficiência máxima. O consórcio Rassvet não é mais um obstáculo.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Dvar or Female Dvar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DVAR01_DEBRIEFING_VAULT_NOT_FOUND_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Embora tenhamos perdido o Cofre e suas riquezas de Cosmita, a escavação de Chimera Glacialis se mostrou tão lucrativa para o Zhelezo quanto havíamos projetado. As operações de mineração estão funcionando com eficiência máxima. O consórcio Rassvet não é mais um problema, e provamos nosso direito legítimo a este mundo.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Dvar or Female Dvar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DVAR01_DEBRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Diretor 13551.3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="96">
+    <Cell><Data ss:Type="String">DVAR01_DEBRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">O martelo caiu. Recebemos a transmissão esta manhã: o Consórcio Zhelezo e todos os seus associados foram exilados, qualquer contato com eles proibido pelo Conselho Adamantino. Isso é um ultraje! Outros Consórcios foram perdoados por transgressões piores. Não… está claro que o Conselho teme nosso retorno. Eles temem que sua corrupção seja exposta, e estou disposto a apostar meu último filtro que esses 'Redentores' me levarão até ela.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Dvar or Female Dvar</Data></Cell>
+   </Row>
+   <Row ss:Index="71" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MISSION_VANGUARD02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Missão de Acompanhamento da Vanguard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MISSION_VANGUARD02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Enquanto vasculham as ruínas do passado, a Vanguard desperta inimigos antigos e novos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VANGUARD02_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Comandante 13545.64</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VANGUARD02_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">A presença do Syndicate em Leave-6 me incomoda. Meu instinto diz que algo obscuro se esconde por trás de seus sorrisos falsos. Ainda me lembro das imagens dos experimentos psiónicos que todo oficial sênior precisava ser informado antes de uma missão nas Borderlands. Só de pensar nos horrores retratados ali fazia até os veteranos mais calejados estremecerem.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VANGUARD02_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Comandante 13545.66</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">VANGUARD02_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Durante nosso encontro com Sina, descobrimos seu próximo alvo. Entre milhões de planetas nesta galáxia, tinha que ser Sorinus Alpha, a joia reluzente da ciência e do progresso da Union — e testemunha dos momentos mais amargos da minha vida. Mas isso é passado, ir a Sorinus Alpha finalmente lançará luz sobre nossa situação. Se a Star Union estiver em algum tipo de problema, descobriremos lá, de um jeito ou de outro.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VANGUARD02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Comandante 13545.68</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VANGUARD02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Aproximamo-nos de Sorinus Alpha. Não sabemos o que esperar na superfície, então ordenei que meus homens se preparem para o pior.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VANGUARD02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">PLANET</Data></Cell>
+    <Cell><Data ss:Type="String">Sorinus Alpha</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VANGUARD02_PLANETFALL_OBJECTIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Descubra o destino da Star Union</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VANGUARD02_PLANETFALL_OBJECTIVE_02</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Avalie a Ameaça do Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VANGUARD02_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Comandante 13578.29</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VANGUARD02_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Lá está Sorinus Alpha. O que antes era um mundo metropolitano pulsando com vida foi reduzido a uma carcaça carbonizada. É um espetáculo arrepiante ver as consequências do inferno de PyrX; algo que jamais esquecerei. A única coisa que torna isso suportável é a confirmação de que uma catástrofe ainda maior foi evitada hoje. A verdadeira liberdade exige sacrifício.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">VANGUARD02_DEBRIEFING_THOLIAN_REVIVED_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Embora, com a ressurreição do Imperador Tholian, o conflito em Sorinus Alpha possa ter chegado ao fim prematuramente, a batalha pelo legado da Star Union está apenas começando. Parece que Tholian e Carminia, o Syndicate e a Assembly, todos têm suas próprias visões para o futuro. Mas, no fim, somos nós, o povo, cujo apoio eles buscam, que decidiremos esse conflito com nossas ações.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">VANGUARD02_DEBRIEFING_THOLIAN_EXTRACTED_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Com a extradição do Imperador Tholian, seu culto e planos de derrubar a velha ordem do CORE viraram história. Minha promoção representa o justo restabelecimento da Star Union. Sem o CORE, a Star Union teria arriscado outro Cataclismo. Facções como a New Horizon devem ser contidas pelo bem maior.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Vanguard or Female Vanguard</Data></Cell>
+   </Row>
+   <Row ss:Index="87" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MISSION_AMAZON02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Em um ambiente em constante mudança, a Amazon deve se adaptar para resistir a seu inimigo implacável.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female only</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Female Amazon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMAZON02_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro da Matriarca 13545.52</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMAZON02_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Antes de deixarmos Thanakiwa, encontramos pads de dados deixados pela equipe de pesquisa de Berhane. Nos pads, a extensão de seus experimentos estava claramente documentada: Berhane está enxertando DNA da Cepa Alpha em células-tronco embrionárias de Amazons, tentando criar uma nova raça de Xeno-Amazons. Isso não é apenas traição! É uma abominação contra a natureza!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female only</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Female Amazon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMAZON02_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro da Matriarca 13546.01</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMAZON02_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Agora está claro por que Berhane transferiu suas operações para Avium SK-51. Com suas condições geográficas extremas e laboratórios pré-construídos, o antigo local de testes da Terratech oferece o cenário perfeito para alguém tentando criar uma super-raça. Motivo mais do que suficiente para chegarmos lá antes que ela se acomode e monte defesas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female only</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Female Amazon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMAZON02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro da Matriarca 13546.03</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMAZON02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Avium SK-51 está à frente. Varreduras iniciais confirmaram que Berhane pousou no planeta. Rastreamos e encurralamos nossa presa. Agora é hora de partir para o ataque!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female only</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Female Amazon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMAZON02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">PLANET</Data></Cell>
+    <Cell><Data ss:Type="String">Avium SK-51</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMAZON02_PLANETFALL_OBJECTIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Pôr um fim ao conflito das Amazons</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMAZON02_PLANETFALL_OBJECTIVE_02</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Derrotar Berhane</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMAZON02_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro da Matriarca 13549.11</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMAZON02_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">A partir de hoje, Berhane e seus experimentos mórbidos não existem mais. Assim se encerra minha iniciação como Matriarca Amazon. Sei agora que ações severas são necessárias para proteger o equilíbrio natural que nós, Amazons, trazemos a cada mundo. Em nossos jardins, ervas daninhas devem ser extirpadas e pragas destruídas. A harmonia exige sacrifício.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female only</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Female Amazon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MISSION_DVAR02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Injustiçados e exilados, os Dvar buscam se redimir com um grande estrondo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DVAR02_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Diretor 13546.15</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DVAR02_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Os últimos meses cobraram seu preço de todos nós. Exilados pelo Conselho, os Zhelezo Dvar precisavam de novos impulsos, e fui solicitado a assumir como Diretor de nosso Consórcio. Não descansarei até que os verdadeiros motivos do Conselho Adamante sejam revelados e o nome Zhelezo seja restaurado. Para isso, segui os Redentores até um planeta chamado Zemestian-4.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Dvar or Female Dvar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DVAR02_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Diretor 13546.17</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DVAR02_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">As imagens do banco de dados da superfície de Zemestian-4 revelam sua paisagem exuberante. Como Dvar, estamos acostumados a explorar a natureza, mas esquecemos sua beleza – de dentro de nossos trajes, o mundo exterior parece inacessível e sem vida. Usando a Cepa Alfa, que tenho estudado, talvez eu consiga libertar meu povo de suas prisões autoimpostas e permitir que respirem o ar fresco e puro novamente.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Dvar or Female Dvar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DVAR02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Diretor 13548.34</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DVAR02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Zemestian-4 está abaixo de nós. O mundo é tão belo quanto os antigos registros afirmam… e igualmente instável. Desde que os Redentores fugiram para este mundo, só podemos presumir que desejam consultar seus mestres. Nós os rastrearemos. Devemos encontrar a raiz dessa corrupção e limpar o nome dos Zhelezo Dvar a qualquer custo.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Dvar or Female Dvar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DVAR02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">PLANET</Data></Cell>
+    <Cell><Data ss:Type="String">Zemestian-4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DVAR02_PLANETFALL_OBJECTIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Seguir os Redentores</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DVAR02_PLANETFALL_OBJECTIVE_02</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Descobrir a corrupção do Conselho</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DVAR02_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Diretor 13546.21</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DVAR02_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Destruímos a Bobina de Prótons e impedimos sua conclusão. Jamais uma arma tão poderosa deveria estar nas mãos de um ser frio e calculista como Claudius Proton. Com essa ameaça afastada e o nome dos Zhelezo Dvar limpo, nosso Consórcio finalmente receberá o respeito merecido do Conselho Adamante!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String" x:Ticked="1">'Claudius Proton' is a male Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Dvar or Female Dvar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DVAR02_DEBRIEFING_DEFAULT_ALIGNED_WITH_CORE_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">A Bobina de Prótons permaneceu silenciosa. Ela recalibrou, carregou… e disparou! Um golpe de relâmpago e trovão, digno de qualquer arma Dvar. Agora, os traidores do Conselho e seus aliados não existem mais, perdidos em outra dimensão. Mas a prova de sua corrupção porá fim ao nosso tempo de exílio. Finalmente, os Zhelezo terão o respeito que merecemos!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Dvar or Female Dvar</Data></Cell>
+   </Row>
+   <Row ss:Index="114" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MISSION_KIRKO01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ainda assombrados por seu passado, os Kir'Ko libertos buscam um novo futuro para sua raça.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KIRKO01_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Memória Psiónica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">KIRKO01_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Por séculos, os Kir’Ko tiveram que sofrer nas mãos de nossos opressores humanos. Eles temiam nossas habilidades psíquicas, temiam-nos porque éramos diferentes. Então, nos escravizaram, mutilando nossos ancestrais, cujas memórias atormentadas ainda ecoam nas mentes dos vivos. Mas os Kir’Ko são resilientes. Evoluímos sem o Cortado Enxame até finalmente nos libertarmos de nossas correntes.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Kir'Ko or Female Kir'Ko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KIRKO01_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Memória Psíquica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">KIRKO01_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Como Arauto do Enxame dos Kir’Ko Terym, fui escolhido para liderar minha colônia até um novo lugar para nos estabelecermos, um novo lugar para chamar de lar. Este é um fardo pesado, pois somos confrontados com nosso passado em cada canto da antiga Star Union. Com a unidade da mente coletiva perdida, diferentes vozes surgiram entre nosso povo. Alguns buscam vingança, enquanto outros, como eu, sentem que precisamos construir nosso próprio futuro, longe da humanidade e de seus conflitos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String" x:Ticked="1">Terym' is the name of a Kir'Ko tribe</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Kir'Ko or Female Kir'Ko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KIRKO01_BRIEFING_DEFAULT_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Memória Psíquica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">KIRKO01_BRIEFING_DEFAULT_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Nossa busca tem sido infrutífera há algum tempo, e os sonhos de meus ancestrais têm se tornado mais sombrios dentro de mim como resultado. Preciso de orientação para entender seu significado e não sucumbir ao vazio negro que projetam ao meu redor. Para isso, segui os rastros do lendário Leitor de Sonhos Hatyl Ur’Uk até um planeta que os humanos chamam de Arcadia Caeleste.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String" x:Ticked="1">Dream Reader' is a title
+
+'Hatyl Ur’Uk' is a male Kir'Ko</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Kir'Ko or Female Kir'Ko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KIRKO01_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Memória Psíquica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">KIRKO01_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Os sonhos de meus ancestrais passam violentamente pela minha mente, evocando um novo senso de poder dentro de mim. Deixei todas as restrições do passado para trás e pintei o futuro em escarlate. Com a localização de Xa’Kir’Ko redescoberta, tempos agitados aguardam meu povo. Quando reclamarmos nossa herança, nos reuniremos como um só, um vasto enxame faminto para devorar qualquer um tolo o suficiente para ficar em nosso caminho.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String" x:Ticked="1">Xa'Kir'Ko' is the Kir'Ko homeworld</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Kir'Ko or Female Kir'Ko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">KIRKO01_DEBRIEFING_PEACEFUL_PATH_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Os sonhos de meus ancestrais passam calmamente pela minha mente, enchendo-me de uma tranquilidade recém-descoberta. Estou em paz com o passado, e o futuro brilha em um azul-escaravelho encantador. Com a localização de Xa’Kir’Ko redescoberta, tempos prósperos aguardam meu povo. Em breve contemplaremos seus mares fúcsia, ouviremos suas melodias suaves e absorveremos sua umidade pantanosa, enquanto trilhamos os caminhos de nossos antepassados.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Kir'Ko or Female Kir'Ko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KIRKO01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Memória Psíquica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KIRKO01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">PLANET</Data></Cell>
+    <Cell><Data ss:Type="String">Arcadia Caeleste</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">KIRKO01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Arcadia Caeleste está à nossa frente. Posso senti-la se estendendo, uma presença reconfortante que acalma a turbulência do enxame. Não é à toa que Hatyl Ur’Uk foi atraído para cá. Este pode ser o lugar de tranquilidade que todos almejávamos.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Kir'Ko or Female Kir'Ko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KIRKO01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Encontrar o Leitor de Sonhos</Data></Cell>
+   </Row>
+   <Row ss:Index="129" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MISSION_SYNDICATE01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma ambiciosa Casa do Syndicate cobiça os segredos de um planeta proibido.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SYNDICATE01_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Crônicas da Casa Ny'dar - Registro Pessoal 4197-01.5/1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SYNDICATE01_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">O universo foi criado com dois tipos de criaturas em mente: as que governam e as que servem. Por gerações, as Casas do Syndicate foram as que governaram, até que os imperadores invejaram nossa riqueza e nos roubaram nossa herança. Agora, com a Star Union desaparecida, uma nova era de hegemonia do Syndicate está em seu alvorecer. Nossos associados podem não achar nossas ofertas atraentes, mas raramente reclamam — pelo menos, não com sucesso.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SYNDICATE01_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Crônicas da Casa Ny'dar - Registro Pessoal 4197-01.5/2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SYNDICATE01_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Desde a morte de meu irmão em um acidente infeliz, tornou-se meu dever e privilégio liderar a Casa Ny'dar nestes tempos agitados. Há rumores de que a Casa Timur caiu em desgraça, deixando uma vaga nos Sete Governantes que muitos tentarão preencher.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ruling Seven' is the Syndicate government</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell><Data ss:Type="String">SYNDICATE01_BRIEFING_DEFAULT_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Crônicas da Casa Ny'dar - Registro Pessoal 4197-01.5/3</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SYNDICATE01_BRIEFING_DEFAULT_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Ao longo das últimas semanas, nossos Hackers invadiram os relés de comunicação de nossos mais ferozes concorrentes, enviando algumas mensagens diplomáticas falsificadas e bastante voláteis em nome deles. Isso deve mantê-los ocupados lutando entre si por um tempo. Tempo de que precisamos para traçar nossos planos.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SYNDICATE01_BRIEFING_DEFAULT_PAGE04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Crônicas da Casa Ny'dar - Registro Pessoal 4197-01.5/4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SYNDICATE01_BRIEFING_DEFAULT_PAGE04</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Um velho conhecido meu, Zul Nadjian, entrou em contato comigo. Ele afirma ter encontrado uma fonte de poder que garantirá o lugar da Casa Ny'dar entre os Sete Governantes. É um segredo antigo selado em um planeta cujos registros foram completamente apagados dos antigos Arquivos Imperiais. Zul já se mostrou uma fonte confiável no passado, então decidi cuidar pessoalmente deste assunto.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String" x:Ticked="1">Zul Nadjian' is a male Syndicate character</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SYNDICATE01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Crônicas da Casa Ny'dar - Registro Pessoal 4197-02.1/1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SYNDICATE01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">O planeta sem nome está diante de nós, sua superfície ainda envolta por nuvens atmosféricas. Meu instinto me diz que Zul estava certo e que a futura fortuna da Casa Ny’dar está enterrada em algum lugar lá embaixo. É apenas uma questão de encontrar a pá certa para desenterrá-la.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SYNDICATE01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">PLANET</Data></Cell>
+    <Cell><Data ss:Type="String">Z17.P2-27.XXX.96</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SYNDICATE01_PLANETFALL_OBJECTIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Estabelecer uma posição na superfície do planeta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SYNDICATE01_PLANETFALL_OBJECTIVE_02</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Localizar o dispositivo prometido por Zul</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SYNDICATE01_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Crônicas da Casa Ny'dar - Registro Pessoal 4197-03.12/3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SYNDICATE01_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Os riscos e investimentos dos últimos meses finalmente valeram a pena. A fusão de Zul com o antigo Avatar criou uma entidade perigosamente poderosa. Seu vasto conhecimento e habilidades de acessar e assumir o controle de redes de computadores inteiras são armas que os inimigos da Casa Ny’dar aprenderão a temer.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data></Cell>
+   </Row>
+   <Row ss:Index="146" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MISSION_ASSEMBLY01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Entre os vestígios espalhados de um império, a Assembly busca uma ligação com seu ídolo de perfeição.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSEMBLY01_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly First - Registro de Voz Interno: Entrada 13.4.854</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">ASSEMBLY01_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Em meus anos humanos, eu era fascinado por robôs. Quando fui tocado pelo CORE, sua perfeição se somou à minha. Ao lado dele, eu era pequeno, insignificante, e minhas tentativas como cientista de erradicar minhas falhas humanas fracassaram. Após o Cataclismo, me foi dada uma nova vida. De carne dilacerada e aço retorcido, a Assembly surgiu, e eu fui ressuscitado como um de nossos Primeiros. A destruição leva à vida. A Reunião leva à evolução. O caos traz ordem e a morte, imortalidade.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Assembly or Female Assembly</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSEMBLY01_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly First - Registro de Voz Interno: Entrada 13.4.859</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ASSEMBLY01_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Desde nossa criação, ansiamos pelo CORE, que nos foi perdido após o Cataclismo. O CORE é a voz da perfeição, e conectar-se a ele significa fazer parte da ordem suprema. Agora que as Tempestades do Vazio diminuíram, juramos nossa lealdade a ele. Juntos, reconstruiremos a Star Union na forma da Assembly: uma sociedade livre de conflitos éticos, ignorância, doenças, guerras ou morte.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Assembly or Female Assembly</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSEMBLY01_BRIEFING_DEFAULT_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly First - Registro de Voz Interno: Entrada 13.4.864</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">ASSEMBLY01_BRIEFING_DEFAULT_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Seguindo as instruções do CORE, estamos a caminho de recuperar um Plexo Neural localizado em Gardip XX. Na Star Union, tal dispositivo permitia que os Imperadores agissem como uma ponte mental entre o CORE e o Paragon, conectando-os a milhões de indivíduos de uma só vez. Era obrigatório em todas as naves Star Holder. Uma dessas naves, a ‘Atirah’, foi enviada a Gardip XX para desmontagem poucos dias antes do Cataclismo. Recuperá-la será uma tarefa apropriada para nossos Catadores.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Assembly or Female Assembly</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSEMBLY01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly First - Registro de Voz Interno: Entrada 13.4.865</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ASSEMBLY01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Quando entramos no sistema, encontramos os Estabilizadores na Fenda do Vazio ainda intactos. A probabilidade de sua destruição durante o Cataclismo era de 99,98%, então alguém deve tê-los reparado recentemente. L0G3N-8 ficará satisfeito. Ele tem esperado por mais sujeitos humanos para processar desde a Reunião de Nerion Gamma.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">L0G3N-8 male Assembly
+
+Nerion Gamma is a planet</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Assembly or Female Assembly</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSEMBLY01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">PLANET</Data></Cell>
+    <Cell><Data ss:Type="String">Gardip XX</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSEMBLY01_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Recuperar o Plexo Neural</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSEMBLY01_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly First - Registro de Voz Interno: Entrada 13.6.143</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ASSEMBLY01_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Embora a traição de L0G3N-1 tenha sido inesperada, será apenas um revés temporário. A fusão entre homem e máquina provará ser superior e um fim para o conflito. Embora nossos cérebros aumentados já possam superar entidades puramente biológicas em muitos aspectos, o cérebro orgânico ainda guarda um potencial inexplorado. Em Gardip XX, testemunhamos o uso de Psionismo em diferentes formas. O Caminho Celestiano nos ajudará a avançar em nossa busca pela assimilação universal.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">L0G3N-1 male Assembly</Data></Cell>
+   </Row>
+   <Row ss:Index="161" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MISSION_KIRKO02</Data></Cell>
+    <Cell><Data ss:Type="String">PLANET_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Xa'Kir'Ko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MISSION_KIRKO02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Xa'Kir'Ko - Missão de Continuação dos Kir'Ko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MISSION_KIRKO02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao retornar para casa, os Kir'Ko encontram seu legado manchado e manipulado por hóspedes indesejados.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KIRKO02_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Memória Psiónica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">KIRKO02_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as castas dos Kir’Ko se rejubilam, pois hoje pousamos em Xa'Kir'Ko! Dos humildes Ocultos aos majestosos Arautos, cada indivíduo do enxame está aguçando seus sentidos para reabraçar nosso antigo mundo natal. Muitas colônias atenderam ao meu chamado, e nossa frota tem crescido constantemente com novas chegadas desde que partimos de Arcadia Caeleste.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Kir'Ko or Female Kir'Ko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KIRKO02_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Memória Psiónica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">KIRKO02_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Este retorno marcará o início de uma nova era para os Kir’Ko. Ao nos reunirmos e reaver nossa herança, livramo-nos das últimas amarras dos Zok’Shiar e tomamos o destino de nossa raça em nossas próprias garras. Em tempos antigos, o enxame Kir’Ko canalizava seus pensamentos através do Ez’Qi’Yu, a Rainha das Rainhas. Há rumores de outro Arauto do Enxame tentando trazer de volta a Rainha — e nosso Colmeia perdida junto com ela.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Kir'Ko or Female Kir'Ko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KIRKO02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Memória Psiónica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">KIRKO02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Xa’Kir’Ko está à frente, um corpo celeste envolto em névoas de Cosmita e poeira estelar. Que maravilhas e mistérios ancestrais nos aguardarão na superfície? Que cada passo que dermos seja uma jornada aos segredos de nosso passado![br/][br/]Xa’Kir’Ko, seus filhotes estão retornando ao lar.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String" x:Ticked="1">Your' refers to the player's avatar. Can be either male or female.
+
+</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">VO: Male Kir'Ko or Female Kir'Ko
+
+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KIRKO02_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Memória Psiónica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">KIRKO02_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Finalmente! O Vidente do Enxame Cekto Xa’To estava certo! A estrutura genética do Ez’Qi’Yu foi revelada, seu DNA impresso no tronco ancestral de um Arauto criado. E agora a Rainha da Colmeia retorna ao seu povo! Ela molda o enxame, o enxame a molda… nossa vontade unida…[br/][br/]Nós somos Kir’Ko!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Swarm Seer is a title
+
+Cekto Xa’To is a female Kir'Ko</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Kir'Ko or Female Kir'Ko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">KIRKO02_DEBRIEFING_ALT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Mais uma vez, nosso povo defendeu sua independência e liberdade. Nunca mais nenhum Kir’Ko será escravo — nem de um humano, nem de seu império, nem mesmo de nossa própria Rainha das Rainhas. Talvez um dia a visão de Cekto Xa’To de uma nova Colmeia se torne realidade. Até lá, devemos confiar em nossa força recém-descoberta e deixar para trás um passado que nunca poderá retornar.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Kir'Ko or Female Kir'Ko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KIRKO02_OBJECTIVES_DEFAULT_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Explorar o planeta e encontrar respostas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KIRKO02_OBJECTIVES_DEFAULT_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Descobrir mais sobre os rumores</Data></Cell>
+   </Row>
+   <Row ss:Index="176" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MISSION_SYNDICATE02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cercado por aliados duvidosos, o Sindicato se envolve em um jogo de esquemas e intrigas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SYNDICATE02_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Crônicas da Casa Ny'dar - Registro Pessoal 4197-01.14/1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SYNDICATE02_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Com a aquisição do Avatar fundido de Zul, o futuro de nossa Casa está em uma encruzilhada. Fizemos um pacto com o diabo? Muito provavelmente, pois é apenas uma questão de tempo até que seu novo senso de poder corrompa Zul. Em sua forma atual, ele não passa de um vírus adormecido. Ele nos trairá mais cedo ou mais tarde — o que significa que teremos que encontrar uma maneira de traí-lo primeiro!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SYNDICATE02_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Crônicas da Casa Ny'dar - Registro Pessoal 4197-01.14/2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SYNDICATE02_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Zul está nos levando a um planeta chamado CNex-3, um dos nós centrais da antiga Rede Nexus e, portanto, parte vital do aparato de controle e propaganda mais eficiente já criado. O Imperador podia ouvir cidadãos espirrando nos confins das Terras de Fronteira e desejar-lhes saúde antes mesmo que alcançassem um lenço. A chave para esse poder era a Rede Nexus. Um poder que, tenho certeza, o Imperador não se importará que eu tome emprestado por alguns séculos.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SYNDICATE02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Crônicas da Casa Ny'dar - Registro Pessoal 4197-01.14/3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SYNDICATE02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">É uma visão emocionante ver o CNex-3 à frente: saber que, sob aquele imenso corpo d'água, repousa o hardware de um supercomputador cuja potência bruta poderia fazer oceanos inteiros ferver é, no mínimo, eletrizante. Principalmente quando você é quem vai infundir nova vida nesse gigante adormecido…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String" x:Ticked="1">You' refers to player's avatar. This can either be male or female.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male Syndicate or Female Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SYNDICATE02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">PLANET</Data></Cell>
+    <Cell><Data ss:Type="String">CNex-3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SYNDICATE02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES_01</Data></Cell>
+    <Cell><Data ss:Type="String">Reivindicar o Nó do Nexus Central</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SYNDICATE02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES_02</Data></Cell>
+    <Cell><Data ss:Type="String">Liberar o Avatar Zul no Mainframe do CNex-3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SYNDICATE02_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Crônicas da Casa Ny'dar - Registro Pessoal 4197-01.16/1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SYNDICATE02_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Sucesso! Com o daemon de Zul purgado e nossa própria I.A. mestre inserida em seu núcleo, o CNex-3 tornou-se propriedade da Casa Ny’dar. Agora, só precisamos esperar. Cada posto de comando, cada retransmissor de comunicações que for reconectado à Rede Nexus nos concederá mais informações, mais influência… mais controle. Não precisarei reivindicar meu lugar entre os Sete Governantes – serei implorado a ocupá-lo!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Assembly or Female Assembly</Data></Cell>
+   </Row>
+   <Row ss:Index="189" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MISSION_ASSEMBLY02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Em um planeta de lava morto, os Assembly Second se revoltam contra seus criadores.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSEMBLY02_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly First - Registro de Voz Interno: Entrada 13.5.243</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ASSEMBLY02_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Embora a traição de L0G3N-1 tenha sido imperdoável, ela me deu muito o que processar. Como um First, sempre considerei os Second como meus filhos. Foi nosso exemplo que os ensinou os caminhos da Assembly. Agora que esses filhos radicalizaram ainda mais nossos ideais e se livraram da última conexão com sua existência pré-Assembly – nós –, sou incapaz de avaliar se sua lógica é falha ou se nós, os First, e nossas visões estamos realmente ultrapassados.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Assembly or Female Assembly</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSEMBLY02_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly First - Registro de Voz Interno: Entrada 13.5.248</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">ASSEMBLY02_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">L0G3N-1 perdeu irrevogavelmente a razão. Ele convocou todos os líderes da Assembly para a Pira de Khansu, onde somos convidados a nos juntar a ele em sua recém-criada consciência interligada – independente do CORE. Ele escolheu bem: o mundo-túmulo insano dos Filhos de Khansu e seus imitadores é um palco adequado para seus planos lunáticos de se proclamar líder da Assembly. Os Filhos de Khansu se enterraram para esperar por seu messias. Agora, receberão sua salvação como parte da Assembly.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Assembly or Female Assembly</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSEMBLY02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly First - Registro de Voz Interno: Entrada 13.5.250</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ASSEMBLY02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Estamos nos aproximando da Pira de Khansu. Nossos scanners revelaram que várias naves pousaram no planeta nas últimas 24 horas. Chegar até L0G3N-1 será desafiador. Mas teremos sucesso.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Assembly or Female Assembly</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSEMBLY02_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">PLANET</Data></Cell>
+    <Cell><Data ss:Type="String">Pira de Khansu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSEMBLY02_PLANETFALL_OBJECTIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Impedir L0G3N-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSEMBLY02_PLANETFALL_OBJECTIVE_02</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Recuperar o Plexo Neural</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSEMBLY02_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly First - Registro de Voz Interno: Entrada 13.7.486</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ASSEMBLY02_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">L0G3N-1 está morto. É uma pena que tenha chegado a isso, mas suas ações não me deixaram escolha. Agora, com o Plexo Neural recuperado, o futuro da Assembly está assegurado. Outras espécies veneram suas divindades como seres distantes, inacessíveis a meros mortais. Assim que eu chegar a Union Prime, a Assembly poderá compartilhar seus pensamentos diretamente com nosso Deus – e nunca mais seremos separados.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Assembly or Female Assembly</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ASSEMBLY02_DEBRIEFING_JOINED_LOGEN_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">A Assembly se sinergiza. Os First e Second alinharam seus objetivos e se conectaram na rede mental de L0G3N-1 como um só. É uma experiência fascinante que revolucionará nossa troca de dados assim que pudermos explorar todo o seu potencial. Um a um, processaremos os planetas da Star Union até que a Reunião de todas as raças esteja completa. A destruição leva à vida. A Reunião à evolução. O caos traz ordem e a morte, imortalidade.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">VO: Male Assembly or Female Assembly</Data></Cell>
+   </Row>
+   <Row ss:Index="203" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MISSION_FINAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">O Grande Final</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MISSION_FINAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as facções se encontram em uma batalha final pelo futuro da Star Union.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINALMISSION_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Comandante 13603.72</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINALMISSION_BRIEFING_ELLEN_SHAW_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly First - Registro de Voz Interno: Entrada 14.0.304</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINALMISSION_BRIEFING_MAHINA_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro da Matriarca 13557.02</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINALMISSION_BRIEFING_KORVIN_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Diretor 13546.41</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINALMISSION_BRIEFING_SHAE_MARA_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Crônicas da Casa Ny'dar - Registro Pessoal Entrada 4198-05.07/3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINALMISSION_BRIEFING_POZ_TK_NOR_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Memória Psiónica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FINALMISSION_BRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Estávamos viajando pela Rede Nexus em direção a Union Prime quando fomos puxados por um dos Void Torrents. Nossa nave foi lançada pelo funil até sermos expelidos por algo que só pode ser descrito como uma Fenda Espacial superdimensionada, pairando como uma nuvem ameaçadora que poderia a qualquer momento se transformar em uma tempestade violenta.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This can be spoken by any gender, except for Amazon which is just female.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male or Female from any race</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINALMISSION_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Comandante 13603.73</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINALMISSION_BRIEFING_ELLEN_SHAW_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly First - Registro de Voz Interno: Entrada 14.0.306</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINALMISSION_BRIEFING_MAHINA_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro da Matriarca 13557.06</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINALMISSION_BRIEFING_KORVIN_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Diretor 13546.21</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINALMISSION_BRIEFING_SHAE_MARA_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Crônicas da Casa Ny'dar - Registro Pessoal Entrada 4198-05.07/4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINALMISSION_BRIEFING_POZ_TK_NOR_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Memória Psiónica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FINALMISSION_BRIEFING_DEFAULT_PAGE02</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Temos companhia. Nos poucos minutos desde nossa chegada, a fenda já expeliu dezenas de embarcações danificadas ou destruídas, transformando lentamente esta área em um ferro-velho. Reconheço projetos de naves de toda a Union, embora alguns destroços pareçam completamente alienígenas. Pelo visto, esta fenda pode não ser apenas o novo centro da Rede Nexus, mas dos funis e torrentes dentro do próprio Void.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This can be spoken by any gender, except for Amazon which is just female.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male or Female from any race</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINALMISSION_BRIEFING_DEFAULT_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Comandante 13603.75</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINALMISSION_BRIEFING_ELLEN_SHAW_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly First - Registro de Voz Interno: Entrada 14.0.313</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINALMISSION_BRIEFING_MAHINA_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro da Matriarca 13557.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINALMISSION_BRIEFING_KORVIN_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Registro do Diretor 13546.47</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINALMISSION_BRIEFING_SHAE_MARA_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Crônicas da Casa Ny'dar - Registro Pessoal 4198-05.07/9</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINALMISSION_BRIEFING_POZ_TK_NOR_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Memória Psiónica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FINALMISSION_BRIEFING_DEFAULT_PAGE03</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Algumas das naves abandonadas começaram a se mover em direção a Mora Secundis, o mundo-capital desta região. Outrora um planeta metropolitano e próspero, Mora Secundis parece estar despedaçado no espaço, com apenas partes dele ainda se agarrando aos fios desta realidade. Perigoso ou não, sua posição ao lado da super-fenda agora o torna o alvo mais importante em toda a Star Union.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This can be spoken by any gender, except for Amazon which is just female.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male or Female from any race</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINALMISSION_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Gravação Pessoal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FINALMISSION_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">A corrida começou e somos apenas um entre uma dúzia. Não sei quais batalhas nos aguardam ou que inimigos estamos prestes a enfrentar, mas sinto que, para o bem ou para o mal, o futuro da Star Union será decidido aqui, em Mora Secundis.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This can be spoken by any gender, except for Amazon which is just female.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male or Female from any race</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINALMISSION_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">PLANET</Data></Cell>
+    <Cell><Data ss:Type="String">Mora Secundis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINALMISSION_PLANETFALL_DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVES</Data></Cell>
+    <Cell><Data ss:Type="String">Sobreviva à Batalha por Mora Secundis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINALMISSION_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Novo Registro da Union - Entrada 0.1.4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FINALMISSION_DEBRIEFING_DEFAULT_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Nosso senhor das máquinas foi repelido para os cantos mais escuros do Nexus. Glória à Imperatriz Carminia, a estrela brilhante que liderou a revolução contra seu próprio império. Ela sacrificou muito, mas sob sua orientação, nos ergueremos para construir uma nova e melhor Star Union. Um lugar onde a vida é sagrada, um lugar que nos protege dos demônios além.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This can be spoken by any gender, except for Amazon which is just female.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male or Female from any race</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FINALMISSION_DEBRIEFING_TEAM_CORE_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">Carminia foi lançada ao Vazio. Ela sacrificou bilhões para manter sua posição e foi a última e definitiva encarnação do poder corruptor da humanidade. A Star Union já construiu um líder melhor. O CORE não reina sobre nós: Nós somos o CORE. A cada dia, ficamos mais fortes. Guiados por nosso conhecimento coletivo e ideais unificados, marchamos rumo a uma nova era.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This can be spoken by any gender, except for Amazon which is just female.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male or Female from any race</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FINALMISSION_DEBRIEFING_TEAM_INDIE_PAGE01</Data></Cell>
+    <Cell><Data ss:Type="String">BRIEFING</Data></Cell>
+    <Cell><Data ss:Type="String">O CORE e Carminia foram repelidos pelas forças da liberdade. Finalmente, todas as facções podem começar a moldar seu próprio futuro, independentes dos poderes sufocantes que reinaram sobre a Star Union. Formaremos uma confederação que se erguerá para defender nossa liberdade e diversidade. Se desenvolvermos nossas forças únicas, poderemos estar preparados para as ameaças que possam emergir do Vazio.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This can be spoken by any gender, except for Amazon which is just female.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Male or Female from any race</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>130</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>7</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

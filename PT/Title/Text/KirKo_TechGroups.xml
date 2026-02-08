@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Tom Bird</LastAuthor>
+  <LastSaved>2019-11-19T15:42:02Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15940</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="45" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="235" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="131.5"/>
+   <Column ss:StyleID="s62" ss:Width="198"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="247"/>
+   <Column ss:StyleID="s62" ss:Width="148"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="207"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="153"/>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">GENETICS_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KIRKO_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">GROUP_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Kir'Ko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ONE_WITH_THE_SWARM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Um com o Enxame</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ONE_WITH_THE_SWARM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Escudo do Enxame agora concede um adicional de {Shieldbonus} por {turntime}.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEPLOY_ABYSSIAN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Implantar Abissiano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DEPLOY_ABYSSIAN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Invoca um Abissiano no hexágono alvo durante o combate. A invocação dura até o fim do combate.[br/]Esta unidade possui fortes habilidades Bioquímicas que podem [abilityred]Enclausurar[/abilityred] um alvo em um cimento ceroso.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEALING_SURGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Surto de Cura</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HEALING_SURGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade não-Mecânica alvo é curada em {Healamount}[hp/]. Essa cura pode saltar para unidades amigas próximas dentro de um alcance de {range} hexágonos até {jumps} vezes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DREAM_SHARING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Compartilhamento de Sonhos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DREAM_SHARING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Compartilhar as memórias passadas de nossos grandes guerreiros com os Kir'Ko que lutam na linha de frente os ajuda a evoluir mais rapidamente.[br/][br/]Todas as unidades Kir'Ko ganham {ExperienceIncrease} de experiência em combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRESERVING_THE_FUTURE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Preservando o Futuro</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PRESERVING_THE_FUTURE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As novas gerações são o nosso futuro, então, quanto maior a nova geração, melhor.[br/][br/]Todas as colônias sob seu controle se beneficiam de um aumento de {FoodIncome} de renda [food/].</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACT_OF_RETRIBUTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ato de Retaliação</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ACT_OF_RETRIBUTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Kir'Ko não perdoaram aqueles que um dia os escravizaram e buscarão vingança contra seus antigos opressores.[br/][br/]Unidades amigas causam +{ExtraDamage} de dano a todas as unidades não-Kir'Ko.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACT_OF_RETRIBUTION</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{ExtraDamage} de dano a todas as unidades não-Kir'Ko</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACT_OF_RECONCILIATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ato de Reconciliação</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">ACT_OF_RECONCILIATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Kir'Ko aprenderam a perdoar e acolher seus antigos inimigos como novos aliados.[br/][br/]Todas as colônias sob seu controle recebem {HappinessIncomePeace} [happiness/] para cada Pacto de Não-Agressão com outros jogadores, {HappinessIncomeDefensive}[happiness/] para cada Pacto Defensivo com outros jogadores e {HappinessIncomeAlliance}[happiness/] para cada Aliança com outros jogadores.[br/]Você também recebe {influenceBonus} de renda por turno.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLANETARY_SWARMING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Enxameamento Planetário</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">PLANETARY_SWARMING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Números absolutos irão sobrepujar qualquer oposição. Juntos, somos fortes.[br/][br/]A manutenção de todas as unidades Kir'Ko é reduzida em {ReducedUpkeep}[energy/]. Além disso, todas as unidades Leves custam {ProductionCostReduction}[production/] de produção e [energy/] de energia.[br/][br/][firecol]O custo das unidades nunca pode ser reduzido em mais de 75%.[/firecol][firecol]A manutenção das unidades nunca pode ser reduzida em mais de 50%.[/firecol]</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">PLANETARY_SWARMING</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">{ProductionCostReduction}[production/] + [energy/] de custo para todas as unidades</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIVE_EMBRACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Abraço da Colmeia</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HIVE_EMBRACE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As recompensas de eventos de felicidade são dobradas, e cada colônia não-Kir'Ko que você possui contribui com {InfluenceIncome}[influence/].</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPAWN_EMERGENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Invocar Emergente</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPAWN_EMERGENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Invoca um Kir'Ko Emergente no hexágono alvo. Esta unidade pode se transformar em um Oculto ou Transcendente.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPAWN_EMERGENT</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Um novo Emergente surgiu sob seu controle.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BERSERKER_PHEROMONES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Feromônios Berserkers</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">BERSERKER_PHEROMONES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cura todas as unidades Biológicas e Ciborgues no exército alvo para [hp/] completo, e todo o dano corpo a corpo causado é aumentado em {MeleeDamage} por {Duration}.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BERSERKER_PHEROMONES</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade causa {MeleeDamage} de dano corpo a corpo.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BERSERKER_PHEROMONES</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Feromônios levaram este exército à loucura.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BERSERKER_PHEROMONES</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_STRING</Data></Cell>
+    <Cell><Data ss:Type="String">Suas unidades se regeneraram rapidamente como resultado da exposição a feromônios específicos.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CALL_OF_THE_HIVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Chamado da Colmeia</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CALL_OF_THE_HIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Selecione uma colônia própria. Quando exércitos amigos lutarem no domínio dessa colônia, invoque {AmountUnitsSpawned} Guardiões da Colmeia Kir'Ko para auxiliá-los durante o combate. As unidades invocadas desaparecem ao final do combate.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"><Data ss:Type="String">Changed references from Sector to Owned Colony</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CALL_OF_THE_HIVE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Conseguimos convocar guerreiros extras para defender nossas colônias.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="52.5">
+    <Cell><Data ss:Type="String">CALL_OF_THE_HIVE</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Guardiões da Colmeia Kir'Ko extras foram invocados para ajudar na defesa da colmeia.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"><Data ss:Type="String">Now correctly mentions the Hive Guard units it spawns instead of the Frenzied</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NOXIOUS_BOMBARDMENT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bombardeio Nocivo</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">NOXIOUS_BOMBARDMENT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dano no exército inimigo alvo em {Damage} de seu [hp/] atual e aplica {ResistanceReduction} em todas as resistências por {AmountOfTurns}.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">NOXIOUS_BOMBARDMENT</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Um Bombardeio Nocivo foi lançado com sucesso sobre o exército alvo, causando baixas e enfraquecendo sua resistência a qualquer dano sofrido em combate por {NoxiousBomardmentDuration}.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">NOXIOUS_BOMBARDMENT</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Um Bombardeio Nocivo foi lançado com sucesso sobre o exército alvo, mas o ataque não teve impacto máximo. O gás não foi potente o suficiente, mas ainda assim conseguiu infligir danos leves ao exército inimigo.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">NOXIOUS_BOMBARDMENT</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Um Bombardeio Nocivo foi lançado com sucesso sobre seu exército, causando baixas e enfraquecendo sua resistência a qualquer dano sofrido em combate por {BiochemicalGasStrikeDuration}.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">NOXIOUS_BOMBARDMENT</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Um Bombardeio Nocivo foi lançado com sucesso sobre suas forças, mas suas tropas conseguiram evitar o pior, sofrendo apenas baixas leves.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">NOXIOUS_BOMBARDMENT</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_STRING</Data></Cell>
+    <Cell><Data ss:Type="String">As unidades alvo perderam {damage} de seu [hp/] atual e estão sofrendo {ResistanceReduction} de resistência em todos os canais de dano.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

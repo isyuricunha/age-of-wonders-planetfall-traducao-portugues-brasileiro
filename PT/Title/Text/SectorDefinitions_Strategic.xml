@@ -1,0 +1,866 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Benny Arents</LastAuthor>
+  <LastSaved>2019-09-12T14:50:27Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17625</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="135" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="236.25"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="439.5"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="151.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="188.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="439.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="135" ss:StyleID="s63">
+    <Cell><Data ss:Type="String">SECTORDEFINITIONS_STRATEGIC</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Index="4" ss:AutoFitHeight="0" ss:Height="30.75">
+    <Cell><Data ss:Type="String">HOPPERHOUND_SPAWNER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ninho de Hopperhounds</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure name. Hopperhounds are wildlife.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HOPPERHOUND_SPAWNER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um ninho de Hopperhounds, criaturas viciosas que assolam os mundos pós-colapso da Star Union.[br/]Se negligenciado, as criaturas atacarão colônias e exércitos próximos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">QUARTZITE_SPAWNER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ninho de Quartzites</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure name. Quartzite are wildlife.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">QUARTZITE_SPAWNER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um ninho de Quartzites, formas de vida baseadas em silício com propriedades diferentes dependendo de sua formação rochosa.[br/]Se negligenciado, as criaturas atacarão colônias e exércitos próximos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="33">
+    <Cell><Data ss:Type="String">BEETLE_SPAWNER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ninho de Besouros</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure name. Beetles are wildlife.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45.75">
+    <Cell><Data ss:Type="String">BEETLE_SPAWNER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um ninho de Mega Besouros, criaturas com fortes pinças, ataques bioquímicos e explosões ao morrer.[br/]Se negligenciado, as criaturas atacarão colônias e exércitos próximos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure description. Explosive death rattle means that they explode when killed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PIRATE_SPAWNER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Esconderijo de Piratas</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PIRATE_SPAWNER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esconderijo de homens livres e ex-mercenários, sobrevivendo através do roubo e venda de tecnologia e equipamentos.[br/]Se negligenciado, os piratas atacarão colônias e exércitos próximos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AQUATIC_SPAWNER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ninho Aquático</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Struture name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AQUATIC_SPAWNER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A gentil Octobaleia e a devoradora de barcos Chelus vivem nessas profundezas, ajudando-se mutuamente.[br/]Se negligenciado, as criaturas atacarão colônias e exércitos próximos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUBMARINE_SPAWNER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Base Naval do Império</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Struture name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SUBMARINE_SPAWNER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Submarinos do Império protegem essas águas, atacando quaisquer intrusos detectados em seus radares.[br/]Se negligenciada, os submarinos atacarão colônias e exércitos próximos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s63">
+    <Cell><Data ss:Type="String">WILDLIFE_SPAWNER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Ninho de Vida Selvagem</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Struture name.</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s63">
+    <Cell><Data ss:Type="String">WILDLIFE_SPAWNER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Antes trancados em zoológicos pela Star Union, sua coleção agora faz ninhos aqui após o Colapso.[br/]Se negligenciado, as criaturas atacarão colônias e exércitos próximos.</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Structure description.</Data></Cell>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Index="21" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOUNTAIN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Montanha</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Biome type name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOUNTAIN</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">Uma cadeia de montanhas está presente neste setor.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short biome description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MOUNTAIN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma cadeia de montanhas está presente neste setor. [br/][br/][bulletlist][bullet]Todos os setores de Produção [production/] e Energia [energy/] em Montanhas ganham +1 nível.[/bullet][/bulletlist]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Long biome description with player tips and economy info.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FOREST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Floresta</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Biome type name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FOREST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Há uma área florestada presente neste setor. [br/][br/][bulletlist][bullet]Todos os setores de Produção [production/] e Comida [supply/] em Floresta ganham +1 nível.[/bullet][/bulletlist]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Long biome description with player tips and economy info.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RUINS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ruínas</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Biome type name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RUINS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Antigos vestígios da Star Union ainda estão presentes neste setor. [br/][br/][bulletlist][bullet]Todos os setores de Pesquisa [research/] e Energia [energy/] em Ruínas ganham +1 nível.[/bullet][/bulletlist]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Long biome description with player tips and economy info.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">URBAN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Urbano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">URBAN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Há uma área recentemente urbanizada presente neste setor.[br/][br/]Unidades em setores urbanos aliados recuperam {UrbanHealthRegenAmount} adicional entre turnos estratégicos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">IMPERIAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Imperial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">IMPERIAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tecnologia e infraestrutura preservadas de antes do Cataclismo testemunham a grandeza perdida da Star Union.[br/][br/][bulletlist][bullet]Todos os setores de Pesquisa [research/], Energia [energy/], Alimentos [food/] e Produção [production/] em Imperial ganham +1 nível.[/bullet][/bulletlist]</Data></Cell>
+   </Row>
+   <Row ss:Index="33" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLAINS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Planícies Férteis</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Biome type name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PLAINS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Estas planícies são altamente férteis e possuem uma rica população de vida microscópica. [br/][br/][bulletlist][bullet]Todos os setores de Pesquisa [research/] e Alimentos [supply/] em Planícies Férteis ganham +1 nível.[/bullet][/bulletlist]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Long biome description with player tips and economy info.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COASTAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Costa</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Biome type name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="32.25">
+    <Cell><Data ss:Type="String">COASTAL</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">Setores costeiros são setores de Oceano que fazem fronteira com uma massa de terra. Devido à sua proximidade com a terra, setores costeiros são mais facilmente explorados.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short biome description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">COASTAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Setores costeiros são setores de Oceano que fazem fronteira com uma massa de terra. Devido à sua proximidade com a terra, setores costeiros são mais facilmente explorados. Setores de Costa geram Energia [energy/], Alimentos [supply/] e Conhecimento [research/]. [br/][br/]Melhorias da Colônia:[br/][bulletlist][bullet][titleBrown]{XML_COLONYUPGRADES_STRATEGIC@LEVEL_UP@NAME_WATER}[/titleBrown][/bullet][br/][grey]Pesquisa Necessária: {XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_3_NAME}[/grey][/bulletlist][br/][bulletlist][bullet][titleBrown]{XML_COLONYUPGRADES_STRATEGIC@LEVEL_UP@NAME_WATER_II}[/titleBrown][/bullet][br/][grey]Pesquisa Necessária: {XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_5_NAME}[/grey][/bulletlist]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Long biome description with player tips and economy info.</Data></Cell>
+   </Row>
+   <Row ss:Index="39" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARCADIAN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arcadiano</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Clime type name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ARCADIAN</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">O clima arcadiano é uma natureza intocada e harmoniosa, composta predominantemente por campos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short clime description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ARCADIAN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O clima arcadiano é uma natureza intocada e harmoniosa, composta predominantemente por campos. [br/][br/][bulletlist][bullet]Todos os setores de Alimentos [supply/] e Energia [energy/] em Arcadiano ganham +1 nível.[/bullet][/bulletlist]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Long clime description with player tips and economy info.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARCTIC</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ártico</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Clime type name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARCTIC</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">O clima ártico é uma paisagem coberta de neve com condições rigorosas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short clime description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ARCTIC</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O clima ártico é uma paisagem coberta de neve com condições rigorosas.[br/][br/][bulletlist][bullet]Todos os setores de Pesquisa [research/] e Produção [production/] em Ártico ganham +1 nível.[/bullet][/bulletlist]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Long clime description with player tips and economy info.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARID</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Árido</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Clime type name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARID</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">O clima árido é definido por um calor seco e implacável e uma escassez geral de água.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short clime description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ARID</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O clima árido é definido por um calor seco e implacável e uma escassez geral de água. [br/][br/][bulletlist][bullet]Todos os setores de Energia [energy/] e Produção [production/] em Árido ganham +1 nível.[/bullet][/bulletlist]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Long clime description with player tips and economy info.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FUNGAL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fúngico</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Clime type name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FUNGAL</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">O clima fúngico abriga um crescimento selvagem, resultando em uma área extremamente biodiversa.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short clime description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FUNGAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O clima fúngico abriga um crescimento selvagem, resultando em uma área extremamente biodiversa. [br/][br/][bulletlist][bullet]Todos os setores de Pesquisa [research/] e Alimentos [supply/] em Fúngico ganham +1 nível.[/bullet][/bulletlist]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Long clime description with player tips and economy info.</Data></Cell>
+   </Row>
+   <Row ss:Index="52" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BADLANDS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Vulcânico</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">sector type name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18.75">
+    <Cell><Data ss:Type="String">BADLANDS</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">Setores vulcânicos são terras devastadas hostis com condições de vida severas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short sector description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75.75">
+    <Cell><Data ss:Type="String">BADLANDS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Setores vulcânicos são terras devastadas hostis com condições de vida severas.[br/][br/][negative]Colônias neste setor recebem [abilityred]-8[/abilityred][anger/].[/negative][br/][br/]Pesquisas possíveis:[br/][bulletlist][bullet][titlebrown]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_6_NAME}[/titlebrown][/bullet][br/][indent]Colônias ignoram todas as penalidades econômicas do terreno Vulcânico.[/indent][/bulletlist]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Long sector description with player tips and economy info.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BADLANDS</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{IncomePenalty}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">No translation required</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OCEAN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oceânico</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">sector type name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.25">
+    <Cell><Data ss:Type="String">OCEAN</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">Setores oceânicos são regiões vastas marcadas por uma enorme quantidade de água e profundezas infinitas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short sector description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48.75">
+    <Cell><Data ss:Type="String">OCEAN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Setores oceânicos são regiões vastas marcadas por uma enorme quantidade de água e profundezas infinitas. Setores oceânicos normalmente não oferecem bônus econômicos e não podem ser anexados a uma colônia, exceto se houver uma Costa presente.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Long sector description with player tips and economy info.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FULL_LAVA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lava</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">sector type name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FULL_LAVA</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOUR</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Setores de lava são grandes regiões de lava constantemente quente, que nunca esfria.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short sector description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FULL_LAVA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Setores de lava são grandes regiões de lava constantemente quente, que nunca esfria. Setores de lava não oferecem bônus econômicos e não podem ser anexados a uma colônia.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">sector type name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vazio</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short sector description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOUR</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Setores do Vazio são partes do planeta que desapareceram na dimensão do Vazio.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">sector type name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="34.5">
+    <Cell><Data ss:Type="String">VOID</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Setores do Vazio são partes do planeta que desapareceram na dimensão do Vazio. Setores do Vazio não oferecem bônus econômicos e não podem ser anexados a uma colônia.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short sector description.</Data></Cell>
+   </Row>
+   <Row ss:Index="66" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LAVA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lava</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short sector description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">LAVA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um abismo preenchido por lava atravessa este setor. [br/][br/]Pesquisas possíveis:[br/][bulletlist][bullet][titlebrown]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_6_NAME}[/titlebrown][/bullet][br/][indent]Sua colônia ganha {energy} Energia para cada setor com um abismo de Lava dentro de seu domínio.[/indent][/bulletlist]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Long sector description with player tips and economy info.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RIVER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rio</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Short sector description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RIVER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um rio atravessa este setor. [br/][br/]Pesquisas possíveis:[br/][bulletlist][bullet][titlebrown]{XML_ECONOMY_TECHGROUPS@TECH_TREE@SKILLGROUP_2_5_NAME}[/titlebrown][/bullet][br/][indent]Sua colônia ganha {food} Alimentos para cada setor com um Rio dentro de seu domínio.[/indent][/bulletlist]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Long sector description with player tips and economy info.</Data></Cell>
+   </Row>
+   <Row ss:Index="72" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COLONIZABLE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Localização Potencial para Colônia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COLONIZABLE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este setor é uma localização potencial para fundar uma nova colônia. Fundar uma nova colônia requer uma unidade Colonizadora.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNINHABITABLE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Inabitável</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNINHABITABLE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este setor é inabitável. Você não pode construir uma colônia ou base avançada aqui, nem pode anexar este setor a uma colônia.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALREADY_PROSPECTED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Não é Possível Prospectar</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALREADY_PROSPECTED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este setor não pode ser prospectado para obter recursos extras.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property description.</Data></Cell>
+   </Row>
+   <Row ss:Index="79" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_MEADOWS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pradaria</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_MEADOWS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Pradarias férteis são perfeitas para a produção de alimentos. [br/]Concede {MeadowsSupply} [supply/]Alimento para a colônia à qual está vinculado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property description.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_MEADOWS</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">Escondidas do olho nu, essas 'pradarias' são artificialmente modificadas para serem anormalmente férteis. A produção de alimentos para as novas colônias da Star Union frequentemente começava aqui enquanto instalações de suprimentos maiores ainda estavam sendo construídas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property flavour.</Data></Cell>
+    <Cell><Data ss:Type="String">These fertile meadows seem natural but are artificially made as incredibly fertile as they are via manners invisible to the naked eye, maintained by terratech in the Union's prime these fields are now left to grow unchecked.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_MEADOWS</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">No translation required</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_DELTA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Delta de Rio</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_DELTA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este setor apresenta um Delta de Rio. [br/]Concede {DeltaSupply} [supply/]Alimento para a colônia à qual está vinculado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property description.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_DELTA</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">Os Deltas de Rios foram vitais para o desenvolvimento da civilização, mas com o avanço da civilização, sua importância foi marginalizada. Ainda assim, são terras férteis perfeitas para a agricultura, e colônias menores frequentemente os utilizavam.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property flavour.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_DELTA</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">No translation required</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_GEOTHERMAL_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fenda Geotérmica</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_GEOTHERMAL_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Fendas Geotérmicas contêm abismos de magma fervente, repletos de energia a ser explorada. [br/]Concede {GeothermalEnergy} [energy/]Energia para a colônia à qual está vinculado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property description.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_GEOTHERMAL_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">A energia geotérmica está sempre presente em planetas habitáveis. Às vezes, essa energia violenta irrompe na superfície, criando Fendas Geotérmicas. Recursos ideais de energia natural, essas Fendas são frequentemente usadas para gerar a energia necessária para o funcionamento de colônias próximas da Star Union.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property flavour.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_GEOTHERMAL_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">No translation required</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_HIGHRISE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bairro de Arranha-céus</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_HIGHRISE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os distritos de arranha-céus abrigavam muitos dos cidadãos da Star Union em seus altos blocos residenciais. [br/]Concede +{slot} [Foodslot/], +{slot} [productionslot/], +{slot} [energyslot/] e +{slot} [researchslot/] para a colônia à qual está vinculado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property description.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_HIGHRISE</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">Os blocos residenciais dos distritos de arranha-céus da Star Union abrigavam milhares de cidadãos cada. Foi nesses blocos que a classe média da Star Union vivia, sob o olhar atento do CORE.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property flavour.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_HIGHRISE</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">No translation required</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_TRANSIT_HUB</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Centro de Transporte</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_TRANSIT_HUB</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Centros de Transporte da Star Union são vitais para os esforços logísticos de qualquer colônia. Este setor contém uma quantidade incomumente alta de suprimentos recuperáveis e estruturas logísticas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property description.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_TRANSIT_HUB</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">Centros de Transporte são comuns nos mundos da Star Union, funcionando como centros de logística planetária. A partir desses setores, a alocação e o transporte de recursos são coordenados, e eles funcionam como centros de armazenamento para remessas antes de serem enviadas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property flavour.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_INDUSTRIAL_REFINERY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Distrito de Refinaria Industrial</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_INDUSTRIAL_REFINERY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As Refinarias Industriais eram onde ocorria grande parte da manufatura automatizada da Star Union. Este distrito possui fortes capacidades de produção. Além disso, este setor contém uma refinaria que foi reivindicada pelos Spacers, que a utilizam para refinar combustíveis tradicionais e abastecer seus ataques. [br/]Concede {RefineryIncome} [production/] à colônia à qual está vinculado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property description.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_INDUSTRIAL_REFINERY</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">Os combustíveis tradicionais sempre mantiveram certo grau de uso em maquinário pesado na Star Union. Após o Cataclismo, os Spacers se tornaram os principais consumidores desses combustíveis, usando-os para abastecer seus veículos enquanto lutavam por recursos em seus mundos isolados.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property flavour.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_INDUSTRIAL_REFINERY</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">No translation required</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_SUNKEN_DISTRICT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Distrito Submerso</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_SUNKEN_DISTRICT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este setor já foi um próspero distrito colonial da Star Union, antes de ser reabsorvido pelo mar.[br/]Concede {SunkenDistrictResearch} [research/] à colônia à qual está vinculado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property description.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_SUNKEN_DISTRICT</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">Os distritos da Star Union se espalhavam por seus mundos. Para otimizar o uso do espaço, certos setores foram drenados para permitir a urbanização. Agora que a terra não é mais mantida, esses distritos estão mais uma vez à mercê do mar, e as riquezas que o distrito já conteve foram levadas pela maré.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property flavour.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_SUNKEN_DISTRICT</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">No translation required</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_REEF</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Recife</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_REEF</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este setor contém um recife, uma boa fonte de alimento e um local privilegiado para a reprodução e nidificação da vida selvagem. [br/]Concede {ReefFoodIncome} [supply/] à colônia à qual está vinculado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property description.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_REEF</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">Recifes ainda são raros, mesmo em mundos com oceanos que abrigam vida. Onde quer que sejam encontrados, no entanto, são focos de vida selvagem, tornando-os fontes primárias de alimento para colônias próximas da Star Union.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property flavour.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_REEF</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">No translation required</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_TECTONIC_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fenda Tectônica</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_TECTONIC_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este setor contém uma fenda tectônica pela qual a energia geotérmica do núcleo do planeta vaza para o oceano.[br/] Concede {RiftIncome} [energy/] à colônia à qual está vinculado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property description.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_TECTONIC_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">Fendas submarinas são formadas nas bordas de placas tectônicas e são marcadas por atividade magmática. O calor resultante que vaza dessas fendas vem diretamente do núcleo do planeta e é praticamente inesgotável, tornando-as uma ótima fonte para a coleta de energia geotérmica.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property flavour.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_TECTONIC_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">No translation required</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_QUARTZITE_CRYSTALS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Campo de Cristais de Quartzito</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_QUARTZITE_CRYSTALS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Abaixo desses campos existem túneis intermináveis onde os Quartzitos escavam os minerais que usam como sustento e os trazem à superfície. Esses campos sempre foram alvos prioritários para operações de mineração da Star Union.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property description.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_QUARTZITE_CRYSTALS</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">Um subproduto útil do ciclo de vida dos Quartzitos é a formação de cristais de Quartzito, que crescem no corpo dos Quartzitos e são preenchidos com energia absorvida dos minerais que consomem. Esses cristais são secretados do corpo e espalhados por seus territórios para servir como fonte de alimento no futuro. Eles podem ser encontrados em vastas redes de túneis subterrâneos em regiões de Quartzitos, às vezes se fundindo e crescendo em um aglomerado de cristais que rompe a superfície.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property flavour.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_TRANSMISSION_TOWER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Distrito de Comunicações</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_TRANSMISSION_TOWER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um Distrito de Comunicações contém enormes torres de transmissão que eram usadas para transmitir propaganda e todas as outras comunicações no planeta. Ele também interceptava toda comunicação para processamento pelo CORE. Informações de todos os aspectos da Star Union eram armazenadas aqui e podiam ser recuperadas.[br/] Concede {CommunicationKnowledge} [research/] à colônia à qual está vinculado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property description.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_TRANSMISSION_TOWER</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">As torres de transmissão eram essenciais para o funcionamento da camada civil do Nexus. Todas as transmissões pelo éter passavam por essas torres, sob o olhar atento do CORE.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property flavour.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_TRANSMISSION_TOWER</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">No translation required</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_PARAGON_TRAINING_FACILITY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Distrito de Treinamento Paragon</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_PARAGON_TRAINING_FACILITY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este distrito já foi o principal centro de treinamento da Vanguard da Star Union. Desde o Cataclismo, serviu apenas para reforçar o orgulho militar dos Paragon. [br/]Concede {TrainingIncome} [research/] à colônia à qual está vinculado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property description.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_PARAGON_TRAINING_FACILITY</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">Durante o auge da Star Union, esses distritos de treinamento estavam presentes na maioria de seus mundos, formando novos soldados para a Vanguard. Agora, as instalações de treinamento dentro desses distritos funcionam pouco mais do que troféus para os lordes Paragon, mas um líder ambicioso pode fazer bom uso dessas instalações.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property flavour.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_PARAGON_TRAINING_FACILITY</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">No translation required</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_CELESTIAN_ARTIFACT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sítio de Escavação de Artefatos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_CELESTIAN_ARTIFACT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Vários artefatos podem ser encontrados neste setor, incentivando a comunidade de pesquisa.[br/]Concede {DigSiteResearch} à colônia à qual está vinculado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property description.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_CELESTIAN_ARTIFACT</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">Durante o domínio da Star Union, artefatos com marcas Celestianas foram descobertos por todo o seu território. Alguns arqueólogos teorizaram que esses poderiam ser provas de que essa civilização 'Celestiana' é mais antiga que a própria Star Union, mas essas teorias foram rapidamente silenciadas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property flavour.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_CELESTIAN_ARTIFACT</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">No translation required</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_FACTORY_COMPLEX</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Complexo Industrial</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_FACTORY_COMPLEX</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Complexos Industriais como esses são comumente encontrados nos remanescentes da Star Union. Eles produziam grande parte dos bens da União, tanto para os militares quanto para os civis.[br/]Concede {FactoryComplexProduction} [production/] à colônia à qual está vinculado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property description.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_FACTORY_COMPLEX</Data></Cell>
+    <Cell><Data ss:Type="String">FLAVOUR</Data></Cell>
+    <Cell><Data ss:Type="String">Os Complexos Industriais não eram de propriedade direta das muitas megacorporações da Star Union. Em vez disso, esses complexos eram estabelecidos por governadores locais para uso por corporações menores, embora muitos deles acabassem se tornando meras extensões dos interesses de uma megacorporação.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sector property flavour.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_SECTOR_FACTORY_COMPLEX</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">No translation required</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>16</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>30</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

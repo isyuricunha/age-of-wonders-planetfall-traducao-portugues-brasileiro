@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2019-05-22T15:00:37Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17025</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="38" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="142.5"/>
+   <Column ss:StyleID="s62" ss:Width="84.75"/>
+   <Column ss:StyleID="s62" ss:Width="278.25"/>
+   <Column ss:StyleID="s62" ss:Width="144.75"/>
+   <Column ss:StyleID="s62" ss:Width="176.25"/>
+   <Column ss:StyleID="s62" ss:Width="117.75"/>
+   <Column ss:StyleID="s62" ss:Width="278.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SPECIES_EMPIRE</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_SINGULAR</Data></Cell>
+    <Cell><Data ss:Type="String">Paragão</Data></Cell>
+   </Row>
+   <Row ss:Index="5" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPERIAL_TROOPER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Soldado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="180">
+    <Cell><Data ss:Type="String">IMPERIAL_TROOPER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“A colônia está agitada com rumores. Paragões soldados chegam, exigindo tributos. Os tesouros que levam para o Star Hold, onde a elite dos Paragões decide como dividir os espólios restantes de nossas comunidades. Milhares estão passando fome. Não temos opção senão fugir para o interior com apenas restos de máquinas e armaduras. Como podemos nos revoltar quando até as armas de longo alcance de seus soldados mais básicos nos abatem? Seus implantes cibernéticos os mantêm em condição física perfeita enquanto nós passamos fome. Estamos destinados a retornar à selvageria e vagar por este mundo como nômades?”— Cully Day, Civil, “RV-3504H: Interpretação de Lore Oral”</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Edit: "How can we riot against even their most basic soldier whose range weapons cut us down?" -&gt; "How can we riot when even their most basic soldier's ranged weapons cut us down?"</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPERIAL_GUARD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Guarda</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell><Data ss:Type="String">IMPERIAL_GUARD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Ouça, criança. O vovô do papai se lembrava da Star Union. Uma época de deuses e riqueza. Vejo você olhando para a colônia deles, com aquelas luzes estranhas. Cuidado! Onde os deuses sonham, seus guardas vigiam. Os mesmos guardas que vigiavam na era da abundância. Antes seus olhos eram brilhantes como os seus, pequenina, mas agora são órbitas vazias. Se for lá em busca de tesouros, tudo o que encontrará é a morte. Não provoque os Paragões — os deuses caídos — ou seus servos. Nós, simples catadores, não podemos derrotar seus poderes. Você não pode matar aqueles que já estão mortos.”— Lyra Day, Nômade, “RV-6678H: Interpretação de Lore Oral”</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Edit: added "the" before "fallen"</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPERIAL_HEAVY_TROOPER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Soldado Pesado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell><Data ss:Type="String">IMPERIAL_HEAVY_TROOPER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Se você vai se infiltrar no complexo dos Paragões, vai precisar de palavras-chave para passar pelos Soldados Pesados. Esses antigos andadores são guardiões de sua colônia dos sonhos. Eles só obedecem aos Tecnoprofetas. Se nossa inteligência estiver correta, as senhas desta semana estão nos seus dataloggers. Se a inteligência não estiver correta, é melhor correr. Soldados Pesados são firmes e determinados, então truques mentais de desorientação não vão afetá-los. Você não está equipado para resistir a um golpe de suas metralhadoras pesadas ou de seus foguetes demolidores de ombro.”— Chemish Abbadon, “RV-6544F: Aventuras em Furtividade”</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">added "affect" in the sentence "guild mind-tricks won’t them"</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARAGON_FANATIC</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fanático</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="180">
+    <Cell><Data ss:Type="String">PARAGON_FANATIC</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Vocês nos chamam de Fanáticos, mas os Tecnoprofetas nos ordenaram. Somos crentes. Pregamos a imortalidade dos Paragões. Esperamos pela vida eterna e aguardamos o retorno do único e verdadeiro NÚCLEO. Há muito tempo, nossos profetas ofereceram imortalidade a todo o mundo, mas no final, os indignos abraçaram a loucura e se mataram. Nossa missão enxerga além da decadência do esquecimento. Nós sobrecarregamos a alma imperial, desbloqueando o potencial naqueles que abraçam a tecnologia Paragão. Receba cada modificação corporal do pacto, levando à vida eterna. Você também pode se juntar à nossa comunhão imortal.”— Fan Pree Churr, “RV-9947R: Prosélitos Paragões”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PARAGON_TECHNO_PROPHET</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tecnoprofeta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell><Data ss:Type="String">PARAGON_TECHNO_PROPHET</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“O louco me chamou de um púlpito flutuante. ‘Sempre foi assim!’, ele gritou. ‘Profetas lideram seu povo caído. Aqui construímos uma colônia de sonhos, enquanto os céus queimam o mundo com fogo. Apenas alguns implantes! Seus amigos estão felizes agora. Junte-se a nós! Pare de vagar por este mundo como um dos caídos.’ Eu permaneci escondido, preferindo meu estado caído às expressões vazias e babonas deixadas nos rostos dos meus companheiros de viagem depois que o Tecnoprofeta e sua colônia de servos Paragões os acolheram no paraíso.”— Mah Reg’Nib, “RV-22299X: Destinos de Fantasia Desolados”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPERIAL_SUBMARINE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Submarino Imperial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell><Data ss:Type="String">IMPERIAL_SUBMARINE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Em um barril de maçãs, flutuando no mar, quase sem maçãs, eu colidi com uma caixa de metal que se projetava da superfície da água. No topo havia uma escotilha, então entrei. Era um Submarino Imperial Revenant, quase invisível na água. Sua railgun e drone beemote estavam intactos, mas não programados para explodir barris de maçãs. A tripulação estava quase toda com defeito, então o submarino estava navegando em círculos. Depois de executar alguns códigos imperiais de comando convenientes, convenci-os de que eu deveria estar no comando e navegamos para um local seguro.”— Mah Reg’Nib, “RV-22303X: Destinos de Fantasia Desolados”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INFERNO_SUBMARINE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Submarino Inferno Imperial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell><Data ss:Type="String">INFERNO_SUBMARINE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Vim para o oceano porque a água apaga o fogo. Quando criança, zelotes prometeicos incendiaram a vila dos meus pais. Eles afirmavam que o fogo purificaria o mundo. As chamas me roubaram tudo o que eu amava. Pensei que encontraria segurança entre as ondas. Então vi o brilho avermelhado de um Submarino Inferno Imperial Revenant. Sem explicação, ele emergiu, lançando projéteis infernais em todos os navios. As chamas penetrantes consumiram todos eles. O fogo se espalhou pela superfície da água. Não há escapatória do fogo dos zelotes.”— Capitão Vicer Roundy, “RV-4562C: Impérios de Cinzas”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BEHEMOTH_SUBMARINE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Submarino Beemote Imperial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="180">
+    <Cell><Data ss:Type="String">BEHEMOTH_SUBMARINE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Quando a Star Union caiu, a frota imperial também mergulhou no caos. Aqui na colônia Harborhome, até ouvimos falar de Submarinos Beemote inteiros que se tornaram renegados. A tripulação ciborgue, antes aprimorada por seus implantes cibernéticos, está apresentando defeitos. O que resta é uma espécie de morto-vivo robótico incapaz de distinguir amigo de inimigo. Esses enormes submarinos furtivos antes auxiliavam navios com nanorrobôs de reparo. Agora, é tão provável que os destruam com drones armados ou sua railgun. Precisamos encontrar uma maneira de recuperar esses ativos navais.”— Lars ‘O Almirante’ Robinson, “RV-57688M: Restaurando a Ordem no Mar”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPERIAL_DRAGON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Libélula Imperial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="180">
+    <Cell><Data ss:Type="String">IMPERIAL_DRAGON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Os Tecnoprofetas previram que a destruição viria dos céus. Tentei avisar o povo, mas eles riram de mim e me expulsaram de sua colônia. Então o profeta soltou as Libélulas Imperiais. Elas despejaram uma chuva de destruição sobre os mesmos tolos que riram. Sob suas asas, um enxame de vespas furiosas atacou aqueles que ergueram suas armas. Nuvens justas de dardos flamejantes rasgaram suas casas, explodindo com um estrondo ensurdecedor. Seus falsos templos desabaram. As Libélulas Imperiais apagaram sua blasfêmia. O riso cessou.”— Fanático Chul’l Ho, “RV-3390R: Aviso Público”</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Edit: added comma after "wings"</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPERIAL_DOMINATOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Andador Imperial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="180">
+    <Cell><Data ss:Type="String">IMPERIAL_DOMINATOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Não podemos ignorar o profeta louco que prevê destruição. Ele fala de um destino críptico, mas seus deuses são armas terríveis. Ele prevê que elas devastarão a colônia e que apenas o melancólico Imperial Walker encontrará lar ali. Eu já vi o que os Paragons chamam de Imperial Walker. É uma metralhadora móvel e lançador de mísseis Arc. Quem se importa se os Paragons afirmam que o Imperial Walker exala vespas mortais?! Balas são letais, não importa como você as chame. Não temos recursos para lutar contra essas armas. Devemos nos esconder, não provocá-las.” — Guarda, Darryl Whitewall, “RV-4555D: Pare de Tentar o Destino”</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Edit: arc -&gt; Arc</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPERIAL_STALLION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Buggy Imperial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell><Data ss:Type="String">IMPERIAL_STALLION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Cuidado, rapazes! Houve uma época em que os Paragons tinham o melhor equipamento que o dinheiro podia comprar. Não presumam que só porque os Paragons são tecnicamente insanos suas armas não vão matar vocês tão mortalmente quanto poderiam quando eram sãos. Aquele veículo de assalto, o Buggy Imperial, ainda é letal. Ele pode disparar uma devastadora Explosão de Laser. Também possui uma metralhadora de Laser repetidora. Avancem com cautela. Se tivermos sorte, conseguiremos convencê-los a vender suas armas para nós, e teremos seu poder ao nosso lado.” — Capitã Addria Alethra, “RV-4456M: Encontros”</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Modified names of the weaponry</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPERIAL_LASER_TANK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Beemote Imperial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="180">
+    <Cell><Data ss:Type="String">IMPERIAL_LASER_TANK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Os Paragons eram a elite do império nos dias da Star Union. Eles escolhiam nomes sinistros para seus armamentos, muitas vezes pegando emprestado de antigos livros de religião e mitologia. Depois, equipavam seus equipamentos com dispositivos que honravam seus deuses, pois acreditavam que isso inspirava temor nos cidadãos comuns. No caso do lendário Beemote, seus projéteis galvanizados têm uma capacidade incrível de obliterar maquinário inimigo — uma gloriosa homenagem à sua fé. Dito isso, no fundo é apenas um tanque poderoso com torre e canhão.” — Quinlinn T. Ortivexis, “RV-4388H: Paralelos Históricos: O Passado Distorcido da Humanidade”</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Edit: arc -&gt; Arc</Data></Cell>
+   </Row>
+   <Row ss:Index="30" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPERIAL_APC</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">APC Imperial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">IMPERIAL_APC</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Não era segredo. O velho Sargento sempre designava soldados que ele achava que não tinham potencial para o APC Imperial. Não estou dizendo que o Sargento merecia a pegadinha, mas quando Malarkin recebeu a missão, ele queria vingança. A velha relíquia resistente se defende bem, mas é desajeitada. Sem alguns drones de apoio, a coisa não vai ganhar o respeito de outros soldados. Sua arma não é ruim, mas é tecnologia antiga. Em um papel de apoio, a coisa é bem capaz. Acho que é por isso que ainda os dirigimos.” — Tenente Lenny Sasse, “RV-334M: Conselho de Guerra do Ensign Arnie Malarkin”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPERIAL_AUTO_TORPEDO</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Autotorpedo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">IMPERIAL_AUTO_TORPEDO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Não dá para disparar uma bomba contra um inimigo na água. Mísseis caem na água e pronto, se foram. Balas perdem a força! Chamamos de míssil se voa pelo ar, não importa a carga. Seja incendiária ou explosiva, um míssil que viaja pela água é chamado de torpedo!” — Sargento Charlie “Tugboat” Chase, “RV-6757M: Explosivos e Seus Mecanismos de Entrega.”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BLAZE_AUTO_TORPEDO</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Autotorpedo Incendiário</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARAGON_HEAVY_DEFENSE_TURRET</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Torre Pesada Warden</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PARAGON_HEAVY_DEFENSE_TURRET</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Torres Pesadas Warden são frequentemente posicionadas perto de pontos defensivos para proteger a Elite Paragon.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARAGON_LIGHT_DEFENSE_TURRET</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Torre Leve Peacekeeper</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PARAGON_LIGHT_DEFENSE_TURRET</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Torres Leves Peacekeeper são frequentemente usadas para esforços de supressão pelo CORE e pela Elite Paragon.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>6</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>9</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

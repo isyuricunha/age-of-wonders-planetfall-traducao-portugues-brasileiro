@@ -1,0 +1,1366 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Benny Arents</Author>
+  <LastAuthor>Joshua Crowder</LastAuthor>
+  <Created>2019-09-10T13:07:39Z</Created>
+  <LastSaved>2019-09-23T10:53:02Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7308</WindowHeight>
+  <WindowWidth>23040</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="258" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.6" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="169.8"/>
+   <Column ss:StyleID="s62" ss:Width="156"/>
+   <Column ss:StyleID="s62" ss:Width="390.59999999999997"/>
+   <Column ss:StyleID="s62" ss:Width="150"/>
+   <Column ss:StyleID="s62" ss:Width="274.8"/>
+   <Column ss:StyleID="s62" ss:Width="120.60000000000001"/>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">HERITOR_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Index="4" ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HERITOR_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade Herdeira</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HERITOR_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é considerada uma Unidade Herdeira e está protegida contra Operações e habilidades Herdeiras ofensivas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Heritor is the name of the secret technology in this DLC</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXTRA_ESSENCE_CHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Carga de Essência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EXTRA_ESSENCE_CHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é capaz de carregar {Charges} [abilityblue]Carga de Essência[essencecharge/] adicional [/abilityblue] por pilha.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Essence Charges are like 'lifeforce' that is stolen from enemies. These Essence Charges can be spent as a resource for some abilities.  {Charges} is always 1.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEVOUR_ESSENCE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Devorar Essência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEVOUR_ESSENCE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Extrair essência à força do alvo e se alimentar dela.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Essence = lifeforce</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEVOUR_ESSENCE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">Cada acerto cura esta unidade em {LifeSteal}[hp/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MIND_POSSESSION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Possessão Mental</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MIND_POSSESSION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tentar assumir o controle de uma unidade alvo não-Mente-Vazia e não-Herói. Se bem-sucedido, esta unidade é transferida e se torna a unidade possuída, mesmo após o combate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This ability mind  controls a unit, when successful, the casting unit disappears 'into' the possessed unit, taking them over, like a ghost in Ghostbusters.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MIND_POSSESSION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">{MindPossessionChance}[strengthentropy/]% de chance de [abilityred]Controlar a Mente[/abilityred] de uma unidade inimiga não-Mente-Vazia, não-Herói, de nível I ou II. Em caso de falha, a unidade é [abilityred]Atordoada[/abilityred] por {StunDuration}[turn/] em vez disso.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MIND_POSSESSION</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Possuída </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MIND_POSSESSION</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade foi possuída por uma mente Es'Teq ancestral e mudou sua lealdade. É imune a efeitos de moral.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Es'Teq Minds are the spirits of ancient units the Heritor is based on. This spirit can go inside of units to various effects.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESSENCE_DISCIPLE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Discípulo da Essência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ESSENCE_DISCIPLE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade ganha +{ExperienceBonus}[xp/] no final do combate para cada pilha de [abilityblue]Carga de Essência[essencecharge/] que possui.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DRAINED_LEVELUP</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String"> +{damage}[damageentropy/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mentions of Entropy are referring to a new damage channel that was added; Entropy damage. Entropy damage is caused by stealing the energy from something.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DRAINED_LEVELUP</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade causa +{damage}[damageentropy/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ESTEK_SIPHON</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sifão Es'Teq</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Es'Teq is the name of the religious order that the Heritor were based on. All the technology of the Heritor can be traced back to the Es'Teq.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ESTEK_SIPHON</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Conectar-se à Essência de um inimigo alvo, drenando-o e causando dano de entropia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEVOTION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Devoção</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DEVOTION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Transfere [abilityblue][essencecharge/]Cargas de Essência[/abilityblue] do conjurador para a unidade aliada alvo, restaurando seus pontos de ação. Apenas o número necessário de cargas será transferido.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">All mentions of charges refer to Essence Charges.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESSENCE_SHIELD</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Escudo de Essência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ESSENCE_SHIELD</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade converte todos os seus [abilityblue][essencecharge/]Cargas de Essência[/abilityblue] e os concede como escudos à unidade alvo. Essa unidade recebe {shields}[shield/] por {turns}[turn/] para cada [abilityblue][essencecharge/]Carga de Essência[/abilityblue] consumida.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESSENCE_SHIELD</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade possui {Baseshield}[shield/] mais {shield}[shield/] adicionais por pilha.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESSENCE_GUARDIAN</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Guardião de Essência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ESSENCE_GUARDIAN</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade pode carregar uma [abilityblue][essencecharge/]Carga de Essência[/abilityblue] adicional.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESSENCE_PULSE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pulso Drenante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ESSENCE_PULSE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade dispara um pulso entrópico no alvo, causando dano e drenando sua essência.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ESSENCE_PULSE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">{damage}[damageentropy/] de dano por pilha de [abilityblue][essencecharge/]Carga de Essência[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONNECT_COMMUNION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Conexão de Comunhão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CONNECT_COMMUNION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade se conecta a uma unidade aliada alvo que não pode formar conexões sozinha.[br/]Ambas as unidades ganham [abilityblue]Comunhão[/abilityblue], o que permite que sejam alvo de certas habilidades.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Connections and Essence Links are connecting two units together in combat, so they are both affected by abilities that targets units linked in this way.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BREAK_COMMUNION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Quebrar Comunhão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BREAK_COMMUNION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quebra todos os vínculos de Essência que conectam esta unidade a outras unidades através de [abilityblue]Comunhão[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMMUNION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Comunhão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COMMUNION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está vinculada a outra unidade, permitindo que sejam alvo de certas habilidades.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMMUNION</Data></Cell>
+    <Cell><Data ss:Type="String">ESTABLISH</Data></Cell>
+    <Cell><Data ss:Type="String">Comunhão Estabelecida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMMUNION</Data></Cell>
+    <Cell><Data ss:Type="String">BROKEN</Data></Cell>
+    <Cell><Data ss:Type="String">Comunhão Desfeita</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COMMUNION</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade pode se conectar a {links} unidades com [abilityblue]Comunhão[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RITE_OF_VITALITY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sacramento da Vitalidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RITE_OF_VITALITY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade consome todas as [abilityblue][essencecharge/]Cargas de Essência[/abilityblue], curando todas as unidades vinculadas e a própria Arca através de [abilityblue]Comunhão[/abilityblue] por {hp}[hp/] mais {hp}[hp/] para cada [abilityblue][essencecharge/]Carga de Essência[/abilityblue] consumida.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RITE_OF_DECAY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sacramento da Decadência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RITE_OF_DECAY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade consome todas as [abilityblue][essencecharge/]Cargas de Essência[/abilityblue]. Unidades ligadas através de [abilityblue]Comunhão[/abilityblue] e a própria Arca causam {damage}%[damageEntropy/] adicionais por carga consumida por {turn}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RITE_OF_DECAY</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade causa {damage}%[damageentropy/] por acúmulo de Sacramento da Decadência.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESSENCE_BATTERY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bateria de Essência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ESSENCE_BATTERY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade pode ter uma [abilityblue][essencecharge/]Carga de Essência[/abilityblue] adicional. No início de cada turno em Combate Tático, esta unidade ganha {EssenceCharge}[abilityblue][essencecharge/]Carga de Essência[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESSENCE_DRAIN</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dreno de Essência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESSENCE_DRAIN</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade drena Essência à força de uma unidade inimiga alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESTEQ_JUDGEMENT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Julgamento Es'Teq</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ESTEQ_JUDGEMENT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Consome todas as [abilityblue][essencecharge/]Cargas de Essência[/abilityblue] e libera uma poderosa explosão de Essência, danificando todas as unidades inimigas em um raio de {range} hexes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ESTEQ_JUDGEMENT</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Causa +{ExtraDamage}[DamageEntropy/] por [abilityblue][essencecharge/]Carga de Essência[/abilityblue] consumida e aplica {stack} acúmulos de [abilityred]Decadência Entrópica[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MIND_PUPPET</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fantoche Mental</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MIND_PUPPET</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Consome todas as [abilityblue][essencecharge/]Cargas de Essência[/abilityblue] para ressuscitar uma unidade alvo não-Herói, não-tier 4 até o fim do combate. A unidade ressuscita com +{healing}%[hp/] para cada [abilityblue][essencecharge/]Carga de Essência[/abilityblue] consumida.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MIND_PUPPET</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é o receptáculo de uma mente Es'Teq ancestral.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MACHINE_RUIN</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Máquina das Ruínas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MACHINE_RUIN</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Consome até 5 [essencecharge/] [abilityblue]Cargas de Essência[/abilityblue] e libera uma explosão disruptiva de Essência para tentar desativar unidades Mecânicas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mechanical as in a tank, aircraft or other type of vehicle, including robots etc.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MACHINE_RUIN</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tem uma chance de {chance}[strengthentropy/] de força para aplicar [abilityred]Atordoado[/abilityred] por {turn}[turn/] para cada [abilityblue][essencecharge/]Carga de Essência[/abilityblue] consumida.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Stunned as in, unable to move or act.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESSENCE_MASTER</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mestre da Essência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ESSENCE_MASTER</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade pode carregar duas [abilityblue][essencecharge/]Cargas de Essência[/abilityblue] adicionais.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESTEQ_ENHANCEMENTS</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aprimoramentos Es'Teq</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ESTEQ_ENHANCEMENTS</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todos os ataques realizados por esta unidade têm uma chance de {strength}[strengthEntropy/] de força para aplicar [abilityred]Dreno de Energia[/abilityred] ao alvo e conceder uma [abilityblue][essencecharge/]Carga de Essência[/abilityblue] a esta unidade.[br/][br/]Este buff dura até o fim do próximo Combate Tático.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SIPHONER_STAFF_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arma: Cajado Sifonador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LINK_SHARD_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arma: Fragmento de Ligação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIGH_LORD_VEHICLE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Veículo: Alto Senhor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESTEQ_GAUNTLET</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Manopla Es'Teq</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ESTEQ_GAUNTLET</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todos os ataques corpo a corpo realizados pela unidade agora têm uma chance de {EnergyDrainChance}[strengthentropy/] de força para aplicar [abilityred]Drenagem de Energia[/abilityred] ({EnergyDrainSingleAttack}[strengthentropy/] de chance de força em ataques repetidos). Em caso de sucesso, o conjurador ganha uma [abilityblue][essencecharge/]Carga de Essência[/abilityblue], aumentando o dano causado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESTEQ_GAUNTLET</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Expulsão de Essência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ESTEQ_GAUNTLET</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Consome todas as [abilityblue][essencecharge/]Cargas de Essência[/abilityblue], causando um dano extra de {damage}[damageentropy/] a todas as unidades adjacentes para cada [abilityblue][essencecharge/]Carga de Essência[/abilityblue] consumida e as atordoa.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESTEQ_CONFISCATOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Confiscador Es'Teq</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ESTEQ_CONFISCATOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todos os ataques à distância realizados pela unidade agora têm uma chance de {EnergyDrainChance}[strengthentropy/] de força para aplicar [abilityred]Drenagem de Energia[/abilityred] ({EnergyDrainSingleAttack}[strengthentropy/] de chance de força em ataques repetidos). Em caso de sucesso, o conjurador ganha uma [abilityblue][essencecharge/]Carga de Essência[/abilityblue], aumentando o dano.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Energy Drain is the status effect associated with draining the lifeforce from an enemy and giving it to yourself. They get 'Energy Drain' and you get 'Essence Charge'</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESTEQ_CONFISCATOR</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade ganha {Accuracy}[accuracy/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESTEQ_CONFISCATOR</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Foco de Essência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ESTEQ_CONFISCATOR</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Consome todas as [abilityblue][essencecharge/]Cargas de Essência[/abilityblue], colocando a unidade em um estado de foco supremo, concedendo-lhe {Accuracy}%[accuracy/] por {turns}[turn/] para cada [abilityblue][essencecharge/]Carga de Essência[/abilityblue] consumida.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Any mention of Essence is regarding to using the 'lifeforce' mentioned previously</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESTEQ_PROTECTOR_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Encarnação Protetora Es'Teq</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">ESTEQ_PROTECTOR_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sempre que esta unidade for atingida por um ataque, há uma chance de {EnergyDrainChance}[strengthentropy/] de força para aplicar [abilityred]Drenagem de Energia[/abilityred] ao atacante. Se bem-sucedido, esta unidade ganha uma [abilityblue][essencecharge/]Carga de Essência[/abilityblue].[br/][br/][productioncol]Apenas um tipo de Encarnação pode estar ativo a qualquer momento.[/productioncol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Incarnations in this context are the spirits of the Es'Teq that are reborn into other units by taking their 'spirit' and putting that into that unit, thus in a way 'reincarnating' them. This can be seen as something religious for them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESTEQ_PROTECTOR_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Barreira de Essência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ESTEQ_PROTECTOR_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Consome todas as [abilityblue][essencecharge/]Cargas de Essência[/abilityblue]. A unidade forma uma barreira ao redor de si e de todos os hexágonos adjacentes; a unidade e todos os aliados dentro da barreira ganham +{shield}[shield/] por [abilityblue][essencecharge/]Carga de Essência[/abilityblue] consumida para criar a barreira. Após usar esta habilidade, a unidade entra no Modo Defensivo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESTEQ_ACOLYTE_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Encarnação Acólita Es'Teq</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ESTEQ_ACOLYTE_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade ganha {morale}[happiness/] para cada [abilityblue][essencecharge/]Carga de Essência[/abilityblue] que carrega.[br/][br/][productioncol]Apenas um tipo de Encarnação pode estar ativo a qualquer momento.[/productioncol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ESTEQ_ACOLYTE_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade ganha {morale}[happiness/] para cada [abilityblue][essencecharge/]Carga de Essência[/abilityblue] que carrega.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESTEQ_ACOLYTE_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Transferência de Essência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ESTEQ_ACOLYTE_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade alvo tem uma chance de {strength}[strengthentropy/] de força para ganhar {EntropyStackAmount} acúmulos de [abilityred]Drenagem de Energia[/abilityred], e o conjurador ganha {buffstacks} acúmulos de [abilityblue][essencecharge/]Carga de Essência[/abilityblue]. Isso sempre é bem-sucedido contra alvos aliados.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPOWERED_DRAINED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Drenado Empoderado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EMPOWERED_DRAINED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Drenado ganha [abilityblue]Resurgência[/abilityblue], permitindo que retorne dos mortos após o combate. Além disso, sua habilidade de Possessão Mental é aprimorada para Domínio Mental, que funciona em unidades de nível III.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EMPOWERED_DRAINED</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String"> +{modifierDamage}[damageentropy/] para cada [abilityblue][essencecharge/]Carga de Essência[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPOWERED_DRAINED</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Domínio Mental</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EMPOWERED_DRAINED</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{MindPossessionChance}[strengthentropy/]% de chance de [abilityred]Controlar a Mente[/abilityred] de uma unidade inimiga não-Mente, não-herói, de nível I, II ou III. Em caso de falha, a unidade é [abilityred]Atordoada[/abilityred] por {StunDuration}[turn/] em vez disso.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESTEQ_CONDUIT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Condutor Es'Teq</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ESTEQ_CONDUIT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dá à unidade um condutor para canalizar sua Essência, infligindo dano à distância.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESTEQ_CONDUIT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Explosão de Essência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ESTEQ_CONDUIT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade consome todas as [abilityblue][essencecharge/]Cargas de Essência[/abilityblue] e as canaliza em uma explosão de Essência, causando dano em uma área de efeito de raio de {range} hex.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ESTEQ_CONDUIT</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Causa {ExtraDamage}[DamageEntropy/] por [abilityblue][essencecharge/]Carga de Essência[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPOWERED_ARK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arca Empoderada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EMPOWERED_ARK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Empodera uma Arca de Quintessência para desbloquear habilidades mais poderosas. [abilityblue]Comunhão[/abilityblue] agora pode se conectar com até {units} unidades.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPOWERED_ARK</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityblue]Comunhão[/abilityblue] agora pode se conectar com até {units} unidades.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPOWERED_ARK</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Conectar Todos em Comunhão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPOWERED_ARK</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Conecta todas as unidades que estão no mesmo exército à Arca de Quintessência.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESTEQ_LORD_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Encarnação do Lorde Es'Teq</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ESTEQ_LORD_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Funde a mente de um Lorde Es'Teq com a unidade. Sempre que esta unidade ganha uma [abilityblue][essencecharge/]Carga de Essência[/abilityblue], ela se cura em {health}[hp/].[br/][br/][productioncol]Apenas um tipo de Encarnação pode estar ativo por vez.[/productioncol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The Es'Teq lord is referring to a 'spirit' of the Es'Teq that can be incarnated into another unit, we call this 'merging the mind'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ESTEQ_LORD_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sempre que esta unidade ganha uma [abilityblue][essencecharge/]Carga de Essência[/abilityblue], ela se cura em {health}[hp/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ESTEQ_LORD_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dízimo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tithe as in the taxes levied by religion in the middle ages.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ESTEQ_LORD_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade estende a mão e toma à força as [abilityblue][essencecharge/]Cargas de Essência[/abilityblue] da unidade alvo. Todas as [abilityblue][essencecharge/]Cargas de Essência[/abilityblue] da unidade alvo são transferidas para o conjurador. Esta habilidade não funciona em outros Lordes.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Lord in this case is refering to the 'High Lord' unit as well as units with the 'Lord Incarnation' mod active.</Data></Cell>
+   </Row>
+   <Row ss:Index="108" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BESTOW_ESSENCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Conceder Essência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BESTOW_ESSENCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Concede Essência Es'Teq a uma unidade. A unidade aliada alvo ganha seu número máximo de [abilityblue][essencecharge/]Cargas de Essência[/abilityblue].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Bestow as in, giving it to someone</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONDEMN_HERETIC</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Condenar ao Esgotado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">CONDEMN_HERETIC</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Condena um inimigo em nome dos Es'Teq, transformando-o em uma unidade Esgotada. A unidade inimiga alvo não-Herói de Infantaria tem {StrengthChance}[strengthentropy/]% de chance de ganhar [abilityred]Condenado[/abilityred] até o fim da batalha. Unidades Condenadas têm -{moraledebuff}[anger/] e -{EntropyDebuff}[defenseentropy/].[br/][br/]Quando uma unidade com [abilityred]Condenado[/abilityred] morre, ela se transforma em uma unidade Esgotada sob o controle do lançador. Esta unidade permanece após a batalha.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Drained is a unit of the Heritor lineup of units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONDEMN_HERETIC</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Condenado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CONDEMN_HERETIC</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está [abilityred]Condenada[/abilityred]. Ela tem -{moraledebuff}[anger/] e -{EntropyDebuff}[defenseentropy/]. Se a unidade morrer, em vez de deixar um cadáver, uma unidade Esgotada é invocada sob o controle do inimigo. Esta unidade é permanente e não será removida ao fim da batalha.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Condemned as in cursed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RITE_OF_REINCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rito de Reencarnação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RITE_OF_REINCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao implantar uma mente antiga dos Es'Teq, uma consciência, em um corpo recém-falecido, ele pode ser trazido de volta à vida.[br/]O cadáver alvo aliado não-Mecânico, não-Herói, de nível I, II ou III é revivido com {Health}%[hp/]. Além disso, ganha +{Morale}[happiness/] até o fim do combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RITE_OF_DISSEMINATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rito de Disseminação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">RITE_OF_DISSEMINATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Espalha Essência por todas as unidades, concedendo-lhes [abilityblue][essencecharge/]Cargas de Essência[/abilityblue] e aumentando sua moral. Todas as unidades aliadas em combate ganham {ChargeAmount} [abilityblue][essencecharge/]Carga de Essência[/abilityblue] e +{Morale}[happiness/] até o fim do combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RITE_OF_REVITALIZATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rito de Revitalização</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">RITE_OF_REVITALIZATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Direciona a Essência de uma unidade para desencadear uma reação revitalizante, curando-a. A unidade aliada alvo é curada em {health}[hp/]. Se a unidade tiver uma [abilityblue][essencecharge/]Carga de Essência[/Abilityblue], em vez disso, é curada em {HealthEssence}[hp/], tem todos os efeitos de status hostis dissipados e perde {charges} [abilityblue][essencecharge/]Carga de Essência[/Abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONVERT_HERETIC</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Converter Herege</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">CONVERT_HERETIC</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Libera uma mente Es'Teq em uma tentativa de tomar posse de uma unidade inimiga. A unidade inimiga alvo não-Mente-Cega, não-Mecânica tem {Strength}[strengthentropy/]% de chance de mudar de aliança e ganhar [abilityblue]Posse Es'Teq[/abilityblue] até o fim da batalha. Em caso de falha, a unidade fica [abilityred]Atordoada[/abilityred].[br/][br/]Caso uma unidade com [abilityblue]Posse Es'Teq[/abilityblue] morra, a Mente Es'Teq escapa e tem {StrengthJump}[strengthentropy/]% de chance de se espalhar para outra unidade inimiga viável dentro de {range} hexes.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">In this case, the Es'Teq mind or 'spirit' is trying to possess a hostile unit, mind controlling them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONVERT_HERETIC</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Posse Es'Teq</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">CONVERT_HERETIC</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma mente Es'Teq está possuindo esta unidade. Ao morrer, a mente Es'Teq escapa e tenta possuir outra unidade. A mente tem {StrengthJump}[strengthentropy/]% de chance de se espalhar para uma unidade inimiga não-Mente-Cega, não-Mecânica dentro de {range} hexes e possuí-la, mudando sua aliança e concedendo-lhe [abilityblue]Posse Es'Teq[/abilityblue] até o fim do combate. Em caso de falha, a unidade fica [abilityred]Atordoada[/abilityred].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This ability 'jumps' to another unit when the original unit dies, and tries to mind control the other unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CONVERT_HERETIC</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION_FINAL</Data></Cell>
+    <Cell><Data ss:Type="String">Uma mente Es'Teq está possuindo esta unidade. Esta mente está enfraquecida e não tentará possuir outra unidade caso esta unidade morra.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ANCESTRAL_SMITE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ataque Ancestral</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ANCESTRAL_SMITE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Invoca uma violenta barragem de pura Essência, dilacerando inimigos. Todas as unidades inimigas dentro de uma área de efeito de raio de {range} hexes sofrem {damage}[damageentropy/], perdem {morale}[happiness/] e têm {strength}[strengthentropy/]% de chance de ganhar [abilityred]Decaimento Entrópico[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:Index="128" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNCOVER_ANCIENT_SECRETS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Revelar Segredos Ancestrais</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNCOVER_ANCIENT_SECRETS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Revela a localização do Sítio Anômalo mais próximo da colônia alvo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anomalous Sites are archeological dig sites in the world, added in this DLC.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UNCOVER_ANCIENT_SECRETS</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Usando tecnologia ancestral dos Es'Teq, assinaturas arqueológicas únicas foram detectadas, podendo indicar potenciais sítios anômalos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNCOVER_ANCIENT_SECRETS</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_SUCCEED</Data></Cell>
+    <Cell><Data ss:Type="String">Um novo Sítio Anômalo foi encontrado!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNCOVER_ANCIENT_SECRETS</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_FAIL</Data></Cell>
+    <Cell><Data ss:Type="String">Nenhum novo Sítio Anômalo foi encontrado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BLESSING_OF_THE_ESTEQ</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bênção dos Es'Teq</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BLESSING_OF_THE_ESTEQ</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O exército aliado alvo é curado em {health}%[hp/] e todas as unidades ganham {buff} pilha de [abilityblue][essencecharge/]Carga de Essência[/abilityblue] em combate. Isso dura por {turn}[turn/] turno no mapa estratégico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BLESSING_OF_THE_ESTEQ</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Nós abençoamos nosso exército com sucesso! Eles estão revigorados e fortalecidos por nossos esforços.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CURSE_OF_THE_ESTEQ</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Maldição dos Es'Teq</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CURSE_OF_THE_ESTEQ</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O exército inimigo alvo sofre {damage}% de seu [hp/] atual em dano e todas as unidades têm -{EntropicRes}[defenseentropy/] por {turn}[turn/] no mapa-múndi.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CURSE_OF_THE_ESTEQ</Data></Cell>
+    <Cell><Data ss:Type="String">FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Em caso de falha, causa apenas {FailureDamage}% do [hp/] atual e não aplica o debuff [defenseentropy/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CURSE_OF_THE_ESTEQ</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Nós amaldiçoamos o exército inimigo com sucesso! Eles estão danificados e enfraquecidos por nossos esforços.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CURSE_OF_THE_ESTEQ</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Falhamos em amaldiçoar o exército inimigo com sucesso. Eles sofreram apenas danos menores.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CURSE_OF_THE_ESTEQ</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Nosso exército foi atacado pelos Es'Teq. Nossas unidades sofreram dano e estão enfraquecidas contra ataques de entropia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CURSE_OF_THE_ESTEQ</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Nós impedimos com sucesso um ataque a um de nossos exércitos. Eles sofreram apenas danos menores.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAUNT_COLONY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assombrar Colônia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HAUNT_COLONY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todos os [population/] na colônia inimiga alvo agora produzem {resourceincomereduction} de renda no espaço de recurso que ocupam e a colônia sofre com -{Unhappiness}[anger/] por {turns}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HAUNT_COLONY</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">As mentes Es'Teq estão assombrando a colônia inimiga com sucesso. A renda dos colonos foi reduzida e sua felicidade foi afetada negativamente.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HAUNT_COLONY</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">As mentes Es'Teq não conseguiram assombrar a colônia inimiga e foram expulsas. A tentativa deixou a colônia em um estado de agitação civil.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HAUNT_COLONY</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Mentes Es'Teq estão assombrando nossas colônias como espectros! Nossa população está menos produtiva e a felicidade geral da colônia está sofrendo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HAUNT_COLONY</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Mentes Es'Teq tentaram se infiltrar em nossas colônias, mas não tiveram sucesso. A tentativa deixou nossa população em um estado de agitação civil.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONVERSION_CULT_INFILTRATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Infiltração do Culto da Conversão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CONVERSION_CULT_INFILTRATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Envia Sacerdotes Sugadores para tentar persuadir colonos inimigos a mudar de lealdade, antes de convertê-los em energia. [br/][br/]A colônia inimiga alvo tem {chance}% de chance de perder um colono a cada [turn/], por {turns}[turn/]. Para cada colono perdido dessa forma, o conjurador ganha {energy}[energy/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CONVERSION_CULT_INFILTRATION</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos Sacerdotes Sugadores infiltraram com sucesso a colônia inimiga e estão trabalhando para converter seus colonos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CONVERSION_CULT_INFILTRATION</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos Sacerdotes Sugadores falharam em infiltrar a colônia inimiga, embora a tentativa tenha causado um estado de agitação civil.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CONVERSION_CULT_INFILTRATION</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Sacerdotes Sugadores hostis infiltraram uma de nossas colônias e estão convertendo nossos colonos!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CONVERSION_CULT_INFILTRATION</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Capturamos Sacerdotes Sugadores tentando infiltrar uma de nossas colônias. Embora tenhamos detido eles, a tentativa causou um estado de agitação civil.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ANCESTRAL_WRATH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ira Ancestral</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ANCESTRAL_WRATH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A colônia inimiga alvo perde {colonists}[population/], e {summons} unidades Drenadas são invocadas sob seu controle adjacentes ao Centro da Colônia. Além disso, um perigo [abilityred]Fenda de Essência[/abilityred] é criado no setor.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Essence Gash is a fissure, a canyon in the ground, that is filled with Essence. It is considered a hazard, and bad for the colony in the same sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ANCESTRAL_WRATH</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">O poder dos Es'Teq atingiu com sucesso a colônia inimiga! Alguns de seus colonos foram sugados de Essência e se converteram em [abilityblue]Drenados[/abilityblue] para se juntar à nossa causa. Uma [abilityred]Fenda de Essência[/abilityred] se abriu no setor como efeito colateral.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ANCESTRAL_WRATH</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Falhamos em invocar o poder dos Es'Teq sobre a colônia, embora a tentativa tenha deixado a colônia em um estado de agitação civil.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ANCESTRAL_WRATH</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Uma poderosa explosão de entropia atacou nossa colônia, convertendo alguns de nossos colonos em horríveis criaturas [abilityred]Drenadas[/abilityred]. O ataque causou a formação de uma [abilityred]Fenda de Essência[/abilityred] no setor.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ANCESTRAL_WRATH</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Uma tentativa foi feita para atacar uma de nossas colônias com uma poderosa explosão de Entropia. Conseguimos frustrar o ataque, embora a tentativa tenha deixado nossa colônia em um estado de agitação civil.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MACHINE_CRUSADE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cruzada Tecnoclasta</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in Iconoclast; a destroyer of images used in religious worship. But then with Technology</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MACHINE_CRUSADE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Reúna suas forças em uma cruzada contra a maldade da inteligência mecânica.[br/][br/]Contra unidades Mecânicas e Integradas, todas as unidades amigas ganham +{Damage}% de dano e têm uma chance de {chance}[strengthentropy/] de força ({RepeatingChance}[StrengthEntropy/] para ataques repetidos) de infligir [abilityred]Decaimento Entrópico[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MACHINE_CRUSADE</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{EntropicDecayChance}[strengthEntropy/] de chance de força para aplicar [abilityred]Decaimento Entrópico[/abilityred] a unidades Mecânicas por {durationEntropicDecay}[turn/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Entropic decay is a status effect associated with the Entropy damage channel, that deals damage over time.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INNER_COMMUNION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Comunhão Interior</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">INNER_COMMUNION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao dar espaço para seu povo se concentrar e comungar com a Essência dentro deles, eles se tornam mais suscetíveis a receber a abundância que a Essência tem a oferecer.[br/][br/]Todas as unidades podem carregar {EssenceChargeIncrease} [abilityblue][essencecharge/]Carga de Essência[/abilityblue] adicionais.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DIVINE_LEGION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Legião Divina</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DIVINE_LEGION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Infunda seus Drenados com Essência, formando uma legião divina que não pode ser detida.[br/][br/]Todas as unidades Drenadas ganham [abilityblue]Infusão de Essência[/abilityblue], concedendo-lhes +{shield}[shield/], [abilityblue]Ressurgência[/abilityblue] e permitindo que carreguem {charges} [abilityblue][essencecharge/]Cargas de Essência[/abilityblue] adicionais.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Resurgance is a unit ability that brings units back to life after successful combat.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DIVINE_LEGION</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Infusão de Essência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DIVINE_LEGION</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Através da Infusão de Essência, esta unidade ganha +{shield}[shield/], [abilityblue]Ressurgência[/abilityblue] e pode carregar {charges} [abilityblue][essencecharge/]Cargas de Essência[/abilityblue] adicionais.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CITY_OF_THE_AWAKENED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cidade dos Despertos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CITY_OF_THE_AWAKENED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Liberte mentes selecionadas dos Es'Teq de seu sono milenar e reencarne-as em suas colônias, para o deleite de seu povo.[br/][br/]Todas as colônias ganham +{happiness}[happiness/] e o limite de aquisição de colonos é reduzido em {colonistThreshold}%.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">GLOBAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Transferência Mental</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">VICTORY_CONDITION</Data></Cell>
+    <Cell><Data ss:Type="String">Liberte as antigas mentes Es'Teq e inicie o Êxtase Final.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Final Rapture is the name of the Heritor Doomsday weapon.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Transferência Mental Nível 1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Em combate, uma unidade de jogador não-Heritor tem {Strength}[strengthentropy/]% de chance de ser [abilityred]Atordoada[/abilityred] a cada [turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Transferência Mental Nível 2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{Chance}% de chance de transformar {popAmount} em Drenado a cada [turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Transferência Mental Nível 3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades de jogador Heritor ganham [abilityblue][essencecharge/]Cargas de Essência[/abilityblue] completas no início do combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MIND_REBIRTH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Renascimento Mental</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MIND_REBIRTH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Liberte mentes Es'Teq recentemente libertadas em uma colônia inimiga não-Heritor, infiltrando as mentes de seus colonos e tentando assumir suas formas físicas através da reencarnação Es'Teq por {INT_duration}[turn/]. Esta habilidade se torna mais forte quanto mais Torres de Essência você construir.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MIND_REBIRTH</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Tivemos sucesso em penetrar as defesas da colônia inimiga! Nossas mentes Es'Teq agora estão infiltrando as mentes de seus colonos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MIND_REBIRTH</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Não tivemos sucesso em penetrar as defesas da colônia inimiga. Nossas mentes Es'Teq foram purgadas pelo inimigo e agora estão perdidas para sempre.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MIND_REBIRTH</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">O inimigo lançou mentes Es'Teq para infiltrar nossos colonos! Precisaremos purgá-las de nossa colônia e proteger nossas defesas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MIND_REBIRTH</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossas defesas conseguiram evitar com sucesso uma infiltração de mentes Es'Teq lançada contra nossa colônia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESSENCE_SPIRE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Torre de Essência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ESSENCE_SPIRE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Torre de Essência desbloqueia a Arma do Juízo Final Renascimento Mental. Cada Torre de Essência adicional que você construir aumenta o nível da arma, tornando-a mais poderosa.[br/][br/]Apenas uma Torre de Essência pode ser construída por colônia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FINAL_RAPTURE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Êxtase Final</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FINAL_RAPTURE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A etapa final do plano dos Heritor inicia a Transferência Mental por todo o planeta, dando início ao Êxtase Final.[br/][br/]Requer Nível 3 de Renascimento Mental.[br/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FINAL_RAPTURE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Nossa Transferência Mental agora está totalmente energizada! Mentes Es'Teq vagam livres pelo planeta, infiltrando e dominando as mentes de nossos inimigos. É apenas uma questão de tempo até dominarmos este planeta e emergirmos vitoriosos!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOOMSDAY_LOCAL</Data></Cell>
+    <Cell><Data ss:Type="String">OPERATION_GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Um jogador iniciou o Êxtase Final!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Condição de Vitória: Êxtase Final</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOOMSDAY_STRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">STRUCTURE_LOST_GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Uma de nossas Torres de Essência foi capturada!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOOMSDAY_STRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">STRUCTURE_LOST_YOU</Data></Cell>
+    <Cell><Data ss:Type="String">Você perdeu uma Torre de Essência!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOOMSDAY_STRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">STRUCTURE_LOST_PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_Player} perdeu uma Torre de Essência!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOOMSDAY_STRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">STRUCTURE_LOST_LOCAL</Data></Cell>
+    <Cell><Data ss:Type="String">Você perdeu uma Torre de Essência. Nossa tentativa de Êxtase Final para nossos irmãos e irmãs Es'Teq foi cancelada!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOOMSDAY_STRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">STRUCTURE_LOST_GLOBAL</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_Player} perdeu uma Torre de Essência. Sua tentativa de Êxtase Final foi frustrada!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DOOMSDAY_STRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">STRUCTURE_UPGRADE_BUILT_I</Data></Cell>
+    <Cell><Data ss:Type="String">Ao construir uma Torre de Essência, {playerName} agora tem acesso à sua Arma do Juízo Final, o Êxtase Final. Ela está fraca agora, mas se tornará mais poderosa conforme mais Torres de Essência forem construídas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DOOMSDAY_STRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">STRUCTURE_UPGRADE_BUILT_II</Data></Cell>
+    <Cell><Data ss:Type="String">Ao construir uma segunda Torre de Essência, {playerName} fortaleceu sua Arma do Juízo Final, o Êxtase Final. Você deve planejar ataques para destruir essas estruturas antes que se tornem poderosas demais.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DOOMSDAY_STRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">STRUCTURE_UPGRADE_BUILT_III</Data></Cell>
+    <Cell><Data ss:Type="String">Ao construir sua última Torre de Essência, {playerName} maximizou o poder de sua Arma do Juízo Final, o Êxtase Final. Eles estão próximos de liberá-la e vencer o jogo. A hora de atacar é agora!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DOOMSDAY_STRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER_CAPTURED</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Torre de Essência foi capturada! Se for destruída, nosso Cronômetro do Juízo Final será cancelado. Se você recapturar a Torre, poderá retomar a contagem regressiva.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DOOMSDAY_STRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">OPPONENT_CAPTURED</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Torre de Essência foi capturada! Se for destruída, o Cronômetro do Juízo Final será cancelado. Se {playerName} recapturar a Torre, eles poderão retomar a contagem regressiva.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DOOMSDAY</Data></Cell>
+    <Cell><Data ss:Type="String">TIMER_PAUSED</Data></Cell>
+    <Cell><Data ss:Type="String">O Cronômetro do Juízo Final foi pausado! Você deve reconquistar a Torre de Essência perdida, ou perderá a chance de liberar o Êxtase Final sobre seus inimigos!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOOMSDAY</Data></Cell>
+    <Cell><Data ss:Type="String">GLOBAL_LOST</Data></Cell>
+    <Cell><Data ss:Type="String">A perda de uma Torre de Essência cancelou o Êxtase Final, encerrando o Cronômetro do Juízo Final.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOOMSDAY</Data></Cell>
+    <Cell><Data ss:Type="String">LOCAL_LOST</Data></Cell>
+    <Cell><Data ss:Type="String">A perda de uma Torre de Essência enfraqueceu nosso Êxtase Final e suas operações do Juízo Final foram canceladas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DOOMSDAY</Data></Cell>
+    <Cell><Data ss:Type="String">OVERRIDE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos inimigos ativaram sua Arma do Juízo Final! O Êxtase Final está ocorrendo por todo o planeta, e sua própria Arma do Juízo Final foi destruída pelo cataclismo. Você tem {numTurns} para destruir uma de suas Torres de Essência ou eles vencerão o jogo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOOMSDAY</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">O Êxtase Final está ativo, e você vencerá em {numTurns}, a menos que perca uma de suas Torres de Essência.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOOMSDAY</Data></Cell>
+    <Cell><Data ss:Type="String">OPPONENT</Data></Cell>
+    <Cell><Data ss:Type="String">O Êxtase Final está em andamento, e {playerName} vencerá em {numTurns}, a menos que você consiga destruir uma de suas Torres de Essência.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DOOMSDAY</Data></Cell>
+    <Cell><Data ss:Type="String">FINISH_PRIMING</Data></Cell>
+    <Cell><Data ss:Type="String">{playerName} está preparando sua Arma do Juízo Final da Ascensão Final. Se for permitido que concluam, sua própria Arma do Juízo Final será destruída, e {playerName} estará a um passo da vitória total!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DOOMSDAY</Data></Cell>
+    <Cell><Data ss:Type="String">VICTORY_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Você concluiu com sucesso a Ascensão Final.[br/]As mentes de todos os antigos irmãos e irmãs Es'Teq foram libertadas e reencarnadas nos recipientes fornecidos involuntariamente por nossos inimigos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">REAWAKEN_HERITOR_SANCTORUM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reativar o Santuário</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Sanctorum refers to the landmark structure from the Heritor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">REAWAKEN_HERITOR_SANCTORUM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Usando ritos ancestrais, reative os antigos túmulos do Heritor e utilize-os para aprender com a história dos Es'Teq. [br/][br/]A tecnologia Heritor fica {ResearchReduction} mais barata para pesquisar, e as unidades Heritor custam {EnergyReduction} a menos de [energy/] para produzir.[br/][br/][orange]Só pode ser usado por comandantes Heritor[/orange]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Heritor tech refers to the research unlocks of the Heritor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">REAWAKEN_HERITOR_SANCTORUM</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">{EnergyReduction}[energy/] custo para unidades Heritor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_GAUNTLET</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Mutilação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_GAUNTLET</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Esfolador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_GAUNTLET</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Anatomizador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_GAUNTLET</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Viciador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_GAUNTLET</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Oneroso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_GAUNTLET</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Exaustivo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_GAUNTLET</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell><Data ss:Type="String">Enfraquecedor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ES'TEQ_PROTECTOR_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Recompensador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ES'TEQ_PROTECTOR_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Protetor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ES'TEQ_PROTECTOR_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Retaliador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ES'TEQ_PROTECTOR_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Preservador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ES'TEQ_PROTECTOR_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Vingativo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ES'TEQ_PROTECTOR_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Punitivo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_LORD_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Devorador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_LORD_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Esmagador de Essência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_LORD_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">O Ofuscador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_LORD_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Reivindicador de Essência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_LORD_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Ceifador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_LORD_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">O Restaurador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_ACOLYTE_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Encorajador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_ACOLYTE_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Inspirador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_ACOLYTE_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Zeloso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_ACOLYTE_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Devoto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_ACOLYTE_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Fanático</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_ACOLYTE_INCARNATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Fervoroso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_CONFISCATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Meticuloso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_CONFISCATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Obcecado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_CONFISCATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Guiado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_CONFISCATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Perspicaz</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_CONFISCATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Aprimoramento de Alvo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_CONFISCATOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Astuto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_CONDUIT</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Acumulador Divino</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_CONDUIT</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Canalizador Supremo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_CONDUIT</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Portador do Espírito</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_CONDUIT</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Redirecionado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_CONDUIT</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Destruidor Herege</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ES'TEQ_CONDUIT</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Lançador Abençoado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPOWERED_ARK</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">O Absoluto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPOWERED_ARK</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Resplandecente</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPOWERED_ARK</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Consagrado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPOWERED_ARK</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Sagrado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPOWERED_DRAINED</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">O Delegado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPOWERED_DRAINED</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">O Confiado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPOWERED_DRAINED</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Venerado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPOWERED_DRAINED</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Devoto</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <TopRowVisible>66</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>71</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

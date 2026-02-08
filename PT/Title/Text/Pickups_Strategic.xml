@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2019-02-13T08:35:49Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17025</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="23" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="219" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="174"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:Index="4" ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="213"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">PICKUPS_STRATEGIC</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">IMPERIAL_PRODUCTION_STOCKPILE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Estoque de Produção Imperial</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Production is an in-game resource.
+Imperial as in "belonging to the Star Union"</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">IMPERIAL_PRODUCTION_STOCKPILE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quando coletado, produz instantaneamente uma de duas melhorias aleatórias para a colônia.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Collected as in "picked up by an army"
+The player gets to choose one of two random upgrades</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">IMPERIAL_ENERGY_STASH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reserva de Energia Imperial</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Energy is an in-game resource.
+Imperial as in "belonging to the Star Union"</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">IMPERIAL_ENERGY_STASH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quando coletado, energia é adicionada ao tesouro do seu império. Energia permite pagar manutenção, usar operações e concluir instantaneamente projetos de produção.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Collected as in "picked up by an army"</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPERIAL_SUPPLY_STASH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reserva de Suprimentos Imperial</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Supply as in stocks of food</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">IMPERIAL_SUPPLY_STASH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quando coletado, comida é adicionada à sua colônia mais próxima. Comida acelera a aquisição de colonos dentro de uma colônia.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Collected as in "picked up by an army"</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">IMPERIAL_PRODUCTION_STASH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reserva de Produção Imperial</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Production is an in-game resource.
+Imperial as in "belonging to the Star Union"</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">IMPERIAL_PRODUCTION_STASH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quando coletado, produção é adicionada à sua colônia mais próxima. Produção acelera os itens na fila de produção da sua colônia.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Collected as in "picked up by an army"</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">IMPERIAL_CRYSTAL_STASH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reserva de Cosmita Imperial</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Energy is an in-game resource.
+Imperial as in "belonging to the Star Union"</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">IMPERIAL_CRYSTAL_STASH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quando coletado, Cosmita é adicionada ao tesouro do seu império. Cosmita é usada para Mods das suas unidades, bem como para a produção de unidades de alto nível.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Collected as in "picked up by an army"
+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHELTER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Abrigo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shelter as in "emergency encampment"</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SHELTER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quando coletado, as pessoas neste abrigo se juntarão à sua colônia mais próxima como colonos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Collected as in "picked up by an army"
+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRASHED_RESEARCH_SHIP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Nave de Pesquisa Destruída</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Research is an in-game resource</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CRASHED_RESEARCH_SHIP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quando coletado, você obterá informações que aceleram a pesquisa.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Collected as in "picked up by an army"
+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">IMPERIAL_STANDARD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Estandarte Imperial</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Imperial as in "belonging to the Star Union"
+Standard as in flag/banner</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">IMPERIAL_STANDARD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades no exército coletor, incluindo comandantes e heróis, sobem um nível.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Collecting stack" is the army that picks up the banner</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WRECKED_SURVEYOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Drone de Reconhecimento Destruído</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">WRECKED_SURVEYOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O drone destruído contém dados de uma área inexplorada.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Uncharted as in undiscovered by the player</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LOOTBOX</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Caixa de Itens</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">LOOTBOX</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Contém itens para o seu comandante ou heróis.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Commander or heroes are important in-game units</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Zoom>130</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

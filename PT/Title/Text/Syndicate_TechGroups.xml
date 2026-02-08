@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>KyleB</LastAuthor>
+  <LastSaved>2018-11-12T13:00:48Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12789</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="64" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.857142857142854" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="142.71428571428572"/>
+   <Column ss:StyleID="s62" ss:Width="180.85714285714286"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="382.71428571428572"/>
+   <Column ss:StyleID="s62" ss:Width="147.85714285714283"/>
+   <Column ss:StyleID="s62" ss:Width="306.85714285714283"/>
+   <Column ss:StyleID="s62" ss:Width="120.85714285714286"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="382.71428571428572"/>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SYNDICATE_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SYNDICATE_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">GROUP_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Diplomatas Nobres</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="61.285714285714285">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Nossas casas nobres produzem muitos herdeiros cuja vida na corte os preparou bem para a diplomacia e a intriga. Vamos colocá-los em uso entre os alienígenas deste mundo.[br/][br/]Receba {InfluenceIncome} e {EnergyIncome} por [turn/] para cada facção com a qual você estiver em Paz. Esse valor aumenta conforme seu relacionamento melhora.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Confiança Unilateral</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A confiança mútua é importante entre aliados, mas confiança total é uma falácia, então devemos mantê-los na coleira e alimentá-los com informações falsas em troca de seus dados.[br/][br/]Você não sofre os efeitos negativos de ter um pacto de compartilhamento de inteligência com outros jogadores. Além disso, você recebe {OperationDefense}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Jogo de Espiões</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_4_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Podemos facilmente desencadear guerras longe de nossas fronteiras para distrair nossos inimigos e nos deixar livres para agir. Tudo o que precisamos fazer é apontá-los na direção certa.[br/][br/]Você recebe {OperationalStrength}. Além disso, operações encobertas agora são {StrategicCostModifier} mais baratas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_5_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Servidão por Contrato</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_5_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Nesses tempos desesperados, todos devem fazer sacrifícios, mas a classe baixa deve sacrificar mais.[br/][br/]Todas as Colônias ganham {ProductionIncome}, mas sofrem {Unhappiness}.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Typo fix desperate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_6_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Infiltração Profunda</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_6_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos espiões recebem treinamento extra em roubo de inteligência militar, nos concedendo uma enorme vantagem no campo de batalha.[br/][br/]Infiltrar um Jogador dará a todas as unidades um bônus de {DamageIncrease} de dano contra suas unidades.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.464285714285715">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_7_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Contratos de Servidão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="127.71428571428571">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_7_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Os Servos estão buscando direitos. Podemos tirar proveito disso fazendo-os assinar um contrato de redução de manutenção e rações, e em troca eles recebem cidadania e liberdade ao final deste empreendimento... se sobreviverem.[br/][br/]Unidades Inatas de Servos têm seu custo de [energy/] reduzido em {ReductionPercentageEnergy} em colônias.[br/]Todas as unidades de Servos, incluindo aquelas que se tornaram assim devido a mods, têm sua manutenção reduzida em {ReductionPercentage}.[br/][br/][firecol]A manutenção de unidades nunca pode ser reduzida em mais de 50%.[/firecol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="86.464285714285722">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_SKILL_7_BONUS</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Unidades de Servos ganham {UnitUpkeep} de manutenção [energy/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEEP_INFILTRATION</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Infiltração Profunda</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEEP_INFILTRATION</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Infiltrar um Jogador dará a todas as unidades possuídas {DamageIncrease} de dano adicional contra as unidades do Jogador infiltrado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EMERGENCY_CLOAKING_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Campo de Camuflagem de Emergência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EMERGENCY_CLOAKING_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Implante um Campo de Camuflagem de Emergência para fornecer ao exército alvo [abilityblue]Camuflagem Universal[/abilityblue] por {ECFDuration} turnos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EMERGENCY_CLOAKING_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">O Campo de Camuflagem foi implantado com sucesso. O exército está oculto de qualquer olho curioso, a menos que nos aproximemos demais…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EMERGENCY_CLOAKING_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_STRING</Data></Cell>
+    <Cell><Data ss:Type="String">O exército selecionado agora tem 'Camuflagem Universal' por {ECFDuration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PULSE_BEAM_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Canhão de Pulso de Feixe</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PULSE_BEAM_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara o Canhão de Pulso de Feixe no exército alvo e exércitos adjacentes, causando {PulseBeamCannonDamage} de dano e reduzindo o Alcance de Visão do alvo em {Visionreduction} hexes por {PulsBeamCannonDuration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PULSE_BEAM_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Alcance de Visão desta unidade está reduzido em {Visionreduction} hexes por {PulsBeamCannonDuration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PULSE_BEAM_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">O Canhão de Pulso de Feixe acertou em cheio o exército alvo. Relatos indicam que um dano massivo foi causado e que o exército terá menos visão por um curto período.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PULSE_BEAM_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">O Canhão de Pulso de Feixe errou o alvo. Ainda assim, conseguiu causar algum dano, mas não tanto quanto esperávamos. Além disso, o exército alvo não sofre efeitos adicionais.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PULSE_BEAM_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Um Canhão de Pulso de Feixe da Syndicate foi disparado contra um de nossos exércitos. Eles sofreram dano massivo e seu alcance de visão foi severamente reduzido enquanto se recuperam.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PULSE_BEAM_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Um Canhão de Pulso de Feixe da Syndicate foi disparado contra um de nossos exércitos, mas nossos agentes conseguiram interferir no sistema de mira, minimizando o dano causado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PULSE_BEAM_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_STRING_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">O exército sofre {PulseBeamCannonDamage} de dano, seu Alcance de Visão é reduzido para 1 hex e sua Detecção é desativada por {PulsBeamCannonDuration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PULSE_BEAM_CANNON</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_STRING_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">O exército sofre {PulseBeamCannonDamage} de dano, mas sua visão permanece inalterada.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SENSOR_INFILTRATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Infiltração de Sensores</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SENSOR_INFILTRATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Infiltra os sistemas sensoriais do exército inimigo e obtém Visão desse exército por {OperationDuration} turnos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SENSOR_INFILTRATION</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Conseguimos infiltrar com sucesso os sensores do exército inimigo e agora podemos ver o que eles veem.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SENSOR_INFILTRATION</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Falhamos em infiltrar os sensores inimigos. Talvez devêssemos tentar novamente.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SENSOR_INFILTRATION</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos inimigos infiltraram os sensores de um de nossos exércitos e agora podem ver o que vemos. Devemos ter cuidado até termos certeza de que o acesso deles aos nossos sistemas foi revogado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SENSOR_INFILTRATION</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos inimigos tentaram infiltrar nossos sensores. Devemos ficar alertas para futuras tentativas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BREAD_AND_CIRCUSES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pão e Circo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BREAD_AND_CIRCUSES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Colônia alvo sob seu controle tem {HappinesIncome}[happiness/] por distrações e festividades, e ganha {bonusPercentage} a mais em eventos de felicidade.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BREAD_AND_CIRCUSES</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">O povo desta Colônia não causará mais comoção, pois desviamos sua atenção com festividades.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INDUSTRIAL_SABOTAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sabotagem Industrial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INDUSTRIAL_SABOTAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Reduz a produção de uma Colônia inimiga em {ProductionReduction} por {IndustrialSabotageDuration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INDUSTRIAL_SABOTAGE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Seus sabotadores conseguiram interromper a produção na colônia-alvo com sucesso. Isso prejudicará gravemente a produção deles.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INDUSTRIAL_SABOTAGE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Seus sabotadores foram capturados ao tentar interromper a produção na colônia-alvo. Embora a sabotagem tenha sido frustrada, a operação conseguiu provocar agitação civil na colônia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INDUSTRIAL_SABOTAGE</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Sabotadores hostis conseguiram interromper a produção em uma de nossas colônias. A produção foi reduzida e permanecerá assim a menos que tomemos providências.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INDUSTRIAL_SABOTAGE</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Seus agentes frustraram uma tentativa de sabotar os esforços de produção em uma de suas colônias, mas a infiltração provocou agitação civil.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INDUSTRIAL_SABOTAGE</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_STRING_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Produção reduzida em {ProductionReduction}[production/] por {IndustrialSabotageDuration}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:Index="54" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DIVERSION_PROJECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Projetor de Diversão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DIVERSION_PROJECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades em uma área de efeito de raio de {DiversionProjectorAoE} hex têm {DiversionProjectorStrength} de chance de força para ficarem [abilityred]Cegas[/abilityred] e terem {DiversionProjectorResistance} de resistência contra ataques flanqueadores por {BlindedDuration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DIVERSION_PROJECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está [abilityred]Cega[/abilityred], reduzindo a precisão em {BlindPercentage}% e não pode usar vigilância. Além disso, quando esta unidade é atacada pelos flancos, sofre dano como se tivesse uma resistência de -{ResistanceDown} aos canais de dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TACTICAL_ADVANTAGE_PROTOCOL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Protocolo de Vantagem Tática</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TACTICAL_ADVANTAGE_PROTOCOL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade aliada alvo ganha [abilityblue]Flanco Permanente[/abilityblue], permitindo que cada ataque seja um ataque flanqueador por {OperationDuration}.</Data></Cell>
+   </Row>
+   <Row ss:Index="61" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSITEC_CEREBRAL_EXECUTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Execução Cerebral PsiTec</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PSITEC_CEREBRAL_EXECUTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade biológica ou ciborgue não Comandante alvo tem {ExecutionStrength} de chance de força para ser morta instantaneamente. Se falhar, a unidade sofre {ExecutionFailDamage} de dano e fica [abilityred]Atordoada[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEPLOY_SENTINEL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Implantar Sentinela</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.714285714285715">
+    <Cell><Data ss:Type="String">DEPLOY_SENTINEL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Invoca uma Sentinela no hex alvo durante o combate. A invocação dura até o fim do combate.[br/]Esta unidade possui habilidades de Arco de longo alcance para neutralizar inimigos.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>6</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>17</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

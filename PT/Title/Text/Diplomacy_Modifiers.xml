@@ -1,0 +1,637 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>ThomM</LastAuthor>
+  <LastSaved>2020-02-17T08:54:05Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>16440</WindowHeight>
+  <WindowWidth>29040</WindowWidth>
+  <WindowTopX>32760</WindowTopX>
+  <WindowTopY>32760</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="128" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="118.5"/>
+   <Column ss:StyleID="s62" ss:Width="211.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="322.5"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="322.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="118.5"/>
+   <Column ss:StyleID="s62" ss:Width="330.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">DIPLOMACY_MODIFIERS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">JUSTMET</Data></Cell>
+    <Cell><Data ss:Type="String">Acabou de Conhecer</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">These text are all mentioned as modifier names and are displayed in lists and breakdowns. These may be inserted as strings, but never midway of a scentence.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLIMENTED</Data></Cell>
+    <Cell><Data ss:Type="String">Recebeu Elogio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">CALLTOWAR</Data></Cell>
+    <Cell><Data ss:Type="String">Recusou Chamado à Guerra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">TREATYBROKEN</Data></Cell>
+    <Cell><Data ss:Type="String">Tratado foi Quebrado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">TRADEDECLINED</Data></Cell>
+    <Cell><Data ss:Type="String">Oferta de Comércio foi Recusada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">GIFT</Data></Cell>
+    <Cell><Data ss:Type="String">Recebeu Presente</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">FIRSTMEET_POSITIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Primeiro Contato Positivo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">FIRSTMEET_NEGATIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Primeiro Contato Negativo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">DECLINEDQUEST</Data></Cell>
+    <Cell><Data ss:Type="String">Recusou Missão</Data></Cell>
+   </Row>
+   <Row ss:Index="13" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">SENT_INSULT</Data></Cell>
+    <Cell><Data ss:Type="String">Enviou Insulto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">SENT_COMPLIMENT</Data></Cell>
+    <Cell><Data ss:Type="String">Enviou Elogio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">SENT_GIFT</Data></Cell>
+    <Cell><Data ss:Type="String">Enviou Presente</Data></Cell>
+   </Row>
+   <Row ss:Index="17" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">DENOUNCE_TRESPASSED</Data></Cell>
+    <Cell><Data ss:Type="String">Denúncia: invasão de domínio alheio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">DENOUNCE_INSULT</Data></Cell>
+    <Cell><Data ss:Type="String">Denúncia: insulto a outro jogador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">DENOUNCE_COVERTOPS</Data></Cell>
+    <Cell><Data ss:Type="String">Denúncia: uso de operações secretas contra outro jogador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">DENOUNCE_SECTORCLAIM</Data></Cell>
+    <Cell><Data ss:Type="String">Denúncia: ignorou reivindicação de setor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">DENOUNCE_DOOMSDAY</Data></Cell>
+    <Cell><Data ss:Type="String">Denúncia: progredindo com Devastação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">DENOUNCE_DOOMSDAY_FINAL</Data></Cell>
+    <Cell><Data ss:Type="String">Denúncia: prestes a alcançar vitória por Devastação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">DENOUNCE_DOMINATION</Data></Cell>
+    <Cell><Data ss:Type="String">Denúncia: progredindo com Dominação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">DENOUNCE_DOMINATION_FINAL</Data></Cell>
+    <Cell><Data ss:Type="String">Denúncia: prestes a alcançar vitória por Dominação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">DENOUNCE_UNIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">Denúncia: avançando rumo à vitória como Unificador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">DENOUNCE_UNIFIER_FINAL</Data></Cell>
+    <Cell><Data ss:Type="String">Denúncia: prestes a alcançar a vitória como Unificador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">DENOUNCE_ATTACKEDTRESPASSER</Data></Cell>
+    <Cell><Data ss:Type="String">Denúncia: atacou uma pilha não hostil</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">DENOUNCE_DEFEATEDALLIEDPLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">Denúncia: derrotou um aliado de outro jogador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">FABRICATED_DENOUNCEMENT_LVL1</Data></Cell>
+    <Cell><Data ss:Type="String">Denúncia: histórico de desconfiança</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">FABRICATED_DENOUNCEMENT_LVL2</Data></Cell>
+    <Cell><Data ss:Type="String">Denúncia: rumores de ter cometido atrocidades graves</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">FABRICATED_DENOUNCEMENT_LVL3</Data></Cell>
+    <Cell><Data ss:Type="String">Denúncia: ameaça à existência de outros comandantes</Data></Cell>
+   </Row>
+   <Row ss:Index="33" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">WASWARNED</Data></Cell>
+    <Cell><Data ss:Type="String">Foi advertido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">WASDENOUNCED</Data></Cell>
+    <Cell><Data ss:Type="String">Foi denunciado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">WASFALSELYDENOUNCED</Data></Cell>
+    <Cell><Data ss:Type="String">Foi denunciado falsamente</Data></Cell>
+   </Row>
+   <Row ss:Index="37" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">RACE_ADORED</Data></Cell>
+    <Cell><Data ss:Type="String">Relação Racial Admirada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">RACE_FRIENDLY</Data></Cell>
+    <Cell><Data ss:Type="String">Relação Racial Amigável</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">RACE_ACCEPTED</Data></Cell>
+    <Cell><Data ss:Type="String">Relação Racial Aceita</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">RACE_DISTRUSTED</Data></Cell>
+    <Cell><Data ss:Type="String">Relação Racial Desconfiada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">RACE_DISLIKED</Data></Cell>
+    <Cell><Data ss:Type="String">Relação Racial Desagradável</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">RACE_DESPISED</Data></Cell>
+    <Cell><Data ss:Type="String">Relação Racial Desprezada</Data></Cell>
+   </Row>
+   <Row ss:Index="44" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">STORY_FACTION_HELPED</Data></Cell>
+    <Cell><Data ss:Type="String">Ajudou uma facção NPC em um evento da história</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">STORY_FACTION_OFFENDED</Data></Cell>
+    <Cell><Data ss:Type="String">Ofendeu uma facção NPC em um evento da história</Data></Cell>
+   </Row>
+   <Row ss:Index="47" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">ALLY_OF_ALLY</Data></Cell>
+    <Cell><Data ss:Type="String">Aliado em comum</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">PREJUDICE_NEGATIVE_GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Desgosta de: Incompetência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">PREJUDICE_NEGATIVE_REASON</Data></Cell>
+    <Cell><Data ss:Type="String">Não gosta de: {STR_reason}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">SECTORLIBERATED</Data></Cell>
+    <Cell><Data ss:Type="String">Um setor foi libertado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">NEGLECTED</Data></Cell>
+    <Cell><Data ss:Type="String">Está sendo negligenciado há algum tempo</Data></Cell>
+   </Row>
+   <Row ss:Index="53" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">ACCEPTED_DEMAND</Data></Cell>
+    <Cell><Data ss:Type="String">Exigência foi aceita</Data></Cell>
+   </Row>
+   <Row ss:Index="55" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">LIKES_RELATION_WITH</Data></Cell>
+    <Cell><Data ss:Type="String">Gosta da sua relação com {STR_leaderName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">DISLIKES_RELATION_WITH</Data></Cell>
+    <Cell><Data ss:Type="String">Não gosta da sua relação com {STR_leaderName}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">TOO_MANY_FRIENDS</Data></Cell>
+    <Cell><Data ss:Type="String">Você tem amigos demais</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">NEEDS_A_FRIEND</Data></Cell>
+    <Cell><Data ss:Type="String">Precisa de um amigo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">AVOID_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">Quer evitar guerras</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">TOO_MANY_WARS</Data></Cell>
+    <Cell><Data ss:Type="String">Estou lutando em guerras demais</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">OTHER_TOO_MANY_WARS</Data></Cell>
+    <Cell><Data ss:Type="String">Você está lutando em guerras demais</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">SHARED_VASSALAGE</Data></Cell>
+    <Cell><Data ss:Type="String">Compartilha suserania</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">LOW_POPULAR_SUPPORT</Data></Cell>
+    <Cell><Data ss:Type="String">Tem baixo apoio popular</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">VASSAL_TO_ALLY</Data></Cell>
+    <Cell><Data ss:Type="String">Vassalo de um dos seus aliados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">WAR_DURATION</Data></Cell>
+    <Cell><Data ss:Type="String">Duração da guerra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">WAR_UNSUPPORTED</Data></Cell>
+    <Cell><Data ss:Type="String">Poder militar insuficiente para sustentar a guerra</Data></Cell>
+   </Row>
+   <Row ss:Index="68" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">CHEAT_INCREASE</Data></Cell>
+    <Cell><Data ss:Type="String">Trapaça: Deixar Feliz</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION</Data></Cell>
+    <Cell><Data ss:Type="String">CHEAT_DECREASE</Data></Cell>
+    <Cell><Data ss:Type="String">Trapaça: Deixar Irritado</Data></Cell>
+   </Row>
+   <Row ss:Index="72" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACERELATION</Data></Cell>
+    <Cell><Data ss:Type="String">OWNRACE</Data></Cell>
+    <Cell><Data ss:Type="String">Raça Própria</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACERELATION</Data></Cell>
+    <Cell><Data ss:Type="String">PEACE</Data></Cell>
+    <Cell><Data ss:Type="String">Pacto de Não Agressão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACERELATION</Data></Cell>
+    <Cell><Data ss:Type="String">DEFENSIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Pacto Defensivo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACERELATION</Data></Cell>
+    <Cell><Data ss:Type="String">ALLIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">Aliança</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACERELATION</Data></Cell>
+    <Cell><Data ss:Type="String">WAR</Data></Cell>
+    <Cell><Data ss:Type="String">Guerra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACERELATION</Data></Cell>
+    <Cell><Data ss:Type="String">RESOLUTION_PEACEFUL</Data></Cell>
+    <Cell><Data ss:Type="String">Resolução pacífica com acordo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACERELATION</Data></Cell>
+    <Cell><Data ss:Type="String">RESOLUTION_VIOLENT</Data></Cell>
+    <Cell><Data ss:Type="String">Resolução violenta com acordo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACERELATION</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_OWNED</Data></Cell>
+    <Cell><Data ss:Type="String">Possui colônia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACERELATION</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_RAZED</Data></Cell>
+    <Cell><Data ss:Type="String">Colônia arrasada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACERELATION</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_MIGRATED</Data></Cell>
+    <Cell><Data ss:Type="String">Colônia migrada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACERELATION</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_LOSTTOREBELLION</Data></Cell>
+    <Cell><Data ss:Type="String">Perdeu colônia para rebelião</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RACERELATION</Data></Cell>
+    <Cell><Data ss:Type="String">CITY_OCCUPIED</Data></Cell>
+    <Cell><Data ss:Type="String">Cidade ocupada</Data></Cell>
+   </Row>
+   <Row ss:Index="86" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">ALLIANCEWITHDWELLING</Data></Cell>
+    <Cell><Data ss:Type="String">Fação NPC integrada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">DEFENSIVEWITHDWELLING</Data></Cell>
+    <Cell><Data ss:Type="String">Amizade com facção NPC</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">PEACEWITHDWELLING</Data></Cell>
+    <Cell><Data ss:Type="String">Paz com facção NPC</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">MADEALLIANCE</Data></Cell>
+    <Cell><Data ss:Type="String">Formou uma aliança</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">BROKEALLIANCE_NOCB</Data></Cell>
+    <Cell><Data ss:Type="String">Quebrou uma aliança</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">BROKEALLIANCE_MINORCB</Data></Cell>
+    <Cell><Data ss:Type="String">Quebrou uma aliança com Casus Belli menor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">BROKEALLIANCE_NORMALCB</Data></Cell>
+    <Cell><Data ss:Type="String">Quebrou uma aliança com Casus Belli normal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">MADEDEFENSIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Criou uma aliança defensiva</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">BROKEDEFENSIVE_NOCB</Data></Cell>
+    <Cell><Data ss:Type="String">Quebrou uma aliança defensiva</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">BROKEDEFENSIVE_MINORCB</Data></Cell>
+    <Cell><Data ss:Type="String">Quebrou uma aliança defensiva com Casus Belli menor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">MADEPEACE</Data></Cell>
+    <Cell><Data ss:Type="String">Firmou um pacto de não agressão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">BROKEPEACE_NOCB</Data></Cell>
+    <Cell><Data ss:Type="String">Quebrou um pacto de não agressão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">DECLAREWAR_NOCB</Data></Cell>
+    <Cell><Data ss:Type="String">Declarou guerra sem Casus Belli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">DECLAREWAR_NOCB_HIGHREPPLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">Declarou guerra sem Casus Belli contra um comandante de alta reputação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">DECLAREWAR_MINORCB</Data></Cell>
+    <Cell><Data ss:Type="String">Declarou guerra com Casus Belli menor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">DECLAREWAR_MINORCB_HIGHREPPLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">Declarou guerra com Casus Belli menor contra um comandante de alta reputação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">DECLAREWAR_NORMALCB</Data></Cell>
+    <Cell><Data ss:Type="String">Declarou guerra com Casus Belli normal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">DECLAREWAR_NORMALCB_HIGHREPPLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">Declarou guerra com Casus Belli normal contra um comandante de alta reputação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">DECLAREWAR_MAJORCB_HIGHREPPLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">Declarou guerra com Casus Belli maior contra um comandante de alta reputação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">DECLAREWARONFACTION</Data></Cell>
+    <Cell><Data ss:Type="String">Declarou guerra contra uma facção NPC</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">TRESPASSED</Data></Cell>
+    <Cell><Data ss:Type="String">Invadiu domínio alheio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETEDQUEST</Data></Cell>
+    <Cell><Data ss:Type="String">Concluiu uma Missão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">RAZEDCITY</Data></Cell>
+    <Cell><Data ss:Type="String">Destruiu uma estrutura</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">MIGRATEDCITY</Data></Cell>
+    <Cell><Data ss:Type="String">Migrou uma colônia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">OFFEREDGIFT</Data></Cell>
+    <Cell><Data ss:Type="String">Ofereceu um presente</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">TRADEDCASUSBELLI</Data></Cell>
+    <Cell><Data ss:Type="String">Negociou um Casus Belli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">DENOUNCED_INSULTING</Data></Cell>
+    <Cell><Data ss:Type="String">Foi denunciado por insultar outro jogador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">DENOUNCED_TRESPASSING</Data></Cell>
+    <Cell><Data ss:Type="String">Foi denunciado por invasão de território</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">DENOUNCED_COVERTOPS</Data></Cell>
+    <Cell><Data ss:Type="String">Foi denunciado por usar operações encobertas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">DENOUNCED_SECTORCLAIM</Data></Cell>
+    <Cell><Data ss:Type="String">Foi denunciado por ignorar uma reivindicação de setor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">DENOUNCED_ATTACKEDTRESPASSER</Data></Cell>
+    <Cell><Data ss:Type="String">Foi denunciado por atacar um exército invasor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">DENOUNCED_DEFEATEDALLIEDPLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">Foi denunciado por derrotar um aliado de outro jogador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">FABRICATEDCB</Data></Cell>
+    <Cell><Data ss:Type="String">Criou Casus Belli</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">ACCEPTEDPEACEDEAL</Data></Cell>
+    <Cell><Data ss:Type="String">Aceitou acordo de paz</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">FACTIONDEMAND_ACCEPTED</Data></Cell>
+    <Cell><Data ss:Type="String">Atendeu com sucesso às demandas da facção</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">FACTIONDEMAND_DECLINED</Data></Cell>
+    <Cell><Data ss:Type="String">Falhou em atender às demandas da facção</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">OUTPOSTEVENT_PEACEFUL</Data></Cell>
+    <Cell><Data ss:Type="String">Resolveu pacificamente um evento de assentamento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">OUTPOSTEVENT_VIOLENT</Data></Cell>
+    <Cell><Data ss:Type="String">Resolveu violentamente um evento de assentamento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">BROKETRUCE</Data></Cell>
+    <Cell><Data ss:Type="String">Quebrou um tratado de trégua</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">CHEAT_PEACEKEEPER_L3</Data></Cell>
+    <Cell><Data ss:Type="String">Trapaça: Pacificador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">CHEAT_WARMONGER_L3</Data></Cell>
+    <Cell><Data ss:Type="String">Trapaça: Belicista</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">INDEPENDENTRETREAT_ALLOWRETREAT</Data></Cell>
+    <Cell><Data ss:Type="String">Permitiu que saqueadores recuassem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALIGNMENT</Data></Cell>
+    <Cell><Data ss:Type="String">INDEPENDENTRETREAT_CHASEDOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Perseguiu saqueadores</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>2</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>28</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

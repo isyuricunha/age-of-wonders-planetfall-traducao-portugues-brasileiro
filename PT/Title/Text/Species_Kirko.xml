@@ -1,0 +1,479 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>KyleB</LastAuthor>
+  <LastSaved>2019-03-01T15:14:08Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14025</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s71" ss:Parent="s62">
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="47" x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:Width="106.5"/>
+   <Column ss:StyleID="s63" ss:Width="102"/>
+   <Column ss:StyleID="s63" ss:Width="409.5"/>
+   <Column ss:StyleID="s63" ss:Width="144.75"/>
+   <Column ss:StyleID="s63" ss:Width="174"/>
+   <Column ss:StyleID="s63" ss:Width="117.75"/>
+   <Column ss:StyleID="s63" ss:Width="409.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SPECIES_KIRKO</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RACE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME_SINGULAR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Kir'Ko</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RACE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME_PLURAL</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Kir'Ko</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RACE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s71" ss:HRef="mailto:{XML_SPECIES_KIRKO@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]Starting Bonus:[/sand] 2 [hyperlink,000003570000056A]Emergent[/hyperlink] units.[/bullet][bullet][sand]Long-Term Bonus:[/sand] -25% [hyperlink,000003AC000000D4]Unit Upkeep[/hyperlink] for Tier I + II units[/bullet][bullet][hyperlink,0000039E0000000E]Bio[/hyperlink] Weapons Group[/bullet][bullet][hyperlink,0000039E00000011]Psi[/hyperlink] Weapons Group[/bullet][bullet]Rapid population growth and large armies[/bullet][bullet]Biological units with good melee capability[/bullet][bullet]Racial Abilities: [hyperlink,0000034500000AB6]Swarm Shields[/hyperlink] and faster [hyperlink,000003AC0000030F]Regeneration[/hyperlink][/bullet][/bulletList]"><Data ss:Type="String">{XML_SPECIES_KIRKO@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]Bônus Inicial:[/sand] 2 [hyperlink,000003570000056A]Emergent[/hyperlink] unidades.[/bullet][bullet][sand]Bônus de Longo Prazo:[/sand] -25% [hyperlink,000003AC000000D4]Manutenção de Unidades[/hyperlink] para unidades de Tier I + II[/bullet][bullet][hyperlink,0000039E0000000E]Grupo de Armas [/hyperlink]Bio[/bullet][bullet][hyperlink,0000039E00000011]Grupo de Armas [/hyperlink]Psi[/bullet][bullet]Crescimento populacional rápido e exércitos numerosos[/bullet][bullet]Unidades biológicas com boa capacidade corpo a corpo[/bullet][bullet]Habilidades Raciais: [hyperlink,0000034500000AB6]Escudos de Enxame[/hyperlink] e [hyperlink,000003AC0000030F]Regeneração[/hyperlink] mais rápida[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The {text} inserts the DESCRIPTION_SHORT text below.</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RACE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION_SHORT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Por meio de evolução rápida, os [hyperlink,0000039E00000017]Kir'Ko[/hyperlink] buscam restaurar o que foi quebrado e encontrar retribuição pelo terrível destino que lhes sobreveio.</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CAMP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Assentamento Kir'Ko</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CAMP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Um assentamento é uma pequena colônia independente que pode se juntar a você se tiver influência suficiente.</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Migrar Colônia: Kir'Ko</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Migra a população desta colônia para Kir'Ko. A colônia se tornará uma colônia Kir'Ko.[br/][br/][fireCol]Ao migrar a população, {PopulationDeath} dos colonos da colônia serão mortos.[/fireCol] [br/][br/]Você recebe:[br/][fireCol]{Reputation} Reputação[br/]{RaceRelation} Relação Racial com os {STR_raceName}[/fireCol]</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">A colônia está atualmente sendo migrada para uma população Kir'Ko. O processo será concluído em [INT_duration].</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CONFIRMATION</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Tem certeza de que deseja migrar esta colônia para uma colônia Kir'Ko?</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">EMERGENT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Emergent</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">EMERGENT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Os insetos rastejantes curtos conhecidos como Emergents são os mais fáceis de destruir, mas são astutos e vorazes. Nossos guardas têm dificuldade em mantê-los longe de nossos estoques subterrâneos. Embora sejam relativamente lentos, eles roem e cavam abaixo da superfície de nosso assentamento. Seus corpos estão em constante metamorfose, portanto, os produtos químicos que exalam são nocivos. Não é incomum encontrar grupos deles em tocas prontos para vomitar gosmas de lodo tóxico em qualquer um que se aproxime demais de onde se alimentam.”— Professor R. Lin’l “Bugman” Bunson, “RV-123S: Gravações do Posto Avançado Seti Alpha”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: added "the" before "easiest"</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UNLEASHED</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Unleashed</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">UNLEASHED</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“A expedição prosseguiu sem problemas, até que um inseto voador Kir’Ko avistou o comboio. Abatemos o primeiro facilmente, explodindo-o no céu. Apesar das minhas objeções, o capitão achou que poderíamos continuar sem sermos notados. Foi então que eles atacaram em enxame. Embora houvesse dezenas de alvos, juntos suas mentes insetoides estranhas e opressoras gritavam em nossas cabeças, tornando-os mais difíceis de acertar. Os homens entraram em pânico, fugindo em todas as direções. A única razão pela qual sobrevivi foi porque bati a cabeça em uma escotilha de caixa de munição e fiquei preso lá dentro.”— Mah Reg’Nib, Observador Oficial, “RV-772X: Corrida do Néctar: O Preço do Poder”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: added comma after "first", after "strange" and after "oppressive"
+Edit: removed extra space before "Despite"</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">FRENZIED</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Frenzied</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">FRENZIED</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Nós somos os Frenzied. Marcados como ferramentas de trabalho, nossas garras anseiam por ceifar. Trabalhamos para nossa mãe sem mente. Não somos eles. Trabalhamos até que nossa Rainha desaparecida retorne. Ela chama do Vazio. Eles acham que ela morreu. A riqueza fértil da terra alimentará nossos quebrados. Somos mais fortes no verdadeiro enxame. Seguimos nosso propósito esquecido. Lutamos contra aqueles que exiliram nossa Rainha. Por muito tempo trabalhamos para eles; agora lutamos. Eles desejam néctar doce, nós lhes daremos bile. Nós somos os Frenzied.” (mensagem se repete)— Unidade de Tradução de Interrogatório Kir’Ko: Erros de Tradução, “RV-1457D: A Carapaça Quebrada”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit x2: queen -&gt; Queen</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HIDDEN</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Hidden</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HIDDEN</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Meus insetos operários estão defeituosos! Kir’Ko Hidden estão se esgueirando pela plantação, suas asas como mantos. Os bugbots não são inteligentes, são? Max diz que viu um em uma clareira, depois ele desapareceu em um milharal. Max diz que eles carregam armas. Como pode ser? Todas as nossas armas estão contabilizadas. Max acha que eles fabricam as próprias. Absurdo! O que eles poderiam querer? Alimentamos os bugbots como prescrito. Ontem, Max desapareceu em um nevoeiro denso. Agora os bugbots não funcionam. Vou registrar uma reclamação. Exijo compensação!”— Diretor da Colônia Borwin Pomperflounce, “Anomalias da Fronteira da Aliança Estelar, RV-004D: Responsabilidades Corporativas Biomecânicas da Terratech”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TRANSCENDENT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Transcendent</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TRANSCENDENT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Falou através da boca da minha filha, aquele inseto flutuante conhecido como ‘Transcendent’. Falou sobre escravidão e vingança, sobre retomar o que era deles. Nossos mais fortes lutaram. Morreram abrindo uma brecha em suas forças para que pudéssemos escapar. Vi como cortes infligidos nos insetos se abriam espontaneamente no Transcendent, como se compartilhasse sua dor. Ferimentos se fechavam em segundos após serem infligidos. O inseto flutuante liberou uma barragem de dor em nossas mentes. Homens adultos choravam incoerentemente. Aqueles que podiam, fugiram em todas as direções.”— Joshu Dinarstem, RV-1499H, “Massacre da Colônia Septinium”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: "slavery, revenge; about" -&gt; "slavery and revenge, about"</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TORMENTED</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Atormentado</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TORMENTED</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Rory está incoerente. De tempos em tempos, ele fala. Testemunhou um pesadelo vivo. Os outros pacientes corroboram sua história. Uma criatura tentaculada rasgou sua unidade. Nenhuma de suas mentes sobreviveu. Eles choram sem controle. Sentem culpa. Vergonha, como se tivessem cometido um erro terrível. Ele grita sobre seu ódio incessante e focado. Vi o resultado daqueles que não sobreviveram. Achei que nenhuma morte poderia ser pior. Suas mentes se espatifaram como se seus pensamentos fossem tão terríveis que suas cabeças explodiram. Agora vejo que eles foram os sortudos. Meus pacientes estão todos atormentados.”— Enfermeira Rachel Greene, “RV-1799H: Observações dos Caídos”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">BARRAGER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Barrageador</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">BARRAGER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Primeiro observamos o que pensamos ser algum tipo de gado Kir’Ko se movendo lentamente na mata rasteira. Mantivemos uma distância segura e permanecemos ocultos, até que o Ensign Jakobbe achou que seria divertido provocar um com sua mira telescópica para ver o que aconteceria. Seu longo abdômen se curvou sobre o centro blindado, sua traseira brotando como uma flor infernal. Um glóbulo voou sobre o desfiladeiro, espalhando-se em nossa vizinhança. Gás acre queimou nossos olhos. Jakobbe ficou cego. Eu fugi enquanto a cobertura explodia ao nosso redor.”— Mah Reg’Nib, Oficial Observador, “RV-771X: Corrida do Néctar: O Preço do Poder”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: removed dash after "scope"
+Edit: butt -&gt; rear</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RAVENOUS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Voraz</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RAVENOUS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Cometemos um grave erro estratégico ao deixar esses ‘Vorazes’ sobreviverem. Quando as tropas finalmente criaram coragem para atacar um, ele já havia devastado uma série de fortificações e instalações coloniais. A pergunta que me atormentava: onde estavam os corpos dos colonos mortos? Todos haviam desaparecido. Pelas amostras, reconheço agora a amálgama de projetos biogenéticos consistindo tanto de juggernauts quanto de incubadoras de biomatéria. Essas não são apenas máquinas de guerra, eram os colonos. Consumiram biomassa para produzir descendentes. Agora enfrentamos um exército de larvas Kir’Ko.”— Professor R. Lin’l “Bugman” Bunson, “RV-122S: Gravações do Posto Avançado Seti Alpha”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: Where -&gt; where</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ENGULFER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Engolidor</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ENGULFER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Desvinculado do solo, o inseto blindado semelhante a uma libélula nos avistou facilmente. Os Engolidores estão bem equipados para batalhas aéreas. Nossos vãos pedidos por apoio aéreo terminaram em colunas de fumaça negra ao nosso redor. Nosso fogo terrestre fez pouco contra sua carapaça fortemente blindada. Ele retaliou lançando bombas de neurotoxinas corrosivas sobre nossas muralhas. Homens caíram ao meu redor. Se eu não tivesse recuado acidentalmente para um poço e caído fora de seu alcance, suponho que não teria sobrevivido para registrar este encontro. Ainda assim, ele me assombra.”— Mah Reg’Nib, Oficial Observador, “RV-771X: Corrida do Néctar: O Preço do Poder”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: air-support -&gt; air support</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HARBINGER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Precursor</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">HARBINGER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Quando os Precursores chegam, marcharemos de braços dados, ou pernas, ou tentáculos. Será glorioso. Eles consomem os descrentes e formam crianças Kir’Ko que são perfeitamente obedientes. Minha esposa era descrente, mas agora está em paz. Renascida como uma deles. Eles podem arrasar exércitos com sua vontade, e, a seu comando, todos lutamos com o poder aprimorado da unidade que sua Mão Orientadora nos dá — uma unidade que a CORE nunca alcançou. Você está com medo agora, mas quando ele vier, você o receberá de braços abertos.”— Ketch Hawkins, “RV-1775H: Delírios de Colonos Resgatados”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ABYSSIAN</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Abissal</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ABYSSIAN</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Eles são chamados de Abissais, e estou lhe dizendo que nossas muralhas não resistirão a eles. Você já viu suas colônias, aquelas camadas sólidas semelhantes a cimento, uma sobre a outra. Como acha que foram formadas? Deveríamos estar fugindo. Nossas forças são insuficientes para conter o enxame. Os Abissais romperão nossas defesas e o enxame fará o resto. Retire seus homens. Abandone isso. Eles estão cavando para as câmaras de reserva enquanto falamos. Se você se importa com esses colonos, tire-os daqui agora!”— Professor R. Lin’l “Bugman” Bunson, “RV-120S: Gravações do Posto Avançado Seti Alpha”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: another, how -&gt; another. How</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TORRENT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Torrente</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TORRENT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“É como se peixes se escondessem ali. Levamos um barco pesqueiro para águas reivindicadas pelos insetos. Logo nossas redes não conseguiam mais segurar a pesca. Foi quando um inseto aquático gigante emergiu ao lado do navio. A princípio, achei que ele queria uma parte, então jogamos peixes nele. Ele se ergueu e borrifou algum tipo de cimento no carretel da rede, e os motores travaram. Suas garras esmagadoras racharam o casco do meu navio como uma noz em um quebra-nozes. Provavelmente teríamos nos afogado, mas o inseto nos levou de volta ao porto. Então, digo que os insetos são legais.”— Leenad Falk, “RV-6678E: Histórias de Pescador”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: changed present tense text to past tense</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DEEP_ONE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Profundo</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DEEP_ONE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Encontramos uma mente nas Profundezas. Já ouviu seu lamento desolado? Seu poder nos chamou à costa solitária como uma tocha sob a água em uma noite sem lua. Ela é um reflexo de nossa Amada. Ela é a Profunda. Sua carapaça é forte. Ela não é nossa Rainha perdida, mas se lembra dela. É uma irmã antiga. Ela nos tem pena. Os opressores prendem a respiração, recusando-se a respirar o ar quando ela mergulha em seus pensamentos. Eles se afogam nas profundezas de sua mente.”— Nek’nek-Vik’vik-Kit’kikit, “RV-2398D: Palavras com Ecos”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIVEGUARD</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Guarda da Colmeia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIVEGUARD</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Guardas da Colmeia são as torres de defesa Kir’Ko.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="Default"><Data ss:Type="String">PLANET_ARRIVAL</Data></Cell>
+    <Cell><Data ss:Type="String">LOG</Data></Cell>
+    <Cell><Data ss:Type="String">Que a paz esteja com você, Arauto do Enxame dos Kir’Ko Libertos. Não sei como funcionam suas emoções insetoides, mas deixe-me dizer que a ira e a vingança não levam à salvação. O império que escravizou sua espécie jaz em ruínas, enquanto vocês recuperaram sua liberdade. Tudo acontece por uma razão. Forje seu próprio futuro e não olhe para trás com raiva. Que seu enxame traga luz a este mundo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Empress Carminia - Female
+
+Edit: Kirko -&gt; Kir'Ko</Data></Cell>
+   </Row>
+   <Row ss:Index="46" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIVE_GUARD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Guarda da Colmeia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIVE_GUARD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esses Kir'Ko são convocados em tempos de necessidade e a Colmeia precisa de proteção.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>130</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>6</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

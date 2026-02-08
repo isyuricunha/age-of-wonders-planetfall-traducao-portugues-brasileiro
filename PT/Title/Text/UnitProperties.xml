@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Kyle</LastAuthor>
+  <LastSaved>2019-02-01T11:36:12Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11550</WindowHeight>
+  <WindowWidth>25410</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="49" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="192.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="157.5"/>
+   <Column ss:StyleID="s62" ss:Width="118.5"/>
+   <Column ss:Index="4" ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:Index="6" ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">UNITPROPERTIES</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Index="5">
+    <Cell><Data ss:Type="String">STATUS_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">STUNNED_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Atordoado</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">STATUS_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">STUNNED_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade não pode se mover ou usar habilidades.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LARGE_TARGET</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Alvo Grande</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">LARGE_TARGET</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é {largeTargetPenalty} mais fácil de acertar com ataques à distância. Além disso, não pode se proteger, mas conta como cobertura para outras unidades.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">%</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HUGE_TARGET</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Alvo Enorme</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">HUGE_TARGET</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é {largeTargetPenalty} mais fácil de acertar com ataques à distância. Além disso, não pode se proteger e bloqueia a linha de visão.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">%</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHASE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fase</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Phase as in to teleport</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHASE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Teleportar para hexágono desocupado alvo.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HOPPER_JUMP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Salto de Combate</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">HOPPER_JUMP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Salta até uma unidade Leve terrestre alvo, causando dano e empurrando-a para trás.</Data></Cell>
+   </Row>
+   <Row ss:Index="16">
+    <Cell><Data ss:Type="String">GREATER_DEATH_EXPLOSION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Explosão Final do Besouro Adulto</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DEATH_EXPLOSION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Explosão Final do Besouro</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">DEATH_EXPLOSION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao ser eliminada, esta unidade explode, causando {damage}[damagebio/] de dano, destruindo {armormelt}[armor/] e provocando [abilityred]Alto Impacto[/abilityred] em todas as unidades adjacentes.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RESURGENCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ressurgência</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">RESURGENCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quando a unidade morre em combate, ela é revivida ao final do combate se seu dono for vitorioso. Unidades revividas retornam com {resurrectHP} de seu [hp/] máximo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">%</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BEETLE_MORTAR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Morteiro de Besouro</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">BEETLE_MORTAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Atinge uma área de 1 hexágono com uma cápsula tóxica que espalha um perigo Bioquímico.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FOREST_CAMOUFLAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Camuflagem em Floresta</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FOREST_CAMOUFLAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade não pode ser detectada quando está em hexágonos de Floresta.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Edit: stood -&gt; standing</Data></Cell>
+    <Cell><Data ss:Type="String">This unit cannot be detected when stood on Forest hexes.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SWAMP_CAMOUFLAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Camuflagem em Pântano</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">SWAMP_CAMOUFLAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade não pode ser detectada quando está em hexágonos de Pântano.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Edit: stood -&gt; standing</Data></Cell>
+    <Cell><Data ss:Type="String">This unit cannot be detected when stood on Wetland hexes.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">UNIVERSAL_CAMOUFLAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Camuflagem Universal</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">UNIVERSAL_CAMOUFLAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade não pode ser detectada quando está em qualquer hexágono.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Edit: stood -&gt; standing</Data></Cell>
+    <Cell><Data ss:Type="String">This unit cannot be detected when stood on any hex.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ROUGH_TERRAIN_CAMOUFLAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Camuflagem em Terreno Acidentado</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">ROUGH_TERRAIN_CAMOUFLAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade não pode ser detectada quando está em hexágonos de Montanha, Árido ou Abismo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Edit: stood -&gt; standing</Data></Cell>
+    <Cell><Data ss:Type="String">This unit cannot be detected when stood on Mountain, Barren or Chasm hexes.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HOPPER_AIR_LEAP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Salto Aéreo</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">HOPPER_AIR_LEAP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade salta no ar, causando dano a quaisquer unidades Voadoras antes de pousar atrás delas.</Data></Cell>
+   </Row>
+   <Row ss:Index="34">
+    <Cell><Data ss:Type="String">FLANKER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Flanco</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FLANKER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade causa {FlankingBonus}% de dano adicional ao flanquear.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">WATER_CAMOUFLAGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Camuflagem Aquática</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">WATER_CAMOUFLAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade não pode ser detectada quando está em hexágonos de Água.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Edit: stood -&gt; standing</Data></Cell>
+    <Cell><Data ss:Type="String">This unit cannot be detected when stood on Water hexes.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">STRONG_WILL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Imunidade a Controle Mental</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">STRONG_WILL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade é imune a todos os efeitos que a colocam sob controle direto do inimigo.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HERO</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Herói</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HERO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Este personagem é um Herói.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TUNNEL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Túnel</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">TUNNEL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade pode abrir túneis pelo solo no Combate Tático, evitando Vigilância.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CUMBERSOME</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pesada</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">CUMBERSOME</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade se move mais devagar no combate tático</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">EVOLVED_VITALITY_1</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vitalidade Evoluída 1</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">EVOLVED_VITALITY_1</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Experiência adquirida em sua forma anterior fortaleceu esta unidade com +{HealthIncrease}[hp/]</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">EVOLVED_VITALITY_2</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vitalidade Evoluída 2</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">EVOLVED_VITALITY_2</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Experiência adquirida em sua forma anterior fortaleceu esta unidade com +{HealthIncrease}[hp/]</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>33</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>46</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

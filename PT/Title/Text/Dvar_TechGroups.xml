@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Luis Ferreira</LastAuthor>
+  <LastSaved>2019-05-08T10:10:45Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17625</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="69" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="376.5" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="216"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="205.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="326.25"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="271.5"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="326.25"/>
+   <Column ss:Index="9" ss:StyleID="s62" ss:Width="287.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MILITARYINDUSTRIALCOMPLEX_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DVAR_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">GROUP_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dvar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">BREACH_PROTECTION_PROTOCOL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Protocolo de Proteção contra Brechas</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">BREACH_PROTECTION_PROTOCOL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade aliada alvo recebe +{FortifiedArmorArmor}[armor/] por {FortifiedArmorDuration}[turn/] e é curada em {FortifiedArmorHeal}[hp/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">BREACH_PROTECTION_PROTOCOL</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade tem +{FortArmor}[armor/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_ALERT_PROTOCOL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Protocolo de Alerta Geral</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GENERAL_ALERT_PROTOCOL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Todas as unidades Dvar em um raio de {Radius} hexágonos ganham [abilityblue]Protocolo de Alerta[/abilityblue] por {Turns}[Turn/], permitindo que entrem em modo de defesa mesmo que gastem todos os seus pontos de ação durante o turno.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_ALERT_PROTOCOL</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Protocolo de Alerta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERAL_ALERT_PROTOCOL</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Esta unidade entrará em modo de defesa mesmo que tenha gastado todos os seus pontos de ação neste turno.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LOCALIZED_EARTHQUAKE_GENERATOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Gerador de Terremoto Localizado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">LOCALIZED_EARTHQUAKE_GENERATOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades Terrestres em um raio de {Radius} hexágonos perdem {LevelsStaggerResitance} nível de [abilityred]resistência a atordoamento[/abilityred] por {Turns} [Turn/], e são atordoadas por um [abilityred]Impacto Massivo[/abilityred].[br/]Todos os Obstáculos na área de efeito sofrem {ObstacleDamage} de dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LOCALIZED_EARTHQUAKE_GENERATOR</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Terreno Instável</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">LOCALIZED_EARTHQUAKE_GENERATOR</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Esta unidade perdeu {LevelsStaggerResitance} nível de Resistência a Atordoamento devido ao terreno instável após o terremoto.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEPLOY_SAPPER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Implantar Sapeador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DEPLOY_SAPPER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Invoca um Sapeador no hexágono alvo durante o combate. A invocação dura até o fim do combate.[br/]Esta unidade tem várias opções para romper linhas e coberturas inimigas.</Data></Cell>
+   </Row>
+   <Row ss:Index="21" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_SHIFT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mudança Tectônica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECTONIC_SHIFT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Gera um Perigo de [abilityred]Instabilidade Geotérmica[/abilityred] e Montanhas ([production/]/[energy/]) no setor alvo. Se houver uma colônia nesse setor, destrói uma estrutura colonial aleatória. Se houver uma exploração nesse setor, destrói essa exploração. Além disso, todas as unidades no setor alvo perdem seus [movewalk/] Pontos de Movimento restantes no turno.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECTONIC_SHIFT</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Placas tectônicas em movimento causam devastação no setor alvo, criando um Perigo de Instabilidade Geotérmica e Montanhas nesse setor. Se houver colônias aqui, uma de suas estruturas coloniais foi destruída aleatoriamente. Além disso, todas as unidades no setor alvo perderam seus [movewalk/] Pontos de Movimento restantes no turno.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TECTONIC_SHIFT</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Algo deu errado ao mover as placas do setor alvo. O único resultado foi um terremoto que impediu os exércitos de se moverem por {turns}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TECTONIC_SHIFT</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">O inimigo moveu as placas tectônicas neste setor. Isso fez com que o terreno se tornasse montanhoso e um perigo geotérmico surgisse. Também destruiu algumas de nossas estruturas e impediu nossos exércitos locais de se moverem por {turns}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TECTONIC_SHIFT</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">A tentativa fracassada do inimigo de mover nossa placa tectônica causou um terremoto, impedindo nossos exércitos de se moverem por {turns}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_SHIFT</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_STRING</Data></Cell>
+    <Cell><Data ss:Type="String">O exército perdeu todos os seus pontos de movimento neste turno.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_SHIFT</Data></Cell>
+    <Cell><Data ss:Type="String">FAILURE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Em caso de falha, todas as unidades no setor perdem todos os [movewalk/] Pontos de Movimento</Data></Cell>
+   </Row>
+   <Row ss:Index="30" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTORY_OVERDRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sobrecarga da Fábrica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FACTORY_OVERDRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A produção da colônia-alvo aumenta em {productionIncrease}, mas a felicidade é reduzida em {happinessReduction}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FACTORY_OVERDRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">As fábricas estão em pico de produção. A produção é aumentada ao custo da felicidade dos colonos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FACTORY_OVERDRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">SUCCESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A produção aumenta em {productionIncrease} ao custo de {happinessReduction}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEPLOY_TRENCHERS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Implantar Escavadores</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEPLOY_TRENCHERS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Implanta um módulo de reforços, gerando 1 unidade de Escavador no hexágono-alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEPLOY_TRENCHERS</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Escavadores implantados com sucesso.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Torpedo Terrestre</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lança um torpedo que se enterra no solo em direção a um exército inimigo. Quando o torpedo atinge o alvo, causa dano igual a {damage} do [hp/] máximo do alvo e aplica [abilityred]Movimento Lento[/abilityred] por {slowturns}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">O torpedo conseguiu se enterrar até o alvo, causando dano e desacelerando o inimigo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">O torpedo encontrou o alvo, mas detonou apenas parcialmente, causando {Damage}[hp/] de dano ao exército, mas sem desacelerar seu movimento.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS_SLOW</Data></Cell>
+    <Cell><Data ss:Type="String">O exército recebe [abilityred]Movimento Lento[/abilityred] por {slowturns}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">O exército sofre dano equivalente a {Damage} de seu [hp/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Um torpedo terrestre Dvar atingiu o exército, danificando as unidades e desacelerando seu movimento.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Um torpedo terrestre Dvar atingiu o exército, danificando as unidades, mas seu movimento não foi afetado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LAND_TORPEDO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Em caso de falha, o exército-alvo sofre apenas {Damage}[hp/] de dano.</Data></Cell>
+   </Row>
+   <Row ss:Index="47" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOUNTAIN_BREAKER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Quebrador de Montanhas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MOUNTAIN_BREAKER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Torna setores Montanhosos inabitáveis em habitáveis ou transforma setores Montanhosos habitáveis ([production/]/[energy/]) em Planícies Férteis ([supply/]/[energy/]).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MOUNTAIN_BREAKER</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Nossas máquinas conseguiram demolir algumas das montanhas neste setor.</Data></Cell>
+   </Row>
+   <Row ss:Index="51" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NATIVE_DISPLACEMENT_ACT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lei de Deslocamento Nativo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">NATIVE_DISPLACEMENT_ACT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não podemos permitir que alguns infelizes bloqueiem nosso caminho para o progresso.[br/][br/]O custo de mover exércitos Independentes é reduzido em {influencecost}.</Data></Cell>
+   </Row>
+   <Row ss:Index="54" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REVISED_SAFETY_REGULATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Regulamentos de Segurança Revisados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">REVISED_SAFETY_REGULATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ao permitir que contornemos algumas das regulamentações oficiais de trabalho, podemos concluir estruturas mais rapidamente e com custo reduzido.[br/][br/]Estruturas custam {costreduction} a menos [production/] para construir.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Index="57" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORTIFICATION_EFFORTS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Esforços de Fortificação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">FORTIFICATION_EFFORTS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Estabelecer uma boa defesa é sempre importante para garantir que não percamos o que conquistamos. Ao investir mais recursos no treinamento adequado da milícia da colônia e inovar com estruturas defensivas, podemos implantá-las mais rapidamente e com melhores resultados.[br/][br/]Unidades de Milícia da Colônia têm um adicional de {hpincrease} e Torres têm {armorincrease}. Além disso, Estruturas Defensivas da Colônia e Estruturas de Milícia da Colônia custam {costreduction} a menos [production/] para produzir e não têm mais custo de manutenção de energia.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORTIFICATION_EFFORTS</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade de milícia da colônia tem {hpincrease}.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORTIFICATION_EFFORTS</Data></Cell>
+    <Cell><Data ss:Type="String">TURRET_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta torre tem {armorincrease}.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COSMITE_COLLECTION_PROGRAM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Programa de Coleta de Cosmita</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">COSMITE_COLLECTION_PROGRAM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao ignorar alguns dos procedimentos de segurança padrão relacionados à coleta de Cosmita, podemos reunir mais recursos em menos tempo.[br/][br/]A renda de cada nó de Cosmita em seu império é aumentada em {cosmiteincrease}.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MILITARY_INDUSTRIAL_COMPLEX</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Complexo Militar-Industrial</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MILITARY_INDUSTRIAL_COMPLEX</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mobilize todas as forças de trabalho e fábricas possíveis para auxiliar nos esforços de produção.[br/][br/]Acelerar unidades é {costreduction} mais barato. Além disso, a manutenção de unidades Pesadas é reduzida em {upkeepreduction}.[br/][br/][firecol]A manutenção de unidades nunca pode ser reduzida em mais de 50%.[/firecol]</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CHRYSOCRACY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Crisocracia</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">CHRYSOCRACY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Podemos acelerar nossa exploração planetária fazendo com que os mais ricos entre nós gerenciem o comércio e as leis trabalhistas. Os trabalhadores não ficarão felizes, mas olhe para essas margens de lucro![br/][br/]Todas as colônias ganham +{EnergyPop}[energy/] por cada colono, mas perdem {UnhappinessPenalty}[anger/].</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>15</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>22</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

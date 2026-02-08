@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Elliott Van Neste</Author>
+  <LastAuthor>Bas Staffhorst</LastAuthor>
+  <Created>2018-10-30T08:44:30Z</Created>
+  <LastSaved>2019-09-26T07:28:13Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10215</WindowHeight>
+  <WindowWidth>21570</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="42" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="285.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="244.5"/>
+   <Column ss:StyleID="s62" ss:Width="168.75"/>
+   <Column ss:StyleID="s62" ss:Width="546"/>
+   <Column ss:StyleID="s62" ss:Width="150"/>
+   <Column ss:StyleID="s62" ss:Width="309"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">STRUCTURES_STRATEGIC_DLC03</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">EXPOSED_MINERAL_VEIN_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Veio Mineral Exposto</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A vein in this context can also be called a crack. The Exposed Mineral Vein is basically a giant crack within the ground which contains a lot of minerals for mining.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">EXPOSED_MINERAL_VEIN_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um veio de minerais foi empurrado para a superfície por atividade tectônica. Concede {Production} Produção à colônia à qual está vinculado.[br/][br/]Concede {SynergyProduction} Produção adicional quando em Exploração de Produção.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Production Exploitation refers to the sector upgrade that players can built from a colony.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">EXPOSED_MINERAL_VEIN_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SOUL_BEACON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Farol de Essência</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">SOUL_BEACON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Farol de Essência é um dispositivo antigo dos Heritor usado para absorver Essência em larga escala e redistribuí-la entre as tropas do proprietário. [br/][br/]Enquanto estiver neste setor: [bulletList][bullet][abilityred]Unidades [/abilityred]inimigas[hp/] não recuperam [/bullet] fora de combate.[bullet] [abilityblue][/abilityblue]Unidades [hp/]aliadas[/bullet] são curadas até o máximo de __PH13__ no início de cada turno estratégico.__PH14__</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">“Heritor” is a the new secret tech introduced in Planetfall’s first expansion. “Essence” refers to an type of life force/energy that is repeatedly mentioned within the Heritor secret technology.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">SOUL_BEACON</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A cada {turns}[turn/] turnos de combate: [bulletList][bullet]Cada unidade [abilityred]inimiga[/abilityred] tem {strength}[strengthentropy/]% de chance de sofrer [abilityred]Drenagem de Energia[/abilityred] por {drainedturns} [turn/].[/bullet] [bullet]Além disso, cada unidade [abilityblue]aliada[/abilityblue] ganha uma [abilityblue]Carga de Essência[/abilityblue].[/bullet]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Out of combat means within the world map. And strategic turn also means a turn within the world map. Combat turn refers to a turn within tactical combat.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CLUSTER_MINE_LAUNCHER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lançador de Minas Cluster</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">CLUSTER_MINE_LAUNCHER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Lançador de Minas Cluster usa um sistema relativamente primitivo, mas eficaz, que hostiliza tropas inimigas lançando minas nas proximidades do inimigo. [br/][br/]Enquanto estiver neste setor:</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">CLUSTER_MINE_LAUNCHER</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A cada {turns}[turn/] turno de combate: [bulletList][bullet]{mineamount} minas serão colocadas em locais aleatórios no mapa.[/bullet] [bullet][abilityred]Unidades [/abilityred]inimigas{strength} não Voadoras e não Flutuantes que passarem ou iniciarem seu turno sobre uma mina têm [strengthphysical/]{minedamage}% de chance de sofrer [damagekinetic/][/bullet] de dano.[bullet][abilityblue][/abilityblue]Unidades [/bullet]aliadas__PH18__ não são afetadas pelas minas.__PH19__</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Out of combat means within the world map. And strategic turn also means a turn within the world map. Combat turn refers to a turn within tactical combat.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FIRESTORM_MISSILE_SILO</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Silo de Mísseis Tempestade de Fogo</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">FIRESTORM_MISSILE_SILO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Silo de Mísseis Tempestade de Fogo é uma instalação automatizada que lança mísseis térmicos contra entidades hostis durante engajamentos. Frequentemente faziam parte de bases avançadas dos Purificadores. [br/][br/]Enquanto estiver neste setor:</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">FIRESTORM_MISSILE_SILO</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A cada {turns}[turn/] turnos de combate: [bulletList][bullet]Uma unidade inimiga aleatória recebe [abilityred]Bloqueio de Míssil Tempestade de Fogo.[/abilityred][/bullet][bulletList] [bullet]Após outro turno, essa unidade será atingida por um Míssil Tempestade de Fogo.[/bullet] [bullet]O Míssil Tempestade de Fogo causa {damagecenter}[damagethermal/] de dano com [abilityred]Impacto Massivo[/abilityred] no hexágono alvo central.[/bullet] [bullet]Também causa {damage2}[damagethermal/] de dano com [abilityred]Alto Impacto[/abilityred] em um raio de 2 hexágonos.[/bullet] [bullet]Além disso, deixará perigos de fogo em todos os hexágonos afetados.[/bullet]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Out of combat means within the world map. And strategic turn also means a turn within the world map. Combat turn refers to a turn within tactical combat.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FIRESTORM_AUTOMATED_MISSILE_LAUNCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lançamento Automatizado de Míssil Tempestade de Fogo</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">FIRESTORM_AUTOMATED_MISSILE_LAUNCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A cada {turns}[turn/] turnos: [bulletList][bullet]Uma unidade inimiga aleatória recebe [abilityred]Bloqueio de Míssil Tempestade de Fogo.[/abilityred][/bullet][bulletList] [bullet] Após outro turno, essa unidade será atingida por um Míssil Tempestade de Fogo.[/bullet] [bullet]O Míssil Tempestade de Fogo causa {damagecenter}[damagethermal/] de dano com [abilityred]Impacto Massivo[abilityred/] no hexágono alvo central.[/bullet] [bullet]Também causa {damage2}[damagethermal/] de dano com [abilityred]Alto Impacto[/abilityred] em um raio de 2 hexágonos.[/bullet][bullet]Além disso, deixará perigos de fogo em todos os hexágonos afetados.[/bullet]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Out of combat means within the world map. And strategic turn also means a turn within the world map. Combat turn refers to a turn within tactical combat.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FIRESTORM_MISSILE_LOCK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bloqueio de Míssil Tempestade de Fogo</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">FIRESTORM_MISSILE_LOCK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está bloqueada pelo [abilityred]Silo de Mísseis Tempestade de Fogo[/abilityred]. Será atingida por um Míssil Tempestade de Fogo no início do próximo turno, atingindo tanto esta unidade quanto qualquer outra unidade em um raio de 2 hexágonos.[br/][br/]Se a unidade morrer antes de este status expirar, nenhum míssil será disparado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Out of combat means within the world map. And strategic turn also means a turn within the world map. Combat turn refers to a turn within tactical combat.</Data></Cell>
+   </Row>
+   <Row ss:Index="23" ss:Height="60">
+    <Cell><Data ss:Type="String">ES'TEQ_ESSENCE_POOL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Poço de Essência Es'Teq</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Es’Teq is an ancient society that is part of the Heritor secret technology. “Essence” refers to an type of life force/energy that is repeatedly mentioned within the Heritor secret technology.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">ES'TEQ_ESSENCE_POOL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Poço de Essência Es'Teq é um local ritualístico antigo que ressurgiu após permanecer adormecido por um período indefinido. É usado para conferir infusões de drenagem de Essência em armamentos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Es’Teq is an ancient society that is part of the Heritor secret technology. “Essence” refers to an type of life force/energy that is repeatedly mentioned within the Heritor secret technology.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">ES'TEQ_ESSENCE_POOL</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Concede [abilityblue]Aprimoramentos Es'Teq[/abilityblue] para o próximo combate, concedendo-lhes {strength} [abilityred]Drenagem de Energia[/abilityred] em seus ataques não-[damageentropy/]Entropia. [br/][br/]O Poço de Essência Es'Teq concede {Income} quando está dentro do domínio de uma colônia.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Entropy is a new damage channel featured in Planetfall’s first expansion.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ES'TEQ_ESSENCE_POOL</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HERITOR_SANCTORUM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sanctorum Heritor</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">HERITOR_SANCTORUM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os sagrados cofres subterrâneos do Sanctorum Heritor contêm complexos massivos que, por sua vez, estão repletos de hieróglifos e imagens da história e profecias dos Heritor.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Heritor refers to the new secret technology that is featured in Planetfall’s first expansion</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">HERITOR_SANCTORUM</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta marca histórica é um setor energético avançado e concede o seguinte quando anexado:[br/]{EnergyFlat}, {EnergySlot}.[br/]{ResearchFlat}, {ResearchSlot}.[br/][br/]Além disso, desbloqueia o seguinte edifício em sua colônia: [hyperlink,000003E4000002B0]Altar de Cristal[/hyperlink]
+</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HERITOR_SANCTORUM</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HERITOR_SANCTORUM</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sanctorum dos Herdeiros: Essência Transbordante</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">HERITOR_SANCTORUM</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A cada {turns}[turn/], a Essência Transbordante do Sanctorum provê para todos... por um preço.[br/]Unidades atacantes com Cargas de Essência perdem {Essenceloss} Carga de Essência, unidades sem cargas de essência têm {OverflowingEssenceStrength}[strengthentropy/] de chance de sofrer [abilityred]Decaimento Etrópico[/abilityred] por {Duration}[turn/]. Qualquer unidade defensora com Cargas de Essência ganha {OverflowingEssenceHeal}[HP/] por carga de essência.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SUN_SHARD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fragmento Solar</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SUN_SHARD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um Fragmento Solar caiu na superfície. Ele concede [abilityblue]Vontade Inabalável[/abilityblue] às unidades construídas na colônia proprietária.[br/][br/]O Fragmento Solar adiciona {Research} quando está dentro do domínio de uma colônia.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mansão Valentine</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma propriedade escavada que pertencia à família Valentine. Sua fachada extravagante esconde uma grande fábrica de desenvolvimento de armas, que costumava fornecer armamentos de ponta para a Star Union.</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">LOGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta marca histórica é um setor de produção avançado e concede o seguinte quando anexado:[br/]{ProductionFlat}, {ProductionSlot}.[br/]{ResearchFlat}, {ResearchSlot}.
+</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">VALENTINE_MANOR</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURE</Data></Cell>
+    <Cell><Data ss:Type="String">{Income}</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">FORGOTTEN_DWELLING_SLUMBERING_GUARDIANS</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_EFFECT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Guardião Adormecido</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">FORGOTTEN_DWELLING_SLUMBERING_GUARDIANS</Data></Cell>
+    <Cell><Data ss:Type="String">COMBAT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A cada [turn/], os guardiões esquecidos dos Es'teq despertam, fazendo com que um dos Golems antes adormecidos acorde e se junte à defesa.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">HERITOR_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE01</Data></Cell>
+    <Cell><Data ss:Type="String">"Não poderia haver falhas, nenhuma falta de oferendas, nada menos que a perfeição para que nossos Altos Senhores acomodassem seu sono." - Último voto dos fiéis</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">HERITOR_LANDMARK</Data></Cell>
+    <Cell><Data ss:Type="String">QUOTE02</Data></Cell>
+    <Cell><Data ss:Type="String">"Mais do que meros cultistas, os Es'teq haviam se tornado arquitetos da imortalidade, desde que seus seguidores permanecessem dispostos." - General Ashen, tático da RPR</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

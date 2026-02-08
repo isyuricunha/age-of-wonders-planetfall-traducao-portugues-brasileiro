@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Djurre van Dijk</LastAuthor>
+  <LastSaved>2019-02-01T13:31:26Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17835</WindowHeight>
+  <WindowWidth>10005</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <NumberFormat/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="35" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="170.25"/>
+   <Column ss:StyleID="s62" ss:Width="159.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="291"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="146.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="291"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="125.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PLAYER_INTERACTION_VANGUARD</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="195">
+    <Cell ss:Index="5"><Data ss:Type="String">Note that all the texts in this document that refer to two people - the speaker and the one spoken too - that can both be male or female.
+
+Note that use of the 'localized' and 'alternative localized string' only applies for the gender of the speaker.
+
+If the gender of the person spoken to requires inflection, please try to translate the text in a way that doesn't require such inflection. If this is impossible, please get in touch with us informing us of which lines this concerns and how they would be inflected in the language you are translating too.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">GREET_FIRSTMEET_NEGATIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">Conhecemos o seu tipo, escória criminosa, e não vamos correr riscos com você. Diga seu propósito e destino antes que abramos um buraco novinho em folha no seu torso.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">GREET_FIRSTMEET_NEGATIVE_02</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName}, você tem a chance de um boneco de neve no inferno de me convencer de que não passa de um reles marginal. Mas a Vanguard acredita em segundas chances. Como gostaria de usar a sua?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">GREET_FIRSTMEET_NEGATIVE_03</Data></Cell>
+    <Cell><Data ss:Type="String">A Vanguard foi criada para suprimir ameaças como você. A grandeza da Star Union pode ter se apagado, mas lutamos por sua esperança e ideais. Cruzar nosso caminho só coloca você na linha de fogo. Tome cuidado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">GREET_FIRSTMEET_NEUTRAL_01</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_leaderName}, é? O que podemos fazer por você? Seja rápido, por favor. Temos treinamentos da tarde em dezesseis minutos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">GREET_FIRSTMEET_NEUTRAL_02</Data></Cell>
+    <Cell><Data ss:Type="String">Saudações, forasteiro. Você encontrou o canal vox-com da Vanguard. Observe que esta ligação está sendo rastreada, então nada de gracinhas. Então, quem é você? E o que veio fazer aqui?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">GREET_FIRSTMEET_NEUTRAL_03</Data></Cell>
+    <Cell><Data ss:Type="String">Olá, {STR_leaderName}. Represento a Vanguard em assuntos diplomáticos, então podemos falar de política, se necessário. Talvez não sejamos a Star Union, mas somos o mais próximo que você vai encontrar desse nível de estabilidade.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">GREET_FIRSTMEET_POSITIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">Bom dia, comandante {STR_leaderName}. A que devemos o prazer? Ficaríamos felizes em dar algumas dicas se estiver elaborando planos de batalha. A Vanguard está sempre pronta.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">GREET_FIRSTMEET_POSITIVE_02</Data></Cell>
+    <Cell><Data ss:Type="String">Prazer em conhecê-lo, general. Pelas imagens que vi, você comanda uma operação bem organizada. A Vanguard poderia usar um aliado como você. Não dá para reconstruir um império sozinho, né?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="13" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">GREET_NEUTRAL_01</Data></Cell>
+    <Cell><Data ss:Type="String">Salve, comandante. Vou avisando logo: meus homens e mulheres não são dos mais pacientes, e eu também não, então vamos direto ao ponto. A menos que queira testar os limites dessa paciência?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">GREET_NEUTRAL_02</Data></Cell>
+    <Cell><Data ss:Type="String">Bom dia, general. Você fala com a legião Vanguard. Estivemos adormecidos por tempo demais e estamos prontos para voltar a atuar no cenário galáctico. Vamos começar a discussão.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="16" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">GREET_TRADE_PROPOSE_NEUTRAL_01</Data></Cell>
+    <Cell><Data ss:Type="String">Fui autorizado a lhe estender os termos de um acordo comercial. O que acha disso?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="18" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">GREET_TRADE_RECEIVED_01</Data></Cell>
+    <Cell><Data ss:Type="String">10-4, solicitação de comércio recebida. Meu intendente foi notificado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="20" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">DECLARE_WAR_01</Data></Cell>
+    <Cell><Data ss:Type="String">Sou obrigado por lei galáctica a notificá-lo de nossa declaração de guerra contra você e seu povo, {STR_reasons}. Isso para lhe dar tempo suficiente de mobilizar suas forças. Não que isso vá adiantar alguma coisa.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">{STR_reasons} is a list of reasons, written like "You trespassed" and can be found in this excel sheet. This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">DECLARE_WAR_02</Data></Cell>
+    <Cell><Data ss:Type="String">Chega! Já aguentei até aqui com você. {STR_reasons}. Vou até aí arrancar você do seu buraco. Prepare-se para morrer, seu macaco-porco flamejante!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s63"><Data ss:Type="String">{STR_reasons} is a list of reasons, written like "You trespassed" and can be found in this excel sheet. This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text. </Data></Cell>
+   </Row>
+   <Row ss:Index="23" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">INSULT_01</Data></Cell>
+    <Cell><Data ss:Type="String">Disciplina pobre. Falta de compostura. Ausência de coluna vertebral. Todas características de um recruta de primeira semana prestes a ser expulso da academia. E você, claro.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">INSULT_02</Data></Cell>
+    <Cell><Data ss:Type="String">Que a Star Union tenha gerado uma sociedade fracassada como a sua é uma mancha negra que espero poder apagar um dia. Fique de olho, lixo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">INSULT_03</Data></Cell>
+    <Cell><Data ss:Type="String">Qual é o seu maior defeito, soldado?! A sujeira nas patas do meu cachorro faria um líder mais competente que você! Se fosse você, teria se lançado ao sol anos atrás!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="27" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">DECLARE_FRIENDSHIP_01</Data></Cell>
+    <Cell><Data ss:Type="String">Saúdo você, comandante {STR_leaderName}. Você conduziu seu povo ao sucesso e à prosperidade, incorporando os próprios ideais que a Star Union originalmente almejava. Continue com o bom trabalho!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">DECLARE_FRIENDSHIP_02</Data></Cell>
+    <Cell><Data ss:Type="String">Bom, não sou de elogios, mas tenho que admitir: você realmente tem tudo sob controle por aí. Caramba, até meus intendentes estão com inveja da sua organização!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ACTION</Data></Cell>
+    <Cell><Data ss:Type="String">DECLARE_FRIENDSHIP_03</Data></Cell>
+    <Cell><Data ss:Type="String">Aí está um comandante orgulhoso e respeitável, digno de elogios! Vou tirar algumas lições do seu estilo de liderança para aprimorar meu próprio programa. Obrigado pela inspiração!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="31" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">ACCEPT_KINDLY_POSITIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Afirmativo no acordo. Prossiga para a área de descarga designada.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">ACCEPT_DOUBTFUL</Data></Cell>
+    <Cell><Data ss:Type="String">Vamos logo com a troca. Não tenho tempo para perder batendo papo com você.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Index="34" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">DECLINE_IMBALANCE_01</Data></Cell>
+    <Cell><Data ss:Type="String">Negativo! Você vai ter que fazer melhor que isso, amigo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRADE</Data></Cell>
+    <Cell><Data ss:Type="String">DECLINE_IMBALANCE_02</Data></Cell>
+    <Cell><Data ss:Type="String">Esse acordo é péssimo. Você deveria ter vergonha de oferecer isso. Tente de novo, docinho!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>6</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>10</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

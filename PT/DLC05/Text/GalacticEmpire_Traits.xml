@@ -1,0 +1,863 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Thomas Schuiten</LastAuthor>
+  <LastSaved>2020-08-26T15:10:06Z</LastSaved>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8880</WindowHeight>
+  <WindowWidth>23565</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="150" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="208.5"/>
+   <Column ss:StyleID="s62" ss:Width="99"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="531"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="151.5"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">GALACTIC_EMPIRES_TRAITS_DLC05</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FEATURE_PROMETHEAN_RESEARCH_HUB</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Núcleo de Pesquisa Prometeana</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Promethean - the name of a Secret tech.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FEATURE_PROMETHEAN_RESEARCH_HUB</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo já foi um centro de pesquisa Prometeana da divisão Fênix, seus cofres ainda jazem adormecidos na superfície.[br/][br/][bulletList][bullet]Todos os [hyperlink,0000039E0000007A]Pontos de Referência[/hyperlink] de Ouro e Prata são substituídos por [abilityblue]Cofres da Fênix[/abilityblue].[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Phoenix division - the founders of the Promethean secret tech.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_NO_SURVIVORS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sem Sobreviventes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FEATURE_NO_SURVIVORS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Cataclismo não foi gentil com este mundo, não deixando nem uma centelha de civilização.[br/][br/][bulletList][bullet][population/][hyperlink,0000039A000010D7]Assentamentos[/hyperlink] estão [abilityred]ausentes[/abilityred].[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The Cataclysm - the apocalyptic end of the Star Union that saw worlds cut off from one another.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FEATURE_VIRAL_BOMBED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bombardeio Viral</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">FEATURE_VIRAL_BOMBED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo sofreu um bombardeio viral no passado que deixou marcas até os dias de hoje.[br/][br/][bulletList][bullet][abilityred][DamageBio/]Perigos [hyperlink,0000039C00001C1A]Bioquímicos[/hyperlink][/abilityred] são [abilityred]comuns[/abilityred].[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="195">
+    <Cell><Data ss:Type="String">FEATURE_WAR_TORN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Devastado pela Guerra</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FEATURE_WAR_TORN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os conflitos pós-Cataclismo foram particularmente intensos neste mundo, deixando muitos vestígios de armamentos disparados em sua superfície muito depois do fim dos conflitos.[br/][br/][bulletList][bullet][abilityred][hyperlink,0000039C00001C1A]Perigos[/hyperlink][/abilityred] são [abilityred]comuns[/abilityred] neste mundo.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The Cataclysm - the apocalyptic end of the Star Union that saw worlds cut off from one another.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_AGRI_WORLD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mundo Agrícola</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">FEATURE_AGRI_WORLD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo já foi o celeiro de mundos da Star Union por todo o setor, essa natureza especializada ainda é evidenciada pelas instalações remanescentes do planeta.[br/][br/][bulletList][bullet][supply/]Nós de [hyperlink,0000039A00000924]Alimentos[/hyperlink] e Pontos de Referência de Alimentos de Bronze [hyperlink,0000039E0000007A]Landmarks[/hyperlink] são [abilityblue]comuns[/abilityblue].[/bullet][bullet][research/]Nós de [hyperlink,0000039A00000924]Pesquisa[/hyperlink] e Pontos de Referência de Pesquisa de Bronze [hyperlink,0000039E0000007A]Landmarks[/hyperlink] são [abilityred]raros[/abilityred].[/bullet][bullet][production/]Nós de [hyperlink,0000039A00000924]Produção[/hyperlink] e Pontos de Referência de Produção de Bronze [hyperlink,0000039E0000007A]Landmarks[/hyperlink] estão [abilityred]ausentes[/abilityred].[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_REDCORE_MINING_HUB</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Antigo Núcleo de Mineração Redcore</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">FEATURE_REDCORE_MINING_HUB</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo estava em processo de mineração a céu aberto pela Redcore quando o cataclismo ocorreu. Vastas pedreiras e minas ainda perfuram a superfície deste mundo.[br/][br/][bulletList][bullet][production/]Nós de [hyperlink,0000039A00000924]Produção[/hyperlink] e Pontos de Referência de Produção de Bronze [hyperlink,0000039E0000007A]Landmarks[/hyperlink] são [abilityblue]comuns[/abilityblue].[/bullet][bullet][research/]Nós de [hyperlink,0000039A00000924]Pesquisa[/hyperlink] e Pontos de Referência de Pesquisa de Bronze [hyperlink,0000039E0000007A]Landmarks[/hyperlink] são [abilityred]raros[/abilityred].[/bullet][bullet][supply/]Nós de [hyperlink,0000039A00000924]Alimentos[/hyperlink] e Pontos de Referência de Alimentos de Bronze [hyperlink,0000039E0000007A]Landmarks[/hyperlink] estão [abilityred]ausentes[/abilityred].[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Redcore - a corporation of miners from which the Dvar originated.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_COSMITE_RICH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Abundância de Cosmita</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">FEATURE_COSMITE_RICH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Vazio vaza para a realidade neste mundo, gerando fontes abundantes de Cosmita, mas também trazendo consigo as voláteis Tempestades do Vazio.[br/][br/][bulletList][bullet][abilityblue][hyperlink,0000039F000024D8]Nós de [/hyperlink]Cosmita[hyperlink,0000039A00000924][/hyperlink] e coleta são [/abilityblue]comuns[abilityblue].[/abilityblue][/bullet][DamagePhysical/][abilityred]Perigos de [hyperlink,0000039C00001C1A]Tempestade do Vazio[/hyperlink][/abilityred] são [abilityred]comuns[/abilityred].[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cosmite - a strange material seemingly originating from the void, of immense value. Used by the player for advanced units and upgrades.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_COSMITE_DEPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cosmita Esgotada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FEATURE_COSMITE_DEPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Cosmita neste mundo foi exaurida, restando apenas fragmentos para aqueles que ousam enfrentar sua superfície.[br/][br/][bulletList][bullet][abilityblue][hyperlink,0000039F000024D8]Nós de [/hyperlink]Cosmita[hyperlink,0000039A00000924][/hyperlink] estão [/abilityblue]ausentes[abilityred].[/abilityred][/bullet][abilityblue][hyperlink,0000039F000024D8]Coleta de [/hyperlink]Cosmita[/abilityblue] é [abilityred]rara[/abilityred].[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cosmite - a strange material seemingly originating from the void, of immense value. Used by the player for advanced units and upgrades.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_DATA_CENTER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Central de Dados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FEATURE_DATA_CENTER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo abrigava uma vasta rede de torres de transmissão, fornecendo informações ao alcance das massas, cuidadosamente curadas pela CORE.[br/][br/][bulletList][bullet][influence/]Torres de Transmissão são [abilityblue]comuns[/abilityblue].[/bullet][bullet][influence/]Coleta de Holopads é [abilityblue]comum[/abilityblue].[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_RESEARCH_HUB</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Núcleo de Pesquisa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">FEATURE_RESEARCH_HUB</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo já foi um centro para estudiosos da Star Union, oferecendo instalações de pesquisa e academias para uma ampla variedade de aplicações.[br/][br/][bulletList][bullet][research/]Nós de [hyperlink,0000039A00000924]Pesquisa[/hyperlink] e Pontos de Referência de Pesquisa de Bronze [hyperlink,0000039E0000007A]Landmarks[/hyperlink] são [abilityblue]comuns[/abilityblue].[/bullet][bullet][production/]Nós de [hyperlink,0000039A00000924]Produção[/hyperlink] e Pontos de Referência de Produção de Bronze [hyperlink,0000039E0000007A]Landmarks[/hyperlink] são [abilityred]raros[/abilityred].[/bullet][bullet]Nós de [energy/]Energia[hyperlink,0000039E0000007A] e Pontos de Referência de Energia de Bronze [/hyperlink]Landmarks[abilityred] estão [/abilityred]ausentes[/bullet].[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_POWER_HUB</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Núcleo de Energia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">FEATURE_POWER_HUB</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo gerava energia em escala massiva, e embora o propósito dessa vasta rede de energia seja desconhecido, ela sem dúvida será vital para exploração.[br/][br/][bulletList][bullet][energy/]Nós de Energia e Marcos de Energia de Bronze[hyperlink,0000039E0000007A][/hyperlink] são [abilityblue]comuns[/abilityblue].[/bullet][bullet][production/]Nós de Produção[hyperlink,0000039A00000924][/hyperlink] e Marcos de Produção de Bronze[hyperlink,0000039E0000007A][/hyperlink] são [abilityred]raros[/abilityred].[/bullet][bullet] [research/]Nós de Pesquisa[hyperlink,0000039A00000924][/hyperlink] e Marcos de Pesquisa de Bronze[hyperlink,0000039E0000007A][/hyperlink]são [abilityred]ausentes[/abilityred].[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_PENGUIN_HIVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colmeia dos Pinguins</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FEATURE_PENGUIN_HIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esses vilões bicudos chegaram aqui primeiro.[br/][br/][bulletList][bullet][abilityred]Colmeias dos Pinguins[/abilityred] estão [abilityred]presentes[/abilityred].[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRUCTURE_PENGUIN_HIVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colmeia dos Pinguins</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRUCTURE_PENGUIN_HIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Essas colmeias vis de escória e vilania são uma visão rara, mas sinistra — é aqui que as nefastas aves não voadoras planejam suas manipulações do universo.[br/]Se negligenciadas, as criaturas atacarão colônias e exércitos próximos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_QUARTZITE_DEPOSIT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Depósito de Quartzito</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FEATURE_QUARTZITE_DEPOSIT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo abriga vastos depósitos de Quartzito, guardados por sua violenta prole.[br/][br/][bulletList][bullet][abilityred]Psionica[/abilityred] e [abilityred]Quartzito[/abilityred] são [abilityred]comuns[/abilityred].[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quartzite - a wildlife species of mineral creatures.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_HIGH_TIDES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Marés Altas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FEATURE_HIGH_TIDES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo possui um nível excepcionalmente alto de água, deixando poucas massas de terra viáveis para colonização.[br/][br/][bulletList][bullet]Massas de terra são [abilityred]mínimas[/abilityred].[/bullet][bullet]O mundo é dividido em [abilityblue]Continentes[/abilityblue].[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_SCORCHED_WORLD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mundo Calcinado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">FEATURE_SCORCHED_WORLD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo é um foco de atividade geotérmica: a água é escassa e, onde outros mundos teriam vastos oceanos, aqui só há lava.[br/][br/][bulletList][bullet][abilityred]Perigos Geotérmicos[/abilityred] são [abilityred]comuns[/abilityred].[/bullet][bullet]Este mundo consiste em uma única [abilityblue]Pangeia[/abilityblue].[/bullet][bullet]Oceanos e costas são [abilityred]substituídos[/abilityred] por [abilityred]Lava[/abilityred].[/bullet][bullet]Climas árticos são [abilityred]ausentes[/abilityred].[/bullet][bullet][abilityred]Climas de [/abilityred]Terras Áridas[abilityred] são [/abilityred]comuns[/bullet].[/bulletList]__PH30__</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_SHATTERED_WORLD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mundo Fragmentado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">FEATURE_SHATTERED_WORLD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo foi despedaçado pela ativação cataclísmica de um dispositivo apocalíptico Prometeano, deixando sua massa terrestre dividida por oceanos voláteis de lava.[br/][br/][bulletList][bullet][abilityred]Perigos Geotérmicos[/abilityred] são [abilityred]comuns[/abilityred].[/bullet][bullet]Este mundo consiste em vários [abilityblue]Continentes[/abilityblue].[/bullet][bullet]Oceanos e costas são [abilityred]substituídos[/abilityred] por [abilityred]Lava[/abilityred].[/bullet][bullet]Climas árticos são [abilityred]ausentes[/abilityred].[/bullet][bullet][abilityred]Climas de [/abilityred]Terras Áridas[abilityred] são [/abilityred]comuns[/bullet].[bullet][energy/]Teletransportadores conectam todas as massas de terra e são [abilityblue]comuns[/abilityblue].[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Promethean - Secret technology based around purification by fire.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_EMBRACED_BY_THE_VOID</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Abraçado pelo Vazio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">FEATURE_EMBRACED_BY_THE_VOID</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo sofreu um destino anômalo, aparentemente congelado no processo de ser engolido pelo Vazio. O que resta de massa terrestre ainda pode ser um prêmio valioso para aqueles que ousarem explorar sua superfície, no entanto.[br/][br/][bulletList][bullet]Este mundo consiste em vários [abilityblue]Continentes[/abilityblue].[/bullet][bullet]Oceanos e costas são [abilityred]substituídos[/abilityred] por [abilityred]Vazio[/abilityred] intransponível.[/bullet][bullet][energy/]Teletransportadores conectam todas as massas de terra e são [abilityblue]comuns[/abilityblue].[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Void - refers to an alternate dimension of nothingness, not to be confused with The Abyss</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_XENOPLAGUE_INFESTED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Infestado pela Xenopraga</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FEATURE_XENOPLAGUE_INFESTED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Prole vil da cepa Alfa infesta este mundo, coletando o DNA de qualquer um tolo o suficiente para cair em suas garras.[br/][br/][bulletList][bullet][abilityred]Ninhos de Xenopraga[/abilityred] estão [abilityred]presentes[/abilityred].[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Xenoplague - a secret technology based around the 'alpha strain', a mutating genome.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_SPACER_HUNTING_GROUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fazenda de XP dos Spacers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">FEATURE_SPACER_HUNTING_GROUND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Spacers estão transmitindo em canais abertos uma espécie de 'corrida de XP'. Parece que estão competindo para ver quem consegue mais 'XP'.[br/][br/][bulletList][bullet][abilityred]Setores controlados pelos [/abilityred]Spacers[abilityred] são [/abilityred]abundantes[/bullet].[bullet][abilityred]Os [/abilityred]Spacers[abilityred] fazem mais [/abilityred]Exigências[/bullet].[bullet] [abilityred]Os [/abilityred]Spacers[abilityred] começam em [/abilityred]Guerra[/bullet] com você.[bullet][abilityred]Unidades dos [/abilityred]Spacers[abilityblue] ganham [/abilityblue]Experiência[/bullet] três vezes mais rápido.[/bulletList]__PH28__</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Spacers - survivors of the Cataclysm obsessed with virtual escapism.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_PARAGON_WARLORD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Senhor da Guerra Paragon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">FEATURE_PARAGON_WARLORD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um Senhor da Guerra Paragon obteve uma Coroa Imperial. Esse artefato lhe concedeu controle incomparável sobre os Paragon remanescentes, incitando-os a conflitos violentos contra qualquer ameaça ao seu domínio.[br/][br/][bulletList][bullet][abilityred]Paragon[/abilityred] setores controlados são [abilityred]Abundantes[/abilityred].[/bullet][bullet][abilityred]Paragon[/abilityred] fazem mais [abilityred]Exigências[/abilityred].[/bullet] [bullet][abilityred]Paragon[/abilityred] iniciam em [abilityred]Guerra[/abilityred] com você.[/bullet][bullet][abilityred]Paragon[/abilityred] unidades ganham a habilidade [abilityblue]Aprimoramento Sobrecarregador[/abilityblue].[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Paragon - remnants of Star Union nobility and military.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_GROWTH_GARDEN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Jardim do Crescimento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">FEATURE_GROWTH_GARDEN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Primeira Semente do Crescimento forma o coração de um vasto Jardim do Crescimento neste mundo, suas raízes se espalhando amplamente e repelindo agressivamente quaisquer esforços de colonização.[br/][br/][bulletList][bullet][abilityred]Growth[/abilityred] setores controlados são [abilityred]Abundantes[/abilityred].[/bullet][bullet][abilityred]Growth[/abilityred] fazem mais [abilityred]Exigências[/abilityred].[/bullet] [bullet][abilityred]Growth[/abilityred] iniciam em [abilityred]Guerra[/abilityred] com você.[/bullet][bullet][abilityred]Growth[/abilityred] unidades ganham [abilityblue]Camuflagem Florestal[/abilityblue].[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Growth - A race of sentient plantlife.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_AUTONOM_NETWORK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rede Autônoma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">FEATURE_AUTONOM_NETWORK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Autônomos neste mundo mantêm uma rede particularmente poderosa, aumentando sua eficácia e agressividade em igual medida.[br/][br/][bulletList][bullet][abilityred]Autonom[/abilityred] setores controlados são [abilityred]Abundantes[/abilityred].[/bullet][bullet][abilityred]Autonom[/abilityred] fazem mais [abilityred]Exigências[/abilityred].[/bullet] [bullet][abilityred]Autonom[/abilityred] iniciam em [abilityred]Guerra[/abilityred] com você.[/bullet][bullet][abilityred]Autonom[/abilityred] unidades Golem e Justiceiro ganham a habilidade [abilityblue]Inicializar Conexões[/abilityblue].[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Autonom - former robot servants of the Star Union, now turned into a 'sentient' collective.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_PSI_FISH_BREEDING_GROUNDS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Territórios de Caça Psi-Peixe</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FEATURE_PSI_FISH_BREEDING_GROUNDS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cardumes de Psi-Peixes convergiram para este mundo para reivindicar suas presas, e não aceitarão qualquer interrupção.[br/][br/][bulletList][bullet][abilityred]Psi-Fish[/abilityred] setores controlados são [abilityred]Abundantes[/abilityred].[/bullet][bullet][abilityred]Psi-Fish[/abilityred] fazem mais [abilityred]Exigências[/abilityred].[/bullet] [bullet][abilityred]Psi-Fish[/abilityred] iniciam em [abilityred]Guerra[/abilityred] com você.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Psi-fish - A race of psionic jellyfish</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_COLONIZERS_BANE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Flagelo dos Colonizadores</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FEATURE_COLONIZERS_BANE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo tem uma reputação particularmente aterrorizante entre os colonos, que se recusam a enfrentar sua superfície.[br/][br/][bulletList][bullet][abilityblue]Colonizadores[/abilityblue] são [abilityred]proibidos[/abilityred].[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="5"><Data ss:Type="String">PLACEHOLDER - DO NOT TRANSLATE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">PLACEHOLDER - DO NOT TRANSLATE
+Void - refers to an alternate dimension of nothingness, not to be confused with The Abyss</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_MYCELIAN_INFESTATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Infestação Miceliana</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FEATURE_MYCELIAN_INFESTATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este planeta abriga uma poderosa infestação Miceliana. Nesse tamanho, eles espalham seus esporos livremente e devem ser considerados extremamente perigosos.[br/][br/][bulletList][bullet][abilityred]Mycelian[/abilityred] geradores são [abilityred]comuns[/abilityred].[/bullet][bullet][abilityred]Mycelian[/abilityred] geradores geram [abilityred]exércitos[/abilityred] mais poderosos.[/bullet][bullet][abilityred]Mycelian[/abilityred] geradores agem como [abilityred]Perigos de Nuvem de Esporos[/abilityred].[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mycelians - a wildlife group of creatures, fungus overgrown machinery.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_RPR_INQUISITION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Inquisição RPR</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FEATURE_RPR_INQUISITION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma unidade RPR aparentemente foi enviada a este mundo há muito tempo. Sua presa provavelmente já se foi, mas essas máquinas implacáveis ainda permanecem.[br/][br/][bulletList][bullet][abilityred]Torres RPR[/abilityred] são [abilityred]comuns[/abilityred].[/bullet][bullet][abilityred]Torres RPR[/abilityred] geram [abilityred]exércitos[/abilityred] mais poderosos.[/bullet][bullet][abilityred]Torres RPR[/abilityred] infligem [abilityred]Alvo Específico[/abilityred] a unidades Biológicas, Ciborgues e Heritor no setor.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">RPR - or 'Reapers', a wildlife group of robots that seek to wipe out all traces of the Heritors.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_HOPPERHOUND_HIVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colmeia Hopperhound</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FEATURE_HOPPERHOUND_HIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo tem uma população particularmente próspera de Hopperhounds, suas colmeias perfurando o planeta e pontilhando a superfície, abrigando uma enorme população.[br/][br/][bulletList][bullet][abilityred]Hopperhound[/abilityred] geradores são [abilityred]comuns[/abilityred].[/bullet][bullet][abilityred]Hopperhound[/abilityred] geradores geram [abilityred]exércitos[/abilityred] mais poderosos.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hopperhounds - wildlife creatures akin to giant grasshoppers.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_PSYCHO_ACTIVE_CRYSTALS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cristais Psicoativos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">FEATURE_PSYCHO_ACTIVE_CRYSTALS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo produz cristais Psiónicos particularmente potentes, e os Psionica parecem ser atraídos por eles.[br/][br/][bulletList][bullet][abilityred]Psionica[/abilityred] geradores são [abilityred]comuns[/abilityred].[/bullet][bullet][abilityred]Psionica[/abilityred] geradores infligem [abilityred]Cristal Psicoativo[/abilityred] a unidades não-Mente ou Mineral no setor.[/bullet][bullet][abilityred]Psionica[/abilityred] geradores geram [abilityred]exércitos[/abilityred] mais poderosos.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Psionic - Psychic powers 
+Psionica - Species of mineral creatures that store and use Psionic energy.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FEATURE_PSYCHO_ACTIVE_CRYSTALS</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é afetada pelos Cristais Psicoativos e sofre {moralepenalty}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_HOLY_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sítio Sagrado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">FEATURE_HOLY_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo abriga vários locais sagrados, e até mesmo aqueles que não seguem a fé Celestiana sentem uma conexão estranha e sobrenatural com esses marcos imponentes. Talvez esses lugares sejam mais do que meros templos...[br/][br/][bulletList][bullet]Todo Ouro e Prata [abilityblue]Marcos[/abilityblue] são substituídos por [abilityblue]Arquivos Celestianos[/abilityblue].[/bullet][bullet][abilityblue]Arquivos Celestianos[/abilityblue] concedem um adicional {bonusincome}[/bullet][bullet]Capturar um [abilityblue]Arquivo Celestiano[/abilityblue] concede a todos os outros Impérios [abilityred]Casus Belli[/abilityred] contra aquele Império.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Celestian - A secret tech/religion</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">FEATURE_HOLY_SITE</Data></Cell>
+    <Cell><Data ss:Type="String">LANDMARK_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este marco é um setor avançado de alimentos e concede o seguinte ao ser anexado:[bulletList][bullet]{FoodFlat}[/bullet][bullet]{FoodSlot}[/bullet][/bulletlist][br/][br/][bulletlist][bullet]{HappinessFlat}[/bullet][bullet]{HappinessSlot/}[/bullet][bullet]{Bonusincome}[/bullet][br/][br/]Capturar este setor concede a todos os outros Impérios [abilityred]Casus Belli[/abilityred] contra aquele Império.[/bulletlist][br/][br/]Além disso, desbloqueia o seguinte edifício em sua colônia:[bulletlist][bullet][hyperlink,000003BD00000330]Observatório Estelar[/hyperlink][/bullet][/bulletlist]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_REIGN_OF_CHAOS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reino do Caos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FEATURE_REIGN_OF_CHAOS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Apóstatas dominam grande parte deste mundo, enviando exércitos de suas Torres Sombrias para subjugar os fracos.[br/][br/][bulletList][bullet]Todo Ouro e Prata [abilityblue]Marcos[/abilityblue] são substituídos por [abilityred]Torres Sombrias[/abilityred].[/bullet][bullet][abilityred]Torres Sombrias[/abilityred] geram exércitos agressivos de Apóstatas até serem eliminadas.[/bullet][/bulletlist]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Apostates - a rebel faction that mirrors the Oathbound by embracing chaos, 'black knights'</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FEATURE_REIGN_OF_CHAOS</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade recebe {Hpbonus} e {Shieldbonus}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_INVASION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Invasão Iminente</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FEATURE_INVASION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo chamou a atenção dos Portadores do Vazio, e aqueles que buscam conquistá-lo devem se preparar para sua chegada.[bulletList][bullet]Os [abilityred]Voidbringers[/abilityred] invadirão.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Voidbringer - Outsider unknowable aliens that seemingly seek to dominate and consume all.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_GRAIL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Santo Graal Detectado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FEATURE_GRAIL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A.I.V.A. detectou o rastro de um Graal neste planeta. Reivindicar este artefato nos concederá um poder imenso.[br/][br/][bulletList][bullet]Uma configuração de [abilityblue]Grail[/abilityblue] está presente.[/bullet][/bulletlist]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A.I.V.A. - the assistant AI that gives the player their tutorial.
+Grail - a mysterious device that grants great power to the one that claims it.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FEATURE_OATHBOUND_CAMPAIGN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Poder Imperial</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">FEATURE_OATHBOUND_CAMPAIGN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Paragons neste mundo preservaram sua posição de poder desde antes do Cataclismo. Eles usam soldados de elite e agem com hostilidade contra qualquer renegado que questione seu mandato imperial.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC03_FEATURE_ANOMALOUS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Anômalo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DLC03_FEATURE_ANOMALOUS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo tem um passado rico, repleto de anomalias para investigar e descobrir.[br/][br/][bulletList][bullet][abilityblue]Sítios Anômalos[/abilityblue] são [abilityblue]comuns[/abilityblue].[/bullet][/bulletlist]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anomalies - refers to the Survey Sites of DLC03</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_RAPID_EVOLUTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Evolução Rápida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FEATURE_RAPID_EVOLUTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As facções nativas deste mundo são altamente adaptáveis, melhorando e fortalecendo seus exércitos rapidamente na presença de uma ameaça estrangeira.[br/][br/][bulletList][bullet]O nível de Ameaça da Vida Selvagem é definido como [abilityred]Extremo[/abilityred].[/bullet][/bulletlist]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DLC04_FEATURE_VOIDBRINGER_THRALLWORLD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mundo Escravo dos Voidbringers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DLC04_FEATURE_VOIDBRINGER_THRALLWORLD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo foi reivindicado pelos Voidbringers no passado. Por alguma razão desconhecida, eles ainda não o destruíram, continuando a infestar sua superfície.[br/][br/][bulletList][bullet]Todos os Spawners são substituídos por [abilityred]Fragmentos Voidbringer[/abilityred].[/bullet][bullet]A Ameaça Mundial é definida como [abilityred]Hardcore[/abilityred].[/bullet][/bulletlist]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Voidbringer - Outsider unknowable aliens that seemingly seek to dominate and consume all.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DLC03_FEATURE_FORGOTTEN_DESECRATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Profanação Esquecida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">DLC03_FEATURE_FORGOTTEN_DESECRATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma série de construtos Heritor chamam este mundo de lar. O tempo foi inconstante para esses Esquecidos, enchendo-os de força recém-descoberta e loucura em igual medida.[br/][br/][bulletList][bullet][abilityred]Forgotten[/abilityred] possuem setores em [abilityred]Abundância[/abilityred].[/bullet][bullet][abilityred]Forgotten[/abilityred] fazem mais [abilityred]Exigências[/abilityred].[/bullet] [bullet][abilityred]Forgotten[/abilityred] iniciam em [abilityred]Guerra[/abilityred] com você.[/bullet][bullet][abilityred]Unidades [/abilityred]Forgotten{EssenceChargeBonus} iniciam o combate com [abilityblue] cargas de Essência[/abilityblue].[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Heritors - an ancient secret tech focused around extracting and storing lifeforce. Creators of the Forgotten.
+Forgotten - Ancient Heritor constructs that have decayed and gone mad.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">DLC03_FEATURE_FORGOTTEN_DESECRATION</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade inicia o combate com {bonusEssence}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_FEATURE_THERIAN_CONVENTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Convenção Therian</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">DLC04_FEATURE_THERIAN_CONVENTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um antigo ritual Therian, uma reunião anual de vários clãs, está em andamento neste mundo. Eles não verão com bons olhos quem interromper o ritual da convenção.[br/][br/][bulletList][bullet][abilityred]Therian[/abilityred] setores possuídos estão [abilityred]Abundantes[/abilityred].[/bullet][bullet][abilityred]Therians[/abilityred] fazem mais [abilityred]Exigências[/abilityred].[/bullet] [bullet][abilityred]Therians[/abilityred] começam em [abilityred]Guerra[/abilityred] com você.[/bullet][bullet][abilityred]Therian[/abilityred] unidades ganham {Moralebonus}[happiness/].[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Therians - a faction of animalistically mutated pirates with cult-like tendencies.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INHABITANTS_AGGRESSIVE_KIRKO_SWARM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Enxame Kir'Ko Agressivo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">INHABITANTS_AGGRESSIVE_KIRKO_SWARM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um grande enxame Kir'Ko tornou este planeta seu lar e parece não estar disposto a compartilhá-lo.[bulletList][bullet]Existem 2 Kir'Ko [abilityred]Belicistas[/abilityred] que são aliados entre si.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Kir'ko - A race of former bug-like creatures that lost their hive mind.
+Swarm - usually how Kir'ko refer to their civilizations</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INHABITANTS_AGGRESSIVE_KIRKO_SWARM_CASUS_BELI</Data></Cell>
+    <Cell><Data ss:Type="String">CASUS_BELI_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Você é um forasteiro.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INHABITANTS_AGGRESSIVE_KIRKO_SWARM_CASUS_BELI</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Desprezo por forasteiros.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INHABITANTS_SYNDICATE_DOMINATED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aliados do Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INHABITANTS_SYNDICATE_DOMINATED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Duas grandes casas do Syndicate formaram uma aliança para reivindicar este mundo, apesar das reivindicações de inúmeras casas menores.[br/][br/][bulletList][bullet]Existem 2 casas do Syndicate que são aliadas entre si neste mundo.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Syndicate - a faction of cunning slave traders divided among houses.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INHABITANTS_DISPUTED_CLAIM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reivindicação Disputada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">INHABITANTS_DISPUTED_CLAIM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dois Consórcios Dvar reivindicaram este mundo e trouxeram recursos significativos para fazer valer sua reivindicação. Um confronto entre eles parece inevitável.[br/][br/][bulletList][bullet]Existem 2 consórcios Dvar presentes neste mundo.[/bullet][bullet]Esses Dvar trouxeram cada um [abilityred]forças adicionais[/abilityred] para este mundo.[/bullet][bullet][abilityred]Guerra[/abilityred] entre eles parece inevitável.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dvar - A faction of hyper-capitalist miners
+Consortia - plural of Consortium, the term by which Dvar subfactions are referred.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INHABITANTS_HOLY_CRUSADE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Santa Cruzada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INHABITANTS_HOLY_CRUSADE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma aliança de Celestianos devotos veio a este mundo com um propósito desconhecido.[br/][br/][bulletList][bullet]Existe uma Aliança de 3 impérios Celestianos presentes neste mundo.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Celestian - A secret tech/religion</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INHABITANTS_HOLY_CRUSADE</Data></Cell>
+    <Cell><Data ss:Type="String">CASUS_BELI_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Você é um blasfemo forasteiro.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">INHABITANTS_CULT_OF_KHANSU</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Culto de Khansu</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Khansu - controversial emperor whom infamously burned himself and his homeworld in a ritual suicide.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">INHABITANTS_CULT_OF_KHANSU</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um culto do Imperador Flamejante designou este mundo para queimar todos os vestígios da influência do CORE.[br/][br/][bulletList][bullet]Existe uma Aliança de 3 impérios Prometheanos presentes neste mundo.[/bullet][bullet]Esta Aliança está buscando uma vitória [abilityred]Apocalíptica[/abilityred].[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Burning Emperor - nickname of Emperor Khansu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INHABITANTS_CULT_OF_KHANSU</Data></Cell>
+    <Cell><Data ss:Type="String">CASUS_BELI_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oponente ao culto.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INHABITANTS_ELOP_COLONY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colônia ELOP</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">ELOP - stands for Egalitarian League Of Planets, an in universe faction.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INHABITANTS_ELOP_COLONY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo foi recentemente colonizado pela Liga Egalitária de Planetas.[br/][br/][bulletList][bullet]Existe uma Aliança de 4 impérios presentes neste mundo.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Egalitarian League Of Planets, an in universe faction.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INHABITANTS_MARKED_FOR_REASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Marcado para Reassemblagem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">INHABITANTS_MARKED_FOR_REASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Assembly marcou este mundo para Reassemblagem e não aceitará interferências.[br/][br/][bulletList][bullet]Existe uma Aliança de 3 impérios da Assembly presentes neste mundo.[/bullet][bullet]Essa Assembly inevitavelmente entrará em [abilityred]Guerra[/abilityred] contra cada Império.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DLC04_INHABITANTS_HERE_ALL_ALONG</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sempre Estiveram Aqui</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DLC04_INHABITANTS_HERE_ALL_ALONG</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um Infiltrador Shakarn tem outras duas facções sob o domínio de suas manipulações, criando uma aliança estranha que pode se mostrar bastante problemática.[br/][br/][bulletList][bullet]Há uma Aliança de 1 Shakarn e 2 outros impérios presentes neste mundo.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shakarn - a faction of lizard  conquerors
+Infiltrator in this context is literal and does NOT refer to the unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER_SHADOW_WREATHED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Envolto em Sombras</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODIFIER_SHADOW_WREATHED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A atmosfera deste mundo dificulta a visibilidade, permitindo que exércitos escapem da detecção com facilidade.[br/][br/][bulletList][bullet]Todas as unidades pertencentes ao Jogador ganham [abilityblue]Camuflagem Universal[/abilityred].[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER_LOW_MAINTENANCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Baixa Manutenção</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODIFIER_LOW_MAINTENANCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A superfície oferece muitas fontes de sustento e peças sobressalentes, reduzindo significativamente o custo de manutenção dos exércitos implantados.[br/][br/][bulletList][bullet]O custo de manutenção de todas as unidades é [abilityblue]reduzido em {UpkeepDiscount}[/abilityblue].[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER_IMAGING_SATELLITES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Satélites de Imagem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODIFIER_IMAGING_SATELLITES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este planeta ainda possui uma rede global de satélites de imagem intacta, permitindo que novos chegados mapeiem facilmente a geografia da superfície.[br/][br/][bulletList][bullet]Ao chegar, o mapa está totalmente [abilityblue]Explorado[/abilityblue].[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER_QUALITY_OVER_QUANTITY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Qualidade sobre Quantidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODIFIER_QUALITY_OVER_QUANTITY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo apresenta poucos recursos preciosos para manter grandes exércitos, focar em qualidade sobre quantidade é primordial.[bulletList][bullet][abilityblue]Unidades de Nível I e II[/abilityblue] têm o custo de manutenção [abilityred]aumentado em {UpkeepPen}[/abilityred].[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER_POOR_VISIBILITY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Visibilidade Ruim</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MODIFIER_POOR_VISIBILITY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O horizonte é próximo e pouco confiável, a visibilidade de qualquer um que ouse enfrentar sua superfície será significativamente reduzida.[br/][br/][bulletList][bullet]Unidades sofrem com [abilityred]Visibilidade Ruim[/abilityred].[/bullet]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER_TURBULENT_ATMOSPHERE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Atmosfera Turbulenta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODIFIER_TURBULENT_ATMOSPHERE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A atmosfera deste mundo está em constante movimento caótico, tornando o voo difícil.[br/][br/][bulletList][bullet][abilityblue]Unidades voadoras[/abilityred] sofrem com [abilityred]Turbulência[/abilityred].[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER_MUTATED_FAUNA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fauna Mutante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODIFIER_MUTATED_FAUNA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo apresenta fauna estranha e mutante, tornando as criaturas mais resistentes do que o habitual.[br/][br/][bulletList][bullet]Todas as unidades de [abilityblue]Animais[/abilityblue] da Vida Selvagem ganham {Hpbonus}[hp/], {armorbonus}[Armor/] e [abilityblue]Mutante[/abilityblue].[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DLC04_MODIFIER_COSMIC_MAELSTROM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Voragem Cósmica</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cosmic refers to 'Cosmic events' (DLC04)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DLC04_MODIFIER_COSMIC_MAELSTROM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo está localizado em uma parte particularmente instável da Rede Nexus, fazendo com que receba uma quantidade excessiva de anomalias cósmicas.[br/][br/][bulletList][bullet][abilityblue]Eventos Cósmicos[/abilityblue] ocorrem um após o outro.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Nexus Network - the system of stabilized 'wormholes' through which travel between Star Union planets was conducted.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER_BARREN_LANDS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Terras Áridas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MODIFIER_BARREN_LANDS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo está árido e devastado, a Star Union já extraiu a maior parte do valor deste lugar há muito tempo.[br/][br/][bulletList][bullet]Setores não [abilityblue]Costeiros[/abilityblue] sem [abilityblue]Rios[/abilityblue] são [abilityred]Áridos[/abilityred], produzindo {Incomereduction} menos recursos.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The Union - short for Star Union</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER_INFERTILE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Infértil</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODIFIER_INFERTILE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O solo infértil deste mundo não é adequado para a produção de alimentos.[br/][br/][bulletList][bullet][supply/]Nós de Alimentos e Pontos de Interesse estão [abilityred]ausentes[/abilityred].[/bullet][bullet][supply/]O custo em Alimentos para adquirir novos Colonos é [abilityred]aumentado[/abilityred] em {Costincrease}.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER_AGGRESSIVE_SETTLERS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Colonos Agressivos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MODIFIER_AGGRESSIVE_SETTLERS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Cataclismo deve ter sido particularmente severo neste mundo, tornando seus sobreviventes resistentes e agressivos.[br/][br/][bulletList][bullet][abilityblue]Assentamentos[/abilityblue] não podem ser comprados com influência.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The Cataclysm - the apocalyptic end of the Star Union that saw worlds cut off from one another.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MODIFIER_ELECTROVOROUS_ATMOSPHERE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Atmosfera Eletrófaga</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODIFIER_ELECTROVOROUS_ATMOSPHERE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A atmosfera deste mundo absorve energia elétrica como uma esponja, drenando energia de tudo ao redor o tempo todo.[br/][br/][bulletList][bullet]A [energy/]Manutenção de Energia[abilityred] de unidades e construções é [/abilityred]aumentada{UpkeepIncrease} em [/bullet].[/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER_LOW_GRAVITY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Baixa Gravidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODIFIER_LOW_GRAVITY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O campo gravitacional abaixo da média deste mundo permite um deslocamento significativamente mais rápido em sua superfície.[br/][br/][bulletList][bullet]Todas as unidades recebem [abilityblue]Movimento Rápido[/abilityblue].[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER_MASKING_FREQUENCIES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Frequências de Camuflagem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODIFIER_MASKING_FREQUENCIES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As redes de comunicação deste mundo ainda zumbem com sinais, repetindo chamadas antigas e solicitações de dados constantemente, um disfarce perfeito para atividades secretas.[br/][br/][bulletList][bullet][opcovert/][abilityblue]Operações Secretas[/abilityblue] são [abilityblue]nunca detectadas[/abilityblue].[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER_NO_SECRETS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sem Segredos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MODIFIER_NO_SECRETS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A rede de vigilância CORE deste planeta está danificada, mas altamente ativa, espalhando informações pelo éter para qualquer um com um receptor funcional captar. Não haverá segredos aqui.[br/][br/][bulletList][bullet][opcovert/][abilityblue]Operações Secretas[/abilityblue] são sempre [abilityred]detectadas[/abilityred] em caso de falha.[/bullet][bullet][abilityblue]Operações Secretas[/abilityblue] custam {CostReduction} menos.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">CORE - an ancient AI that ruled alongside the Star Union's Emperor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER_CHAMELEONIC_ADAPTATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Adaptações Camaleônicas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODIFIER_CHAMELEONIC_ADAPTATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As facções nativas deste mundo desenvolveram uma aptidão única para furtividade, escondendo-se por toda a superfície do planeta para emboscar presas em potencial.[br/][br/][bulletList][bullet]Todas as unidades pertencentes a facções Neutras e NPCs recebem [abilityred]Camuflagem Universal[/abilityred].[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MODIFIER_DOCTRINE_BROADCAST_NETWORK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rede de Transmissão de Doutrinas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODIFIER_DOCTRINE_BROADCAST_NETWORK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo ainda possui uma rede de transmissão intacta, um sistema facilmente explorado para apoiar um novo Império.[br/][br/][bulletList][bullet]Todos os Jogadores recebem {Doctrineslotbonus} [doctrine/][abilityblue]Slots de Doutrina[/abilityblue].[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER_LIMITED_SPACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Espaço Limitado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODIFIER_LIMITED_SPACE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A superfície extremamente instável deste mundo oferece muito pouco espaço para construção, forçando as colônias a permanecerem pequenas.[br/][br/][bulletList][bullet]Colônias [abilityred]não podem[/abilityred] crescer além de {PopLimit} [population/]colonos.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER_NETWORKED_WORLD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mundo em Rede</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODIFIER_NETWORKED_WORLD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma vasta rede de comunicações ainda cobre este mundo e pode ser rapidamente explorada para auxiliar Operações Estratégicas.[br/][br/][bulletList][bullet]Todos os Jogadores recebem {OperationStrengthbonus} [operationstrength/][abilityblue]Força de Operação[/abilityblue].[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER_OPERATIONAL_STOCKPILE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reserva Operacional</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODIFIER_OPERATIONAL_STOCKPILE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Grandes reservas de equipamento militar e munições permanecem neste mundo. Alguém poderia facilmente explorá-las para obter um desconto significativo em suas Operações Táticas.[br/][br/][bulletList][bullet][optactical/][abilityblue]Operações Táticas[/abilityblue] não custam nenhuma [energy/]Energia.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER_POINTLESS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sem Propósito</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODIFIER_POINTLESS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este mundo possui um grande número de satélites de propósito militar que podem ser reaproveitados com facilidade para uso em Operações Táticas.[br/][br/][bulletList][bullet][optactical/][abilityblue]Operações Táticas[/abilityblue] não custam nenhum [castingtactical/]Ponto de Operação.[/bullet][/bulletList]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_RICH_WATERS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Águas Ricas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FEATURE_RICH_WATERS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As águas deste mundo são extremamente ricas em minerais e nutrientes, proporcionando um impulso às empreitadas aquáticas.[br/][br/][bulletList][bullet]A renda de características de Rio e setores Aquáticos é aumentada em {aquaticBonus}.[/bullet][bullet]O tipo de mapa é Continentes.[/bullet][/bulletlist]</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>130</Zoom>
+   <Selected/>
+   <TopRowVisible>74</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>82</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,511 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2019-05-23T14:09:28Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowIconic/>
+  <WindowHeight>10380</WindowHeight>
+  <WindowWidth>22230</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="77" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="227.25" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="114.75"/>
+   <Column ss:StyleID="s62" ss:Width="209.25"/>
+   <Column ss:Index="4" ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:Index="6" ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">UNIFIER_VICTORY</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIFIER_VICTORY</Data></Cell>
+    <Cell><Data ss:Type="String">RESEARCH_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Amanhecer de uma Nova União</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">UNIFIER_VICTORY</Data></Cell>
+    <Cell><Data ss:Type="String">RESEARCH_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String"> “Podemos reconstruí-lo… ou ela… ou aquilo. Melhorias são desnecessárias. Nossos heróis caídos aprendem pela própria natureza de sua morte. Dizem que passar tanto tempo esperando no Vazio é o maior de todos os mestres.”[br/]– Rachel Greene, Enfermeira</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BASIC_INFO</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vitória Unificadora</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This is a victory condition where the player attempts to win by unifiying the planet under their own control.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">START_MODIFIERS</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLINGS_OWNED</Data></Cell>
+    <Cell><Data ss:Type="String">Moradias Amigáveis de propriedade da Aliança</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">START_MODIFIERS</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER_ALLIES</Data></Cell>
+    <Cell><Data ss:Type="String">Alianças com Comandantes</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Commanders are other players</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">START_MODIFIERS</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_ALLIES</Data></Cell>
+    <Cell><Data ss:Type="String">Alianças com Facções NPC</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">NPC Factions are independent groups of aliens/robots/etc who the player can meet and interactive, but not directly control themselves.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">START_MODIFIERS</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER_WARS</Data></Cell>
+    <Cell><Data ss:Type="String">Guerras com Comandantes</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Commanders are other players</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">START_MODIFIERS</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_WARS</Data></Cell>
+    <Cell><Data ss:Type="String">Guerras com Facções NPC</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">NPC Factions are independent groups of aliens/robots/etc who the player can meet and interactive, but not directly control themselves.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">START_MODIFIERS</Data></Cell>
+    <Cell><Data ss:Type="String">OTHER_PLAYER_TRYING</Data></Cell>
+    <Cell><Data ss:Type="String">Comandantes Rivais</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Commanders are other players</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODIFIERS</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_LOST</Data></Cell>
+    <Cell><Data ss:Type="String">Moradia Amigável perdida</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODIFIERS</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_GAINED</Data></Cell>
+    <Cell><Data ss:Type="String">Moradia Amigável conquistada</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODIFIERS</Data></Cell>
+    <Cell><Data ss:Type="String">ALLY_DWELLING_LOST</Data></Cell>
+    <Cell><Data ss:Type="String">Moradia Amigável perdida por seu aliado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODIFIERS</Data></Cell>
+    <Cell><Data ss:Type="String">ALLY_DWELLING_GAINED</Data></Cell>
+    <Cell><Data ss:Type="String">Moradia Amigável conquistada por seu aliado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MODIFIERS</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_WAR_START</Data></Cell>
+    <Cell><Data ss:Type="String">Guerra com uma Facção NPC começa</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">NPC Factions are independent groups of aliens/robots/etc who the player can meet and interactive, but not directly control themselves.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MODIFIERS</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_WAR_END</Data></Cell>
+    <Cell><Data ss:Type="String">Guerra com uma Facção NPC termina</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">NPC Factions are independent groups of aliens/robots/etc who the player can meet and interactive, but not directly control themselves.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIERS</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER_WAR_STARTED</Data></Cell>
+    <Cell><Data ss:Type="String">Guerra com um Comandante começa</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Commanders are other players</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIERS</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER_WAR_END</Data></Cell>
+    <Cell><Data ss:Type="String">Guerra com um Comandante termina</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Commanders are other players</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MODIFIERS</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_ALLIANCE_STARTED</Data></Cell>
+    <Cell><Data ss:Type="String">Aliança com uma Facção NPC começa</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">NPC Factions are independent groups of aliens/robots/etc who the player can meet and interactive, but not directly control themselves.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MODIFIERS</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_ALLIANCE_END</Data></Cell>
+    <Cell><Data ss:Type="String">Aliança com uma Facção NPC termina</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">NPC Factions are independent groups of aliens/robots/etc who the player can meet and interactive, but not directly control themselves.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MODIFIERS</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER_ALLIANCE_STARTED</Data></Cell>
+    <Cell><Data ss:Type="String">Aliança com Comandante começa</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Commanders are other players, an alliance is the highest level of diplomatic relationship</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MODIFIERS</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER_ALLIANCE_ENDED</Data></Cell>
+    <Cell><Data ss:Type="String">Aliança do Comandante termina</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Commanders are other players, an alliance is the highest level of diplomatic relationship</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODIFIERS</Data></Cell>
+    <Cell><Data ss:Type="String">ALLY_STARTS_TRYING</Data></Cell>
+    <Cell><Data ss:Type="String">Um aliado ativou o Protocolo de Unificação Planetária</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODIFIERS</Data></Cell>
+    <Cell><Data ss:Type="String">NON_ALLY_STARTS_TRYING</Data></Cell>
+    <Cell><Data ss:Type="String">Um inimigo ativou o Protocolo de Unificação Planetária</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MODIFIERS</Data></Cell>
+    <Cell><Data ss:Type="String">NON_ALLY_STOPS_TRYING</Data></Cell>
+    <Cell><Data ss:Type="String">Um inimigo cancelou o Protocolo de Unificação Planetária</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MODIFIERS</Data></Cell>
+    <Cell><Data ss:Type="String">REPUTATION_INCREASED</Data></Cell>
+    <Cell><Data ss:Type="String">Sua reputação aumentou</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Reputation is the score that determnins how the player is seen by other players. It is a measure of how trustworthy and peaceful they are.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MODIFIERS</Data></Cell>
+    <Cell><Data ss:Type="String">REPUTATION_DECREASED</Data></Cell>
+    <Cell><Data ss:Type="String">Sua reputação diminuiu</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Reputation is the score that determnins how the player is seen by other players. It is a measure of how trustworthy and peaceful they are.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Protocolo de Unificação Planetária</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Desperte o nó Planeta-CORE e solicite o status de Unificador Planetário. Isso iniciará um cronômetro que pode encerrar a partida.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">ALT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Declare apoio ao seu aliado ativando o protocolo você mesmo com o Planeta-CORE. Isso reduzirá o período probatório do seu aliado em {reductionDuration}, permitindo que todos vençam o jogo mais rápido.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet.
+Probtionary Period is the name of the countdown the player must wait for befroe they win the victory condition</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">SUCCESS_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">O Planeta-CORE decidiu considerar seu pedido. Com base na sua situação atual, a vitória será concedida em:</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet.</Data></Cell>
+    <Cell><Data ss:Type="String">Only added a space, no re-localization required.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">SUCCESS_ALT_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">O Planeta-CORE recebeu sua petição. Seu aliado agora é considerado um candidato melhor para governante planetário. A vitória dele será concedida em:</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NOTIFY_COOLDOWN_STARTS_OTHER</Data></Cell>
+    <Cell><Data ss:Type="String">{PlayerName}: Protocolo de Unificação Planetária inicia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NOTIFY_COOLDOWN_BLOCKED_SELF</Data></Cell>
+    <Cell><Data ss:Type="String">Protocolo de Unificação Planetária bloqueado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NOTIFY_COOLDOWN_BLOCKED_OTHER</Data></Cell>
+    <Cell><Data ss:Type="String">{PlayerName}: Protocolo de Unificação Planetária bloqueado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NOTIFY_COOLDOWN_CANCELED</Data></Cell>
+    <Cell><Data ss:Type="String">{PlayerName}: Protocolo de Unificação Planetária cancelado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NOTIFY_FINAL_CONSIDERATION_SELF</Data></Cell>
+    <Cell><Data ss:Type="String">Seu Protocolo de Unificação Planetária está perto de ser concluído</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NOTIFY_FINAL_CONSIDERATION_OTHER</Data></Cell>
+    <Cell><Data ss:Type="String">{PlayerName}: Protocolo de Unificação Planetária está perto de ser concluído</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">NOTIFY_TIMER_CHANGED</Data></Cell>
+    <Cell><Data ss:Type="String">Contagem regressiva do Protocolo de Unificação Planetária modificada</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">PANEL_COUNTDOWN_STARTS_ALLY</Data></Cell>
+    <Cell><Data ss:Type="String">Seu aliado iniciou um nó CORE para tentar unir o planeta sob sua liderança.[br/][br/]O nó CORE avaliará sua aptidão para esse papel durante o seguinte período: {turnTimer}[br/][br/]Após esse período, ele assumirá o controle do planeta e encerrará a partida. Como você é aliado dele, será nomeado co-governante.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">CORE node is aother name for Planet-CORE. Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">PANEL_COUNTDOWN_STARTS_NON_ALLY</Data></Cell>
+    <Cell><Data ss:Type="String">Outro comandante iniciou um nó CORE para tentar unir o planeta sob sua liderança.[br/][br/]O nó CORE avaliará sua aptidão para esse papel durante o seguinte período: {turnTimer}[br/][br/]Após esse período, o jogador e seus aliados serão nomeados governantes do planeta, e a partida será encerrada.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">CORE node is aother name for Planet-CORE. Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">PANEL_COUNTDOWN_BLOCKED_SELF</Data></Cell>
+    <Cell><Data ss:Type="String">O Planet-CORE concluiu sua análise de seu desempenho e rejeitou sua candidatura para ser nomeado governante deste planeta. O motivo apresentado é:</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">PANEL_COUNTDOWN_BLOCKED_OTHER</Data></Cell>
+    <Cell><Data ss:Type="String">Um comandante não conseguiu convencer o Planet-CORE de sua aptidão para se tornar governante planetário. A contagem regressiva de sua candidatura foi encerrada.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet. A commander is another player.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">PANEL_COUNTDOWN_CANCELED</Data></Cell>
+    <Cell><Data ss:Type="String">Um comandante retirou sua candidatura ao Planet-CORE para ser nomeado governante planetário. A contagem regressiva de sua candidatura foi encerrada.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet. A commander is another player.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">PANEL_FINAL_CONSIDERATION_SELF</Data></Cell>
+    <Cell><Data ss:Type="String">O CORE agora está em sua fase final de análise de sua aptidão como líder planetário. Este é um momento delicado; o menor erro pode arruinar nossos planos. Se tudo correr como planejado, seremos nomeados Governantes Planetários em {turnTimer}.[br/][br/]Durante este período, eventos externos não reduzirão mais a contagem regressiva.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">CORE node is aother name for Planet-CORE. Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">PANEL_FINAL_CONSIDERATION_ALLY</Data></Cell>
+    <Cell><Data ss:Type="String">Seu aliado agora entrou na fase final de consideração pelo CORE como governante planetário. Este é um momento delicado; o menor erro pode arruinar nossos planos. Se tudo correr como planejado, seremos nomeados Governantes Planetários em {turnTimer}.[br/][br/]Durante este período, eventos externos não reduzirão mais a contagem regressiva.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">CORE node is aother name for Planet-CORE. Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">PANEL_FINAL_CONSIDERATION_NON_ALLY</Data></Cell>
+    <Cell><Data ss:Type="String">Um de nossos inimigos está prestes a ser nomeado governante planetário pelo CORE. Se quisermos detê-los, devemos capturar seus assentamentos e voltar os nativos do planeta contra eles. Claro, se nos aliarmos a eles, poderemos compartilhar o planeta...[br/][br/]O inimigo vencerá o jogo em {turnTimer}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">CORE node is aother name for Planet-CORE. Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">PANEL_TIMER_CHANGED</Data></Cell>
+    <Cell><Data ss:Type="String">Devido a uma série de eventos recentes, o Planet-CORE ajustou a duração do seu período de avaliação. A nova duração é {turnTimer}:</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BLOCKED_REASON</Data></Cell>
+    <Cell><Data ss:Type="String">NOT_ENOUGH_DWELLINGS</Data></Cell>
+    <Cell><Data ss:Type="String">Sua aliança não controla mais {numColoniesNeeded} colônias amigas</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Alliance refers the player and the other players they are allies with</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">BLOCKED_REASON</Data></Cell>
+    <Cell><Data ss:Type="String">REPUTATION_TOO_LOW</Data></Cell>
+    <Cell><Data ss:Type="String">Sua reputação caiu demais</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Reputation is the score that determnins how the player is seen by other players. It is a measure of how trustworthy and peaceful they are.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PHASE_MESSAGES</Data></Cell>
+    <Cell><Data ss:Type="String">NEED_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">Pesquisar 'Alvorada de uma Nova União'</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dawn of a New Union is the name of a tech group that the player must research in order to use the victory condition</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">PHASE_MESSAGES</Data></Cell>
+    <Cell><Data ss:Type="String">BOOST_REPUTATION</Data></Cell>
+    <Cell><Data ss:Type="String">Adquirir uma reputação Virtuosa</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Reputation is the score that determnins how the player is seen by other players. It is a measure of how trustworthy and peaceful they are. 
+Virtuous is the name given to the highest level of reputation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PHASE_MESSAGES</Data></Cell>
+    <Cell><Data ss:Type="String">ACQUIRE_DWELLINGS</Data></Cell>
+    <Cell><Data ss:Type="String">Adquirir assentamentos amigáveis</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PHASE_MESSAGES</Data></Cell>
+    <Cell><Data ss:Type="String">LAUNCH_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">Iniciar Protocolo de Unificação Planetária</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PHASE_MESSAGES</Data></Cell>
+    <Cell><Data ss:Type="String">WAIT_FOR_COUNTDOWN</Data></Cell>
+    <Cell><Data ss:Type="String">Aguardar a decisão do Planet-CORE</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EVENT_TIMER</Data></Cell>
+    <Cell><Data ss:Type="String">OTHER_PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_Player} vencerá em {INT_Turns}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EVENT_TIMER</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">Você vencerá em {INT_Turns}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EVENT_TIMER</Data></Cell>
+    <Cell><Data ss:Type="String">OTHER_PLAYER_FINAL</Data></Cell>
+    <Cell><Data ss:Type="String">Consideração Final! {STR_Player} vencerá em {INT_Turns}[turn/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Final Consideration is the name for the last few turns of the countdown befroe the player wins the game using the Unifier victory condition.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EVENT_TIMER</Data></Cell>
+    <Cell><Data ss:Type="String">YOU_FINAL</Data></Cell>
+    <Cell><Data ss:Type="String">Consideração Final! Você vencerá em {INT_Turns}[turn/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Final Consideration is the name for the last few turns of the countdown befroe the player wins the game using the Unifier victory condition.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">QUEST_PANEL</Data></Cell>
+    <Cell><Data ss:Type="String">YOU_STARTING</Data></Cell>
+    <Cell><Data ss:Type="String">Ao construir uma Aliança com as facções NPC deste planeta e outros jogadores, você poderá convencer o Planet-CORE a conceder-lhe o governo do planeta.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet. NPC Factions are independent groups of aliens/robots/etc who the player can meet and interactive, but not directly control themselves.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">QUEST_PANEL</Data></Cell>
+    <Cell><Data ss:Type="String">YOU_ACTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">O Planet-CORE está avaliando sua candidatura. Você precisará defender seus assentamentos e manter suas alianças. Guerras com jogadores e facções NPC atrasarão o processo, enquanto fazer novas alianças e conquistar novos assentamentos o acelerarão.[br/][br/]Você deve permanecer no controle de {INT_numDwellings} assentamentos amigáveis e manter sua reputação acima de {STR_requiredLevel} ou o processo será encerrado!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet. NPC Factions are independent groups of aliens/robots/etc who the player can meet and interactive, but not directly control themselves. A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">QUEST_PANEL</Data></Cell>
+    <Cell><Data ss:Type="String">YOU_FINAL</Data></Cell>
+    <Cell><Data ss:Type="String">O Planet-CORE está nas Fases Finais de sua inscrição. Neste período, nada pode acelerar o processo, embora ele ainda possa ser atrasado por guerras e moradias perdidas.[br/][br/]Você deve permanecer no controle de {INT_numDwellings} moradias amigas e manter sua reputação acima de {STR_requiredLevel} ou o processo será encerrado!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet. A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">QUEST_PANEL</Data></Cell>
+    <Cell><Data ss:Type="String">ALLY_ACTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">O Planet-CORE está avaliando a inscrição de seu aliado. Você pode ajudá-lo aceitando novas moradias amigas em seu império ou lançando o Protocolo de Unificação Planetária.[br/][br/]Sua aliança deve permanecer no controle de {INT_numDwellings} moradias amigas ou o processo será encerrado!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet. A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction. Planetary Unifier Protocol is a special operation that the player uses to start the countdown to win the unifier victory</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">QUEST_PANEL</Data></Cell>
+    <Cell><Data ss:Type="String">ALLY_FINAL</Data></Cell>
+    <Cell><Data ss:Type="String">O Planet-CORE está na fase de Consideração Final da inscrição de seu aliado. Neste período, nada pode acelerar o processo, embora ele ainda possa ser atrasado por guerras e moradias perdidas. [br/][br/]Seu aliado deve permanecer no controle de {INT_numDwellings} moradias amigas ou o processo será encerrado!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet. 
+A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction. 
+Final Consideration is the name for the last few turns of the countdown befroe the player wins the game using the Unifier victory condition.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">QUEST_PANEL</Data></Cell>
+    <Cell><Data ss:Type="String">ENEMY_ACTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Seu inimigo pediu ao Planet-CORE para se tornar governante deste planeta. Esse processo pode ser retardado envolvendo-os em guerras, minando suas alianças e conquistando suas moradias.[br/][br/]A aliança de seu inimigo será vitoriosa em {INT_Turns}[turn/][br/][br/]Para cancelar a vitória iminente da aliança de seu inimigo, você precisa capturar {INT_numDwellings} de suas moradias amigas ou reduzir sua reputação para {STR_requiredLevel}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet. 
+A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction. 
+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">QUEST_PANEL</Data></Cell>
+    <Cell><Data ss:Type="String">ENEMY_FINAL</Data></Cell>
+    <Cell><Data ss:Type="String">Seu inimigo está agora na fase de Consideração Final de sua inscrição para se tornar o governante planetário nomeado. Esse processo pode ser retardado envolvendo-os em guerras, minando suas alianças e conquistando suas moradias.[br/][br/]Para cancelar a tentativa deles, você precisa capturar {INT_numDwellings} de suas moradias amigas ou reduzir sua reputação para {STR_requiredLevel}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Planet-CORE is a ficitonal AI that he player is asking to name them ruler of the planet. 
+A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction. 
+Final Consideration is the name for the last few turns of the countdown befroe the player wins the game using the Unifier victory condition.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">QUEST_PANEL</Data></Cell>
+    <Cell><Data ss:Type="String">NUM_DWELLINGS</Data></Cell>
+    <Cell><Data ss:Type="String">Moradias sob controle da aliança:</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Dwelling is an NPC controlled structure, it is effectively a City that belongs to an NPC faction. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">QUEST_PANEL</Data></Cell>
+    <Cell><Data ss:Type="String">CURRENT_REPUTATION</Data></Cell>
+    <Cell><Data ss:Type="String">Reputação atual:</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Reputation is the score that determnins how the player is seen by other players. It is a measure of how trustworthy and peaceful they are.</Data></Cell>
+   </Row>
+   <Row ss:Index="72" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIFIER_GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Esforços de Unificação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">UNIFIER_GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Em vez de usar a força para conquistar este planeta, usaremos nossa influência e alianças para sair por cima.[br/][br/]Os ganhos de relação por completar missões são aumentados em {RelationIModifier} e você recebe um aumento de {ReputationModifier} em sua reputação.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Reputation is the score that determnins how the player is seen by other players. It is a measure of how trustworthy and peaceful they are.
+Relation is the score that determines how strong a player's relation ship is with an NPC faction</Data></Cell>
+   </Row>
+   <Row ss:Index="75" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIFIER_END_GAME</Data></Cell>
+    <Cell><Data ss:Type="String">VICTORY_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Vitória do Unificador </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIFIER_END_GAME</Data></Cell>
+    <Cell><Data ss:Type="String">ALLIED_VICTORY_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Vitória Aliada do Unificador </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UNIFIER_END_GAME</Data></Cell>
+    <Cell><Data ss:Type="String">DEFEAT_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Derrota do Unificador</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>26</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>32</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

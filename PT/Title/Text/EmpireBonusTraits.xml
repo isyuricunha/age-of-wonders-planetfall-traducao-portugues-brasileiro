@@ -1,0 +1,377 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Tom Bird</Author>
+  <LastAuthor>Tom Bird</LastAuthor>
+  <Created>2020-09-03T14:42:13Z</Created>
+  <LastSaved>2020-09-03T14:54:48Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>765</WindowHeight>
+  <WindowWidth>8370</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="57" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="292.5" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="117"/>
+   <Column ss:StyleID="s62" ss:Width="121.5"/>
+   <Column ss:StyleID="s62" ss:Width="384"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="283.5"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">EMPIRE_BONUS_TRAITS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BASE_NAMES</Data></Cell>
+    <Cell><Data ss:Type="String">VETERAN</Data></Cell>
+    <Cell><Data ss:Type="String">Veterano Imperial: </Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The lowest rank for an Imperial hero</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BASE_NAMES</Data></Cell>
+    <Cell><Data ss:Type="String">CHAMPION</Data></Cell>
+    <Cell><Data ss:Type="String">Campeão Imperial:</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The 3rd highest rank for an imperial hero (i.e. should be higher than Veteran)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BASE_NAMES</Data></Cell>
+    <Cell><Data ss:Type="String">HERO</Data></Cell>
+    <Cell><Data ss:Type="String">Herói Imperial:</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The 2nd highest rank for an Imperial hero (i.e. should be higher than Champion and Veteran)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BASE_NAMES</Data></Cell>
+    <Cell><Data ss:Type="String">LORD</Data></Cell>
+    <Cell><Data ss:Type="String">Senhor Imperial:</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The highest rank for an Imperial hero</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BASE_NAMES</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Comando Imperial:</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used to say "This unit is under the command of" what comes after the colon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFAULT</Data></Cell>
+    <Cell><Data ss:Type="String">ENDING</Data></Cell>
+    <Cell><Data ss:Type="String">[br/][br/]Só funciona quando o herói é o comandante do exército.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SOLDIER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Veterano Imperial: Soldado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The lowest rank for an Imperial hero</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SOLDIER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Campeão Imperial: Soldado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The 3rd highest rank for an imperial hero (i.e. should be higher than Veteran)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SOLDIER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Herói Imperial: Soldado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The 2nd highest rank for an Imperial hero (i.e. should be higher than Champion and Veteran)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SOLDIER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Senhor Imperial: Soldado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The highest rank for an Imperial hero</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SOLDIER</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Comando Imperial: Soldado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used to say "This unit is under the command of" what comes after the colon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SOLDIER</Data></Cell>
+    <Cell><Data ss:Type="String">BONUS_1</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades no exército do herói ganham {DamageBonus} de dano.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SOLDIER</Data></Cell>
+    <Cell><Data ss:Type="String">BONUS_2</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades no exército do herói ganham {DamageBonus} de dano e {MoraleBonus}.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SOLDIER</Data></Cell>
+    <Cell><Data ss:Type="String">BONUS_3</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades no exército do herói ganham {DamageBonus} de dano e {MoraleBonus}.[br/][br/]Quando uma unidade no exército do herói elimina uma unidade inimiga, recupera 1 ponto de ação.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SOLDIER</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_PROPERTY_DESC_1</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade está sob o comando de um herói imperial e ganha {DamageBonus} de dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SOLDIER</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_PROPERTY_DESC_2</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade está sob o comando de um herói imperial e ganha {DamageBonus} de dano e {MoraleBonus}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SOLDIER</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_PROPERTY_DESC_3</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade está sob o comando de um herói imperial e ganha {DamageBonus} de dano e {MoraleBonus} de moral.[br/][br/]Quando esta unidade elimina uma unidade inimiga, recupera 1 ponto de ação.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SOLDIER</Data></Cell>
+    <Cell><Data ss:Type="String">PERK_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quando o herói alcançar o nível 2 no Salão dos Heróis, ganhará habilidades de comando [abilityblue]Soldado Imperial[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">JUGGERNAUT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Veterano Imperial: Juggernaut</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The lowest rank for an Imperial hero</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">JUGGERNAUT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Campeão Imperial: Juggernaut</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The 3rd highest rank for an imperial hero (i.e. should be higher than Veteran)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">JUGGERNAUT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Herói Imperial: Juggernaut</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The 2nd highest rank for an Imperial hero (i.e. should be higher than Champion and Veteran)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">JUGGERNAUT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Senhor Imperial: Juggernaut</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The highest rank for an Imperial hero</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">JUGGERNAUT</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Comando Imperial: Juggernaut</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used to say "This unit is under the command of" what comes after the colon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">JUGGERNAUT</Data></Cell>
+    <Cell><Data ss:Type="String">BONUS_1</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades no exército do herói ganham {ArmorBonus}. {XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">JUGGERNAUT</Data></Cell>
+    <Cell><Data ss:Type="String">BONUS_2</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades no exército do herói ganham {ArmorBonus} e {HealthBonus}.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">JUGGERNAUT</Data></Cell>
+    <Cell><Data ss:Type="String">BONUS_3</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades no exército do herói ganham {ArmorBonus}, {HealthBonus} e [abilityblue]Ressurgência[/abilityblue]{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell>
+    <Cell><Data ss:Type="String">Ressurgência é uma habilidade usada em outras partes do jogo, que faz uma unidade morta voltar à vida após a batalha</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">JUGGERNAUT</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_PROPERTY_DESC_1</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade está sob o comando de um herói imperial e ganha {ArmorBonus}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">JUGGERNAUT</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_PROPERTY_DESC_2</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade está sob o comando de um herói imperial e ganha {ArmorBonus} e {HealthBonus}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">JUGGERNAUT</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_PROPERTY_DESC_3</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade está sob o comando de um herói imperial e ganha {ArmorBonus} e {HealthBonus}.[br/][br/]Ela também ganha [abilityBlue]Ressurgência[/abilityBlue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">JUGGERNAUT</Data></Cell>
+    <Cell><Data ss:Type="String">PERK_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quando o herói alcançar o nível 2 no Salão dos Heróis, ele ganhará habilidades de comando [abilityblue]Juggernaut Imperial[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SNIPER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Veterano Imperial: Atirador de Elite</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The lowest rank for an Imperial hero</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SNIPER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Campeão Imperial: Atirador de Elite</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The 3rd highest rank for an imperial hero (i.e. should be higher than Veteran)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SNIPER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Herói Imperial: Atirador de Elite</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The 2nd highest rank for an Imperial hero (i.e. should be higher than Champion and Veteran)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SNIPER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Senhor Imperial: Atirador de Elite</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The highest rank for an Imperial hero</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SNIPER</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Comando Imperial: Atirador de Elite</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used to say "This unit is under the command of" what comes after the colon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SNIPER</Data></Cell>
+    <Cell><Data ss:Type="String">BONUS_1</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades no exército do herói ganham {AccuracyBonus} de precisão.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SNIPER</Data></Cell>
+    <Cell><Data ss:Type="String">BONUS_2</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades no exército do herói ganham {AccuracyBonus} de precisão e {CriticalBonus} de chance de acerto crítico.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SNIPER</Data></Cell>
+    <Cell><Data ss:Type="String">BONUS_3</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades no exército do herói ganham {AccuracyBonus} de precisão, {CriticalBonus} de chance de acerto crítico e {CriticalDamageBonus} de dano crítico.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SNIPER</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_PROPERTY_DESC_1</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade está sob o comando de um herói imperial e ganha {AccuracyBonus} de precisão.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SNIPER</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_PROPERTY_DESC_2</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade está sob o comando de um herói imperial e recebe {AccuracyBonus} de precisão e {CriticalBonus} de chance de acerto crítico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SNIPER</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_PROPERTY_DESC_3</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade está sob o comando de um herói imperial e recebe {AccuracyBonus} de precisão, {CriticalBonus} de chance de acerto crítico e {CriticalDamage} de dano crítico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SNIPER</Data></Cell>
+    <Cell><Data ss:Type="String">PERK_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quando o herói alcançar o nível 2 no Salão dos Heróis, ele ganhará habilidades de comando [abilityblue]Atirador Imperial[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PILOT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Veterano Imperial: Piloto</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The lowest rank for an Imperial hero</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PILOT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Campeão Imperial: Piloto</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The 3rd highest rank for an imperial hero (i.e. should be higher than Veteran)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PILOT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Herói Imperial: Piloto</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The 2nd highest rank for an Imperial hero (i.e. should be higher than Champion and Veteran)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PILOT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Senhor Imperial: Piloto</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The highest rank for an Imperial hero</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PILOT</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Comando Imperial: Piloto</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Used to say "This unit is under the command of" what comes after the colon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PILOT</Data></Cell>
+    <Cell><Data ss:Type="String">BONUS_1</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades no exército do herói ganham {ShieldBonus} escudos.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PILOT</Data></Cell>
+    <Cell><Data ss:Type="String">BONUS_2</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades no exército do herói ganham {ShieldBonus} e se curam em {HealBonus} por turno no mapa mundial.{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PILOT</Data></Cell>
+    <Cell><Data ss:Type="String">BONUS_3</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades no exército do herói ganham {ShieldBonus} e [abilityblue]Regeneração[/abilityblue]{XML_EMPIRE_BONUS_TRAITS@DEFAULT@ENDING}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PILOT</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_PROPERTY_DESC_1</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade está sob o comando de um herói imperial e recebe {ShieldBonus}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PILOT</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_PROPERTY_DESC_2</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade está sob o comando de um herói imperial e recebe {ShieldBonus} e se cura em {HealBonus} adicional a cada turno no mapa mundial.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PILOT</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_PROPERTY_DESC_3</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade está sob o comando de um herói imperial e recebe {ShieldBonus} e [abilityblue]Regeneração[/abilityblue]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PILOT</Data></Cell>
+    <Cell><Data ss:Type="String">PERK_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quando o herói alcançar o nível 2 no Salão dos Heróis, ele ganhará habilidades de comando [abilityblue]Piloto Imperial[/abilityblue].</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <Zoom>130</Zoom>
+   <Selected/>
+   <TopRowVisible>47</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>56</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

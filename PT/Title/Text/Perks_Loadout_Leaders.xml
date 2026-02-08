@@ -1,0 +1,488 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>KyleB</LastAuthor>
+  <LastSaved>2019-02-08T15:27:49Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15940</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="89" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="258" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="203.5"/>
+   <Column ss:StyleID="s62" ss:Width="67"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="427"/>
+   <Column ss:StyleID="s62" ss:Width="148"/>
+   <Column ss:StyleID="s62" ss:Width="221.5"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">LOADOUT_PERKS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento Básico da Vanguard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O pacote padrão que você recebeu após o treinamento básico.[br/][br/]O pacote inclui:[br/]Um [AbilityGreen]Fuzil a Laser[/AbilityGreen] que causa [DamageThermal/] dano Térmico repetidamente.[br/]Uma [AbilityGreen]Granada Básica[/AbilityGreen] que causa [DamagePhysical/] dano Cinético em área e atordoa os atingidos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento Básico da Assembly</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O pacote padrão que você recebeu após o treinamento básico.[br/][br/]O pacote inclui:[br/]Um [AbilityGreen]Projetor de Arco[/AbilityGreen] que causa [DamageWave/] dano de Arco repetidamente.[br/]Uma [AbilityGreen]Granada de Arco[/AbilityGreen] que causa [DamageWave/] dano de Arco e atordoa os atingidos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_KIRKO</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento Básico Kir'Ko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_KIRKO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O pacote padrão que você recebeu após o treinamento básico.[br/][br/]O pacote inclui:[br/]Um [AbilityGreen]Fuzil Thrax[/AbilityGreen] que causa [DamageBio/] dano Bioquímico repetidamente.[br/]Uma [AbilityGreen]Psi-pedra de Dissonância[/AbilityGreen] que causa [DamagePsyche/] dano Psiónico em área.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_AMAZON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento Básico das Amazons</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_AMAZON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O pacote padrão que você recebeu após o treinamento básico.[br/][br/]O pacote inclui:[br/]Um [AbilityGreen]Arco de Caça[/AbilityGreen] que causa [DamageBio/] dano Bioquímico repetidamente e tem chance de envenenar.[br/]Uma [AbilityGreen]Granada Térmica[/AbilityGreen] que causa [DamageThermal/] dano Térmico em área e tem chance de queimar os atingidos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento Básico Dvar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O pacote padrão que você recebeu após o treinamento básico.[br/][br/]O pacote inclui:[br/]Uma [AbilityGreen]Metralhadora Pesada de Espigões[/AbilityGreen] que dispara um único tiro poderoso que causa [DamagePhysical/] dano Cinético.[br/]Uma [AbilityGreen]Granada Básica[/AbilityGreen] que causa [DamagePhysical/] dano Cinético em área e atordoa os atingidos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento Básico do Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O pacote padrão que você recebeu após o treinamento básico.[br/][br/]O pacote inclui:[br/]Um [AbilityGreen]Repetidor de Pulso[/AbilityGreen] que causa [DamageWave/] dano de Arco repetidamente.[br/]Uma [AbilityGreen]Granada PsiTec[/AbilityGreen] que causa [DamagePsyche/] dano Psiónico em área e tem chance de aleijar os atingidos.</Data></Cell>
+   </Row>
+   <Row ss:Index="17" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Combate Corpo a Corpo da Vanguard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O pacote que você recebeu após o treinamento de Combate Corpo a Corpo.[br/][br/]Este treinamento avançado concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Combate Corpo a Corpo I[/AbilityGreen] - aumenta o dano causado ao usar Armas de Corpo a Corpo.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta seu máximo de [hp/].[br/][br/]O pacote inclui:[br/]Uma [AbilityGreen]Espada a Laser[/AbilityGreen] que causa [DamageThermal/] dano Térmico repetidamente em curta distância.[br/]Um [AbilityGreen]Revólver Imperial[/AbilityGreen] que causa [DamagePhysical/] dano Cinético em uma única rajada.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Combate Corpo a Corpo da Assembly</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O pacote que você recebeu após o treinamento de Combate Corpo a Corpo.[br/][br/]Este treinamento avançado concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Combate Corpo a Corpo I[/AbilityGreen] - aumenta o dano causado ao usar Armas de Corpo a Corpo.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta seu máximo de [hp/].[br/][br/]O pacote inclui:[br/]Uma [AbilityGreen]Espada de Arco[/AbilityGreen] que causa [DamageWave/] dano de Arco repetidamente em curta distância.[br/]Uma [AbilityGreen]Pistola Imperial[/AbilityGreen] que causa [DamagePhysical/] dano Cinético repetidamente.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_KIRKO</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Combate Corpo a Corpo Kir'Ko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_KIRKO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O pacote que você recebeu após o treinamento de Combate Corpo a Corpo.[br/][br/]Este treinamento avançado concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Combate Corpo a Corpo I[/AbilityGreen] - aumenta o dano causado ao usar Armas de Corpo a Corpo.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta seu máximo de [hp/].[br/][br/]O pacote inclui:[br/] [AbilityGreen]Garras Dilacerantes[/AbilityGreen] que causam [DamagePhysical/] dano Cinético repetidamente em curta distância.[br/]Um [AbilityGreen]Blaster Thrax[/AbilityGreen] que causa [DamageBio/] dano Bioquímico repetidamente.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_AMAZON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Combate Corpo a Corpo das Amazons</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_AMAZON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O pacote que você recebeu após o treinamento de Combate Corpo a Corpo.[br/][br/]Este treinamento avançado concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Combate Corpo a Corpo I[/AbilityGreen] - aumenta o dano causado ao usar Armas de Corpo a Corpo.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta seu máximo de [hp/].[br/][br/]O pacote inclui:[br/]Uma [AbilityGreen]Glaive a Laser[/AbilityGreen] que causa [DamageThermal/] dano Térmico repetidamente em curta distância.[br/]Um [AbilityGreen]Bio Blaster[/AbilityGreen] que causa [DamageBio/] dano Bioquímico repetidamente.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Combate Corpo a Corpo Dvar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O pacote que você recebeu após o treinamento de Combate Corpo a Corpo.[br/][br/]Este treinamento avançado concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Combate Corpo a Corpo I[/AbilityGreen] - aumenta o dano causado ao usar Armas de Corpo a Corpo.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta seu máximo de [hp/].[br/][br/]O pacote inclui:[br/]Um [AbilityGreen]Martelo-foguete[/AbilityGreen] que causa uma única explosão de dano [DamagePhysical/] Cinético em curta distância.[br/]Um [AbilityGreen]Revólver Imperial[/AbilityGreen] que causa [DamagePhysical/] dano Cinético em uma única explosão.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Combate Corpo a Corpo do Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O pacote que você recebeu após o treinamento de Combate Corpo a Corpo.[br/][br/]Este treinamento avançado concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Combate Corpo a Corpo I[/AbilityGreen] - aumenta o dano causado ao usar Armas de Corpo a Corpo.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta seu máximo de [hp/].[br/][br/]O pacote inclui:[br/][AbilityGreen]Luvas PsiTec[/AbilityGreen] que causam dano [DamagePsyche/] Psiónico repetidamente em curta distância.[br/][AbilityGreen]Bolas Arco[/AbilityGreen] que causam [DamageWave/] dano de Arco e tentam imobilizar o alvo.</Data></Cell>
+   </Row>
+   <Row ss:Index="30" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Assalto Vanguard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O pacote que você recebeu após o treinamento de Assalto.[br/][br/]Este treinamento avançado concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Combate à Distância[/AbilityGreen] - aumenta o dano causado ao usar Armas de Longo Alcance.[br/][AbilityGreen]Mira Firme[/AbilityGreen] - aumenta sua precisão quando estiver atrás de cobertura.[br/][br/]O pacote inclui:[br/]Um [AbilityGreen]Fuzil a Laser[/AbilityGreen] que causa dano [DamageThermal/] Térmico repetidamente.[br/]Uma [AbilityGreen]Granada Básica[/AbilityGreen] que causa [DamagePhysical/] dano Cinético em uma área e atordoa os atingidos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Assalto Assembly</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O pacote que você recebeu após o treinamento de Assalto.[br/][br/]Este treinamento avançado concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Combate à Distância[/AbilityGreen] - aumenta o dano causado ao usar Armas de Longo Alcance.[br/][AbilityGreen]Mira Firme[/AbilityGreen] - aumenta sua precisão quando estiver atrás de cobertura.[br/][br/]O pacote inclui:[br/]Um [AbilityGreen]Projetor de Arco[/AbilityGreen] que causa dano [DamageWave/] de Arco repetidamente.[br/]Uma [AbilityGreen]Granada de Arco[/AbilityGreen] que causa [DamageWave/] dano de Arco e atordoa os atingidos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_KIRKO</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Assalto Kir'Ko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_KIRKO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O pacote que você recebeu após o treinamento de Assalto.[br/][br/]Este treinamento avançado concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Combate à Distância[/AbilityGreen] - aumenta o dano causado ao usar Armas de Longo Alcance.[br/][AbilityGreen]Mira Firme[/AbilityGreen] - aumenta sua precisão quando estiver atrás de cobertura.[br/][br/]O pacote inclui:[br/]Um [AbilityGreen]Fuzil Thrax[/AbilityGreen] que causa dano [DamageBio/] Bioquímico repetidamente.[br/]Uma [AbilityGreen]Psi-pedra de Dissonância[/AbilityGreen] que causa [DamagePsyche/] dano Psiónico em uma área.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_AMAZON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Assalto Amazon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_AMAZON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O pacote que você recebeu após o treinamento de Assalto.[br/][br/]Este treinamento avançado concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Combate à Distância[/AbilityGreen] - Aumenta o dano causado ao usar Armas de Longo Alcance.[br/][AbilityGreen]Mira Firme[/AbilityGreen] - Aumenta sua precisão quando estiver atrás de cobertura.[br/][br/]O pacote inclui:[br/]Um [AbilityGreen]Arco de Caça[/AbilityGreen] que causa dano [DamageBio/] Bioquímico repetidamente e tem chance de envenenar.[br/]Uma [AbilityGreen]Granada Térmica[/AbilityGreen] que, quando usada, causa [DamageThermal/] dano Térmico em uma área e tem chance de queimar os atingidos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Assalto Dvar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O pacote que você recebeu após o treinamento de Assalto.[br/][br/]Este treinamento avançado concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Combate à Distância[/AbilityGreen] - aumenta o dano causado ao usar Armas de Longo Alcance.[br/][AbilityGreen]Mira Firme[/AbilityGreen] - aumenta sua precisão quando estiver atrás de cobertura.[br/][br/]O pacote inclui:[br/]Uma [AbilityGreen]Metralhadora Pesada de Espigões[/AbilityGreen] que dispara um único tiro poderoso causando [DamagePhysical/] dano Cinético.[br/]Uma [AbilityGreen]Granada Básica[/AbilityGreen] que causa [DamagePhysical/] dano Cinético em uma área e atordoa os atingidos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Assalto do Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O pacote que você recebeu após o treinamento de Assalto.[br/][br/]Este treinamento avançado concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Combate à Distância[/AbilityGreen] - aumenta o dano causado ao usar Armas de Longo Alcance.[br/][AbilityGreen]Mira Firme[/AbilityGreen] - aumenta sua precisão quando estiver atrás de cobertura.[br/][br/]O pacote inclui:[br/]Um [AbilityGreen]Repetidor de Pulso[/AbilityGreen] que causa dano [DamageWave/] de Arco repetidamente.[br/]Uma [AbilityGreen]Granada PsiTec[/AbilityGreen] que causa [DamagePsyche/] dano Psiónico em uma área e tem chance de aleijar os atingidos.</Data></Cell>
+   </Row>
+   <Row ss:Index="43" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Atirador de Elite Vanguard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O pacote que você recebeu após o treinamento de Atirador de Elite.[br/][br/]Este treinamento avançado concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Combate à Distância[/AbilityGreen] - aumenta o dano causado ao usar Armas de Longo Alcance.[br/][AbilityGreen]Olho Mortífero I[/AbilityGreen] - aumenta levemente a precisão e a chance de acerto crítico.[br/][br/]O pacote inclui:[br/]Um [AbilityGreen]Fuzil de Precisão[/AbilityGreen] que causa [DamagePhysical/] dano Cinético.[br/]Um [AbilityGreen]Revólver Imperial[/AbilityGreen] que causa [DamagePhysical/] dano Cinético em uma única explosão.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Atirador de Elite Assembly</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O pacote que você recebeu após o treinamento de Atirador de Elite.[br/][br/]Este treinamento avançado concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Combate à Distância[/AbilityGreen] - aumenta o dano causado ao usar Armas de Longo Alcance.[br/][AbilityGreen]Olho Mortífero I[/AbilityGreen] - aumenta levemente a precisão e a chance de acerto crítico.[br/][br/]O pacote inclui:[br/]Um [AbilityGreen]Fuzil de Precisão Vorpal[/AbilityGreen] que causa [DamagePhysical/] dano Cinético.[br/]Uma [AbilityGreen]Granada de Arco[/AbilityGreen] que causa [DamageWave/] dano de Arco e atordoa os atingidos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_KIRKO</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Atirador de Elite Kir'Ko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_KIRKO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O kit que você recebeu após o treinamento de Atirador de Elite.[br/][br/]Este treinamento avançado concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Armas de Longo Alcance[/AbilityGreen] - aumenta o dano causado ao usar Armas de Longo Alcance.[br/][AbilityGreen]Olho Mortífero I[/AbilityGreen] - aumenta levemente a precisão e a chance de acerto crítico.[br/][br/]O kit inclui:[br/]Um [AbilityGreen]Fuzil Psi[/AbilityGreen] que causa [DamagePsyche/] dano Psiónico.[br/]Um [AbilityGreen]Lançador Thrax[/AbilityGreen] que causa [DamageBio/] dano Bioquímico repetidamente.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_AMAZON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Atirador de Elite Amazona</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_AMAZON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O kit que você recebeu após o treinamento de Atirador de Elite.[br/][br/]Este treinamento avançado concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Armas de Longo Alcance[/AbilityGreen] - aumenta o dano causado ao usar Armas de Longo Alcance.[br/][AbilityGreen]Olho Mortífero I[/AbilityGreen] - aumenta levemente a precisão e a chance de acerto crítico.[br/][br/]O kit inclui:[br/]Um [AbilityGreen]Fuzil de Laser de Precisão[/AbilityGreen] que causa [DamageThermal/] dano Térmico.[br/]Um [AbilityGreen]Bio-Blaster[/AbilityGreen] que causa [DamageBio/] dano Bioquímico repetidamente.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Atirador de Elite Dvar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O kit que você recebeu após o treinamento de Atirador de Elite.[br/][br/]Este treinamento avançado concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Armas de Longo Alcance[/AbilityGreen] - aumenta o dano causado ao usar Armas de Longo Alcance.[br/][AbilityGreen]Olho Mortífero I[/AbilityGreen] - aumenta levemente a precisão e a chance de acerto crítico.[br/][br/]O kit inclui:[br/]Um [AbilityGreen]Fuzil de Precisão Imperial[/AbilityGreen] que causa [DamagePhysical/] dano Cinético.[br/]Uma [AbilityGreen]Granada Básica[/AbilityGreen] que causa [DamagePhysical/] dano Cinético em área e atordoa os atingidos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Atirador de Elite do Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O kit que você recebeu após o treinamento de Atirador de Elite.[br/][br/]Este treinamento avançado concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Armas de Longo Alcance[/AbilityGreen] - aumenta o dano causado ao usar Armas de Longo Alcance.[br/][AbilityGreen]Olho Mortífero I[/AbilityGreen] - aumenta levemente a precisão e a chance de acerto crítico.[br/][br/]O kit inclui:[br/]Um [AbilityGreen]Fuzil de Pulso[/AbilityGreen] que causa [DamageWave/] dano de Arco.[br/][AbilityGreen]Bolas de Arco[/AbilityGreen] que causam [DamageWave/] dano de Arco em um alvo e têm chance de imobilizá-lo.</Data></Cell>
+   </Row>
+   <Row ss:Index="56" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DAREDEVIL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Veículo de Assalto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DAREDEVIL_VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Veículo de Assalto da Vanguard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">DAREDEVIL_VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você sempre prezou sua [AbilityGreen]Moto de Assalto[/AbilityGreen], e através de algumas conexões especiais, conseguiu trazê-la com você.[br/][br/]Você possui as seguintes habilidades:[br/][AbilityGreen]Pilotagem[/AbilityGreen] - permite ao Comandante pilotar veículos e montarias básicas.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta muito seus [hp/] Pontos de Vida[br/] máximos.[br/][br/]O equipamento inclui:[AbilityGreen]Sua [/AbilityGreen]Moto de Assalto[DamageThermal/], que possui poderosas capacidades de [AbilityGreen] Laser além de um [/AbilityGreen]Mod.[br/][AbilityGreen]Um [/AbilityGreen]Revólver Imperial[DamagePhysical/] que causa __PH23__ dano Cinético em um único alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DAREDEVIL_ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Veículo de Assalto da Assembly</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">DAREDEVIL_ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você era um grande cientista, mas eles o desprezavam por causa do seu [AbilityGreen]Chopper[/AbilityGreen]. Agora é hora de provar que seu veículo de combate modificado é tudo de que você precisa.[br/][br/]Você possui as seguintes habilidades:[br/][AbilityGreen]Pilotagem[/AbilityGreen] - permite ao Comandante pilotar veículos e montarias básicas.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta muito seus [hp/] Pontos de Vida[br/] máximos.[br/][br/]O equipamento inclui:[AbilityGreen]Seu [/AbilityGreen]Chopper[DamagePhysical/], que possui poderosas capacidades [AbilityGreen] Cinéticas além de um [/AbilityGreen]Mod.[br/][AbilityGreen]Uma [/AbilityGreen]Granada de Arco[DamageWave/] que causa __PH23__ dano de Arco e atordoa os atingidos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DAREDEVIL_KIRKO</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Veículo de Assalto Kir'Ko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">DAREDEVIL_KIRKO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Durante uma batalha terrível, um Emergente salvou sua vida. Mais tarde, ele se transformou em um [AbilityGreen]Abissal[/AbilityGreen]. Vocês estão juntos desde então.[br/][br/]Você possui as seguintes habilidades:[br/][AbilityGreen]Pilotagem[/AbilityGreen] - permite ao Comandante pilotar veículos e montarias básicas.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta muito seus [hp/] Pontos de Vida[br/] máximos.[br/][br/]O equipamento inclui:[AbilityGreen]Seu [/AbilityGreen]Abissal[DamageBio/], que possui poderosas capacidades [AbilityGreen] Bioquímicas além de um [/AbilityGreen]Mod.[br/][AbilityGreen]Uma [/AbilityGreen]Psi-pedra de Dissonância[DamagePsyche/] que causa __PH23__ dano Psiónico em área.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DAREDEVIL_AMAZON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Montaria de Assalto Amazona</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">DAREDEVIL_AMAZON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você tem seu próprio [AbilityGreen]Lanceiro[/AbilityGreen]. Ainda se lembra de quando ele era apenas um zigoto nas câmaras de nascimento. Vocês são inseparáveis desde então.[br/][br/]Você possui as seguintes habilidades:[br/][AbilityGreen]Pilotagem[/AbilityGreen] - permite ao Comandante pilotar veículos e montarias básicas.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta muito seus [hp/] Pontos de Vida[br/] máximos.[br/][br/]O equipamento inclui:[AbilityGreen]Seu [/AbilityGreen]Lanceiro[DamageThermal/], que possui poderosas capacidades [AbilityGreen] Térmicas além de um [/AbilityGreen]Mod.[br/][AbilityGreen]Um [/AbilityGreen]Bio-Blaster[DamageBio/] que causa __PH23__ dano Bioquímico.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DAREDEVIL_DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Veículo de Assalto Dvar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">DAREDEVIL_DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Construído com sangue, suor e lágrimas, seu [AbilityGreen]Baluarte[/AbilityGreen] é sua maior criação até agora. Agora vamos ver como ele luta![br/][br/]Você possui as seguintes habilidades:[br/][AbilityGreen]Pilotagem[/AbilityGreen] - permite ao Comandante pilotar veículos e montarias básicas.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta muito seus [hp/] Pontos de Vida[br/] máximos.[br/][br/]O equipamento inclui:[AbilityGreen]Seu [/AbilityGreen]Baluarte[DamagePhysical/], que possui poderosas capacidades [AbilityGreen] Cinéticas além de um [/AbilityGreen]Mod.[br/][AbilityGreen]Uma [/AbilityGreen]Granada Básica[DamagePhysical/] que causa __PH23__ dano Cinético em área e atordoa os atingidos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DAREDEVIL_SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Veículo de Assalto do Syndicate</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">DAREDEVIL_SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Seus pais te deram uma [AbilityGreen]Hoverbike[/AbilityGreen] no seu aniversário de 16 anos... eles nem conseguiram na cor certa, mas você persistiu e se tornou um expert em pilotá-la.[br/][br/]Você possui as seguintes habilidades:[br/][AbilityGreen]Pilotagem[/AbilityGreen] - permite que o Comandante pilote veículos e montarias básicos.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta muito seus [hp/] Pontos de Vida[br/] máximos.[br/][br/]O equipamento inclui:[AbilityGreen]Sua [/AbilityGreen]Hoverbike[DamagePsyche/], que possui poderosas capacidades [AbilityGreen] Psiónicas além de um [/AbilityGreen]Mod.[br/][AbilityGreen]Arc Bolas[/AbilityGreen] que causam [DamageWave/] dano de Arco e têm chance de imobilizar o alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14.5"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPPORT_PILOT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Veículo de Suporte</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SUPPORT_PILOT_VANGUARD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você encontrou um [AbilityGreen]APC Imperial[/AbilityGreen] perdido e o consertou.[br/][br/]Você possui as seguintes habilidades:[br/][AbilityGreen]Pilotagem[/AbilityGreen] - permite que o Comandante pilote veículos e montarias básicos.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta muito seus [hp/] Pontos de Vida[br/] máximos.[br/][br/]O equipamento inclui:[AbilityGreen]Um [/AbilityGreen]APC Imperial[br/] com várias habilidades de suporte.[AbilityGreen]Uma [/AbilityGreen]Granada Básica[DamagePhysical/] que causa __PH20__ dano Cinético em uma área e atordoa os atingidos.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Changed Empire APC to Imperial APC</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SUPPORT_PILOT_ASSEMBLY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você encontrou um [AbilityGreen]APC Imperial[/AbilityGreen] perdido e o consertou.[br/][br/]Você possui as seguintes habilidades:[br/][AbilityGreen]Pilotagem[/AbilityGreen] - permite que o Comandante pilote veículos e montarias básicos.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta muito seus [hp/] Pontos de Vida[br/] máximos.[br/][br/]O equipamento inclui:[AbilityGreen]Um [/AbilityGreen]APC Imperial[br/] com várias habilidades de suporte.[AbilityGreen]Uma [/AbilityGreen]Granada de Arco[DamageWave/] que causa __PH20__ dano de Arco e atordoa os atingidos.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Changed Empire APC to Imperial APC</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SUPPORT_PILOT_KIRKO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Você encontrou um [AbilityGreen]APC Imperial[/AbilityGreen] perdido e o consertou.[br/][br/]Você possui as seguintes habilidades:[br/][AbilityGreen]Pilotagem[/AbilityGreen] - permite que o Comandante pilote veículos e montarias básicos.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta muito seus [hp/] pontos de vida[br/] máximos.[br/][br/]O equipamento inclui:[AbilityGreen]Um [/AbilityGreen]APC Imperial[br/] com várias habilidades de suporte.[AbilityGreen]Uma [/AbilityGreen]Psi-pedra de Dissonância[DamagePsyche/], que quando usada causa __PH20__ dano Psiónico em uma área.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Changed Empire APC to Imperial APC</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SUPPORT_PILOT_AMAZON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você encontrou um [AbilityGreen]APC Imperial[/AbilityGreen] perdido e o consertou.[br/][br/]Você possui as seguintes habilidades:[br/][AbilityGreen]Pilotagem[/AbilityGreen] - permite que o Comandante pilote veículos e montarias básicos.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta muito seus [hp/] Pontos de Vida[br/] máximos.[br/][br/]O equipamento inclui:[AbilityGreen]Um [/AbilityGreen]APC Imperial[br/] com várias habilidades de suporte.[AbilityGreen]Uma [/AbilityGreen]Granada Térmica[DamageThermal/] que causa __PH20__ dano Térmico em uma área e tem chance de queimar os atingidos.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Changed Empire APC to Imperial APC</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SUPPORT_PILOT_DVAR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você encontrou um [AbilityGreen]APC Imperial[/AbilityGreen] perdido e o consertou.[br/][br/]Você possui as seguintes habilidades:[br/][AbilityGreen]Pilotagem[/AbilityGreen] - permite que o Comandante pilote veículos e montarias básicos.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta muito seus [hp/] Pontos de Vida[br/] máximos.[br/][br/]O equipamento inclui:[AbilityGreen]Um [/AbilityGreen]APC Imperial[br/] com várias habilidades de suporte.[AbilityGreen]Uma [/AbilityGreen]Granada Básica[DamagePhysical/] que causa __PH20__ dano Cinético em uma área e atordoa os atingidos.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Changed Empire APC to Imperial APC</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">SUPPORT_PILOT_SYNDICATE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você encontrou um [AbilityGreen]APC Imperial[/AbilityGreen] perdido e o consertou.[br/][br/]Você possui as seguintes habilidades:[br/][AbilityGreen]Pilotagem[/AbilityGreen] - permite que o Comandante pilote veículos e montarias básicos.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta muito seus [hp/] Pontos de Vida[br/] máximos.[br/][br/]O equipamento inclui:[AbilityGreen]Um [/AbilityGreen]APC Imperial[br/] com várias habilidades de suporte.[AbilityGreen]Uma [/AbilityGreen]Granada PsiTec[DamagePsyche/] que causa __PH20__ dano Psiónico em uma área e tem chance de aleijar os atingidos.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Changed Empire APC to Imperial APC</Data></Cell>
+   </Row>
+   <Row ss:Index="78" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_XENOPLAGUE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Combate Corpo a Corpo Xenopraga</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_XENOPLAGUE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O kit que você recebeu após o treinamento de Combate Corpo a Corpo Xenopraga.[br/][br/]Este treinamento especializado lhe concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Combate Corpo a Corpo I[/AbilityGreen] - aumenta o dano causado ao usar Armas de Corpo a Corpo.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta seus [hp/] Pontos de Vida[br/] máximos.[br/][br/]O kit inclui:[AbilityGreen]Pestilência[/AbilityGreen], uma manopla viva e cruel que infecta seus inimigos enquanto causa [DamageBio/] dano Bioquímico a curta distância.[br/]Uma [AbilityGreen]Bio Granada[/AbilityGreen] que causa [DamageBio/] dano Bioquímico em uma área e tem chance de envenenar os atingidos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_VOIDTECH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Combate Corpo a Corpo Voidtech</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_VOIDTECH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O kit que você recebeu após o treinamento de Combate Corpo a Corpo Voidtech.[br/][br/]Este treinamento especializado lhe concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Combate Corpo a Corpo I[/AbilityGreen] - aumenta o dano causado ao usar Armas de Corpo a Corpo.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta seus [hp/] Pontos de Vida[br/] máximos.[br/][br/]O kit inclui:[AbilityGreen]Lâminas do Vazio[/AbilityGreen], lâminas que distorcem dimensões e causam [DamagePhysical/] dano Cinético a curta distância.[br/]Uma [AbilityGreen]Granada de Arco[/AbilityGreen] que causa [DamageWave/] dano de Arco e atordoa os atingidos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_CELESTIAN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Combate Corpo a Corpo Celestiano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_CELESTIAN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O kit que você recebeu após o treinamento de Combate Corpo a Corpo Celestiano.[br/][br/]Este treinamento especializado lhe concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Combate Corpo a Corpo I[/AbilityGreen] - aumenta o dano causado ao usar Armas de Corpo a Corpo.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta seus [hp/] Pontos de Vida[br/] máximos.[br/][br/]O kit inclui:[AbilityGreen]Luvas Infernais[/AbilityGreen], manoplas flamejantes que causam [DamageThermal/] dano Térmico a curta distância.[br/]Uma [AbilityGreen]Bomba do Ego[/AbilityGreen] que causa [DamagePsyche/] dano e tem chance de aplicar Mente Quebrada nos atingidos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_PROMETHEAN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Assalto Prometeano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_PROMETHEAN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O kit que você recebeu após o treinamento de Assalto Prometeano.[br/][br/]Este treinamento especializado lhe concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Combate à Distância[/AbilityGreen] - aumenta o dano causado ao usar Armas de Longo Alcance.[br/][AbilityGreen]Mira Firme[/AbilityGreen] - aumenta sua precisão quando estiver atrás de cobertura.[br/][br/]O kit inclui:[br/]Uma [AbilityGreen]Arma Purificadora[/AbilityGreen] que dispara uma rajada de [DamageThermal/] dano Térmico.[br/]Uma [AbilityGreen]Granada Térmica[/AbilityGreen] que causa [DamageThermal/] dano Térmico em uma área e tem chance de queimar os atingidos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_PSYNUMBRA</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Assalto Psynumbra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_PSYNUMBRA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O kit que você recebeu após o treinamento de Assalto Psynumbra.[br/][br/]Este treinamento especializado lhe concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Combate à Distância[/AbilityGreen] - aumenta o dano causado ao usar Armas de Longo Alcance.[br/][AbilityGreen]Mira Firme[/AbilityGreen] - aumenta sua precisão quando estiver atrás de cobertura.[br/][br/]O kit inclui:[br/]Um [AbilityGreen]Divisor de Almas[/AbilityGreen], uma arma que atinge a mente de seus inimigos, causando [DamagePsyche/] dano Psiónico.[br/]Uma [AbilityGreen]Psi-pedra de Dissonância[/AbilityGreen] que causa [DamagePsyche/] dano Psiónico em uma área.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_SYNTHESIS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Assalto Síntese</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_SYNTHESIS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O kit que você recebeu após o treinamento de Assalto Síntese.[br/][br/]Este treinamento especializado lhe concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Combate à Distância[/AbilityGreen] - aumenta o dano causado ao usar Armas de Longo Alcance.[br/][AbilityGreen]Mira Firme[/AbilityGreen] - aumenta sua precisão quando estiver atrás de cobertura.[br/][br/]O kit inclui:[br/]Uma [AbilityGreen]SMG Hasher[/AbilityGreen], uma poderosa submetralhadora que causa [DamageWave/] dano de Arco.[br/]Uma [AbilityGreen]Granada de Arco[/AbilityGreen] que causa [DamageWave/] dano de Arco e atordoa os atingidos.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Selected/>
+   <TopRowVisible>27</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>38</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

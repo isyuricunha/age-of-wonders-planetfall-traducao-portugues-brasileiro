@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Nathan van den Berg</LastAuthor>
+  <LastSaved>2020-06-23T13:28:10Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7980</WindowHeight>
+  <WindowWidth>21570</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="18" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="219.75"/>
+   <Column ss:StyleID="s62" ss:Width="70.5"/>
+   <Column ss:StyleID="s62" ss:Width="315"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="283.5"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">COLONYUPGRADES_STRATEGIC_DLC05</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CITY_SECTOR_DEFENSE_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Estandartes de Proteção</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CITY_SECTOR_DEFENSE_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quando construídos, os Estandartes de Proteção ajudarão a milícia da sua colônia em combate tático.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CITY_DISTRICT_OATHBOUND_TIER_I</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arquivo de Feitos (Básico)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="255">
+    <Cell><Data ss:Type="String">CITY_DISTRICT_OATHBOUND_TIER_I</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um centro especializado dos Oathbound, onde colonos podem ser treinados e trabalhar como Cronistas. A estrutura pode ser atualizada posteriormente após anexar setores de Exploração Residencial à colônia.[br/][br/][bulletlist][bullet]Básico:[br/]{NumSlotsIncrease_Basic} Espaços de Cronista.[br/][population/] em Espaços de Cronista geram {ChroniclerIncome_Basic}.[/bullet][bullet][darkgrey]Aprimorado:[br/]{NumSlotsIncrease_Fine} Espaços de Cronista.[br/][population/] em Espaços de Cronista geram {ChroniclerIncome_Fine}.[/darkgrey][/bullet][bullet][darkgrey]Imaculado:[br/]{NumSlotsIncrease_Immaculate} Espaços de Cronista.[br/][population/] em Espaços de Cronista geram {ChroniclerIncome_Immaculate}.[br/]Sempre que o Senhor da colônia [firecol](ajuste de 3 [turn/])[/firecol] vencer uma batalha, esta colônia gera {Immaculate_BonusEventIncome}.[/darkgrey][/bullet][/bulletlist]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CITY_DISTRICT_OATHBOUND_TIER_II</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arquivo de Feitos (Aprimorado)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="255">
+    <Cell><Data ss:Type="String">CITY_DISTRICT_OATHBOUND_TIER_II</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um centro especializado dos Oathbound, onde colonos podem ser treinados e trabalhar como Cronistas. A estrutura pode ser atualizada posteriormente após anexar setores de Exploração Residencial à colônia.[br/][br/][bulletlist][bullet][darkgrey]Básico:[br/]{NumSlotsIncrease_Basic} Espaços de Cronista.[br/][population/] em Espaços de Cronista geram {ChroniclerIncome_Basic}.[/darkgrey][/bullet][bullet]Aprimorado:[br/]{NumSlotsIncrease_Fine} Espaços de Cronista.[br/][population/] em Espaços de Cronista geram {ChroniclerIncome_Fine}.[/bullet][bullet][darkgrey]Imaculado:[br/]{NumSlotsIncrease_Immaculate} Espaços de Cronista.[br/][population/] em Espaços de Cronista geram {ChroniclerIncome_Immaculate}.[br/]Sempre que o Senhor da colônia [firecol](ajuste de 3 [turn/])[/firecol] vencer uma batalha, esta colônia gera {Immaculate_BonusEventIncome}.[/darkgrey][/bullet][/bulletlist]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CITY_DISTRICT_OATHBOUND_TIER_III</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arquivo de Feitos (Imaculado)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CITY_DISTRICT_OATHBOUND_TIER_III</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arquivo de Feitos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure Short Form Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="225">
+    <Cell><Data ss:Type="String">CITY_DISTRICT_OATHBOUND_TIER_III</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um centro especializado dos Oathbound totalmente atualizado, onde colonos podem ser treinados e trabalhar como Cronistas.[br/][br/][bulletlist][bullet][darkgrey]Básico:[br/]{NumSlotsIncrease_Basic} Espaços de Cronista.[br/][population/] em Espaços de Cronista geram {ChroniclerIncome_Basic}.[/darkgrey][/bullet][bullet][darkgrey]Aprimorado:[br/]{NumSlotsIncrease_Fine} Espaços de Cronista.[br/][population/] em Espaços de Cronista geram {ChroniclerIncome_Fine}.[/darkgrey][/bullet][bullet]Imaculado:[br/]{NumSlotsIncrease_Immaculate} Espaços de Cronista.[br/][population/] em Espaços de Cronista geram {ChroniclerIncome_Immaculate}.[br/]Sempre que o Senhor da colônia [firecol](ajuste de 3 [turn/])[/firecol] vencer uma batalha, esta colônia gera {Immaculate_BonusEventIncome}.[/bullet][/bulletlist]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CITY_DISTRICT_OATHBOUND_SPECIALIST_SLOT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Espaço de Cronista</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A special slot for population, unlocked by a special buildings</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CITY_DISTRICT_OATHBOUND_SPECIALIST_SLOT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[bold]Cronista[/bold][spacedline/]Um especialista dos Oathbound, gerando [research/] e [happiness/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of population slot</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CITY_DISTRICT_OATHBOUND_SPECIALIST_SLOT</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">[research/] e [happiness/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Description of income types. Is inserted in a tooltip explaining the auto colonist assign behavior.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CITY_OATHBOUND_THRONE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Trono</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Structure name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CITY_OATHBOUND_THRONE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quando um herói com uma habilidade de bônus de Senhor da Colônia estiver vinculado a esta colônia, a colônia ainda receberá {throneBonus}% do bônus Herói no Domínio, mesmo quando o herói estiver fora do domínio da colônia.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Colony Lord Bonus is a type of Hero Skill listed in Oathbound_HeroSkills.xml</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>15</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

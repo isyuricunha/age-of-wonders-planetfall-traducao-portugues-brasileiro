@@ -1,0 +1,2185 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Joshua Crowder</LastAuthor>
+  <LastSaved>2020-08-20T07:22:10Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>19965</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="420" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="135.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="159.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="155.25"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="207"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">SECTORNAMES_WILDERNESSSPECIAL</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Text surrounded by {} or [] are special tags for code. These tag will be replaced with other text eg: the name of a player. The tags should NOT be localized. They represent the place in the sentens for their replacing string. Some {} tags start with STR or INT. STR means it will be replaced with text, INT means it will be replaced with a numerical value  </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:Index="5"><Data ss:Type="String">All the text in this XML are names of sectors. Sector names are displayed in the game above the corresponding sectors on the strategic map.
+
+Some names differ from their text ID, DO NOT MODIFY THE TEXT ID! The modified name is correct and is the one should be translated</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS01</Data></Cell>
+    <Cell><Data ss:Type="String">HALCYON_GARDEN_RESERVE</Data></Cell>
+    <Cell><Data ss:Type="String">Reserva Jardim Halcyon</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS02</Data></Cell>
+    <Cell><Data ss:Type="String">PARADISE_PASTURE</Data></Cell>
+    <Cell><Data ss:Type="String">Pastagem Paraíso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS03</Data></Cell>
+    <Cell><Data ss:Type="String">PASTORAL_SERENITY_GARDENS</Data></Cell>
+    <Cell><Data ss:Type="String">Jardins da Serenidade Pastoral</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Pastoral as in pasture</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS04</Data></Cell>
+    <Cell><Data ss:Type="String">GRAND_GLORY_PLANTATION</Data></Cell>
+    <Cell><Data ss:Type="String">Plantação Grande Glória</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS05</Data></Cell>
+    <Cell><Data ss:Type="String">GREEN_VELVET_MEADOWS</Data></Cell>
+    <Cell><Data ss:Type="String">Prados de Veludo Verde</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS06</Data></Cell>
+    <Cell><Data ss:Type="String">EMERALD_FIELDS_RESERVE</Data></Cell>
+    <Cell><Data ss:Type="String">Reserva Campos Esmeralda</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS07</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME01</Data></Cell>
+    <Cell><Data ss:Type="String">Canteiros de Narcisos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS08</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME02</Data></Cell>
+    <Cell><Data ss:Type="String">Jardins de Rosas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS09</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME03</Data></Cell>
+    <Cell><Data ss:Type="String">Pátio das Cerejeiras</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS10</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME04</Data></Cell>
+    <Cell><Data ss:Type="String">Pradaria Violeta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS11</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME05</Data></Cell>
+    <Cell><Data ss:Type="String">Pastagem das Papoulas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS12</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME06</Data></Cell>
+    <Cell><Data ss:Type="String">Clareira Açucarada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS13</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME07</Data></Cell>
+    <Cell><Data ss:Type="String">Pastagem Perfumada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS14</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME08</Data></Cell>
+    <Cell><Data ss:Type="String">Campo Tranquilo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS15</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME09</Data></Cell>
+    <Cell><Data ss:Type="String">Planalto Aromático</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS16</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME10</Data></Cell>
+    <Cell><Data ss:Type="String">Expanse Aromática</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS17</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME11</Data></Cell>
+    <Cell><Data ss:Type="String">Campina Pacifica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS18</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME12</Data></Cell>
+    <Cell><Data ss:Type="String">Expanse Calma</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS19</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME13</Data></Cell>
+    <Cell><Data ss:Type="String">Jardins Ambrosíacos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS20</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME14</Data></Cell>
+    <Cell><Data ss:Type="String">Prados Delicados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS21</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME15</Data></Cell>
+    <Cell><Data ss:Type="String">Planícies Deliciosas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS22</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME16</Data></Cell>
+    <Cell><Data ss:Type="String">Campos Ondulantes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS23</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME17</Data></Cell>
+    <Cell><Data ss:Type="String">Prado da Glória</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS24</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME18</Data></Cell>
+    <Cell><Data ss:Type="String">Pastagem do Orvalho Matinal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS25</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME19</Data></Cell>
+    <Cell><Data ss:Type="String">Campos Fluidos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS26</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME20</Data></Cell>
+    <Cell><Data ss:Type="String">Relvado Dourado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS27</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME21</Data></Cell>
+    <Cell><Data ss:Type="String">Pastagem Protegida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS28</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME22</Data></Cell>
+    <Cell><Data ss:Type="String">Currais do Triunfo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS29</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME23</Data></Cell>
+    <Cell><Data ss:Type="String">Campina de Bronwyn</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female fictional figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS30</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME24</Data></Cell>
+    <Cell><Data ss:Type="String">Prados Pérola</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS31</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME25</Data></Cell>
+    <Cell><Data ss:Type="String">Campos Reais de Kinsley</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male fictional figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS32</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME26</Data></Cell>
+    <Cell><Data ss:Type="String">Campos dos Parentes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS33</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME27</Data></Cell>
+    <Cell><Data ss:Type="String">Pastagem do Campeão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS34</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME28</Data></Cell>
+    <Cell><Data ss:Type="String">Campos Encantadores</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS35</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME29</Data></Cell>
+    <Cell><Data ss:Type="String">Verdes Deslumbrantes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEADOWS36</Data></Cell>
+    <Cell><Data ss:Type="String">MEDOWS_NAME30</Data></Cell>
+    <Cell><Data ss:Type="String">Prados Maravilhosos</Data></Cell>
+   </Row>
+   <Row ss:Index="42" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BAY01</Data></Cell>
+    <Cell><Data ss:Type="String">ARMOR_BAY</Data></Cell>
+    <Cell><Data ss:Type="String">Baía da Armadura</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BAY02</Data></Cell>
+    <Cell><Data ss:Type="String">HERALD_BAY</Data></Cell>
+    <Cell><Data ss:Type="String">Baía do Arauto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BAY03</Data></Cell>
+    <Cell><Data ss:Type="String">SANCTUARY_COVE</Data></Cell>
+    <Cell><Data ss:Type="String">Enseada do Santuário</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BAY04</Data></Cell>
+    <Cell><Data ss:Type="String">BULL_BAY</Data></Cell>
+    <Cell><Data ss:Type="String">Baía do Touro</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BAY05</Data></Cell>
+    <Cell><Data ss:Type="String">SUNKEN_LAND</Data></Cell>
+    <Cell><Data ss:Type="String">Terras Afundadas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BAY06</Data></Cell>
+    <Cell><Data ss:Type="String">STARFISH_BAY</Data></Cell>
+    <Cell><Data ss:Type="String">Baía das Estrelas-do-Mar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BAY07</Data></Cell>
+    <Cell><Data ss:Type="String">BATTLE_BAY</Data></Cell>
+    <Cell><Data ss:Type="String">Baía da Batalha</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BAY08</Data></Cell>
+    <Cell><Data ss:Type="String">TRANQUIL_COVE</Data></Cell>
+    <Cell><Data ss:Type="String">Angra Tranquila</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BAY09</Data></Cell>
+    <Cell><Data ss:Type="String">FALK_BAY</Data></Cell>
+    <Cell><Data ss:Type="String">Baía Falk</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:Index="52" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NUCLEARWASTELAND01</Data></Cell>
+    <Cell><Data ss:Type="String">NUCLEAR_WASTELAND</Data></Cell>
+    <Cell><Data ss:Type="String">Ermo Nuclear</Data></Cell>
+   </Row>
+   <Row ss:Index="54" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DUNES01</Data></Cell>
+    <Cell><Data ss:Type="String">GREAT_WORMS_REACH</Data></Cell>
+    <Cell><Data ss:Type="String">Alcance do Grande Verme</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Reach as in stretch of lands</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DUNES02</Data></Cell>
+    <Cell><Data ss:Type="String">DUSTY_STRETCH</Data></Cell>
+    <Cell><Data ss:Type="String">A Extensão Poeirenta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DUNES03</Data></Cell>
+    <Cell><Data ss:Type="String">DUSTBOWL</Data></Cell>
+    <Cell><Data ss:Type="String">Vale da Poeira</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DUNES04</Data></Cell>
+    <Cell><Data ss:Type="String">DESOLATE_WASTE</Data></Cell>
+    <Cell><Data ss:Type="String">O Ermo Desolado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DUNES05</Data></Cell>
+    <Cell><Data ss:Type="String">ROSETTA_DESERT</Data></Cell>
+    <Cell><Data ss:Type="String">Deserto Rosetta</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DUNES06</Data></Cell>
+    <Cell><Data ss:Type="String">DUNE_DUNES</Data></Cell>
+    <Cell><Data ss:Type="String">Areias do Tempo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DUNES07</Data></Cell>
+    <Cell><Data ss:Type="String">THE_COLD_SANDS</Data></Cell>
+    <Cell><Data ss:Type="String">Areias Gélidas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DUNES08</Data></Cell>
+    <Cell><Data ss:Type="String">SAND_DUNES</Data></Cell>
+    <Cell><Data ss:Type="String">Dunas de Areia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DUNES09</Data></Cell>
+    <Cell><Data ss:Type="String">FROST_FREE_DUNES</Data></Cell>
+    <Cell><Data ss:Type="String">Dunas sem Geada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DUNES10</Data></Cell>
+    <Cell><Data ss:Type="String">SEA_OF_SAND</Data></Cell>
+    <Cell><Data ss:Type="String">Mar de Areia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DUNES11</Data></Cell>
+    <Cell><Data ss:Type="String">OPHIRS_PROMISE</Data></Cell>
+    <Cell><Data ss:Type="String">Promessa de Ofir</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Ophir is a historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DUNES12</Data></Cell>
+    <Cell><Data ss:Type="String">STAGNANT_SANDS</Data></Cell>
+    <Cell><Data ss:Type="String">As Areias Estagnadas</Data></Cell>
+   </Row>
+   <Row ss:Index="67" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA01</Data></Cell>
+    <Cell><Data ss:Type="String">BLUE_VEINS</Data></Cell>
+    <Cell><Data ss:Type="String">Delta das Veias Azuis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA02</Data></Cell>
+    <Cell><Data ss:Type="String">UNION_ROOTS</Data></Cell>
+    <Cell><Data ss:Type="String">Delta das Raízes da Star Union</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA03</Data></Cell>
+    <Cell><Data ss:Type="String">GIDEONS_BOUNTY</Data></Cell>
+    <Cell><Data ss:Type="String">Delta da Recompensa de Gideon</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Gideon is a historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA04</Data></Cell>
+    <Cell><Data ss:Type="String">ROSETTA_DELTA</Data></Cell>
+    <Cell><Data ss:Type="String">Delta de Rosetta</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA05</Data></Cell>
+    <Cell><Data ss:Type="String">FLOWING_FIELDS</Data></Cell>
+    <Cell><Data ss:Type="String">Os Campos Fluentes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA06</Data></Cell>
+    <Cell><Data ss:Type="String">THE_BLUE_STREAKS</Data></Cell>
+    <Cell><Data ss:Type="String">Delta das Listras Azuis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA07</Data></Cell>
+    <Cell><Data ss:Type="String">REIN_DELTA</Data></Cell>
+    <Cell><Data ss:Type="String">Delta de Rein</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tool used in horseriding</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA08</Data></Cell>
+    <Cell><Data ss:Type="String">BLACK_DELTA</Data></Cell>
+    <Cell><Data ss:Type="String">Delta de Schwarz</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA09</Data></Cell>
+    <Cell><Data ss:Type="String">BLUE_POINT</Data></Cell>
+    <Cell><Data ss:Type="String">Delta do Ponto Azul</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA10</Data></Cell>
+    <Cell><Data ss:Type="String">THE_MAZE</Data></Cell>
+    <Cell><Data ss:Type="String">Delta do Labirinto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA11</Data></Cell>
+    <Cell><Data ss:Type="String">THE_VAAL</Data></Cell>
+    <Cell><Data ss:Type="String">Delta de Vaal</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA12</Data></Cell>
+    <Cell><Data ss:Type="String">THE_DAUGANA</Data></Cell>
+    <Cell><Data ss:Type="String">Delta de Daugana</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA13</Data></Cell>
+    <Cell><Data ss:Type="String">GAUYA_DELTA</Data></Cell>
+    <Cell><Data ss:Type="String">Delta de Gauya</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA14</Data></Cell>
+    <Cell><Data ss:Type="String">CROSSROADS_DELTA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Delta da Encruzilhada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA15</Data></Cell>
+    <Cell><Data ss:Type="String">DESTINY_DELTA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Delta do Destino</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA16</Data></Cell>
+    <Cell><Data ss:Type="String">ARKANOVS_TEARS</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Lágrimas de Arkanov</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Arkanov is a historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA17</Data></Cell>
+    <Cell><Data ss:Type="String">CERULEAN_BASIN</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Bacia Cerúlea</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shade of blue</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA18</Data></Cell>
+    <Cell><Data ss:Type="String">DIAMOND_DELTA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Delta Diamante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA19</Data></Cell>
+    <Cell><Data ss:Type="String">SIGMA_DELTA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Delta Sigma</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA20</Data></Cell>
+    <Cell><Data ss:Type="String">THETHERING_DELTA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Delta do Atracadouro</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in entangling in ropes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA21</Data></Cell>
+    <Cell><Data ss:Type="String">TATTERED_RIVERS</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Rios Esfarrapados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA22</Data></Cell>
+    <Cell><Data ss:Type="String">BLUEBRUSH_DELTA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Delta da Escova-Azul</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA23</Data></Cell>
+    <Cell><Data ss:Type="String">RIVERRUN_DELTA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Delta do Rio Corrente</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA24</Data></Cell>
+    <Cell><Data ss:Type="String">TRANQUIL_DELTA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Delta Sereno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA25</Data></Cell>
+    <Cell><Data ss:Type="String">SERENITY_BASIN</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Bacia da Serenidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA26</Data></Cell>
+    <Cell><Data ss:Type="String">TIDAL_DELTA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Delta das Marés</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA27</Data></Cell>
+    <Cell><Data ss:Type="String">FLEW_RIVER_DELTA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Delta do Rio Flew</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA28</Data></Cell>
+    <Cell><Data ss:Type="String">THIRTIES_DELTA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Delta dos Trinta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA29</Data></Cell>
+    <Cell><Data ss:Type="String">GUANZHO_RIVERS</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Rios de Guanzho</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA30</Data></Cell>
+    <Cell><Data ss:Type="String">BENKUN_RIVER_BANKS</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Margens do Rio Benkun</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA31</Data></Cell>
+    <Cell><Data ss:Type="String">KINDO_DELTA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Delta de Kindo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DELTA32</Data></Cell>
+    <Cell><Data ss:Type="String">EVERLAST_DELTA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Delta Eterno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5"><Data ss:Type="String">Rift as in crack in the earth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GEOTHERMAL_RIFT01</Data></Cell>
+    <Cell><Data ss:Type="String">TECTONIC_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">A Fenda Tectônica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GEOTHERMAL_RIFT02</Data></Cell>
+    <Cell><Data ss:Type="String">BLACKHEART_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">Fenda Coração Negro</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GEOTHERMAL_RIFT03</Data></Cell>
+    <Cell><Data ss:Type="String">MOLTEN_CORE</Data></Cell>
+    <Cell><Data ss:Type="String">Fenda do Núcleo Derretido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GEOTHERMAL_RIFT04</Data></Cell>
+    <Cell><Data ss:Type="String">CRIMSON_FISSURE</Data></Cell>
+    <Cell><Data ss:Type="String">Fenda da Fissura Carmesim</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GEOTHERMAL_RIFT05</Data></Cell>
+    <Cell><Data ss:Type="String">REDCORE_FISSURE</Data></Cell>
+    <Cell><Data ss:Type="String">Fissura do Núcleo Vermelho</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GEOTHERMAL_RIFT06</Data></Cell>
+    <Cell><Data ss:Type="String">DEEPRIFT</Data></Cell>
+    <Cell><Data ss:Type="String">Abissorfenda</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GEOTHERMAL_RIFT07</Data></Cell>
+    <Cell><Data ss:Type="String">BOILING_RIFT</Data></Cell>
+    <Cell><Data ss:Type="String">Fenda Fervente</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GEOTHERMAL_RIFT08</Data></Cell>
+    <Cell><Data ss:Type="String">BURNING_DEPTH</Data></Cell>
+    <Cell><Data ss:Type="String">Fenda das Profundezas Ardentes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GEOTHERMAL_RIFT09</Data></Cell>
+    <Cell><Data ss:Type="String">FIERY_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">A Fenda do Abismo Flamejante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GEOTHERMAL_RIFT10</Data></Cell>
+    <Cell><Data ss:Type="String">FIRELANDS</Data></Cell>
+    <Cell><Data ss:Type="String">Fenda das Terras de Fogo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GEOTHERMAL_RIFT11</Data></Cell>
+    <Cell><Data ss:Type="String">BLAZING_ABYSS</Data></Cell>
+    <Cell><Data ss:Type="String">Fenda do Abismo Flamejante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GEOTHERMAL_RIFT12</Data></Cell>
+    <Cell><Data ss:Type="String">ARKANOVS_SCAR</Data></Cell>
+    <Cell><Data ss:Type="String">Cicatriz da Fenda de Arkanov</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GEOTHERMAL_RIFT13</Data></Cell>
+    <Cell><Data ss:Type="String">BLOODBLAZE_RIFT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Fenda Sangue Flamejante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GEOTHERMAL_RIFT14</Data></Cell>
+    <Cell><Data ss:Type="String">CARDINAL_RIFT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Fenda Cardinal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GEOTHERMAL_RIFT15</Data></Cell>
+    <Cell><Data ss:Type="String">HEAT_DEATH_RIFT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Fenda Morte Térmica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GEOTHERMAL_RIFT16</Data></Cell>
+    <Cell><Data ss:Type="String">MELTDOWN_CRUCIBLE_RIFT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Fenda Cadinho do Colapso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GEOTHERMAL_RIFT17</Data></Cell>
+    <Cell><Data ss:Type="String">GIDEONS_CREMATION_RIFT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Fenda da Cremação de Gideon</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Gideon is a historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GEOTHERMAL_RIFT18</Data></Cell>
+    <Cell><Data ss:Type="String">CORE_CRACKED_RIFT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Fenda Núcleo Rachado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GEOTHERMAL_RIFT19</Data></Cell>
+    <Cell><Data ss:Type="String">FISSURED_RIFT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Fenda Fissurada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GEOTHERMAL_RIFT20</Data></Cell>
+    <Cell><Data ss:Type="String">MOLTEN_FRACTURE_RIFT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Fenda Fratura Derretida</Data></Cell>
+   </Row>
+   <Row ss:Index="121" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANGROVE01</Data></Cell>
+    <Cell><Data ss:Type="String">NATURES_MEMORY</Data></Cell>
+    <Cell><Data ss:Type="String">Bosque da Memória da Natureza</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANGROVE02</Data></Cell>
+    <Cell><Data ss:Type="String">PRESERVERS_MANGROVE</Data></Cell>
+    <Cell><Data ss:Type="String">Manguezal dos Preservadores</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANGROVE03</Data></Cell>
+    <Cell><Data ss:Type="String">THE_GROVE_OF_MAN</Data></Cell>
+    <Cell><Data ss:Type="String">O Bosque do Homem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANGROVE04</Data></Cell>
+    <Cell><Data ss:Type="String">THE_YELLOW_MANGROVE</Data></Cell>
+    <Cell><Data ss:Type="String">Manguezal Amarelo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANGROVE05</Data></Cell>
+    <Cell><Data ss:Type="String">SUNDERBROOK_MANGROVE</Data></Cell>
+    <Cell><Data ss:Type="String">Manguezal de Sunderbrook</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANGROVE06</Data></Cell>
+    <Cell><Data ss:Type="String">MANGLED_PATH</Data></Cell>
+    <Cell><Data ss:Type="String">Manguezal do Caminho Retorcido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANGROVE07</Data></Cell>
+    <Cell><Data ss:Type="String">SALTY_GROVE</Data></Cell>
+    <Cell><Data ss:Type="String">Bosque Salgado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANGROVE08</Data></Cell>
+    <Cell><Data ss:Type="String">GIDEONS_JUMBLE</Data></Cell>
+    <Cell><Data ss:Type="String">Manguezal Bagunçado de Gideon</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Gideon is a historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANGROVE09</Data></Cell>
+    <Cell><Data ss:Type="String">ROSETTA_GROVE</Data></Cell>
+    <Cell><Data ss:Type="String">Bosque Rosetta</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANGROVE10</Data></Cell>
+    <Cell><Data ss:Type="String">SUNKEN_ROOTS</Data></Cell>
+    <Cell><Data ss:Type="String">Manguezal Raízes Afundadas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANGROVE11</Data></Cell>
+    <Cell><Data ss:Type="String">SUNKEN_VINES</Data></Cell>
+    <Cell><Data ss:Type="String">Manguezal das Vinhas Afundadas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANGROVE12</Data></Cell>
+    <Cell><Data ss:Type="String">CERULEAN_SHRUBLANDS</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Arbustais Cerúleos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shade of blue</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANGROVE13</Data></Cell>
+    <Cell><Data ss:Type="String">GROVE_OF_GAEA</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Bosque de Gaia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANGROVE14</Data></Cell>
+    <Cell><Data ss:Type="String">FLORAS_REACH</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Alcance de Flora</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Flora as in relating to flowers</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANGROVE15</Data></Cell>
+    <Cell><Data ss:Type="String">SALINITYS_GROVE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Bosque da Salinidade</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Salt gradient</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANGROVE16</Data></Cell>
+    <Cell><Data ss:Type="String">SULPHURIC_GROVE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Bosque Sulfúrico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANGROVE17</Data></Cell>
+    <Cell><Data ss:Type="String">RUDDY_BLUE_GROVE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Bosque Azul-Avermelhado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANGROVE18</Data></Cell>
+    <Cell><Data ss:Type="String">FIELDS_OF_SCATTERWEED</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Campos de Erva-Dispersa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANGROVE19</Data></Cell>
+    <Cell><Data ss:Type="String">HUNTERS_STASH_GROVE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Bosque do Esconderijo do Caçador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MANGROVE20</Data></Cell>
+    <Cell><Data ss:Type="String">MOISTMIRE_OVERGROWTH</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Crescimento Excessivo do Pântano Úmido</Data></Cell>
+   </Row>
+   <Row ss:Index="142" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPACT_CRATER01</Data></Cell>
+    <Cell><Data ss:Type="String">ORIONS_LANDING</Data></Cell>
+    <Cell><Data ss:Type="String">Pouso de Orion</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Orion is a historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPACT_CRATER02</Data></Cell>
+    <Cell><Data ss:Type="String">ETERNAL_FLAME_CRATER</Data></Cell>
+    <Cell><Data ss:Type="String">Cratera da Chama Eterna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPACT_CRATER03</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECT_279</Data></Cell>
+    <Cell><Data ss:Type="String">Objeto 279</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPACT_CRATER04</Data></Cell>
+    <Cell><Data ss:Type="String">SHARDS_FALL</Data></Cell>
+    <Cell><Data ss:Type="String">Queda do Estilhaço</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPACT_CRATER05</Data></Cell>
+    <Cell><Data ss:Type="String">THE_UNDYING_STAR</Data></Cell>
+    <Cell><Data ss:Type="String">A Estrela Imortal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPACT_CRATER06</Data></Cell>
+    <Cell><Data ss:Type="String">STAR_DRAGONS_REST</Data></Cell>
+    <Cell><Data ss:Type="String">Descanso do Dragão Estelar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPACT_CRATER07</Data></Cell>
+    <Cell><Data ss:Type="String">KHANSUS_CINDER</Data></Cell>
+    <Cell><Data ss:Type="String">Cinzas de Khansu</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Khansu is a historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPACT_CRATER08</Data></Cell>
+    <Cell><Data ss:Type="String">PYRES_EMBER</Data></Cell>
+    <Cell><Data ss:Type="String">Brasa da Pira</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Pyre as in stack of flammable material</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPACT_CRATER09</Data></Cell>
+    <Cell><Data ss:Type="String">SHARD_OF_REGALAI</Data></Cell>
+    <Cell><Data ss:Type="String">Estilhaço de Regalai</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPACT_CRATER10</Data></Cell>
+    <Cell><Data ss:Type="String">BRIGHTFIRE</Data></Cell>
+    <Cell><Data ss:Type="String">O Fogo Brilhante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPACT_CRATER11</Data></Cell>
+    <Cell><Data ss:Type="String">THE_OUTSIDER</Data></Cell>
+    <Cell><Data ss:Type="String">Flagelo do Forasteiro</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPACT_CRATER12</Data></Cell>
+    <Cell><Data ss:Type="String">DVARNOS_FIST</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Punho de Dvarnos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dvarnos is a historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPACT_CRATER13</Data></Cell>
+    <Cell><Data ss:Type="String">MAGNIFICUS_CRATER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Cratera Magnificus</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPACT_CRATER14</Data></Cell>
+    <Cell><Data ss:Type="String">TERRABURN_TOUCH</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Toque de Terraqueima</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPACT_CRATER15</Data></Cell>
+    <Cell><Data ss:Type="String">CRATER_OF_UNDOING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Cratera do Desfazer</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPACT_CRATER16</Data></Cell>
+    <Cell><Data ss:Type="String">INFINITYS_LANDING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Pouso do Infinito</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPACT_CRATER17</Data></Cell>
+    <Cell><Data ss:Type="String">ASH_NOVA_CRATER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Cratera Nova de Cinzas</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Nova as in new</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPACT_CRATER18</Data></Cell>
+    <Cell><Data ss:Type="String">REMAINS_OF_CONFLICT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Restos do Conflito</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPACT_CRATER19</Data></Cell>
+    <Cell><Data ss:Type="String">BRIGHTSTAR_DOWNFALL</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Queda da Estrela Brilhante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IMPACT_CRATER20</Data></Cell>
+    <Cell><Data ss:Type="String">BREAKNECK_CRATER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Cratera Desabalada</Data></Cell>
+   </Row>
+   <Row ss:Index="163" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIGHRISE01</Data></Cell>
+    <Cell><Data ss:Type="String">CARMINIA_HIGHRISE</Data></Cell>
+    <Cell><Data ss:Type="String">Arranha-céu Carminia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Carminia is a historic female figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIGHRISE02</Data></Cell>
+    <Cell><Data ss:Type="String">THOLIAN_HIGHRISE</Data></Cell>
+    <Cell><Data ss:Type="String">Arranha-céu Tholiano</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tholian is a historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIGHRISE03</Data></Cell>
+    <Cell><Data ss:Type="String">BENEVOLANCE_HIGHRISE</Data></Cell>
+    <Cell><Data ss:Type="String">Arranha-céu Benevolência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIGHRISE04</Data></Cell>
+    <Cell><Data ss:Type="String">UNION_HIGHRISE</Data></Cell>
+    <Cell><Data ss:Type="String">Arranha-céu da União</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIGHRISE05</Data></Cell>
+    <Cell><Data ss:Type="String">EXEMPLAR_HIGHRISE</Data></Cell>
+    <Cell><Data ss:Type="String">Arranha-céu Exemplar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIGHRISE06</Data></Cell>
+    <Cell><Data ss:Type="String">THOLIANS_GIFT_HIGHRISE</Data></Cell>
+    <Cell><Data ss:Type="String">Arranha-céu Dádiva Tholiana</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tholian is a historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIGHRISE07</Data></Cell>
+    <Cell><Data ss:Type="String">ANTONIUS_HIGHRISE</Data></Cell>
+    <Cell><Data ss:Type="String">Arranha-céu Antonius</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Antonius is a historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIGHRISE08</Data></Cell>
+    <Cell><Data ss:Type="String">ANTONIUS_PLEDGE_HIGHRISE</Data></Cell>
+    <Cell><Data ss:Type="String">Arranha-céu Promessa de Antonius</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Antonius is a historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIGHRISE09</Data></Cell>
+    <Cell><Data ss:Type="String">CLOUD_DISTRICT_HIGHRISE</Data></Cell>
+    <Cell><Data ss:Type="String">Arranha-céu Distrito das Nuvens</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIGHRISE10</Data></Cell>
+    <Cell><Data ss:Type="String">SKYTOUCH_HIGHRISE</Data></Cell>
+    <Cell><Data ss:Type="String">Arranha-céu Toque do Céu</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIGHRISE11</Data></Cell>
+    <Cell><Data ss:Type="String">PALMTREES_HIGHRISE</Data></Cell>
+    <Cell><Data ss:Type="String">Arranha-céu Palmtrees</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIGHRISE12</Data></Cell>
+    <Cell><Data ss:Type="String">ATMOSPHERE_HIGHRISE</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Arranha-céu Atmosphere</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIGHRISE13</Data></Cell>
+    <Cell><Data ss:Type="String">ZERO_SUM_HIGHRISE</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Arranha-céu Zero Sum</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Zero sum as in finite</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIGHRISE14</Data></Cell>
+    <Cell><Data ss:Type="String">MACH_2_HIGHRISE</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Arranha-céu Mach 2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIGHRISE15</Data></Cell>
+    <Cell><Data ss:Type="String">STAR_KISS_HIGHRISE</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Arranha-céu Star Kiss</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIGHRISE16</Data></Cell>
+    <Cell><Data ss:Type="String">PILLARING_HIGHRISE</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Arranha-céu Pillaring</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIGHRISE17</Data></Cell>
+    <Cell><Data ss:Type="String">TOWERING_HIGHRISE</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Arranha-céu Towering</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIGHRISE18</Data></Cell>
+    <Cell><Data ss:Type="String">MOBIUS_HIGHRISE</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Arranha-céu Mobius</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIGHRISE19</Data></Cell>
+    <Cell><Data ss:Type="String">QUADRUPLE_HIGHRISE</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Arranha-céu Quadruple</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIGHRISE20</Data></Cell>
+    <Cell><Data ss:Type="String">CASTLE_HIGHRISE</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Arranha-céu Castle</Data></Cell>
+   </Row>
+   <Row ss:Index="184" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRANSIT_HUB01</Data></Cell>
+    <Cell><Data ss:Type="String">JUST_STATION</Data></Cell>
+    <Cell><Data ss:Type="String">Estação Just</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRANSIT_HUB02</Data></Cell>
+    <Cell><Data ss:Type="String">UNION_CENTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Central da União</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRANSIT_HUB03</Data></Cell>
+    <Cell><Data ss:Type="String">SEBASTIAN_STATION</Data></Cell>
+    <Cell><Data ss:Type="String">Estação Sebastian</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRANSIT_HUB04</Data></Cell>
+    <Cell><Data ss:Type="String">ANTONIUS_TRANSIT</Data></Cell>
+    <Cell><Data ss:Type="String">Trânsito Antonius</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Antonius is a historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRANSIT_HUB05</Data></Cell>
+    <Cell><Data ss:Type="String">ORDER_CENTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Central da Ordem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRANSIT_HUB06</Data></Cell>
+    <Cell><Data ss:Type="String">PARAGON_STATION</Data></Cell>
+    <Cell><Data ss:Type="String">Estação Paragon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRANSIT_HUB07</Data></Cell>
+    <Cell><Data ss:Type="String">VICTORY_STATION</Data></Cell>
+    <Cell><Data ss:Type="String">Estação Vitória</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRANSIT_HUB08</Data></Cell>
+    <Cell><Data ss:Type="String">LIGHTSPEED_CENTRAL_STATION</Data></Cell>
+    <Cell><Data ss:Type="String">Estação Central Lightspeed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRANSIT_HUB09</Data></Cell>
+    <Cell><Data ss:Type="String">HOLLUND_SPUR_STATION</Data></Cell>
+    <Cell><Data ss:Type="String">Estação Hollund Spur</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRANSIT_HUB10</Data></Cell>
+    <Cell><Data ss:Type="String">SCHANDE_STATION</Data></Cell>
+    <Cell><Data ss:Type="String">Estação Schande</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRANSIT_HUB11</Data></Cell>
+    <Cell><Data ss:Type="String">SCHANDE_TRANSIT</Data></Cell>
+    <Cell><Data ss:Type="String">Trânsito Schande</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRANSIT_HUB12</Data></Cell>
+    <Cell><Data ss:Type="String">THOLIAN_CENTRAL_STATION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Estação Central Tholiana</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tholian is a historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRANSIT_HUB13</Data></Cell>
+    <Cell><Data ss:Type="String">STAR_TRAVEL_TRANSIT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Trânsito Viagem Estelar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRANSIT_HUB14</Data></Cell>
+    <Cell><Data ss:Type="String">TRAILBLAZE_TRANSIT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Trânsito Trailblaze</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRANSIT_HUB15</Data></Cell>
+    <Cell><Data ss:Type="String">QUEEN_STATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Estação Rainha</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRANSIT_HUB16</Data></Cell>
+    <Cell><Data ss:Type="String">SAINT_STATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Estação Santo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRANSIT_HUB17</Data></Cell>
+    <Cell><Data ss:Type="String">HYPERSONIC_TRANSIT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Trânsito Hipersônico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRANSIT_HUB18</Data></Cell>
+    <Cell><Data ss:Type="String">MINE_STATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Estação Mina</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRANSIT_HUB19</Data></Cell>
+    <Cell><Data ss:Type="String">COMMUTE_STATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Estação Commutar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRANSIT_HUB20</Data></Cell>
+    <Cell><Data ss:Type="String">HAYDE_INTERSECTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Interseção Hayde</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:Index="205" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT01</Data></Cell>
+    <Cell><Data ss:Type="String">ADRIANS_FOLLY</Data></Cell>
+    <Cell><Data ss:Type="String">Loucura de Adrian</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Adrian is a historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT02</Data></Cell>
+    <Cell><Data ss:Type="String">THE_RECLAIMS</Data></Cell>
+    <Cell><Data ss:Type="String">As Reivindicações</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT03</Data></Cell>
+    <Cell><Data ss:Type="String">FLOODED_DOWNS</Data></Cell>
+    <Cell><Data ss:Type="String">Baixada Alagada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT04</Data></Cell>
+    <Cell><Data ss:Type="String">SUBMERGED_PRIDE</Data></Cell>
+    <Cell><Data ss:Type="String">Orgulho Submerso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT05</Data></Cell>
+    <Cell><Data ss:Type="String">DOWNUNDER</Data></Cell>
+    <Cell><Data ss:Type="String">Distrito Downunder</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT06</Data></Cell>
+    <Cell><Data ss:Type="String">HAMALANDEN</Data></Cell>
+    <Cell><Data ss:Type="String">Distrito Hamaland</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT07</Data></Cell>
+    <Cell><Data ss:Type="String">GEULDERS</Data></Cell>
+    <Cell><Data ss:Type="String">Distrito Geulders</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT08</Data></Cell>
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT</Data></Cell>
+    <Cell><Data ss:Type="String">O Distrito Afundado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT09</Data></Cell>
+    <Cell><Data ss:Type="String">FRISI_DISTRICT</Data></Cell>
+    <Cell><Data ss:Type="String">O Distrito Frísio</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT10</Data></Cell>
+    <Cell><Data ss:Type="String">THE_BLUE_DISTRICT</Data></Cell>
+    <Cell><Data ss:Type="String">O Distrito Azul</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT11</Data></Cell>
+    <Cell><Data ss:Type="String">FLUYT_DISTRICT</Data></Cell>
+    <Cell><Data ss:Type="String">Distrito Fluyt</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT12</Data></Cell>
+    <Cell><Data ss:Type="String">POOLS_OF_GIDEON</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Poços de Gideon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT13</Data></Cell>
+    <Cell><Data ss:Type="String">HAGGARD_DISTRICT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Distrito Esfarrapado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT14</Data></Cell>
+    <Cell><Data ss:Type="String">HOLLOW_DEEP_DISTRICT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Distrito Abismo Oco</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT15</Data></Cell>
+    <Cell><Data ss:Type="String">SALT_DEPTHS_DISTRICT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Distrito Profundezas Salgadas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT16</Data></Cell>
+    <Cell><Data ss:Type="String">SUBMARINE_DISTRICT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Distrito Submarino</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT17</Data></Cell>
+    <Cell><Data ss:Type="String">DRUNKARDS_DISTRICT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Distrito do Bêbado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT18</Data></Cell>
+    <Cell><Data ss:Type="String">DRENCHED_REMAINS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Restos Encharcados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT19</Data></Cell>
+    <Cell><Data ss:Type="String">DEEP_WRECKAGES</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Destroços Abissais</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT20</Data></Cell>
+    <Cell><Data ss:Type="String">UNDERSEA_DISTRICT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Distrito Subaquático</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT21</Data></Cell>
+    <Cell><Data ss:Type="String">SEACLAIMED_RUBBLE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Escombros Reivindicados pelo Mar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT22</Data></Cell>
+    <Cell><Data ss:Type="String">DROWNED_WASTES</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Ermos Afogados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT23</Data></Cell>
+    <Cell><Data ss:Type="String">GULF_DISTRICT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Distrito do Golfo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT24</Data></Cell>
+    <Cell><Data ss:Type="String">THE_WAVES_DISTRICT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Distrito das Ondas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT25</Data></Cell>
+    <Cell><Data ss:Type="String">SEA_LEVEL_DISTRICT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Distrito Nível do Mar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT26</Data></Cell>
+    <Cell><Data ss:Type="String">WATER_WEAVE_BOROUGH</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Bairro do Tecido Aquático</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT27</Data></Cell>
+    <Cell><Data ss:Type="String">OYSTER_DISTRICT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Distrito das Ostras</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT28</Data></Cell>
+    <Cell><Data ss:Type="String">AQUATIC_DISTRICT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Distrito Aquático</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT29</Data></Cell>
+    <Cell><Data ss:Type="String">THE_MOAT_DISTRICT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Distrito do Fosso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUNKEN_DISTRICT30</Data></Cell>
+    <Cell><Data ss:Type="String">WATER_DITCH_DISTRICT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Distrito da Valeta</Data></Cell>
+   </Row>
+   <Row ss:Index="236" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF01</Data></Cell>
+    <Cell><Data ss:Type="String">BARRIER_REEF</Data></Cell>
+    <Cell><Data ss:Type="String">Recife Barreira</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF02</Data></Cell>
+    <Cell><Data ss:Type="String">SEAWEED_REEF</Data></Cell>
+    <Cell><Data ss:Type="String">Recife de Algas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF03</Data></Cell>
+    <Cell><Data ss:Type="String">HARDSHELL_REEF</Data></Cell>
+    <Cell><Data ss:Type="String">Recife Casca-dura</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF04</Data></Cell>
+    <Cell><Data ss:Type="String">CARAPACE_REEF</Data></Cell>
+    <Cell><Data ss:Type="String">Recife Carapaça</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Carapace as in protective shell </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF05</Data></Cell>
+    <Cell><Data ss:Type="String">MATRIARCHS_PRIDE_REEF</Data></Cell>
+    <Cell><Data ss:Type="String">Recife Orgulho da Matriarca</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF06</Data></Cell>
+    <Cell><Data ss:Type="String">MAHELA_REEF</Data></Cell>
+    <Cell><Data ss:Type="String">Recife Mahela</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mahela is a female name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF07</Data></Cell>
+    <Cell><Data ss:Type="String">REBIRTH_REEF</Data></Cell>
+    <Cell><Data ss:Type="String">Recife Renascimento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF08</Data></Cell>
+    <Cell><Data ss:Type="String">MAHELAN_GULF</Data></Cell>
+    <Cell><Data ss:Type="String">Golfo Mahela</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mahela is a female name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF09</Data></Cell>
+    <Cell><Data ss:Type="String">CHELAN_REEF</Data></Cell>
+    <Cell><Data ss:Type="String">Recife Chelan</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF10</Data></Cell>
+    <Cell><Data ss:Type="String">BOUNTY_REEF</Data></Cell>
+    <Cell><Data ss:Type="String">Recife Abundância</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF11</Data></Cell>
+    <Cell><Data ss:Type="String">GIDEON_REEF</Data></Cell>
+    <Cell><Data ss:Type="String">Recife de Gideon</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Gideon is a historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">REEF12</Data></Cell>
+    <Cell><Data ss:Type="String">TRANQUIL_REEFS</Data></Cell>
+    <Cell><Data ss:Type="String">Recifes Serenos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF13</Data></Cell>
+    <Cell><Data ss:Type="String">CERULEAN_REEF</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Recife Cerúleo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cerulean is a shade of blue</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF14</Data></Cell>
+    <Cell><Data ss:Type="String">LIGHT_BLUE_REEF</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Recife Azul-claro</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF15</Data></Cell>
+    <Cell><Data ss:Type="String">SHARPSPIKES_REEF</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Recife Espigões</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF16</Data></Cell>
+    <Cell><Data ss:Type="String">JAGGED_REEF</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Recife Irregular</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF17</Data></Cell>
+    <Cell><Data ss:Type="String">STONESPLINTER_REEF</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Recife Lasca-pedra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF18</Data></Cell>
+    <Cell><Data ss:Type="String">GREAT_BLOCKAGE_REEF</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Recife Grande Bloqueio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF19</Data></Cell>
+    <Cell><Data ss:Type="String">MORNING_REEF</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Recife Matinal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF20</Data></Cell>
+    <Cell><Data ss:Type="String">MIDNIGHT_REEF</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Recife Meia-noite</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF21</Data></Cell>
+    <Cell><Data ss:Type="String">SHIPPERS_AGONY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Agonia do Carregador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF22</Data></Cell>
+    <Cell><Data ss:Type="String">SUBMARINE_SPIKES</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Espigões Submarinos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF23</Data></Cell>
+    <Cell><Data ss:Type="String">PICKLED_REEF</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Recife em Conserva</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF24</Data></Cell>
+    <Cell><Data ss:Type="String">SHARP_CORAL_REEF</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Recife de Coral Afiado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF25</Data></Cell>
+    <Cell><Data ss:Type="String">SHOAL_REEF</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Recife de Banco de Areia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF26</Data></Cell>
+    <Cell><Data ss:Type="String">SHALLOW_REEF</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Recife Raso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF27</Data></Cell>
+    <Cell><Data ss:Type="String">KAISER_REEF</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Recife Kaiser</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name (german for emperor)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF28</Data></Cell>
+    <Cell><Data ss:Type="String">BLUE_SPREAD_REEF</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Recife da Expansão Azul</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF29</Data></Cell>
+    <Cell><Data ss:Type="String">CRAB_REEF</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Recife dos Caranguejos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REEF30</Data></Cell>
+    <Cell><Data ss:Type="String">BATHA_REEF</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Recife Batha</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT01</Data></Cell>
+    <Cell><Data ss:Type="String">CERULEAN_SCAR</Data></Cell>
+    <Cell><Data ss:Type="String">Cicatriz Cerúlea</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT02</Data></Cell>
+    <Cell><Data ss:Type="String">AQUATIC_TEAR</Data></Cell>
+    <Cell><Data ss:Type="String">Lágrima Aquática</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT03</Data></Cell>
+    <Cell><Data ss:Type="String">DEEP_SEA_CRACK</Data></Cell>
+    <Cell><Data ss:Type="String">Fenda do Mar Profundo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT04</Data></Cell>
+    <Cell><Data ss:Type="String">ENDLESS_SINK</Data></Cell>
+    <Cell><Data ss:Type="String">Sumidouro sem Fim</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT05</Data></Cell>
+    <Cell><Data ss:Type="String">SLASH_OF_THE_OCEAN_DEITY</Data></Cell>
+    <Cell><Data ss:Type="String">Talho da Deidade Oceânica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT06</Data></Cell>
+    <Cell><Data ss:Type="String">CHELUS_CRACK</Data></Cell>
+    <Cell><Data ss:Type="String">Fenda Chelus</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Name of an in-game aquatic animal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT07</Data></Cell>
+    <Cell><Data ss:Type="String">REEF_OF_THE_SUNKEN_SAILOR</Data></Cell>
+    <Cell><Data ss:Type="String">Recife do Navegante Afundado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT08</Data></Cell>
+    <Cell><Data ss:Type="String">ABANDONED_BURST</Data></Cell>
+    <Cell><Data ss:Type="String">Erupção Abandonada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT09</Data></Cell>
+    <Cell><Data ss:Type="String">FORLORN_FISSURE</Data></Cell>
+    <Cell><Data ss:Type="String">Fissura Desolada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT10</Data></Cell>
+    <Cell><Data ss:Type="String">DIVERS_CREVICE</Data></Cell>
+    <Cell><Data ss:Type="String">Fenda do Mergulhador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT11</Data></Cell>
+    <Cell><Data ss:Type="String">NAUTILUS_TRAILBLAZE</Data></Cell>
+    <Cell><Data ss:Type="String">Trilha do Nautilus</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT12</Data></Cell>
+    <Cell><Data ss:Type="String">PLANETS_TEAR</Data></Cell>
+    <Cell><Data ss:Type="String">Lágrima do Planeta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT13</Data></Cell>
+    <Cell><Data ss:Type="String">OCEANS_FISSURE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Fissura Oceânica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT14</Data></Cell>
+    <Cell><Data ss:Type="String">ELEVENTH_BURST</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Décimo Primeiro Estouro</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT15</Data></Cell>
+    <Cell><Data ss:Type="String">RIFT_OF_ALAAR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Fenda de Alaar</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Alaar was a female historic figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT16</Data></Cell>
+    <Cell><Data ss:Type="String">SOUTH_SEA_RIFT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Fenda do Mar do Sul</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT17</Data></Cell>
+    <Cell><Data ss:Type="String">COASTAL_CRACK</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Fratura Costeira</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT18</Data></Cell>
+    <Cell><Data ss:Type="String">RESERVOIR_RIFT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Fenda do Reservatório</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT19</Data></Cell>
+    <Cell><Data ss:Type="String">ANCHORS_DRAG</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Arrasto da Âncora</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT20</Data></Cell>
+    <Cell><Data ss:Type="String">TRAIL_OF_THE_LOST_CAPTAIN</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Trilha do Capitão Perdido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT21</Data></Cell>
+    <Cell><Data ss:Type="String">TSUNAMIS_AWAKENING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Despertar do Tsunami</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT22</Data></Cell>
+    <Cell><Data ss:Type="String">VORTEX_STORM_DRAIN</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dreno da Tempestade Vortex</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT23</Data></Cell>
+    <Cell><Data ss:Type="String">TECTONIC_TREMOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Tremor Tectônico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT24</Data></Cell>
+    <Cell><Data ss:Type="String">OCEANS_TRENCHES</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Fossas Oceânicas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT25</Data></Cell>
+    <Cell><Data ss:Type="String">MIDNIGHT_CRACK</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Fratura da Meia-Noite</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT26</Data></Cell>
+    <Cell><Data ss:Type="String">TWILIGHT_TRENCHES</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Fossas do Crepúsculo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT27</Data></Cell>
+    <Cell><Data ss:Type="String">BLACK_HEART_CREVICE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Fenda do Coração Negro</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT28</Data></Cell>
+    <Cell><Data ss:Type="String">FALLEN_DAGGERS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Adagas Caídas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT29</Data></Cell>
+    <Cell><Data ss:Type="String">HAMMERSMASH_FISSURE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Fissura do Martelo Esmagador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECTONIC_RIFT30</Data></Cell>
+    <Cell><Data ss:Type="String">BROKEN_BURST</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Estouro Quebrado</Data></Cell>
+   </Row>
+   <Row ss:Index="298" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTALS01</Data></Cell>
+    <Cell><Data ss:Type="String">MINERALS_REMAINS</Data></Cell>
+    <Cell><Data ss:Type="String">Restos Minerais</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTALS02</Data></Cell>
+    <Cell><Data ss:Type="String">CHARGED_WASTE</Data></Cell>
+    <Cell><Data ss:Type="String">Resíduos Carregados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTALS03</Data></Cell>
+    <Cell><Data ss:Type="String">CONSORTIUMS_BANE</Data></Cell>
+    <Cell><Data ss:Type="String">Flagelo do Consórcio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTALS04</Data></Cell>
+    <Cell><Data ss:Type="String">FOREMANS_FORBIDDANCE</Data></Cell>
+    <Cell><Data ss:Type="String">Proibição do Encarregado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTALS05</Data></Cell>
+    <Cell><Data ss:Type="String">TIBERIUS_FIELD</Data></Cell>
+    <Cell><Data ss:Type="String">Campo de Tiberius</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTALS06</Data></Cell>
+    <Cell><Data ss:Type="String">MINERAL_NEST</Data></Cell>
+    <Cell><Data ss:Type="String">Ninho Mineral</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTALS07</Data></Cell>
+    <Cell><Data ss:Type="String">NEST_OF_STONE</Data></Cell>
+    <Cell><Data ss:Type="String">Ninho de Pedra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTALS08</Data></Cell>
+    <Cell><Data ss:Type="String">MOBIUS_DISCOVERY</Data></Cell>
+    <Cell><Data ss:Type="String">Descoberta de Mobius</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTALS09</Data></Cell>
+    <Cell><Data ss:Type="String">DVARNOS_PREY</Data></Cell>
+    <Cell><Data ss:Type="String">Presa de Dvarnos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTALS10</Data></Cell>
+    <Cell><Data ss:Type="String">ARKANOVS_VERMIN</Data></Cell>
+    <Cell><Data ss:Type="String">Praga de Arkanov</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTALS11</Data></Cell>
+    <Cell><Data ss:Type="String">SPARKLING_WASTE</Data></Cell>
+    <Cell><Data ss:Type="String">Resíduos Brilhantes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTALS12</Data></Cell>
+    <Cell><Data ss:Type="String">LIFE_STONE_MINES</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Minas de Pedra da Vida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTALS13</Data></Cell>
+    <Cell><Data ss:Type="String">RUTILE_FIELDS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Campos de Rutilo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTALS14</Data></Cell>
+    <Cell><Data ss:Type="String">GEMSTONE_SPRAWLS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Extensão de Pedras Preciosas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTALS15</Data></Cell>
+    <Cell><Data ss:Type="String">TECTONIC_CRAFTS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Artesanatos Tectônicos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTALS16</Data></Cell>
+    <Cell><Data ss:Type="String">MAGNETITE_VALLEY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Vale de Magnetita</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTALS17</Data></Cell>
+    <Cell><Data ss:Type="String">THE_CLOD_PADDOCK</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Curral de Torrões</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTALS18</Data></Cell>
+    <Cell><Data ss:Type="String">HUNKERING_SHARDS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Estilhaços Agachados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTALS19</Data></Cell>
+    <Cell><Data ss:Type="String">SPLIT_ROCK_FIELDS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Campos de Rocha Rachada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTALS20</Data></Cell>
+    <Cell><Data ss:Type="String">LIVING_WASTES</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Ermos Vivos</Data></Cell>
+   </Row>
+   <Row ss:Index="319" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_ARTIFACT01</Data></Cell>
+    <Cell><Data ss:Type="String">ECHO_OF_THE_PAST</Data></Cell>
+    <Cell><Data ss:Type="String">Eco do Passado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_ARTIFACT02</Data></Cell>
+    <Cell><Data ss:Type="String">RADIANT_DISCOVERY</Data></Cell>
+    <Cell><Data ss:Type="String">A Descoberta Radiante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_ARTIFACT03</Data></Cell>
+    <Cell><Data ss:Type="String">THE_DISTORTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Distorção</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_ARTIFACT04</Data></Cell>
+    <Cell><Data ss:Type="String">LIGHTS_REVELATION</Data></Cell>
+    <Cell><Data ss:Type="String">A Revelação da Luz</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_ARTIFACT05</Data></Cell>
+    <Cell><Data ss:Type="String">SUPERSTITIONS_END</Data></Cell>
+    <Cell><Data ss:Type="String">O Fim da Superstição</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_ARTIFACT06</Data></Cell>
+    <Cell><Data ss:Type="String">ORIONS_GIFT</Data></Cell>
+    <Cell><Data ss:Type="String">O Presente de Orion</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_ARTIFACT07</Data></Cell>
+    <Cell><Data ss:Type="String">PIGGLEFORTHS_DISCOVERY</Data></Cell>
+    <Cell><Data ss:Type="String">A Descoberta de Piggleforth</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_ARTIFACT08</Data></Cell>
+    <Cell><Data ss:Type="String">ADRIANS_BANE</Data></Cell>
+    <Cell><Data ss:Type="String">A Ruína de Adrian</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_ARTIFACT09</Data></Cell>
+    <Cell><Data ss:Type="String">FONT_OF_KNOWLEDGE</Data></Cell>
+    <Cell><Data ss:Type="String">Fonte do Conhecimento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_ARTIFACT10</Data></Cell>
+    <Cell><Data ss:Type="String">THE_PUPPETEER_ARTIFACT</Data></Cell>
+    <Cell><Data ss:Type="String">O Artefato Marionete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_ARTIFACT11</Data></Cell>
+    <Cell><Data ss:Type="String">THE_GLOWING_GIFT</Data></Cell>
+    <Cell><Data ss:Type="String">O Presente Brilhante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_ARTIFACT12</Data></Cell>
+    <Cell><Data ss:Type="String">STAR_FINDER_RELIQUARY</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Relicário do Localizador Estelar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_ARTIFACT13</Data></Cell>
+    <Cell><Data ss:Type="String">REMNANTS_OF_SERENITY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Vestígios da Serenidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_ARTIFACT14</Data></Cell>
+    <Cell><Data ss:Type="String">FATES_CONSECRATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Consagração do Destino</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">As in hallowed ground</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_ARTIFACT15</Data></Cell>
+    <Cell><Data ss:Type="String">SPIRITUAL_ECSTASY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Êxtase Espiritual</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_ARTIFACT16</Data></Cell>
+    <Cell><Data ss:Type="String">SPIRIT_OF_REVELATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Espírito da Revelação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_ARTIFACT17</Data></Cell>
+    <Cell><Data ss:Type="String">OASIS_OF_SOULS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Oásis das Almas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_ARTIFACT18</Data></Cell>
+    <Cell><Data ss:Type="String">ARTIFACT_OF_ASCENSION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Artefato da Ascensão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_ARTIFACT19</Data></Cell>
+    <Cell><Data ss:Type="String">PROPHETS_DESCENT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Descida do Profeta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_ARTIFACT20</Data></Cell>
+    <Cell><Data ss:Type="String">FIELD_OF_PILGRIMAGE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Campo de Peregrinação</Data></Cell>
+   </Row>
+   <Row ss:Index="340" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTORY_COMPLEX01</Data></Cell>
+    <Cell><Data ss:Type="String">ADRIANS_PRIDE</Data></Cell>
+    <Cell><Data ss:Type="String">Orgulho de Adrian</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTORY_COMPLEX02</Data></Cell>
+    <Cell><Data ss:Type="String">SMOKESTACK_JUNGLE</Data></Cell>
+    <Cell><Data ss:Type="String">Selva da Chaminé</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTORY_COMPLEX03</Data></Cell>
+    <Cell><Data ss:Type="String">CHOKING_STACKS</Data></Cell>
+    <Cell><Data ss:Type="String">As Chaminés Sufocantes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTORY_COMPLEX04</Data></Cell>
+    <Cell><Data ss:Type="String">UNION_ADVANCE</Data></Cell>
+    <Cell><Data ss:Type="String">Avanço da Union</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTORY_COMPLEX05</Data></Cell>
+    <Cell><Data ss:Type="String">UNION_FORGE</Data></Cell>
+    <Cell><Data ss:Type="String">Forja da Union</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTORY_COMPLEX06</Data></Cell>
+    <Cell><Data ss:Type="String">EXPANSION_COMPLEX</Data></Cell>
+    <Cell><Data ss:Type="String">Complexo de Expansão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTORY_COMPLEX07</Data></Cell>
+    <Cell><Data ss:Type="String">TIBERIUS_FACTORY_COMPLEX</Data></Cell>
+    <Cell><Data ss:Type="String">Complexo Industrial de Tiberius</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTORY_COMPLEX08</Data></Cell>
+    <Cell><Data ss:Type="String">ANTONIUS_EXPANSION</Data></Cell>
+    <Cell><Data ss:Type="String">Expansão de Antonius</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTORY_COMPLEX09</Data></Cell>
+    <Cell><Data ss:Type="String">ARKANOVS_LESSON</Data></Cell>
+    <Cell><Data ss:Type="String">Lição de Arkanov</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Historic male figure</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTORY_COMPLEX10</Data></Cell>
+    <Cell><Data ss:Type="String">SCHANDE_DISTRICT</Data></Cell>
+    <Cell><Data ss:Type="String">Distrito Schande</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTORY_COMPLEX11</Data></Cell>
+    <Cell><Data ss:Type="String">ARTISAN_FORGES</Data></Cell>
+    <Cell><Data ss:Type="String">Forjas dos Artesãos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTORY_COMPLEX12</Data></Cell>
+    <Cell><Data ss:Type="String">CAPITALISM_COMPLEX</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Complexo Capitalista</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTORY_COMPLEX13</Data></Cell>
+    <Cell><Data ss:Type="String">CONCRETE_PROCESSION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Procissão de Concreto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTORY_COMPLEX14</Data></Cell>
+    <Cell><Data ss:Type="String">UNION_COMPLEX</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Complexo da Union</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTORY_COMPLEX15</Data></Cell>
+    <Cell><Data ss:Type="String">SMOG_DISTRUCT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Distrito da Névoa Tóxica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTORY_COMPLEX16</Data></Cell>
+    <Cell><Data ss:Type="String">BREWKERNE_COMPLEX</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Complexo Brewkerne</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Custom fantasy name, relating to brewing</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTORY_COMPLEX17</Data></Cell>
+    <Cell><Data ss:Type="String">PROCESSING_PLANTS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Usinas de Processamento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTORY_COMPLEX18</Data></Cell>
+    <Cell><Data ss:Type="String">THE_SMOG_PIPES</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Os Tubos de Névoa Tóxica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTORY_COMPLEX19</Data></Cell>
+    <Cell><Data ss:Type="String">STEELWORKS_DISTRICT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Distrito das Siderúrgicas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FACTORY_COMPLEX20</Data></Cell>
+    <Cell><Data ss:Type="String">PROGRESS_PLANTS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Usinas do Progresso</Data></Cell>
+   </Row>
+   <Row ss:Index="361" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID01</Data></Cell>
+    <Cell><Data ss:Type="String">THE_NOTHING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">O Nada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID02</Data></Cell>
+    <Cell><Data ss:Type="String">THE_EMPTINESS</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">O Vazio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID03</Data></Cell>
+    <Cell><Data ss:Type="String">ABYSS_OF_DARKNESS</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Abismo das Trevas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID04</Data></Cell>
+    <Cell><Data ss:Type="String">THE_GREAT_DARK</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">A Grande Escuridão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID05</Data></Cell>
+    <Cell><Data ss:Type="String">BLANK_SPACE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Espaço Vazio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID06</Data></Cell>
+    <Cell><Data ss:Type="String">PIT_OF_ANULLMENT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Fosso da Anulação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID07</Data></Cell>
+    <Cell><Data ss:Type="String">BLEAK_EMPTINESS</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Vazio Sombrio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID08</Data></Cell>
+    <Cell><Data ss:Type="String">THE_VOID</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">O Vácuo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID09</Data></Cell>
+    <Cell><Data ss:Type="String">THE_GAP</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">O Hiato</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID10</Data></Cell>
+    <Cell><Data ss:Type="String">NULL_SPACE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Espaço Nulo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID11</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">LINGERING EMPTY</Data></Cell>
+    <Cell><Data ss:Type="String">Vazio Persistente</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID12</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">FORGOTTEN LANDS</Data></Cell>
+    <Cell><Data ss:Type="String">Terras Esquecidas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID13</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">GREAT EMPTY</Data></Cell>
+    <Cell><Data ss:Type="String">Grande Vazio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID14</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">HUSK LANDS</Data></Cell>
+    <Cell><Data ss:Type="String">Terras de Casca</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID15</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">UNENDING DESOLATION</Data></Cell>
+    <Cell><Data ss:Type="String">Desolação Eterna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID16</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">VACATED ZONE</Data></Cell>
+    <Cell><Data ss:Type="String">Zona Abandonada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID17</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ABANDONED DISTRICT</Data></Cell>
+    <Cell><Data ss:Type="String">Distrito Abandonado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID18</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">EXHAUSTED EXPANSE</Data></Cell>
+    <Cell><Data ss:Type="String">Espanção Esgotada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID19</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">THE MAW</Data></Cell>
+    <Cell><Data ss:Type="String">A Goela</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID20</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ETERNAL WASTE</Data></Cell>
+    <Cell><Data ss:Type="String">Ermo Eterno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID21</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">GREAT EMPTY</Data></Cell>
+    <Cell><Data ss:Type="String">Grande Vazio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID22</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DESPOILED REALM</Data></Cell>
+    <Cell><Data ss:Type="String">Domínio Devastado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID23</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DESOLATE ZONE</Data></Cell>
+    <Cell><Data ss:Type="String">Zona Desolada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID24</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DESOLATE WASTES</Data></Cell>
+    <Cell><Data ss:Type="String">Ermos Desolados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID25</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">THE HOLLOWED</Data></Cell>
+    <Cell><Data ss:Type="String">Os Esvaziados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID26</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">HAUNTED EXPANSE</Data></Cell>
+    <Cell><Data ss:Type="String">Extensão Assombrada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID27</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">UNENDING EMPTY</Data></Cell>
+    <Cell><Data ss:Type="String">Vazio Infindável</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID28</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DEPLETED QUARTER</Data></Cell>
+    <Cell><Data ss:Type="String">Quadrante Esgotado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID29</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">THE FORLORN</Data></Cell>
+    <Cell><Data ss:Type="String">Os Abandonados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID30</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">THE FORSAKEN</Data></Cell>
+    <Cell><Data ss:Type="String">Os Renegados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID31</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DESTROYED LANDS</Data></Cell>
+    <Cell><Data ss:Type="String">Terras Devastadas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID32</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">RUINED EXPANSE</Data></Cell>
+    <Cell><Data ss:Type="String">Extensão Arruinada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID33</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">THE UNFATHOMABLE</Data></Cell>
+    <Cell><Data ss:Type="String">O Insondável</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID34</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ILL-FATED SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">Setor Amaldiçoado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID35</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">LANDLESS LAND</Data></Cell>
+    <Cell><Data ss:Type="String">Terra Sem Terra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID36</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">THE DAMNED DISTRICT</Data></Cell>
+    <Cell><Data ss:Type="String">Distrito Maldito</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID37</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">BEDEVILED ZONE</Data></Cell>
+    <Cell><Data ss:Type="String">Zona Atormentada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID38</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">THE FOREORDAINED</Data></Cell>
+    <Cell><Data ss:Type="String">Os Predestinados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID39</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">EVER LOST LANDS</Data></Cell>
+    <Cell><Data ss:Type="String">Terras Eternamente Perdidas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID40</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">IRREPARABLY IRED</Data></Cell>
+    <Cell><Data ss:Type="String">Irremediavelmente Irado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID41</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">FORSAKEN EXPANSE</Data></Cell>
+    <Cell><Data ss:Type="String">Expansão Abandonada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID42</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">THE DESOLATED</Data></Cell>
+    <Cell><Data ss:Type="String">Os Desolados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID43</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">RUINED DOMAIN</Data></Cell>
+    <Cell><Data ss:Type="String">Domínio Arruinado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID44</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">THE CHASM</Data></Cell>
+    <Cell><Data ss:Type="String">O Abismo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID45</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">REALM OF THE DEAD</Data></Cell>
+    <Cell><Data ss:Type="String">Reino dos Mortos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID46</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">THE FORGOTTEN WASTES</Data></Cell>
+    <Cell><Data ss:Type="String">Os Ermos Esquecidos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID47</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">DEPARTED WASTES</Data></Cell>
+    <Cell><Data ss:Type="String">Ermos dos Falecidos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID48</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CURSED LANDS</Data></Cell>
+    <Cell><Data ss:Type="String">Terras Amaldiçoadas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID49</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CURSED WASTES</Data></Cell>
+    <Cell><Data ss:Type="String">Ermos Amaldiçoados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID50</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CURSED EXPANSE</Data></Cell>
+    <Cell><Data ss:Type="String">Expansão Amaldiçoada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID51</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">BIRTH OF DARKNESS</Data></Cell>
+    <Cell><Data ss:Type="String">Nascimento das Trevas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID52</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">THE RAZED SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">Setor Devastado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID53</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">THE NULIFIED</Data></Cell>
+    <Cell><Data ss:Type="String">Os Anulados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID54</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">VAPORIZED SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">Setor Vaporizado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID55</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">VAPORIZED EXPANSE</Data></Cell>
+    <Cell><Data ss:Type="String">Expansão Vaporizada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID56</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">ANNIHILATED REALM</Data></Cell>
+    <Cell><Data ss:Type="String">Reino Aniquilado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID57</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">FORGOTTEN REGION</Data></Cell>
+    <Cell><Data ss:Type="String">Região Esquecida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID58</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">THE OVERWHELMED EMPTY</Data></Cell>
+    <Cell><Data ss:Type="String">O Vazio Dominado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID59</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">THE EXTINGUISHED</Data></Cell>
+    <Cell><Data ss:Type="String">Os Extintos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VOID60</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">THE HUNGERING VOID</Data></Cell>
+    <Cell><Data ss:Type="String">O Vazio Voraz</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>130</Zoom>
+   <Selected/>
+   <TopRowVisible>392</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>422</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,385 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Luis Ferreira</LastAuthor>
+  <LastSaved>2019-03-07T13:17:29Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17235</WindowHeight>
+  <WindowWidth>-27136</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="64" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="149.25" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="180.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="191.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="247.5"/>
+   <Column ss:Index="5" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="318.75"/>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">ASSEMBLYCYBERNETICS_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ASSEMBLY_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">GROUP_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+   </Row>
+   <Row ss:Index="8">
+    <Cell><Data ss:Type="String">SIGNAL_SHREDDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Despedaçamento de Sinal</Data></Cell>
+   </Row>
+   <Row ss:Height="120">
+    <Cell><Data ss:Type="String">SIGNAL_SHREDDING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Envie um pulso de energia disruptiva através de uma unidade Mecânica ou Ciborgue inimiga alvo. O Despedaçamento de Sinal tem uma força {ApplyStrength}[StrengthWave/] de chance de aplicar [abilityred]Atordoado[/abilityred] por {SignalTurn}[turn/]. Se o atordoamento falhar, a unidade recebe [abilityred]Impacto Massivo[/abilityred] em vez disso, podendo derrubá-la.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SYSTEM_PURGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Purga de Sistema Remoto</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">SYSTEM_PURGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Às vezes é necessário reiniciar um computador à força, e Ciborgues não são exceção. Remove todos os Efeitos de Status negativos de uma unidade Ciborgue aliada alvo. O efeito pode então saltar para {numTargets} alvos aliados adicionais dentro de {hexDistance} hexes.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LINEAR_ACCELERATOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Acelerador Linear</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">LINEAR_ACCELERATOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Supercarregue uma unidade Mecânica ou Ciborgue alvo, restaurando todos os seus pontos de ação[movewalk/]. Unidades podem ser supercarregadas apenas uma vez por turno.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LINEAR_ACCELERATOR</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_EFFECT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Acelerado</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">LINEAR_ACCELERATOR</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade foi Acelerada e teve seus pontos de ação restaurados. Esta unidade não pode ser Acelerada novamente durante este combate, ou enquanto tiver este efeito de status.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DEPLOY_CONSTRICTOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Implantar Constritor</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">DEPLOY_CONSTRICTOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Invoca um Constritor no hex alvo durante o combate. A unidade invocada dura até o fim do combate.[br/]O Constritor é uma unidade Corpo a Corpo com habilidades incapacitantes fortes que podem desativar outras unidades e então causar dano tremendo.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ADHESIVE_ARTILLERY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Artilharia Adesiva</Data></Cell>
+   </Row>
+   <Row ss:Height="120">
+    <Cell><Data ss:Type="String">ADHESIVE_ARTILLERY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara projéteis contendo adesivo na área alvo que explodem pouco antes do impacto e cobrem um raio de {ArtilleryRadius} hexes em uma espuma Bioquímica adesiva, causando {bioDamage}[DamageBio/] de dano, com uma chance de força {SlowChance}[StrengthPhysical/] de [abilityred]Desacelerar[/abilityred] as unidades afetadas por {ArtillerySlowTurns}[turn/].</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TEMPORAL_DISRUPTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Disrupção Temporal</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">TEMPORAL_DISRUPTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Desativa {amount} mod de unidade em todas as unidades inimigas por {time}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:Index="23">
+    <Cell><Data ss:Type="String">REPROCESS_COLONIST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reprocessar Colono</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">REPROCESS_COLONIST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Reprocesse um de seus colonos para impulsionar temporariamente suas instalações de produção. Remove {ReprocessColonist}[population/] e fornece um aumento de {ReprocessProductionBoost}[production/]. Este efeito dura por {ReprocessTurns}[turn/].</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REPROCESS_COLONIST</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{ReprocessProductionBoost}[production/] por {ReprocessTurns}[turn/].</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">REPROCESS_COLONIST</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Seus coletores entregaram com sucesso os materiais necessários para a reapropriação às suas instalações de produção, aumentando substancialmente sua produção.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SAMPLE_COLLECTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Coleta de Amostras</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">SAMPLE_COLLECTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Nanitas da Assembly atacam o exército-alvo, recuperando amostras valiosas. Danificam todas as unidades do exército-alvo em {Damage} de seu [hp/] atual, reduzem todas as suas resistências em {WeaknessAll} neste turno e fornecem {ResearchAmount} para cada unidade danificada desta forma.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SAMPLE_COLLECTION</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades sofrem {DmagaePercentage} de dano.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">SAMPLE_COLLECTION</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION_PROPERTY</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades sofrem {WeaknessAll} de resistência a todo dano por {duration}.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SAMPLE_COLLECTION</Data></Cell>
+    <Cell><Data ss:Type="String">FAILURE_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">Em caso de falha, todas as unidades sofrem {Damage} em vez disso.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">SAMPLE_COLLECTION</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Seus nanitas recuperaram com sucesso várias amostras do exército inimigo. Elas devem fornecer aos seus cientistas muitos novos insights enquanto o inimigo se recupera dos ferimentos.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">SAMPLE_COLLECTION</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAIL</Data></Cell>
+    <Cell><Data ss:Type="String">Seus nanitas enfrentaram forte resistência. Embora não tenham conseguido recuperar amostras, conseguiram danificar seus alvos.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">SAMPLE_COLLECTION</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Nanitas vis da Assembly atacaram suas tropas e arrancaram amostras direto de seus ossos. Nossas forças sofreram danos, e os cientistas deles obtiveram informações sobre nossas unidades.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">SAMPLE_COLLECTION</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAIL</Data></Cell>
+    <Cell><Data ss:Type="String">Nanitas vis da Assembly atacaram suas tropas e as danificaram, mas seus soldados liquidaram as pestes antes que elas pudessem recuperar amostras.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ION_INSTABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tempestade de Íons</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">ION_INSTABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao extrair eletricidade estática do ar e canalizá-la para uma pequena área-alvo, podemos liberar uma poderosa [abilityred]Tempestade de Íons[/abilityred], que reduz a renda econômica e enfraquece quaisquer unidades no setor. Todas as unidades Mecânicas no setor-alvo perdem todo o seu [movewalk/].</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ION_INSTABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades Mecânicas perdem todo o [movewalk/].</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">ION_INSTABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">FAILURE_EVENT</Data></Cell>
+    <Cell><Data ss:Type="String">Em caso de falha, todas as unidades Mecânicas no setor-alvo perdem todo o seu [movewalk/], mas não são enfraquecidas.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">ION_INSTABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Conseguimos invocar com sucesso uma Tempestade de Íons no setor-alvo, tornando a área inútil para exploração e causando mau funcionamento em todas as unidades Mecânicas.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">ION_INSTABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAIL</Data></Cell>
+    <Cell><Data ss:Type="String">O sistema defensivo no setor-alvo nos impediu de criar a Tempestade de Íons, mas as unidades Mecânicas dentro do setor-alvo ainda foram afetadas.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">ION_INSTABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Uma enorme descarga elétrica fez nossas unidades Mecânicas falharem no campo, e a Tempestade de Íons resultante tornou o setor inútil!</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">ION_INSTABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAIL</Data></Cell>
+    <Cell><Data ss:Type="String">Uma descarga elétrica foi iniciada em um setor! Nossas defesas conseguiram evitar que ela causasse muito dano, mas ainda assim paralisou nossas unidades Mecânicas.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IONIC_OVERDRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sobrecarga Iônica</Data></Cell>
+   </Row>
+   <Row ss:Height="120">
+    <Cell><Data ss:Type="String">IONIC_OVERDRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Canaliza energia iônica bruta para um exército aliado-alvo. Todas as unidades Ciborgues perdem {damage}[hp/] e ganham [abilityblue]Sobrecarga Iônica[/abilityblue] por {duration}. A Sobrecarga Iônica concede às unidades [abilityBlue]Velocidade de Movimento Rápida[/abilityBlue], faz com que seus ataques corpo a corpo [abilityRed]Atordoem[/abilityRed] os alvos e causem {damageBonusPercentage} dano extra.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IONIC_OVERDRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades Ciborgues sofrem {damagePercentage} de dano.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">IONIC_OVERDRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION_PROPERTY</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades Ciborgues ganham [abilityBlue]Sobrecarga Iônica[/abilityBlue] por {duration}.</Data></Cell>
+   </Row>
+   <Row ss:Height="60">
+    <Cell><Data ss:Type="String">IONIC_OVERDRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Nós energizamos com sucesso os ciborgues no exército alvo. Houve algumas pequenas explosões e danos menores, mas as tropas agora estão prontas, tremendo com poder iônico!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IONIC_OVERDRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sobrecarga Iônica</Data></Cell>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">IONIC_OVERDRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem [abilityBlue]Velocidade de Movimento Rápida[/abilityBlue], e seus ataques corpo a corpo causam {damageBonusPercentage} dano extra e têm {Chance} de chance de [abilityRed]Atordoar[/abilityRed] os alvos.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IONIC_OVERDRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{DamageIncrease} de dano</Data></Cell>
+   </Row>
+   <Row ss:Index="53">
+    <Cell><Data ss:Type="String">BATTLEFIELD_AUTOPSIES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Autópsias de Campo de Batalha</Data></Cell>
+   </Row>
+   <Row ss:Height="105">
+    <Cell><Data ss:Type="String">BATTLEFIELD_AUTOPSIES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Assembly vasculha os corpos dos mortos, examinando cada porca, parafuso e órgão para suas pesquisas sinistras.[br/][br/]Após vencer um Combate Tático, ganhe {ResearchAmount}[research/] para cada unidade inimiga morta, multiplicado pelo seu nível.[br/][br/]{HeroResearch}[research/] é obtido de cada comandante e herói inimigo derrotado.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCAVENGERS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Catadores</Data></Cell>
+   </Row>
+   <Row ss:Height="45">
+    <Cell><Data ss:Type="String">SCAVENGERS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Assembly consegue ver utilidade em coisas que outros descartariam.[br/][br/]As recompensas por limpar Estruturas no Mapa Mundial são aumentadas.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AUGMENTATIVE_MASTERY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sociedade Aumentativa</Data></Cell>
+   </Row>
+   <Row ss:Height="90">
+    <Cell><Data ss:Type="String">AUGMENTATIVE_MASTERY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Fazendo parte dos Reassemblados, aceitamos o fato de aprimorar nossos corpos e aumentá-los continuamente. Como resultado desse aprimoramento contínuo, podemos fazê-lo sem qualquer repercussão.[br/][br/]Modificar unidades em campo não aplica mais o debuff Modificado.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CONNECTED_SOCIETY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sociedade Conectada</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Height="75">
+    <Cell><Data ss:Type="String">CONNECTED_SOCIETY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Conecte-se aos cérebros de seus colonos para pegar emprestado poder de processamento ocioso. Eles provavelmente não estão usando mesmo...[br/][br/]Todos os Colonos fornecem {ResearchProduced}[research/], mas nossas Colônias sofrem {HappinesLost}[anger/].</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THE_GREAT_HARVEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">A Grande Colheita</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Height="135">
+    <Cell><Data ss:Type="String">THE_GREAT_HARVEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Nossa maestria em reassemblagem se aproxima da conclusão. Nada é desperdiçado; tudo tem um propósito.[br/][br/]Após vencer um Combate Tático, ganhe {FoodAmount}[food/] e {ProductionAmount}[production/] para cada unidade inimiga morta, multiplicado pelo seu nível.[br/][br/]{HeroFood}[food/] e {HeroProduction}[production/] é obtido de cada comandante e herói inimigo derrotado.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RECYCLE_OF_LIFE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reciclo da Vida</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Height="120">
+    <Cell><Data ss:Type="String">RECYCLE_OF_LIFE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Saber que nossas tropas podem ser montadas repetidamente após sua destruição aumenta sua disposição para continuar lutando, já que seu fim lhes escapa.[br/][br/]Suas unidades Ciborgues ganham {MoraleIncrease}[happiness/].[br/]Após vencer um Combate Tático, ganhe {EnergyAmount}[energy/] para cada unidade Ciborgue aliada morta, multiplicado pelo seu nível.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>46</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>53</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,1662 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Bas Staffhorst</Author>
+  <LastAuthor>KyleB</LastAuthor>
+  <Created>2018-10-11T14:16:57Z</Created>
+  <LastSaved>2019-02-12T15:49:23Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8880</WindowHeight>
+  <WindowWidth>23565</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#FF0000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="283" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="204.75"/>
+   <Column ss:StyleID="s62" ss:Width="200.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="331.5"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="209.25"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">STATUSEFFECTS_UNITPROPERTIES</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ARC_TYPE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Arco</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">BIOCHEMICAL_TYPE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Bioquímico</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">KINETIC_TYPE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Cinético</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">THERMAL_TYPE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Térmico</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PSIONICS_TYPE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Psiônico</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ARC_EMP</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">EMP</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ARC_EMP</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">[abilityred]Atordoa[/abilityred] todas as unidades Mecânicas, exceto as resistentes.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ARC_EMP</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MODIFIER_STACK_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">[abilityred]Atordoa[/abilityred] todas as unidades Mecânicas, exceto as imunes.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ARC_STATIC_CHARGE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Carga Estática</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ARC_STATIC_CHARGE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Aplica uma pilha de [abilityred]Carga Estática[/abilityred] por {StaticTurns}[turn/].</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ARC_STATIC_CHARGE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Esta unidade tem -{ArcStaticWaveResistance}[DefenseWave/] por pilha.[br/]Pode acumular até {StackAmount} vezes.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ARC_STATIC_CHARGE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">{StaticChance} de chance de força para aplicar [abilityred]Carga Estática[/abilityred] em unidades por {durationStaticCharge}[turn/].</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">STUNNED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Atordoamento</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Stun as in to paralyze or render senseless.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">STUNNED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Esta unidade não pode se mover ou usar ações.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">STUNNED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">STATUS_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Atordoada</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">STUNNED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">{StunChance} de chance de força para aplicar [abilityred]Atordoada[/abilityred] em unidades não Etéreas por {durationStun}[turn/]. Se resistir, aplica [abilityred]Carga Estática[/abilityred] por {chargeTurns}[turn/] em vez disso.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PSIONICS_INSANITY</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Insanidade</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PSIONICS_INSANITY</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">{InsanityChance}[StrengthPsyche/] de chance de força para aplicar [abilityred]Insanidade[/abilityred] em unidades não Insensíveis por {durationInsanity}[turn/]. Se resistir, aplica [abilityred]Mente Quebrada[/abilityred] em vez disso.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PSIONICS_INSANITY</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Esta unidade atacará unidades aleatoriamente.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PSIONICS_BROKEN_MIND</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mente Quebrada</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">As in left disoriented and in delusion.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PSIONICS_BROKEN_MIND</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">{BrokenMindChance}[StrengthPsyche/] de chance de força para aplicar [abilityred]Mente Quebrada[/abilityred] a unidades não-Inconscientes por {durationBrokenMind}[turn/]</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PSIONICS_BROKEN_MIND</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Esta unidade tem -{BrokenMindResistance}[DefensePsyche/] e -{BrokenMindMorale} por pilha.[br/]Pode acumular até {StackAmount} vezes.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PSIONICS_CATATONIC</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Catatônico</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PSIONICS_CATATONIC</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">{CatatonicChance}[StrengthPsyche/] de chance de força para aplicar [abilityred]Catatônico[/abilityred] a unidades não-Inconscientes por {durationCatatonic}[turn/]. Se resistir, aplica [abilityred]Mente Quebrada[/abilityred] em vez disso.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PSIONICS_CATATONIC</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Esta unidade não pode usar nenhuma habilidade.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PSIONICS_MIND_CONTROL</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Controle Mental</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PSIONICS_MIND_CONTROL</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">{MindControlChance}[StrengthPsyche/] de chance de força para [abilityred]Controlar Mentalmente[/abilityred]. Se bem-sucedido, a unidade ficará sob seu controle. Se resistir, aplica [abilityred]Mente Quebrada[/abilityred] em vez disso.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">"Your" is towards the player. This can be either male or female.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PSIONICS_MIND_CONTROL</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Esta unidade foi Controlada Mentalmente.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PSIONICS_BASIC_PANIC</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Pânico</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PSIONICS_BASIC_PANIC</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">{PanicChance}[StrengthPsyche/] de chance de força para aplicar [abilityred]Pânico[/abilityred] a unidades não-Inconscientes por {durationPanic}[turn/].</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PSIONICS_PANIC</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Pânico</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PSIONICS_PANIC</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">{PanicChance}[StrengthPsyche/] de chance de força para aplicar [abilityred]Pânico[/abilityred] a unidades não-Inconscientes por {durationPanic}[turn/]. Se resistir, aplica [abilityred]Mente Quebrada[/abilityred] em vez disso.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">KINETIC_PANIC</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">{PanicChance}[StrengthPsyche/] de chance de força para aplicar [abilityred]Pânico[/abilityred] a unidades não-Inconscientes por {durationPanic}[turn/]. Se resistir, aplica [abilityred]Atordoamento[/abilityred] em vez disso.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PSIONICS_PANIC</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Esta unidade está em fuga e não pode ser controlada.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">KINETIC_CONCUSSION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Concussão</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">KINETIC_CONCUSSION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">{ConcussionChance}[StrengthPhysical/] de chance de força para aplicar [abilityred]Concussão[/abilityred] a unidades não-Etéreas ou não-Mecânicas por {durartionConcussion}[turn/]. Se resistir, causa [abilityred]Impacto Massivo[/abilityred] em vez disso.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">KINETIC_CONCUSSION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MODIFIER_NOSTAGGER_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">{ConcussionChance}[StrengthPhysical/] de chance de força para aplicar [abilityred]Concussão[/abilityred] a unidades não-Etéreas ou não-Mecânicas por {durartionConcussion}[turn/].</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">KINETIC_CONCUSSION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade não pode usar ações ou movimento.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">KINETIC_BLEEDING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Sangramento</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">KINETIC_BLEEDING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">{BleedingChance}[StrengthPhysical/] de chance de força para aplicar [abilityred]Sangramento[/abilityred] a alvos Biológicos ou Ciborgues por {durationBleeding}[turn/]</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">KINETIC_BLEEDING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Esta unidade está Sangrando, ela tem -{KineticResistanceDown}[damagePhysical/] de resistência e sofre {BleedingDamage}[damagephysical/] de dano a cada [turn/]</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">THERMAL_SHIELDS_OVERHEAT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Superaquecimento de Escudos</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">THERMAL_SHIELDS_OVERHEAT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">{ShieldOverheatChance}[StrengthThermal/] para aplicar [abilityred]Superaquecimento de Escudos[/abilityred] até o fim do combate.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">THERMAL_SHIELDS_OVERHEAT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MODIFIER_DESCRIPTION_NO_CHANCE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Destrói {amount}[shield/] por acerto.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">THERMAL_BURNING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Incendiária</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">THERMAL_BURNING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">{BurningChance}[StrengthThermal/] de chance de força para aplicar [abilityRed]Queimadura[/abilityRed] em alvos não Etéreos e não Minerais por {durationBurning}[turn/].</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">THERMAL_BURNING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MOD_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Queimadura</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">THERMAL_BURNING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Esta unidade sofre {BurningDamage} por [turn/] e é {EvasionReduction}% mais fácil de acertar.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">THERMAL_BLIND</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Cegueira</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">THERMAL_BLIND</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">{BlindChance}[StrengthPhysical/] de chance de força para aplicar [abilityRed]Cegueira[/abilityRed] em alvos não Etéreos por {durationBlind}[turn/].</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">THERMAL_BLIND</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">STATUS_EFFECT_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Cegueira</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">THERMAL_BLIND</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">A precisão desta unidade é reduzida em {BlindAccuracyReduce} e ela não pode usar Vigilância.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">THERMAL_BLIND</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">STATUS_EFFECT_MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">{BlindAccuracyReduce} a menos de precisão.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ARMOR_PENETRATION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Penetração de Armadura</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ARMOR_PENETRATION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Ignora {ArmorPenetrationIgnore}</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MASSIVE_ARMOR_PENETRATION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Penetração de Armadura Massiva</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MASSIVE_ARMOR_PENETRATION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Ignora {ArmorPenetrationIgnore}</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MASSIVE_DEFENSE_PENETRATION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Ignorar Defesa Massiva</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MASSIVE_DEFENSE_PENETRATION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Ignora {DefensePenetrationIgnoreArmor} e {DefensePenetrationIgnoreShields}</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">THERMAL_CHARRED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Carbonizado</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">THERMAL_CHARRED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">{CharredChance}[StrengthThermal/] de chance de força para aplicar [abilityred]Carbonizado[/abilityred] a alvos não Etéreos, não Minerais e não Mecânicos por {durationIrradiation}[turn/].</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">THERMAL_CHARRED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Esta unidade tem -{CharredResistance} por pilha.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">THERMAL_IMMOLATED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Imolação</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">THERMAL_IMMOLATED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MOD_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Imolado</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">THERMAL_IMMOLATED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">{ImmolateChance}[StrengthThermal/] de chance de força para aplicar [abilityred]Imolado[/abilityred] a alvos não Minerais ou não Etéreos por {durationImmolated}[turn/].</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">THERMAL_IMMOLATED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Esta unidade está sofrendo {ImmolateDamage}[thermal/] de dano por [turn/] e está {EvasionReduction}% mais fácil de acertar.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:Index="71" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_ARMOR_MELT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Derretimento de Armadura</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_ARMOR_MELT</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION_NO_CHANCE</Data></Cell>
+    <Cell><Data ss:Type="String">Destroi {amount}[armor/] por acerto.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_POISON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Veneno</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_POISON</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Envenenado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_POISON</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{PoisonChance}[StrengthBio/] de chance de força para aplicar [abilityred]Veneno[/abilityred] a alvos Biológicos ou Ciborgues por {durationPoison}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_POISON</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade está sofrendo {PoisonDamage} por [turn/] e tem -{NegativeMorale}[anger/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_SLOW</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lentidão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_SLOW</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{SlowChance}[StrengthPhysical/] de chance de força para aplicar [abilityred]Lentidão[/abilityred] a unidades não Etéreas por {durationSlow}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_SLOW</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os pontos de movimento desta unidade são reduzidos para a velocidade de movimento [abilityred]Mais Lenta[/abilityred], com 16[movewalk/] e 1 hex para correr.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_DEBILITATING_INFECTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Infecção Debilitante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_DEBILITATING_INFECTION</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{DebilitatingChance}[StrengthBio/] de chance de força para aplicar [abilityred]Infecção Debilitante[/abilityred] a alvos Biológicos e Ciborgues por {durationDebilitating}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_DEBILITATING_INFECTION</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está {DebilitatingAccuracyDebuff}% mais fácil de acertar e tem {DebilitatingMoraleDebuff}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_PARASITIC_INFECTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Infecção Parasitária</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_PARASITIC_INFECTION</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{ParasiticChance}[StrengthBio/] de chance de força para aplicar [abilityred]Infecção Parasitária[/abilityred] a unidades Biológicas e Ciborgues até o fim do combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_PARASITIC_INFECTION</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade possui {ParasiticMoraleDebuff} e -{ParasiticBioResistance} de resistência a dano.[br/]Após o combate, esta unidade pode se transformar em uma unidade Xenoplague se quem a infectou tiver a tecnologia Xenoplague apropriada desbloqueada.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_BLIGHTED_PLAGUE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Corrompido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_BLIGHTED_PLAGUE</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{BlightedChance}[StrengthBio/]% de chance de força para aplicar [abilityred]Corrompido[/abilityred] a alvos Biológicos e Ciborgues por {durationBlight}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_BLIGHTED_PLAGUE</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem -{BlightedMoralePenalty}, -{BlightedAccuracyReduction}% de precisão nos ataques e sofre {BlightedDamagePerTurn}[DamageBio/] por [turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_BLIGHTED_PLAGUE</Data></Cell>
+    <Cell><Data ss:Type="String">DEBUFF_MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{BlightedAccuracyReduction} de precisão reduzida.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_DEMOLISHER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Demolidor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERAL_DEMOLISHER</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{DemolisherDamage} de dano adicional a obstáculos. Pode destruir obstáculos fortificados.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_JUGGERNAUGHT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Juggernaut</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERAL_JUGGERNAUGHT</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é capaz de se mover através de obstáculos e destruí-los, embora seja desacelerada. Isso não se aplica a obstáculos fortificados.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_UNSTOPPABLE_JUGGERNAUGHT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Juggernaut Implacável</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERAL_UNSTOPPABLE_JUGGERNAUGHT</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é capaz de se mover através de obstáculos e destruí-los. Isso não se aplica a obstáculos fortificados. A unidade não é desacelerada por isso.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GENERAL_SUPERIOR_OVERWATCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Supervisão Superior</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Overwatch is a game mechanic that allows units to go into a sort of Guard Mode, where they automatically shoot any enemy who comes into view.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_SUPERIOR_OVERWATCH</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{SuperiorDamage} de dano adicional em Supervisão.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GENERAL_SUPERIOR_OVERWATCH</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade pode entrar em Supervisão Superior, permitindo que dispare automaticamente em um inimigo que se mova ou ataque dentro de seu campo de visão causando {SuperiorOverwatch} de dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GENERAL_UNLIMITED_OVERWATCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Supervisão Ágil</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Overwatch is a game mechanic that allows units to go into a sort of Guard Mode, where they automatically shoot any enemy who comes into view.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERAL_UNLIMITED_OVERWATCH</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Quando esta unidade entra em Supervisão, ela é sempre considerada como tendo pontos de ação completos, independentemente de quantos realmente tenha.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GENERAL_IMPROVED_OVERWATCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Supervisão Aprimorada</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Overwatch is a game mechanic that allows units to go into a sort of Guard Mode, where they automatically shoot any enemy who comes into view.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_IMPROVED_OVERWATCH</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{ImprovedDamage} de precisão adicional em Supervisão.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GENERAL_IMPROVED_OVERWATCH</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade pode entrar em Supervisão Aprimorada, permitindo que dispare automaticamente em um inimigo que se mova ou ataque dentro de seu campo de visão com {ImprovedOverwatchAccuracy} de precisão enquanto estiver em Supervisão.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_CHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Carga</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERAL_CHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques corpo a corpo causarão {damage} de dano aumentado se a unidade se mover pelo menos {ChargeHexes} hexes antes de atacar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_CHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{damage} de dano se esta unidade se mover pelo menos {ChargeHexes} hexes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_SUPER_HEAVY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arma Superpesada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_SUPER_HEAVY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ignorar {SuperHeavyDefenseBypass}[armor/] e [shield/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_IMMOBILIZE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Imobilizar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GENERAL_IMMOBILIZE</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{ImmobilizeChance}[StrengthPhysical/] de chance de força para aplicar [abilityred]Imobilizado[/abilityred] por {durationImmobilize}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_IMMOBILIZED</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_EFFECT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Imobilizado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_IMMOBILIZED</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade não pode se mover, mas ainda pode realizar ações.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_OBSCURED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Obscurecido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_OBSCURED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é {ObscuredAccuracyTarget} mais difícil de acertar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_LIGHTLY_OBSCURED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Levemente Obscurecido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_LIGHTLY_OBSCURED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é {LightObscuredAccuracyTarget} mais difícil de acertar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_TARGETED</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Alvo Marcado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_TARGETED</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é {TargetedAccuracyPenalty} mais fácil de acertar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_EXPOSED_FLANKS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Flancos Expostos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERAL_EXPOSED_FLANKS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques de flanqueamento contra esta unidade ignorarão até {ExposedArmorIgnore}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_DISABLED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Desativar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_DISABLED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade não pode usar ações.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GENERAL_DISABLED</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{DisableChance}[StrengthPhysical/] de chance de força para aplicar [abilityred]Desativar[/abilityred] por {durationDisable}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_MELEE_BYPASS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Corpo a corpo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_MELEE_BYPASS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ignorar todo [shield/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_PSIONICS_BYPASS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Psiônico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_PSIONICS_BYPASS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ignorar todo [armor/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AIR_TO_AIR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Antiaéreo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="33.75">
+    <Cell><Data ss:Type="String">AIR_TO_AIR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{DamageBonus}% de dano/{AccuracyBonus}% de precisão contra alvos Voadores</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_LONG_REACH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Alcance Longo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GENERAL_LONG_REACH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Pode atingir unidades Voadoras</Data></Cell>
+   </Row>
+   <Row ss:Index="135" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SUPERHEAT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Nuvem de Gás Superaquecido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HAZARD_SUPERHEAT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades sofrem {SuperheatHazardDamage} ao se moverem por este hexágono ou terminarem o turno nele.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HAZARD_SUPERHEAT</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades que se movem por esta nuvem ou terminam o turno nela sofrem {GasDamage} de dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_TALLGRASS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vegetação Alta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HAZARD_TALLGRASS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades neste hexágono são {TallgrassAccuracyBonus} mais difíceis de acertar. Unidades de Alvo Grande não se beneficiam.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_HEALING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Estação de Reparo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HAZARD_HEALING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades que terminam o turno neste hexágono são curadas em {HealingHazard}[hp/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HAZARD_QUARTZITE_EXPLOSIVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cristal de Quartzito</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quartzite refers to the mineral based independent unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HAZARD_QUARTZITE_EXPLOSIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este obstáculo explode ao ser destruído, causando {QuartziteCrystalDamage} de dano a unidades não Minerais adjacentes e curando unidades Minerais em {QuartziteCrystalHealing}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HAZARD_QUARTZITE_ARC_HAZARD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fragmentos de Cristal de Quartzito</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quartzite refers to the mineral based independent unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HAZARD_QUARTZITE_ARC_HAZARD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades não Minerais sofrem {NaniteHazardDamage} ao se moverem por este hexágono ou terminarem o turno nele.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SMOKE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cortina de Fumaça</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SMOKE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades neste hexágono são {SmokescreenAccuracyBonus} mais difíceis de acertar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_OBSCURING_SHROUD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Manto Ofuscante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_BURNING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Chão Ardente</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HAZARD_BURNING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades sofrem {BurnGroundDamage} ao se moverem por ou terminarem o turno neste hexágono.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HAZARD_BURNING</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{BurningChance}[StrengthThermal/] de chance de força para aplicar [abilityred]Queimadura[/abilityred] por {BurningDuration}[turn/] a unidades que se movem por ou terminam o turno neste hexágono.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_GRINDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Chão Triturador</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A grinder on the ground.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HAZARD_GRINDING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades que se movem por ou terminam o turno no triturador sofrem {Kinetic}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_NANITES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Nuvem de Nanitas Desmontadoras</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dissassembler is a unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HAZARD_NANITES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades sofrem {NaniteHazardDamage} ao se moverem por ou terminarem o turno neste hexágono.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HAZARD_NANITES</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Causa {NaniteCloudDamage} a unidades que se movem por ou terminam o turno nesta nuvem.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_TOXIN_NANITES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Nuvem de Nanitas Tóxicas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HAZARD_TOXIN_NANITES</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Causa {ToxinCloudDamage}[DamageBio/] e tem {DebilitatingInfectionChance}[StrengthBio/] de chance de força para aplicar [abilityred]Infecção Debilitante[/abilityred] por {DebilitatingInfectionDuration}[turn/] a unidades Biológicas e Ciborgues que se movem por ou terminam o turno nesta nuvem.</Data></Cell>
+   </Row>
+   <Row ss:Index="160" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STASIS_POCKET</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bolso de Estase</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dimensional Pocket</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STASIS_POCKET</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{StasisChance}[strengthphysical/] de chance de força para remover {stasisremoveap} ponto de ação.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String" x:Ticked="1">to remove 1 Action Point'</Data></Cell>
+   </Row>
+   <Row ss:Index="163" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BEETLE_MORTAR_GAS_CLOUD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Nuvem de Gás de Morteiro Besouro</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">BEETLE_MORTAR_GAS_CLOUD</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{PosionChance}[StrengthBio/] de chance de força para aplicar [abilityred]Envenenado[/abilityred] por {PoisonDuration}[turn/] a unidades Biológicas e Ciborgues não-Besouro que se movem por ou terminam o turno neste hexágono.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">BEETLE_MORTAR_GAS_CLOUD_ARC</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{ElectrifyChance}[StrengthWave/] de chance de força para aplicar [abilityred]Eletrizado[/abilityred] por {ElectrifyDuration}[turn/] a unidades não-Besouro e não-Etéreas que se movem por ou terminam o turno neste hexágono.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_ENCASED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Encasular</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Being stuck (encased) in something.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_ENCASED</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{EncaseChance}[StrengthBio/] de chance de força para aplicar [abilityred]Encasulado[/abilityred] por {EncaseDuration}[turn/]. Se resistido, esta habilidade causa [abilityred]Atordoamento[/abilityred] em vez disso.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIOCHEMICAL_ENCASED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade não pode usar ações ou movimento.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIGH_IMPACT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Alto Impacto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HIGH_IMPACT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Atordoar[/abilityred] unidades, reduzindo pontos de ação e cancelando modos de defesa.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MASSIVE_IMPACT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Impacto Massivo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MASSIVE_IMPACT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">[abilityred]Atordoar[/abilityred] unidades, incluindo unidades resistentes a atordoamento, reduzindo pontos de ação e cancelando modos de defesa.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_BIO_SPILL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vazamento Químico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HAZARD_BIO_SPILL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades recebem {SpillDamage}[DamageBio/] e perdem 1 [armor/] ao se moverem por ou terminarem o turno neste hexágono.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_MIST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Névoa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_MIST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades neste hexágono são {MistAccruacyDebuff}% mais difíceis de acertar.</Data></Cell>
+   </Row>
+   <Row ss:Index="179" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_WHIRLPOOL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Redemoinho</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HAZARD_WHIRLPOOL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades que terminam o turno neste hexágono recebem {WhirlpoolDamage} e ficam [abilityred]Lentas[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_SOOTHING_MIST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Névoa Calmante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HAZARD_SOOTHING_MIST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades que terminam o turno neste hexágono são {obscuredHitRate}% mais difíceis de acertar e recuperam {healAmount}[hp/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HAZARD_SOOTHING_MIST</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades que terminam o turno nestes hexágonos são {obscuredHitRate}% mais difíceis de acertar e recuperam {healAmount}[hp/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_STATIC_CLOUD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Nuvem Estática</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">HAZARD_STATIC_CLOUD</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades recebem {staticDamage}[DamageWave/] e todas as unidades não-Etéreas têm {StunChance}[StrengthWave/]%) de chance de ficarem [abilityred]Atordoadas[/abilityred] por {StunDuration}[turn/] ao se moverem por ou terminarem o turno neste hexágono.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARC_ELECTRIFIED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Eletrizado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ARC_ELECTRIFIED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{ElectrifiedChance}[StrengthWave/] de chance de aplicar [abilityred]Eletrizado[/abilityred] a unidades não-Etéreas por {ElectrifiedDuration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ARC_ELECTRIFIED</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está recebendo {ElectrifiedDamage} a cada [turn/] e seus ataques têm -{AccuracyPenalty}% de precisão.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARC_DISABLED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Desativação por Arco</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Arc damage</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARC_DISABLED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade não pode usar ações.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ARC_DISABLED</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tenta aplicar [abilityred]Desativação por Arco[/abilityred] (Força {DisableChance}[StrengthWave/]) por {durationDisable}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTANGLED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Emaranhar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ENTANGLED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{EntangledChance}[StrengthPhysical/] de chance de força para aplicar [abilityred]Emaranhado[/abilityred] a unidades terrestres não Etéreas por {durationEntangled}[turn/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">edit: landbound</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTANGLED</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Emaranhado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTANGLED</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade não pode se mover, mas ainda pode realizar ações.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TURBULENCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Turbulência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TURBULENCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem {TurbulencePenalty}% menos precisão e velocidade de movimento reduzida.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TURBULENCE</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{TurbulencePenalty}% menos precisão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TURBULENCE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_MOD</Data></Cell>
+    <Cell><Data ss:Type="String">{TurbulenceChance} de chance de força para aplicar [abilityred]Turbulência[/abilityred] a unidades Voadoras não Etéreas por {TurbulenceTurns}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_BLINDING_CLOUD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Nuvem Ofuscante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HAZARD_BLINDING_CLOUD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades que se moverem através ou terminarem o turno neste hexágono têm {BlindChance} de chance de força para ficarem [abilityred]Ofuscadas[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CHOKING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sufocante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CHOKING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem {ChokingAccuracy} de precisão e causa {ChokingDamage} de dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CHOKING</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{ChokingAccuracy} de precisão, causando {ChokingDamage} de dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CHOKING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION_MOD</Data></Cell>
+    <Cell><Data ss:Type="String">{ChokingChance} de chance de força para aplicar [abilityred]Sufocante[/abilityred] a unidades Biológicas ou Ciborgues por {durationChoking}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CHOKING_CLOUD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Nuvem Sufocante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CHOKING_CLOUD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades Biológicas e Ciborgues que se moverem através ou terminarem o turno neste hexágono começam a ficar [abilityred]Sufocantes[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLOSIVE_INDICATOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Explosivo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPLOSIVE_INDICATOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Explodirá ao ser destruído, causando {ExplosiveDamage} em um raio de {EffectRadius} hexágonos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FLAMMABLE_EXPLOSIVE_INDICATOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Explosivo Inflamável</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FLAMMABLE_EXPLOSIVE_INDICATOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Quando reduzido a 0, este obstáculo começará a queimar. Isso causará dano a si mesmo até ser destruído, o que fará com que exploda.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BURNING_EXPLOSIVE_INDICATOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Explosivo Instável</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">BURNING_EXPLOSIVE_INDICATOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este obstáculo receberá {UnstableExplosiveDamage} de dano no início de cada turno, explodindo ao ser destruído e causando {ExplosionDamage} a unidades e obstáculos adjacentes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PURIFICATION_PROTOCOL_EXPLOSIVE_INDICATOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Gás Explosivo PyrX</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">PyrX is the gas used by the Prometean secret tech, see Glossary for details.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PURIFICATION_PROTOCOL_EXPLOSIVE_INDICATOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Após {Timer}[turn/], esta nuvem explode, causando {ExplDamage} de dano com [abilityred]Impacto Massivo[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LESSENED_VISION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Visão Reduzida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LESSENED_VISION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade sofre {lessenedvisionVisionPenalty} de redução no alcance de visão.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENABLE_OVERWATCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vigilância</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ENABLE_OVERWATCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade pode entrar em Vigilância, permitindo que dispare automaticamente em qualquer inimigo que se mova ou ataque dentro de seu campo de visão.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Overwatch is a game mechanic that allows units to go into a sort of Guard Mode, where they automatically shoot any enemy who comes into view.</Data></Cell>
+   </Row>
+   <Row ss:Index="223" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIONIC_STAGGER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Atordoamento Psíquico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSIONIC_STAGGER</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques irão [abilityred]Atordoar[/abilityred] quaisquer unidades que não sejam resistentes e Mecânicas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSIONIC_STAGGER</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_STACK_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques irão [abilityred]Atordoar[/abilityred] quaisquer unidades que não sejam imunes e Mecânicas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ESCALATING_CHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Carga Crescente</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ESCALATING_CHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{bonus} de dano adicional para cada hexágono movido (máximo {maxNumStacks})</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ILLUMINATED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Iluminado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ILLUMINATED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é {IlluminatedHit} mais fácil de acertar.</Data></Cell>
+   </Row>
+   <Row ss:Index="232" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KNOCKBACK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Repulsão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">KNOCKBACK</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{KnockbackChance} de chance de [abilityred]repelir[/abilityred] uma unidade inimiga não Etérea e não Pesada em {KnockbackDistance} hexágono.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HALLUCINATING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Alucinar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HALLUCINATING</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{HallucinateChance} de chance de força para aplicar [abilityred]Alucinando[/abilityred] em unidades Biológicas e Ciborgues não Insensíveis por {HallucinateDuration}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HALLUCINATING</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_EFFECT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Alucinando</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HALLUCINATING</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é sempre considerada flanqueada e tem {HallucinatingAccuracyLoss} de precisão.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALWAYS_FLANKING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sempre Flanqueia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ALWAYS_FLANKING</Data></Cell>
+    <Cell><Data ss:Type="String">ABILIITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sempre conta como Flanqueando</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRIPPLE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Debilitar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRIPPLED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Debilitado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CRIPPLE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILIITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{CrippleChance}[StrengthPhysical/] de chance de força para aplicar [abilityRed]Debilitado[/abilityRed] em alvos Biológicos e Ciborgues por {CrippleDuration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CRIPPLE_FLANKED</Data></Cell>
+    <Cell><Data ss:Type="String">ABILIITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Em ataques de flanqueio: {CrippleChance}[StrengthPhysical/] de chance de força para aplicar [abilityRed]Debilitado[/abilityRed] em alvos Biológicos e Ciborgues por {CrippleDuration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRIPPLE</Data></Cell>
+    <Cell><Data ss:Type="String">STATUS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem movimento reduzido e -{CrippleAccuracy} de precisão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRIPPLE</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{CrippleAccuracy} de precisão reduzida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMBARKED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Embarcada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EMBARKED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está viajando em um transporte aquático e é mais vulnerável a ataques. Ela tem -{embarkedWeakness} de resistência a todo dano e não pode usar cobertura.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UPGRADING_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Atualizando Unidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">UPGRADING_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está sendo atualizada com novas modificações, reduzindo sua eficiência em combate. Ela causa {damageReduction} menos dano, e nenhuma de suas modificações está funcionando no momento.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UPGRADING_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{damageReduction} menos dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">UPGRADING_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">WARNING</Data></Cell>
+    <Cell><Data ss:Type="String">Atualizar esta unidade desativará seus mods e fará com que ela cause menos dano por {duration}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UPGRADING_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">EXPLANATION</Data></Cell>
+    <Cell><Data ss:Type="String">Os mods desta unidade estão desativados porque ela está sendo atualizada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TURRET_MODE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Modo Torreta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">TURRET_MODE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é uma torreta e atacará automaticamente unidades de acordo com seus parâmetros</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CAUSTIC_SMOKE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fumaça Cáustica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CAUSTIC_SMOKE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades que se moverem por ou terminarem o turno neste hexágono sofrem dano e perdem {ArmorReduction}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MADNESS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Loucura</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MADNESS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{MadnessChance}[StrengthPsyche/] de chance de força para aplicar [abilityred]Catatônico[/abilityred], [abilityred]Insanidade[/abilityred] ou [abilityred]Pânico[/abilityred] em unidades não-Mente por {MadTime}[turn/]. Se resistido, aplica [abilityred]Mente Quebrada[/abilityred] no lugar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DARK_ENTANGLE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Enredamento Sombrio</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Entangled by vines made of a dark energy.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DARK_ENTANGLE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{EntangledChance}[StrengthPsyche/] para aplicar [abilityred]Enredado[/abilityred] em unidades terrestres por {durationEntangled}[turn/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">edit: landbound</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DARK_ENTANGLE</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Enredado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DARK_ENTANGLE</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade não pode se mover, mas ainda pode realizar ações</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">COSMITE_TEAR_INDICATOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lágrima de Cosmita</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cosmite Tear/Piece is an hazardous object found in combat that when destroyed explodes and deals damage to nearby units. Tear as in ripping apart.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">COSMITE_TEAR_INDICATOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao ser destruído, 4[StrengthPhysical/] de chance de força para aplicar [abilityred]Instabilidade Dimensional[/abilityred] em cada unidade em até 2 hexes deste obstáculo. Além disso, deixa um buraco do Abismo no hex que ocupava anteriormente.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COSMITE_GREATER_TEAR_INDICATOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Grande Lágrima de Cosmita</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">COSMITE_GREATER_TEAR_INDICATOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao ser destruído, 8[StrengthPhysical/] de chance de força para aplicar [abilityred]Instabilidade Dimensional[/abilityred] em cada unidade em até 8 hexes deste obstáculo. Além disso, deixa um buraco do Abismo no hex que ocupava anteriormente.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COSMITE_PIECE_INDICATOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fragmento de Cosmita</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">COSMITE_PIECE_INDICATOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao ser destruído, 4[StrengthPhysical/] de chance de força para aplicar [abilityred]Instabilidade Dimensional[/abilityred] em cada unidade em até 2 hexes deste obstáculo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COSMITE_GREATER_PIECE_INDICATOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Grande Fragmento de Cosmita</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">COSMITE_GREATER_PIECE_INDICATOR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao ser destruído, 8[StrengthPhysical/] de chance de força para aplicar [abilityred]Instabilidade Dimensional[/abilityred] em cada unidade em até 8 hexes deste obstáculo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSITEC_IMMOBILIZE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Imobilizar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PSITEC_IMMOBILIZE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{PsiImmmobilizeChance}[StrengthPsyche/] de chance de força para aplicar [abilityRed]Imobilizado[/abilityRed] em alvos não-Mente por {PsiImmobilizeDuration}[turn/]. Se resistido, aplica [abilityred]Lentidão[/abilityred] no lugar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">VISCOUS_COMPOSITE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MOD_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Viscoso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">VISCOUS_COMPOSITE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">{ImmobilizeChance}[StrengthBio/] de chance de força para aplicar [abilityred]Imobilizado[/abilityred] em unidades [abilityred]Lentificadas[/abilityred] por {durationImmobilize}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">VISCOUS_COMPOSITE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MOD_DESCRIPTION_SLOW</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">{SlowChance}[StrengthBio/] de chance de força para aplicar [abilityred]Lentidão[/abilityred] em unidades não-Etéreas por {durationSlow}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAZARD_EXPOSED_ARC_WIRING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fiação de Arco Exposta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">HAZARD_EXPOSED_ARC_WIRING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades não voadoras recebem {ArcHazardDamage} ao se moverem por ou terminarem o turno neste hexágono.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ESSENCE_CHARGE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Carga de Essência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ESSENCE_CHARGE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">A unidade ganha +10% de dano para cada acúmulo de [essencecharge/].[br/]Acumula até {INT_max} vezes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s63">
+    <Cell><Data ss:Type="String">NEURAL_TOXIN</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Toxina Neural</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="s63">
+    <Cell><Data ss:Type="String">REACTIVE_POISON</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">{PoisonChance}[StrengthBio/] de chance de força para aplicar [abilityred]Toxina Neural[/abilityred] em alvos Biológicos ou Ciborgues por {durationPoison}[turn/].</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="s63">
+    <Cell><Data ss:Type="String">NEURAL_TOXIN</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Esta unidade tem {ToxinChance}[strengthBio/] de chance de ficar [abilityred]Atordoada[/abilityred] no início de cada turno. Se resistir, causa {DamageAmount}[damageBio/] de dano em vez disso.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Stunend as in the status condition</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PATH_ARMOR_BYPASS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Foco Psiónico</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>7</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>19</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

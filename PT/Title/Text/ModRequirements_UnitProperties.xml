@@ -1,0 +1,675 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <Created>2020-06-16T15:17:31Z</Created>
+  <LastSaved>2020-07-07T11:43:16Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>19965</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="126" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="371.25" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="188.25"/>
+   <Column ss:StyleID="s62" ss:Width="331.5"/>
+   <Column ss:StyleID="s62" ss:Width="339.75"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="169.5"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:Height="165">
+    <Cell><Data ss:Type="String">MODREQUIREMENTS_UNITPROPERTIES</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">ALL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod pode ser aplicado a qualquer unidade.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">NOT_ANIMAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod pode ser aplicado a qualquer unidade, exceto Animais.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">LIGHT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Leves.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">HEAVY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Pesadas.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">MECHANICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Mecânicas.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">HEAVY_MECHANICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Mecânicas Pesadas.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">HEAVY_CYBORG_HEAVY_MECHANICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Mecânicas e Ciborgues Pesadas.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">MECHANICAL_INFANTRY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Mecânicas e de Infantaria.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">INFANTRY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades de Infantaria.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">MOUNTED_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Montadas.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">ANIMAL_MOUNTED_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Animais e Montadas.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">BIOLOGICAL_CYBORG_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Biológicas e Ciborgues.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">CYBORG_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Ciborgues.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">HEAVY_BIOLOGICAL_CYBORG_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Biológicas e Ciborgues Pesadas.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">LIGHT_BIOLOGICAL_CYBORG_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Biológicas e Ciborgues Leves.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">MELEE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades que tenham uma habilidade de Corpo a Corpo.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">RANGED_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades que tenham uma habilidade de Ataque à Distância.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">ARBORIAN_PLANT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Vegetais.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">BEE_PLANT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Vegetais e de Abelhas.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">NON_MECHANICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades não Mecânicas.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">NON_MECHANICAL_LIGHT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Leves não Mecânicas.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPLAGUE_INFANTRY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades de Infantaria e Xenopraga.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">XENOPLAGUE_INFANTRY_MOUNTED_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades de Infantaria, Montadas e Xenopraga.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">VOIDTECH_UNITS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Voidtech ou modificadas com Voidtech.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">MECHANIC_INFANTRY_MOUNTED_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades de Infantaria, Montadas e Mecânicas.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">INFANTRY_MOUNTED_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades de Infantaria e Montadas.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">INFANTRY_BATTLESUIT_LAND_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades de Infantaria e de Traje de Batalha com Movimento Terrestre.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">INFANTRY_MOUNTED_LAND_BATTLESUIT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades de Infantaria, Montadas não Voadoras e de Traje de Batalha.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">INFANTRY_MOUNTED_LAND_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades de Infantaria e Montadas não Voadoras.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">IMPERIAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Imperiais Paragon.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">PSIFISH_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Psi-Peixe.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">QUARTZITE_FLAME_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades de Quartzito Flamejante.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">QUARTZITE_CRYSTAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades de Quartzito Cristalino.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">MINERAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Minerais.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">HERO_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Herói.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">INFANTRY_HERO_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Herói de Infantaria.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">NON_MINDLESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades não Insanas.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">NON_MINDLESS_INFANTRY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades de Infantaria não Insanas.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">NON_MINDLESS_INFANTRY_MOUNTED_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades de Infantaria e Montadas não Insanas.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">NON_MINDLESS_INFANTRY_MOUNTED_BATTLESUIT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades de Infantaria, Montadas e de Traje de Batalha não Insanas.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">BIOLOGICAL_CYBORG_MECHANICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Biológicas, Ciborgues e Mecânicas.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">CYBORG_MECHANICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Ciborgues e Mecânicas.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">NON_ANIMAL_ETHEREAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades que não sejam Animais ou Etéreas.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">ETHEREAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades que não sejam Etéreas.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">LIGHT_ETHEREAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Leves que não sejam Etéreas.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">CYBORG_MECHANICAL_INFANTRY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Ciborgues, Mecânicas e de Infantaria.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell>
+    <Cell><Data ss:Type="String">SYNDICATE_SLAVE_BATTLESUIT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Biológicas, Ciborgues e de Traje de Batalha não-Sindicato que sejam de Nível 1 ou Nível 2.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell>
+    <Cell><Data ss:Type="String">SYNDICATE_SLAVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Biológicas e Ciborgues não-Sindicato que sejam de Nível 1 ou Nível 2.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell>
+    <Cell><Data ss:Type="String">SYNDICATE_MIRAGE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado à unidade Mirage do Sindicato.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell>
+    <Cell><Data ss:Type="String">SYNDICATE_WRAITH_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado à unidade Wraith do Sindicato.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell>
+    <Cell><Data ss:Type="String">SYNDICATE_OVERSEER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado à unidade Overseer do Sindicato.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell>
+    <Cell><Data ss:Type="String">SYNDICTATE_INFANTRY_OR_SUBJUGATOR</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades de Infantaria, Montadas e à unidade Subjugator do Sindicato.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell>
+    <Cell><Data ss:Type="String">SYNDICATE_LIGHT_DESCRIPTION_NO_INDENTURED</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Leves do Sindicato, exceto Indentured.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell>
+    <Cell><Data ss:Type="String">SYNDICATE_INFANTRY_DESCRIPTION_NO_UNIVERSAL_CAMOUFLAGE</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades de Infantaria que não tenham Camuflagem Universal como uma Habilidade Passiva da Unidade.</Data></Cell>
+   </Row>
+   <Row ss:Index="58">
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">INFANTRY_BATTLESUIT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades de Infantaria e de Traje de Batalha.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">INFANTRY_MOUNTED_BATTLESUIT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades de Infantaria, Montadas e de Traje de Batalha.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">AMAZON_NOMECHA_GROUND_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades não-Mecânicas que tenham Movimento Terrestre.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">GROUND_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades que tenham Movimento Terrestre.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">LIGHT_GROUND_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Leves que tenham Movimento Terrestre.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">LIGHT_NON_FLYING_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Leves que não Voem.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">NOMECHA_NONMINDLESS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades não Mecânicas e não Irracionais.</Data></Cell>
+   </Row>
+   <Row ss:Index="66">
+    <Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell>
+    <Cell><Data ss:Type="String">VANGUARD_ENGINEER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado à unidade Engenheiro da Vanguard.</Data></Cell>
+   </Row>
+   <Row ss:Index="68">
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">ASSEMBLY_MECHANICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Ciborgues e Mecânicas.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">ASSEMBLY_CYBORG_LANDFLOAT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Ciborgues que tenham Movimento Terrestre ou Flutuante.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">ASSEMBLY_MECHANICAL_NOWRECKER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Ciborgues e Mecânicas, exceto o Demolidor da Assembly.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">ASSEMBLY_BIO_NOWRECKER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Biológicas e Ciborgues, exceto o Demolidor da Assembly.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">ASSEMBLY_BIO_MECHANICAL_NOWRECKER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Biológicas, Ciborgues e Mecânicas, exceto o Demolidor da Assembly.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">ASSEMBLY_BIOLOGICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Biológicas e Ciborgues.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">ASSEMBLY_BIOLOGICAL_MELEE_BATTLESUIT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Biológicas, Ciborgues e de Traje de Batalha que tenham uma habilidade de Corpo a Corpo.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">ASSEMBLY_BIOLOGICAL_MELEE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Biológicas e Ciborgues que tenham uma habilidade de Corpo a Corpo.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">ASSEMBLY_ANIMAL_KIRKO_CYBORG_LIGHT_MELEE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Animais, Kir'Ko e Ciborgues que sejam Leves e tenham uma habilidade de Corpo a Corpo.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">ASSEMBLY_ANIMAL_KIRKO_CYBORG_MELEE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Animais, Kir'Ko e Ciborgues que tenham uma habilidade de Corpo a Corpo.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell>
+    <Cell><Data ss:Type="String">ASSEMBLY_MELEE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado às unidades Catador, Demolidor e Engenheiro Reverso da Assembly.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell>
+    <Cell><Data ss:Type="String">ASSEMBLY_REVERSE_ENGINEER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado à unidade Engenheiro Reverso da Assembly.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell>
+    <Cell><Data ss:Type="String">ASSEMBLY_DISASSEMBLER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado à unidade Desmontador da Assembly.</Data></Cell>
+   </Row>
+   <Row ss:Index="82">
+    <Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell>
+    <Cell><Data ss:Type="String">KIRKO_ANIMAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Animais e Kir'Ko.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell>
+    <Cell><Data ss:Type="String">KIRKO_ANIMAL_MELEE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Animais e Kir'Ko que tenham uma habilidade de Corpo a Corpo.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell>
+    <Cell><Data ss:Type="String">CYBORG_KIRKO_ANIMAL_MELEE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Animais, Kir'Ko e Ciborgues que tenham uma habilidade de Corpo a Corpo.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell>
+    <Cell><Data ss:Type="String">KIRKO_FRENZIED_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado à unidade Enlouquecida dos Kir'Ko.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell>
+    <Cell><Data ss:Type="String">KIRKO_FRENZIED_RAVENOUS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado às unidades Enlouquecida e Voraz dos Kir'Ko.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell>
+    <Cell><Data ss:Type="String">KIRKO_LIGHT_NO_HIDDEN_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Leves Animais e Kir'Ko, exceto Ocultas.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell>
+    <Cell><Data ss:Type="String">KIRKO_MOUNTED</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Animais, Kir'Ko e Montadas.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell>
+    <Cell><Data ss:Type="String">KIRKO_LIGHT_MOUNTED</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Leves Animais, Kir'Ko e Montadas.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell>
+    <Cell><Data ss:Type="String">DVAR_BARON_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado ao Barão Dvar.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell>
+    <Cell><Data ss:Type="String">DVAR_FOREMAN_BARON_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado ao Barão Dvar e ao Encarregado.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_RACE</Data></Cell>
+    <Cell><Data ss:Type="String">DVAR_POWERED_PISTONS</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Dvar, Ciborgues ou Mecânicas que tenham uma habilidade de Corpo a Corpo.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_TECH</Data></Cell>
+    <Cell><Data ss:Type="String">PROMETHEAN_PURIFIER_PHOENIX</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades com uma habilidade de Plasma.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">EXPLOSIVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades que tenham uma habilidade Explosiva.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">GRENADE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades que tenham uma habilidade de Granada.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">MELEE_FIREARMS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades que tenham uma habilidade de Corpo a Corpo ou de Armas de Fogo.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">FIREARMS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades que tenham uma habilidade de Armas de Fogo.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">LASER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades que tenham uma habilidade de Laser.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">ARC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades que tenham uma habilidade de Arco.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">HEAVY_ARC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades que tenham uma habilidade de Arco.[br/]Este Mod só pode ser aplicado a unidades Pesadas.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">BIO_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades que tenham uma habilidade Bioquímica.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">BIO_CLAW_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades que tenham uma habilidade Bioquímica ou de Garra.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">ASSEMBLY_CLAW_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades Assembly de Corpo a Corpo não-heróis ou unidades com uma habilidade de Garra.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">LIGHT_BIO_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades que tenham uma habilidade Bioquímica.[br/]Este Mod só pode ser aplicado a unidades Leves.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">LIGHT_BIO_CLAW_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades que tenham uma habilidade Bioquímica ou de Garra.[br/]Este Mod só pode ser aplicado a unidades Leves.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">PSIONIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades que tenham uma habilidade Psiónica.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">PSIONIC_SUPPORT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades que tenham uma habilidade de Buff Psiónico.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">LIGHT_PSIONIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades que tenham uma habilidade Psiónica.[br/]Este Mod só pode ser aplicado a unidades Leves.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">ENTROPY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades que tenham uma habilidade de Entropia.</Data></Cell>
+   </Row>
+   <Row ss:Height="30">
+    <Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">LIGHT_EXPLOSIVE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades que tenham uma habilidade Explosiva.[br/]Este Mod só pode ser aplicado a unidades Leves.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">ENTRENCH_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades que tenham a habilidade Entrincheirar.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">IMPERIAL_AUGMENTS_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades com Aumentos Imperiais.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">NON_BATTLESUIT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades que não sejam de Traje de Batalha.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">NON_MINDLESS_SEER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades que não sejam Irracionais nem Videntes.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REQUIREMENT_ABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">BATTLESUIT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este Mod só pode ser aplicado a unidades de Traje de Batalha.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ABILITY_TYPE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">FIREARMS</Data></Cell>
+    <Cell><Data ss:Type="String">Armas de Fogo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ABILITY_TYPE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">LASER</Data></Cell>
+    <Cell><Data ss:Type="String">Laser</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ABILITY_TYPE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">ARC</Data></Cell>
+    <Cell><Data ss:Type="String">Arco</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ABILITY_TYPE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">BIOCHEMICAL</Data></Cell>
+    <Cell><Data ss:Type="String">Bioquímico</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ABILITY_TYPE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">PSIONIC_ATTACK</Data></Cell>
+    <Cell><Data ss:Type="String">Psiónico</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ABILITY_TYPE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">PSIONIC_BUFF</Data></Cell>
+    <Cell><Data ss:Type="String">Buff Psiónico</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ABILITY_TYPE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">GRENADE</Data></Cell>
+    <Cell><Data ss:Type="String">Granada</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ABILITY_TYPE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">MELEE</Data></Cell>
+    <Cell><Data ss:Type="String">Corpo a Corpo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ABILITY_TYPE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">EXPLOSIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Explosivo</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ABILITY_TYPE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">CLAW</Data></Cell>
+    <Cell><Data ss:Type="String">Garra</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ABILITY_TYPE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">SONIC</Data></Cell>
+    <Cell><Data ss:Type="String">Sônico</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>86</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>100</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

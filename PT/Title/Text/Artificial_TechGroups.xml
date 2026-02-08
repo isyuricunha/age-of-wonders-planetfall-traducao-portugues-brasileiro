@@ -1,0 +1,1195 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2020-09-22T11:34:26Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15825</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="218" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="236.25"/>
+   <Column ss:StyleID="s62" ss:Width="163.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="390"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="219.75"/>
+   <Column ss:StyleID="s62" ss:Width="183.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">ARTIFICIAL_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCRAMBLING_VIRUS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vírus de Interferência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCRAMBLING_VIRUS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Causa Dano de Arco a uma unidade. Este ataque salta {ScramblingJumpTime} vezes para outras unidades inimigas dentro de {ScramblingJumpRange} hexes.</Data></Cell>
+   </Row>
+   <Row ss:Index="9" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GUARDIAN_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Carapaça de Demônio Guardião</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GUARDIAN_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade fica {WetwareEvade} mais difícil de ser acertada por ataques à distância. Ela também se torna [abilityblue]Integrada[/abilityblue], permitindo que interaja com a tecnologia de Síntese.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Integrated is a status effect that allows the unit to be the target of beneficial effects</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TARGETING_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Carapaça de Demônio de Mira</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TARGETING_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade ganha {InformationAccuracy} de precisão e {InformationCrit} de chance de acerto crítico. Ela também se torna [abilityblue]Integrada[/abilityblue], permitindo que interaja com a tecnologia de Síntese.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Integrated is a status effect that allows the unit to be the target of beneficial effects</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TARGETING_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um Demônio de Mira está [abilityblue]Integrado[/abilityblue] a esta unidade, aumentando sua precisão em {InformationAccuracy} e sua chance de acerto crítico em {InformationCrit}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TARGETING_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{InformationAccuracy} de precisão, {InformationCrit} de chance de acerto crítico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMPROMISE_MODIFICATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Módulo de Comprometimento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">COMPROMISE_MODIFICATION</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques com armas agora têm uma chance de {CompromisedChance}[StrengthWave/] de força ({CompromisedChanceRepeating}[StrengthWave/] para ataques repetidos) de aplicar [abilityred]Comprometida[/abilityred] por {CompromizedDuration} a unidades Mecânicas e Ciborgues.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Compromised is a negative status effect that debuffs enemy units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISABLE_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Carapaça de Demônio Incapacitante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DISABLE_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Fornece à unidade uma Carapaça de Demônio contendo um Demônio Incapacitante que pode ser implantado para atrapalhar unidades inimigas. Ela também se torna [abilityblue]Integrada[/abilityblue], permitindo que interaja com a tecnologia de Síntese.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. A Shell is a physical container, like a metal box, that contains the Daemon. They deploy the Daemon from this 'box'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISABLE_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Demônio Incapacitante</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DISABLE_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Infecta uma unidade Mecânica ou Ciborgue inimiga com um Demônio hostil. Isso faz com que a unidade tenha uma chance de {DisabledCompromisedChance} de força de ficar [abilityred]Atordoada[/abilityred] por {DisableTurn}. Em caso de falha, a unidade fica abalada.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TOTAL_NETWORK_INTEGRATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Integração Total à Rede</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TOTAL_NETWORK_INTEGRATION</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade é imune a abalo. Se a unidade morrer em combate, ela é revivida com {NetworkReviveHP} de seu [hp/] máximo no início do próximo turno. Ao criar um backup de emergência da consciência desta unidade, ela também se torna [abilityblue]Integrada[/abilityblue], permitindo que interaja com a tecnologia de Síntese.[br/][br/][firecol]Uma unidade só pode se reviver uma vez por batalha.[/firecol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Integrated is a status effect that allows the unit to be the target of beneficial effects. The emergency backup is a 'download' of the unit's soul onto computer hardware.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEPLOYABLE_MALWARE_DAEMON_INFUSED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Demônio de Malware Implantável</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEPLOYABLE_MALWARE_DAEMON_INFUSED</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Implanta um drone habitado por um Demônio de Malware.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DEPLOYABLE_MALWARE_DAEMON_INFUSED</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Implanta o drone do Demônio de Malware. Ele tem um ataque de Arco à distância e, se for destruído, tentará [abilityred]Controlar a Mente[/abilityred] de uma unidade Mecânica ou Ciborgue inimiga próxima.[br/][br/]A unidade invocada herdará quaisquer mods compatíveis que não concedam uma habilidade ativa.[br/]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTEGRATED_MILITARY_NETWORKS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Redes Militares Integradas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INTEGRATED_MILITARY_NETWORKS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades Mecânicas e Ciborgues estão [abilityblue]Integradas[/abilityblue], permitindo que se conectem à tecnologia Synthesis.[br/]Todas as unidades de milícia sob seu controle se tornam [abilityblue]Integradas[/abilityblue].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Integrated is a status effect that allows the unit to be the target of beneficial effects</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTEGRATED</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Integrada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INTEGRATED</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade está integrada com a tecnologia Synthesis, permitindo que se comunique com redes Synthesis e Daemons.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Integrated is a status effect that allows the unit to be the target of beneficial effects</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARTIFICIAL_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade Synthesis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARTIFICIAL_UNIT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é uma Unidade Synthesis.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMPROMISED</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Comprometida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">COMPROMISED</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade foi [abilityred]Comprometida[/abilityred]. Ela perde {CompromisedStaggerReduction} nível de resistência a atordoamento, sua resistência a Arco é reduzida em {CompromisedArcResist} e outras resistências são reduzidas em {CompromisedResistenceDrop}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Compromised is a negative status effect that debuffs enemy units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COMPROMISED</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{CompromisedChance} chance de força para aplicar [abilityred]Comprometida[/abilityred] por {CompromizedDuration} em unidades Mecânicas e Ciborgues.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARC_BUZZER</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Disparador de Arco</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARC_BUZZER</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara uma arma de Arco repetida em um alvo inimigo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMERGENCY_CONSCIOUSNESS_TRANSMISSION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Transmissão de Consciência de Emergência</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EMERGENCY_CONSCIOUSNESS_TRANSMISSION</Data></Cell>
+    <Cell><Data ss:Type="String">GIVEN_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade foi forçadamente integrada a um Daemon de Malware e está [abilityred]Controlada Mentalmente[/abilityred] até o fim do combate, após o qual é destruída.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">EMERGENCY_CONSCIOUSNESS_TRANSMISSION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ao ser destruída, o Daemon de Malware tentará se integrar forçadamente a uma unidade Mecânica ou Ciborgue inimiga aleatória dentro de {EmergencyRange} hexes. A unidade inimiga terá uma chance de força {EmergencyChance} de ser [abilityred]Controlada Mentalmente[/abilityred] e mudar de aliança até o fim do combate. Em caso de falha, a unidade é [abilityred]Comprometida[/abilityred] em vez disso. Se a unidade mudar de aliança, ela também se tornará [abilityblue]Integrada[/abilityblue].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. Compromised is a negative status effect that debuffs enemy units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARC_SMG</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Submetralhadora Hasher</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARC_SMG</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara uma Submetralhadora Hasher em um alvo inimigo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Hasher is a made up word</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BREACH_SMG</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Submetralhadora Breach</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BREACH_SMG</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara uma Submetralhadora Breach em um alvo inimigo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAYWIRE_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Daemon Haywire</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HAYWIRE_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade Mecânica ou Ciborgue inimiga alvo é forçadamente infectada com um Daemon hostil. Ela fica [abilityred]Atordoada[/abilityred] e tem uma chance de força {HaywireChanceCompromised} de ficar [abilityred]Desativada[/abilityred] por {HaywireTurnCompromised}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HAYWIRE_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">GIVEN_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está forçadamente infectada com um Daemon Haywire.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NEUROSCRAMBLER_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Demônio Neuroscrambler</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. Neuroscrambler - neurons from brain, scramble as in mix up</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="54">
+    <Cell><Data ss:Type="String">NEUROSCRAMBLER_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade inimiga não-Mente-Vazia alvo é forçosamente infectada com um Demônio hostil. Elas têm uma chance de força {HaywireChanceCompromised} de ficarem [abilityred]Desativadas[/abilityred] por {HaywireTurnCompromised}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">note: the Haywire tags should not be changed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NEUROSCRAMBLER_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">GIVEN_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Forçosamente infectada com um Demônio Neuroscrambler.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TUNING_STEP</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ajuste de Sintonização</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="46.5">
+    <Cell><Data ss:Type="String">TUNING_STEP</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Teleporta para a casa alvo, concedendo a unidades amigas [abilityblue]Integradas[/abilityblue] em um raio de {hexrad} casas o efeito [abilityblue]Ajuste Fino[/abilityblue] ({fineltytunedbonus} dano e precisão) por {turns}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="46.5">
+    <Cell><Data ss:Type="String">RECONSTRUCTED_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Demônio Reconstruído</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RECONSTRUCTED_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Direcione uma unidade Mecânica ou Ciborgue morta para enviar um Demônio que reconstruirá os destroços em uma unidade Demônio Reconstruído.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHRAPNEL_VIRUS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vírus de Estilhaços</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SHRAPNEL_VIRUS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lança uma granada que explode em estilhaços, causando dano a unidades inimigas. Cada estilhaço contém um [abilityred]Vírus Comprometedor[/abilityred].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">With Virus, we mean a computer virus that negatively effects the systems of the enemy unit.</Data></Cell>
+    <Cell><Data ss:Type="String">Shouldn't the hex radius of the grenade's damage be specified here?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFENSIVE_TURRET</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Torre de Defesa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFENSIVE_TURRET</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara uma pequena torre de armas de fogo defensiva em um alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">UPLOAD_AC_DATA</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Upload de Dados de CI</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">UPLOAD_AC_DATA</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Faz upload de uma consciência artificial para uma unidade suscetível. Isso reinicia os tempos de recarga e habilidades de uso único por batalha da unidade amiga [abilityblue]Integrada[/abilityblue] alvo. [br/][br/]Não pode ser usado em outros Links de Rede.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The artificial consciousness (AC) is the soul of a being, converted into computer software. Integrated is a status effect that allows the unit to be the target of beneficial effects. Network Link is a type of unit (the one that uses this ability)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOWNLOAD_AC_DATA</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Download de Dados de CI</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DOWNLOAD_AC_DATA</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Direciona uma unidade morta não-Mente-Vazia para baixar os vestígios de sua consciência. O cadáver é destruído e a habilidade Upload de Dados de CI é reiniciada.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The artificial consciousness (AC) is the soul of a being, converted into computer software. Integrated is a status effect that allows the unit to be the target of beneficial effects</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DATA_INTEGRITY_ENFORCEMENT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aplicação de Integridade de Dados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DATA_INTEGRITY_ENFORCEMENT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Estende a duração de todos os Demônios e Sub-rotinas ativos, tanto amigáveis quanto hostis, em toda a batalha por {IntegrityEnforcementTime}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RESET_SAVE_STATE_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Demônio de Reinicialização de Estado Salvo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">RESET_SAVE_STATE_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Envia um Demônio para interagir com a unidade [abilityblue]Integrada[/abilityblue] alvo, reiniciando seu status. A unidade tem todos os efeitos hostis dissipados, fica imune a todos os efeitos de status e recupera {ResetSaveStateDaemonHP}[hp/] no início do turno por {ResetSaveStateDaemonTime}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RESET_SAVE_STATE_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está sendo restaurada, recuperando {ResetSaveStateDaemonHP}[hp/] no início de cada turno.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARC_DISRUPTOR</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vírus de Disrupção</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ARC_DISRUPTOR</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Use um nó de arco para disparar um Vírus de Disrupção na unidade inimiga alvo. Este ataque salta {DisruptionJumpAmount} vezes para outras unidades inimigas dentro de {DisruptionJumpRange} hexes.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">With Virus, we mean a computer virus that negatively effects the systems of the enemy unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OVERLOAD_VIRUS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vírus de Sobrecarga</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OVERLOAD_VIRUS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Causa dano de Arco na unidade alvo. Este ataque salta {CascadeJumpAmount} vezes dentro de {CascadeJumpRange} hexes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OVERRIDE_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Daemon de Sobreposição</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">OVERRIDE_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma unidade inimiga Mecânica ou Ciborgue é forçosamente infectada com um Daemon hostil que tenta assumir o controle da unidade. Elas têm uma chance de força {DisabledCompromisedChance} de se tornarem [abilityred]Controladas Mentalmente[/abilityred] e mudarem de aliança até o fim do combate. O [abilityred]Controle Mental[/abilityred] termina quando o lançador é morto. Em caso de falha, a unidade fica [abilityred]Desativada[/abilityred] por {disabledTurns}[turn/] em vez disso.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">OVERRIDE_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade está controlada por um Daemon de Sobreposição e está [abilityred]Controlada Mentalmente[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMPLIFY_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Daemon de Amplificação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMPLIFY_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Envia um Daemon aliado para se integrar com a unidade aliada alvo, potencializando-a imensamente. A unidade causa {AmplifyDaemonDam} de dano e ganha {AmplifyDaemonResist} nível de resistência a Impacto e Movimento Rápido. A unidade também se torna [abilityblue]Integrada[/abilityblue]. Isso dura por {duration}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMPLIFY_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um Daemon aliado se [abilityblue]Integrated[/abilityblue] com esta unidade, potencializando suas habilidades. Elas causam +{AmplifyDaemonDam} de dano e ganharam {AmplifyDaemonResist} nível de resistência a Impacto e Movimento Rápido.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AEGIS_SUBROUTINES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sub-rotinas de Aegis</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AEGIS_SUBROUTINES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Carrega sub-rotinas protetoras em todas as unidades [abilityblue]Integradas[/abilityblue]. Elas recebem {AegisSubroutinesShield} por {AegisSubroutinesTurns}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Subroutines are a positive kind of computer virus, which boosts the abilities of friendly units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AEGIS_SUBROUTINES</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade possui sub-rotinas protetoras ativas. Seus escudos são aumentados em {AegisSubroutinesShield}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISRUPTION_PULSE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pulso de Vírus de Disrupção</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DISRUPTION_PULSE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade inimiga alvo sofre {DisruptionPulseDam} de dano de Arco. Se esta habilidade atingir uma unidade Mecânica ou Ciborgue, ela tem uma chance de força {DisruptionPulseChance} de fazer com que o alvo fique [abilityred]Comprometido[/abilityred]. Esta habilidade salta até {Disruption PulseJump} vezes para outras unidades inimigas dentro de {Disruption PulseHexes} hexes.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">With Virus, we mean a computer virus that negatively effects the systems of the enemy unit. Compromised is a negative status effect that debuffs enemy units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOTION_CONTROL_HACK</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Invasão de Controle de Movimento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MOTION_CONTROL_HACK</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades inimigas Mecânicas e Ciborgues em uma área de {Radius} hexes sofrem {DamageAmount}[damageWave/] com [abilityred]Impacto Massivo[/abilityred]. Além disso, elas têm uma chance de força {ImmobilizeChance} de ficarem [abilityred]Imobilizadas[/abilityred] por {duration}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">With hacking we are referring to computer hacking.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AUTONOMOUS_REPAIR_SUBROUTINES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sub-rotinas de Reparo Autônomo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AUTONOMOUS_REPAIR_SUBROUTINES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Carrega sub-rotinas de reparo em todas as unidades amigas [abilityblue]Integradas[/abilityblue]. Elas se curam em {RepairSubroutinesHeal}[hp/] ao final de cada turno por {RepairSubroutinesTurns}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Subroutines are a positive kind of computer virus, which boosts the abilities of friendly units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AUTONOMOUS_REPAIR_SUBROUTINES</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade possui sub-rotinas de reparo ativas. Elas se curam em {RepairSubroutinesHeal}[hp/] ao final de cada turno.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REDUCE_THREAT_HACK</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Desligamento Localizado do Sistema</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">REDUCE_THREAT_HACK</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Emite um sinal de invasão direcionado para interferir com unidades Mecânicas e Ciborgues inimigas em uma área de efeito de {Radius} hex. Elas têm uma chance de {DisableChance} de força para ficarem [abilityred]Desativadas[/abilityred] por {duration}. Se resistirem, as unidades ficarão [abilityred]Atordoadas[/abilityred] em vez disso. Além disso, unidades Biológicas na área têm uma chance de {ElectrifiedChance}[strengthWave/] de força para ficarem [abilityred]Eletrizadas[/abilityred] por {ElectrifiedDuration}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SKIRMISH_SUBROUTINES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sub-rotinas de Confronto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SKIRMISH_SUBROUTINES</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Carrega sub-rotinas de combate em todas as unidades [abilityblue]Integradas[/abilityblue] amigas. Elas ganham +{SkirmishImpactIncrease} de resistência a Impacto e causam +{SkirmishDamageIncrease} de dano por {SkirmishTurns}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Subroutines are a positive kind of computer virus, which boosts the abilities of friendly units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SKIRMISH_SUBROUTINES</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade possui sub-rotinas de combate ativas. Elas causam +{SkirmishDamageIncrease} de dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SKIRMISH_SUBROUTINES</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{SkirmishDamageIncrease} de dano.</Data></Cell>
+   </Row>
+   <Row ss:Index="94" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERNAL_SYSTEM_OVERLOAD_HACK</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Invasão por Sobrecarga de Sistema Interna</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">INTERNAL_SYSTEM_OVERLOAD_HACK</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades Mecânicas e Ciborgues no exército inimigo alvo recebem {InternalSystemOverloadHackHP} de seu [hp/] atual em dano. Unidades danificadas dessa forma ficam [abilityred]Comprometidas[/abilityred] no início de cada batalha por {InternalSystemOverloadHackTime} turno estratégico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INTERNAL_SYSTEM_OVERLOAD_HACK</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_FAIL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Em caso de falha, todas as unidades Mecânicas e Ciborgues recebem {InternalSystemOverloadHackHP} de seu [hp/] atual em dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INTERNAL_SYSTEM_OVERLOAD_HACK</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Nossa invasão de sistemas foi bem-sucedida, e as tropas Mecânicas e Ciborgues do exército inimigo sofreram danos. Além disso, os sistemas dessas unidades foram comprometidos por um curto período de tempo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INTERNAL_SYSTEM_OVERLOAD_HACK</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossa invasão de sistemas foi parcialmente evitada pelo exército inimigo. Conseguimos infligir danos menores, mas seus sistemas, infelizmente, não foram comprometidos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INTERNAL_SYSTEM_OVERLOAD_HACK</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Seu exército foi invadido! Todas as suas unidades Mecânicas e Ciborgues foram danificadas e estão comprometidas por um curto período de tempo.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Possible gender specific text required.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">INTERNAL_SYSTEM_OVERLOAD_HACK</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Uma tentativa de invasão ao seu exército foi evitada. Unidades Mecânicas e Ciborgues receberam danos menores, mas seus sistemas não foram comprometidos.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Possible gender specific text required.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTERNAL_SYSTEM_OVERLOAD_HACK</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DAMAGE</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades Mecânicas e Ciborgues no exército estão danificadas em {Damage} de seu [hp/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INTERNAL_SYSTEM_OVERLOAD_HACK</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_COMPRIMISE</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades Mecânicas e Ciborgues no exército estão [abilityred]Comprometidas[/abilityred] por {turns}.</Data></Cell>
+   </Row>
+   <Row ss:Index="104" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ZERO-DAY_VULNERABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vulnerabilidade Zero-Day</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ZERO-DAY_VULNERABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A colônia inimiga alvo tem sua defesa operacional reduzida em {Zero-DayVulnerabilityAmount} e sua felicidade reduzida em {Zero-DayVulnerabilityHappiness} por {Zero-DayVulnerabilityTime}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ZERO-DAY_VULNERABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Exploramos com sucesso uma vulnerabilidade zero-day na colônia inimiga! Sua rede operacional foi enfraquecida, e o moral da população foi reduzido.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ZERO-DAY_VULNERABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Tentamos explorar uma vulnerabilidade zero-day na colônia inimiga. Infelizmente, fomos impedidos antes de concluir nossa missão, mas nossa tentativa causou agitação civil na colônia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ZERO-DAY_VULNERABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Hackers inimigos exploraram vulnerabilidades na segurança de nossa colônia. Eles conseguiram invadir nossos sistemas de defesa operacional e os enfraqueceram. O ataque deixou nossa população com um moral mais baixo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ZERO-DAY_VULNERABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Hackers inimigos tentaram explorar vulnerabilidades na segurança de nossa colônia. Conseguimos deter suas tentativas antes que causassem danos graves, porém a população está passando por agitação civil devido aos seus esforços.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ZERO-DAY_VULNERABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">{UnhappinessAmount} foi causado e a defesa operacional foi reduzida em {OperationalDefense Reduction} por {turns}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEPLOY_MAINTENANCE_DAEMONS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Implantar Daemons de Manutenção</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEPLOY_MAINTENANCE_DAEMONS</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Daemons de Manutenção foram implantados no exército aliado, reparando-os e ajustando-os para o combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEPLOY_MAINTENANCE_DAEMONS</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION_HEAL</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades são curadas até [hp/] completo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEPLOY_MAINTENANCE_DAEMONS</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_DESCRIPTION_FINELYTUNED</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades ganham [abilityblue]Ajuste Fino[/abilityblue], concedendo-lhes +{accuracy} de precisão e +{damage} de dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DEPLOY_MAINTENANCE_DAEMONS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades [abilityblue]Integradas[/abilityblue] no exército aliado alvo são curadas até [hp/] completo e ganham [abilityblue]Ajuste Fino[/abilityblue] por {duration} turno estratégico, concedendo-lhes +{accuracy} de precisão e +{damage} de dano.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEPLOY_MAINTENANCE_DAEMONS</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ajuste Fino</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DEPLOY_MAINTENANCE_DAEMONS</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade foi ajustada por daemons de manutenção. Ela ganha +{accuracy} de precisão e +{damage} de dano.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REACTIVATE_IMPERIAL_ANDROIDS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reativar Androides Imperiais</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">REACTIVATE_IMPERIAL_ANDROIDS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Reativar androides imperiais locais pode fornecer reforços rápidos no campo de batalha.[br/][br/]Invoca {number} unidades Autonom, E:bot ou Network Link no local alvo. Essas unidades só podem ser de Tier 1 ou 2.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASCADING_SYSTEM_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Falha em Cascata do Sistema</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CASCADING_SYSTEM_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A renda da colônia inimiga alvo é reduzida em {CascadingAmount} por {CascadingTime}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CASCADING_SYSTEM_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Causamos com sucesso uma falha em cascata do sistema na colônia inimiga. Seus sistemas econômicos foram enfraquecidos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CASCADING_SYSTEM_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Tentamos causar uma falha em cascata do sistema na colônia inimiga. Infelizmente, fomos impedidos antes de completar nossa missão, mas nossa tentativa causou agitação civil na colônia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CASCADING_SYSTEM_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Hackers inimigos exploraram vulnerabilidades na segurança de nossa colônia. Eles conseguiram invadir nossos sistemas econômicos e reduziram nossa renda.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CASCADING_SYSTEM_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Hackers inimigos tentaram explorar vulnerabilidades na segurança de nossa colônia. Conseguimos deter suas tentativas antes que causassem danos graves, mas seus esforços causaram agitação civil em nossa população.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASCADING_SYSTEM_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">A renda foi reduzida em {IncomeModifier} por {turns}.</Data></Cell>
+   </Row>
+   <Row ss:Index="128" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ORGANIZED_CYBER_DIVISIONS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Divisões Cibernéticas Organizadas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ORGANIZED_CYBER_DIVISIONS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Otimize e fortaleça nossa divisão de ciberguerra em tempos de guerra, permitindo ataques cibernéticos mais brutais e maior eficiência.[br/][br/]Ganha {OperationStrengthModifier} para todas as operações. Além disso, operações estratégicas e secretas agora são {StrategicCostModifier} mais baratas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WORKER_INTEGRATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Integração de Trabalhadores</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">WORKER_INTEGRATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Com algumas pequenas melhorias cibernéticas, podemos integrar nossos trabalhadores de fábrica à rede, aumentando massivamente sua eficiência.[br/][br/][production/] e [energy/] produzem {SlotProductionModifier} de seu respectivo recurso por colono que o opera.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">slots refer to work spaces you can assign colonists to in game</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SOCIETY_2.0</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sociedade 2.0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SOCIETY_2.0</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Computadores estão em toda parte, fazem tudo e veem tudo. Nosso povo está totalmente integrado a um paraíso digital de consumismo e hedonismo, e eles nos amam por isso.[br/][br/]Todas as Colônias ganham {HappinessModifier} e produzem {EnergyModefier}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">WAR_OF_THE_MACHINES</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Automação Total da Guerra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">WAR_OF_THE_MACHINES</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A integração total da tecnologia de síntese em fábricas de guerra leva a ganhos massivos em eficiência e eficácia para nossas unidades.[br/][br/]Todas as unidades ganham {RankModifier} patente extra ao serem produzidas e custam {EnergyModifier}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">WAR_OF_THE_MACHINES</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_BONUS_1</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades ganham {medal}[medalIron/] patente</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">WAR_OF_THE_MACHINES</Data></Cell>
+    <Cell><Data ss:Type="String">UNIT_BONUS_2</Data></Cell>
+    <Cell><Data ss:Type="String">{discount}[energy/] de custo para todas as unidades.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CYBER_ATTACK</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ciberataque</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CYBER_ATTACK</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lance um ciberataque contra uma colônia inimiga não-Síntese, infiltrando seus sistemas e conectando-os à rede Basilisco por {INT_duration}. Essa habilidade causa mais estragos quanto mais Nós Basilisco você construir.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CYBER_ATTACK</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Nosso ciberataque foi bem-sucedido em infiltrar seus sistemas e agora temos acesso à rede deles.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CYBER_ATTACK</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Nosso ciberataque foi interceptado pelo inimigo, impedindo-nos de conectar seus sistemas à rede Basilisco.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CYBER_ATTACK</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">O inimigo lançou um ciberataque e invadiu nossos sistemas! Precisaremos gastar algum tempo limpando e protegendo nossos sistemas.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CYBER_ATTACK</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Nossas defesas impediram com sucesso que o inimigo infiltrasse nossos sistemas com seu ciberataque.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SINGULARITY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">A Singularidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SINGULARITY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Conecte todo o planeta à rede Basilisco, colocando tudo sob seu controle e concedendo poder absoluto.[br/][br/]Requer nível 3 de Ciberataque.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Possible gender specific text required.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SINGULARITY</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">A Rede Basilisco agora está ativa em seu potencial máximo, cobrindo o planeta em uma intrincada teia de fluxo de dados e controle lógico. É apenas questão de tempo até que a vitória final seja nossa!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NETWORK_DATABASE_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Nó Basilisco</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">NETWORK_DATABASE_NODE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Nó Basilisco desbloqueia a Arma Final Ciberataque. Cada Nó Basilisco adicional que você construir aumenta o nível da arma, tornando-a mais poderosa.[br/][br/]Apenas um Nó Basilisco pode ser construído por colônia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rede Basilisco</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">VICTORY_CONDITION</Data></Cell>
+    <Cell><Data ss:Type="String">Interconecte todos os sistemas e formas de vida à vasta rede Basilisk para que possam ser controlados.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades Synthesis ganham {NetworkAcc} [accuracy/] e {NetworkCrit} de chance de acerto crítico.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Possible gender specific text required.&lt;REPLACED RESEARCH WITH KNOWLEDGE&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Roubar {NetworkResearchTheft}[research/]</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Possible gender specific text required.&lt;REPLACED RESEARCH WITH KNOWLEDGE&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rede Basilisk Nível 2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_2_MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem {NetworkAcc} [accuracy/] e {NetworkCrit} de chance de crítico.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades [abilityred]Comprometidas[/abilityred] não-Synthesis têm {NetworkDaemonChance} de chance de força para receber um [abilityred]Incapacitar[/abilityred] ou um Daemon [abilityred]Descontrolado[/abilityred] a cada [turn/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. Compromised is a negative status effect that debuffs enemy units.</Data></Cell>
+    <Cell><Data ss:Type="String">Possible gender specific text required. &lt;REPLACED RESEARCH WITH KNOWLEDGE&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rede Basilisk Nível 3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DOOMSDAY_WEAPON</Data></Cell>
+    <Cell><Data ss:Type="String">LEVEL_3_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades não-Synthesis que estiverem [abilityred]Comprometidas[/abilityred] têm {NetworkDaemonChance} de chance de força a cada [turn/] para serem infectadas por um [abilityred]Incapacitar[/abilityred] ou um Daemon [abilityred]Descontrolado[/abilityred].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A Daemon is a computer virus controlled by an artificial intelligence. Compromised is a negative status effect that debuffs enemy units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SYNTH_EVENT_INITIAL_NOTIFICATION</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Condição de Vitória: Singularidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SYNTH_EVENT_UPGRADE_CAPTURED</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">Um de nossos Nós Basilisk foi capturado!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Our or your? We need to keep this conistent. Are we referring to the player/commander (singular) or the empire (plural)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SYNTH_EVENT_UPGRADE_LOST</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">Você perdeu um Nó Basilisk!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Possible gender specific text required. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SYNTH_EVENT_UPGRADE_LOST</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_Player} perdeu um Nó Basilisk!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">STR_Player is the name of the leader in game. Can be male or female</Data></Cell>
+    <Cell><Data ss:Type="String">Possible gender specific text required. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SYNTH_EVENT_UPGRADE_LOST_NOT_GLOBAL</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">Você perdeu um Nó Basilisk. Nossa tentativa de liberar A Singularidade foi cancelada!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Possible gender specific text required. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SYNTH_EVENT_UPGRADE_LOST_GLOBAL</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_Player} perdeu um Nó Basilisk. A tentativa deles de liberar A Singularidade foi frustrada!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">STR_Player is the name of the leader in game. Can be male or female</Data></Cell>
+    <Cell><Data ss:Type="String">Possible gender specific text required.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SYNTH_EVENT_INITIAL_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Um jogador liberou A Singularidade!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SYNTH_EVENT_UPGRADE_BUILT_01</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Ao construir um Nó Basilisk, {playerName} agora tem acesso à sua Arma do Juízo Final, A Singularidade. Ela está fraca agora, mas se tornará mais poderosa conforme mais Nós Basilisk forem construídos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">playername is the name of a leader in game, can be male or female.</Data></Cell>
+    <Cell><Data ss:Type="String">Possible gender specific text required.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SYNTH_EVENT_UPGRADE_BUILT_02</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Ao construir um segundo Nó Basilisk, {playerName} fortaleceu sua Arma do Juízo Final, A Singularidade. Você deve planejar ataques para destruir essas estruturas de Nó Basilisk antes que se tornem poderosas demais.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">playername is the name of a leader in game, can be male or female.</Data></Cell>
+    <Cell><Data ss:Type="String">Possible gender specific text required.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SYNTH_EVENT_UPGRADE_BUILT_03</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">Ao construir seu último Nó Basilisk, {playerName} maximizou a força de sua Arma do Juízo Final, A Singularidade. Eles agora estão perto de poder liberá-la completamente, vencendo o jogo. A hora de atacar é agora!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">playername is the name of a leader in game, can be male or female.</Data></Cell>
+    <Cell><Data ss:Type="String">Possible gender specific text required.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SYNTH_EVENT_UPGRADE_CAPTURED_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">O Cronômetro do Juízo Final foi pausado! Você deve reconquistar o Nó Basilisk perdido ou perderá a chance de liberar A Singularidade sobre seus inimigos!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Possible gender specific text required.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SYNTH_EVENT_UPGRADE_LOST_GLOBAL_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">A perda de um Nó Basilisk cancelou A Singularidade, encerrando o Cronômetro do Juízo Final.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SYNTH_EVENT_UPGRADE_LOST_NOT_GLOBAL_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">A perda de um Nó Basilisco enfraqueceu a Singularidade, e suas operações Apocalípticas foram canceladas.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Possible gender specific text required.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SYNTH_EVENT_FINISHER_CAST_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">Nossos inimigos ativaram sua Arma Apocalíptica, a Singularidade se espalhou pelo planeta, e sua própria Arma Apocalíptica foi destruída pelo cataclismo. Você tem {numTurns} para destruir um de seus Nós Basilisco, caso contrário, eles vencerão a partida.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Possible gender specific text required.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SYNTH_EVENT_RUNNING_VICTORY_TIMER</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">A Singularidade está ativa, e você vencerá em {numTurns}, a menos que perca um de seus Nós Basilisco.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Possible gender specific text required.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SYNTH_EVENT_RUNNING_VICTORY_TIMER</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">A Singularidade está ativa, e {playerName} vencerá em {numTurns}, a menos que você consiga destruir um de seus Nós Basilisco.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Possible gender specific text required.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SYNTH_EVENT_VICTORY_TIMER_PAUSED</Data></Cell>
+    <Cell><Data ss:Type="String">YOU</Data></Cell>
+    <Cell><Data ss:Type="String">Um Nó Basilisco foi capturado! Se for destruído, nosso Cronômetro Apocalíptico será cancelado. Se você o recapturar, poderá retomar a contagem regressiva.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Possible gender specific text required.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SYNTH_EVENT_VICTORY_TIMER_PAUSED</Data></Cell>
+    <Cell><Data ss:Type="String">PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">Um Nó Basilisco foi capturado. Se for destruído, o Cronômetro Apocalíptico será cancelado. Se {playerName} o recapturar, eles poderão retomar a contagem regressiva.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Possible gender specific text required.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SYNTH_EVENT_FINISHER_PRIMING</Data></Cell>
+    <Cell><Data ss:Type="String">GENERIC</Data></Cell>
+    <Cell><Data ss:Type="String">{playerName} está preparando a Arma Apocalíptica Singularidade. Se permitirem que a concluam, sua própria Arma Apocalíptica será destruída, e {playerName} estará a um passo da vitória total!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">playername is the name of a leader in game, can be male or female.</Data></Cell>
+    <Cell><Data ss:Type="String">Possible gender specific text required.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SYNTH_END_GAME</Data></Cell>
+    <Cell><Data ss:Type="String">VICTORY_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Você alcançou a Síntese.[br/]As mentes do homem e da máquina se fundem[br/]em uma nova fase da evolução.[br/]Uma grande rede de conhecimento e ideias —[br/]ou uma prisão eterna para a alma.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">VO: Empress Carminia
+Synthesis is a state of transcendance where man is merged with machine, their consciousness merged with technology.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GUARDIAN_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Duvidoso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GUARDIAN_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Esquivando</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GUARDIAN_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Idealizado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GUARDIAN_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Super Reflexivo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GUARDIAN_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Monitorado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GUARDIAN_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Assistido</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TARGETING_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Cão de Guarda</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TARGETING_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Monitoramento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TARGETING_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Analista</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TARGETING_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Escâner de Dados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TARGETING_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Na Mosca</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TARGETING_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Aimbot</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TARGETING_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell><Data ss:Type="String">Gamer Profissional</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMPROMISE_MODULE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Comprometedor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMPROMISE_MODULE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Disruptor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMPROMISE_MODULE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Hacker de Voltagem</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMPROMISE_MODULE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Programador de Mechs</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMPROMISE_MODULE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Sabotador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COMPROMISE_MODULE</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Drenador de Dados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISABLE_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Cavalo de Troia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISABLE_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Verme</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISABLE_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Desativador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISABLE_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Lutador de Falhas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISABLE_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Lançador de DOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISABLE_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Infiltrador de Hardware</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISABLE_DAEMON_SHELL</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell><Data ss:Type="String">Programador de Hologramas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TOTAL_NETWORK_INTEGRATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Mente em Rede</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TOTAL_NETWORK_INTEGRATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Reiniciador de Vida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TOTAL_NETWORK_INTEGRATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Singularidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TOTAL_NETWORK_INTEGRATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Reciclagem de Energia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TOTAL_NETWORK_INTEGRATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Reinicializador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TOTAL_NETWORK_INTEGRATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Rejeitador da Realidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TOTAL_NETWORK_INTEGRATION</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell><Data ss:Type="String">Grande Irmão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEPLOYABLE_MALWARE_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell><Data ss:Type="String">Inceptor de Botnet</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEPLOYABLE_MALWARE_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell><Data ss:Type="String">Dia Zero</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEPLOYABLE_MALWARE_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell><Data ss:Type="String">Rootkit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEPLOYABLE_MALWARE_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell><Data ss:Type="String">Ex Machina</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEPLOYABLE_MALWARE_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell><Data ss:Type="String">Complexo de Deus</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEPLOYABLE_MALWARE_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell><Data ss:Type="String">Rei Holográfico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEPLOYABLE_MALWARE_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell><Data ss:Type="String">Príncipe dos Bytes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMPLIFY_DAEMON</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Demônio de Amplificação Integrada</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>49</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>71</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,708 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Frederick Milders</LastAuthor>
+  <LastSaved>2019-03-13T10:01:04Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12315</WindowHeight>
+  <WindowWidth>28770</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="153" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="659.25" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="282.75"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="541.5"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="299.25"/>
+   <Column ss:StyleID="s62" ss:Width="120.75"/>
+   <Column ss:StyleID="s62" ss:Width="306.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMAZON02_CAMPAIGN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_GOVERNMENT_PALACE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">QG Avium SK-51</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Avium SK-51 HQ - Headquarters on the planet</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_ARCHIVES_OF_LIGHT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tesouro dos Sóis Mil: Cripta da Alma Invicta</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_XENOLABS_FACILITY</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Instalação de Pesquisa Xeno-Amazon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_CRYOTOMBS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tumba do Descanso Penúltimo Alfa</Data></Cell>
+   </Row>
+   <Row ss:Index="11" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_ALTERNATIVE_MEASURES_STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Invadir os bancos de dados da Terratech</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_ALTERNATIVE_MEASURES_STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Leve Dema para perto do QG da Terratech e permita que ela infiltre na rede para coletar os dados.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dema Qujen, a  female Syndicate mercenary that offers the player character her services</Data></Cell>
+   </Row>
+   <Row ss:Index="14" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_BUTTON_LABEL_ACCEPT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aceitar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_BUTTON_LABEL_DECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Recusar</Data></Cell>
+   </Row>
+   <Row ss:Index="18" ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">AMA02_MISSION_START_MSG01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este é o Avium SK-51, um mundo em transformação. A superfície se modifica regularmente, mudando de forma. Devemos avançar com cautela… Nosso objetivo principal permanece inalterado: levar Berhane à justiça. Vamos persegui-lo sem descanso. Minha boa amiga, Sappho, diz que pode ajudar.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Avium SK-51 - Planet name
+
+Berhane - female Amazon character who was the old mentor of Mahina
+
+Sappho - female promethean Amazon huntress and  possible ally of the player character</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA02_MISSION_START_MSG02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Irmã {STR_LeaderFirstName}! Recebemos seu relatório de Thanakiwa. A traição de Berhane é mais grave do que qualquer um de nós esperava. Fui enviada não como rival, mas para ajudá-la como parceira. Trouxe tecnologia para combater esta Xenopraga. Juntas, capturaremos Berhane.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Mahina - Female Amazon leader
+Thanakiwa - Planet name
+Xenoplague - A secret tech that the player can access</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA02_MISSION_START_MSG02_ALT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Irmã {STR_LeaderFirstName}! A traição de Berhane é mais grave do que qualquer um de nós esperava. Fui enviada não como rival, mas para ajudá-la como parceira. Trouxe tecnologia para combater esta Xenopraga, mas, vendo-a agora, temo ter chegado tarde demais. Oh, irmã, como a praga já a corrompeu! Mantenha-se forte. Juntas, devemos levar Berhane à justiça.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA02_MISSION_START_MSG03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não poderia pedir uma parceira de batalha melhor, Sappho. Nosso treinamento lado a lado nos serve melhor do que força bruta. Quem dera tivesse seu arco em Thanakiwa. A Xenopraga infectou tudo o que tocou. Tivemos que eliminar um Kir’Ko, um dos capangas de Berhane controlado pelo parasita. Qualquer informação que já tenha reunido sobre as defesas de Berhane será útil.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA02_MISSION_START_MSG03_ALT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não poderia pedir uma parceira de batalha melhor. Nosso treinamento lado a lado nos serve melhor do que força bruta. Considere isto: escolhi adotar a Xenopraga como arma. Que melhor maneira de combater Berhane do que entender pessoalmente a fonte de seu poder? Qualquer informação que já tenha reunido sobre as defesas de Berhane será útil.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA02_MISSION_START_MSG04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Meus agentes não retornaram. Enviei dois deles para hostilizar as forças de Berhane, mas não deram sinal de vida. Se os encontrar vivos, certamente fornecerão informações cruciais sobre nossa presa. No entanto, reconheci a área e encontrei sinais de outros neste planeta. Eles poderiam ser aliados em potencial se conseguirmos convencê-los diplomaticamente.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_MISSION_START_MSG05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Obrigada, irmã. Sua perspicácia é bem-vinda. A Xenopraga é tão implacável quanto qualquer coisa que já vi antes, e me preocupo com a resistência que enfrentaremos aqui…</Data></Cell>
+   </Row>
+   <Row ss:Index="27" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_HALT_THE_TERRAFORMING_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Interromper a Terraformação</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_HALT_THE_TERRAFORMING_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Encontre uma maneira de impedir que o planeta continue terraformando sua superfície.</Data></Cell>
+   </Row>
+   <Row ss:Index="30" ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA02_TERRAFORM_EVENT_MSG01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este planeta… ele está terraformando automaticamente sua própria superfície! Isso é intrigante e preocupante, já que suas escolhas parecem aleatórias. Se pudermos poupar tempo, talvez valha a pena encontrar uma maneira de desativar esse protocolo, pois pode interferir gravemente em nossa caçada.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_LOCATE_THE_SOURCE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Localizar a Fonte</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_LOCATE_THE_SOURCE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Talvez valha a pena investigar a desativação dessa terraformação automática. Ela pode complicar nossos esforços aqui. Por outro lado, também pode prejudicar Berhane…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_LOCATE_THE_SOURCE_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Fonte de Terraformação Encontrada</Data></Cell>
+   </Row>
+   <Row ss:Index="35" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_GATHER_ALLIES_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Conquistar Aliados</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_GATHER_ALLIES_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Seria sensato encontrar outros com o objetivo comum de derrotar Berhane, se tivermos a chance de fazê-lo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_MEET_REFUGEES_MSG01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Socorro! Minha ninhada está sendo caçada e ferida por outros como você. Somos poucos. Sou o único que conseguiu buscar ajuda. Por favor, nos ajude. Estamos isolados de nossa colônia-colmeia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_MEET_REFUGEES_MSG02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Misericórdia! Por favor! Os da sua espécie infectaram nossos companheiros de colmeia com um parasita. Eles não mais se juntam a nós. Em vez disso, lutam contra nós. Eles não são da nossa colmeia…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA02_MEET_REFUGEES_MSG03_ACCEPTED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Pobres criaturas… vocês são bem-vindas para se juntar à nossa colônia. Nós as protegeremos e alimentaremos. Infelizmente, sei quem fez isso com vocês. Ela se chama Berhane. Estou aqui para pôr um fim ao sofrimento que ela causa. De onde vocês vieram? Há mais da sua espécie neste planeta?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_MEET_REFUGEES_MSG03_DECLINED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Kir'Ko? Aqui também? Sua espécie é traiçoeira. O último Kir’Ko em quem confiamos era um inimigo. Sem dúvida, você é uma armadilha de Berhane para prejudicar nossa caçada. Vá embora agora.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA02_MEET_REFUGEES_MSG04_ACCEPTED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Obrigado, humano bondoso! Nós nos juntaremos a você e ajudaremos da maneira que pudermos. Estamos aqui por causa do nosso líder de colmeia {MSTR_KIRKO_SYNTHESIS_LEADER_NAME}. Ele pousou neste planeta em busca de Xa’Kir’Ko e ficará feliz em ajudar aqueles que auxiliaram os Kir’Ko.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_MEET_REFUGEES_MSG04_DECLINED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Vamos embora agora! Não nos machuquem mais! Você prova que todos os saqueadores de sangue são iguais!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">sack-bleeders - Kir'Ko slang name for humans</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_MEET_JIKUKU_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Encontrar o Arauto da Ninhada Kir'Ko</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_MEET_JIKUKU_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Alguns refugiados Kir'Ko indicaram a direção de um Arauto da Ninhada Kir'Ko que pousou neste planeta há pouco tempo. Você poderia pedir assistência à colônia dele.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_MEET_JIKUKU_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Arauto da Ninhada Kir'Ko Encontrado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA02_MEET_JIKUKU_MSG01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ah, grande anfitriã Amazona! Ainda chilreamos de emoção! Obrigado novamente por nos guiar até nossa antiga casa, Xa'Kir'Ko! É realmente uma maravilha estar finalmente aqui. Eu, {MSTR_KIRKO_SYNTHESIS_LEADER_NAME}, escolhido como Arauto da Ninhada, o maior entre os Kir'Ko, que liderou nossa colmeia de volta para reassentar estes antigos jardins.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Xa'Kir'Ko - Home planet of the Kir'Ko</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_MEET_JIKUKU_MSG02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Abaixe as armas! Já lutamos com os da sua espécie antes e não queremos repetir isso. O que faz vocês pensarem que este é Xa'Kir'Ko? E quem os trouxe aqui com essa promessa?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA02_MEET_JIKUKU_MSG03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sua líder, Berhane, nos falou sobre este lugar glorioso. Ela nos permitiu nos estabelecer aqui, mas não voltou há algum tempo… Você poderia levar uma mensagem nossa para ela? Diga que estamos prontos para pagar a dívida que temos pelo que ela fez por nós.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA02_MEET_JIKUKU_MSG04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hmm… claro, {MSTR_KIRKO_SYNTHESIS_LEADER_NAME}. Entraremos em contato com você mais tarde.[br/][br/]Eles parecem acreditar que este é o mundo natal deles, mas não é. Talvez algumas informações na sede da Terratech possam provar isso aos Kir'Ko. Isso poderia expor o engano de Berhane, transformando {MSTR_KIRKO_SYNTHESIS_LEADER_NAME} em um possível aliado para nós.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_PROVE_TREASON_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Provar a Traição</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_PROVE_TREASON_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Se você conseguir provar que este planeta não é o mundo natal dos Kir'Ko, talvez consiga convencer o Arauto da Ninhada Kir'Ko a se juntar à sua causa contra Berhane.</Data></Cell>
+   </Row>
+   <Row ss:Index="53" ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA02_MEET_RITA_MSG01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Olá. Você é {STR_LeaderName}, certo? Fui informado de que está procurando algo… valioso dentro da sede da Avium SK-51, e ofereço minha ajuda para encontrá-lo. A sede está fortemente protegida, e eu poderia recuperar as informações que você precisa rapidamente — por um preço.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_MEET_RITA_MSG03_ACCEPT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Saudações, estranho. Sei que seu povo gosta de barganhas. Pagarei seu preço para cumprir minha missão.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_MEET_RITA_MSG03_DECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Eu não confiaria em um estranho para recuperar informações cruciais, muito menos pagaria para que ele fizesse isso. Você pode oferecer seus talentos a outros Comandantes. Só lembre-se de ficar fora do nosso caminho.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_HIRED_RITA_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pelo Bem Maior</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_HIRED_RITA_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um sinistro Sindicato chamado Dema Qujen ofereceu seus serviços para coletar dados da sede da Terratech. Pode valer a pena contratá-la, já que assim evitamos ter que lutar para entrar na sede.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dema Qujen - Syndicate mercenary that offers her services to the player character</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_HIRED_RITA_COMPLETION_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A quantidade solicitada de energia foi registrada na minha conta. Esplêndido! Então deixe-me começar...</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_ALTERNATIVE_MEASURES_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Medidas Alternativas</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_ALTERNATIVE_MEASURES_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Agora contratamos Dema Qujen, e precisamos mantê-la viva e levá-la para perto da sede da Terratech para que ela possa fazer sua 'mágica' e nos fornecer os dados de que precisamos sem derramar sangue.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Terratech HQ - It is here that a lot of research projects took place involving the Amazon.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_ALTERNATIVE_MEASURES_MSG01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Eu voltei, e tive sucesso na minha missão. Aqui estão os dados que você pediu. Foi um prazer fazer negócios com você, {STR_LeaderName} das Amazons…</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_ALTERNATIVE_MEASURES_MSG02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Obrigado, agente do Sindicato. Talvez negociemos novamente nos mercados do futuro.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA02_PROOF_FOR_JIKUKU_MSG01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{MSTR_KIRKO_SYNTHESIS_LEADER_NAME}, voltei até você com provas da natureza deste planeta. Este não é Xa'Kir'Ko. Sinto muito que você tenha sido enganado pela criminosa Berhane. Fomos enviados aqui para caçá-la e levá-la à justiça. Poderíamos usar sua ajuda.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA02_PROOF_FOR_JIKUKU_MSG02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Pah, criatura tola de carne, eu não acredito em você! Me dê esse datapad… isto não é Xa'Kir'Ko. Este é Avium SK-51. Você estava certo. Berhane mentiu para nós. Ela nos usou e matou nossa esperança! O enxame vai despedaçá-la e devorar cada último vestígio dela! À guerra, minha colônia, à guerra!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">meat-thing - Kir'Ko slang name for humans</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_PROOF_FOR_JIKUKU_MSG03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não consigo evitar sentir um pouco de pena desses Kir'Ko, mas pelo menos sua raiva será direcionada a alguém que realmente merece.</Data></Cell>
+   </Row>
+   <Row ss:Index="67" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_MEET_YURIY_MSG01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ugh, este mundo está me deixando louco! A adaptabilidade Dvar só vai até certo ponto. O planeta não pode continuar mudando as regras para nós! Quem é você, Amazon? Está com Berhane e seus seguidores infectados pela praga?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA02_MEET_YURIY_MSG02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Saudações, Diretor Dvar. Eu sou {STR_LeaderName}, e não fazemos parte do culto de Berhane. Estamos aqui para rastreá-la e capturá-la por crimes contra nosso povo. Este não é um bom momento para estar neste planeta. O que vocês vieram fazer aqui?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA02_MEET_YURIY_MSG03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bem, fico feliz que não seja uma dos loucos. Eu sou Yuriy, e também estamos aqui para deter Berhane! Sua loucura não pode ser permitida. Estamos tentando estabelecer uma posição aqui, mas o terreno em constante mudança está complicando cada pequeno esforço que fazemos!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Yuriy - Male Dvar character and possible ally to the player character</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_MEET_YURIY_MSG03_ALT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não, eu vejo nos seus olhos… você está infectado com aquela praga! Não sucumbiremos à sua insanidade! Preparem-se para a guerra!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_MEET_YURIY_MSG04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os processos de terraformação deste planeta são problemáticos, no mínimo. Talvez possamos encontrar uma maneira de desativá-lo. Se conseguirmos, você estaria disposto a se juntar à nossa luta?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA02_MEET_YURIY_MSG05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">De fato, parece um ótimo acordo! Localizamos a base de comando de onde a terraformação é coordenada, mas não conseguimos nos aproximar. Aqueles malditos Autonom de cabeça de arame estão guardando a instalação. Juro pelo meu Consórcio, se você conseguir parar o protocolo de terraformação, nós emprestaremos nossos martelos para deter a louca Berhane.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Autonom - NPC robot faction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_STOP_TERRAFORMING_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Parar a Terraformação</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_STOP_TERRAFORMING_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Yuriy pediu que você pare a terraformação planetária. Os Dvar dele podem se mostrar um aliado útil contra Berhane.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA02_HELP_DVAR_COMPLETION_MSG01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderFirstName}, você conseguiu! Obrigado por devolver a paz a este planeta. Agora podemos construir estruturas sólidas, já que a terra parou de se mover e se agitar. Pela minha honra, eu aqui prometo meus guerreiros à sua causa. Vamos esmagar aquela tola da Berhane!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_AMAZONIAN_FAVORS_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Favores Amazônicos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_FIND_AGENTS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Encontrar os Agentes de Safo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_FIND_AGENTS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Safo pediu que você localizasse algumas de suas Amazonas que ela enviou para assediar as forças de Berhane. Ela não teve notícias delas há algum tempo e espera que estejam inteiras.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_FIND_AGENTS_QUEST_OBJECTIVE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Encontrar Dido</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Dido - female Amazon character, possible ally to the player character</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_FIND_AGENTS_QUEST_OBJECTIVE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Encontrar Calíope</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Calliope - female Amazon character, possible ally to the player character</Data></Cell>
+   </Row>
+   <Row ss:Index="82" ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA02_MEET_DIDO_MSG01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Oh, bênçãos da Mãe! Estou feliz que me encontrou. Fiquei presa aqui depois que minha montaria fugiu. Eu viajo mal a pé e me sinto vulnerável sem meu Bico Veloz. Se você pudesse encontrar uma nova para mim, eu emprestaria minha força à sua vontade!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Swift Beak - Creature mount</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA02_MEET_DIDO_MSG02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Saudações, irmã. Você deve ser Dido. Estávamos procurando por você e Calíope. Estamos felizes que esteja segura e encontraremos uma montaria para você.</Data></Cell>
+   </Row>
+   <Row ss:Index="85" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_ACQUIRE_MOUNT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pegar uma Carona</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_ACQUIRE_MOUNT_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataque o bando de Bicos Velozes para capturar um deles como montaria para Dido. Sua tecnologia pode facilmente domar a fera.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_DIDO_COMPLETE_QUEST_MSG01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Obrigada, Matrona Wateka! Minha lança é sua até que Berhane seja resolvida.</Data></Cell>
+   </Row>
+   <Row ss:Index="89" ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMA02_MEET_CALLIOPE_MSG01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Salve, irmã! Você não é das forças de Berhane. Eu sou Calíope, do ramo de Safo. Rápido! Descobri a Instalação Criogênica, onde os corpos da Expedição Alfa repousam. Eles foram infectados pela primeira cepa da Xenopraga. Se puder me ajudar a entrar, posso destruir esses corpos. Isso prejudicará substancialmente a pesquisa de Berhane.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">
+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_MEET_CALLIOPE_MSG02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Salve, irmã. Safo nos falou de você. Sua intuição pode ser valiosa… Destruir a Expedição Alfa privará Berhane de seus sujeitos de teste mais valiosos.</Data></Cell>
+   </Row>
+   <Row ss:Index="92" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_ALPHA_EXPEDITION_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Destruir a Expedição Alfa</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA02_ALPHA_EXPEDITION_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Calíope descobriu uma Instalação Criogênica onde os corpos da Expedição Alfa, que primeiro encontrou a cepa Xeno, estão armazenados. Ela nos pediu ajuda para entrar na instalação e cuidar dos corpos, a fim de dificultar os planos de Berhane.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_ALPHA_EXPEDITION_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Os corpos foram destruídos.</Data></Cell>
+   </Row>
+   <Row ss:Index="96" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_ALPHA_EXPEDITION_COMPLETION_MSG01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Grande céu, irmãs! Nosso sucesso aqui aproxima a inevitável derrota de Berhane. Em retribuição à sua ajuda, eu me coloco a seu serviço. Anseio por qualquer chance de atingir aquela fora-da-lei…</Data></Cell>
+   </Row>
+   <Row ss:Index="98" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_HEADER_QUEST_END_THE_AMAZON_CONFLICT</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Condição de Vitória: Encerrar o Conflito Amazônico</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_HEADER_QUEST_END_THE_AMAZON_CONFLICT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Encerrar o Conflito Amazônico</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_HEADER_QUEST_END_THE_AMAZON_CONFLICT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você pode vencer este mapa parando Berhane.[br/][br/]Berhane Derrotada: {INT_0}/{INT_1}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_HEADER_QUEST_END_THE_AMAZON_CONFLICT</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Berhane Derrotada: {INT_0}/{INT_1}</Data></Cell>
+   </Row>
+   <Row ss:Index="104" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_DEFEAT_BERHANE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Derrote Berhane</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_DEFEAT_BERHANE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Para acabar com o conflito, Berhane deve ser levada à justiça. Essa Matriarca desvirtuada não pode ser autorizada a nos dividir. Nós somos Amazonas. Somos uma só. Nós a derrotaremos!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_DEFEAT_BERHANE_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Nós derrotamos Berhane!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_DEFEAT_BERHANE_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Derrote Berhane</Data></Cell>
+   </Row>
+   <Row ss:Index="109" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_MEET_BERHANE_MSG01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Olá, {STR_LeaderFirstName}. Eu sabia que você me encontraria eventualmente. Você sempre foi uma das minhas alunas mais persistentes. Que pena que está desperdiçando seus talentos na causa errada.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA02_MEET_BERHANE_MSG02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Chega, Berhane! Você traiu o nosso povo, devastou mundos inteiros com sua infecção! Mas o pior de tudo é que está profanando o genoma das Amazonas com seu parasita imundo. Isso tudo acaba agora. Velha mentora ou não, não haverá misericórdia desta vez.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA02_MEET_BERHANE_MSG03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Falou como uma verdadeira soldado. Não lhe ensinei a não seguir ordens cegamente? As outras Matriarcas são hipócritas. Foi a manipulação genética que permitiu à nossa raça sobreviver após a queda da Star Union, e será a manipulação genética que garantirá que as Amazonas fiquem à frente das outras facções que emergem do passado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA02_MEET_BERHANE_MSG04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sem o meu trabalho e visão, o mundo perfeito que estamos criando cairá vítima da ganância delas. As outras Matriarcas não ouviram meus avisos. Felizmente, ainda existem seres mais antigos e sábios nesta galáxia do que nossas irmãs ignorantes. Com as ferramentas que me foram dadas, uma nova geração de Amazonas imaculadas nascerá.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA02_MEET_BERHANE_MSG05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Imaculadas? Elas serão aberrações contaminadas! Eu já admirei sua inteligência afiada, Berhane. Mas parece que ambições elevadas e um ego inflado embotaram essa arma mais marcante que você empunha. Está na hora de você recuar. A nova geração sobre a qual você fala já está aqui para assumir o controle.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_MEET_BERHANE_MSG06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Suas palavras têm farpas, mas ferem o inimigo errado. Você não pode deter a evolução, {STR_LeaderFirstName}. Sua teimosia será a sua morte.</Data></Cell>
+   </Row>
+   <Row ss:Index="118" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_MEET_FEMITA_MSG01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você realmente é um espécime patético, {STR_LeaderFirstName}. Não deixarei que você ou qualquer outra pessoa se interponha entre Berhane e o pleno potencial da Xenopraga!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_MEET_FEMITA_MSG02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Eu lhe prometo uma coisa, {MSTR_SYNDICATE_XENOPLAGUE_LEADER_NAME}: se ficar no meu caminho, será esmagada e descartada como carne para cães-saltadores. Você está escolhendo ser uma inimiga da irmandade das Amazonas. Nada prevalece contra nós.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Femita - female Syndicate character</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_MEET_FEMITA_MSG03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A lei do Sindicato dita que quem der o maior lance segura as rédeas, então não posso recuar. Acho que terei que arrancar seu coração!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_FEMITA_DEFEATED_MSG01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Gah! Por que sou sempre tão apegada a contratos?! O maior lance só me levou à ruína. {STR_LeaderFirstName}, sua peste, faça o que quiser…</Data></Cell>
+   </Row>
+   <Row ss:Index="124" ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA02_BERHANE_DEFEATED_MSG_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O tempo acabou, Berhane. Reze e encontre seu criador.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_BERHANE_DEFEATED_MSG_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não, isso não pode ser! Meus filhos perfeitos, como vocês conseguiram detê-los? [br/][br/]Misericórdia… Aliuna, venha me salvar! Meu trabalho inacabado, os jardins exaltados de Ebra…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Aliuna - first name of a supposedly female character
+Ebra - name of an unknown character or location</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_BERHANE_DEFEATED_MSG_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Minha pobre Berhane, como a Cepa Alfa alterou suas feições outrora belas. Você se esforçou demais — nem todos os caminhos levam à salvação. Descanse agora. Durma e sonhe com a Regenesis.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Alpha Strain - name of the Xenoplague parasite</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AMA02_BERHANE_DEFEATED_MSG_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aliuna… por favor… [br/][br/](Antes que suas tropas possam tentar tocar Berhane, seu corpo estremece em um clarão de luz azul-esverdeada e cai sem vida no chão.)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Aliuna - first name of a supposedly female character</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA02_BERHANE_DEFEATED_MSG_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lança e bico-de-serra! Nossa caçada chegou a um fim bem-sucedido. Ainda assim, não posso ignorar o que acabamos de testemunhar. Berhane não estava sozinha em seus esforços. Alguém lhe deu os meios para experimentar com a Xenopraga — e agora esse alguém garantiu que ela fosse silenciada antes que pudesse revelar mais.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shrike and spear! - an Amazon war cry (Shrike is the Amazon scout unit)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA02_BERHANE_DEFEATED_MSG_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bem lutado, {STR_LeaderName}. Com a morte de Berhane e sua praga, a luz da ordem retornou a Avium SK-51. A CORE está enviando suas congratulações. Suspeito que nos encontraremos novamente no futuro. Que os ensinamentos Celestianos o guiem.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Avium SK-51 - name of the planet</Data></Cell>
+   </Row>
+   <Row ss:Index="132" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_SAPPHO_BETRAYED_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Irmã {STR_LeaderFirstName}, por que está desertando? O veneno de Berhane envenenou sua mente a ponto de se voltar contra seus amigos e aliados? Quando tudo isso acabar, espero que a paz a encontre.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AMA02_FRANK_DEFEATED_MSG</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Peste. Praga. A pureza do espírito Celestiano me protegerá dos sussurros imundos da morte. Lembre-se de seus erros quando nos encontrarmos novamente, {STR_LeaderName}.</Data></Cell>
+   </Row>
+   <Row ss:Index="136" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_JIKUKU_DEFEATED_MSG</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Espasmo… espasmo… minhas pernas… estão anunciando a morte final.</Data></Cell>
+   </Row>
+   <Row ss:Index="139" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_TERRAFORM_HEADER_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Comunicado da Terratech</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_TERRAFORM_ARCADIAN_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Atenção! Protocolo global de terraformação iniciado! O planeta será convertido em terreno Arcadiano!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_TERRAFORM_ARCTIC_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Atenção! Protocolo global de terraformação iniciado! O planeta será convertido em terreno Ártico!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_TERRAFORM_FUNGAL_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Atenção! Protocolo global de terraformação iniciado! O planeta será convertido em terreno Fúngico!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_TERRAFORM_ARID_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Atenção! Protocolo global de terraformação iniciado! O planeta será convertido em terreno Árido!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_TERRAFORM_BADLANDS_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Atenção! Protocolo global de terraformação iniciado! O planeta será convertido em terreno Badlands!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMA02_TERRAFORM_COMPLETED_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ciclo de terraformação concluído! Fiquem atentos para futuros comunicados de teste!</Data></Cell>
+   </Row>
+   <Row ss:Index="148" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_MAHINA_TOWARDS_BERHANE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Missão para deter Berhane; ex-protegida</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_MAHINA_TOWARDS_SAPPHO</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Treinamento de Matriarcas com amigas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_BERHANE_TOWARDS_MAHINA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ex-mentora</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_FEMITAE_TOWARDS_MAHINA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Contratado para proteger Berhane</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_MAHINA_HAS_XENOPLAGUE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Infectado com Xenopraga</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CASUS_BELLI_CHANGING_AMAZON_GENOME</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Corrompendo o DNA das Amazonas</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>114</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>119</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

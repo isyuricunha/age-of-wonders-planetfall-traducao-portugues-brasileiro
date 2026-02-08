@@ -1,0 +1,524 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Lars Otten</LastAuthor>
+  <LastSaved>2019-04-16T14:26:17Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14235</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s66" ss:Parent="s62">
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="52" x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:Width="117.75"/>
+   <Column ss:StyleID="s63" ss:Width="84.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="414.75"/>
+   <Column ss:StyleID="s63" ss:Width="144.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="192" ss:Span="1"/>
+   <Column ss:Index="7" ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="414.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SPECIES_ASSEMBLY</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RACE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME_SINGULAR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RACE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME_PLURAL</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="109.5">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RACE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s66" ss:HRef=""><Data ss:Type="String">{XML_SPECIES_ASSEMBLY@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]Bônus Inicial:[/sand] Comece com +20[tricorium/] [hyperlink,0000039F000024D8]Cosmita[/hyperlink][/bullet][bullet][sand]Bônus de Longo Prazo:[/sand] Sem atraso ao aplicar[hyperlink,0000039E00000063]Mods de Unidade[/hyperlink] em unidades.[/bullet][bullet][hyperlink,0000039E0000000D]Arc[/hyperlink] Grupos de Armas[/bullet][bullet][hyperlink,0000039E0000000F]Armas de Fogo[/hyperlink] Grupos de Armas[/bullet][bullet]Reconstrua unidades caídas, trazendo-as de volta à vida[/bullet][bullet]Recupere recursos do campo de batalha[/bullet][bullet]Excelentes capacidades de pesquisa[/bullet][bullet]Habilidade Racial: Resistência natural a [damagewave/]Dano Arc.[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The {text} inserts the DESCRIPTION_SHORT text below.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="49.5">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RACE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION_SHORT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">A [hyperlink,0000039E00000018]Assembly[/hyperlink] é uma raça de ciborgues nascida da destruição. Essas pessoas buscam levar sua recém-encontrada paz ao universo, desmantelando o caos da galáxia e remontando-o em um novo todo perfeito.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CAMP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Assentamento Assembly</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CAMP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Um assentamento é uma pequena colônia independente que pode se juntar a você se tiver influência suficiente.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Migrar Colônia: Assembly</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="47.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Migre a população desta colônia para Assembly. A colônia se tornará uma colônia Assembly.[br/][br/][fireCol]Ao migrar a população, {PopulationDeath} dos colonos da colônia serão mortos.[/fireCol] [br/][br/]Você recebe:[br/][fireCol]{Reputation} Reputação[br/]{RaceRelation} Relação Racial com a {STR_raceName}[/fireCol]</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">A colônia está sendo migrada para uma população Assembly. O processo será concluído em [INT_duration].</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CONFIRMATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Tem certeza de que deseja migrar esta colônia para uma colônia Assembly?</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">INSPECTOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Inspetor</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">INSPECTOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Já conversou com um Inspetor? Eu conversei. Estava fugindo. A Assembly enviou dezenas de batedores flutuantes de três cabeças para procurar fugitivos. Era impossível se esconder de três cabeças. Enquanto sua vara-arc carregava, eu me arrastei e implorei por misericórdia. Sou pequeno, sem vergonha e totalmente inofensivo. Talvez seja por isso que ele reclamou comigo. Odiava seu trabalho. A segunda cabeça mandou a primeira calar a boca. Uma discussão se seguiu — três cabeças culpando umas às outras por sua situação. Aparentemente, ser equipado como Inspetor é uma espécie de punição. Foi assim que consegui escapar.” — Mah Reg’Nib, “RV-2224X: Fugitivo!”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SCAVENGER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Catador</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SCAVENGER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Minha mãe costumava contar histórias de ghouls saqueando criptas de cemitérios, famintos para se banquetear com os mortos. Suas histórias me assombravam quando eu via os Catadores da Assembly vagando por campos de batalha perdidos, colhendo carne dos caídos. Como infantaria básica da Assembly, um de seus braços é substituído por uma espingarda de curto alcance. No entanto, os Catadores não comem carne. Eles usam suas longas garras de vivissecção para amputar partes viáveis do corpo para transplante. Minha perna esquerda foi removida abaixo do joelho em um desses encontros infelizes. Em algum lugar por aí, uma parte de mim luta pelo meu inimigo.” — Mazer Ritalli, “RV-9912M: Avalanche Sintética”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: removed comma after "ghouls"</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">VORPAL_SNIPER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Atirador Vorpal</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">VORPAL_SNIPER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Avaliação de Desafio: alvo ameaça autoimolação; ativos orgânicos escondidos em uma refinaria de combustível abandonada. Combustível residual suficiente para destruir ativos orgânicos.[br/]Avaliação Preditiva de Dano (APD) estima perda potencial de todos os ativos orgânicos.[br/]Solução Alternativa Tática (SAT): implantar Atiradores Vorpal. Ataques de Alcance para Enfraquecer e Desativar são necessários.[br/]Avaliação Preditiva de Contra-ataque: contraofensiva corpo a corpo tentará cercar os Atiradores Vorpal. Contraofensiva expõe ativos orgânicos à captura. SAT mantém.[br/]Ação Selecionada: implantar Atiradores Vorpal.” — OC(H)Hypercore-Nó de Decisão Tática (NDT), “RV-234445C: Pseudocódigo Interpretado da Assembly”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: Targeted -&gt; targeted
+Edit: added space before "(PDA)"
+Edit: Deploy -&gt; deploy
+Edit: Melee Counteroffensive -&gt; melee counteroffensive
+Edit: Deploy -&gt; deploy</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ELECTROCUTIONER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Eletrocutador</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ELECTROCUTIONER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Avaliação de Desafio: Revisão Anual classifica todos os membros da Assembly em categorias de conformidade e eficiência para comparação com a Matriz de Análise de Custo-Benefício. Diretiva do link Hypercore exige que os 10% inferiores sejam eliminados da Assembly. Todas as partes orgânicas e mecânicas devem ser recicladas.[br/]Avaliação Preditiva de Dano (APD): subdesempenhados possuem níveis perigosos de independência. Potencial rebelião invoca dano inaceitável aos ativos da Assembly.[br/]Solução Alternativa Tática (SAT): implantar Eletrocutadores. EMP e atordoadores elétricos desativarão unidades para desmontagem.[br/]Avaliação Preditiva de Contra-ataque: forte descarga elétrica deixa o corpo preparado para coleta, desmontagem, remontagem e reatribuição.” — OC(H)Hypercore-Nó de Decisão Tática (NDT), “RV-234445C: Pseudocódigo Interpretado da Assembly”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: Underperformers -&gt; underperformers
+Edit: Deploy -&gt; deploy
+Edit: Strong Electrical -&gt; strong electrical</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ENGINEER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Engenheiro Reverso</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ENGINEER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Peças são peças. Carne é carne.[br/]Osso é osso e cabeças são cabeças![br/]Tecidos são o problema, músculo, gordura, nervos, ligamentos.[br/]Peles — não importa se perderam a pigmentação.[br/]Todos os unguentos, fluidos e ícor.[br/]Bombas e engrenagens os misturam mais espessos.[br/]Peças são peças. Carne é carne.[br/]Osso é osso e cabeças são cabeças![br/]Vamos criar vida a partir dos mortos.” — Reaverson Rux, “RV-68791E: Canção da Assembly - Engenheiro Reverso”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WRECKER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Destruidor</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WRECKER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Avaliação de Desafio: alvo designado oculto atrás de uma barricada. Pontos de estrangulamento tornam o número de assaltantes irrelevante.[br/]Avaliações Preditivas de Dano (APD): Altas Baixas.[br/]Solução Alternativa Tática (SAT): implantar Destruidores. Esmagar todos os obstáculos. Quebrar a casca externa e coletar as riquezas escondidas ali. Horda de assalto pode fornecer apoio para colher um contra-enxame.[br/]Avaliação Preditiva de Contra-ataque: a colônia irá atacar o Destruidor com ataques corpo a corpo, mas o Destruidor pode executar a manobra Wild Strike. Composição forte. Multidões não passam de mais um obstáculo. SAT mantém-se. [br/]Ação Selecionada: implantar Destruidores.”— OC(H)ypercore-Nó de Decisão Tática (NDT), “RV-231567C: Pseudocódigo Interpretado da Assembly”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: Targeted -&gt; targeted
+Edit: Deploy -&gt; deploy
+Edit: The -&gt; the
+Edit: Strong -&gt; strong
+Edit: Deploy -&gt; deploy</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DISASSEMBLER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Desmontador</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DISASSEMBLER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Já vi muitos corpos torturados reunidos pela Assembly. Tanto sofrimento e morte. A maioria das formas de vida sensatas sabe que a Assembly não é amiga dos vivos. Ainda assim, quando vi o Desmontador disparar sua arma massiva, reconheci um prazer distorcido em seu rosto sorridente. Foi quando soube. Alguns humanos se juntaram à Assembly por vontade própria. Há uma linhagem da humanidade apaixonada por armas. Eles adoram descarregar-se. Desmontadores amam explodir coberturas, então se esconder atrás de obstáculos vai te matar. Meu conselho tático é simples: corra e continue correndo.”— Mah Reg’Nib, “RV-2222X: Fugitivo!”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: period after "gun" changed to comma</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LIGHTNING_RIDER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Cavaleiro Relâmpago</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LIGHTNING_RIDER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Esperávamos que a Assembly fracassasse na areia ou ficasse sem energia nos ermos tóxicos. Foi quando vimos pela primeira vez o Cavaleiro Relâmpago pairando no horizonte. Uma gaiola de Faraday básica protege suas partes orgânicas, enquanto ao redor de suas bordas ele coleta energia das nuvens com hastes de relâmpago. No início, ficou parado no céu, coletando os raios. Então, um arco estrondoso de energia elétrica saltou para o nosso centro. Eles se dispersaram, apesar dos meus apelos para que revidassem. Esperavam superar um relâmpago?”— Mah Reg’Nib, “RV-2223X: Fugitivo!”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: they collect -&gt; it collects
+Edit: removed extra space before "At first"
+Edit: added comma after "scattered"</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CONSTRUCT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Constructo</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CONSTRUCT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Abandonei o corpo sem vida de Jaraon ao recuar da Assembly. Apesar dos esforços diplomáticos e de suas alegações de nos ajudar, eles continuam a nos massacrar. Eu testemunhei o que fizeram com o corpo de Jaraon. Ele foi fundido a um constructo de alavancas e apêndices aracnídeos. Seu sorriso se contorceu quando algo naquele emaranhado de marionetes me reconheceu. Então, como se lembrasse de sua vida, ele soltou um grito: ‘Fuja!’ Ele se contorceu e avançou aos tropeços enquanto uma série de garras se erguiam em minha direção. Eu fugi enquanto meus guardas atacavam. Crivado de balas, meu querido amigo se autodestruiu.”— Capitã Addria Alethra, “RV-4456M: Encontros”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ADVANCED_CONSTRUCT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Constructo Avançado</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ADVANCED_CONSTRUCT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Abandonei o corpo sem vida de Jaraon ao recuar da Assembly. Apesar dos esforços diplomáticos e de suas alegações de nos ajudar, eles continuam a nos massacrar. Eu testemunhei o que fizeram com o corpo de Jaraon. Ele foi fundido a um constructo de alavancas e apêndices aracnídeos. Seu sorriso se contorceu quando algo naquele emaranhado de marionetes me reconheceu. Então, como se lembrasse de sua vida, ele soltou um grito: ‘Fuja!’ Ele se contorceu e avançou aos tropeços enquanto uma série de garras se erguiam em minha direção. Eu fugi enquanto meus guardas atacavam. Crivado de balas, meu querido amigo se autodestruiu.”— Capitã Addria Alethra, “RV-4456M: Encontros”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">REAVER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Devorador</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">REAVER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“A Assembly foi criada para nos salvar de uma praga virulenta. Nunca imaginamos que nossa criação se voltaria contra nós. Se minha pesquisa estiver correta, isolei nosso erro de cálculo na programação motivacional da Assembly. Há uma… presença… no ‘(I)nteligência (N)eural (I)nterface &amp; (O)racular (C)onsciência (H)ipernúcleo’. A Assembly adaptou os hipernúcleos para controlar um enxame ciborgue que pode se reunir como o mortal Devorador. Sua fome cresce e se replica até que nada reste. Transmito este aviso para o Vazio. Não podemos derrotá-los. Talvez vocês consigam. Lutamos contra a fome da morte em si.”— Professor Lister Tan, “RV-3369C: Fragmentos do Posto de Escuta Zexxyn-3”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_SHIFTER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Estrangulador</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PHASE_SHIFTER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“A Assembly veio atrás de nós naquela noite. Reunimos os moradores em um nó defensivo. Vasculhando o campo de batalha, eles avançaram. Por um momento, pensamos que poderíamos destruir aqueles mecanismos horríveis. Charlie, que deveria explodir o portão, simplesmente congelou. Seu rosto se contorceu de terror quando uma segunda cabeça apareceu acima dele. Correias elétricas crepitantes o envolveram. Era como se o horrível Estrangulador puxasse o pobre homem para fora da realidade. Muitos de nossos tiros passaram por eles como se ele estivesse se transformando em uma miragem. Ele o consumiu.”— Mazer Ritalli, “RV-9912M: Avalanche Sintética”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WARSHIP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Andarilho da Tempestade</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">WARSHIP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Os navios da morte trouxeram a escuridão. Tentamos manter nossas barcaças seguras, mas os navios Andarilhos da Tempestade da Assembly trazem uma barragem paralisante de relâmpagos do coração das nuvens ameaçadoras, deixando nossos defensores mais fortes entorpecidos e incapazes de revidar. A cada disparo de seus canhões de arco, os navios da Assembly atingem nossas embarcações. Sua artilharia de Arco devastou nosso apoio aéreo, atacando com precisão sobrenatural. Como lutar contra esse novo inimigo? Esse inimigo pode se reconstruir a partir dos destroços dos nossos caídos.”— Miliciano Toffee Smith, “RV-3425M: Ecos dos Caídos: Testemunhos”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: arc -&gt; Arc</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SUPPORT_SHIP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Navio Destruidor</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SUPPORT_SHIP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“A Assembly encheu nossa única rota de fuga pelo mar com armadilhas explosivas. Os Navios Destruidores constroem Navios de Demolição a partir dos restos de maquinário pesado que caiu defendendo o porto. Eles nos cercam em terra, nos observando como abutres famintos. A terra se estilhaça com o estrondo ensurdecedor do Tiro Destruidor do navio. Os canhões ferroviários transformam o cais em lascas. Já vi como eles juntam os vivos com as ruínas de nossas armas quebradas para formar uma nova geração deles.”— Dolat Dolor, Mestre do Porto, “RV-3426M: Ecos dos Caídos: Testemunhos”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: "boom of the Wrecking ship's" -&gt; "boom of the ship's"</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DEMOLITION_SHIP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Constructo Aquático</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DEMOLITION_SHIP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Eu nunca quis ser uma bomba flutuante. Mamãe queria que eu fosse para a faculdade, mas eu queria ser pescador. Quando o Navio Destruidor chegou e começou a despedaçar os barcos, tentei nadar para longe quando um braço mecânico se estendeu e decepou minha cabeça, soldando-me na frente de um ninho de alavancas e explosivos. Eles enfiaram algo no meu cérebro. Estão me dizendo que devo explodir agora. Não sei por quanto tempo conseguirei resistir. Eu deveria ter ouvido minha mãe.”— Pescador Manuel Morris, “RV-46443D: Montagem de Cabeças”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CHOPPER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Moto-serra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">CHOPPER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Perdi a maioria das minhas partes do corpo, e admito que nunca mais vou sentir o vento batendo nos meus cabelos, porque substituí a maior parte do meu couro cabeludo por módulos de conformidade e hipernúcleos de pacotes de habilidades. Nunca me sinto mais humano do que quando subo na minha moto. Claro, as lâminas giratórias nas rodas me lembram de dissecar qualquer um que ouse bloquear meu caminho. Mas então o motor ruge e a Moto-serra acelera pela estrada. Por um momento, lembro-me da vida antes de ser dissecado.” — T3X @lam0, “RV-8845M: Individualidade e Outros Traços de ID Puníveis”</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ARC_COIL</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bobina de Arco</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ARC_COIL</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bobinas de Arco são as torres de defesa das colônias da Assembly.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">PLANET_ARRIVAL</Data></Cell>
+    <Cell><Data ss:Type="String">LOG</Data></Cell>
+    <Cell><Data ss:Type="String">Saudações, emissário da Assembly. A destruição gera criação — isso é certo. Das ruínas do Império, surgiu o seu tipo único. Vocês forjaram unidade ao se fundirem com máquinas e transplantarem as partes do corpo de seus inimigos. Antes de remontar toda essa galáxia despedaçada, lembrem-se de que cada mundo tem vida que merece ser preservada. Nem todos os seres são servis. Vocês enfrentarão resistência.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Empress Carminia - Female
+
+Edit: "creation that is for sure" -&gt; "creation - that is certain"
+Edit: "servile, you" -&gt; "servile. You"</Data></Cell>
+   </Row>
+   <Row ss:Index="52" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SWARM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Enxame</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>3</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>6</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

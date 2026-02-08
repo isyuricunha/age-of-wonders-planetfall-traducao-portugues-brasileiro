@@ -1,0 +1,503 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <Created>2020-06-25T12:19:28Z</Created>
+  <LastSaved>2020-07-27T13:37:15Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7308</WindowHeight>
+  <WindowWidth>23040</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="73" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="291" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="135.6"/>
+   <Column ss:StyleID="s62" ss:Width="204"/>
+   <Column ss:StyleID="s62" ss:Width="305.39999999999998"/>
+   <Column ss:StyleID="s62" ss:Width="150"/>
+   <Column ss:StyleID="s62" ss:Width="300.59999999999997"/>
+   <Column ss:StyleID="s62" ss:Width="120.60000000000001"/>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">OATHBOUND_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">OATHBOUND_SKILLS</Data></Cell>
+    <Cell><Data ss:Type="String">GROUP_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Juramentados</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tech Group Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dever de Proteção</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Doctrine Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ganhe {relationBonus} e {influenceBonus} em missões, além de {bonus} adicional para cada nível de [reputation6/] acima de Neutro.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Doctrine description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_1_ALT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Previsões Pré-Batalha</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Doctrine Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_1_ALT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades iniciam a batalha com {numStacks} pilha de [abilityblue]Precognição[/abilityblue].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Doctrine description
+Seer units is a specific type of support unit for the Oathbound
+Precognition is a buff that allows you do evade an attack</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mérito do Arquivista</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Doctrine Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades com [abilityblue]Guardião de Registros[/abilityblue] agora concedem {extraXP} a todas as unidades, exceto Heróis, em vez de {baseXP}.[br/]Também concede [abilityblue]Guardião de Registros[/abilityblue] a unidades Videntes.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Doctrine description
+Record Keeper is a special trait for Seers granting extra XP to other units</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lealdade à Bandeira</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Doctrine Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Inicie todos os combates com {bannerCount} Estandarte do Guardião, que dura até o fim do combate. Obtenha a habilidade de controlar os alvos de todos os Estandartes Juramentados.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Doctrine description
+Banners are special units that provide support abilities the players cannot manually target without this doctrine</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Honra e Unidade</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Doctrine Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_4_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Colonos nos slots [food/] e [happiness/] produzem {bonusIncome} de seu respectivo recurso por nível de [reputation6/] acima de Neutro.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Doctrine description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_5_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Utopia Protegida</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Doctrine Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_5_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Colônias ganham {happinessBonus}. Unidades de Traje de Batalha em domínio amigo {healthbonus} e {armorandshieldbonus}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Doctrine description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_5_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem {healthbonus} e {armorandshieldbonus}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Doctrine effect description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_6_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cruzada dos Videntes</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Doctrine Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_6_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todos os ataques dos Videntes agora causam {damagebonus} de dano extra e têm {strengthChanceSingle}% de chance de força ({strengthChanceRepeating}% de chance de força para ataques repetidos) de aplicar [abilityred]Decaimento Entrópico[/abilityred].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Doctrine description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_6_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{damagebonus} de dano extra e {strengthChanceSingle}% de chance de força ({strengthChanceRepeating}% de chance de força para ataques repetidos) de aplicar [abilityred]Decaimento Entrópico[/abilityred].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Doctrine effect description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_6_MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{strengthChanceSingle}% de chance de força de aplicar [abilityred]Decaimento Entrópico[/abilityred].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Doctrine effect description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_7_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">O Trono</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Doctrine Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">GOVERNANCE</Data></Cell>
+    <Cell><Data ss:Type="String">GOVERNANCE_7_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Libera a estrutura de colônia Trono.[br/]O Trono habilita bônus adicionais para Senhores da Colônia.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Doctrine description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vislumbre Momentâneo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tactical Operation name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade aliada alvo ganha [abilityblue]Providência[/abilityblue] por {turnTimer}, concedendo-lhe +100% de chance de crítico. A chance de crítico de uma unidade nunca pode exceder a chance de acerto de seu ataque.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tactical Operation description
+Providence is a buff that allows units to always critically hit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lançar Estandarte de Cura</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tactical Operation name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lança um Estandarte de Cura voador, curando unidades aliadas em um raio de {launchHexRad} hexágonos ao ser lançado por {healamount}. O Estandarte escolhe aleatoriamente uma unidade aliada dentro de {hexrad} hexágonos e a cura por {healamount} a cada [turn/]. O Estandarte de Cura dura por {turntimer}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tactical Operation description </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_3_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Protocolo Defensivo de Traje de Batalha</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tactical Operation name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_3_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades aliadas de Traje de Batalha em um raio de {hexrad} hexágonos são curadas por {healingamount} e recebem {shieldbonus} por {turns}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tactical Operation description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Recalibrar Probabilidades</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tactical Operation name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_4_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Concede a unidades aliadas em um raio de {hexrad} hexágonos [abilityblue]Contra Todas as Probabilidades[/abilityblue] por {turns}. Durante esse tempo, sempre que forem atingidas por um ataque dentro do alcance {hexrange}, ganham a habilidade [abilityblue]Ataque Rápido[/abilityblue]. [abilityblue]Ataque Rápido[/abilityblue] será removido se não for usado após {retaliateTurn}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tactical Operation description
+Against All Odds is a buff that increases evasion when close to many enemies</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_4_PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Probabilidades Recalibradas</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tactical Operation name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_4_PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade possui [abilityblue]Contra Todas as Probabilidades[/abilityblue] e ganhará a habilidade [abilityblue]Ataque Rápido[/abilityblue] quando for atingida por um inimigo dentro do alcance {hexrange}. [abilityblue]Ataque Rápido[/abilityblue] será removido se não for usado após {retaliateTurn}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tactical Operation description
+Quick Strike is a quick free attack</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_5_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Efeito Borboleta</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tactical Operation name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_5_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade inimiga alvo recebe [abilityred]Fatalismo[/abilityred] e [abilityred]Efeito Borboleta[/abilityred] por {turns}: quando esta unidade morrer, unidades aliadas a ela em um raio de {hexrad} hexágonos têm uma chance de {strengthchance} de força para ganhar [abilityred]Fatalismo[/abilityred] e [abilityred]Efeito Borboleta[/abilityred] por {turns}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tactical Operation description
+Fatalism is a debuff that causes you to fail all resistance checks</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_5_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Quando esta unidade morrer, unidades aliadas a ela em um raio de {hexrad} hexágonos têm uma chance de {strengthchance} de força para ganhar [abilityred]Fatalismo[/abilityred]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Butterfly Effect description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_5_EFFECT_PREVIEW_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Efeito Borboleta / Fatalismo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_6_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Apressar o Fim</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tactical Operation name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_6_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades inimigas em um raio de {hexrad} hexágonos recebem {entropyDamage}.[br/] Unidades de nível 1, 2 e 3 com [br/]Fatalismo[abilityred] ou [/abilityred]Adversidade[abilityred] têm uma chance de [/abilityred] de força para serem mortas instantaneamente.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tactical Operation description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_7_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Infortúnio Errático</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tactical Operation name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TACTICAL_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">TACTICAL_OP_7_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades inimigas em um raio de {hexrad} hexágonos recebem {entropydamage} de dano e uma chance de {strengthchance} de força para receber [abilityred]Fatalismo[/abilityred] ou [abilityred]Adversidade[/abilityred] por {turns}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Tactical Operation description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Programa Protetor</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation name </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um Protetor Paladino patrulhará a colônia aliada alvo. Quando exércitos aliados lutarem na colônia aliada alvo, um Protetor Paladino os auxiliará em combate. O Protetor desaparece ao final do combate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Esta colônia agora está protegida por um Protetor Paladino em patrulha. Ele auxiliará aliados em combate e desaparecerá ao final da batalha.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation success description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_1_COMBAT_PROPERTY</Data></Cell>
+    <Cell><Data ss:Type="String">O defensor é auxiliado por um Protetor Paladino.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation combat description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tribulação Direta</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation name </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades no exército inimigo recebem [abilityred]Adversidade[/abilityred] por {strategicTurns} no início do próximo combate. Unidades neste exército sofrem {hpDamage} de seu [hp/] atual.[br/]Se falharem, apenas causam {hpDamage} de seu [hp/] atual.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade recebe [abilityred]Adversidade[/abilityred] por {turnCount} no início do próximo combate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation description
+Adversity is a debuff that fumbles attacks</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_ARMY_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades neste exército ganham [abilityred]Adversidade[/abilityred] por {turnCount} no início do próximo combate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation army effect description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Conseguimos tribular o inimigo com sucesso, causando dano e fazendo com que ganhem [abilityred]Adversidade[/abilityred] no início do próximo combate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation success description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Apenas conseguimos tribular parcialmente o inimigo, causando dano sem lhes dar [abilityred]Adversidade[/abilityred] em combate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation failure description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">O inimigo conseguiu tribular nossos exércitos com sucesso, causando dano e fazendo com que ganhem [abilityred]Adversidade[/abilityred] no início do próximo combate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation success description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_2_TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">O inimigo apenas conseguiu tribular parcialmente nossos exércitos, causando dano.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation failure description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_1_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Elevar a Protetor</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation name </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_1_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O exército aliado alvo evolui um Aspirante Paladino de Patente Prime [medalgold/] para Protetor Paladino. Ele ganha permanentemente resistência a {statusEffectResistance} efeitos de status.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation description
+Aspirant, Warden and Protector are Paldin unit types</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">FRIENDLY_ASPIRANT</Data></Cell>
+    <Cell><Data ss:Type="String">Selecione uma pilha aliada com Aspirante Paladino de Patente Prime</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation casting instructions</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_1_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">O Aspirante Paladino evoluiu para Protetor Paladino e ganhou resistência a {statusEffectResistance} efeitos de status.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation success description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_2_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Elevar a Guardião</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation name </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_2_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O exército aliado alvo evolui um Aspirante Paladino de Patente Prime [medalgold/] para Guardião Paladino. Ele ganha permanentemente resistência a {statusEffectResistance} efeitos de status.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation description
+Aspirant, Warden and Protector are Paldin unit types</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_3_2_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">O Aspirante Paladino evoluiu e ganhou resistência a {statusEffectResistance} efeitos de status.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation success description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Veterano Juramentado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Property name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem resistência {statusResistance} a todos os efeitos de status.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Property description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Intervenção</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation name </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Todas as unidades na pilha ganham [abilityblue]Resurgência[/abilityblue] e [abilityblue]XP dobrado[/abilityblue] por {strategicturn} estratégico [turn/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">As unidades no exército alvo ganharam [abilityblue]Resurgência[/abilityblue] e [abilityblue]XP dobrado[/abilityblue] por {strategicturn} estratégico [turn/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation success description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_4_EFFECT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem [abilityblue]Resurgência[/abilityblue] e [abilityblue]XP dobrado[/abilityblue].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation effect description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Orientação do Oráculo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation name </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A colônia amiga alvo tem {incomeBonus} [production/] e renda de [research/]. Unidades produzidas nesta colônia começam com {rankBonus} [medaliron/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Esta colônia tem {incomeBonus} [production/] e renda de [research/].[br/]Unidades produzidas nesta colônia começam com {rankBonus} [medaliron/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation success description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_RANK_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades produzidas nesta colônia começam com {rankBonus} [medaliron/].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Colony bonus description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">STRATEGIC_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">STRATEGIC_OP_5_EFFECT_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Esta colônia agora está sob a orientação direta do Oráculo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Strategic Operation success description</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>85</Zoom>
+   <Selected/>
+   <TopRowVisible>36</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>40</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

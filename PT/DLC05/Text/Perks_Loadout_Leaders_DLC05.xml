@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <LastSaved>2020-07-07T15:19:40Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12789</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="19" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="258" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="201.85714285714283"/>
+   <Column ss:StyleID="s62" ss:Width="66.857142857142861"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="463.71428571428572"/>
+   <Column ss:StyleID="s62" ss:Width="147.85714285714283"/>
+   <Column ss:StyleID="s62" ss:Width="221.14285714285717"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">LOADOUT_PERKS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento Básico Oathbound</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">BASIC_TRAINING_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O kit padrão que você recebeu após o treinamento básico.[br/][br/]O kit inclui:[br/]Uma [AbilityGreen]Lança de Volt[/AbilityGreen] que causa [DamageWave/] dano de Arco repetidamente a curta distância.[br/]Um [AbilityGreen]Revólver de Entropia[/AbilityGreen] que causa [DamageEntropy/] dano de Entropia.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Volt Pike and Volt Pistol are Oathbound weapons</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento de Combate Corpo a Corpo Oathbound</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">CLOSE_COMBAT_TRAINING_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O kit que você recebeu após o treinamento de Combate Corpo a Corpo.[br/][br/]Este treinamento avançado concede as seguintes habilidades:[br/][AbilityGreen]Especialista em Combate Próximo I[/AbilityGreen] - aumenta o dano causado ao usar Armas de Corpo a Corpo.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta seu máximo de [hp/].[br/][br/]O kit inclui:[br/][AbilityGreen]Lança de Volt[/AbilityGreen] que causa [DamageWave/] dano de Arco repetidamente a curta distância.[br/]Uma [AbilityGreen]Bomba Estática[/AbilityGreen], que, quando usada, causa [DamageWave/] Dano de Arco em um raio de 1 hex.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Text between {} should NOT be localized as they are numerical values in-game. Text between [] should NOT be localized as they are either icons or text formatting
+
+EXAMPLE: "Hero gains {PersonaAccDmg} increased damage and accuracy " looks in-game like "Hero gains +5 increased damage and accuracy"</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Veículo Paladino Protetor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">ASSAULT_TRAINING_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O [AbilityGreen]Protetor[/AbilityGreen] é um veículo de batalha corpo a corpo feito especificamente para proteger seus aliados.[br/][br/]Você possui a seguinte habilidade:[br/][AbilityGreen]Pilotagem[/AbilityGreen] - permite que o Comandante pilote veículos básicos e montarias.[br/][br/]O equipamento inclui:[br/]Seu [AbilityGreen]Protetor[/AbilityGreen], que possui poderosas capacidades corpo a corpo de [Damagewavel/] Arco.[br/]Uma [AbilityGreen]Pistola de Volt[/AbilityGreen], que, quando usada, causa [Damagewave/] dano de Arco em um único alvo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Protector is an Oatbound vehicle unit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Veículo Paladino Guardião</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SHARPSHOOTER_TRAINING_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O [AbilityGreen]Guardião[/AbilityGreen] é um veículo de batalha dedicado a ataques de médio alcance e suporte.[br/][br/]Você possui a seguinte habilidade:[br/][AbilityGreen]Pilotagem[/AbilityGreen] - permite que o Comandante pilote veículos básicos e montarias.[br/][br/]O equipamento inclui:[br/]Seu [AbilityGreen]Guardião[/AbilityGreen], que possui poderosas capacidades de ataque à distância de [Damagewave/] Arco.[br/]Uma [AbilityGreen]Bomba Estática[/AbilityGreen], que, quando usada, causa [DamageWave/] Dano de Arco em um raio de 1 hex.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Warden is an Oathbound vehicle unit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DAREDEVIL_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Veículo Paladino Senhor da Guerra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">DAREDEVIL_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O [AbilityGreen]Senhor da Guerra[/AbilityGreen] é um veículo de batalha corpo a corpo móvel concedido a você por sua demonstração de habilidade em combate.[br/][br/]Você possui as seguintes habilidades:[br/][AbilityGreen]Pilotagem[/AbilityGreen] - permite que o Comandante pilote veículos básicos e montarias.[br/][AbilityGreen]Especialista em Combate Próximo I[/AbilityGreen] - aumenta o dano causado ao usar Armas de Corpo a Corpo.[br/][br/]O equipamento inclui:[br/]Seu [AbilityGreen]Senhor da Guerra[/AbilityGreen], que possui poderosas capacidades de [DamageWave/] Arco e movimento.[br/]Uma [AbilityGreen]Pistola de Volt[/AbilityGreen], que, quando usada, causa [Damagewave/] dano de Arco em um único alvo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Warlord is an Oathbound vehicle unit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPPORT_VEHICLE_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Veículo Paladino Marquês</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SUPPORT_VEHICLE_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O [AbilityGreen]Marquês[/AbilityGreen] é um veículo de batalha especializado em suporte na retaguarda.[br/][br/]Você possui as seguintes habilidades:[br/][AbilityGreen]Pilotagem[/AbilityGreen] - permite que o Comandante pilote veículos básicos e montarias.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta consideravelmente seu máximo de pontos de vida [hp/].[br/][br/]O equipamento inclui:[br/]Um [AbilityGreen]Marquês[/AbilityGreen] com várias habilidades de suporte.[br/]Os [AbilityGreen]Pergaminhos do Vigia[/AbilityGreen], concedendo [abilityblue]Dádiva da Providência[/abilityblue].</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Marquis is an Oathbound vehicle unit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CELESTIAN_VEHICLE_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Veículo Paladino Portador da Luz</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">CELESTIAN_VEHICLE_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O [AbilityGreen]Portador da Luz[/AbilityGreen] é um veículo de batalha baseado em um Paladino Guardião. Possui ataques à distância Celestiais.[br/][br/]Você possui as seguintes habilidades:[br/][AbilityGreen]Pilotagem[/AbilityGreen] - permite que o Comandante pilote veículos básicos e montarias.[br/][AbilityGreen]Vitalidade I[/AbilityGreen] - aumenta consideravelmente seu máximo de pontos de vida [hp/].[br/][br/]O equipamento inclui:[br/]Um [AbilityGreen]Portador da Luz[/AbilityGreen] com um ataque à distância e uma bandeira que espalha [abilityred]Queimadura de Alma[/abilityred] e [abilityred]Queimadura[/abilityred], além de um [AbilityGreen]Mod[/AbilityGreen][br/]Um [AbilityGreen]Revólver Entrópico[/AbilityGreen], uma pistola que causa [damageentropy/] dano.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Light Bringer is an Oathbound Celestian vehicle unit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROMETHEAN_VEHICLE_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Veículo Paladino Purificador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">PROMETHEAN_VEHICLE_OATHBOUND</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O [AbilityGreen]Purificador[/AbilityGreen] é um veículo de batalha baseado no Senhor da Guerra. Possui ataques Térmicos.[br/][br/]Você possui as seguintes habilidades:[br/][AbilityGreen]Pilotagem[/AbilityGreen] - permite que o Comandante pilote veículos básicos e montarias.[br/][AbilityGreen]Especialização em Combate Próximo I[/AbilityGreen] - aumenta consideravelmente seu dano corpo a corpo.[br/][br/]O equipamento inclui:[br/]Um veículo [AbilityGreen]Purificador[/AbilityGreen] com um ataque corpo a corpo de múltiplos alvos e um ataque de artilharia.[br/]Um [AbilityGreen]Revólver Entrópico[/AbilityGreen], uma pistola que causa [damageentropy/] dano.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Purifier is an Oathbound Promethean vehicle unit</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Selected/>
+   <TopRowVisible>11</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>18</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

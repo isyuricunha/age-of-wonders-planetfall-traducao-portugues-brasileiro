@@ -1,0 +1,633 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>GeraldR</LastAuthor>
+  <LastSaved>2019-03-12T14:50:58Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17835</WindowHeight>
+  <WindowWidth>-27136</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="100" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="225.75"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="327.75"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="291" ss:Span="1"/>
+   <Column ss:Index="7" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="327.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DWELLING_QUESTGROWTH</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">The Growth are a sentient botanical species. They speak poetically, using puns and metaphors to describe things and speak romantically. They use the word "symbiosis" to refer to their relationships with other races and species. The "Mother Node" is their leader, and they refer to her in such.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DEFAULT_RESPONSE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">FAILED</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Estamos detectando que você não concluiu a tarefa. É uma pena que tenha chegado a esse ponto, mas seus esforços não são mais necessários. Certifique-se de não nos decepcionar novamente.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Default response to failed quests.</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Praga de Gafanhotos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Derrote os Hopperhounds hostis</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Estamos sendo devorados vivos, nossos galhos estão desfolhados, seiva escorre de feridas abertas. Há dor a cada corte que esses animais infligem. Nossos frutos e néctar estão livremente disponíveis, mas isso não é suficiente para alguns. Devolva nossos nutrientes enterrando os corpos desses herbívoros.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"plant-eaters" refers to the Hopperhounds in the quest.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">KILL_UNITS_01</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">A praga foi detida. Iremos nos recuperar nos alimentando do sustento dos corpos dos herbívoros. Nossa gratidão.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest completed.</Data></Cell>
+   </Row>
+   <Row ss:Index="13" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Macacos Mecanizados</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Derrote os Inimigos do Crescimento</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um grupo de macacos mecanizados está expelindo gases nocivos perto de nossos locais de procriação. Folhas verdes frescas murcham ao se aproximarem, matando novos brotos. Estremecemos só de pensar no tipo de ambiente de onde essas criaturas vieram. Purifique o setor desses sacos de carne flatulentos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_02</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Ar puro mais uma vez! Nossos jovens desabrocham em gratidão.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest completed.</Data></Cell>
+   </Row>
+   <Row ss:Index="18" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Laços Cortados</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest Name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Derrote os Inimigos do Crescimento</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Perdemos contato com uma área de nós mesmos — nossos laços foram cortados. Um pânico de desconexão agora paira em nossas conexões debilitadas. Muitos ciclos atrás, perdemos contato com grandes partes do mundo de forma semelhante. Uma miríade de lugares, desaparecendo da existência. Descubra quem cortou nossas raízes e elimine-os.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">KILL_UNITS_03</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Os cortadores de raízes se foram, e nossa conexão com a área está sendo lentamente restaurada. Obrigado por seus esforços.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:Index="6" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">O Falso Simbionte</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Derrote a Xenopraga Hostil</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma terrível praga está se espalhando por nossas terras. Um falso simbionte surgiu, determinado a nos tornar parte de sua corrupção. Detenha essa praga antes que consuma o planeta.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">KILL_UNITS_04</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">A praga foi contida, as horríveis abominações foram mortas. Agora é hora de cura. Seja agradecido, Simbionte.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The Growth refer to the player as "Symbiont" as a title.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Luz Solar Armazenada</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Construa os Painéis Fotovoltaicos para o Crescimento</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Quest description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sonriel, a doadora de luz e portadora de vida, está sorrindo para você, {STR_LeaderName}. Nós sabemos. Vimos sua espécie crescer e espalhar folhagem reluzente, usando luz-vida de seus dispositivos. Nossos brotos tocados por sua graça ecoante cresceram tão floridos. Você compartilharia o presente de Sonriel e nos daria a folhagem que ilumina a noite?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Sonriel" refers to the name given by the Growth for the sun. They worship Sonriel as their god.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Seja agradecido, Simbionte. Sonriel agora nutre nossos brotos, mesmo enquanto dorme. Você nos ajudou a florescer. Compartilhamos os frutos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Painéis Fotovoltaicos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_01_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os Growth são fotossintéticos por natureza, e a capacidade de armazenar luz solar usando painéis solares permitirá que armazenem energia durante os ciclos noturnos.</Data></Cell>
+   </Row>
+   <Row ss:Index="35" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Efeito Estufa</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Refers to (https://en.wikipedia.org/wiki/Greenhouse_effect)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Construir as Peças de Estufa para os Growth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A força do Nó-Mãe e de seus brotos está ligada à luz eterna de Sonriel. Quando ele sorri para nós, crescemos e florescemos, e quando viaja e dorme, enfraquecemos e murchamos. Sabemos que os de espécie não enraizada podem assumir muitas formas. As carapaças vítreas que seus ancestrais deixaram intensificam a luz de Sonriel e nos permitem florescer abundantemente. Você nos ajudará a criar mais dessas carapaças que sua espécie chama de 'estufa'?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">"Mother Node" is their leader in-game.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Seja agradecido, Simbionte. Você nos ajudou a florescer. Compartilhamos os frutos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Peças de Estufa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_02_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O clima neste planeta nem sempre é ideal para os Growth, mas as estufas lhes proporcionarão condições superiores o ano todo.</Data></Cell>
+   </Row>
+   <Row ss:Index="42" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">O Único Inseto Bom é o Inseto Morto</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Reference to the film, "Starship Troopers".</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Destruir o Ninho de Hopperhound</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Carnívoros vorazes com mutações estranhas estão caçando as criaturas vitais para nosso ecossistema. Eles caçam em bandos, matando os indígenas que vivem em nossos bosques. Inicie um abate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_01</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Temos sua gratidão, Simbionte. O abate dessas criaturas imundas se mostrou eficaz, e a fauna retornou ao nosso seio.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Entre a Pedra e o Lugar Duro</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">See (https://en.wikipedia.org/wiki/Between_a_Rock_and_a_Hard_Place)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Destruir o Covil de Quartzito</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Nossas raízes estão esmagadas entre rochas retorcidas. Em outros lugares, as rochas brilham e se liquefazem, privando-nos de nossos nutrientes. Detenha essas rochas vivas e devolva seus nutrientes ao solo mais uma vez. Isso não ficará sem recompensa, Simbionte.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_02</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Enraizamos novamente. Você provou seu valor, {STR_LeaderName}. Que Sonriel brilhe sobre você.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">{STR_LeaderName} can be male or female.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:Index="51" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Programa de Apreciação de Tentáculos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Pesquisar Aplicações de Tentáculos para os Growth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Nosso objetivo é estender a simbiose para incluir sua espécie. Para que isso aconteça, precisamos entender como podemos espalhar o afeto do tentáculo, do néctar e da seiva. Você nos ajudará com essa pesquisa?</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Simbionte, nossa união agora só pode se tornar mais profunda. Obrigado por este conhecimento.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aplicações de Tentáculos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_01_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Growth quer iniciar um estudo sobre como espalhar melhor seu afeto simbionte por meio de seus tentáculos. Um tentáculo pode ajudar você a tomar seu café da manhã? Talvez ajudar a ler o feed de notícias? Vamos experimentar!</Data></Cell>
+   </Row>
+   <Row ss:Index="58" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Semeadura Planetária</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Pesquisar Métodos de Semeadura Interplanetária para o Growth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">O Mother Node está totalmente desenvolvido e pronto para lançar a cápsula-semente deste planeta. Mas muitas eras solares atrás, perdemos todo o contato com a simbiose de outros mundos. Perdemos nossa direção. Ajude-nos a calcular uma trajetória para que os ventos solares nos guiem a solo fértil.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Nossa cápsula-semente está a caminho de um novo mundo. Seja agradecido, Simbionte.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Métodos de Semeadura Interplanetária</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_02_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O Growth se espalha enviando suas enormes sementes para outros mundos, lançadas pelo Mother Node. Ajude-os a calcular a trajetória de lançamento das sementes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Inimigos Autônomos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Destruir Unidades de Poda Autônomas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Apesar de nossas tentativas de crescer em suas torres aquecidas, esses Autônomos insistem que não podemos estender nossos cipós sobre elas. Eles só precisam reforçar seus cabos. Precisamos crescer sobre os pontos altos para receber o beijo de Sonriel. Destrua aqueles que cortam e removem nossos cipós.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">KILL_UNITS_05</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Esses Autônomos pensarão duas vezes antes de enviar seus agentes para podar nosso crescimento, tudo graças a você, {STR_LeaderName}. Você tem nossa gratidão.</Data></Cell>
+   </Row>
+   <Row ss:Index="69" ss:AutoFitHeight="0" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Culto da Salada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Destruir o culto comedor de plantas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Horrores! Sua crueldade não tem fim: cultistas que fervem nossos nódulos radiculares, consomem nossas folhas e arrancam nossos rebentos da videira para fatiá-los e besuntá-los em néctar açucarado para seu deleite. Cada tentáculo do Growth estremece ao saber que existe um culto de humanoides conhecido simplesmente pelo apelido: Vegetarianos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="s66">
+    <Cell><Data ss:Type="String">KILL_UNITS_06</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Nossas folhas estão tranquilas ao vento. Nunca esqueceremos os horrores dessa culinária, mas reconhecemos sua contribuição em eliminá-los.</Data></Cell>
+   </Row>
+   <Row ss:Index="74" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vitaminas de Esgoto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Redirecionar Esgoto para Fertilizante do Growth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sentimos emissões saborosas vindas de seus locais de habitação. Essa coisa que vocês chamam de esgoto, nós queremos. Pode enviá-lo para cá? Estamos famintos por suas deliciosas extrações. Claramente, somos feitos para viver juntos em simbiose.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Agradecemos por seu esgoto delicioso e precioso. Ficamos felizes que irá compartilhá-lo conosco. Nós o amamos. Estamos destinados a ficar juntos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tanques de Esgoto para o Growth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_03_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Conclua esta tarefa de produção especial coletando, embalando e distribuindo o esgoto de sua cidade para o Growth, que deseja banquetear-se com este precioso fertilizante.</Data></Cell>
+   </Row>
+   <Row ss:Index="81" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Deixe-nos em Paz</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Crie um Dispositivo de Repelente Sônico para Pragas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A play on the saying,"Leave us alone".</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um homem viajante estranhamente simpático e de baixa estatura nos disse que você poderia inventar a tecnologia para criar um dispositivo repelente de pragas. Ele disse que a maioria das criaturas não gosta de sons ultrassônicos. Queremos este dispositivo para proteger nossos nós-mãe. Por favor, forneça-os.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Agradecemos por sua generosidade e engenhosidade. Você é verdadeiramente um mestre deste mundo e abençoado por Sonriel. Por favor, aceite nossa recompensa.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Dispositivo de Repelente Sônico para Pragas</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SPECIAL_RESEARCH_PROJECT_03_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Eles podem ser conscientes, mas o Growth ainda são plantas. Fornecer-lhes um repelente contra a fauna do planeta os ajudará muito.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">KILL_UNITS_07</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Contrabandistas de Vagens</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Pods refer to the Growths botanics.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">KILL_UNITS_07</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Elimine os Contrabandistas Piratas</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">KILL_UNITS_07</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Criminosos estão roubando nossa essência, mais alarmante ainda, eles roubam nossas vagens de sementes. Muitos amigos morreram. É triste. Sempre a mesma coisa. Suas entranhas são esvaziadas para colher nossas preciosas sementes para seu terrível apetite.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Symbiont refers to the name given to the player by the Growth.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">KILL_UNITS_07</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Agradecemos por destruir o matadouro pirata. Nós o conhecemos, fino Simbionte, e o consideramos um amigo.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Vingança é Videira</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A play on the saying, "Vengeance is mine".</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Destrua o ninho construído com corpos do Growth.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Exigimos ação! Eles vieram dos céus, arrancaram nossos brotos pelas raízes, tecendo-os em seus ninhos! Assassinos usaram nossos corpos secos como abrigo! Quem faria isso? Certamente você vingará nossa perda!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Flying creatures are using the Growth to build their nests.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">DESTROY_SPAWNER_BASE_03</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Agradecemos profundamente por destruir as criaturas que mataram nossos brotos. Você provou ser um amigo do Growth.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_04</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tubulações de Aspersão</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_04</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT</Data></Cell>
+    <Cell><Data ss:Type="String">Construa Tubulações de Aspersão para Irrigar o Growth</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ouvimos falar de sua engenhosidade e desejamos que seus fazendeiros compartilhem sua tecnologia de irrigação. Nossas tentativas de irrigar têm menos delicadeza, e sentimos os nutrientes serem levados enquanto nossas raízes são inundadas. Ficaremos gratos se nos mantiver úmidos e nutridos usando aspersores de névoa.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_04</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLETED</Data></Cell>
+    <Cell><Data ss:Type="String">Trepadeiras de crescimento se estendem pelos campos e bebemos profundamente das águas frescas da sua tecnologia. Agradecemos por sua generosidade. Nossas folhas proporcionarão abrigo para sua prole por séculos vindouros.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_04_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Construir um Sistema de Irrigação para o Growth</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SPECIAL_PRODUCTION_PROJECT_04_BUILDING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Conclua esta tarefa de produção especial construindo tubulações de aspersão e implantando-as para que o Growth irrigue suas terras com maior eficiência.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"><Data ss:Type="String">This line was translated in Batch 12 and then merged into this xml file, on May 27th 2019.
+There is no need to relocalize this file as part of the second relocalization pass in DE, ES, FR, PL or RU.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>90</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>94</ActiveRow>
+     <RangeSelection>R95</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

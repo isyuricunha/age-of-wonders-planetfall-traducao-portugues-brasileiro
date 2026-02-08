@@ -1,0 +1,980 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Jamie Visser</LastAuthor>
+  <LastSaved>2019-08-26T11:33:40Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15940</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11" ss:Color="#333333"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="178" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="206.5" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="204"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="201"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="367.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="139"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="133"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="169.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="367.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">UNIT_UPGRADES_MILITARYINDUSTRIALCOMPLEX</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="225">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SHIELD_BASH</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Impacto com Escudo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SHIELD_BASH</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataque o alvo com um escudo, [abilityred]empurrando[/abilityred] unidades Leves.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEALING_KIT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Kit de Cura</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HEALING_KIT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade Biológica ou Ciborgue alvo recupera {HealingKitHP}[hp/] e tem seus efeitos de Status negativos não Psiónicos dissipados.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INCENTIVIZE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Incentivar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INCENTIVIZE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade Dvar aliada alvo ganha [abilityblue]Motivada[/abilityblue], concedendo +{MotivatedMorale}[happiness/] até o fim do combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOTIVATED</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Motivada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MOTIVATED</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem +{MotivatedMorale}[happiness/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SEISMIC_CHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Carga Sísmica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SEISMIC_CHARGE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Detona uma carga sísmica que causa {SeismicDamage} a todos os obstáculos e [abilityred]Atordoa[/abilityred] todas as unidades terrestres em 2 hexes desta unidade.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTRENCH</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Entrincheirar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ENTRENCH</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade se entrincheira, criando uma trincheira ao seu redor que dura até o fim do combate e fornece cobertura.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ASSAULT_TUNNEL</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Túnel de Assalto</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ASSAULT_TUNNEL</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade cava um túnel subterrâneo e emerge no hex alvo, criando uma trincheira no local. A explosão causa dano a todas as unidades adjacentes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AERIAL_RAM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aríete Aéreo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AERIAL_RAM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataque de colisão corpo a corpo. Isso [abilityred]empurrará[/abilityred] unidades Leves.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RAM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aríete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RAM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataque de colisão corpo a corpo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ROCKET_RAM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aríete Foguete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ROCKET_RAM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataque de colisão corpo a corpo impulsionado por explosivos. Isso [abilityred]empurrará[/abilityred] unidades Leves.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MINING_SHIELD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Escudo de Mineração</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VISUAL_GLITCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Falha Visual</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VISUAL_GLITCH</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tentar causar falhas visuais na unidade Ciborgue ou Mecânica alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VISUAL_GLITCH</Data></Cell>
+    <Cell><Data ss:Type="String">MODIFIER_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{StrChance} de chance de ficar [abilityred]Cego[/abilityred] por {Turns}[turn/]. Se resistir, aplicar [abilityred]Comprometido[/abilityred] em vez disso.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AFTERBURNERS</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pós-combustores Ativados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AFTERBURNERS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pós-combustores</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">AFTERBURNERS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade ganha Movimento Rápido, {AfterburnDamage} de dano corpo a corpo aumentado e fica {AfterburnAccMod} mais difícil de acertar até o próximo turno.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">AFTERBURNERS</Data></Cell>
+    <Cell><Data ss:Type="String">PROEPRTY_DESCRPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade tem Movimento Rápido, {AfterburnDamage} de dano corpo a corpo aumentado e é {AfterburnAccMod} mais difícil de acertar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AFTERBURNERS</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{AfterburnDamage} de dano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFENSIVE_FLAMERS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lança-chamas Defensivos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DEFENSIVE_FLAMERS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Causa dano a todas as unidades adjacentes e então entra no Modo Defensivo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TARGETING_FLARE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sinalizador de Mira</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TARGETING_FLARE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara um sinalizador, marcando uma área de raio de {hexrad} hexágonos. Unidades nessa área ganham [abilityred]Iluminado[/abilityred], tornando-as {IlluminatedHit} mais fáceis de acertar. O sinalizador dura por {flareturn}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RAPID_REPAIR_KIT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Kit de Reforço</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">RAPID_REPAIR_KIT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Unidade Mecânica, Ciborgue ou Dvar alvo recupera {RapidRepairKitHealing}[hp/]. A unidade também ganha [abilityblue]Armadura Extra[/abilityblue], concedendo-lhe +{RapidRepairKitArmor}[armor/] até o fim do combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RAPID_REPAIR_KIT</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Armadura Extra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RAPID_REPAIR_KIT</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade tem +{RapidRepairKitArmor}[armor/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NITRO_BATTERY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bateria de Nitro</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">NITRO_BATTERY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Recarrega a unidade Mecânica ou Ciborgue alvo, dissipando todos os efeitos de status negativos e concedendo-lhe [abilityblue]Impulso[/abilityblue], que lhe dá Movimento Rápido e aumenta seu dano em {BoostedDamage} por {BoostedDuration}[turn/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NITRO_BATTERY</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Impulsionado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NITRO_BATTERY</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade possui Movimento Rápido e {BoostedDamage} de dano aumentado.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISRUPTOR_DEVICE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dispositivo Disruptor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DISRUPTOR_DEVICE</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lança um dispositivo disruptor na área-alvo, causando dano em um raio de {hexrad} hexágonos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">DISRUPTOR_DEVICE</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Disrupção</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DISRUPTOR_DEVICE</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{DisruptStrength} de chance de força para remover todos os Pontos de Ação de alvos Mecânicos e Ciborgues.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EAT_DUST</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Coma Poeira</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EAT_DUST</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tenta aplicar [abilityred]Cegueira[/abilityred] a todas as unidades adjacentes. Em seguida, recupera todos os [movewalk/], mas a unidade só pode se mover ou ativar um [abilityblue]Modo de Defesa[/abilityblue].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRACTOR_BEAM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Raio Trator</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRACTOR_BEAM</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Puxa o alvo para próximo desta unidade.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRINDER</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Triturador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GRINDER</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">No final do turno, quaisquer unidades inimigas adjacentes sofrem {Grinder} de dano e têm uma chance de força {GrinderChance} de serem [abilityred]Imobilizadas[/abilityred] por {duration}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CRUSH_AND_PROCESS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Esmagar e Processar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CRUSH_AND_PROCESS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esmaga um alvo. Se o alvo for uma unidade Leve, há uma chance de força {Crush&amp;ProcessInstaKill} de que ele morra instantaneamente.</Data></Cell>
+   </Row>
+   <Row ss:Index="60" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONCUSSIVE_VOLLEY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Saraivada Concussiva</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CONCUSSIVE_VOLLEY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dispara um projétil supressivo não-danoso em uma unidade Biológica ou Ciborgue alvo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORTIFICATION_TOOLS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ferramentas de Fortificação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FORTIFICATION_TOOLS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">As trincheiras desta unidade se tornam Trincheiras Fortificadas, garantindo que só possam ser destruídas por habilidades com [abilityred]Demolidor[/abilityred]. Essas fortificações também curam unidades Dvar dentro delas em {FortificationHeal}[hp/] por [turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IRONBREAKER_MODIFICATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Modificações Quebra-Ferro</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IRONBREAKER_MODIFICATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques corpo a corpo ignoram {TricTipsArmorIgnore}</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IRONBREAKER_MODIFICATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques ignoram {armorIgnore}[armor/]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADVANCED_TARGET_RECOGNITION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reconhecimento Avançado de Alvos (Detector)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ADVANCED_TARGET_RECOGNITION</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade ganha [abilityblue]Detecção[/abilityblue], recebe +{SensorBonus} de Alcance de Sensor e ignora {AdvancedLOSIgnore}% das penalidades de precisão por linha de visão durante o combate.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADVANCED_TARGET_RECOGNITION</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ignora {AdvancedLOSIgnore}% das penalidades por linha de visão</Data></Cell>
+   </Row>
+   <Row ss:Index="73" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLOSIVE_RESISTANT_ARMOR</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Blindagem Resistente a Explosivos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPLOSIVE_RESISTANT_ARMOR</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade ganha um nível de [abilityblue]Resistência a Atordoamento[/abilityblue] e {ERAResistance}[defensephysical/] de resistência contra ataques Explosivos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECONSTRUCTION_KIT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Kit de Reconstrução</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="77.25">
+    <Cell><Data ss:Type="String">RECONSTRUCTION_KIT</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Reconstrua uma unidade Mecânica aliada destruída para {ReconstructionHP} de seu [hp/] máximo, ou cure uma unidade operante em {HealEffect}[hp/].[br/][br/]Não é possível reconstruir unidades de tier 4.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPER_POWERED_PISTONS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pistões Superpotentes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SUPER_POWERED_PISTONS</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ataques corpo a corpo ganham um nível de [abilityred]Impacto Atordoante[/abilityred] e têm {SuperPoweredPistonsConcuss} de chance de aplicar [abilityred]Concussão[/abilityred] em unidades não Etéreas ou não Mecânicas, por {DurationConcuss}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CAPTAINS_REGALIA</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Insígnias do Capitão</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CAPTAINS_REGALIA</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades adjacentes a esta ganham +{CaptainsRegaliaHaloMorale} e têm {CaptainsRegaliaHaloResist} em todas as resistências.[br/]Não afeta unidades Insensíveis.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CAPTAINS_REGALIA</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Presença Inspiradora</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CAPTAINS_REGALIA</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade é inspirada por uma unidade adjacente, ganhando {CaptainsRegaliaHaloMorale} e {CaptainsRegaliaHaloResist} em todas as resistências.</Data></Cell>
+   </Row>
+   <Row ss:Index="85" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ILLUMINATOR_TARGETING_SYSTEM</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sistema de Mira Iluminador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ILLUMINATOR_TARGETING_SYSTEM</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esta unidade causa {IlluminatorDamageBonus}% de dano contra alvos [abilityred]Iluminados[/abilityred].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REACTIVE_KINETIC_ENERGY_BATTERY</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bateria Cinética Reativa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">REACTIVE_KINETIC_ENERGY_BATTERY</Data></Cell>
+    <Cell><Data ss:Type="String">UPGRADE_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade ganha um nível de [abilityblue]Resistência a Atordoamento[/abilityblue], e cada vez que sofre dano, acumula uma carga de [abilityblue]Energia Cinética[/abilityblue], até um máximo de {KineticEnergyMax}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REACTIVE_KINETIC_ENERGY_BATTERY</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Energia Cinética</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REACTIVE_KINETIC_ENERGY_BATTERY</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Aumenta o dano de Liberar Energia Armazenada em {Damage} por acúmulo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REACTIVE_KINETIC_ENERGY_BATTERY</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{Damage} de dano</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REACTIVE_KINETIC_ENERGY_BATTERY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Liberar Energia Armazenada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">REACTIVE_KINETIC_ENERGY_BATTERY</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Causa dano em um cone de {hexdis} hexágonos, aumentado em {ReactiveKineticEnergyBatteryIncrease}% para cada acúmulo de [abilityblue]Energia Cinética[/abilityblue] que a unidade possui.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROSPECT_SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Prospectar Setor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PROSPECT_SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Prospecta um setor, obtendo uma pequena quantidade de recursos. A unidade deve permanecer estacionária no centro do setor por {ProspectDuraction}[turn/] durante esse processo.[br/]Cada setor pode ser prospectado apenas uma vez.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROSPECT_SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Prospectando setor.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROSPECT_SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Seu Prospector prospectou {STR_structureName} e encontrou:</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROSPECT_SECTOR</Data></Cell>
+    <Cell><Data ss:Type="String">OPERATION_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">[prospect/] Prospectar Setor</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"><Data ss:Type="String">required this line with the icon, copied the localized text from string PROSPECT_SECTOR@ABILITY_NAME and added the icon.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EARTH_CRACK</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Fenda Terrestre</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EARTH_CRACK</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Fique parado no centro de um setor por {EarthCrackDuration}. Em seguida, você racha o setor, obtendo recursos valiosos, mas transformando o setor em Vulcânico Árido.[br/]Não funciona em Setores de Montanha Grandes.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EARTH_CRACK</Data></Cell>
+    <Cell><Data ss:Type="String">IN_PROGRESS</Data></Cell>
+    <Cell><Data ss:Type="String">Rachando a terra de {STR_structureName}. Quando concluído, este setor se tornará Vulcânico Árido.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EARTH_CRACK</Data></Cell>
+    <Cell><Data ss:Type="String">REWARD_TEXT</Data></Cell>
+    <Cell><Data ss:Type="String">Seu Triturador de Terra rachou o setor de {STR_structureName} e entregou seus recursos:</Data></Cell>
+   </Row>
+   <Row ss:Index="104" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTRENCHED_TRENCHER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Entrincheirado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTRENCHED_TRENCHER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{SpikeGunTrench} de dano.</Data></Cell>
+   </Row>
+   <Row ss:Index="107" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORTIFIED_TRENCH</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Trincheira Fortificada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FORTIFIED_TRENCH</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Fornece cobertura para unidades dentro, concede {accuracyBonus} de precisão e as cura em {FortificationHeal}[hp/] por [turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRENCH</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECT_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Trincheira</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRENCH</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECT_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Fornece cobertura para unidades dentro e concede {accuracyBonus} de precisão.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ILLUMINATING_FLARE</Data></Cell>
+    <Cell><Data ss:Type="String">MARKER_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sinalizador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ILLUMINATING_FLARE</Data></Cell>
+    <Cell><Data ss:Type="String">MARKER_EFFECT</Data></Cell>
+    <Cell><Data ss:Type="String">Unidades nesta área são {IlluminatedHit} mais fáceis de acertar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KINETIC_PUNCH</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Soco Cinético</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">KINETIC_PUNCH</Data></Cell>
+    <Cell><Data ss:Type="String">ABILITY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um ataque corpo a corpo com um punho de metal.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ROCKET_HAMMER</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Martelo-foguete</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ROCKET_HAMMER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um golpe poderoso de martelo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NAVAL_RAM</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aríete Naval</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NAVAL_RAM</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um poderoso ataque corpo a corpo por colisão.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRAIN_WEAPONS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Treinar Armas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="76.25">
+    <Cell><Data ss:Type="String">TRAIN_WEAPONS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Concede a esta unidade [abilityblue]Arma Estável[/abilityblue]. A unidade ganha {accinc} precisão e {InccreasedRange} alcance no Barragem de Mísseis até se mover.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Missile Barrage is an ability in the explosives group (Upgrades_Explosives_UnitProperties.xml)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TRAIN_WEAPONS</Data></Cell>
+    <Cell><Data ss:Type="String">BUFF_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arma Estável</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="72.5">
+    <Cell><Data ss:Type="String">TRAIN_WEAPONS</Data></Cell>
+    <Cell><Data ss:Type="String">BUFF_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A unidade tem +{ranginc} de alcance aumentado e +{accinc} de precisão no Barragem de Mísseis até se mover.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Missile Barrage is an ability in the explosives group (Upgrades_Explosives_UnitProperties.xml)</Data></Cell>
+   </Row>
+   <Row ss:Index="124" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORTIFICATION_TOOLS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Contrafortes</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORTIFICATION_TOOLS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Abaixar-se</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORTIFICATION_TOOLS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Fornecedor</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORTIFICATION_TOOLS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Fortificador</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORTIFICATION_TOOLS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Gerador de Bunker</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORTIFICATION_TOOLS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Fundador</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IRONBREAKER_MODIFICATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Nascido do Estilhaço</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IRONBREAKER_MODIFICATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Quebrador de Ferro</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IRONBREAKER_MODIFICATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Pisoteador</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IRONBREAKER_MODIFICATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Esmagador</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IRONBREAKER_MODIFICATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Aríete com Escudo</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">IRONBREAKER_MODIFICATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Explorador</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADVANCED_TARGET_RECON</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Mirador</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADVANCED_TARGET_RECON</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Escaneador</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADVANCED_TARGET_RECON</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Detector</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADVANCED_TARGET_RECON</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Localizador</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADVANCED_TARGET_RECON</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Observador</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ADVANCED_TARGET_RECON</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Varredor</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLOSIVE_RESISTANT_ARMOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Bola de Ferro</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLOSIVE_RESISTANT_ARMOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Endurecido</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLOSIVE_RESISTANT_ARMOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Blindado</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLOSIVE_RESISTANT_ARMOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Impenetrável</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLOSIVE_RESISTANT_ARMOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Imóvel</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLOSIVE_RESISTANT_ARMOR</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Abrigo Antiaéreo</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECONSTRUCTION_TOOLS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Reconstrutor</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECONSTRUCTION_TOOLS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Aparelhado</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECONSTRUCTION_TOOLS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Aparelho</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECONSTRUCTION_TOOLS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Reconstrução</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECONSTRUCTION_TOOLS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Médico de Tanques</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RECONSTRUCTION_TOOLS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Mecânico de Mechs</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPER_POWERED_PISTONS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Virabrequim</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPER_POWERED_PISTONS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Supercarregado</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPER_POWERED_PISTONS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Nitro</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPER_POWERED_PISTONS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Turboalimentado</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPER_POWERED_PISTONS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Chuva de Tinta</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPER_POWERED_PISTONS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Engrenador</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SUPER_POWERED_PISTONS</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_7</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Nocaute</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ILLUMINATOR_TARGETING_SYSTEM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Iluminador</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ILLUMINATOR_TARGETING_SYSTEM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Marcador de Alvo</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ILLUMINATOR_TARGETING_SYSTEM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Marcador</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ILLUMINATOR_TARGETING_SYSTEM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Reconhecimento Profundo</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ILLUMINATOR_TARGETING_SYSTEM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Lançador de Marcador</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ILLUMINATOR_TARGETING_SYSTEM</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Expositor</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REACTIVE_KINETIC_BATTERY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Retribuidor</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REACTIVE_KINETIC_BATTERY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Carregador do Juízo Final</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REACTIVE_KINETIC_BATTERY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Carregador de Fardos</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REACTIVE_KINETIC_BATTERY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Urso Adormecido</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REACTIVE_KINETIC_BATTERY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Maligno</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">REACTIVE_KINETIC_BATTERY</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Arqui-inimigo</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CAPTAINS_REGALIA</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Brilhante Estelar</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CAPTAINS_REGALIA</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Industrialista</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CAPTAINS_REGALIA</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Magnata</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CAPTAINS_REGALIA</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Saltador de Planetas</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CAPTAINS_REGALIA</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_5</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Magnata</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CAPTAINS_REGALIA</Data></Cell>
+    <Cell><Data ss:Type="String">TEMPLATE_NAME_6</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Líder Supremo</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>7</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>24</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

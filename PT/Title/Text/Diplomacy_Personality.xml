@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>ThomM</LastAuthor>
+  <Created>2018-05-01T08:33:50Z</Created>
+  <LastSaved>2020-02-19T12:59:26Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14265</WindowHeight>
+  <WindowWidth>28770</WindowWidth>
+  <WindowTopX>32760</WindowTopX>
+  <WindowTopY>32760</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="61" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="129.75"/>
+   <Column ss:StyleID="s62" ss:Width="182.25"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="334.5"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:Width="262.5"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DIPLOMACY_PERSONALITY</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PERSONALITY</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Personalidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIDDEN_BEHAVIOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Característica Estratégica (Oculta)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown in the interface when the Strategy trait has not been discovered yet and is currently hidden.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HIDDEN_BEHAVIOR</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Esta característica está oculta. Infiltra-se neste jogador ou estabeleça um pacto de compartilhamento de inteligência para revelá-la.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">HIDDEN_PREFERENCE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Característica de Preferência (Oculta)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Shown in the interface when the Preference trait has not been discovered yet and is currently hidden.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HIDDEN_PREFERENCE</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Esta característica está oculta. Infiltra-se neste jogador, estabeleça um pacto de compartilhamento de inteligência ou acione sua preferência para revelá-la.[br/][br/]Também há uma chance de revelar a característica ao interagir diplomaticamente com o outro jogador por meio de uma das seguintes ações:[br/][bulletList][bullet]Fazer uma troca[/bullet][br/][bullet]Insultá-los/elogiá-los[/bullet][br/][bullet]Enviar uma denúncia ou aviso[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Belicista</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">O belicista adota um estilo de jogo mais agressivo, focando sua pesquisa em armas e unidades específicas de sua raça. Seu objetivo é aumentar a produtividade da colônia para construir mais unidades.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_MERCANTILE</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Mercantil</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_MERCANTILE</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Jogadores mercantis são mais pacíficos e cooperativos, focando seu império em produção e energia. Seu objetivo é aumentar a renda de influência para lidar melhor com outros jogadores e facções NPC.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_TECHNOLOGIST</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Tecnólogo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_TECHNOLOGIST</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">O tecnólogo foca sua pesquisa no desenvolvimento de sua tecnologia secreta, construindo unidades desse tipo e buscando alcançar sua arma do juízo final.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_OPERATIVE</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Operativo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_OPERATIVE</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">O operativo implanta operações secretas para espionar outros jogadores e revelar seus impérios.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_GENERALIST</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Generalista</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_GENERALIST</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">O generalista não tem foco específico e adota um estilo de jogo equilibrado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_XENOPHILE</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Xenófilo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_XENOPHILE</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Gosta de lidar com jogadores que incorporam diferentes origens étnicas em seu império e tem maior probabilidade de recebê-los em seu império, além de ajudar assentamentos. Gosta de jogadores que auxiliam assentamentos e que têm boas relações com facções NPC.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_XENOPHOBE</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Xenófobo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_XENOPHOBE</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Prefere um império monocultural e é mais propenso a migrar colônias para sua sociedade. Gosta de jogadores que estão em guerra com facções NPC.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_TOPDOG</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Elitista</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_TOPDOG</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Amigo daqueles com alta classificação de capacidade, e mais propenso a se aproximar e fazer amizade com jogadores com alta classificação de capacidade.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_COMPASSIONATE</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Compassivo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_COMPASSIONATE</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Amigo daqueles com baixa classificação de capacidade, e mais propenso a se aproximar de jogadores com baixa classificação de capacidade.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_MILITARIST</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Militarista</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_MILITARIST</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Prefere lidar com jogadores com alta classificação de combate e jogadores com baixa reputação. Gosta de jogadores que derrotaram outros jogadores.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_PACIFIST</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Pacifista</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_PACIFIST</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Prefere lidar com jogadores com baixa classificação de combate e jogadores com alta reputação. Não gosta de jogadores que derrotaram outros jogadores.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_LOYAL</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Leal</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_LOYAL</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Prefere manter tratados e tem menos probabilidade de rompê-los, julgando duramente aqueles que os quebram.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_TREACHEROUS</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Traiçoeiro</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_TREACHEROUS</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">As mensagens deste jogador podem não revelar suas verdadeiras intenções. Tem maior probabilidade de romper relações.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_RUTHLESS</Data></Cell>
+    <Cell><Data ss:Type="String">TITLE</Data></Cell>
+    <Cell><Data ss:Type="String">Implacável</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TRAIT_RUTHLESS</Data></Cell>
+    <Cell><Data ss:Type="String">TOOLTIP</Data></Cell>
+    <Cell><Data ss:Type="String">Precisa de pouca motivação para entrar em guerra e frequentemente luta até a morte. Casus Belli causam uma maior penalidade de opinião. Não gosta de ajudar assentamentos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">LIKE_GOOD_NPC_RELATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">Gosta de boas relações com facções NPC.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">DISLIKE_GOOD_NPC_RELATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">Não gosta de boas relações com facções NPC.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">LIKE_BAD_NPC_RELATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">Gosta de guerras com facções NPC.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">DISLIKE_BAD_NPC_RELATIONS</Data></Cell>
+    <Cell><Data ss:Type="String">Não gosta de guerras com facções NPC.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">DISLIKE_PLAYER_WAR_TREACHEROUS</Data></Cell>
+    <Cell><Data ss:Type="String">Oportunidade de guerra</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">LIKE_MULTI_ETHNIC_EMPIRE</Data></Cell>
+    <Cell><Data ss:Type="String">Gosta de impérios multirraciais</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">DISLIKE_MULTI_ETHNIC_EMPIRE</Data></Cell>
+    <Cell><Data ss:Type="String">Não gosta de impérios multirraciais</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">LIKE_MONO_ETHNIC_EMPIRE</Data></Cell>
+    <Cell><Data ss:Type="String">Prefere impérios de raça única</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">LIKE_HIGH_CAPABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Prefere classificação de alta capacidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">DISLIKE_HIGH_CAPABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Desgosta de classificação de alta capacidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">LIKE_LOW_CAPABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Prefere classificação de baixa capacidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">DISLIKE_LOW_CAPABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Desgosta de classificação de baixa capacidade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">LIKE_HIGH_MILITARY_CAPABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Prefere classificação de alta capacidade militar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">DISLIKE_HIGH_MILITARY_CAPABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Desgosta de classificação de alta capacidade militar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">LIKE_LOW_MILITARY_CAPABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Prefere classificação de baixa capacidade militar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">DISLIKE_LOW_MILITARY_CAPABILITY</Data></Cell>
+    <Cell><Data ss:Type="String">Desgosta de classificação de baixa capacidade militar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">LIKE_NOT_BREAKING_TREATY</Data></Cell>
+    <Cell><Data ss:Type="String">Prefere não ter quebrado nenhum tratado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">LIKE_BREAKING_TREATIES</Data></Cell>
+    <Cell><Data ss:Type="String">Prefere ter quebrado algum tratado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">DISLIKE_BREAKING_TREATIES</Data></Cell>
+    <Cell><Data ss:Type="String">Desgosta de ter quebrado algum tratado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">LIKE_DEFEATING_PLAYERS</Data></Cell>
+    <Cell><Data ss:Type="String">Prefere ter derrotado outros jogadores</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">DISLIKE_DEFEATING_PLAYERS</Data></Cell>
+    <Cell><Data ss:Type="String">Desgosta de ter derrotado outros jogadores</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">LIKE_HELPING_SETTLEMENTS</Data></Cell>
+    <Cell><Data ss:Type="String">Prefere ajudar assentamentos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">DISLIKE_HELPING_SETTLEMENTS</Data></Cell>
+    <Cell><Data ss:Type="String">Desgosta de ajudar assentamentos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">LIKE_ATTACKING_SETTLEMENTS</Data></Cell>
+    <Cell><Data ss:Type="String">Prefere atacar assentamentos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">DISLIKE_ATTACKING_SETTLEMENTS</Data></Cell>
+    <Cell><Data ss:Type="String">Desgosta de atacar assentamentos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MODIFIER</Data></Cell>
+    <Cell><Data ss:Type="String">DISLIKE_CASUSBELLI</Data></Cell>
+    <Cell><Data ss:Type="String">Implacável quanto a Casus Belli</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

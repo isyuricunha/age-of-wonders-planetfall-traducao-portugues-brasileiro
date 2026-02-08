@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Frederick Milders</LastAuthor>
+  <LastSaved>2018-11-09T14:42:10Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17835</WindowHeight>
+  <WindowWidth>-27136</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s27" ss:Name="Bad">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#800000"/>
+   <Interior ss:Color="#FFC7CE" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s65" ss:Parent="s27">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="49" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="312.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="199.5"/>
+   <Column ss:StyleID="s62" ss:Width="229.5"/>
+   <Column ss:StyleID="s62" ss:Width="327.75"/>
+   <Column ss:StyleID="s62" ss:Width="147.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="178.5"/>
+   <Column ss:StyleID="s62" ss:Width="165.75"/>
+   <Column ss:StyleID="s62" ss:Width="327.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="150">
+    <Cell><Data ss:Type="String">EXPEDITIONAIRYWARFARE_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_FORCES_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Corpo de Engenharia</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_FORCES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Antes de mim estavam as mentes mais brilhantes da minha geração. Elas estavam destinadas a mudar o mundo. Tudo em que eu conseguia pensar era: finalmente, almas gêmeas! Nerds!”[br/]– Rachel Manyxx, Corpo de Treinamento de TI</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Female
+
+Edit: Finally -&gt; finally</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade: Engenheiro</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_FORCES_SUBSKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento: Escopeta</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_FORCES_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Corpo Aéreo</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_FORCES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Nunca me sinto mais livre do que quando posso liberar o inferno sobre o inimigo dos céus acima. Voamos livres. Lutamos livres. Morremos livres.”[br/]– Vira Collo, Piloto da Vanguard</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Female
+
+Edit: Vangard -&gt; Vanguard</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade: Aeronave de Combate</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_FORCES_SUBSKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">Veículo: Aeronave de Combate</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_FORCES_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Corpo de Blindados</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_FORCES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Nos tempos da Star Union, todas as garotas amavam um rapaz de Tanque a Laser. Agora, depois de um século em criossono, as garotas são canibais mutantes com rostos derretidos, e todos os rapazes precisam de um Tanque a Laser só para mantê-las afastadas.”[br/]– Comandante Michael Valentine, Forças Expedicionárias da Vanguard</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male
+
+Edit: removed extra space before "Commander"</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade: Tanque a Laser</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_FORCES_SUBSKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">Veículo: Tanque a Laser</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_FORCES_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Corpo de Mechas</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_FORCES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Nada supera passar um dia pisoteando o interior como um gigante de metal fortemente armado. Isso mostra aos locais quem manda.”[br/]– Comandante Michael Valentine, Forças Expedicionárias da Vanguard</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male
+
+Edit: removed extra space before "Vanguard"</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade: Mecha</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_FORCES_SUBSKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">Veículo: Mecha</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_7_FORCES_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Comando de Transportadores</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_7_FORCES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Drones obedecem ordens com perfeita exatidão. Eles nunca questionam a cadeia de comando. Operações podem agora ser realizadas sem testemunhas humanas e fraquezas emocionais. Drones eliminam o inimigo sem uma consciência perturbada. Com essa arma, a guerra é aperfeiçoada.”[br/]– Imperador Zundar II</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_7_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade: Transportador de Drones</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_NAVAL_FORCES_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Corpo Naval</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_NAVAL_FORCES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“O mar continua sendo uma vasta via indomada que deve cair sob nossa jurisdição se algum dia quisermos restaurar o glorioso poder da Star Union. É hora de construir uma marinha e promover viagens seguras pelos mares.”[br/]– Almirante Terrence Vedo, Centro de Operações Navais da Vanguard</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_NAVAL_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade: Fragata</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_NAVAL_COMMAND_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Comando Naval</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_NAVAL_COMMAND_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Nossa estratégia é simples: limpar os mares de perigos, piratas e monstros marinhos. Somente então poderemos esperar uma economia marítima estável. Os novos navios de comando naval da classe Couraçado fortalecerão nossa capacidade de restabelecer um mundo melhor.”[br/]– Almirante Terrence Vedo, Centro de Operações Navais da Vanguard</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_NAVAL_COMMAND_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade: Couraçado</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_STRATEGIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Políticas de Fronteira</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Nós da Vanguard somos mais adequados para uma vida mais autossuficiente na fronteira. Regras de cidade grande e luxos civis deixam um lutador como eu mole na cintura. Na fronteira, uma cintura mole é um alvo fácil.”[br/]– Teddy Slade, Soldado de Infantaria da Vanguard</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_TACTICAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Suporte de Nanites</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Máquinas moleculares movidas a energia quântica não são mágica, são ciência. Mas o Princípio da Incerteza dita que, se eu explicar exatamente como funciona, deixará de funcionar assim. Então, apenas confie em mim: não é mágica, são apenas máquinas subatômicas probabilísticas, impulsionadas por estados quânticos.”[br/]– Stanley Strangelove, Publicitário, Smolltech Enterprises</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_STRATEGIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Implantação de Drones</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Máquinas são caras, mas confiáveis. Não posso dizer o mesmo do capital humano emocional. Sempre há arrependimentos custosos, a menos que você crie um psicopata. Drones, no entanto, eliminam muitos dos pesadelos. Estranhamente, matar através de um monitor de vídeo permite que o capital humano durma à noite.”[br/]– Ten. Parker May, Planejador de Defesa da Vanguard</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_TACTICAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Módulos de Defesa Inteligente</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Se bem mirado, um projétil atingirá seu alvo a uma velocidade impossível de ser desviada por humanos. Para aumentar a capacidade de evasão humana, são necessárias defesas inteligentes. Quer desviar de uma bala? Obtenha um detector capaz de acionar escudos balísticos preventivamente.”[br/]– Sr. Bowman Gunn, Desenvolvedor, Sentry Link Security Systems</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_TACTICAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Manobrabilidade Rápida</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Coloque esse jetpack. Deixe rastros de fogo atrás das linhas inimigas. Atenda ao chamado da Star Union. Lute desde o momento em que acordar do criossono. Pule as partes chatas da vida e alimente-se apenas de adrenalina. Não se arrependa de nada! Junte-se hoje aos Inferno Troop da Vanguard.”[br/]– Adworx, Recrutamento da Vanguard</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male (Overhyped)</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_STRATEGIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Protocolos de Subjugação</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“A maioria dos sobreviventes que encontramos se lembra de uma era melhor, quando essas ruínas fervilhavam de vida e a Star Union trazia riqueza, prosperidade e paz a todos. Nós somos a encarnação daquela época. Vamos usar essa nostalgia para conquistar seus corações e mentes.”[br/]– Haley York, Planet Jumper da Vanguard</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_STRATEGIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Estação Orbital</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“De longe, nosso inimigo parece uma formiguinha. E com o Canhão Laser Orbital, nós fornecemos uma enorme lupa. Assista com alegria infantil enquanto eles pegam fogo.”[br/]– Nikki Antarix, CTO da Beacon Spacesystems e Contratante de Defesa Orbital</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_TACTICAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tecnologia Sentinela</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Ele não vai contar charadas para intrusos, mas vai encher um invasor de balas.”[br/]– Sr. Bowman Gunn, Desenvolvedor, Sentry Link Security Systems</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_STRATEGIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Hegemonia</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Nossas tropas continuam motivadas e prontas para lutar. Elas são inspiradas pelo conceito de Unificação Planetária. Acreditam que pertencem à maior, mais livre e próspera sociedade, e que quaisquer mundos que não conquistarmos se juntarão a nós de bom grado.”[br/]– Imperatriz Carminia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Empress Carminia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_TACTICAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Condicionamento Predador</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Colocaram algo a mais nos criotubos? Desde que acordei da criogênese, estou cheio de energia. Quero arrancar a cabeça de um mutante.”[br/]– Comandante Adam McKinley, Forças Expedicionárias Vanguard</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male
+
+Edit: CommanderAdam -&gt; Commander Adam</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_7_TACTICAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Concentração de Forças</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_7_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Adoro imaginar invenções impossíveis, como uma armadura reativa que dispara mísseis. Descobri que inventaram coisas assim. Se ao menos eu tivesse os meios para bancar tudo isso. Graças a Deus pelos videogames.”[br/]– Spacer Ao Turill, Blog Finer Things</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">V.O.: Vanguard Male
+
+Edit: videogames -&gt; video games</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <LeftColumnVisible>2</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>6</ActiveCol>
+     <RangeSelection>C7</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

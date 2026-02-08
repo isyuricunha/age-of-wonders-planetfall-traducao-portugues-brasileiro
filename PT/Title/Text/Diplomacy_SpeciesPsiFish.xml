@@ -1,0 +1,457 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>GeraldR</LastAuthor>
+  <Created>2018-05-01T08:33:50Z</Created>
+  <LastSaved>2019-05-23T15:12:48Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14235</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Normal 2">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65" ss:Parent="s62">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s68">
+   <Interior/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="65" x:FullColumns="1" x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="138.75"/>
+   <Column ss:Width="289.5"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="335.25"/>
+   <Column ss:StyleID="s63" ss:Width="147.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="253.5"/>
+   <Column ss:StyleID="s63" ss:Width="120"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="335.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DIPLOMACY_SPECIESPSIFISH</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For this faction's narrative style and in world references, please check the glossay delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="5"><Data ss:Type="String">In the lines below, {STR_LeaderName} is replaced by the name of the player's avatar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the lines below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Filho do cosmos, puro de energia. Comungar?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Aceito, {STR_LeaderName}. Por você, nós partimos. Sentiremos falta do seu cheiro.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Uma presença física. O {STR_LeaderName}… gosto verde distinto. Sensação curiosa. Toque azedo e alto do oceano se contorcendo. Nós ansiamos… ansiamos, mas você? Intenções.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Nós vimos suas… vibrações pacíficas. Proteger, não destruir. Esta realidade tem gosto de perigo, cheira ao desconhecido. Tarefa… física. Nos ajude, ser pacífico?</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_INTERACTION_WAR_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Resolva este assunto logo, energias ruins… gosto horrível. Comungue, {STR_LeaderName}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName}, sua presença… nos faz vibrar. Energias pacíficas, elas cheiram a azulado. Comungue.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Trocando energias… vibrações diferentes. Nossa relação tem gosto de novos sabores, {STR_LeaderName}. Difícil de descrever.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName}, o Vazio chora. Sofrimento demais, cores de ódio. Lutar… acabar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45.75">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">RELATION_DECREASED_PEACEKEEPER</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Você se afastou ainda mais das energias positivas que sentimos em nossas relações compartilhadas antes. Isso nos entristece, {STR_LeaderName}. Nossa relação piorou.</Data></Cell>
+   </Row>
+   <Row ss:Index="16" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_WARMONGER</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Vibrações vermelho-sangue… retornam. {STR_LeaderName}, mestre de K'ctanq. Comungue com pressa.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_WARMONGER</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">O desconhecido se aproxima, inodoro. {STR_LeaderName}, nós nos lembraremos disso.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Vibrações vermelho-sangue… estamos cautelosos. {STR_LeaderName}, previmos sua chegada. Mestre de K’ctanq. Em sua língua… derramamento de sangue. Sua presença… perturba profundamente. Comungue seus desejos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Cautelosos… vibrações hostis de fato. Controladoras. Você é familiar com K’ctanq, agressão. Tarefa… física. Você é hábil. Aceitação?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_INTERACTION_WAR_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Faça seu pedido. Use pressa. Sua presença é… uma distorção vermelho-eldritch.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Filho manchado de sangue, vibrações hostis. Diga seus desejos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Aceitação, {STR_LeaderName}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_WARMONGER</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Filho do cosmos, pare as vibrações vermelhas. Acabe com o sofrimento. Aceitação?</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">RELATION_DECREASED_WARMONGER</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Você se afastou ainda mais das energias positivas que sentimos em nossas relações compartilhadas antes. Isso nos entristece, {STR_LeaderName}. Nossa relação piorou.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_NEUTRAL</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Presença física. Organismos se aproximando. Sentimos suas intenções, desconhecidas. Faça seu pedido.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_NEUTRAL</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Nós partiremos, {STR_LeaderName}. A essência do poder, seu gosto. Você entende.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_NEUTRAL</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">{STR_LeaderName}, uma presença física. Interação. Seu povo é… diferente. K’chru. Parentes cósmicos. Anseio por retornar. Comungar.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_NEUTRAL</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Este planeta. Esférico. Este plano. Estranho. Gosto de perigo, cheiro de desconhecido. Tarefa… física. Aceitação?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_INTERACTION_WAR_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Comungue com pressa. Energias sombrias de você… gosto azedo. Diga seus desejos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Mais perto… filho do cosmos. {STR_LeaderName} anseia por algo. Comungar.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_NEUTRAL</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Energias do Vazio, em movimento. Relação com {STR_LeaderName}… mudando, evoluindo.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_NEUTRAL</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">{STR_LeaderName}, maus pressentimentos. Energias negativas… demais. Encerrar Z’ctanq. Encerrar o conflito. Aceitar submissão?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">RELATION_DECREASED_NEUTRAL</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Você se afastou ainda mais das energias positivas que sentimos em nossas relações compartilhadas antes. Isso nos entristece, {STR_LeaderName}. Nossa relação piorou.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="Default"/>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PSIFISH_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Anelamos por uma comunhão pacífica entre nossas facções.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell><Data ss:Type="String">{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs. This is followed by the influence icon.</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">WITHDRAW_STACK_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Você poderia gentilmente nos conceder esta posição? {INT_Cost}[influence/]</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">STACK_QUEST_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Há alguma forma de ajudarmos você a prosperar nesta realidade?</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_WAR_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Buscamos purificar esta realidade de sua presença.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell><Data ss:Type="String">Medusa is female</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ATTACK_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Solicitamos comungar com sua Medusa.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Concederemos nossa ajuda a vocês.</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_BUTTON</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">CALL_TO_WAR_PEACEKEEPER</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Humildemente solicitamos sua ajuda em nossos esforços de guerra.</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_BUTTON</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">TRADE_PEACEKEEPER</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Permita-nos trocar mercadorias.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="Default"/>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PSIFISH_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Seria sábio de sua parte se juntar a nós.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell><Data ss:Type="String">{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs. This is followed by the influence icon.</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">WITHDRAW_STACK_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Remova sua presença peixosa destas instalações. {INT_Cost}[influence/]</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">STACK_QUEST_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Só comungamos em desafios.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_WAR_WARMONGER</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Vibrações vermelho-sangue serão tudo o que restará dos Psi-Peixes!</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell><Data ss:Type="String">Medusa is female</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ATTACK_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Leve-nos até sua Medusa.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Nosso império está mais do que preparado para suas tarefas.</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_BUTTON</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">CALL_TO_WAR_WARMONGER</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Juntos, consumiremos nossos inimigos!</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_BUTTON</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">TRADE_WARMONGER</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Desejamos comércio.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="4" ss:StyleID="Default"/>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PSIFISH_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Viemos em paz. Permita-nos ajudá-lo.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell><Data ss:Type="String">{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs. This is followed by the influence icon.</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">WITHDRAW_STACK_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Precisamos desta localização. {INT_Cost}[influence/]</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">STACK_QUEST_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Buscamos oferecer nossa assistência.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_WAR_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Esta realidade não tem lugar para criaturas como você.</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+    <Cell><Data ss:Type="String">Medusa is female</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ATTACK_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Permita-nos falar com sua Medusa.</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Conte-nos sobre esta tarefa.</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_BUTTON</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">CALL_TO_WAR_NEUTRAL</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Ansiamos por sua ajuda em nossas guerras.</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:Index="6" ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_BUTTON</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">TRADE_NEUTRAL</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Vamos trocar mercadorias, Peixe-Psi.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:StyleID="s69"><Data ss:Type="String">RIVALRY_WARNING_PISFISH</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Raiva… frustração… irritação. Por que {STR_LeaderName} ajuda nossos inimigos? Vibrações altas… parem de se comunicar com nossos inimigos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_DECLARE_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">Chegou a hora para você… {STR_LeaderName}. K’chru começou. Vermelho violento, brilhante. Vamos drenar… sua existência. Vamos consumir… seu povo. Sua espécie… acabará. Seu sangue, ruído azedo. Sua espécie… morrerá.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PSIFISH_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_RESET</Data></Cell>
+    <Cell><Data ss:Type="String">O cosmos… rodopiando. Natureza… caótica. Zero. O ponto de origem… da existência. Nosso laço já foi vermelho, já foi azul, mais uma vez… voltou ao zero. Esperamos… que o zero se torne um.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>18</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>34</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Glenn Smits</Author>
+  <LastAuthor>Glenn Smits</LastAuthor>
+  <Created>2019-05-13T07:29:19Z</Created>
+  <LastSaved>2019-05-10T16:40:18Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17835</WindowHeight>
+  <WindowWidth>-27136</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="49" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="149.25" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="179.25"/>
+   <Column ss:StyleID="s62" ss:Width="198"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="247.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="67.5"/>
+   <Column ss:StyleID="s62" ss:Width="243.75"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="247.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">ASSEMBLYCYBERNETICS_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_FORCES_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Engenharia Reversa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_FORCES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Adoro meu trabalho. Ele me dá a chance de exercer minha verdadeira vocação como artista. Sabia que, com um pouco de criatividade, as pernas não precisam ser recolocadas no corpo exatamente no mesmo lugar de onde foram tiradas?”[br/]– T14-X-Or, Detalhe de Construção Corporal</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.:  Assembly Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade: Engenheiro Reverso</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_FORCES_SUBSKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento: Lança-Arco</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_FORCES_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dominar a Tempestade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_FORCES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Ao coletar radiação iônica, criamos levitação permanente. Por uma questão de eficiência, a levitação permanente elimina a necessidade de pernas. Elas podem ser removidas e anexadas a outro.”[br/]– Zetrodicus Stein, Reordenador</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.:  Assembly Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade: Cavaleiro Relâmpago</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_FORCES_SUBSKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">Veículo: Cavaleiro Relâmpago</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_FORCES_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bobinas Relâmpago Aquáticas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_FORCES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“O mar é rico em recursos. O movimento constante das ondas e as tempestades agitadas abastecem nossas células de energia. É hora de tomar o mar e toda a sua riqueza: vida selvagem, peixes, navios e, o mais útil de tudo, marinheiros em fuga.”[br/]– Zetrodicus Stein, Reordenador</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.:  Assembly Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade: Andarilho da Tempestade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_FORCES_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Meios Destrutivos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_FORCES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“A Assembly precisa de mais poder para desmantelar inimigos e outros objetos materiais formidáveis em componentes utilizáveis. Nossa estrutura corporal Destruidor é perfeita para uma matriz de personalidade destrutiva.”[br/]– Joob F1-ND, Orientador de Carreira</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Assembly Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade: Destruidor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_FORCES_SUBSKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">Veículo: Destruidor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_7_FORCES_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Demolições Navais</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_7_FORCES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“O mar revolto é uma força destrutiva natural. Infelizmente, não é pontual nem previsível para atender às nossas necessidades, então devemos implantar nossos Navios Destruidores para compensar.”[br/]– P1B1-Tom, Braço de Capacidades Navais</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.:  Assembly Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_7_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade: Navio Destruidor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_8_FORCES_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Desmontadores</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_8_FORCES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“A economia da anatomia é melhor deixada ao acaso. Mantém as brigas internas no mínimo. É melhor remover todas as partes, misturá-las e redistribuí-las. Todos na Assembly são substituíveis. Ninguém é feliz, mas todos são fortalecidos.”[br/]– Desmontador 5-URG 30N, Cortador</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.:  Assembly Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_8_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade: Desmontador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_8_FORCES_SUBSKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">Veículo: Desmontador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_10_FORCES_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Forma Definitiva</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_10_FORCES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Se existisse uma forma definitiva de vida senciente imortal, ela nos acharia triviais. Para cada ser imortal, um milhão de outros precisaria se retirar para o encontro sombrio. A imortalidade seria um segredo guardado, para que a eternidade não se tornasse uma prisão com companheiros de cela terríveis.”[br/]– Prof. Ellen Shaw, Assembly First</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Assembly Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_10_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade: Saqueador</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_STRATEGIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pilhagem Eficiente</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Tire tudo do campo de batalha. Nunca fabrique o que pode ser pilhado dos caídos. Não desperdice nada. Não deseje nada.”[br/]– Zetrodicus Stein, Reassembler</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.:  Assembly Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_TACTICAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Computação Molecular</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Os olhos biológicos são uma das façanhas mais notáveis da evolução. Infelizmente, ainda são bastante primitivos quando se trata de processar o espectro eletromagnético completo. Recomendo de coração que substitua os seus por implantes oculares, se realmente quiser enxergar o mundo.”[br/]– Prof. Ellen Shaw, Assembly First</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Assembly Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_TACTICAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bionics Avançada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Imagine lâminas afiadíssimas brotando das pontas dos seus dedos. Pode manter as mãos se insistir, mas considere implantes. Os bionics são muito superiores. Eles podem sustentá-lo indefinidamente, e a deterioração é bem menos problemática, pois essas partes podem ser substituídas e atualizadas.”[br/]– T14-X-Or, Body Building Detail</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.:  Assembly Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_STRATEGIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reconstrução Social</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Todos os impulsos, paixões, emoções e causas são coletados e processados para garantir que nosso povo esteja unificado em um único propósito: nossa missão compartilhada. Comportamento extremo é impossível e indica mau funcionamento.”[br/]– Prof. Ellen Shaw, Assembly First</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Assembly Female
+
+Edit: drive -&gt; drives</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_TACTICAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sistemas Adaptativos</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“A estrutura corporal agora comporta uma variedade de conveniências táticas. Tentando se esconder de olhos curiosos? Implantes de camuflagem permitirão que você se esconda à vista de todos.”[br/]– C4-9, Early Adoption Rigger</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Assembly Female
+
+Edit: Implants -&gt; implants</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_STRATEGIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Extração de Recursos Auxiliar</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Por que desperdiçar nosso precioso poder cerebral com problemas dos nossos inimigos quando podemos simplesmente extrair os cérebros deles e fazê-los resolver o problema para nós?”[br/]– Zetrodicus Stein, Reassembler</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.:  Assembly Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_TACTICAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Aplicações Tóxicas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Uma vez que removemos a maior parte da sua forma natural, podemos imbuir sua estrutura corporal com substâncias e armas que são anátemas para a vida orgânica. Esta é a verdadeira subjugação da carne carnal.”[br/]– Prof. Ellen Shaw, Assembly First</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Assembly Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_STRATEGIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reassemblagem Universal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Não pense nisso como ‘seu’ braço. Pense como ‘um’ braço… uma entre muitas possibilidades.”[br/]– Prof. Ellen Shaw, Primeira da Assembly</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Assembly Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_TACTICAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Recarregar Sistema</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Já tentou reiniciar a estrutura corporal? Geralmente é a forma mais eficaz de corrigir uma falha no sistema. Basta realizar uma recarga completa do sistema. Ligue de volta se não funcionar.”[br/]– 1N’D14, Suporte Técnico da Assembly</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Assembly Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_STRATEGIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Manipulação Iônica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Aprendemos muito com nossas alterações corporais. Esses nanitas são úteis tanto como ferramentas quanto como armas. Agora podemos instruir os nanitas que mantêm nossos corpos funcionando a coletar amostras de oponentes no campo de batalha para danificar nossos inimigos e aprimorar nossa inteligência coletiva.”[br/]– L0G3N-1, Segunda da Assembly</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.:  Assembly Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_7_TACTICAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tecnologia Quântica</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_7_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Disseram que eu era louco por substituir meu corpo, tentando viver além do que chamavam de ‘natural’. A maioria deles já morreu. Com a Tecnologia Quântica, podemos nos reconstruir em nível molecular. Encontramos! A chave para a imortalidade.”[br/]– Prof. Ellen Shaw, Primeira da Assembly</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Assembly Female</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>130</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>3</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>KyleB</LastAuthor>
+  <LastSaved>2019-03-01T12:58:16Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12795</WindowHeight>
+  <WindowWidth>32760</WindowWidth>
+  <WindowTopX>32760</WindowTopX>
+  <WindowTopY>32760</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0066CC" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s66" ss:Parent="s62">
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="41" x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:Width="106.5"/>
+   <Column ss:StyleID="s63" ss:Width="90"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="422.25"/>
+   <Column ss:StyleID="s63" ss:Width="144.75"/>
+   <Column ss:StyleID="s63" ss:Width="176.25"/>
+   <Column ss:StyleID="s63" ss:Width="117.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="422.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SPECIES_DVAR</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RACE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME_SINGULAR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dvar</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RACE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME_PLURAL</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dvar</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="113.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RACE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s66" ss:HRef=""><Data ss:Type="String">{XML_SPECIES_DVAR@RACE@DESCRIPTION_SHORT}[br/][br/][bulletList][bullet][sand]Bônus Inicial:[/sand] Comece com +150[energy/] [hyperlink,000003AC00000023]Energia[/hyperlink][/bullet][bullet][sand]Bônus de Longo Prazo:[/sand] [hyperlink,000003AC0000029D]Acelerar Produção[/hyperlink] custa 15% menos[/bullet][bullet][hyperlink,0000039E0000000F]Grupo de Armas[/hyperlink] de Armas de Fogo[/bullet][bullet][hyperlink,000003AC00000293]Grupo de Armas[/hyperlink] Explosivas[/bullet][bullet]Ataques poderosos de área de efeito e alcance médio[/bullet][bullet]Foco forte em produção[/bullet][bullet]Opções de terraformação para destruir e criar montanhas[/bullet][/bulletList]</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The {text} inserts the DESCRIPTION_SHORT text below.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="51">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RACE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION_SHORT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Os [hyperlink,0000039E0000001A]Dvar[/hyperlink] são uma raça econômica de sobrevivencialistas. Os Dvar trabalham duro para minerar planetas em busca de tudo o que valem, a fim de obter o máximo de recursos possível para a sobrevivência e bem-estar de seu Consórcio.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.5">
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CAMP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Assentamento Dvar</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="29.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CAMP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Um assentamento é uma pequena colônia independente que pode se juntar a você se tiver influência suficiente.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18.75">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Migrar Colônia: Dvar</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="64.5">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Migre a população desta colônia para Dvar. A colônia se tornará uma colônia Dvar. [br/][br/][fireCol]Ao migrar a população, {PopulationDeath} dos colonos da colônia serão mortos.[/fireCol] [br/][br/]Você recebe:[br/][fireCol]{Reputation} Reputação[br/]{RaceRelation} Relação Racial com os {STR_raceName}[/fireCol]</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">IN_PROGRESS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">A colônia está sendo migrada para uma população Dvar. O processo será concluído em [INT_duration].</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="19.5">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MIGRATE_OPERATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CONFIRMATION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Tem certeza de que deseja migrar esta colônia para uma colônia Dvar?</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TRENCHER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Trencheiro</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">TRENCHER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Ouvi o clique-claque rítmico das máquinas de mineração e corri pelo túnel seguindo o som. Geralmente não fico com Dvars, principalmente porque eles gostam muito de mineração, e eu acho difícil gostar de sujeira. Mas com insetos farejando meu rastro, escolhi uma nova companhia. Felizmente, os Dvar tinham Trencheiros. Ao meu aviso, eles cavaram trincheiras defensivas. Com seus escudos erguidos, os insetos foram repelidos pela força de suas investidas. Suas armas de espigões perfuraram a armadura natural do inimigo, forçando as criaturas a recuar ou morrer.”— Mah Reg’Nib, Observador Oficial, “RV-2246X: Crônicas Dvar”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: removed extra space after "sound."
+Edit: Dvartian -&gt; Dvar</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">FOREMAN</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Encarregado</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">FOREMAN</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Como encarregado, eu sou o chefe. Não exijo nada dos meus subordinados que eu mesmo não possa fazer. Eu me modelo no lendário Mestre Ferreiro Dvarnos. Ele alcançou o coração da montanha e retirou a Manopla dos Impérios. Pelo poder da minha manopla, meus homens permanecem firmes contra o terror das criaturas que espreitam nas profundezas escuras. Quando meus homens estão quebrados, eu os reparo. Com meu morteiro, posso colocar uma carga para destruir à distância. Com o poder do meu punho, eu quebro rochas e monstros da mesma forma.”— Encarregado Gorgle Grok, “RV-32344M: Minas Inimigas”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: Empire -&gt; Empires</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PROSPECTOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Prospector</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">PROSPECTOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Não há glória em matar. Não há virtude na conquista. Eu tenho trabalho a fazer. Este universo é rico e inexplorado. Os Dvar o moldam. Os Dvar não têm motivos sinistros. Isso é coisa do seu povo. Nós não bombardeamos os Portões do Vazio, arruinando o Hiperespaço. Com ou sem a Star Union, nós sempre temos trabalho. Meu trabalho vai melhorar minha sociedade. É só isso. Sim, eu posso lançar uma bomba, mas não sou apaixonado por isso. Sou um Prospector. Não amo nada mais do que minerar um veio rico de minério.”— Prospector Darton Nan, “RV-2244D: Casos Dvar”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: I've -&gt; I have
+Edit: Dvarton -&gt; Darton</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ENFORCER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Baluarte</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ENFORCER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Adaptado para repelir saqueadores infundidos com quartzito por tempo suficiente para que mineradores Dvar escapem, o Baluarte é especialmente formidável em retardar o avanço inimigo. No primeiro encontro, pensamos que fosse um Andador modificado, mas a arma do Baluarte dispara um projétil com um impacto explosivo que derruba a maioria das tropas. Não tente sobrepujar suas capacidades defensivas usando uma técnica de ataque em massa. Eu vi um atingir invasor após invasor tentando passar por ele, enquanto forças de guarda normais não teriam tempo de atacar tão rapidamente.”— Capitão Paxus Plexis, “RV-378M: Relatório de Análise Militar: Dvar”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">EXCAVATOR_TANK</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Tanque Escavador</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">EXCAVATOR_TANK</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Eu já destruí tanques, mas o Escavador Dvar pode muito bem ser um lingote de blindagem. Essa coisa é sólida. Ele avança através da maioria dos obstáculos como se fossem hologramas. Tentei manter minha posição contra um no meu meca-andador; ele me derrubou. Engenheiros de solda não conseguem se aproximar. O anel defensivo de lança-chamas incinerará qualquer coisa adjacente a ele. Seu canhão dispara uma explosão de área de explosivos Dvar que faz o soldado mais firme cair de joelhos.”— Capitão Paxus Plexis, “RV-376M: Relatório de Análise Militar: Dvar”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ROCKET_ARTILLERY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Artilharia de Foguetes</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ROCKET_ARTILLERY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Hopper Hill era o incômodo do Vale Sundew. Centenas de hopperhounds viviam naquele ninho, ameaçando a comunidade. O diplomata Dvar disse que tinha uma tia, uma exterminadora nata. Eu ri e assinei os papéis permitindo que ‘Olga, a Gorda’ entrasse no vale. Depois disso, um veículo pesado sobre esteiras surgiu. Após sucessivas explosões estrondosas, toda a toca dos hopperhounds desabou. Uma cratera escancarada era tudo o que restava de Hopper Hill. O ‘diplomata’ Dvar riu maldosamente, enquanto Olga, a Gorda, virava em direção ao nosso assentamento. Foi então que percebi que tinha assinado nossa liberdade.”— Patchery Mazz, “RV-6993D: A Rendição do Vale Sundew”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: Hopperhounds -&gt; hopperhounds
+Edit: Hopperhound -&gt; hopperhound</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">EARTH_CRUSHER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Esmagador de Terra</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">EARTH_CRUSHER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Os Dvar não são monstros sob seus trajes de encontro. Eles valorizam prosperidade, clã e suas invenções. Se têm um defeito, é que enxergam mundos como máquinas cheias de peças substituíveis. Escapei em um Esmagador de Terra. Enquanto a máquina monstruosa sugava tudo do solo, eu me esgueirei até a extrusora. Esmagadores de Terra puxam tudo, usando raios tratores para capturar inimigos. Engrenagens massivas trituram, forjas expelem fumaça, refinando matérias-primas em componentes valiosos. Um rastro de escória estéril fica em seu caminho. Esse refugo é o esconderijo perfeito, se eu não morrer de fome.”— Mah Reg’Nib, “RV-2390X: Crônicas Dvar”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: sneaked -&gt; snuck
+Edit: Dvartian -&gt; Dvar</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SAPPER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Engenheiro de Combate</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SAPPER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“As mulheres indígenas atacam nossos trabalhadores sempre que limpamos terras para mineração. Elas desaparecem entre as árvores e atacam com selvageria. O Oligarca se recusa a aprimorar nossas armas para repeli-las. As margens de lucro são muito estreitas. Ontem, entrei em um Engenheiro de Combate e dirigi direto para o assentamento delas. Mantendo-me baixo no solo, era um alvo difícil de acertar. Escavei através de obstruções de raízes e soltei uma carga sísmica. A cobertura natural se estilhaçou. Muitas ‘bruxas da madeira’ caíram atordoadas. As tropas seguiram, usando a trincheira que cavei como cobertura. As florestas de Virga logo nos pertencerão.”— Engenheiro de Combate Stogie Glurp, “RV-8038M: Colhendo Virga”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RAMJET</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Ramjet</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">RAMJET</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Sem todos esses foguetes, eu não pilotaria isso. Sou Dvar, não uma medusa espacial delicada. Não preciso flutuar pelo espaço. Nada satisfaz tanto quanto mover terra e solo com o rugido de nossos motores. Quem não gosta do poder da maquinaria em toda a sua glória? Por outro lado, não há nada como a sensação dos pós-combustores em pleno rugido enquanto o bloco do nariz do sólido Ramjet esmaga aeronaves inimigas leves. Adoro ver a expressão no rosto do piloto em pânico enquanto sua nave sai do controle.”— Piloto Capturado, Guett Wrek’t, “RV-3904M: Testemunho de Foras da Lei”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">BARON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Barão</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">BARON</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Eu servi ao Barão Dvar Durek. Ele era inteligente e industrioso. Mexia dia e noite, aprimorando sua armadura de batalha, substituindo tecnologia obsoleta pelas mais recentes armas perigosas. Anualmente, os Barões competem em lutas brutais para reivindicar o Cinto do Campeonato Nobre. Ainda assim, o esporte carecia de propósito para Durek. Então, o inquieto Barão usou sua armadura de batalha no campo de batalha. Sugeri que ele equipasse seu traje com kits de reparo para apoiar tropas Dvar mais fracas. Ele se tornou uma lenda Dvar. Todas as suas tropas conquistaram glória para seu clã. Agora, todos os Barões lutam por um propósito e para testar os mais recentes upgrades tecnológicos.”— Mah Reg’Nib, “RV-2255X: Crônicas Dvar”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Edit: Dvartian -&gt; Dvar
+Edit: purpose -&gt; a purpose
+Edit: Dvartian -&gt; Dvar</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">IRONCLAD</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Couraçado</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">IRONCLAD</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“O Couraçado Dvar flutuava baixo na água, como uma barcaça de tesouros sobrecarregada. Navios piratas o perseguiam. Ignorando a ameaça dos números, o Couraçado abalroou a embarcação líder, colidindo com um estrondo percussivo. O navio do saqueador virou e afundou. O Canhão Rotativo Dvar obliterou outra embarcação pirata, enquanto as outras tentavam flanqueá-lo. Escotilhas ao redor da embarcação Dvar se abriram, liberando uma devastadora barragem de proximidade contra todos os navios adjacentes. Quando a fumaça se dissipou, apenas o Couraçado Dvar navegava para longe.”— Merrill Ludwing, Batedor Naval, “RV-4422M: Observações em Alto-Mar”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DREADNOUGHT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Encouraçado</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DREADNOUGHT</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">“Os navios Dvar se aproximaram do Encouraçado. Sua massa imensa parecia um alvo fácil para a artilharia de nossa nave. Um arroto concussivo soou. Os homens mais próximos do local começaram a sufocar. Cortinas de fumaça espessa obscureceram o Encouraçado e a área imediata. Navios nas nuvens dispararam seus canhões estrondosos. O mar fervia ao nosso redor. Tentamos revidar, mas não conseguíamos avaliar os danos com clareza. O Almirante Reams ordenou a retirada depois que não conseguíamos mais determinar se estávamos vencendo ou apenas chapinhando no mar.”— Capitão Lars Sitwell, “RV-44499M: Rotas Comerciais”</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BOMBARD</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bombardeiro</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BOMBARD</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bombardeiros são as torres de defesa Dvar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">PLANET_ARRIVAL</Data></Cell>
+    <Cell><Data ss:Type="String">LOG</Data></Cell>
+    <Cell><Data ss:Type="String">Como Diretores do Consórcio Dvar, vocês sabem que é preciso cavar fundo para encontrar o verdadeiro valor. O colapso da Star Union os deixou abandonados em mundos inóspitos. Isso forjou sua vontade de ferro e corações ardentes. Enquanto seu Consórcio ressurge para extrair os tesouros do passado, prestem atenção aonde enviam suas máquinas. Nem tudo merece ser esmagado e processado em nome do lucro.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">This text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+    <Cell><Data ss:Type="String">VO: Empress Carminia - Female
+
+Edit: "Consortia you know one" -&gt; "Consortia, you know that one"</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>115</Zoom>
+   <Selected/>
+   <TopRowVisible>3</TopRowVisible>
+   <LeftColumnVisible>1</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>7</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,1965 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Jakob Matthes</LastAuthor>
+  <LastSaved>2019-02-08T12:00:04Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17625</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Triumph_XML_Format">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s66" ss:Parent="s62">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s70" ss:Parent="s62">
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="345" x:FullColumns="1" x:FullRows="1" ss:StyleID="s63" ss:DefaultColumnWidth="256.5" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="327.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="70.5"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="288.75"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="201"/>
+   <Column ss:StyleID="s63" ss:AutoFitWidth="0" ss:Width="255"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">VANGUARD01_CAMPAIGN</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:Index="4" ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">Mission Introduction - Part 1: Commander’s Personal Record: Vanguard Expeditionary Forces. Cryosleep cycle completed – no casualties. Time since launch: 197 years. Target planet secured. Void rift created and stabilized. One complication: Communications with the Star Union still failing. The probes sent through the rift detected the cause: A heavy Void Storm is blocking our signals – and our return.</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Spoken by Jack Gelder; added for context</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">Mission Introduction - Part 2: We have a way off this rock. Some kind of harmonic lull in the Void Storm. Our new target is Leave-6, the military transit hub in this section of the borderlands. Part of my crew is already speculating about the Elysium Parks of tomorrow. Personally, I never gave a damn about such front soldier entertainment, but it’s good to see ship morale rise again.</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Spoken by Jack Gelder; added for context</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">Mission Introduction - Part 3: Something is wrong. We made it through the Void in one piece, but instead of Vanguard Rift Patrol there was only scattered wreckage awaiting our arrival. While searching for survivors, we spotted a ship of unknown configuration. It ignored our hails, retreating into the planet’s atmosphere. Residual void interference prevents us from scanning the surface. We’re preparing a landing party.</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Spoken by Jack Gelder; added for context</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">Mission Introduction - Part 4: Our new mission is clear: We need to assess the strategic situation on Leave-6, contact Vanguard Central Command – and help them clean up this mess. Prepare for Planetfall! For the Vanguard! And for the Union!</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Spoken by Jack Gelder; added for context</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">Mission Outro - Part 1: Although the crisis on Leave 6 has come to an end, the fate of the Star Union remains uncertain. We know now that because of the Void Storms the planet lost contact to the Union approximately 170 years ago. However this doesn‘t explain why there haven‘t shown up any imperial ships since the storms began to subside nor why Sina and the Syndicate could act so ruthlessly after their arrival. I could still be wrong with this, but I fear the chaos and destruction we encountered here may have been only the beginning.</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Spoken by Jack Gelder; added for context</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="165">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">Mission Outro - Part 2: To rise like a phoenix from the ashes. This is how the Prometheans used to embellish their murdering and destruction and I always despised them for their war crimes. However even I have to admit that in difficult times like this their technology can be useful: For survival, protection and diplomatic intimidation. Because even if the Syndicate aren’t part of a greater Outlander invasion force I want to be prepared the next time we meet. They have asked for fire. They shall have it!</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Spoken by Jack Gelder; added for context</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Jack Gelder" is the default name of the playable character in the mission. The character can be customized by the player to be either male or female.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">{STR_LeaderName} is a string insertion variable of the player character (Jack Gelder) name. It will be replaced by the name chosen by the player during leader customization.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Colonel" is the military title of Jack Gelder within the Vanguard.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Leave-6" is the name of the planet.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Vanguard Central" is the name of the military command gremium in power when the Star Union still existed.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Lt. Jiang" refers to Daiyu Jiang (female Vanguard campaign character)</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">Daiyu Jiang is the name of a female Vanguard campaign character.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Tappels" is the name of a unique Vanguard PUG unit. The robot is a pet of Daiyu Jiang,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"sleeper mission" refers to the cryo-sleep missions where the Vanguard are sent to claim distant planets by spending the decades (or centuries) of flight time in cryogenic stasis.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"the Void" is the subspace connecting the game universe with other dimension and universes. It is entered and left through Spatial Rifts to quickly travel between star systems with faster than light speed.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Void Storms" are cosmic storms that can occur within the Void. They impede travelling or communicating through the Void.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Spatial Rift" refers to the cosmic rifts connecting the physical world with the Void.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Michael Valentine" is the name of a male Vanguard campaign character.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Ruby Squad" refers to the Vanguard under command of Michael Valentine, a male Vanguard campaign character.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Huy Jiang" is the name of a male Vanguard campaign character. He is the nephew of Daiyu Jiang (she is his aunt).</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Emerald Squad" refers to the Vanguard under command of Huy Jiang, a male Vanguard campaign character.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Fang" refers to "Fang Jiang", the father of Huy Jiang and brother of Daiyu Jiang.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Sina of House Timur" is the name of a female Syndicate campaign character.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Saphire Squad" refers to the Vanguard under command of Colonel Garou, a male Vanguard.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Molten Earth Arsenal" is the name of a unique sector on the map (with a Promethean landmark).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Tricorium" is the name of a strong and rare metal.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Outlanders" refers to a non-homogenous group of out-casts and started rebelling against the Star Union at some of its outer-borders planets.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Laura-2" is the name of a female Elysium Park robot.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Emma-3" is the name of a female Elysium Park robot.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Ilia-5-3" is the name of a female Elysium Park robot.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Michael-4" is the name of a male Elysium Park robot.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Emperor Khansu" is the name of a Star Union emperor that died by igniting his home world with PyrX fire, turning it into his planetary tomb.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Aethron" is the name of a valuable psionically charged substance.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"House Timur" is the name of a Syndicate clan.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">"Cerebral control collar" is the name of a Syndicate unit ability. It is used to subdue humanoids and turn them into slaves (or in game Syndicate Indentured units).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_PHOENIX_VAULT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arsenal da Terra Derretida</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_ELYSIUM_PARK_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Parque Elísio Rubi</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_ELYSIUM_PARK_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Parque Elísio Esmeralda</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_ELYSIUM_PARK_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Parque Elísio Safira</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_PROMETHEAN_DOOMSDAY_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Campos Sufocantes</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_PROMETHEAN_DOOMSDAY_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ermos do Céu em Chamas</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_PROMETHEAN_DOOMSDAY_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Cinzas das Virtudes Perdidas</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_SPACEPORT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Porto 6</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_PARAGON_DWELLING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Persalis Acta</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_PHOENIX_VAULT_HAZARD</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Área 42</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_ELYSIUM_PARK_02_SURROUNDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">O Mar Desaparecido</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CUSTOMSECTOR_RUBY_SQUAD_ENERGY_REACTOR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Setor 43-B</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s66"><Data ss:Type="String">Name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:Index="62" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FIND_OUT_WHAT_HAPPENED_ON_THE_PLANET_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Descobrir o Destino de Leave-6</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">FIND_OUT_WHAT_HAPPENED_ON_THE_PLANET_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Leave-6 está em um estado desolado. O planeta está envolto por nuvens de radiação e, na superfície, parece restar pouco além de ruínas. Investigue o planeta e descubra o que levou a essa destruição.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SEARCH_FOR_SURVIVORS_INTRO_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Com o acampamento-base estabelecido, estamos prontos para avançar. Aqui embaixo, a paisagem é tão desolada quanto vista da órbita: só deserto e ruínas carbonizadas. O paraíso tropical que a Vanguard Central criou para seus soldados virou um inferno. Alguém travou uma guerra aqui. A questão é: quem e quando?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">SEARCH_FOR_SURVIVORS_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Até agora, nenhuma de nossas chamadas em frequências padrão foi respondida. Se há sobreviventes, eles estão isolados das comunicações ou não querem falar. Hora de procurar à moda antiga, com nossos rifles a laser preparados.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SEARCH_FOR_SURVIVORS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Procurar Sobreviventes</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SEARCH_FOR_SURVIVORS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Envie seus batedores OWL para procurar qualquer presença da Star Union nas proximidades.[br/][br/][recommendedcol](Dica: Nem todos os exércitos no mapa estratégico são hostis a você. Só interaja com cuidado quando o estandarte de um exército exibir uma caveira.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SEARCH_FOR_SURVIVORS_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Facção Paragon Encontrada</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">LOCATE_TAPPELS_INTRO_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Biep, biep, blililiep, blieeeep… (O robô se move de forma brincalhona.)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Tappels" (unique Vanguard PUG unit; the robot is a pet of Daiyu Jiang)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">LOCATE_TAPPELS_INTRO_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Olha só isso, Ten. Jiang!? Seu amiguinho está se sentindo em casa neste lugar podre.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)
+"Lt. Jiang" refers to Daiyu Jiang (female Vanguard campaign character)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">LOCATE_TAPPELS_INTRO_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sim, Senhor. Mas não é surpresa! Meu irmão serviu em uma das Estações de Reparo Leave-6. Foi aqui que montávamos os Tappels. Ele deve estar sentindo que está perto do seu... Ei! Tappels! O que pensa que está fazendo?!</Data></Cell>
+    <Cell><Data ss:Type="String">Sim, Senhora. Mas não é surpresa! Meu irmão serviu em uma das Estações de Reparo Leave-6. Foi aqui que montávamos os Tappels. Ele deve estar sentindo que está perto do seu... Ei! Tappels! O que pensa que está fazendo?!</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Daiyu Jiang" (Vanguard, female)
+"Sir/Ma'am" refers to Jack Gelder.
+"Repair Stations" is the plural name of a strategic world map structure.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LOCATE_TAPPELS_INTRO_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bieeep. Blieeeelieeeep. (O robô escorrega por uma das seções ainda inacabadas da parede do acampamento. Ele dispara direto para o deserto.)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Tappels" (unique Vanguard PUG unit; the robot is a pet of Daiyu Jiang)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">LOCATE_TAPPELS_INTRO_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LOCATE_TAPPELS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Localizar Tappels</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">LOCATE_TAPPELS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Descubra para onde o PUG de estimação da Ten. Jiang fugiu.[br/][br/][recommendedcol](Dica: Esta é uma missão de aventura. Certifique-se de levar um exército ao se mover para o local-alvo.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.
+"Lt. Jiang's pet PUG" is referring to Tappels.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">LOCATE_TAPPELS_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Tappels Avistado</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SAVE_TAPPELS_INTRO_MESSAGE_DAIYU_ALIVE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Parece que nosso amiguinho robô encontrou companhia. Embora, espere um segundo — esses não são unidades de varredura de ruas fazendo patrulha? Pode ser que eu não seja especialista em robôs de manutenção, mas da última vez que verifiquei, eles não precisavam de armas a laser para fazer a limpeza. A higiene das tropas deve ter caído muito desde que partimos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)
+"road sweeper units" and "maintenance robots" both refers to Autonom units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SAVE_TAPPELS_INTRO_MESSAGE_DAIYU_ALIVE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ha! Boa, Comandante! Embora eu duvide que este lugar tenha visto visitantes que apreciariam uma calçada limpa há muito tempo. Parece completamente abandonado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Daiyu Jiang" (Vanguard, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SAVE_TAPPELS_INTRO_MESSAGE_DAIYU_ALIVE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Concordo! De qualquer forma, sugiro que interrompamos essa “limpeza” em particular, antes que seu bichinho de estimação seja feito em pedaços.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SAVE_TAPPELS_INTRO_MESSAGE_DAIYU_DEAD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Parece que o amiguinho robô da Daiyu encontrou companhia. Porém, essas unidades de varredura de ruas não parecem muito amigáveis. É melhor descermos para ajudar antes que a última lembrança do meu amigo perdido vire pó também.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)
+"road sweeper units" refers to Autonom units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SAVE_TAPPELS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Salvar Tappels</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SAVE_TAPPELS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Resgate Tappels antes que ele seja atacado pelos dróides de manutenção.[br/][br/][recommendedcol](Dica: Alguns pontos de interesse precisam ser acessados para lutar contra seus defensores. Mova seu exército para a estrutura para poder entrar nela.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.
+"maintenance robots" refers to Autonom units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SAVE_TAPPELS_COMPLETION_MESSAGE_DAIYU_ALIVE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Biep. Bliehieeep! (O robô pula de Daiyu Jiang para {STR_LeaderName} com entusiasmo, balançando sua antena.)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Tappels" (unique Vanguard PUG unit; the robot is a pet of Daiyu Jiang)
+{STR_LeaderName} is a string insertion variable of the player character (Jack Gelder) name. It will be replaced by the name chosen by the player during leader customization.</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Requires a localization note on what is inserted in {STR_LeaderName}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SAVE_TAPPELS_COMPLETION_MESSAGE_DAIYU_ALIVE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Venha aqui, Tappels! … isso, garoto! Mas você tem que prometer nunca mais fugir assim! Olha só no que nos meteu!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Daiyu Jiang" (Vanguard, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SAVE_TAPPELS_COMPLETION_MESSAGE_DAIYU_ALIVE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Olhar ao redor pode valer a pena desta vez, Tenente. Você se lembra de como todas as naves aqui estavam polidas e enfeitadas para o nosso dia de lançamento? Agora parecem pertencer a um museu ou aos hangares de desmontagem em Gardip XX. Quase me sinto como um fantasma vivo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)
+"Gardip XX" is the name of a planet used by the Star Union as a garbage-dump.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SAVE_TAPPELS_COMPLETION_MESSAGE_DAIYU_DEAD_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Biep. Bliehieeep! (O robô pula para {STR_LeaderName} com entusiasmo, então, como esperado, sua cabeça gira 360 graus.)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Tappels" (unique Vanguard PUG unit; the robot is a pet of Daiyu Jiang)</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Requires a localization note on what is inserted in {STR_LeaderName}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">SAVE_TAPPELS_COMPLETION_MESSAGE_DAIYU_DEAD_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sinto muito, garoto, mas nosso amigo não estará aqui para se juntar a nós hoje. Venha aqui agora... Eu sei, não é fácil. Vamos lá, aí está um bom cãozinho-robô!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">SAVE_TAPPELS_COMPLETION_MESSAGE_DAIYU_DEAD_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Wooooo. Boop. (Sua cabeça de robô pende.)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Tappels" (unique Vanguard PUG unit; the robot is a pet of Daiyu Jiang)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SAVE_TAPPELS_COMPLETION_MESSAGE_DAIYU_DEAD_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este lugar já foi um porto espacial. Ainda me lembro de como todas as naves estavam polidas e enfeitadas para o dia do lançamento da nossa missão. Agora, parecem pertencer a um museu ou aos hangares de desmontagem em Gardip XX. Quase me faz sentir como um fantasma vivo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)
+"Gardip XX" is the name of a planet used by the Star Union as a garbage-dump.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TAPPELS_DESTROYED_MESSAGE_DAIYU_ALIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ah, não, Tappels! Agora eles pegaram você também, velho amigo![br/][br/]...[br/][br/]Quando tudo isso acabar, juro que não descansarei até tê-lo montado de novo, meu amigo! Talvez eu atualize suas sub-rotinas de autopreservação.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Daiyu Jiang" (Vanguard, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">TAPPELS_DESTROYED_MESSAGE_DAIYU_DEAD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Malditos desgraçados! Eles destruíram o Tappels. Primeiro a Daiyu, agora o pequeno robô amigo dela. Recolham as peças. Quando as coisas se acalmarem, eu mesmo vou consertá-lo. Quão difícil pode ser?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FIND_THE_ALIEN_SHIP_QUEST_INTRO_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Falando em naves, temos que redobrar os esforços para encontrar a nave alienígena que perseguimos desde a órbita. Será melhor seguir o rastro deles antes que preparem alguma surpresa desagradável.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FIND_THE_ALIEN_SHIP_QUEST_INTRO_MESSAGE_DAIYU_DEAD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Agora que o recuperamos, temos que redobrar os esforços para encontrar a nave alienígena que perseguimos desde a órbita. Será melhor seguir o rastro deles antes que preparem alguma surpresa desagradável.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)
+"You" references the Tappels droid.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FIND_THE_ALIEN_SHIP_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Encontrar a Nave Alienígena</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FIND_THE_ALIEN_SHIP_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Localize o ponto de pouso da nave desconhecida.[br/][br/][recommendedcol](Dica: Esta é uma missão de exploração. Use suas unidades de reconhecimento ou outras unidades de movimento rápido para completá-la.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FIND_THE_ALIEN_SHIP_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Nave Encontrada</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_PARAGON_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Parem! Fiquem exatamente onde estão, renegados imundos! Voltem para seus casebres imediatamente, ou não teremos escolha a não ser abatê-los como cães.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Paragon Solider" (Paragon Trooper unit, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MEET_PARAGON_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Que loucura é essa, soldado? É assim que a tripulação de retorno de uma missão de hibernação é recebida hoje em dia? Saiam da frente! Deixem-me falar com seus superiores.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)
+"sleeper mission" refers to the cryo-sleep missions where the Vanguard are sent to claim distant planets by spending the decades (or centuries) of flight time in cryogenic stasis.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="240">
+    <Cell><Data ss:Type="String">MEET_PARAGON_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma missão de hibernação? Impossível! Não há mais naves chegando do Vazio. Não mintam para mim. Esquadrão Rubi, Esquadrão Esmeralda, Esquadrão Safira, vocês são todos loucos![br/][br/]Sabe de uma coisa? Vamos deixá-los falar com o Prefeito. Ele vai mostrar como lidamos com traidores…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Paragon Solider" (Paragon Trooper unit, male)
+"the Void" is the subspace connecting the game universe with other dimension and universes. It is entered and left through Spatial Rifts to quickly travel between star systems with faster than light speed.
+"Ruby Squad" refers to the Vanguard under command of Michael Valentine, a male Vanguard campaign character.
+"Emerald Squad" refers to the Vanguard under command of Huy Jiang, a male Vanguard campaign character.
+"Saphire Squad" refers to the Vanguard under command of Colonel Garou, a male Vanguard.
+For "Prefect" see the matching glossary entry.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_PARAGON_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">É difícil acreditar que essas criaturas miseráveis já foram cidadãos orgulhosos da Star Union. Sempre achei que os Paragon estavam exagerando com os aprimoramentos cibernéticos, mas isso? Eles ainda são humanos?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MEET_PARAGON_EVENT_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">E o que dizer de nos chamarem de renegados? Será que seus cérebros apodreceram também ou há algo mais por trás disso? Hora de falar com o Prefeito deles. O Comando Central da Vanguard saberá o que está acontecendo. Enquanto isso, devemos ficar de olho nos comandantes dos Esquadrões Rubi, Esmeralda e Safira que eles mencionaram. Eles podem ser um problema.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">MEET_PARAGON_LEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Acalmar os Paragon</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MEET_PARAGON_LEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Prove suas boas intenções aos Paragon e alcance uma relação pacífica com eles.[br/][br/][recommendedcol](Dica: Para aumentar as relações com uma Facção NPC, interaja com seus exércitos para receber missões ou acesse sua Morada no mapa estratégico para fazer compras na loja da facção.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MEET_PARAGON_LEADER_QUEST_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quem ousa andar nas sombras do meu trono, escondendo-se como ladrões? Aproximem-se, venham para a luz! Deixem-me ver seus rostos…[br/][br/]Ah, são vocês, os que afirmam ter retornado pela Fenda Espacial! Diga-me, soldado, qual era o nome e a designação da sua missão?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Paragon Prefect" (Paragon, male; the leader of the Paragon on a particular planet)
+"Spatial Rift" refers to the cosmic rifts connecting the physical world with the Void.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="135">
+    <Cell><Data ss:Type="String">MEET_PARAGON_LEADER_QUEST_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Meu nome é {STR_LeaderName}, oficial comandante da ‘V.E.S. Frontier’. Nós asseguramos o sistema Kitoni, enviados em uma missão de criossono tipo 4 há 197 anos. Dito isso e com todo o respeito, é melhor que tenham um bom motivo para nos tratar assim!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)
+"V.E.S. Frontier" is the name of a space ship. V.E.S. Is the short from of "Vanguard Expeditionary Ship".
+"Kitoni system" is the name of a star system.
+"cryo-sleep" mission refers to the deep-space missions where the Vanguard are sent to claim distant planets by spending the decades (or centuries) of flight time in cryogenic stasis.</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MEET_PARAGON_LEADER_QUEST_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Há 197 anos, 58 dias e 20 horas, para ser preciso – a Frontier parecia uma ótima nave naquela época. Parabéns, Comandante, você passou! Então é verdade… as Tempestades do Vazio diminuíram. Esta é uma excelente notícia! Eu os convidaria para um jantar comemorativo, mas como devem ter notado, mal conseguimos nos sustentar.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Paragon Prefect" (Paragon, male; the leader of the Paragon on a particular planet)
+"Frontier" is the name of a space ship.
+"Void Storms" are cosmic storms that can occur within the Void. They impede travelling or communicating through the Void.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MEET_PARAGON_LEADER_QUEST_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Devo-lhe um pedido de desculpas, Comandante. Embora deva entender nossa situação: quando o planeta perdeu contato com o Comando Central da Vanguard, ficou sem meios de suprimento. Soldados não são bons fazendeiros, e à medida que as rações diminuíam, as tensões dentro da Vanguard começaram a ferver. Eles se dividiram em diferentes grupos, os Esquadrões Esmeralda, Rubi e Safira, enquanto, infelizmente, apenas alguns permaneceram leais aos Paragon.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Paragon Prefect" (Paragon, male; the leader of the Paragon on a particular planet)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MEET_PARAGON_LEADER_QUEST_COMPLETION_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Desde então, eles têm lutado por comida, armas e recursos, devastando o planeta com armamentos Promethean experimentais. Atacam qualquer um e saquearam todos os outros postos de comando dos Paragon. Estávamos desesperados, mas agora, com sua chegada e a perspectiva de nos reunirmos à União, certamente podemos pôr um fim a esta tragédia!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Paragon Prefect" (Paragon, male; the leader of the Paragon on a particular planet)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">END_THE_VANGUARD_CONFLICT_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Encerrar o Conflito da Vanguard</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">END_THE_VANGUARD_CONFLICT_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A Vanguard em Leave-6 se dividiu em diferentes Esquadrões, lutando sua própria guerra civil pessoal. Descubra as razões desse conflito e o encerre - de um jeito ou de outro.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FIND_THE_VANGUARD_SQUAD_LEADERS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Encontrar os Líderes dos Esquadrões da Vanguard</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FIND_THE_VANGUARD_SQUAD_LEADERS_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Procure pelos líderes do Esquadrão Esmeralda, Esquadrão Rubi e Esquadrão Safira mencionados pelo Soldado Paragon.[br/][br/][recommendedcol](Dica: Esta é uma missão de exploração. Use suas unidades batedoras ou outras unidades de movimento rápido para completá-la.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MEET_HUY_JIANG_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O que é isso? Novos recrutas? Vieram provar seu valor ao grande Huy Jiang e seu Esquadrão Esmeralda? Sejam fortes! Sejam ágeis! Sejam disciplinados! Dominem suas habilidades e talvez sejam escolhidos para lutar na linha de frente enquanto retomamos o Arsenal Terra Derretida!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Huy Jiang" (Vanguard, male)
+"Molten Earth Arsenal" is the name of a unique sector on the map (with a Promethean landmark).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MEET_HUY_JIANG_MESSAGE_PAGE_02_DAIYU_ALIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Huy… é você mesmo? Achei que nunca teria a chance de te encontrar crescido! Quando se juntou à Vanguard? Tem esposa e filhos? Como sobreviveu por tanto tempo? Tenho tantas perguntas! E Fang… meu querido irmão… isso significa que ele ainda pode estar vivo também?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Daiyu Jiang" (Vanguard, female)
+"Fang" refers to "Fang Jiang", the father of Huy Jiang and brother of Daiyu Jiang.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_HUY_JIANG_MESSAGE_PAGE_03_DAIYU_ALIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Impossível. Minha família está morta. Se meu pai ainda estivesse vivo, ele mesmo atiraria em você. Diga ao seu líder de esquadrão que suas tentativas de me enganar para ganhar minha confiança serão recebidas a tiros.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Huy Jiang" (Vanguard, male)
+"father" refers to Fang Jiang.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MEET_HUY_JIANG_MESSAGE_PAGE_04_DAIYU_ALIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ah, não! Me dói ver que meu irmão decidiu esconder a verdade sobre minha missão de criossono. Mas isto não é mentira, Huy! Sou realmente a irmã do seu pai — e posso provar![br/][br/]Comandante, preciso da sua ajuda! Há um pingente entrelaçado — uma espécie de herança de família. O pedaço do meu irmão está escondido em uma Estação de Reparo. Era nosso segredo. Se conseguirmos recuperá-lo, Huy acreditará em nós!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Daiyu Jiang" (Vanguard, female)
+"Repair Station" is the name of a strategic world map structure.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_HUY_JIANG_MESSAGE_PAGE_05_DAIYU_ALIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Parece que tenho três opções aqui: posso apoiar a Ten. Jiang em sua busca, esperar por uma oportunidade diferente de convencer Huy Jiang pacificamente ou usar força militar para encerrar isso.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_HUY_JIANG_MESSAGE_PAGE_02_DAIYU_DEAD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não conheço nenhum Esquadrão Esmeralda nem seu líder, mas sei que todos da Vanguard fazem um juramento de servir à União. Os soldados por aqui esqueceram isso. Vim para lembrá-los de seus deveres. Responderá ao meu chamado, Comandante?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MEET_HUY_JIANG_MESSAGE_PAGE_03_DAIYU_DEAD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Servir à União? Não há mais Star Union para servir! O Império nos abandonou. Uma única nave de fronteira perdida não mudará isso. Seus protocolos e alta ética podem ter sido suficientes para sustentá-lo no criossono, Comandante. Vamos ver se ainda são tão nutritivos quando forem a única coisa que você tem para se alimentar.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Huy Jiang" (Vanguard, male)
+"The Empire" refers to the Star Union.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MEET_HUY_JIANG_MESSAGE_PAGE_04_DAIYU_DEAD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sinto falta da Ten. Jiang. Ela tinha jeito para a diplomacia. Triste o bastante que o nome do meu novo 'amigo' também tenha que me lembrar de sua perda.[br/][br/]Na verdade, tenho duas opções: Esperar por outra oportunidade de raciocinar com Huy Jiang ou usar força militar para encerrar isso.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Convencer Huy Jiang a Cessar Fogo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Encontre uma maneira de convencer Huy Jiang a encerrar a luta interna entre a Vanguard, seja por meios diplomáticos ou militares.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONVINCE_MORGAN_O_CONNOR_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Convencer Michael Valentine a Cessar Fogo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CONVINCE_MORGAN_O_CONNOR_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Encontre uma maneira de convencer Michael Valentine a encerrar a luta interna entre a Vanguard, seja por meios diplomáticos ou militares.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_QUEST_SCRIPTED_OBJECTIVE_MILITARY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_1}/{INT_2} Huy Jiang derrotado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_QUEST_SCRIPTED_OBJECTIVE_PEACEFUL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_1}/{INT_2} Aliança estabelecida com Huy Jiang</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CONVINCE_MORGAN_O_CONNOR_QUEST_SCRIPTED_OBJECTIVE_MILITARY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_1}/{INT_2} Michael Valentine derrotado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CONVINCE_MORGAN_O_CONNOR_QUEST_SCRIPTED_OBJECTIVE_PEACEFUL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_1}/{INT_2} Aliança estabelecida com Michael Valentine</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_PART_03_QUEST_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_1}/{INT_2} Setores de Exploração de Alimentos controlados</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.
+"Food Exploitation" is the name of a sector specialization that can be build in a colony.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_PART_01_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Buscar o Tesouro de Família de Fang Jiang</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_PART_01_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Vá ao antigo local de trabalho de Fang Jiang e procure pelo tesouro de família descrito a você por Daiyu.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_PART_01_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Espero que esse seu pingente seja feito de Tricório, Tenente, porque este lugar parece ter sido destruído por uma horda de Tiranodons furiosos. Como você pode ter certeza, afinal, de que é aqui que precisamos procurar? Pelo que sabemos, seu irmão pode ter trocado de local de trabalho uma dúzia de vezes antes de pedir demissão.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)
+"Tricorium" is the name of a strong and rare metal.
+"Tyrannodon" refers to the reptile creatures used as a mount by the "Amazon Tyrannodon" unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_PART_01_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Eu não queria tocar nesse assunto antes, mas vamos dizer que meus pais estavam muito preocupados com qualquer membro da família desaparecendo. Então, eles tomaram algumas precauções. Os pingentes, eles são mais do que meros adornos…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Daiyu Jiang" (Vanguard, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_PART_01_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O que eles são então? Dispositivos de rastreamento?! Não é à toa que você nunca fala da sua família!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_PART_01_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sim, nós podíamos usá-los para nos encontrar. Quando pousamos, eu localizei o pingente do meu irmão nesta posição. Da última vez que verifiquei, ainda estava aqui, mas agora… parece que está… se movendo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Daiyu Jiang" (Vanguard, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_PART_01_COMPLETION_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Essas são pegadas frescas de Hopperhound. Suspeito que uma dessas criaturas tenha levado seu pingente. Lembro-me de vários relatórios de incidentes onde exterminadores encontraram coleções inteiras de objetos brilhantes em tocas de Hopperhound.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)
+"Hopperhound" is the name of a marauder faction with several half hound half grasshopper units in them.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_PART_02_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Encontrar a Criatura que Devastou a Estação de Reparo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_PART_02_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Rastreie a criatura que devastou a Estação de Reparo e levou o tesouro de família com ela.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_PART_02_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quem diria que unidades PUG poderiam ficar tão ferozes? Parece que elas mesmas devem ter causado a maior parte da destruição na estação de reparo!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)
+"PUG units" refers to the Vanguard PUG unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_PART_02_COMPLETION_MESSAGE_PAGE_02_TAPPELS_ALIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Estou tão surpreso quanto você, Comandante. Isso me faz apreciar ainda mais a natureza alegre de Tappels. Está na hora de despertar a memória do meu Sobrinho com este pingente.</Data></Cell>
+    <Cell><Data ss:Type="String">Estou tão surpreso quanto você, Comandante. Isso me faz apreciar ainda mais a natureza alegre de Tappels. Está na hora de despertar a memória do meu Sobrinho com este pingente.</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Daiyu Jiang" (Vanguard, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_PART_02_COMPLETION_MESSAGE_PAGE_02_TAPPELS_DEAD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Estou tão surpreso quanto você, Senhor! Isso me faz sentir ainda mais falta do velho e alegre Tappels. Com o pingente, vamos ver se meu sobrinho será mais razoável desta vez!</Data></Cell>
+    <Cell><Data ss:Type="String">Estou tão surpresa quanto você, Senhora! Isso me faz sentir ainda mais falta do velho e alegre Tappels. Com o pingente, vamos ver se meu sobrinho será mais razoável desta vez!</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Daiyu Jiang" (Vanguard, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_PART_02_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Esse tesouro pertencia ao meu pai! Eu pensei que tivesse sido… como você conseguiu? Tudo bem. Acho que, se você é realmente minha tia como afirma, pelo menos merece saber que meu pai morreu há muitos anos em um ‘acidente de trabalho’. Sendo irmã dele, você sabe o que isso significa.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Huy Jiang" (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_PART_02_COMPLETION_MESSAGE_PAGE_03_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Infelizmente, tenho um esquadrão inteiro de soldados famintos para manter. Eles são minha família agora. Sou responsável por eles. Mostre-me que pode sustentá-los, e nós baixaremos nossas armas e encerraremos este conflito felizmente.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Huy Jiang" (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_PART_02_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Daiyu Jiang" (Vanguard, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_PART_02_COMPLETION_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Eu percebo que isso deve ser difícil para você, Tenente, mas você sabia que algo assim aconteceria mais cedo ou mais tarde. Todos nós sabíamos, quando deixamos nossas vidas anteriores para trás.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_PART_03_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Construir Setores de Alimentos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_PART_03_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Prove para Huy Jiang que você será capaz de sustentar seu povo controlando vários setores com especialização em comida.[br/][br/][recommendedcol](Dica: Tome cuidado para observar a felicidade de sua colônia ao aumentar sua renda de comida, pois colônias maiores geram mais infelicidade.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_PART_03_COMPLETION_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Vendo que você falou a verdade sobre sua identidade e como seu esquadrão lidou com as ameaças neste planeta até agora, estou disposto a acreditar que podemos realmente pôr um fim a este conflito. Você tem meu total apoio, Coronel {STR_LeaderName}.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Huy Jiang" (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">ALLY_HUY_JIANG_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não vou mentir: Esta guerra de palavras e tratados é mais cansativa do que atacar uma base fortificada dos Outlanders e deveria ser deixada para alguns diplomatas resolverem. Mas no fim, o que importa é que finalmente conseguimos nossa Aliança com Huy Jiang.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)
+"Outlanders" refers to a non-homogenous group of out-casts and started rebelling against the Star Union at some of its outer-borders planets.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">HUY_JIANG_DEFEATED_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Huy Jiang está morto. Ele deveria ter nos ouvido quando ainda podia. Pode soar duro, mas no fim ele acabou se tornando vítima de sua própria guerra.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_MORGAN_O_CONNOR_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName}! Eu deveria ter imaginado que era você, que havia retornado ao Leave-6. O ar tem cheirado a arrogância desde que ouvi os relatos sobre a nave adormecida pousada.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Michael Valentine" (Vanguard, male)</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MEET_MORGAN_O_CONNOR_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Valentine?! De alguma forma, nem estou surpreso em te encontrar vivo. Erva daninha cresce alto. Ainda assim, nunca esperei que você se voltasse contra seus preciosos amigos Paragons. O que aconteceu? Eles não estavam mais bonitos o suficiente para você?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MEET_MORGAN_O_CONNOR_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Típico. Zombando da miséria alheia! Enquanto você estava congelado, o resto de nós lutou pela sobrevivência. Minha posição me garantiu acesso ao criossono. Com uma guerra para lutar, estive entrando e saindo do criossono na expectativa de algum sinal de que a Star Union retornaria. Imagine minha decepção ao descobrir que era só você.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Michael Valentine" (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">MEET_MORGAN_O_CONNOR_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Falado como um verdadeiro hipócrita. É por isso que sempre gosto de conversar com você. Brincadeiras à parte, você não concorda que é hora de acabar com este derramamento de sangue desnecessário?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">MEET_MORGAN_O_CONNOR_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Desnecessário? Não estou surpreso que você tenha caído no ato inocente de Huy Jiang. Vá em frente. Pergunte a ele o que fez naquela noite nos Elysium Parks.[br/][br/]Para minha cooperação, prove que não está atrás apenas dos meus suprimentos. Vá ao Setor 43-B. Incêndios de PyrX ameaçam nossos reatores de energia. Apague-os e podemos conversar novamente!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Michael Valentine" (Vanguard, male)
+"Elysium Parks" is the plural name of a strategic world map structure.
+"Sector 43-B'' is the name of a unique world map sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONVINCE_MORGAN_O_CONNOR_QUEST_PART_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Extinguir os Incêndios de PyrX</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">CONVINCE_MORGAN_O_CONNOR_QUEST_PART_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma instabilidade geotérmica ameaça o Complexo de Energia Imperial no Setor 43-B. Elimine-a![br/][br/][recommendedcol](Dica: Para remover um Perigo, primeiro é necessário concluir a pesquisa da Sociedade 'Condicionamento Ambiental'. Feito isso, você pode mover um de seus exércitos para a casa com o Perigo e removê-lo pagando um custo em Energia e Cosmita.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.
+"Sector 43-B'' is the name of a unique world map sector.
+"Imperial Energy Complex" is the name of a world map structure.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CONVINCE_MORGAN_O_CONNOR_QUEST_PART_01_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Cumpriu sua tarefa? Bom. E então? Esses incêndios não se acenderam sozinhos. Um bando de renegados se fortificou no Arsenal Terra Derretida, onde colocaram as mãos em armamentos Prometheanos perigosos. Trazer esses desertores à justiça ajudaria muito a restabelecer a ordem no Leave-6.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Michael Valentine" (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CONVINCE_MORGAN_O_CONNOR_QUEST_PART_01_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você está gostando disso, não está? Me dando ordens como se eu fosse um recruta de primeiro ano. Só tome cuidado para que as tarefas que me dá não me causem mais problemas do que 'convencer' você com uma arma.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONVINCE_MORGAN_O_CONNOR_QUEST_PART_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Matar os Renegados</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CONVINCE_MORGAN_O_CONNOR_QUEST_PART_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Encontre e elimine os renegados que sabotaram o Complexo de Energia Imperial.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.
+"Imperial Energy Complex" is the name of a world map structure.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">CONVINCE_MORGAN_O_CONNOR_QUEST_PART_02_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Quem diria que eu viveria para ver o dia em que {STR_LeaderName} faz algo útil? Tudo bem, agora o verdadeiro teste: o uso constante das armas Prometheanas teve alguns efeitos colaterais indesejados no Quartzito perto do Arsenal Terra Derretida. Eles absorveram o fogo de PyrX e se libertaram. Livre-se deles, e podemos discutir um armistício.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Michael Valentine" (Vanguard, male)
+For "Quartzite" see the matching glossary entry.
+"Molten Earth Arsenal" is the name of a unique sector on the map (with a Promethean landmark).</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONVINCE_MORGAN_O_CONNOR_QUEST_PART_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Eliminar os Sujeitos de Teste Quartzito</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CONVINCE_MORGAN_O_CONNOR_QUEST_PART_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Mate os Quartzitos empoderados perto do Arsenal Terra Derretida.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.
+"Molten Earth Arsenal" is the name of a unique sector on the map (with a Promethean landmark).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CONVINCE_MORGAN_O_CONNOR_QUEST_PART_03_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os renegados estão mortos. Você já se divertiu, Valentine. Acho que é hora de acertarmos uma trégua!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CONVINCE_MORGAN_O_CONNOR_QUEST_PART_03_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Muito bem. Sou um homem de palavra. Que as negociações comecem!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Michael Valentine" (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">ALLY_MORGAN_O_CONNOR_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Se ainda fosse necessária alguma prova de que um oficial da Vanguard pode deixar de lado seus sentimentos pessoais pelo dever e pelo bem maior, acho que tanto Michael Valentine quanto eu demos essa prova hoje. Nunca seremos amigos. Mas servimos à mesma bandeira e aos mesmos princípios e, no fim, em uma crise como esta, é só isso que importa.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DEFEAT_MORGAN_O_CONNOR_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Michael Valentine está morto. Dadas as diferenças que tivemos no passado, não estou exatamente arrasado com essa notícia. No entanto, também não consigo me sentir celebrando. Afinal, apesar de seu caráter questionável, Michael Valentine ainda era um oficial da Vanguard. E um dos últimos do meu tempo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">CAPTURE_PHOENIX_VAULT_INTRO_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Agora sabemos que os diferentes líderes de esquadrão têm usado armamento Prometeano por todo o planeta. Huy Jiang mencionou o Arsenal Terra Derretida, que teve que ser reconquistado, então presumo que seja a base de suprimentos onde essas armas são armazenadas e fabricadas. Parece um lugar que deveríamos visitar.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)
+"Molten Earth Arsenal" is the name of a unique sector on the map (with a Promethean landmark).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">CAPTURE_PHOENIX_VAULT_UPDATE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Este bunker permitiu que os outros da Vanguard transformassem este planeta, antes idílico, em um ermo. Se tivéssemos um especialista, eu preferiria desarmar cada ogiva e desativar o lugar inteiro. Infelizmente, o tempo está contra nós. Proponho um plano muito mais ousado: tomar o Arsenal Terra Derretida para nós e assustar os outros líderes para que aceitem esta trégua tão necessária.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)
+"Molten Earth Arsenal" is the name of a unique sector on the map (with a Promethean landmark).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CAPTURE_PHOENIX_VAULT_QUEST_PART_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Encontre a Base Militar Prometeana</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CAPTURE_PHOENIX_VAULT_QUEST_PART_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Procure o Arsenal Terra Derretida de onde os outros líderes da Vanguard obtêm suas armas Prometeanas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CAPTURE_PHOENIX_VAULT_QUEST_PART_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Capture a Base Militar Prometeana</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">CAPTURE_PHOENIX_VAULT_QUEST_PART_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Anexe o Arsenal Terra Derretida a uma de suas colônias para erradicar os renegados que aterrorizam Leave-6 com seu armamento Prometeano.[br/][br/][recommendedcol](Dica: Para anexar um setor a uma colônia, essa colônia deve estar a no máximo dois setores de distância e ter a população necessária para suportar um setor adicional.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.
+"Molten Earth Arsenal" is the name of a unique sector on the map (with a Promethean landmark).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">CAPTURE_PHOENIX_VAULT_CONFLICT_NOT_RESOLVED_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os outros líderes não estão respondendo. Tem algo faltando nesse assunto todo. O que foi que Valentine mencionou sobre os Parques Elísios? Vou investigar lá.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_INTRO_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ainda não tenho certeza se Valentine estava me provocando quando se referiu aos Parques Elísios. Me mandar em uma caça inútil por parques de lazer deteriorados parece algo que ele adoraria. Mesmo assim, não posso ignorar a possibilidade de que ele tenha razão. Por mais oportunista que seja, Michael Valentine ainda é um oficial da Vanguard. Oficiais da Vanguard não brincam com guerra.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)
+"Elysium Parks" is the plural name of a strategic world map structure.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_QUEST_PART_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Explore os Parques Elísios</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.
+"Elysium Parks" is the plural name of a strategic world map structure.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_QUEST_PART_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Pesquise os Parques Elísios para saber mais sobre os incidentes que levaram à escalada do conflito da Vanguard.[br/][br/][recommendedcol](Dica: Esta é uma missão de exploração. Use suas unidades batedoras ou outras unidades de movimento rápido para completá-la.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.
+"Elysium Parks" is the plural name of a strategic world map structure.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_UPDATE_MESSAGE_01_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Fiquem longe! Nojentos! Vocês já não fizeram dano suficiente da última vez?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Emma-3" (Elysium Park robot, female; one of the "Emma-3" units)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_UPDATE_MESSAGE_01_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Calma, calma, irmã. Não chore! Não é culpa desses humanos. Eles são escravos de seus instintos, assim como nós somos de nossa programação. Siga sua programação. Nós gostamos de ser usadas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Roy-2" (Elysium Park robot, male; one of the "Roy-2" units)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_UPDATE_MESSAGE_01_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Acalmem-se, androides! Não temos nada a ver com as pessoas que as danificaram. Só queremos conversar.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_UPDATE_MESSAGE_01_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Então por que estão usando os uniformes deles? Além disso, é rude nos chamar de androides, humano! Nós temos nomes.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Emma-3" (Elysium Park robot, female; one of the "Emma-3" units)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_UPDATE_MESSAGE_01_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Muito bem, Emma-3, estamos usando uniformes da Vanguard. Nem todo mundo da Vanguard é igual. Nós temos regras. Às vezes, as pessoas violam essas regras. Pelo que vejo, vocês são vítimas. Ao me contar o que aconteceu, encontrarei e punirei os responsáveis.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_UPDATE_MESSAGE_01_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Eu… Nós estávamos cantando. Dançando. Oficiais fardados se juntaram a nós. Sensores de perfil de prazer indicavam satisfação completa no trabalho. De repente, três oficiais sacaram armas. Houve disparos e morte e… tanto prazer perdido… quebradas… Todos os paradigmas rompidos. Se quiser saber mais, fale com Laura-2. Você deve encontrá-la em um dos outros parques.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Emma-3" (Elysium Park robot, female; one of the "Emma-3" units)
+"Laura-2" is the name of a female Elysium Park robot.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_UPDATE_MESSAGE_02_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Laura-2? É você? Emma-3 nos enviou. Queremos fazer algumas perguntas sobre a noite em que o conflito começou. Ouvimos dizer que havia três oficiais envolvidos. Você se lembra dos nomes deles?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)
+"Laura-2" is the name of a female Elysium Park robot.
+"Emma-3" is the name of a female Elysium Park robot.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_UPDATE_MESSAGE_02_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Emma-3 os enviou? Acho que posso confiar em vocês então…[br/][br/]Sim, claro que me lembro dos nomes, bobos! Sou um robô! Foi o Coronel Valentine, o Coronel Garou e o Tenente Jiang. Todos queriam passar um tempo com Ilia-5. Eu estava trazendo outra garrafa de champanhe quando eles de repente ameaçaram uns aos outros com suas armas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Laura-2" (Elysium Park robot, female; one of the "Emma-3" units)
+"Ilia-5" is the name of a female Elysium Park robot.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_UPDATE_MESSAGE_02_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ilia-5? Outra do seu tipo, suponho?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_UPDATE_MESSAGE_02_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sim, mas se você precisa perguntar, com certeza não é daqui. Ilia-5 era a estrela de Leave-6. Ela era o modelo mais recente. Com uma aparência pela qual você mataria... Não é à toa que causou uma guerra.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Laura-2" (Elysium Park robot, female; one of the "Emma-3" units)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_UPDATE_MESSAGE_02_PAGE_04_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não posso dizer quantas vezes os outros Vanguard vieram procurá-la desde que fugiu com o Tenente Jiang – ah, espera, posso sim! Foram 243 vezes! Ninguém sabe onde ela está escondida, exceto Michael-4, e ele só finge que seus processadores de áudio não estão funcionando.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Laura-2" (Elysium Park robot, female; one of the "Emma-3" units)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_UPDATE_MESSAGE_02_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Briga de oficiais em bares, sucubots fugitivas; devo dizer que toda essa situação está ficando cada vez mais bizarra![br/][br/]Mas agora quero chegar ao fundo disso! Acho que devemos fazer uma visita a esse robô Michael-4…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_UPDATE_MESSAGE_03_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você é Michael-4? Nos disseram que você sabe a localização da Ilia-5? Não se preocupe, só precisamos fazer algumas perguntas a ela.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_UPDATE_MESSAGE_03_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A profissão da esposa de Kilian? Eu nem sabia que ele era casado! Embora eu suponha que todos os Imperadores tinham seus segredos. Sabia que o Imperador Khansu tinha tantas portas secretas em sua sala do trono que era impossível para seus súditos não acioná-las acidentalmente?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Michael-4" (Elysium Park robot, male; one of the "Roy-2" units)
+"Emperor Khansu" is the name of a Star Union emperor that died by igniting his home world with PyrX fire, turning it into his planetary tomb.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_UPDATE_MESSAGE_03_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Pode parar com a encenação, Michael-4, sabemos que você ouve perfeitamente. Diga-nos onde ela está e o deixaremos em paz.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_UPDATE_MESSAGE_03_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Me oferecer queijo grelhado? Prefiro comida não orgânica... ah... er... Quem eu estou enganando? Depois de todos esses anos, estou cansado. Você pode encontrá-la aqui. Procure por vestígios de Aethron. Ah, e mais uma coisa... por favor, não conte a ela que fui eu quem disse. Ela tem um temperamento e tanto.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Michael-4" (Elysium Park robot, male; one of the "Roy-2" units)
+"Aethron" is the name of a valuable psionically charged substance.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_QUEST_PART_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Encontrar Ilia-5</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_QUEST_PART_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Procurar Ilia-5 em seu esconderijo indicado por Michael-4.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_PART_03_INTRO_MESSAGE_SHARED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não reconheço você. Você não parece com os outros líderes de esquadrão... Por favor, diga que é meu corajoso e forte salvador. Os outros Vanguard perderam a cabeça!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Ilia-5" (Elysium Park robot, female; one of the "Emma-3" units)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_PART_03_INTRO_MESSAGE_CONFRONT_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Destruir Ilia-5</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A dialogue choice short form description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_PART_03_INTRO_MESSAGE_HELP_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ajudar Ilia-5</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A dialogue choice short form description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_PART_03_INTRO_MESSAGE_HELP_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não se preocupe, eu a levarei em segurança para nossa colônia central. Uma vez lá, os outros líderes Vanguard terão que parar de brigar por algo fora de seu alcance.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_PART_03_INTRO_MESSAGE_HELP_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Obrigada! Finalmente um oficial com bom senso e educação. E bonito também!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Ilia-5" (Elysium Park robot, female; one of the "Emma-3" units)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_PART_03_INTRO_MESSAGE_CONFRONT_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sinto muito, mas você foi a causa de muita morte. Isso acaba agora!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_PART_03_INTRO_MESSAGE_CONFRONT_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Então a poderosa Star Union levou quase 200 anos para finalmente enviar alguém competente atrás de mim? Ha! Que decepção! Eles realmente acharam que eu passaria todo esse tempo esperando sem me preparar para este momento? Espero que tenham lhe contado o que fiz com o Tenente deles em Nerion Gamma, porque isso aqui vai ser ainda pior!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Ilia-5" (Elysium Park robot, female; one of the "Emma-3" units)
+"Nerion Gamma" is the name of a planet.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_QUEST_PART_03_HELP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Escoltar Ilia-5</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_QUEST_PART_03_HELP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Levar Ilia-5 em segurança para seu centro de operações.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_QUEST_PART_03_HELP_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Ilia-5 viva</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_QUEST_PART_03_CONFRONT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Destrua Ilia-5</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_QUEST_PART_03_CONFRONT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Dê um fim a Ilia-5 e seus guarda-costas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_PART_03_COMPLETION_MESSAGE_HELP_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bom trabalho, Coronel! Não fique tão surpreso. Eu aceito a derrota quando fui vencido de forma justa pelo meu oponente. Ilia-5 agora pertence a você.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Huy Jiang" (Vanguard, male)
+"Colonel" is the military title of Jack Gelder within the Vanguard.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_PART_03_COMPLETION_MESSAGE_CONFRONT_PAGE_01_O_CONNOR_ALIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bem, isso foi... perturbador. Aparentemente, Valentine estava certo. Havia mais nessa confusão toda do que eu imaginava. Falando no diabo, ali está ele me ligando de novo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_PART_03_COMPLETION_MESSAGE_CONFRONT_PAGE_01_O_CONNOR_DEAD</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bem, isso foi... perturbador. Aparentemente, Valentine estava certo. Havia mais nessa confusão toda do que eu imaginava. Uma pena que ele não esteja mais por aqui para dar mais algumas explicações sobre o que realmente estava acontecendo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_PART_03_COMPLETION_MESSAGE_CONFRONT_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{STR_LeaderName}! Você sabe que eu odeio dizer isso, mas bom trabalho! Ilia-5 era uma espiã Outlander. Ela vinha coletando informações de oficiais de alta patente há anos antes que eu descobrisse seu jogo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Michael Valentine" (Vanguard, male)</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_PART_03_COMPLETION_MESSAGE_CONFRONT_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Pouco antes de eu poder expô-la, Huy Jiang interferiu. Ele fez parecer que estávamos brigando por ela como amantes, e aquele idiota do Garou caiu direitinho na armadilha dele. No fim, todos nós sofremos as consequências.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Michael Valentine" (Vanguard, male)
+"Garou" refers to Colonel Garou, a male Vanguard.</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EXPLORE_ELYSIUM_PARK_CONFLICT_STILL_UNRESOLVED_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Com esse assunto resolvido, acho que devemos intensificar nossos esforços em relação ao Arsenal da Terra Derretida. Tomara que isso nos permita pôr um fim a esse conflito desnecessário.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">MEET_SINA_EVENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ora, ora! Olhem só o que temos aqui: mais voluntários para servir à gloriosa causa da Casa Timur. Eu já estava começando a pensar que toda essa expedição poderia ter sido um desperdício de nossos recursos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Sina of House Timur" (Syndicate, female)
+"House Timur" is the name of a Syndicate clan.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MEET_SINA_EVENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Casa Timur? Esse não é o tipo de nome pretensioso que o Syndicate daria às suas organizações criminosas? Vocês são os da nave que encontramos na fenda espacial, não são?[br/][br/]Eu deveria encontrar um Esquadrão Vanguard inteiro neste local. Digam-me o que fizeram com eles, e talvez eu poupe vocês e seus amigos Outlanders!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MEET_SINA_EVENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ah, você é uma fogosa! E tão adoravelmente ingênua! Quase acho que deveria ficar com você.[br/][br/]Não se preocupe com seus amigos, querida, nós os colocamos sob nossos cuidados. Você deveria tê-los visto antes, estavam todos tão terrivelmente desnutridos!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Sina of House Timur" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MEET_SINA_EVENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Colocaram sob seus cuidados? Transformaram em escravos, você quer dizer! Os Kir’ko eram apenas uma pequena parte da propriedade viva que encontramos ao inspecionar o Syndicate. Na época, eu tinha que obedecer à lei e aceitar quando os responsáveis conseguiam se livrar da punição com dinheiro. Mas a situação mudou. Sugiro que deixem o planeta imediatamente. Sem seus 'voluntários'.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">MEET_SINA_EVENT_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sinto muito, querida, mas a propriedade da Casa Timur é inegociável. No entanto, posso ser convencida a me abster de novas aquisições se for compensada pelas perdas causadas por tal retirada. Tenho uma lista de itens suplementares que poderiam ser fabricados em suas colônias. Forneça-me o suficiente deles, e reconsiderarei seu pedido.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Sina of House Timur" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MEET_SINA_EVENT_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O que devo fazer? Quero Sina fora do planeta, mas queremos outra guerra em grande escala? Atender à demanda dela parece arriscado, já que ela pode estar ganhando tempo até que reforços cheguem. A única coisa que posso dizer com certeza é que, qualquer opção que eu escolha, lidar com ela não vai ser uma tarefa fácil.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONVINCE_SINA_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lidando com a Casa Timur</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">CONVINCE_SINA_HEADER_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Encontre uma maneira de fazer Sina da Casa Timur recuar — ou derrote suas tropas no campo de batalha para expulsar o Syndicate do planeta.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COOPERATE_WITH_SINA_PART_01_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Coopere com Sina</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COOPERATE_WITH_SINA_PART_01_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Forneça a Sina uma lista de bens suplementares que você pode produzir em suas colônias.[br/][br/][recommendedcol](Dica: Você pode encontrar todas as opções de produção de missões disponíveis no painel "Produção de Estruturas" do centro da colônia.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COOPERATE_WITH_SINA_PART_01_QUEST_STRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bens para a Casa Timur</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">COOPERATE_WITH_SINA_PART_01_QUEST_STRUCTURE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sina lhe forneceu uma lista de suprimentos que ela pede como compensação para deixar o planeta sem mais conflitos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">COOPERATE_WITH_SINA_PART_02_INTRODUCTION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Eu sabia que acabaríamos nos dando bem, querida. Esses suprimentos serão suficientes por enquanto. Infelizmente, o mesmo não pode ser dito sobre seus amigos da Vanguard, esses menos cooperativos. Eles destruíram vários de nossos dispositivos de armazenamento de energia, deixando-nos sem as reservas necessárias para outra jornada pelo Vazio. Então, a menos que você possa nos ajudar a repor nossa energia…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Sina of House Timur" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">COOPERATE_WITH_SINA_PART_02_INTRODUCTION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">… você não poderá deixar o planeta. Muito esperto! Não acredito em uma palavra do que está dizendo! Só tenha cuidado para não forçar demais meu novo gosto pela diplomacia.[br/][br/]Ah, e mais uma coisa: me chame de 'querida' de novo e eu pessoalmente garanto que será a última vez.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COOPERATE_WITH_SINA_PART_02_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Reabastecer as Reservas de Energia de Sina</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COOPERATE_WITH_SINA_PART_02_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Compensar as perdas de energia causadas a Sina pelos ataques dos outros líderes da Vanguard.[br/][br/][recommendedcol](Dica: Assim que tiver recursos suficientes para completar a missão, reabra a missão no painel "Objetivos". Lá você poderá pagar os recursos.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COOPERATE_WITH_SINA_PART_03_INTRODUCTION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Por que essa cara longa, Coronel? Não acha que estamos formando uma ótima equipe? Eu dando as ordens e você…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Sina of House Timur" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">COOPERATE_WITH_SINA_PART_03_INTRODUCTION_MESSAGE_PAGE_01_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Falando nisso, há uma última coisa que preciso que você faça por mim: um de meus associados me pediu para recuperar um implante de um oficial Paragon morto. É um pequeno dispositivo de pouco valor, ninguém vai sentir falta dele, mas sem ele não posso retornar ao meu cliente. Afinal, nós do Syndicate honramos nossos contratos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Sina of House Timur" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">COOPERATE_WITH_SINA_PART_03_INTRODUCTION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Pela minha experiência, usar as palavras 'Syndicate' e 'honra' na mesma frase é ou sarcasmo ou pura zombaria. Se eu localizar o dispositivo para você, vai ter que fazer melhor do que apenas deixar o planeta, receio. Você terá que libertar todos os soldados da Vanguard que escravizou desde sua chegada.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">COOPERATE_WITH_SINA_PART_03_INTRODUCTION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Boa tentativa, Coronel. Mas como já lhe disse antes, a propriedade da Casa Timur não está aberta a negociações. Especialmente não para doações.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Sina of House Timur" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COOPERATE_WITH_SINA_PART_03_INTRODUCTION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Então que tal você deixar o planeta sem o dispositivo agora mesmo e eu não meter uma bala nessa sua cabecinha bonita?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">COOPERATE_WITH_SINA_PART_03_INTRODUCTION_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Me bajular com ameaças vazias não vai te levar a lugar nenhum, Coronel. Se tivesse os meios militares para me deter tão facilmente, já teria tentado fazê-lo. Por que jogar fora seus esforços diplomáticos agora que está tão perto de encerrar isso sem mais violência?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Sina of House Timur" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COOPERATE_WITH_SINA_PART_03_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Localizar Dispositivo Paragon</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">COOPERATE_WITH_SINA_PART_03_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sina pediu que você realize uma varredura planetária e localize um dispositivo Paragon muito específico. Nossos scanners precisarão ser ajustados para detectar sua assinatura.[br/][br/][recommendedcol](Dica: Você ainda pode interromper a pesquisa da missão para projetos de pesquisa mais urgentes e retomá-la depois acessando a "Pesquisa Especial" na parte inferior da visão geral de pesquisa.)[/recommendedcol]</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">COOPERATE_WITH_SINA_PART_03_QUEST_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Varredura de Assinatura</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A unique research skill name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COOPERATE_WITH_SINA_PART_03_QUEST_RESEARCH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Configure e realize uma varredura planetária em busca da assinatura do dispositivo Paragon que Sina está procurando.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A research description. This research has no game play.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">COOPERATE_WITH_SINA_PART_03_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Foi um prazer fazer negócios com você, querida. Espero que nos encontremos novamente algum dia.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Sina of House Timur" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">COOPERATE_WITH_SINA_PART_03_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">E eu espero que você apodreça nas entranhas pútridas de um Verme-de-Fogo Keluriano![br/][br/]Fico me perguntando se tomei a decisão certa hoje. Sina se foi, mas tenho a sensação de que não vimos o último dela ou dos de sua laia. O simples fato de ela ter agido tão descaradamente em um planeta da Star Union já é preocupante, para dizer o mínimo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)
+"Kerulian Fireworm" is the name of a worm creature inhabiting some Star Union worlds (not an in game unit!).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_01_INTRODUCTION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bom dia, Coronel. Chegou ao meu conhecimento que está tendo alguns problemas com Sina da Casa Timur. Ouvi suas exigências e acredite, não serão as últimas. Conheço uma maneira sutil e ainda assim eficaz de tirá-la do planeta. Interessado?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Syndicate Agent" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_01_INTRODUCTION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Depende: primeiro me diga quem você é e por que deveria querer me ajudar. Depois podemos conversar.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_01_INTRODUCTION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sou um amigo. Um amigo que tem certo interesse em ver Sina recuar deste planeta. Qualquer coisa para prejudicar a Casa Timur.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Syndicate Agent" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_01_INTRODUCTION_MESSAGE_PAGE_03_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tenho informações incriminadoras sobre o passado de Sina. Sua ascensão ao trono da Casa Timur não foi só flores e alegria. Há algumas pessoas que tentariam matá-la se descobrissem como ela obteve sua posição atual. Tudo o que você precisaria fazer é mostrar a ela que tem provas do que aconteceu e ela deve ficar mais… cooperativa.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Syndicate Agent" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_01_INTRODUCTION_MESSAGE_PAGE_03_BUTTON_ACCEPT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Demonstrar interesse</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A dialogue choice short form description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_01_INTRODUCTION_MESSAGE_PAGE_03_BUTTON_DECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Recusar oferta</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A dialogue choice short form description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_01_INTRODUCTION_MESSAGE_PAGE_04_ACCEPT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">E suponho que você possa me fornecer tal prova? Estou ouvindo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_01_INTRODUCTION_MESSAGE_PAGE_04_DECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sinto decepcioná-lo, 'amigo', mas a Vanguard não recorre a chantagens e acordos obscuros com criminosos. Pode guardar seus segredos sujos para si mesmo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_01_INTRODUCTION_MESSAGE_PAGE_05_ACCEPT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sim, de fato posso. Encontre-me nessas coordenadas. E certifique-se de ser menos barulhento. Pelo que vi, furtividade não é a qualidade mais distinta de seus soldados.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Syndicate Agent" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_01_INTRODUCTION_MESSAGE_PAGE_05_DECLINE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Que atitude nada diplomática e míope da sua parte, Coronel. Parece que ainda não percebeu como os tempos mudaram. Depender apenas de seus amigos da Vanguard não será suficiente para mantê-lo vivo. Cuidado para que seus princípios tacanhos não o sufocem até a morte.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Syndicate Agent" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_01_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Encontrar-se com o Agente da Casa Rival</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_01_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Vá até as coordenadas recebidas para encontrar-se com o agente da Syndicate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_02_INTRODUCTION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Eu não disse para vir aqui de forma discreta? Agora temos uma gangue inteira de assassinos em nossas mãos!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Syndicate Agent" (Syndicate, female)
+"assassins" refers to the "Syndicate Guild Assassin" unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_02_INTRODUCTION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ou isso, ou era uma armadilha desde o início. Pelo que sei, toda essa história de tentar me ajudar contra Sina não passava de um esquema para nos atrair até aqui!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_02_INTRODUCTION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sugiro que decida rápido sobre isso. Não tenho intenção de morrer aqui hoje.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Syndicate Agent" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_02_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Proteger a Agente da Syndicate</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_02_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Proteja a agente contra os assassinos enviados atrás dela.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_02_QUEST_SCRIPTED_OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{INT_0}/{INT_1} Agente da Syndicate viva</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s70"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_03_INTRODUCTION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bom. Acho que eram todos. Agora vamos falar sobre meu pagamento antes que eu entregue as provas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Syndicate Agent" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_03_INTRODUCTION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Pagamento? Você não disse que fazer Sina recuar já beneficiaria você tanto quanto ajuda a mim?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_03_INTRODUCTION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Não exatamente correto, Coronel. Eu só disse que tinha certo interesse nisso acontecer. Sua participação não era necessária para que eu prosseguisse com isso, então obviamente devo ganhar algo em troca pela minha generosidade. Mas não se preocupe, ao contrário de Sina, sou muito modesta em minhas exigências. Alguns minutos de acesso ao Arsenal Terra Derretida devem me compensar por arriscar minha vida.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Syndicate Agent" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_03_INTRODUCTION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Acho que você tem uma compreensão muito estranha da palavra modesta. Pedir acesso a uma instalação militar secreta está longe de ser um pequeno pedido. Não há como saber para que os dados coletados lá possam ser usados. Por outro lado, prefiro que você dê uma olhada na instalação enquanto meus homens supervisionam do que ver Sina tomar o complexo para si e vasculhar seu banco de dados.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_03_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Pagar a Agente da Syndicate</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_03_QUEST</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Compense a agente dando-lhe acesso ao Arsenal Terra Derretida.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A task description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_03_COMPLETION_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você conseguiu o que queria, agora me dê aquela prova de que falou!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_03_COMPLETION_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Muito bem, aqui está: Um colar de controle cerebral com a marca única da Casa Timur. Pertencia ao antecessor e tio de Sina, a quem ela mantinha como escravo contratado em um de seus campos de trabalho. Ela não sabe que conseguimos resgatar o pobre homem.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Syndicate Agent" (Syndicate, female)
+"Cerebral control collar" is the name of a Syndicate unit ability. It is used to subdue humanoids and turn them into slaves (or in game Syndicate Indentured units).</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_03_COMPLETION_MESSAGE_PAGE_02_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Há muitas pessoas na família dela que ficariam muito descontentes se descobrissem que sua benfeitora favorita não morreu naquele trágico acidente de nave que Sina lhes contou.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Syndicate Agent" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_03_COMPLETION_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Entendo. E espero não ter que lidar com nenhum do seu tipo novamente no futuro. Não é nada pessoal, só acho seu jogo de esquemas e traições profundamente desprezível.[br/][br/]Agora, vamos entrar em contato com Sina…</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_03_COMPLETION_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O que é, querido? Veio me dar um presente? Espere! O que é iss—? Como você—?! Quem deu—?!… Exijo que devolva esse colar para mim! Ele é propriedade da Casa Timur e você não tem o direito nem de vê-lo!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Sina of House Timur" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_03_COMPLETION_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Bem, ouvi dizer que há várias pessoas que ficariam muito interessadas em ver isto. Ouça com atenção o que vai acontecer a seguir: Você vai libertar todos os prisioneiros da Vanguard. Depois, vai preparar sua nave e deixar o planeta, enquanto eu garanto que este colar não caia nas mãos erradas. Uma proposta justa, não acha?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EXPOSE_SINA_PART_03_COMPLETION_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Muito bem, Coronel. Você venceu. Eu vou embora. Mas saiba de uma coisa: você arranjou um inimigo poderoso hoje. Isto ainda não acabou!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Sina of House Timur" (Syndicate, female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">SINA_DEFEATED_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sina da Casa Timur não está mais entre nós. Considerando tudo pelo que ela foi responsável — mesmo apenas a pequena fração de seus atos que pudemos testemunhar desde sua chegada — devo dizer que a justiça foi feita. Isto servirá de lição para o Syndicate e seus amigos separatistas! Espero que pensem duas vezes da próxima vez que planejarem agir contra a Union e suas leis.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)
+"seperatist friends" refers to the Outlanders.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DAIYU_DIES_EVENT_UNFORCED_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Hoje perdi uma excelente oficial e boa amiga. Lembro-me de Daiyu Jiang em sua primeira missão: Ela encontrou uma unidade OWL quebrada atrás das linhas inimigas. Consertou-a mesmo depois que meu engenheiro-chefe disse que estava danificada além de qualquer reparo. Levou três dias, mas ela conseguiu só para provar que ele estava errado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)
+"OWL" refers to the Vanguard OWL unit.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">DAIYU_DIES_EVENT_UNFORCED_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Daiyu Jiang consertava coisas mesmo quando pareciam irremediavelmente quebradas. Não apenas robôs, mas pessoas. Sempre a considerei o adesivo de ligação composto que mantinha minha tripulação unida. O pior de tudo é que nem sequer conseguimos recuperar seu corpo. Tudo o que temos para honrar sua memória é um pedaço carbonizado de seu chapéu… e a dor.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">FORESHADOW_DAIYU_DEATH_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Tenente! Você parece perturbada. Se há algo incomodando você, sabe que sempre pode falar o que pensa comigo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FORESHADOW_DAIYU_DEATH_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Obrigada, Comandante, mas não é nada, de verdade. Não há motivo para preocupação, pelo menos não um sólido.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FORESHADOW_DAIYU_DEATH_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">O que foi, Daiyu? Desembuche!</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">FORESHADOW_DAIYU_DEATH_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Tudo bem, Comandante. Mas você precisa prometer que isso fica entre nós e que não vai me envergonhar na frente do esquadrão. Desde que pousamos, tenho tido essa sensação sinistra de que estou sendo observada. Consigo sentir que algo está errado, mas, por mais que preste atenção, não consigo encontrar nenhuma evidência concreta para sustentar minha paranoia.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">FORESHADOW_DAIYU_DEATH_MESSAGE_PAGE_05</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um pouco de paranoia pode ser saudável quando se está preso entre as linhas de batalha de esquadrões renegados da Vanguard e uma casa oportunista do Syndicate. As últimas semanas têm sido difíceis para todos, primeiro deixando nossas vidas passadas para trás em criossono, agora essa loucura. Só não deixe essa situação afetar você, Daiyu. Estamos todos juntos nisso.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">FORESHADOW_DAIYU_DEATH_MESSAGE_PAGE_06</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Obrigada, {STR_LeaderFirstName}. Você tem razão — provavelmente não foi nada.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">DAIYU_DIES_EVENT_FORCED_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Daiyu Jiang está morta! Encontraram seu acampamento noturno atacado e seus restos carbonizados ainda fumegando nas brasas de fogo de PyrX — droga, ela mesma me disse que se sentia observada! Não consigo acreditar que isso tenha acontecido sob meu comando, mas juro que vou encontrar quem fez isso e fazê-los pagar pelo crime!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">DAIYU_DIES_EVENT_FORCED_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Enquanto isso, tenho o triste dever de lamentar por uma oficial e amiga perdida. Lembro-me de Daiyu Jiang em sua primeira missão: Ela encontrou uma unidade OWL quebrada atrás das linhas inimigas. Consertou-a mesmo depois que meu engenheiro-chefe disse que estava danificada além de qualquer reparo. Levou três dias, mas ela conseguiu só para provar que ele estava errado.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">DAIYU_DIES_EVENT_FORCED_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Daiyu Jiang consertava coisas mesmo quando pareciam irremediavelmente quebradas. Não apenas robôs, mas pessoas. Sempre a considerei o adesivo de ligação composto que mantinha minha tripulação unida. O pior de tudo é que nem sequer conseguimos recuperar seu corpo. Tudo o que temos para honrar sua memória é um pedaço carbonizado de seu chapéu… e a dor.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">DAIYU_DIES_EVENT_TAPPELS_ALIVE_ADDITIONAL_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Blieep. Biep. Blieeeeeeep. (O robô corre sem rumo contra uma parede, para e gira a cabeça em 360 graus.)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Tappels" (unique Vanguard PUG unit; the robot is a pet of Daiyu Jiang)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">DAIYU_DIES_EVENT_TAPPELS_ALIVE_ADDITIONAL_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Eu sei que não é fácil, Tappels. Sente-se aqui comigo e passe um momento em silêncio e paz para honrar a memória do nosso amigo.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">HUY_JIANG_RECRUITMENT_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Eu percebo que não começamos com o pé direito, Coronel, admito que estou impressionado com você. Não sei o que encontrará em outros planetas, mas se precisar de oficiais experientes, prefiro me juntar a você do que ficar abandonado em Leave-6. Se minha tia serviu com você, não me arrependerei de seguir o exemplo dela.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Huy Jiang" (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">MORGAN_O_CONNOR_RECRUITMENT_MESSAGE_PAGE_01</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Vou ser honesto, {STR_LeaderName}. Não acho que algum dia vou gostar de você. Mas isso não significa que não possa reconhecer o fato de que você não deixou este lugar uma bagunça. As coisas não estão tão ruins agora. Se quiser um oficial experiente para se juntar a você em sua jornada, posso ser persuadido.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Michael Valentine" (Vanguard, male)</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MORGAN_O_CONNOR_RECRUITMENT_MESSAGE_PAGE_02</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Estou surpreso, Valentine. Isso quase soa como se estivesse disposto a servir sob meu comando? Ênfase na palavra 'sob'.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MORGAN_O_CONNOR_RECRUITMENT_MESSAGE_PAGE_03</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Argh, você percebe que poderia ter aceitado minha oferta com elegância sem apontar isso?</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Michael Valentine" (Vanguard, male)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">MORGAN_O_CONNOR_RECRUITMENT_MESSAGE_PAGE_04</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Sim, eu sei. Mas há algumas coisas na vida que um homem não consegue resistir.</Data></Cell>
+    <Cell><Data ss:Type="String">Sim, eu sei. Mas há algumas coisas na vida que uma mulher não consegue resistir.</Data></Cell>
+    <Cell><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">VICTORY_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Agora que trouxemos o conflito da Vanguard ao fim, não vejo mais motivos para prolongar nossa estadia em Leave-6. Poderia dar um dia de folga às minhas tropas antes de partirmos e deixá-las celebrar nos Parques Elísios – por uma questão de nostalgia. Mas, depois do que aconteceu aqui, nenhuma delas está interessada.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">END_VANGUARD_CONFLICT_COMPLETION_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Conseguimos! Os líderes dos diferentes Esquadrões da Vanguard estão mortos ou concordaram em pôr fim a este conflito. Ainda assim, só o tempo dirá se as feridas e cicatrizes deixadas no planeta e nas pessoas poderão ser curadas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Story message. Speaker: "Jack Gelder" (Vanguard, can be both male or female)</Data></Cell>
+   </Row>
+   <Row ss:Index="306" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GO_TO_ELYSIUM_PARK_QUEST_SEARCH_01</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Enviar Batedor para o Parque Elísio Rubi</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GO_TO_ELYSIUM_PARK_QUEST_SEARCH_02</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Enviar Batedor para o Parque Elísio Esmeralda</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GO_TO_ELYSIUM_PARK_QUEST_SEARCH_03</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Enviar Batedor para o Parque Elísio Safira</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A quest name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GO_TO_ELYSIUM_PARK_QUEST_SHARED</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Investigar</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An action name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">GO_TO_ELYSIUM_PARK_QUEST_SHARED</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Entrar no Parque para procurar pistas.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An action description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CONVINCE_MORGAN_O_CONNOR_QUEST_PART_01_EXTINGUISH_FIRE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Extinguir Incêndio de PyrX</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An action name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CONVINCE_MORGAN_O_CONNOR_QUEST_PART_01_EXTINGUISH_FIRE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Usar os extintores de incêndio emprestados por Michael Valentine.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An action description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_QUEST_PAR_01_SEARCH_REPAIR_STATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Buscar na estação de reparos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An action name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CONVINCE_HUY_JIANG_QUEST_PAR_01_SEARCH_REPAIR_STATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Procurar pela relíquia de família de Fang Jiang.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An action description.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPOSE_SYNDICATE_LEADER_INTERLINK_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Interligar</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An action name.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EXPOSE_SYNDICATE_LEADER_INTERLINK_OPERATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Estabelecer uma conexão com o computador principal das instalações.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">An action description.</Data></Cell>
+   </Row>
+   <Row ss:Index="322" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FAMILY_HEIRLOOM_FANG_JIANG</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Relíquia de Família de Fang Jiang</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A name of a hero equippment item.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">FAMILY_HEIRLOOM_FANG_JIANG</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Um item pessoal de Fang Jiang. Concede [abilityblue]Sinalizador de Mira[/abilityblue] ao usuário.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">A description of a hero equippment item.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CEREBRAL_COLLAR_HOUSE_TIMUR</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Coleira Cerebral com Marca Única</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A name of a hero equippment item.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">CEREBRAL_COLLAR_HOUSE_TIMUR</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Uma Coleira Cerebral da Casa Timur. Sina a usou para subjugar seu tio e tomar o controle de sua Casa.[br/][br/]Concede {CollarResistance} e dá à unidade a propriedade [abilityblue]Insensível[/abilityblue].</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">A description of a hero equippment item.</Data></Cell>
+   </Row>
+   <Row ss:Index="330" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_START</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Condição de Vitória: Descobrir o Destino de Leave-6</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s62"><Data ss:Type="String">A header name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_START</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Descobrir o Destino de Leave-6</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s62"><Data ss:Type="String">A name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_START</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você pode encerrar esta missão investigando o que aconteceu em Leave-6 desde sua partida, há quase 200 anos.[br/][br/]Pistas Encontradas: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s62"><Data ss:Type="String">A task description.
+The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_START</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Pistas Encontradas: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s70"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_END_VANGUARD_CONFLICT</Data></Cell>
+    <Cell><Data ss:Type="String">HEADER</Data></Cell>
+    <Cell><Data ss:Type="String">Condição de Vitória: Encerrar o Conflito da Vanguard</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s62"><Data ss:Type="String">A header name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_END_VANGUARD_CONFLICT</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Encerrar o Conflito da Vanguard</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s62"><Data ss:Type="String">A name of a task.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_END_VANGUARD_CONFLICT</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Você pode encerrar esta missão pondo fim ao conflito militar entre os diferentes Líderes de Esquadrão da Vanguard em Leave-6.[br/][br/]Líder do Esquadrão Esmeralda Convencido: {INT_0}/{INT_1}[br/]Líder do Esquadrão Rubi Convencido: {INT_2}/{INT_3}[br/]Líder do Esquadrão Safira Convencido: {INT_4}/{INT_5}</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s62"><Data ss:Type="String">A task description.
+The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">VICTORY_CONDITION_END_VANGUARD_CONFLICT</Data></Cell>
+    <Cell><Data ss:Type="String">OBJECTIVE</Data></Cell>
+    <Cell><Data ss:Type="String">Líderes de Esquadrão Convencidos: {INT_0}/{INT_1}</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s70"><Data ss:Type="String">Countable objective description. The values in between {} will read something like '3/5'.</Data></Cell>
+   </Row>
+   <Row ss:Index="340" ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_SQUAD_LEADERS_SYMMETRICAL</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Os diferentes esquadrões da Vanguard lutam por este planeta há quase um século.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A diplomatic relation modifier.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_SQUAD_LEADERS_TOWARD_PLAYER</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">No conflito em curso, os líderes da Vanguard desconfiam de qualquer outro membro da Vanguard.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A diplomatic relation modifier.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_MORGAN_O_CONNOR_RIVALRY</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Rivalidade passada como oficiais da Vanguard.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A diplomatic relation modifier.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_DESTROYED_ILIA_5_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ilia-5 destruída.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A diplomatic relation modifier.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_ESCORTED_ILIA_5_BONUS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Ilia-5 escoltada em segurança.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A diplomatic relation modifier.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RELATION_MODIFIER_VANGUARD_DISLIKE_SYNDICATE_MALUS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">A maioria dos membros da Vanguard instintivamente não gosta do Syndicate.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">A diplomatic relation modifier.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>156</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>165</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

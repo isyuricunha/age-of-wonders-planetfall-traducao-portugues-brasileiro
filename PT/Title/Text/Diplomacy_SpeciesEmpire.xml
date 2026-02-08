@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Nathan van den Berg</LastAuthor>
+  <LastSaved>2020-02-04T10:49:17Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14235</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Top"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="66" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.75" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="160.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="289.5"/>
+   <Column ss:StyleID="s63" ss:Width="395.25"/>
+   <Column ss:StyleID="s63" ss:Width="150"/>
+   <Column ss:StyleID="s63" ss:Width="270.75"/>
+   <Column ss:StyleID="s63" ss:Width="211.5"/>
+   <Column ss:StyleID="s63" ss:Width="48.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">DIPLOMACY_SPECIESEMPIRE</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">The DEV TEAM / MISC NOTES column contains info on what text between { } signs means (if applicable). It usually stands for either a numeric value, or a numeric value with an icon. Text between [ ] signs stands for a certain type of icon. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For this faction's narrative style and in world references, please check the glossay delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:Index="5"><Data ss:Type="String">In the lines below, {STR_LeaderName} is replaced by the name of the player's avatar.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:Index="5"><Data ss:Type="String">In the lines below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Saudações, {STR_LeaderName}! Sua presença iluminada é um sopro de ar fresco nessas terras incivilizadas. O que me diz de discutirmos as obras de Candrice e Ontara? Ou seus deveres o forçam a falar conosco sobre assuntos mais profanos?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Por cortesia do Prefeito, concederemos esse favor a você, {STR_LeaderName}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Que a paz esteja com você, {STR_LeaderName}. Você veio perante o benevolente Paragon, herdeiros do grandioso e nobre Star Union. Escolhidos pelo próprio Imperador, estávamos destinados a nos tornar os exemplares da perfeição humana. Hoje, nestes tempos bárbaros, os Paragon são a última linha entre a anarquia e a civilização. Diga-nos, veio aqui para nos ajudar nesta causa justa?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Excelente! Não esperávamos nada menos de você, {STR_LeaderName}. Para formalizar e consolidar nossa futura cooperação, pedimos que cuide de um assunto urgente que precisa ser resolvido.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_INTERACTION_WAR_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">O abutre voltou ao seu ninho. {STR_LeaderName}, veio aqui para acabar com essa loucura e se desculpar com meu povo?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">A luz da estrela da manhã tocou três vezes a superfície de {STR_PlanetName}. As constelações de Mora prometem um dia afortunado, e {STR_LeaderName} veio ao Paragon para falar sobre nosso futuro. Não é esse o motivo de sua presença aqui, meu amigo?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Muito bem, agiremos de acordo.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">O abutre saiu vitorioso. Por favor, aceite nossa rendição, {STR_LeaderName}, e pare com esse derramamento de sangue desnecessário.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="48.75">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RELATION_DECREASED_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Saudações, {STR_LeaderName}. Lamentamos informar que somos forçados a registrar formalmente um agravamento em nossas relações diplomáticas. Isso é consequência de suas ações e da falta de justificativa.</Data></Cell>
+   </Row>
+   <Row ss:Index="16" ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Pare aí mesmo, {STR_LeaderName}! Sob a lei do Prefeito, e portanto sob a lei dos antigos Imperadores, é estritamente proibido adentrar nosso território armado! Diga-nos, por que traz armas até nossas portas?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Sob protesto formal, atenderemos às suas exigências precipitadas, {STR_LeaderName}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Alto, {STR_LeaderName}! Você veio perante o Paragon, herdeiros do grandioso e nobre Star Union. Escolhidos pelo próprio Imperador, os Paragon estavam destinados a se tornar os exemplares da perfeição humana. Hoje, nestes tempos bárbaros, somos a última linha entre a anarquia e a civilização. Fale rápido: emprestará seus exércitos à nossa causa ou veio aqui para nos desafiar?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Palavras ousadas ditas com verdadeira confiança. Embora descobrirá que desafios podem assumir muitas formas. Há um problema urgente que precisa ser resolvido. Resolva-o e isso poderá ser o início de uma amizade forte entre nossos povos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_INTERACTION_WAR_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Saudações, o que deseja discutir?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Os reflexos da estrela da tarde avermelharam o céu de {STR_PlanetName}. As constelações de Mora estão inquietas e cautelosas, e {STR_LeaderName} veio ao Paragon para falar sobre nosso futuro. Diga-nos, o que deseja discutir?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Podemos aceitar esses termos.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Diante de suas forças superiores, devemos admitir a derrota, {STR_LeaderName}. Pedimos que encerre este massacre e aceite nossa rendição.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RELATION_DECREASED_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Saudações, {STR_LeaderName}. Lamentamos informar que somos forçados a registrar formalmente um agravamento em nossas relações diplomáticas. Isso é consequência de suas ações e da falta de justificativa.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Saudações, {STR_LeaderName}! Suas ações em {STR_PlanetName} foram observadas de perto pelo Prefeito. Ele acredita que, com nossa orientação, ainda pode haver esperança para você e os seus. Diga-nos, o que deseja hoje?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">ASK_TO_LEAVE_RESPONSE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Por cortesia do Prefeito, concederemos esse favor a você, {STR_LeaderName}.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Saudações, {STR_LeaderName}. Inclinem-se perante o poderoso Paragon, herdeiros do grandioso e nobre Star Union. Escolhidos pelo próprio Imperador, estávamos destinados a nos tornar os exemplares da perfeição humana. Hoje, nestes tempos bárbaros, os Paragon são a última linha entre a anarquia e a civilização. Diga-nos suas intenções, {STR_LeaderName}, e julgaremos seu valor.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Palavras promissoras, embora sua veracidade ainda precise ser comprovada. Que suas ações falem, {STR_LeaderName}! Sirva à vontade dos Paragon e será recompensado com nosso favor.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_INTERACTION_WAR_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Ha! Sabíamos que suas tropas não seriam páreo para nossos soldados aprimorados! Não é por isso que veio aqui, {STR_LeaderName}? Para negociar sua rendição incondicional?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">DWELLING_INTERACTION_NEUTRAL_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">O rastro da estrela viajante cruzou duas vezes o horizonte de {STR_PlanetName}. As constelações de Mora preveem um dia movimentado, e {STR_LeaderName} veio ao Paragon para falar sobre nosso futuro. É por isso que está aqui, não é?</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">CHANGE_DIPLOMATIC_RELATION_RESPONSE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Podemos concordar com essas mudanças.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_REQEUST_END_TO_WAR_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Estávamos enganados em subestimá-lo, {STR_LeaderName}. Você provou sua superioridade no campo de batalha, e nós o instamos a parar esta guerra e deixar nossas diferenças passadas para trás.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_MESSAGE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RELATION_DECREASED_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Saudações, {STR_LeaderName}. Lamentamos informar que somos forçados a registrar formalmente um agravamento em nossos laços diplomáticos. Isso é consequência de suas ações e da falta de justificativa.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Nós o ajudaremos em sua causa e, juntos, prosperaremos.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs. This is followed by the influence icon.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">WITHDRAW_STACK_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Peço gentilmente que se retirem deste local. {INT_Cost}[influence/]</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">STACK_QUEST_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Há algo em que possamos atendê-lo?</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_WAR_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Nossa benevolência tem seus limites.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">The Prefect is male.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ATTACK_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Solicitamos gentilmente uma audiência com seu Prefeito.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_PEACEKEEPER</Data></Cell>
+    <Cell><Data ss:Type="String">Muito bem, estamos ouvindo.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">CALL_TO_WAR_PEACEKEEPER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Permita-nos enfrentar nossos inimigos com forças combinadas.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">TRADE_PEACEKEEPER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Que nossas facções negociem.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Eu o ajudarei. Não há desafio que meus exércitos não possam superar!</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs. This is followed by the influence icon.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">WITHDRAW_STACK_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">É melhor se retirarem agora, a menos que queiram descobrir! {INT_Cost}[influence/]</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">STACK_QUEST_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Meu povo está em busca de um desafio!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_WAR_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Os Paragon tremerão diante de nosso poder!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">The Prefect is male.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ATTACK_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">Leve-nos até seu Prefeito!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_WARMONGER</Data></Cell>
+    <Cell><Data ss:Type="String">É melhor que isso não seja fácil!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">CALL_TO_WAR_WARMONGER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Ninguém resiste ao poder de nossas forças combinadas!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">TRADE_WARMONGER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Vamos negociar.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ASSIGN_FACTION_ALLEGIANCE_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Saudações, Paragon. Nossa intenção é oferecer nossa ajuda.</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">{INT_Cost} is replaced by an integer that gives the Influence - a resource in the game - that this actions costs. This is followed by the influence icon.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">WITHDRAW_STACK_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Precisamos desta localização, por favor desocupe. {INT_Cost}[influence/]</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">STACK_QUEST_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Há algum problema no qual possamos ajudar?</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_WAR_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Sua busca pela perfeição humana termina agora.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">The Prefect is male.</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">ATTACK_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Desejamos falar com seu Prefeito.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell>
+    <Cell><Data ss:Type="String">FIRST_MEET_RESPONSE_TAKE_QUEST_NEUTRAL</Data></Cell>
+    <Cell><Data ss:Type="String">Esclareça-nos sobre sua vontade.</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">CALL_TO_WAR_NEUTRAL</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">O poderoso Paragon se juntaria a nós em nossos esforços de guerra?</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">EMPIRE_BUTTON</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">TRADE_NEUTRAL</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Vamos discutir comércio.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30"/>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RIVALRY_WARNING_PARAGON</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Suas ações não passaram despercebidas recentemente, e parece que você tem ajudado nossos rivais. Espero que isso não continue no futuro.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">PARAGON_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">FACTION_DECLARE_WAR</Data></Cell>
+    <Cell><Data ss:Type="String">Chegou a hora de acabar com essa ralé de uma vez por todas. Demos a você todas as oportunidades para pavimentar o caminho de boas relações, {STR_LeaderName}, mas agora vemos que nossos objetivos nunca estiveram alinhados. Seu povo não verá outro amanhecer, e suas cidades serão destruídas em nome do Prefeito. Quando nos encontrarmos novamente, será no campo de batalha.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PARAGON_MESSAGE</Data></Cell>
+    <Cell><Data ss:Type="String">RELATION_RESET</Data></Cell>
+    <Cell><Data ss:Type="String">Parece que nossas relações mudaram recentemente. O Paragon esperaria que, no futuro, possamos pavimentar o caminho para uma diplomacia e civilidade melhores. Vamos limpar o passado e trabalhar pela prosperidade no futuro.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>15</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>24</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

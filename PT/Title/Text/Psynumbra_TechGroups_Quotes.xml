@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>KyleB</LastAuthor>
+  <LastSaved>2019-02-28T14:12:01Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12197</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="39" x:FullColumns="1" x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="51.857142857142854" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="178.71428571428572"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="206.14285714285714"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="238.71428571428572"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="149.14285714285717"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="246"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="182.14285714285714"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="238.71428571428572"/>
+   <Column ss:Index="12" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="49.714285714285715"/>
+   <Row ss:AutoFitHeight="0" ss:Height="120">
+    <Cell><Data ss:Type="String">PSYNUMBRA_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PSYNUMBRA</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">{XML_PSYNUMBRA_TECHGROUPS@PSYNUMBRA@DESC}[br/][br/]{XML_PSYNUMBRA_TECHGROUPS@PSYNUMBRA@FEATURES}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">No need to translate. This inserts the PSYNUMBRA_TECHGROUPS@PSYNUMBRA@DESC and PSYNUMBRA_TECHGROUPS@PSYNUMBRA@FEATURES texts with some white space.</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PSYNUMBRA</Data></Cell>
+    <Cell><Data ss:Type="String">DESC</Data></Cell>
+    <Cell><Data ss:Type="String">Os [hyperlink,000003AC0000032B]Psynumbra[/hyperlink] empregam poderes psiónicos sombrios para rasgar a realidade e invocar entidades traiçoeiras do Abismo.</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Edit: abyss -&gt; Abyss</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">PSYNUMBRA</Data></Cell>
+    <Cell><Data ss:Type="String">FEATURES</Data></Cell>
+    <Cell><Data ss:Type="String">[bulletlist][bullet][sand]Unidade Inicial:[/sand] [hyperlink,unitlookup0000038700001FC7]Iniciado[/hyperlink][/bullet][bullet]Invoca seres etéreos[/bullet][bullet]Quebra a mente dos inimigos[/bullet][bullet]Fratura a realidade para aterrorizar a população[/bullet][bullet]Usa o canal de dano Psiónico[/bullet][/bulletlist]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_1_TACTICAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Escuridão Amedrontadora</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_1_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Abra suas feridas. Fixe seus pedidos em vingança. Chame a luz de escuridão. Cegue seus olhos com injustiça. Eclipsem o sol; neguem-lhe propósito. Sufocai suas esperanças com as cinzas do desespero. Eles não acreditam na luz do dia. A escuridão é seu refúgio.”[br/]– Givori da Casa Ardelli</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Syndicate Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_FORCES_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Iniciação na Agonia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_FORCES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“É hora de cobrar uma taxa de entrada neste carnaval sombrio. Venham. Junte-se às nossas fileiras. Sintam o frisson. Venham. O terror pode ser divertido. Montem nesta atração até as profundezas do Abismo.”[br/]– Direngue Goth, O Louco dos Perdidos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade: Iniciado</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_FORCES_SUBSKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento: Separador de Almas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_STRATEGIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sombras Manifestas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_2_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Fechem os olhos. A escuridão os cerca. Não toquem em nada. Flutuem na obscuridade. Virem-se. Estendam a mão. Virem-se novamente. Há uma taça. Bebam o icor. Esqueçam seus olhos. Saboreiem estar Perdidos. Sua alma está pronta.”[br/]– Direngue Goth, O Louco dos Perdidos</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Syndicate Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_STRATEGIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Sussurros e Visões</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_3_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Olhem para a escuridão e silenciem. Estão vendo? Não há luz, mas percebo movimento. Algo espreita nas sombras. Um medo delicioso me preenche. Não desejo nada mais do que mergulhar nas profundezas negras.”[br/]– Jonathan Crane, Juiz das Sombras</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_TACTICAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dons Amaldiçoados</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Desviem os olhos diante do meu Ícone Sombrio. Ele está cravado em sua sanidade. Sua vergonha suculenta os prende a definhar em servidão aos meus desejos. Por mais que tentem esconder seus pecados secretos, eles os marcam como minha posse.”[br/]– Givori da Casa Ardelli</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Syndicate Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_STRATEGIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Lamento Sombrio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Um réquiem fúnebre é a única recompensa da vida. No momento em que o homem buscou agir segundo sua própria vontade, o arrependimento nasceu. A vida é sofrimento. Nascer é receber uma ferida mortal. Agir é se arrepender.”[br/]– Dama Narcissa Luster, Hierofante da Miséria</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Syndicate Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_FORCES_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Oblívio Iminente</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_FORCES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Todos os demônios temem o fim. Eles conhecem seus pecados. Sabem o que os espera caso haja um ajuste de contas. Então, eles vêm até mim. Eu lhes ofereço o nada. Eles entregam suas almas. Meu Arauto do Oblívio as devora avidamente.”[br/]– Prixie Vagand, Sumo Sacerdotisa do Altar de Sangue</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Syndicate Female</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade: Arauto do Oblívio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_4_FORCES_SUBSKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento: Lança Etérea</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_TACTICAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Símbolo da Aniquilação</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Vejo a fome sem rosto, o apetite vazio e sem fim que nunca será saciado. Não resta nada neste semblante. Inflija feridas em mim, e veja que é você quem sangra. Quebre meu braço e eu quebrarei sua mente.”[br/]– Darkin &amp; Dolor, Amantes da Dor</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Syndicate Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_STRATEGIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Manipulação Vil</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_5_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Manipule as massas. Roube sua esperança. Mostre-lhes medo após medo. Há mais que miséria suficiente no universo. Destaque-a. A miséria ama a miséria. Faça-os desesperar. Alimente-os com um bombardeio constante de atrocidades, injustiça e terror.”[br/]– Lennick Tenebbres, o Imperador Negro</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_TACTICAL_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Dedicação Implacável</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_TACTICAL_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Matei seus inimigos. Destruí as testemunhas ociosas. Assassinei os pacificadores. Massacrei seus amigos. Alguma ideia de quem morre em seguida?”[br/]– Leeriss Charn, O Demônio no Portão da Morte</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Syndicate Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_FORCES_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Explorar o Sofrimento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_FORCES_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Apenas uns poucos escolhidos conseguem superar sua fraqueza inata e aprender a extrair prazer do sofrimento alheio. Está na hora de infligir dor ao mundo.”[br/]– Malictor Nom Allurg, Mago da Malícia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Syndicate Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_FORCES_SUBSKILL_1</Data></Cell>
+    <Cell><Data ss:Type="String">Unidade: Malictor</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_FORCES_SUBSKILL_2</Data></Cell>
+    <Cell><Data ss:Type="String">Equipamento: Ônix do Sofrimento</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_STRATEGIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Tormento Comunal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_6_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Os sussurros da Ceifadora gritam em minha mente. A Morte me mostra um presságio. Vejo uma estrela carmesim sangrando no céu da meia-noite. Sua luz forma listras em minhas costas, expondo as fraquezas em todas as almas vivas.”[br/]– Malicient Graves, O Enforcado</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_7_STRATEGIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Refrão do Oblívio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_7_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“O destino do universo é a morte. Por que devemos esperar milênios, quando nossa tecnologia pode trazer o fim do mundo agora? Venha, faça a jornada definitiva. Vamos descobrir o que se esconde logo além de suas pálpebras.”[br/]– Lennick Tenebbres, Imperador do Obelisco do Ódio</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Vanguard Male</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_8_STRATEGIC_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Mortalha Abissal</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">TECH_TREE</Data></Cell>
+    <Cell><Data ss:Type="String">SKILLGROUP_8_STRATEGIC_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">“Uso uma mortalha rasgada de segredos. Sussurro fofocas para a Corte das Cartas. Ela atrai demônios da fenda enegrecida para meus sonhos. Cubro meu reino de pesadelo com desespero, até que todos os olhos sejam apenas orbes pálidos de sal insípido.”[br/]– Ariana Scylla, Imperatriz da Aniquilação</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">V.O.: Syndicate Female</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>130</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
