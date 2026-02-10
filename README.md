@@ -14,6 +14,8 @@ Para instalar a tradução, você só precisa ter o jogo Age of Wonders: Planetf
 
 ## Como Instalar a Tradução Pronta
 
+**Importante:** Para usar a tradução, você NÃO pode usar o launcher da Paradox Interactive, pois ele sobrescreve a linguagem e força o jogo a ficar em inglês. Em vez disso, abra o jogo diretamente pelo executável.
+
 ### Passo 1: Baixar os Arquivos
 
 1. Abra seu navegador web (como Chrome, Firefox ou Edge).
@@ -67,10 +69,12 @@ Agora você precisa colocar a pasta "PT" na pasta de idiomas do jogo. A localiza
 
 ### Passo 4: Ativar a Tradução no Jogo
 
-1. Abra o jogo Age of Wonders: Planetfall.
+**Importante:** Para usar a tradução, você NÃO pode usar o launcher da Paradox Interactive, pois ele sobrescreve a linguagem e força o jogo a ficar em inglês. Em vez disso, abra o jogo diretamente pelo executável.
+
+1. Abra o jogo Age of Wonders: Planetfall **diretamente pelo executável**. Dentro da pasta do jogo, procure por um atalho/inicializador chamado "AowPF.exe" e abra o jogo por ele.
 2. Vá para as configurações de idioma (geralmente em Options > Language).
 3. Selecione "Portuguese (Brazil)" ou "PT" na lista de idiomas disponíveis.
-4. Reinicie o jogo se necessário.
+4. **Reinicie o jogo** para que a mudança de idioma seja aplicada corretamente.
 
 Pronto! Agora você pode jogar em português brasileiro.
 
