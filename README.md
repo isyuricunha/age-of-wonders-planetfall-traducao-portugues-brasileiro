@@ -6,6 +6,11 @@
 
 Este repositório contém uma tradução completa para português brasileiro do jogo Age of Wonders: Planetfall. Se você quer apenas instalar e jogar com a tradução pronta, siga as instruções abaixo.
 
+## Onde Encontrar a Tradução
+
+- **Nexus Mods:** <https://www.nexusmods.com/ageofwondersplanetfall/mods/15> - Versão mais recente e testada, com instruções de instalação detalhadas
+- **GitHub:** <https://github.com/isyuricunha/age-of-wonders-planetfall-traducao-portugues-brasileiro> - Código-fonte da tradução, para quem quer contribuir ou acompanhar o desenvolvimento
+
 Este guia é feito para novatos em computadores, então vamos passo a passo, devagar e explicando tudo direitinho.
 
 ## Requisitos do Sistema
