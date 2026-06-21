@@ -2,8 +2,7 @@
 
 ## Introdução
 
-**Participe da comunidade no Discord:** <https://discord.com/invite/aYbWBr4>
-
+> **Participe da comunidade no Discord:** <https://discord.gg/uFEwSMwUYb>
 Este repositório contém uma tradução completa para português brasileiro do jogo Age of Wonders: Planetfall. Se você quer apenas instalar e jogar com a tradução pronta, siga as instruções abaixo.
 
 ## Onde Encontrar a Tradução
